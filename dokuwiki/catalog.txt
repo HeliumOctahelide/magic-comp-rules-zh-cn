@@ -2,7 +2,7 @@
 这是目录页的主要部分。将这部分内容和catalog_instruction.txt组合成完整的目录页。
 </nowiki>
 ===== 目录 =====
-//此规则于2024年6月7日起生效。//
+//此规则于2024年7月30日起生效。//
 
 [[CR:Intro|前言]]
 
@@ -48,7 +48,7 @@
   * [[CR:2#生命修正_life_modifier|212. 生命修正 Life Modifier]]
   * [[CR:2#文字栏下方信息_information_below_the_text_box|213. 文字栏下方信息 Information Below the Text Box]]
 
-[[CR:3|第三章 - 牌类别 Card Types]]
+[[CR:3|第三章 - 牌张类别 Card Types]]
   * [[CR:3#总则_general|300. 总则 General]]
   * [[CR:3#神器_artifacts|301. 神器 Artifacts]]
   * [[CR:3#生物_creatures|302. 生物 Creatures]]

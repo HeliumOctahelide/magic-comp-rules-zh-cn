@@ -10,17 +10,9 @@ See Active Player, Nonactive Player Order.
 指挥官玩法的旧名称。参见规则[903](./9#cr903)，“指挥官”。   
 An older name for the Commander casual variant. See rule 903, “Commander.”
 
-### <span id='Friends Forever'>Friends Forever</span> / <span id='Friends Forever'>Friends Forever</span>
-拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有Friends forever异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[702.124](./7#cr702-124)，“拍档”，及规则[903](./9#cr903)，“指挥官”。   
-A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”
-
 ### <span id='Oracle'>Oracle</span> / <span id='Oracle'>Oracle</span>
 牌张参考文献，包括所有比赛中合法使用牌的最新叙述（英文）。牌的Oracle叙述可以在Gatherer牌张数据库中找到：[http://Gatherer.Wizards.com]。参见规则[108.1](./1#cr108-1)。   
 The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card’s Oracle text can be found using the Gatherer card database at Gatherer.Wizards.com. See rule 108.1.
-
-### <span id='Space Sculptor'>Space Sculptor</span> / <span id='Space Sculptor'>Space Sculptor</span>
-一个关键字异能，将战场上的生物分为不同星区。参见规则[702.158](./7#cr702-158)，“Space Sculptor”。   
-A keyword ability that splits creatures on the battlefield into sectors. See rule 702.158, “Space Sculptor.”
 
 ### <span id='X'>X</span> / <span id='X'>X</span>
 一个需要被确定数字的占位符。参见规则[107.3](./1#cr107-3)。   
@@ -164,7 +156,7 @@ A keyword ability that can return a creature from the graveyard to the battlefie
 A subsection of a phase. See section 5, “Turn Structure.”
 
 ### <span id='部族'>部族</span> / <span id='Tribal (Obsolete)'>Tribal (Obsolete)</span>
-一个已废止的牌类别，已被重新命名。参见规则[308](./3#cr308)，“亲缘”。   
+一个已废止的牌张类别，已被重新命名。参见规则[308](./3#cr308)，“亲缘”。   
 An obsolete card type that has been renamed. See rule 308, “Kindreds.”
 
 ## C
@@ -193,7 +185,7 @@ A keyword ability that exiles cards. A card exiled this way “haunts” a creat
 An obsolete term for the battlefield. Cards that were printed with text that contain the phrases “in play,” “from play,” “into play,” or the like are referring to the battlefield and have received errata in the Oracle card reference. See Battlefield.
 
 ### <span id='超类别'>超类别</span> / <span id='Supertype'>Supertype</span>
-一个特征，出现在牌类别栏的牌类别之前。大多数牌没有超类别。参见规则[205.4](./2#cr205-4)，“超类别”。   
+一个特征，出现在牌类别栏的牌张类别之前。大多数牌没有超类别。参见规则[205.4](./2#cr205-4)，“超类别”。   
 A characteristic that appears before the card type on a card’s type line. Most cards don’t have a supertype. See rule 205.4, “Supertypes.”
 
 ### <span id='潮涌'>潮涌</span> / <span id='Surge'>Surge</span>
@@ -231,6 +223,10 @@ An obsolete term that appeared on the type line of artifacts without activated a
 ### <span id='持续性效应'>持续性效应</span> / <span id='Continuous Effect'>Continuous Effect</span>
 影响物件特征、物件操控权、或影响牌手或游戏规则的效应，具有固定时限或一直有效。参见规则[611](./6#cr611)，“持续性效应”。   
 An effect that modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period. See rule 611, “Continuous Effects.”
+
+### <span id='重生'>重生</span> / <span id='Regenerate'>Regenerate</span>
+将一个永久物的消灭用另一系列事件进行替代。参见规则[701.15](./7#cr701-15)，“重生”。   
+To replace a permanent’s destruction with an alternate sequence of events. See rule 701.15, “Regenerate.”
 
 ### <span id='重新开始游戏'>重新开始游戏</span> / <span id='Restart the Game'>Restart the Game</span>
 当前游戏马上结束并且重新开始。参见规则[104](./1#cr104)，“结束游戏”。   
@@ -277,7 +273,7 @@ A word used to indicate a certain style of cost. See rule 118.12a.
 An enchantment subtype. Sagas have a number of chapter abilities that take effect over a number of turns to tell a story. See rule 714, “Saga Cards.”
 
 ### <span id='传奇'>传奇</span> / <span id='Legendary'>Legendary</span>
-一个超类别，一般情况下与永久物有关。参见规则[205.4](./2#cr205-4)，“超类别”。另参见传奇规则。   
+一种超类别，一般情况下与永久物有关。参见规则[205.4](./2#cr205-4)，“超类别”。另参见传奇规则。   
 A supertype that’s normally relevant on permanents. See rule 205.4, “Supertypes.” See also Legend Rule.
 
 ### <span id='传奇规则'>传奇规则</span> / <span id='Legend Rule'>Legend Rule</span>
@@ -366,15 +362,15 @@ A numerical designation a permanent may have. A Class enchantment’s level dete
 A symbol that represents a keyword ability indicating abilities, power, and toughness a leveler card may have. See rule 107.8 and rule 711, “Leveler Cards.”
 
 ### <span id='地'>地</span> / <span id='Land'>Land</span>
-一个牌类别。地是永久物。参见规则[305](./3#cr305)，“地”。   
+一种牌张类别。地是永久物。参见规则[305](./3#cr305)，“地”。   
 A card type. A land is a permanent. See rule 305, “Lands.”
 
 ### <span id='地城'>地城</span> / <span id='Dungeon'>Dungeon</span>
-一种在非传统万智牌牌张上出现的牌类别。地城牌不是永久物。参见规则[309](./3#cr309)，“地城”。   
+一种在非传统万智牌牌张上出现的牌张类别。地城牌不是永久物。参见规则[309](./3#cr309)，“地城”。   
 A card type found on nontraditional Magic cards. A dungeon card is not a permanent. See rule 309, “Dungeons.”
 
 ### <span id='地类别'>地类别</span> / <span id='Land Type'>Land Type</span>
-一个副类别，对应地牌的类别。参见规则[305](./3#cr305)，“地”。地类别的列表参见规则[205.3i](./2#cr205-3i)。   
+一种副类别，对应地牌张类别。参见规则[305](./3#cr305)，“地”。地类别的列表参见规则[205.3i](./2#cr205-3i)。   
 A subtype that’s correlated to the land card type. See rule 305, “Lands.” See rule 205.3i for the list of land types.
 
 ### <span id='抵受'>抵受</span> / <span id='Absorb'>Absorb</span>
@@ -474,7 +470,7 @@ A turn created by an effect of a spell or ability. See rule 500.7. For rules abo
 A keyword ability that lets a player return a card from their graveyard to their hand. See rule 702.52, “Dredge.”
 
 ### <span id='法术'>法术</span> / <span id='Sorcery'>Sorcery</span>
-一个牌类别。法术不是永久物。参见规则[307](./3#cr307)，“法术”。   
+一种牌张类别。法术不是永久物。参见规则[307](./3#cr307)，“法术”。   
 A card type. A sorcery is not a permanent. See rule 307, “Sorceries.”
 
 ### <span id='法术力'>法术力</span> / <span id='Mana'>Mana</span>
@@ -502,7 +498,7 @@ An icon that represents mana or a mana cost. See rule 107.4.
 An activated or triggered ability that could create mana and doesn’t use the stack. See rule 605, “Mana Abilities.”
 
 ### <span id='法术力源（已废止）'>法术力源（已废止）</span> / <span id='Mana Source (Obsolete)'>Mana Source (Obsolete)</span>
-一种已废止的牌类别。所有印制为此类别的牌现在都是瞬间。所有印制为叙述牌手可以“视同法术力源一般使用”的异能现在都是法术力异能。与此相关的牌在Oracle牌张参考文献中已经获得勘误。   
+一种已废止的牌张类别。所有印制为此类别的牌现在都是瞬间。所有印制为叙述牌手可以“视同法术力源一般使用”的异能现在都是法术力异能。与此相关的牌在Oracle牌张参考文献中已经获得勘误。   
 An obsolete card type. All cards printed with this card type are now instants. All abilities that, as printed, said a player could “play as a mana source” are now mana abilities. All relevant cards have been given errata in the Oracle card reference.
 
 ### <span id='法术力值'>法术力值</span> / <span id='Mana Value'>Mana Value</span>
@@ -517,12 +513,16 @@ Older versions of the rules stated that unspent mana caused a player to lose lif
 一个关键字异能，使牌手从其坟墓场放逐一张生物牌，然后每有一位对手，便派出一个该牌的复制品衍生物来攻击该对手。参见规则[702.141](./7#cr702-141)，“返场”。   
 A keyword ability that lets a player exile a creature card from their graveyard to, for each opponent, create a token that’s a copy of that card to attack that opponent. See rule 702.141, “Encore”
 
-### <span id='反击/指示物（译者注：在英文中这两个词是相同的。）'>反击/指示物（译者注：在英文中这两个词是相同的。）</span> / <span id='Counter'>Counter</span>
+### <span id='反击/指示物（译注：在英文中这两个词是相同的。）'>反击/指示物（译注：在英文中这两个词是相同的。）</span> / <span id='Counter'>Counter</span>
 1. 取消一个咒语或异能，让它不能结算且它的效应都不发生。参见规则[701.5](./7#cr701-5)，“反击”。   
 1. To cancel a spell or ability so it doesn’t resolve and none of its effects occur. See rule 701.5, “Counter.”
 
 2. 一个放置在物件或牌手上的标示物，影响其特征或与规则或异能互动。参见规则[122](./1#cr122)，“指示物”。   
 2. A marker placed on an object or player that modifies its characteristics or interacts with a rule or ability. See rule 122, “Counters.”
+
+### <span id='繁生'>繁生</span> / <span id='Offspring'>Offspring</span>
+一个关键字异能，允许你施放生物咒语时支付额外费用，在该永久物进战场时派出为其复制品的1/1衍生物。参见规则[702.175](./7#cr702-175)，“繁生”。   
+A keyword ability that allows you to pay an additional cost as you cast a creature spell to create a 1/1 token that’s a copy of that permanent when it enters the battlefield. See rule 702.175, “Offspring.”
 
 ### <span id='返响'>返响</span> / <span id='Echo'>Echo</span>
 一个关键字异能，要求支付一个费用让永久物保留在战场上。参见规则[702.30](./7#cr702-30)，“返响”。   
@@ -626,7 +626,7 @@ A keyword ability that restricts how a creature may be blocked. See rule 702.9, 
 An action or payment necessary to take another action or to stop another action from taking place. See rule 118, “Costs.”
 
 ### <span id='坟场风暴'>坟场风暴</span> / <span id='Gravestorm'>Gravestorm</span>
-一个关键字异能，创造咒语的复制。参见规则[702.69](./7#cr702-69)，“坟场风暴”。   
+一个关键字异能，创造咒语的复制品。参见规则[702.69](./7#cr702-69)，“坟场风暴”。   
 A keyword ability that creates copies of a spell. See rule 702.69, “Gravestorm.”
 
 ### <span id='坟墓场'>坟墓场</span> / <span id='Graveyard'>Graveyard</span>
@@ -644,7 +644,7 @@ See rule 404, “Graveyard.”
 To determine how an attacking or blocking creature will deal its combat damage. See rule 510, “Combat Damage Step.”
 
 ### <span id='风暴'>风暴</span> / <span id='Storm'>Storm</span>
-一个关键字异能，创造咒语的复制。参见规则[702.40](./7#cr702-40)，“风暴”。   
+一个关键字异能，创造咒语的复制品。参见规则[702.40](./7#cr702-40)，“风暴”。   
 A keyword ability that creates copies of a spell. See rule 702.40, “Storm.”
 
 ### <span id='疯魔'>疯魔</span> / <span id='Madness'>Madness</span>
@@ -664,7 +664,7 @@ A smaller name line with the Oracle reference name of a card which has an altern
 A keyword ability that lets a player return a card from their graveyard to their hand. See rule 702.59, “Recover.”
 
 ### <span id='副类别'>副类别</span> / <span id='Subtype'>Subtype</span>
-一个特征，在类别栏中牌类别和长横线（中文版使用“～”）后面。参见规则[205.3](./2#cr205-3)，“副类别”。   
+一个特征，在类别栏中牌张类别和长横线（中文版使用“～”）后面。参见规则[205.3](./2#cr205-3)，“副类别”。   
 A characteristic that appears after the card type and a long dash on a card’s type line. See rule 205.3, “Subtypes.”
 
 ### <span id='赋码'>赋码</span> / <span id='Encoded'>Encoded</span>
@@ -672,7 +672,7 @@ A characteristic that appears after the card type and a long dash on a card’s 
 A term that describes the relationship between a permanent and a card exiled by a cipher ability. See rule 702.99, “Cipher.”
 
 ### <span id='覆诵'>覆诵</span> / <span id='Replicate'>Replicate</span>
-一个关键字异能，创造咒语的复制。参见规则[702.56](./7#cr702-56)，“覆诵”。   
+一个关键字异能，创造咒语的复制品。参见规则[702.56](./7#cr702-56)，“覆诵”。   
 A keyword ability that creates copies of a spell. See rule 702.56, “Replicate.”
 
 ### <span id='抚育'>抚育</span> / <span id='Incubate'>Incubate</span>
@@ -683,11 +683,11 @@ A keyword action that creates an Incubator token with a specified number of +1/+
 抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此神器。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[111.10](./1#cr111-10)。   
 An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this artifact.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.
 
-### <span id='复制'>复制</span> / <span id='Copy'>Copy</span>
+### <span id='复制/复制品'>复制/复制品</span> / <span id='Copy'>Copy</span>
 1. 创造一个新的物件，其可复制特征值设为与另一个物件相同。   
 1. To create a new object whose copiable values have been set to those of another object.
 
-2. 一个物件的可复制特征值设为与另一个物件相同。   
+2. 一个可复制特征值被设为与另一个物件相同的物件。   
 2. An object whose copiable values have been set to those of another object.
 
 参见规则[707](./7#cr707)，“复制物件”。   
@@ -699,7 +699,7 @@ A game supplement with a Magic card back that can be used to represent a double-
 
 ## G
 ### <span id='改变类别的效应'>改变类别的效应</span> / <span id='Type-Changing Effect'>Type-Changing Effect</span>
-一个改变物件的牌类别、副类别、和/或超类别的效应。参见规则[205.1a-b](./2#cr205-1a)、[305.7](./3#cr305-7)、以及[613.1d](./6#cr613-1d)。   
+一个改变物件的牌张类别、副类别、和/或超类别的效应。参见规则[205.1a-b](./2#cr205-1a)、[305.7](./3#cr305-7)、以及[613.1d](./6#cr613-1d)。   
 An effect that changes an object’s card type, subtype, and/or supertype. See rules 205.1a–b, 305.7, and 613.1d.
 
 ### <span id='改变目标'>改变目标</span> / <span id='Change a Target'>Change a Target</span>
@@ -723,7 +723,7 @@ Effects that use the word “instead” are replacement effects. The word “ins
 A keyword ability that affects how an object deals damage to a creature. See rule 702.80, “Wither.”
 
 ### <span id='干涉（已废止）'>干涉（已废止）</span> / <span id='Interrupt (Obsolete)'>Interrupt (Obsolete)</span>
-一个已废止的牌类别。所有印有此类别的牌现在都是瞬间。所有印有牌手可以“视为干涉般使用”的异能现在都可以和任何其他起动式异能一样被起动（除非是法术力异能，它们改为遵循对应规则）。所有相关的牌在Oracle牌张参考文献中得到了勘误。   
+一个已废止的牌张类别。所有印有此类别的牌现在都是瞬间。所有印有牌手可以“视为干涉般使用”的异能现在都可以和任何其他起动式异能一样被起动（除非是法术力异能，它们改为遵循对应规则）。所有相关的牌在Oracle牌张参考文献中得到了勘误。   
 An obsolete card type. All cards printed with this card type are now instants. All abilities that, as printed, said a player could “play as an interrupt” can now be activated like any other activated abilities (unless they’re mana abilities, in which case they follow those rules instead). All relevant cards have been given errata in the Oracle card reference.
 
 ### <span id='隔位分队玩法'>隔位分队玩法</span> / <span id='Alternating Teams Variant'>Alternating Teams Variant</span>
@@ -807,7 +807,7 @@ A keyword ability that allows you to pay an alternative cost to remove some of a
 An obsolete term for a non-Aura enchantment. Cards printed with this text have received errata in the Oracle card reference.
 
 ### <span id='诡局'>诡局</span> / <span id='Conspiracy'>Conspiracy</span>
-一种在限制赛，例如诡局轮抽中使用的牌类别。诡局牌不是永久物。参见规则[315](./3#cr315)，“诡局”。   
+一种在限制赛，例如诡局轮抽中使用的牌张类别。诡局牌不是永久物。参见规则[315](./3#cr315)，“诡局”。   
 A card type used in Limited formats such as Conspiracy Draft. A conspiracy card is not a permanent. See rule 315, “Conspiracies.”
 
 ### <span id='诡局轮抽'>诡局轮抽</span> / <span id='Conspiracy Draft'>Conspiracy Draft</span>
@@ -879,6 +879,10 @@ Craft is an activated ability that allows a player to exile cards from their gra
 一个关键字异能，使得牌手可以牺牲一个生物来减费施放咒语。参见规则[702.119](./7#cr702-119)，“化生”。   
 A keyword ability that lets a player cast a spell for less by sacrificing a creature. See rule 702.119, “Emerge.”
 
+### <span id='花销'>花销</span> / <span id='Expend'>Expend</span>
+一个出现在某些异能中的用词，在乎牌手本回合中用于施放咒语的法术力数量。参见规则[700.14](./7#cr700-14)。   
+A word found on some abilities that care how much mana a player has spent to cast spells this turn. See rule 700.14.
+
 ### <span id='化形'>化形</span> / <span id='Changeling'>Changeling</span>
 一个特征定义异能，让具有它的物件得到所有生物类别。参见规则[702.73](./7#cr702-73)，“化形”。   
 A characteristic-defining ability that grants the object it’s on every creature type. See rule 702.73, “Changeling.”
@@ -945,7 +949,7 @@ A keyword ability that creates a 0/0 black Phyrexian Germ creature token and the
 
 ## J
 ### <span id='基本'>基本</span> / <span id='Basic'>Basic</span>
-一个超类别，一般情况下与地有关。任何具有此超类别的地是基本地。参见规则[205.4](./2#cr205-4)，“超类别”。   
+一种超类别，一般情况下与地有关。任何具有此超类别的地是基本地。参见规则[205.4](./2#cr205-4)，“超类别”。   
 A supertype that’s normally relevant on lands. Any land with this supertype is a basic land. See rule 205.4, “Supertypes.”
 
 ### <span id='基本地类别'>基本地类别</span> / <span id='Basic Land Type'>Basic Land Type</span>
@@ -1012,11 +1016,11 @@ A keyword ability that defines what an Aura spell can target and what an Aura pe
 Banding is a keyword ability that modifies the rules for declaring attackers and assigning combat damage. “Bands with other” is a specialized version of the ability. See rule 702.22, “Banding.”
 
 ### <span id='结界'>结界</span> / <span id='Enchantment'>Enchantment</span>
-一个牌类别。结界是永久物。参见规则[303](./3#cr303)，“结界”。另参见灵气。   
+一种牌张类别。结界是永久物。参见规则[303](./3#cr303)，“结界”。另参见灵气。   
 A card type. An enchantment is a permanent. See rule 303, “Enchantments.” See also Aura.
 
 ### <span id='结界类别'>结界类别</span> / <span id='Enchantment Type'>Enchantment Type</span>
-与结界牌类别对应的副类别。参见规则[303](./3#cr303)，“结界”。参见规则[205.3h](./2#cr205-3h)的结界类别列表。   
+与结界牌张类别对应的副类别。参见规则[303](./3#cr303)，“结界”。参见规则[205.3h](./2#cr205-3h)的结界类别列表。   
 A subtype that’s correlated to the enchantment card type. See rule 303, “Enchantments.” See rule 205.3h for the list of enchantment types.
 
 ### <span id='结聚永久物'>结聚永久物</span> / <span id='Merged Permanent'>Merged Permanent</span>
@@ -1047,6 +1051,10 @@ When the spell or ability on top of the stack “resolves,” its instructions a
 一个关键字异能，让一个永久物进入战场带有+1/+1指示物，以及这些指示物可以移动到其他生物上。参见规则[702.58](./7#cr702-58)，“接殖”。   
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other creatures. See rule 702.58, “Graft.”
 
+### <span id='进场'>进场</span> / <span id='Enter'>Enter</span>
+在规则叙述中指进入战场。另参见进入战场。（译注：中文版中“进场”一词曾用于对译“come into play”这一废止用词，现重新用于对译“enter”。）   
+In rules text, to enter the battlefield. See “Enters the Battlefield.”
+
 ### <span id='进度标记'>进度标记</span> / <span id='Venture Marker'>Venture Marker</span>
 一种标记，用来记录牌手当前在地城牌的哪个房间中。参见规则[309](./3#cr309)，“地城”。   
 A marker used to track which room of a dungeon card a player is currently in. See rule 309, “Dungeons.”
@@ -1056,8 +1064,8 @@ A marker used to track which room of a dungeon card a player is currently in. Se
 A keyword ability that lets you put a +1/+1 counter on a creature when a larger creature enters the battlefield under your control. See rule 702.100, “Evolve.”
 
 ### <span id='进入战场'>进入战场</span> / <span id='Enters the Battlefield'>Enters the Battlefield</span>
-一个非衍生物永久物当从其他区域转移到战场时“进入战场”。一个永久物当被创造时“进入战场”。参见规则[403.3](./4#cr403-3)，[603.6a](./6#cr603-6a)，[603.6d](./6#cr603-6d)以及[614.12](./6#cr614-12)。   
-A nontoken permanent “enters the battlefield” when it’s moved onto the battlefield from another zone. A token “enters the battlefield” when it’s created. See rules 403.3, 603.6a, 603.6d, and 614.12.
+一个非衍生物永久物当从其他区域转移到战场时进入战场。一个衍生物于其被派出时进入战场。参见规则[403.3](./4#cr403-3)，[603.6a](./6#cr603-6a)，[603.6d](./6#cr603-6d)以及[614.12](./6#cr614-12)。此用词在大多数规则叙述中被简写为“进场”。   
+A nontoken permanent enters the battlefield when it’s moved onto the battlefield from another zone. A token enters the battlefield as it’s created. See rules 403.3, 603.6a, 603.6d, and 614.12. This phrase has been shortened to simply “enters” in rules text on cards in most contexts.
 
 ### <span id='金属生命体'>金属生命体</span> / <span id='Living Metal'>Living Metal</span>
 一个见于载具上的关键字异能，能够令其在你的回合中变为生物。参见规则[702.161](./7#cr702-161)，“金属生命体”。   
@@ -1072,7 +1080,7 @@ A creature that has either been declared as part of a legal attack during the co
 A creature that has either been declared as part of a legal block during the combat phase (once all costs to block, if any, have been paid), or a creature that has been put onto the battlefield blocking. It remains a blocking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
 
 ### <span id='景点'>景点</span> / <span id='Attraction'>Attraction</span>
-一个神器类别，只在Unfinity系列的非传统万智牌上出现。参见规则[717](./7#cr717)，“景点牌”、规则[701.48](./7#cr701-48)，“打开景点”，以及规则[701.49](./7#cr701-49)，“掷骰造访景点”。   
+一种神器类别，只在Unfinity系列的非传统万智牌上出现。参见规则[717](./7#cr717)，“景点牌”、规则[701.48](./7#cr701-48)，“打开景点”，以及规则[701.49](./7#cr701-49)，“掷骰造访景点”。   
 An artifact type seen only on nontraditional Magic cards in the Unfinity expansion. See rule 717, “Attraction Cards,” rule 701.48, “Open an Attraction,” and rule 701.49, “Roll to Visit Your Attractions.”
 
 ### <span id='景点套牌'>景点套牌</span> / <span id='Attraction Deck'>Attraction Deck</span>
@@ -1154,7 +1162,7 @@ A keyword ability that can make a creature better in combat. See rule 702.68, �
 A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 725, “Rad Counters.”
 
 ### <span id='类别'>类别</span> / <span id='Type'>Type</span>
-1. 一个物件的牌类别，或更笼统的，它的牌类别、超类别、和/或副类别。参见规则[205](./2#cr205)，“类别栏”、以及[第3章](3)，“牌类别”。   
+1. 一个物件的牌张类别，或更笼统的，它的牌张类别、超类别、和/或副类别。参见规则[205](./2#cr205)，“类别栏”、以及[第3章](3)，“牌张类别”。   
 1. An object’s card type or, more broadly, its card type, subtype, and/or supertype. See rule 205, “Type Line,” and section 3, “Card Types.”
 
 2. 一个法术力的属性。参见规则[106](./1#cr106)，“法术力”。   
@@ -1165,7 +1173,7 @@ A type of counter a player can have that causes that player to mill cards at the
 An icon that appears in the upper left of some Future Sight cards that has no effect on game play. See rule 107.10.
 
 ### <span id='类别栏'>类别栏</span> / <span id='Type Line'>Type Line</span>
-牌的一部分。类别栏印在图片的下方，包括该牌的牌类别、副类别、和/或超类别。参见规则[205](./2#cr205)，“类别栏”。   
+牌的一部分。类别栏印在图片的下方，包括该牌的牌张类别、副类别、和/或超类别。参见规则[205](./2#cr205)，“类别栏”。   
 Part of a card. The type line is printed directly below the illustration and contains the card’s card type(s), subtype(s), and/or supertype(s). See rule 205, “Type Line.”
 
 ### <span id='类别循环'>类别循环</span> / <span id='Typecycling'>Typecycling</span>
@@ -1195,6 +1203,10 @@ A permanent “leaves the battlefield” when it’s moved from the battlefield 
 一张分为两部分（且其中一部分是嵌在文字栏左面）的牌。参见规则[715](./7#cr715)，“历险者牌”。   
 Cards with a two-part card frame (one part of which is inset on the left) on a single card. See rule 715, “Adventurer Cards.”
 
+### <span id='礼赠'>礼赠</span> / <span id='Gift'>Gift</span>
+一个关键字异能，允许咒语的施放者选择一位对手，令该牌手在该咒语结算或具有该异能的永久物进场时得到好处。参见规则[702.174](./7#cr702-174)，“礼赠”。   
+A keyword ability that allows a spell’s caster to choose an opponent as to receive a benefit as the spell resolves or when the permanent with the ability enters. See rule 702.174, “Gift.”
+
 ### <span id='涟动'>涟动</span> / <span id='Ripple'>Ripple</span>
 一个关键字异能，可以让牌手从其牌库中施放额外的牌且不需支付费用。参见规则[702.60](./7#cr702-60)，“涟动”。   
 A keyword ability that may let a player cast extra cards from their library for no cost. See rule 702.60, “Ripple.”
@@ -1208,7 +1220,7 @@ A keyword ability that lets a creature deal its combat damage twice. See rule 70
 Cards with two card faces on a single card. See rule 709, “Split Cards.”
 
 ### <span id='灵技'>灵技</span> / <span id='Prowess'>Prowess</span>
-一个关键字异能，可以迫使生物进行阻挡。参见规则[702.39](./7#cr702-39)，“挑拨”。   
+一个关键字异能，当生物的操控者施放非生物咒语时，使该生物得+1/+1。参见规则[702.108](./7#cr702-108)，“灵技”。   
 A keyword ability that causes a creature to get +1/+1 whenever its controller casts a noncreature spell. See rule 702.108, “Prowess.”
 
 ### <span id='灵气'>灵气</span> / <span id='Aura'>Aura</span>
@@ -1290,6 +1302,10 @@ The ticket symbol {TK} with no numbers in it represents one ticket counter. The 
 ### <span id='秘案'>秘案</span> / <span id='Hidden Agenda'>Hidden Agenda</span>
 一个关键字异能，让诡局牌以牌面朝下的方式置于统帅区。参见规则[702.106](./7#cr702-106)，“秘案”。   
 A keyword ability that allows a conspiracy card to be put into the command zone face down. See rule 702.106, “Hidden Agenda.”
+
+### <span id='觅粮'>觅粮</span> / <span id='Forage'>Forage</span>
+从你的坟墓场放逐三张牌或牺牲一个食品用于支付费用。参见规则[701.59](./7#cr701-59)，“觅粮”。   
+To pay a cost of exiling three cards from your graveyard or sacrificing a Food. See rule 701.59, “Forage.”
 
 ### <span id='秘罗万岁！'>秘罗万岁！</span> / <span id='For Mirrodin!'>For Mirrodin!</span>
 一个关键字异能，派出一个2/2红色反抗军衍生生物，并将具有该异能的武具贴附于该衍生物上。参见规则[702.163](./7#cr702-163)，“秘罗万岁！”。   
@@ -1390,10 +1406,6 @@ A keyword ability that lets two legendary creatures or planeswalkers be your com
 参见规则[401](./4#cr401)，“牌库”。   
 See rule 401, “Library.”
 
-### <span id='牌类别'>牌类别</span> / <span id='Card Type'>Card Type</span>
-一个特征。除了堆叠上的异能之外，每个物件都有牌类别，即使该物件不是牌。每个牌类别都有自己的规则。参见规则[205](./2#cr205)，“类别栏”，以及[第3章](3)，“牌类别”。   
-A characteristic. Except for abilities on the stack, each object has a card type, even if that object isn’t a card. Each card type has its own rules. See rule 205, “Type Line,” and section 3, “Card Types.”
-
 ### <span id='牌面朝上'>牌面朝上</span> / <span id='Face Up'>Face Up</span>
 1. 如果一张牌被放置在牌面朝上的位置，该牌“牌面朝上”。牌在一些区域中一般情况下都保持牌面朝上的状态。参见[第4章](4)，“区域”。   
 1. A card is “face up” if it’s physically positioned so the card front is showing. Cards in some zones are normally kept face up. See section 4, “Zones.”
@@ -1415,6 +1427,10 @@ A characteristic. Except for abilities on the stack, each object has a card type
 游戏中的人之一。参见规则[102](./1#cr102)，“牌手”。   
 One of the people in the game. See rule 102, “Players.”
 
+### <span id='牌张类别'>牌张类别</span> / <span id='Card Type'>Card Type</span>
+一个特征。除了堆叠上的异能之外，每个物件都有牌张类别，即使该物件不是牌。每种牌张类别都有自己的规则。参见规则[205](./2#cr205)，“类别栏”，以及[第3章](3)，“牌张类别”。   
+A characteristic. Except for abilities on the stack, each object has a card type, even if that object isn’t a card. Each card type has its own rules. See rule 205, “Type Line,” and section 3, “Card Types.”
+
 ### <span id='佩带'>佩带</span> / <span id='Equip'>Equip</span>
 一个关键字异能，让牌手将武具贴附于他所操控的生物上。参见规则[301](./3#cr301)，“神器”以及规则[702.6](./7#cr702-6)，“佩带”。   
 A keyword ability that lets a player attach an Equipment to a creature they control. See rule 301, “Artifacts,” and rule 702.6, “Equip.”
@@ -1424,7 +1440,7 @@ A keyword ability that lets a player attach an Equipment to a creature they cont
 The Planeswalker symbol appears on the planar die in the Planechase casual variant. See rule 107.11.
 
 ### <span id='鹏洛客类别'>鹏洛客类别</span> / <span id='Planeswalker Type'>Planeswalker Type</span>
-与鹏洛客牌类别相关的副类别。参见规则[306](./3#cr306)，“鹏洛客”。参见规则[205.3j](./2#cr205-3j)查看鹏洛客类别的列表。   
+与鹏洛客牌张类别相关的副类别。参见规则[306](./3#cr306)，“鹏洛客”。参见规则[205.3j](./2#cr205-3j)查看鹏洛客类别的列表。   
 A subtype that’s correlated to the planeswalker card type. See rule 306, “Planeswalkers.” See rule 205.3j for the list of planeswalker types.
 
 ### <span id='鹏洛客唯一规则（已废止）'>鹏洛客唯一规则（已废止）</span> / <span id='Planeswalker Uniqueness Rule (Obsolete)'>Planeswalker Uniqueness Rule (Obsolete)</span>
@@ -1432,7 +1448,7 @@ A subtype that’s correlated to the planeswalker card type. See rule 306, “Pl
 Older versions of the rules stated that a player who controlled two or more planeswalkers with the same planeswalker type would put all but one of those planeswalkers into their owners’ graveyards. This rule was called the “planeswalker uniqueness rule” and no longer exists.
 
 ### <span id='鹏洛客（旧译旅法师）'>鹏洛客（旧译旅法师）</span> / <span id='Planeswalker'>Planeswalker</span>
-一种牌类别。鹏洛客是永久物。参见规则[306](./3#cr306)，“鹏洛客”。   
+一种牌张类别。鹏洛客是永久物。参见规则[306](./3#cr306)，“鹏洛客”。   
 A card type. A planeswalker is a permanent. See rule 306, “Planeswalkers.”
 
 ### <span id='拼造'>拼造</span> / <span id='Improvise'>Improvise</span>
@@ -1456,7 +1472,7 @@ See Landwalk.
 A keyword ability that lets a player return a creature card from their graveyard to the battlefield. See rule 702.84, “Unearth.”
 
 ### <span id='普世'>普世</span> / <span id='World'>World</span>
-一个超类别，一般情况下与结界有关。参见规则[205.4](./2#cr205-4)，“超类别”。另参见普世规则。   
+一种超类别，一般情况下与结界有关。参见规则[205.4](./2#cr205-4)，“超类别”。另参见普世规则。   
 A supertype that’s normally relevant on enchantments. See rule 205.4, “Supertypes.” See also World Rule.
 
 ### <span id='普世规则'>普世规则</span> / <span id='World Rule'>World Rule</span>
@@ -1513,7 +1529,7 @@ An obsolete keyword ability that meant “This creature can’t attack unless de
 A keyword ability that restricts how a creature may be blocked. See rule 702.118, “Skulk.”
 
 ### <span id='墙'>墙</span> / <span id='Wall'>Wall</span>
-一个生物类别，不具有特别的规则意义。旧系列具有墙生物类别但没有守军的牌具有未写明的异能，阻止它们进行攻击。这些牌在Oracle牌张参考文献中已经得到勘误具有守军。一些旧系列的牌有提及墙生物类别也得到了勘误。参见守军。   
+一种生物类别，不具有特别的规则意义。旧系列具有墙生物类别但没有守军的牌具有未写明的异能，阻止它们进行攻击。这些牌在Oracle牌张参考文献中已经得到勘误具有守军。一些旧系列的牌有提及墙生物类别也得到了勘误。参见守军。   
 A creature type with no particular rules meaning. Older cards with the Wall creature type but without defender had an unwritten ability that precluded them from attacking. Those cards have received errata in the Oracle card reference to have defender. Some older cards that referenced the Wall creature type have also received errata. See Defender.
 
 ### <span id='敲诈'>敲诈</span> / <span id='Extort'>Extort</span>
@@ -1525,7 +1541,7 @@ A keyword ability that lets you gain life and have opponents lose life whenever 
 A keyword ability that affects how an object deals damage to creatures and players. See rule 702.90, “Infect.”
 
 ### <span id='亲缘'>亲缘</span> / <span id='Kindred'>Kindred</span>
-一个牌类别。亲缘是否为永久物取决于它的其他牌类别。参见规则[308](./3#cr308)，“亲缘”。   
+一种牌张类别。亲缘是否为永久物取决于它的其他牌张类别。参见规则[308](./3#cr308)，“亲缘”。   
 A card type. Whether or not a kindred is a permanent depends on its other card type. See rule 308, “Kindreds.”
 
 ### <span id='清除步骤'>清除步骤</span> / <span id='Cleanup Step'>Cleanup Step</span>
@@ -1623,7 +1639,7 @@ A keyword ability that lets a player exile cards from their hand and cast them w
 A keyword ability that can exile the top card of a player’s library. See rule 702.115, “Ingest.”
 
 ### <span id='神器'>神器</span> / <span id='Artifact'>Artifact</span>
-一个牌类别。神器是永久物。参见规则[301](./3#cr301)，“神器”。   
+一种牌张类别。神器是永久物。参见规则[301](./3#cr301)，“神器”。   
 A card type. An artifact is a permanent. See rule 301, “Artifacts.”
 
 ### <span id='神器地'>神器地</span> / <span id='Artifact Land'>Artifact Land</span>
@@ -1631,7 +1647,7 @@ A card type. An artifact is a permanent. See rule 301, “Artifacts.”
 A combination of artifact and land that’s subject to the rules for both. Artifact lands can only be played as lands, not cast as spells. See rule 301, “Artifacts,” and rule 305, “Lands.”
 
 ### <span id='神器类别'>神器类别</span> / <span id='Artifact Type'>Artifact Type</span>
-与神器牌类别对应的副类别。参见规则[301](./3#cr301)，“神器”。参见规则[205.3g](./2#cr205-3g)的神器类别列表。   
+与神器牌张类别对应的副类别。参见规则[301](./3#cr301)，“神器”。参见规则[205.3g](./2#cr205-3g)的神器类别列表。   
 A subtype that’s correlated to the artifact card type. See rule 301, “Artifacts.” See rule 205.3g for the list of artifact types.
 
 ### <span id='神器生物'>神器生物</span> / <span id='Artifact Creature'>Artifact Creature</span>
@@ -1647,7 +1663,7 @@ A variant of the venture into the dungeon ability that allows a player to bring 
 A keyword action that can bring dungeon cards into the game from outside the game or move a player’s venture marker. See rule 701.46, “Venture into the Dungeon.”
 
 ### <span id='身世'>身世</span> / <span id='Background'>Background</span>
-一个结界类别，与“选择身世”异能合用时，可以允许将一张传奇结界牌用作指挥官。参见规则[702.124](./7#cr702-124)，“拍档”，和规则[903](./9#cr903)，“指挥官”。   
+一种结界类别，与“选择身世”异能合用时，可以允许将一张传奇结界牌用作指挥官。参见规则[702.124](./7#cr702-124)，“拍档”，和规则[903](./9#cr903)，“指挥官”。   
 An enchantment type that, in combination with the “choose a Background” ability, may allow a legendary enchantment card to be your commander. See rule 702.124, “Partner,” and rule 903, “Commander.”
 
 ### <span id='神授'>神授</span> / <span id='Bestow'>Bestow</span>
@@ -1671,11 +1687,11 @@ A characteristic that only vanguards have. See rule 212, “Life Modifier.”
 Each player has an amount of “life,” represented by that player’s “life total.” Life may be gained or lost. See rule 119, “Life.”
 
 ### <span id='生物'>生物</span> / <span id='Creature'>Creature</span>
-一个牌类别。生物是永久物。参见规则[302](./3#cr302)，“生物”。   
+一种牌张类别。生物是永久物。参见规则[302](./3#cr302)，“生物”。   
 A card type. A creature is a permanent. See rule 302, “Creatures.”
 
 ### <span id='生物类别'>生物类别</span> / <span id='Creature Type'>Creature Type</span>
-一个副类别，对应生物牌类别和亲缘牌类别。参见规则[302](./3#cr302)，“生物”，以及规则[308](./3#cr308)，“亲缘”。生物类别的列表参见规则[205.3m](./2#cr205-3m)。   
+一种副类别，对应生物牌张类别和亲缘牌张类别。参见规则[302](./3#cr302)，“生物”，以及规则[308](./3#cr308)，“亲缘”。生物类别的列表参见规则[205.3m](./2#cr205-3m)。   
 A subtype that’s correlated to the creature card type and the kindred card type. See rule 302, “Creatures,” and rule 308, “Kindreds.” See rule 205.3m for the list of creature types.
 
 ### <span id='示范'>示范</span> / <span id='Demonstrate'>Demonstrate</span>
@@ -1699,7 +1715,7 @@ An obsolete term that referred to the player who cast a spell. In general, cards
 A keyword ability that allows you to exile a creature card from your graveyard to put +1/+1 counters on a creature. See rule 702.97, “Scavenge.”
 
 ### <span id='史迹'>史迹</span> / <span id='Historic'>Historic</span>
-如果一个物件具有传奇此超类别、或具有神器此牌类别、或具有传纪此副类别，它便是史迹。参见规则[700.6](./7#cr700-6)。   
+如果一个物件具有传奇此超类别、或具有神器此牌张类别、或具有传纪此副类别，它便是史迹。参见规则[700.6](./7#cr700-6)。   
 An object is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. See rule 700.6.
 
 ### <span id='事件'>事件</span> / <span id='Event'>Event</span>
@@ -1719,7 +1735,7 @@ A keyword ability that causes a permanent to sometimes be treated as though it d
 A system used to determine in which order continuous effects in the same layer or sublayer are applied. See rule 613.7. See also Dependency.
 
 ### <span id='时空'>时空</span> / <span id='Plane'>Plane</span>
-一种牌类别，只在竞逐时空休闲式玩法中使用的非传统万智牌上出现。时空牌不是永久物。参见规则[311](./3#cr311)，“时空”。   
+一种牌张类别，只在竞逐时空休闲式玩法中使用的非传统万智牌上出现。时空牌不是永久物。参见规则[311](./3#cr311)，“时空”。   
 A card type seen only on nontraditional Magic cards in the Planechase casual variant. A plane card is not a permanent. See rule 311, “Planes.”
 
 ### <span id='时空换境'>时空换境</span> / <span id='Planeswalk'>Planeswalk</span>
@@ -1762,7 +1778,7 @@ A keyword ability that can have a creature enter the battlefield with +1/+1 coun
 1. 使用一张地是指将一张地作为特殊动作放进战场。参见规则[116](./1#cr116)，“特殊动作”，和规则[305](./3#cr305)，“地”。   
 1. To play a land is to put a land onto the battlefield as a special action. See rule 116, “Special Actions,” and rule 305, “Lands.”
 
-2. 使用一张牌是指使用地或施放咒语，依该牌的类别而定。参见规则[601](./6#cr601)，“施放咒语”。   
+2. 使用一张牌是指使用地或施放咒语，依该牌的牌张类别而定。参见规则[601](./6#cr601)，“施放咒语”。   
 2. To play a card is to play that card as a land or cast that card as a spell, whichever is appropriate. See rule 601, “Casting Spells.”
 
 3. （已废止）施放咒语曾经称为使用咒语。具有该用词的牌在Oracle牌张参考文献中已获得勘误。参见施放。   
@@ -1771,7 +1787,7 @@ A keyword ability that can have a creature enter the battlefield with +1/+1 coun
 4. （已废止）起动起动式异能曾经称为使用起动式异能。具有该用词的牌在Oracle牌张参考文献中已获得勘误。参见起动。   
 4. (Obsolete) Activating an activated ability used to be known as playing an activated ability. Cards with that text have received errata in the Oracle card reference. See Activate.
 
-5. （已废止）战场曾经称为场上区。具有用词“场上”、“从场上”、“进场”等提及战场的牌在Oracle牌张参考文献中已获得勘误。参见战场。   
+5. （已废止）战场曾经称为场上区。具有用词“场上”、“从场上”等提及战场的牌在Oracle牌张参考文献中已获得勘误。参见战场。（译注：中文版中“进场”一词曾用于对译“come into play”这一废止用词，现重新用于对译“enter”。）   
 5. (Obsolete) The battlefield used to be known as the in-play zone. Cards that were printed with text that contains the phrases “in play,” “from play,” “into play,” or the like are referring to the battlefield and have received errata in the Oracle card reference. See Battlefield.
 
 ### <span id='试作'>试作</span> / <span id='Prototype'>Prototype</span>
@@ -1837,7 +1853,7 @@ Cards with two faces, one on each side of the card, and no Magic card back. See 
 A multiplayer variant played among two-player teams that each have a shared life total and take a simultaneous turn. See rule 810, “Two-Headed Giant Variant.”
 
 ### <span id='瞬间'>瞬间</span> / <span id='Instant'>Instant</span>
-一个牌类别。瞬间不是永久物。参见规则[304](./3#cr304)，“瞬间”。   
+一种牌张类别。瞬间不是永久物。参见规则[304](./3#cr304)，“瞬间”。   
 A card type. An instant is not a permanent. See rule 304, “Instants.”
 
 ### <span id='死触'>死触</span> / <span id='Deathtouch'>Deathtouch</span>
@@ -1869,6 +1885,10 @@ A keyword action. To “collect evidence N” means to exile any number of cards
 A Shard token is a colorless enchantment token with “{2}, Sacrifice this enchantment: Scry 1, then draw a card.” For more information on predefined tokens, see rule 111.10.
 
 ## T
+### <span id='太空塑师'>太空塑师</span> / <span id='Space Sculptor'>Space Sculptor</span>
+一个关键字异能，将战场上的生物分为不同星区。参见规则[702.158](./7#cr702-158)，“太空塑师”。   
+A keyword ability that splits creatures on the battlefield into sectors. See rule 702.158, “Space Sculptor.”
+
 ### <span id='探查'>探查</span> / <span id='Investigate'>Investigate</span>
 一个关键字动作，派出一个线索衍生神器。参见规则[701.36](./7#cr701-36)，“探查”。   
 A keyword action that creates a Clue artifact token. See rule 701.36, “Investigate.”
@@ -1918,7 +1938,7 @@ An obsolete keyword ability that has been renamed. See rule 702.89, “Umbra Arm
 Parenthetical text in italics in the text box of a card that summarizes a rule that applies to that card, but is not actually rules text and has no effect on play. See rule 207.2.
 
 ### <span id='挑拨'>挑拨</span> / <span id='Provoke'>Provoke</span>
-一个关键字异能，当生物的操控者施放非生物咒语时，使该生物得+1/+1。参见规则[702.108](./7#cr702-108)，“灵技”。   
+一个关键字异能，可以迫使生物进行阻挡。参见规则[702.39](./7#cr702-39)，“挑拨”。   
 A keyword ability that can force a creature to block. See rule 702.39, “Provoke.”
 
 ### <span id='跳读'>跳读</span> / <span id='Read Ahead'>Read Ahead</span>
@@ -1999,7 +2019,7 @@ Part of the turn. This step is the second step of the beginning phase. See rule 
 A default status a permanent may have. See rule 110.5 and rule 710, “Flip Cards.” See also Flipped.
 
 ### <span id='围攻'>围攻</span> / <span id='Siege'>Siege</span>
-一个战役类别。只有围攻的操控者之对手可以作为其防卫者。当移去最后一个布防指示物时，其操控者将它放逐，然后可以施放已转化的此牌，且不需支付其法术力费用。参见规则[310.11](./3#cr310-11)。   
+一种战役类别。只有围攻的操控者之对手可以作为其防卫者。当移去最后一个布防指示物时，其操控者将它放逐，然后可以施放已转化的此牌，且不需支付其法术力费用。参见规则[310.11](./3#cr310-11)。   
 A battle subtype. Only an opponent of a Siege’s controller can be its protector. When the last defense counter is removed, its controller exiles the Siege, then they may cast it transformed without paying its mana cost. See rule 310.11.
 
 ### <span id='威吓'>威吓</span> / <span id='Intimidate'>Intimidate</span>
@@ -2039,7 +2059,7 @@ A keyword action that lets a player add a Lesson card to their hand from outside
 Part of a card. The text box is printed on the lower half of the card and contains the card’s rules text, reminder text, and flavor text. See rule 207, “Text Box.”
 
 ### <span id='物件'>物件</span> / <span id='Object'>Object</span>
-堆叠上的异能、牌、牌的复制、衍生物、咒语或永久物。参见规则[109](./1#cr109)，“物件”。   
+堆叠上的异能、牌、牌的复制品、衍生物、咒语或永久物。参见规则[109](./1#cr109)，“物件”。   
 An ability on the stack, a card, a copy of a card, an emblem, a token, a spell, or a permanent. See rule 109, “Objects.”
 
 ### <span id='武具'>武具</span> / <span id='Equipment'>Equipment</span>
@@ -2078,7 +2098,7 @@ A keyword ability that causes a player to get poison counters due to combat dama
 1. 一种休闲式玩法，牌手可以扮演一位著名的角色。参见规则[902](./9#cr902)，“先锋”。   
 1. A casual variant in which each player plays the role of a famous character. See rule 902, “Vanguard.”
 
-2. 一种牌类别，只在先锋休闲式玩法中使用的非传统万智牌上出现。先锋牌不是永久物。参见规则[313](./3#cr313)，“先锋”。   
+2. 一种牌张类别，只在先锋休闲式玩法中使用的非传统万智牌上出现。先锋牌不是永久物。参见规则[313](./3#cr313)，“先锋”。   
 2. A card type seen only on nontraditional Magic cards in the Vanguard casual variant. A vanguard card is not a permanent. See rule 313, “Vanguards.”
 
 ### <span id='先攻'>先攻</span> / <span id='First Strike'>First Strike</span>
@@ -2379,7 +2399,7 @@ A card exiled using the plot special action becomes plotted. Other effects can a
 A keyword ability that lets a player cast a card from their graveyard. See rule 702.138, “Escape.”
 
 ### <span id='异象'>异象</span> / <span id='Phenomenon'>Phenomenon</span>
-只出现在非传统万智牌上的一种牌类别，在竞逐时空休闲式玩法中使用。参见规则[312](./3#cr312)，“异象”。   
+只出现在非传统万智牌上的一种牌张类别，在竞逐时空休闲式玩法中使用。参见规则[312](./3#cr312)，“异象”。   
 A card type seen only on nontraditional Magic cards in the Planechase casual variant. A phenomenon card is not a permanent. See rule 312, “Phenomena.”
 
 ### <span id='易形'>易形</span> / <span id='Transfigure'>Transfigure</span>
@@ -2426,7 +2446,7 @@ Cards in certain sets and certain promotional cards are printed with a silver bo
 A zone in which not all players can be expected to see the cards’ faces. See rule 400.2. See also Public Zone.
 
 ### <span id='阴谋'>阴谋</span> / <span id='Scheme'>Scheme</span>
-一种牌类别，只在魔王休闲式玩法中使用的非传统万智牌上出现。阴谋牌不是永久物。参见规则[314](./3#cr314)，“阴谋”。   
+一种牌张类别，只在魔王休闲式玩法中使用的非传统万智牌上出现。阴谋牌不是永久物。参见规则[314](./3#cr314)，“阴谋”。   
 A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 314, “Schemes.”
 
 ### <span id='阴谋套牌'>阴谋套牌</span> / <span id='Scheme Deck'>Scheme Deck</span>
@@ -2476,6 +2496,10 @@ An object is “outside the game” if it isn’t in any of the game’s zones. 
 ### <span id='优先权'>优先权</span> / <span id='Priority'>Priority</span>
 使用“优先权”系统来决定任一时刻哪位牌手可以执行动作。参见规则[117](./1#cr117)，“时机和优先权”。   
 Which player can take actions at any given time is determined by a system of “priority.” See rule 117, “Timing and Priority.”
+
+### <span id='友谊永恒'>友谊永恒</span> / <span id='Friends Forever'>Friends Forever</span>
+拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有友谊永恒异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[702.124](./7#cr702-124)，“拍档”，及规则[903](./9#cr903)，“指挥官”。   
+A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”
 
 ### <span id='于...之中（已废止）'>于...之中（已废止）</span> / <span id='During (Obsolete)'>During (Obsolete)</span>
 一些老牌使用“于[阶段]之中，[动作]”。这些异能曾经被称为“阶段异能”。一般情况下，印有阶段异能的牌在Oracle牌张参考文献中得到了勘误，它们的异能现在于步骤或阶段开始时触发。“于...之中”依然在当前卡牌的叙述中出现，但只是作为一般语言理解而不是游戏用语。   
@@ -2595,7 +2619,7 @@ A keyword ability that makes other attacking creatures better in combat. See rul
 To show a card to all players for a brief time. See rule 701.16, “Reveal.”
 
 ### <span id='战役'>战役</span> / <span id='Battle'>Battle</span>
-一种牌类别。战役是永久物。参见规则[310](./3#cr310)，“战役”。   
+一种牌张类别。战役是永久物。参见规则[310](./3#cr310)，“战役”。   
 A card type. A battle is a permanent. See rule 310, “Battles.”
 
 ### <span id='召唤失调规则'>召唤失调规则</span> / <span id='Summoning Sickness Rule'>Summoning Sickness Rule</span>
@@ -2609,6 +2633,10 @@ Older creature cards were printed with “Summon [creature type]” on their typ
 ### <span id='召集'>召集</span> / <span id='Convoke'>Convoke</span>
 一个关键字异能，让你横置生物来施放咒语而不是支付法术力。参见规则[702.51](./7#cr702-51)，“召集”。   
 A keyword ability that lets you tap creatures rather than pay mana to cast a spell. See rule 702.51, “Convoke.”
+
+### <span id='爪印符号'>爪印符号</span> / <span id='Pawprint Symbol'>Pawprint Symbol</span>
+一个形状像爪印的符号，在某些具有模式的咒语中用于指示模式。参见规则[700.2i](./7#cr700-2i)。   
+A symbol shaped like a pawprint that is used to indicate the modes on some modal spells. See rule 700.2i.
 
 ### <span id='沼泽'>沼泽</span> / <span id='Swamp'>Swamp</span>
 五种基本地类别中的一种。任何具有此副类别的地都具有异能“{T}：加{B}。”参见规则[305.6](./3#cr305-6)。   
@@ -2666,7 +2694,7 @@ Informal term for the additional cost to cast a commander based on the number of
 A keyword ability that allows an opponent to choose between a creature entering the battlefield with +1/+1 counters or an additional ability. See rule 702.104, “Tribute.”
 
 ### <span id='殖民'>殖民</span> / <span id='Populate'>Populate</span>
-一个关键字动作，派出由你操控的衍生生物之复制。参见规则[701.30](./7#cr701-30)，“殖民”。   
+一个关键字动作，派出由你操控的衍生生物之复制品。参见规则[701.30](./7#cr701-30)，“殖民”。   
 A keyword action that creates a copy of a creature token you control. See rule 701.30, “Populate.”
 
 ### <span id='致命伤害'>致命伤害</span> / <span id='Lethal Damage'>Lethal Damage</span>
@@ -2716,10 +2744,6 @@ A counter that exiles the permanent it is on if that permanent would go to the g
 一个关键字异能，让武具生物暂时不再是生物，且贴附于另一个生物上。参见规则[702.151](./7#cr702-151)，“重配”。   
 A keyword ability that allows an Equipment creature to temporarily stop being a creature and become attached to another creature. See rule 702.151, “Reconfigure.”
 
-### <span id='重生'>重生</span> / <span id='Regenerate'>Regenerate</span>
-将一个永久物的消灭用另一系列事件进行替代。参见规则[701.15](./7#cr701-15)，“重生”。   
-To replace a permanent’s destruction with an alternate sequence of events. See rule 701.15, “Regenerate.”
-
 ### <span id='终止'>终止</span> / <span id='Abandon'>Abandon</span>
 将一张牌面朝上的持续阴谋牌翻为牌面朝下并置于其拥有者的阴谋套牌牌库底。参见规则[701.26](./7#cr701-26)，“终止”。   
 To turn a face-up ongoing scheme card face down and put it on the bottom of its owner’s scheme deck. See rule 701.26, “Abandon.”
@@ -2729,11 +2753,11 @@ To turn a face-up ongoing scheme card face down and put it on the bottom of its 
 An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 727, “Day and Night.”
 
 ### <span id='咒语'>咒语</span> / <span id='Spell'>Spell</span>
-堆叠上的牌。以及堆叠上（无论是牌还是另一个咒语）的复制。参见规则[112](./1#cr112)，“咒语”。   
+堆叠上的牌。以及堆叠上（无论是牌还是另一个咒语）的复制品。参见规则[112](./1#cr112)，“咒语”。   
 A card on the stack. Also a copy (of either a card or another spell) on the stack. See rule 112, “Spells.”
 
 ### <span id='咒语类别'>咒语类别</span> / <span id='Spell Type'>Spell Type</span>
-和瞬间牌类别和法术牌类别对应的副类别。参见规则[304](./3#cr304)，“瞬间”，以及规则[307](./3#cr307)，“法术”。参见规则[205.3k](./2#cr205-3k)的咒语类别列表。   
+和瞬间牌张类别和法术牌张类别对应的副类别。参见规则[304](./3#cr304)，“瞬间”，以及规则[307](./3#cr307)，“法术”。参见规则[205.3k](./2#cr205-3k)的咒语类别列表。   
 A subtype that’s correlated to the instant card type and the sorcery card type. See rule 304, “Instants,” and rule 307, “Sorceries.” See rule 205.3k for the list of spell types.
 
 ### <span id='咒语异能'>咒语异能</span> / <span id='Spell Ability'>Spell Ability</span>
@@ -2826,6 +2850,10 @@ A keyword ability that lets a player cast a card from their graveyard. See rule 
 ### <span id='自身触发式异能'>自身触发式异能</span> / <span id='Reflexive Triggered Ability'>Reflexive Triggered Ability</span>
 一种异能，根据先前咒语或异能结算过程中所作的动作而决定是否触发。参见规则[603.12](./6#cr603-12)。   
 An ability that triggers based on actions taken earlier during a spell or ability’s resolution. See rule 603.12.
+
+### <span id='自由奔跑'>自由奔跑</span> / <span id='Freerunning'>Freerunning</span>
+一个关键字异能，允许特定咒语以替代性费用施放。参见规则[702.173](./7#cr702-173)，“自由奔跑”。   
+A keyword ability that allows certain spells to be cast for an alternative cost. See rule 702.173, “Freerunning.”
 
 ### <span id='自由竞赛玩法'>自由竞赛玩法</span> / <span id='Free-for-All'>Free-for-All</span>
 一个多人玩法，牌手们会以个人方式来互相展开对抗。参见规则[806](./8#cr806)，“自由竞赛玩法”。   

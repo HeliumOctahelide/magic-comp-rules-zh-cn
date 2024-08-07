@@ -138,4 +138,4 @@ def plain_text_to_json(en_text, zh_text, output_file, version):
 
 
 if __name__ == '__main__':
-    plain_text_to_json('../plain_text/20240607_En.txt', '../plain_text/20240607_Zh.txt', './20240607.json', '20240607')
+    plain_text_to_json('../plain_text/20240802_En.txt', '../plain_text/20240802_Zh.txt', './20240802.json', '20240802')

@@ -31,8 +31,8 @@ Example: Alex casts Act of Treason, which reads, in part, “Gain control of tar
 Example: Alex casts Bribery, which reads, “Search target opponent’s library for a creature card and put that card onto the battlefield under your control. Then that player shuffles their library,” targeting Bianca. Alex puts Serra Angel onto the battlefield from Bianca’s library. If Bianca leaves the game, Serra Angel also leaves the game. If, instead, Alex leaves the game, Serra Angel is exiled.\\ 
 例如：俊杰施放贿赂，其叙述为“从目标对手的牌库中搜寻一张生物牌，并将该牌在你的操控下放进战场。然后该牌手将其牌库洗牌”，并指定天启为目标。俊杰将天启牌库中的撒拉天使放进战场。如果天启离开游戏，则撒拉天使也会离开游戏。如果改为俊杰离开游戏，则撒拉天使会被放逐。
 
-Example: Alex controls Genesis Chamber, which reads, “Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature’s controller creates a 1/1 colorless Myr artifact creature token.” If Alex leaves the game, all such Myr tokens that entered the battlefield under Alex’s control leave the game, and all such Myr tokens that entered the battlefield under any other player’s control remain in the game.\\ 
-例如：俊杰操控创生秘室，其叙述为“每当一个非衍生物的生物进入战场时，如果创生秘室并未横置，则该生物的操控者派出一个1/1无色秘耳衍生神器生物。”如果俊杰离开游戏，则所有在俊杰操控下进入战场的此类秘耳衍生物也会离开游戏，而所有在其他牌手操控下进入战场的此类秘耳衍生物仍会留在游戏中。
+Example: Alex controls Genesis Chamber, which reads, “Whenever a nontoken creature enters, if Genesis Chamber is untapped, that creature’s controller creates a 1/1 colorless Myr artifact creature token.” If Alex leaves the game, all such Myr tokens that entered the battlefield under Alex’s control leave the game, and all such Myr tokens that entered the battlefield under any other player’s control remain in the game.\\ 
+例如：俊杰操控创生秘室，其叙述为“每当一个非衍生物的生物进场时，若创生秘室未横置，则该生物的操控者派出一个1/1无色秘耳衍生神器生物。”如果俊杰离开游戏，则所有在俊杰操控下进入战场的此类秘耳衍生物也会离开游戏，而所有在其他牌手操控下进入战场的此类秘耳衍生物仍会留在游戏中。
 
 <BOOKMARK:cr800-4b>800.4b If an object would change to the control of a player who has left the game, it doesn’t. If a token would be created under the control of a player who has left the game, no token is created. If an object would be put onto the battlefield or onto the stack under the control of a player who has left the game, that object remains in its current zone. If a player would be controlled by a player who has left the game, they aren’t.\\ 
 800.4b 如果一位已离开游戏的牌手将得到一个物件的操控权，则该物件的操控权不发生改变。如果一个衍生物将在已离开游戏牌手的操控下被派出，则该衍生物不会被派出。如果一个物件将在一位已离开游戏的牌手操控下放进战场或堆叠，该物件留在其原来的区域。如果一位牌手将被一位已离开游戏的牌手操控，该牌手不会被操控。
@@ -453,7 +453,7 @@ Example: During Alex’s turn, he casts Time Walk, which causes him to take an e
 807.5a 只有当一个回合标记在一位牌手的影响范围内，或是属于该回合标记之堆叠中的一个物件之操控者在该牌手的影响范围内时，该牌手才能得到属于此回合标记之堆叠的优先权。
 
 <BOOKMARK:cr807-5b>807.5b If a player has priority for multiple stacks and casts a spell, activates an ability, or a triggered ability they control triggers, the player must specify which one of those stacks the spell or ability is put on. If an object on one of those stacks caused the triggered ability to trigger, the player must put it on that stack. If a resolving spell or ability on one of those stacks causes a player to cast a spell or create a copy of a spell, the new spell must be put on the same stack. If a spell or ability targets an object on one of those stacks, it must be put on the same stack as its target; it can’t target objects on multiple stacks.\\ 
-807.5b 如果一位同时具有多个堆叠优先权的牌手施放了一个咒语、起动了一个异能，或是一个由其操控的触发式异能被触发，则该牌手必须说明该咒语或异能将被放入哪一个堆叠。如果其中一个堆叠上的一个物件将触发触发式异能，则该牌手必须将此触发式异能放入该堆叠。如果其中一个堆叠中上的一个物件导致触发式异能被触发，则该牌手必须将此异能放进该堆叠。如果其中一个堆叠上的一个结算中的咒语或异能令一位牌手施放一个咒语或创造一个咒语的复制，则新的咒语必须被放进同一个堆叠。如果一个咒语或异能指定了其中一个堆叠上的物件，则它必须被放进与其目标相同的堆叠；它不能指定多个堆叠中的物件为目标。
+807.5b 如果一位同时具有多个堆叠优先权的牌手施放了一个咒语、起动了一个异能，或是一个由其操控的触发式异能被触发，则该牌手必须说明该咒语或异能将被放入哪一个堆叠。如果其中一个堆叠上的一个物件将触发触发式异能，则该牌手必须将此触发式异能放入该堆叠。如果其中一个堆叠中上的一个物件导致触发式异能被触发，则该牌手必须将此异能放进该堆叠。如果其中一个堆叠上的一个结算中的咒语或异能令一位牌手施放一个咒语或创造一个咒语的复制品，则新的咒语必须被放进同一个堆叠。如果一个咒语或异能指定了其中一个堆叠上的物件，则它必须被放进与其目标相同的堆叠；它不能指定多个堆叠中的物件为目标。
 
 ===== 808. 队伍对队伍玩法 Team vs. Team Variant =====
 <BOOKMARK:cr808>808. Team vs. Team Variant\\ 

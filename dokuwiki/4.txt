@@ -1,4 +1,4 @@
-[[:完整规则|返回完整规则目录]] | [[cr:3|第三章 - 牌类别 Card Types]] | [[cr:5|第五章 - 回合结构 Turn Structure]]
+[[:完整规则|返回完整规则目录]] | [[cr:3|第三章 - 牌张类别 Card Types]] | [[cr:5|第五章 - 回合结构 Turn Structure]]
 ====== 4. 区域 Zones ======
 <BOOKMARK:cr4>4. Zones\\ 
 4. 区域
@@ -17,7 +17,7 @@
 400.3. 如果一个物件将移动到不是其拥有者的牌库、坟墓场，或者手牌中，则改为移到其拥有者的相应区域中。
 
 <BOOKMARK:cr400-4>400.4. Cards with certain card types can’t enter certain zones.\\ 
-400.4. 具有特定牌类别的牌不能进入特定的区域。
+400.4. 具有特定牌张类别的牌不能进入特定的区域。
 
 <BOOKMARK:cr400-4a>400.4a If an instant or sorcery card would enter the battlefield, it remains in its previous zone.\\ 
 400.4a 如果一张瞬间或法术牌将要进入战场，它将留在其之前的区域。
@@ -261,7 +261,7 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 407.3. 一些牌的叙述包括“如果你未使用赌注，则在游戏开始之前将[此牌]从你的套牌中移出”。只有这些牌才能将牌加入或移出赌注，或改变牌的拥有者。当未使用赌注时，牌手不能将这些牌放进套牌或备牌中，也不能将其从游戏外带进游戏中。
 
 <BOOKMARK:cr407-4>407.4. To ante an object is to put that object into the ante zone from whichever zone it’s currently in. The owner of an object is the only person who can ante that object.\\ 
-407.4. 令一个物件成为赌注，指将该物件从当前所在的区域移动到赌注。只有该物件的拥有者才能令该物件成为赌注。
+407.4. 押注一个物件，指将该物件从当前所在的区域移动到赌注。只有该物件的拥有者才能押注该物件。
 
 ===== 408. 统帅区 Command =====
 <BOOKMARK:cr408>408. Command\\ 
@@ -278,6 +278,6 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 
 
 
-[[:完整规则|返回完整规则目录]] | [[cr:3|第三章 - 牌类别 Card Types]] | [[cr:5|第五章 - 回合结构 Turn Structure]]
+[[:完整规则|返回完整规则目录]] | [[cr:3|第三章 - 牌张类别 Card Types]] | [[cr:5|第五章 - 回合结构 Turn Structure]]
 
 {{page>:规则和文档索引&nofooter}}

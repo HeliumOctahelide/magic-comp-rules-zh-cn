@@ -4,21 +4,30 @@
 
 | English | 中文 |
 | ------ | ------ |
+| Ante | 押注（用作动词）/赌注（用作名词） |
 | Abandon | 终止 |
 | Alternative name | 别名（仅限于规则201.6所述之情形） |
 | Archenemy | 魔王 |
+| Enter | 进场 |
+| Expend | 花销 |
+| Forage | 觅粮 |
+| Friends forever | 友谊永恒 |
+| Gift | 礼赠 |
 | Interchangeable names | 可互换名称 |
+| Offspring | 繁生 |
 | Ongoing | 持续 |
-| Planar Controller | 时空操控者 |
+| Pawprint | 爪印 |
 | Reroll | 重新掷骰 |
 | Rolled doubles | 掷出同点 |
 | Scheme | 阴谋 |
 | Sector | 星区 |
 | Set in Motion | 实施 |
+| Space Sculptor | 太空塑匠 |
 | Sticker kicker | 贴纸增幅 |
 | Stickered | 贴有贴纸 |
 | Store | 存储 |
 | Supplementary Deck | 附加套牌 |
+| Valiant | 英武 |
 | Vanguard | 先锋 |
 | Walker | 尸行者 |
 
@@ -28,7 +37,7 @@
 | ------ | ------ |
 | Claim the Prize | 赢得奖励 |
 | Doctor's Companion | 博士伙伴 |
-| Face a Villainous Choice | 进行邪恶抉择 |
+| Face a Villainous Choice | 面临邪恶抉择 |
 | Light | 灯号 |
 | Lit up | 亮起 |
 | Open an Attraction | 打开景点 |

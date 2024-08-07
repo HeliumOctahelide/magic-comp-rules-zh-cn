@@ -1,6 +1,6 @@
 # 目录
 
-*此规则于2024年6月7日起生效。*
+*此规则于2024年7月30日起生效。*
 
 [前言](./intro)
 
@@ -46,7 +46,7 @@
   - [212. 生命修正 Life Modifier](./2#cr212)  
   - [213. 文字栏下方信息 Information Below the Text Box](./2#cr213)  
 
-- [第三章 - 牌类别 Card Types](./3)
+- [第三章 - 牌张类别 Card Types](./3)
   - [300. 总则 General](./3#cr300)  
   - [301. 神器 Artifacts](./3#cr301)  
   - [302. 生物 Creatures](./3#cr302)  

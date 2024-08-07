@@ -1,4 +1,4 @@
-[[:完整规则|返回完整规则目录]] | [[cr:1|第一章 - 游戏概念 Game Concepts]] | [[cr:3|第三章 - 牌类别 Card Types]]
+[[:完整规则|返回完整规则目录]] | [[cr:1|第一章 - 游戏概念 Game Concepts]] | [[cr:3|第三章 - 牌张类别 Card Types]]
 ====== 2. 牌的各部分 Parts of a Card ======
 <BOOKMARK:cr2>2. Parts of a Card\\ 
 2. 牌的各部分
@@ -7,14 +7,14 @@
 <BOOKMARK:cr200>200. General\\ 
 200. 总则
 
-<BOOKMARK:cr200-1>200.1. The parts of a card are name, mana cost, illustration, color indicator, type line, expansion symbol, text box, power and toughness, loyalty, hand modifier, life modifier, illustration credit, legal text, and collector number. Some cards may have more than one of any or all of these parts.\\ 
-200.1. 牌的各部分包括名称、法术力费用、图片、颜色标志、类别栏、版本符号、文字栏、力量与防御力、忠诚、手牌修正、生命修正、画家名、版权文字，以及收集编号。在某些牌上，这些部分的内容可能不只一个。（译注：我确信这里丢失了“布防”。）
+<BOOKMARK:cr200-1>200.1. The parts of a card are name, mana cost, illustration, color indicator, type line, expansion symbol, text box, power and toughness, loyalty, defense, hand modifier, life modifier, illustration credit, legal text, and collector number. Some cards may have more than one of any or all of these parts.\\ 
+200.1. 牌的各部分包括名称、法术力费用、图片、颜色标志、类别栏、版本符号、文字栏、力量与防御力、忠诚、布防、手牌修正、生命修正、画家名、版权文字，以及收集编号。在某些牌上，这些部分的内容可能不只一个。
 
 <BOOKMARK:cr200-2>200.2. Some parts of a card are also characteristics of the object that has them. See rule 109.3.\\ 
 200.2. 牌的某些部分同样是该物件的具有的特征。参见规则[[cr:1#cr109-3|109.3]]。
 
 <BOOKMARK:cr200-3>200.3. Some objects that aren’t cards (tokens, copies of cards, and copies of spells) have some of the parts of a card, but only the ones that are also characteristics. See rule 111 and rule 707.\\ 
-200.3. 不是牌的物件（衍生物、牌的复制，或咒语的复制）同样可能有着某些牌的部分，但只有是特征的部分。参见规则[[cr:1#cr111|111]]和[[cr:7#cr707|707]]。
+200.3. 不是牌的物件（衍生物、牌的复制品，或咒语的复制品）同样可能有着某些牌的部分，但只有是特征的部分。参见规则[[cr:1#cr111|111]]和[[cr:7#cr707|707]]。
 
 ===== 201. 名称 Name =====
 <BOOKMARK:cr201>201. Name\\ 
@@ -84,19 +84,19 @@ Example: Dispossess reads, in part, “Choose an artifact card name.” The play
 201.5a 如果异能的效应将另一个异能赋予一个物件，且后者异能提及前者异能之来源的名称，则该名称仅特指前者异能之来源的物件。后者异能不指代任何其他与前者异能之来源具有相同名称的物件。但是，如果后者异能同时将前者异能的来源移动到另一个公开区域，则该名称指代该来源在其新区域所成的物件。这对后者异能被复制到一个新物件上的情况同样有效。
 
 Example: Gutter Grime has an ability that reads “Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then create a green Ooze creature token with ‘This creature’s power and toughness are each equal to the number of slime counters on Gutter Grime.’” The ability granted to the token only looks at the Gutter Grime that created the token, not at any other Gutter Grime on the battlefield. A copy of that token would also have an ability that referred only to the Gutter Grime that created the original token.\\ 
-例如：水沟污迹的异能为“每当一个非衍生物、且由你操控的生物死去时，在水沟污迹上放置一个黏菌指示物，然后派出一个绿色流浆衍生生物，且具有‘此生物之力量与防御力各等同于水沟污迹上的黏菌指示物数量。’”此衍生物被赋予的异能，仅以派出此衍生物的水沟污迹为准，而非战场上的其他水沟污迹。该衍生物的复制所具有的异能，也仅以派出它复制的原型衍生物的水沟污迹为准。
+例如：水沟污迹的异能为“每当一个非衍生物、且由你操控的生物死去时，在水沟污迹上放置一个黏菌指示物，然后派出一个绿色流浆衍生生物，且具有‘此生物之力量与防御力各等同于水沟污迹上的黏菌指示物数量。’”此衍生物被赋予的异能，仅以派出此衍生物的水沟污迹为准，而非战场上的其他水沟污迹。该衍生物的复制品所具有的异能，也仅以派出它复制品的原型衍生物的水沟污迹为准。
 
 <BOOKMARK:cr201-5b>201.5b If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of the first name in the gained ability that refers to the first object by name should be treated as the second name.\\ 
 201.5b 如果一个物件的异能包含该物件的名称，而一个不同名称的物件获得该异能，则所获得的异能上所有指前者物件的名称都被视为后者物件的名称。
 
 Example: Quicksilver Elemental says, in part, “{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn.” If it gains an ability that says “{G}: Regenerate Cudgel Troll,” activating that ability will regenerate Quicksilver Elemental, not the Cudgel Troll it gained the ability from.\\ 
-例如：水银元素的部分异能为“{蓝}：水银元素获得目标生物的所有起动式异能直到回合结束。”如果它获得一个异能“{绿}：重生棍棒巨魔。”，起动该异能将会重生水银元素，而非他所获得异能的棍棒巨魔。
+例如：水银元素的部分异能为“{U}：水银元素获得目标生物的所有起动式异能直到回合结束。”如果它获得一个异能“{G}：重生棍棒巨魔。”，起动该异能将会重生水银元素，而非他所获得异能的棍棒巨魔。
 
 Example: Glacial Ray is an instant with splice onto Arcane that says “Glacial Ray deals 2 damage to any target.” If it’s spliced onto a Kodama’s Reach, that Kodama’s Reach deals 2 damage to the target.\\ 
 例如：冰冻射线是一个具有通联古咒的瞬间，其叙述为“冰冻射线对任意一个目标造成2点伤害。”如果它被通联到木灵展势上，则这个木灵展势对该目标造成2点伤害。
 
 Example: Dimir Doppelganger says “{1}{U}{B}: Exile target creature card from a graveyard. Dimir Doppelganger becomes a copy of that card and gains this ability.” Dimir Doppelganger’s ability is activated targeting a Runeclaw Bear card. The Doppelganger becomes a copy of Runeclaw Bear and gains an ability that should be treated as saying “{1}{U}{B}: Exile target creature card from a graveyard. Runeclaw Bear becomes a copy of that card and gains this ability.”\\ 
-例如：底密尔化妖的叙述为“{1}{蓝}{黑}：将目标生物牌从任一坟墓场放逐。底密尔化妖成为该牌的复制，并获得此异能。”底密尔化妖异能起动，以一张符爪熊牌为目标。底密尔化妖成为符爪熊的复制并获得一个异能，其叙述应看作“{1}{蓝}{黑}：将目标生物牌从任一坟墓场放逐。符爪熊成为该牌的复制，并获得此异能。”
+例如：底密尔化妖的叙述为“{1}{U}{B}：将目标生物牌从任一坟墓场放逐。底密尔化妖成为该牌的复制品，并获得此异能。”底密尔化妖异能起动，以一张符爪熊牌为目标。底密尔化妖成为符爪熊的复制品并获得一个异能，其叙述应看作“{1}{U}{B}：将目标生物牌从任一坟墓场放逐。符爪熊成为该牌的复制品，并获得此异能。”
 
 <BOOKMARK:cr201-5c>201.5c Text printed on some cards refers to that card by a shortened version of its name. Instances of a card’s shortened name used in this manner are treated as though they used the card’s full name.\\ 
 201.5c 一些牌上所印的文字中提及该牌时使用了简称。在此情况下使用一张牌的简称应被视为使用该牌的全名。
@@ -151,16 +151,16 @@ Example: A mana cost of {3}{U}{U} translates to a mana value of 5.\\
 202.3a 没有法术力费用的物件，其法术力值为0，除非该物件是转化式双面永久物的背面、或是已融合的永久物。
 
 <BOOKMARK:cr202-3b>202.3b The mana value of a transforming double-faced permanent or spell’s back face is calculated as though it had the mana cost of its front face. If a permanent or spell is a copy of the back face of a transforming double-faced card (even if the card representing that copy is itself a double-faced card), the mana value of the copy is 0.\\ 
-202.3b 在计算转化式双面永久物或咒语背面的法术力值时，视为其具有正面的法术力费用。如果某永久物或咒语是一张转化式双面牌背面的复制，该复制品的法术力值为0（即使作为复制的牌本身也是一张双面牌）。
+202.3b 在计算转化式双面永久物或咒语背面的法术力值时，视为其具有正面的法术力费用。如果某永久物或咒语是一张转化式双面牌背面的复制品，该复制品的法术力值为0（即使作为复制品的牌本身也是一张双面牌）。
 
 Example: Huntmaster of the Fells is a transforming double-faced card with mana cost {2}{R}{G}. Its mana value is 4. After it transforms to its other face (Ravager of the Fells), its mana value remains 4.\\ 
 例如：堕者猎师是一张转化式双面牌，其法术力费用为{2}{R}{G}。其法术力值为4。当它转化到另一面（堕者噬兽）时，其法术力值仍是4。
 
 Example: A Clone enters the battlefield as a copy of Ravager of the Fells. Its mana value is 0.\\ 
-例如：一个仿生妖作为堕者噬兽的复制进入战场。其法术力值为0。
+例如：一个仿生妖作为堕者噬兽的复制品进入战场。其法术力值为0。
 
 Example: Insectile Aberration is the back face of a transforming double-faced card whose front face has mana cost {U}. It becomes a copy of Ravager of the Fells. Its mana value becomes 0.\\ 
-例如：昆虫变体是一张转化式双面牌的背面，其正面的法术力费用是{U}。它成为堕者噬兽的复制。其法术力值成为0。
+例如：昆虫变体是一张转化式双面牌的背面，其正面的法术力费用是{U}。它成为堕者噬兽的复制品。其法术力值成为0。
 
 <BOOKMARK:cr202-3c>202.3c The mana value of a melded permanent is calculated as though it had the combined mana cost of the front faces of each card that represents it. If a permanent is a copy of a melded permanent (even if that copy is represented by two other meld cards), the mana value of the copy is 0.\\ 
 202.3c 已融合的永久物之法术力值为表示该永久物之正面两张牌之法术力值的总和。如果某永久物复制了已融合的永久物，则复制品的法术力值为0（即使该复制品是由另外两张融合牌所表示也是一样）。参见规则[[cr:2#cr202-3c|202.3c]]。
@@ -211,31 +211,31 @@ Example: The mana value of a card with mana cost {1}{W/P}{W/P} is 3.\\
 205. 类别栏
 
 <BOOKMARK:cr205-1>205.1. The type line is printed directly below the illustration. It contains the card’s card type(s). It also contains the card’s subtype(s) and supertype(s), if applicable.\\ 
-205.1. 类别栏印在图片的下方。它包含牌的牌类别。它还包含牌的超类别和副类别（如果有的话）。
+205.1. 类别栏印在图片的下方。它包含牌的牌张类别。它还包含牌的超类别和副类别（如果有的话）。
 
 <BOOKMARK:cr205-1a>205.1a Some effects set an object’s card type. In most such cases, the new card type(s) replaces any existing card types. However, an object with either the instant or sorcery card type retains that type. Counters, stickers, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.\\ 
-205.1a 一些效应会改变物件的牌类别。在大多数情况下，新的牌类别会取代所有原本的类别。但是，具有瞬间或法术牌类别的物件会保留该类别。指示物、贴纸、效应，以及该物件上所标记的伤害依然保留，即使它们对新的类别没有任何意义。同样的，当物件的副类别改变时，新的副类别会取代相对应的同类副类别（生物类别、地类别、神器类别、结界类别、鹏洛客类别，或咒语类别）。如果一个物件的牌类别被移除，该物件的所有副类别只有在它同样属于该物件现有牌类别的情况下保留；否则它们会在该物件的牌类别被移除的过程中同样被移除。移除物件的副类别不会影响到该物件的牌类别。
+205.1a 一些效应会改变物件的牌张类别。在大多数情况下，新的牌张类别会取代所有原本的类别。但是，具有瞬间或法术牌张类别的物件会保留该类别。指示物、贴纸、效应，以及该物件上所标记的伤害依然保留，即使它们对新的类别没有任何意义。同样的，当物件的副类别改变时，新的副类别会取代相对应的同类副类别（生物类别、地类别、神器类别、结界类别、鹏洛客类别，或咒语类别）。如果一个物件的牌张类别被移除，该物件的所有副类别只有在它同样属于该物件现有牌张类别的情况下保留；否则它们会在该物件的牌张类别被移除的过程中同样被移除。移除物件的副类别不会影响到该物件的牌张类别。
 
-<BOOKMARK:cr205-1b>205.1b Some effects change an object’s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object’s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase “in addition to its types” or that state that something is “still a [type, supertype, or subtype].” Some effects state that an object becomes an “artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes. Some effects state that an object becomes a “[creature type or types] artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes other than creature types, but replace any existing creature types.\\ 
-205.1b 一些效应会改变物件的牌类别、超类别，或副类别，但依然保留其原先的某些牌类别、超类别或副类别。在此情况下，所有该物件原本的类别、超类别与副类别均会保留。此规则适用于“额外具有类别”的效应，或是注明该物件“仍然是[牌类别]”。一些效应令物件成为“神器生物”；此效应同样允许该物件保留所有原有的牌类别与副类别。一些效应令物件成为“[生物类别]神器生物”；此效应同样允许该物件保留所有原有的牌类别与生物类别之外的副类别，但原有的生物类别会被替换。
+<BOOKMARK:cr205-1b>205.1b Some effects change an object’s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object’s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use phrases such as “in addition to its other types” or that state that something is “still a [type, supertype, or subtype].” Some effects state that an object becomes an “artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes. Some effects state that an object becomes a “[creature type or types] artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes other than creature types, but replace any existing creature types.\\ 
+205.1b 一些效应会改变物件的牌张类别、超类别，或副类别，但依然保留其原先的某些牌张类别、超类别或副类别。在此情况下，所有该物件原本的类别、超类别与副类别均会保留。此规则适用于诸如“且仍具有原本类别”的效应（译注：中文版中此叙述有另一种译法：“额外具有[类别]此类别”），或是注明该物件“仍然是[类别]”。一些效应令物件成为“神器生物”；此效应同样允许该物件保留所有原有的牌张类别与副类别。一些效应令物件成为“[生物类别]神器生物”；此效应同样允许该物件保留所有原有的牌张类别与生物类别之外的副类别，但原有的生物类别会被替换。
 
 Example: An ability reads, “All lands are 1/1 creatures that are still lands.” The affected lands now have two card types: creature and land. If there were any lands that were also artifacts before the ability’s effect applied to them, those lands would become “artifact land creatures,” not just “creatures,” or “land creatures.” The effect allows them to retain both the artifact and land card types. In addition, each land affected by the ability retains any land types and supertypes it had before the ability took effect.\\ 
-例如：某效应为“所有地都是1/1生物，且仍是地”。受此效应影响的地具有两个牌类别：生物和地。若在此效应影响之前，某些地已具有神器的类别，则这些地会成为“神器地生物”，而不只是“生物”或“地生物”。此效应使其保留神器和地的牌类别。此外，每个受此效应影响的地保留其在效应生效前具有的异能和超类别。
+例如：某效应为“所有地都是1/1生物，且仍是地”。受此效应影响的地具有两种牌张类别：生物和地。若在此效应影响之前，某些地已具有神器的类别，则这些地会成为“神器地生物”，而不只是“生物”或“地生物”。此效应使其保留神器和地的牌张类别。此外，每个受此效应影响的地保留其在效应生效前具有的异能和超类别。
 
 Example: An ability reads, “All artifacts are 1/1 artifact creatures.” If a permanent is both an artifact and an enchantment, it will become an artifact enchantment creature.\\ 
 例如：某异能为“所有神器都是1/1的神器生物”。如果一个永久物既是神器又是结界，它将成为“神器结界生物”。
 
 <BOOKMARK:cr205-2>205.2. Card Types\\ 
-205.2. 牌类别
+205.2. 牌张类别
 
 <BOOKMARK:cr205-2a>205.2a The card types are artifact, battle, conspiracy, creature, dungeon, enchantment, instant, kindred, land, phenomenon, plane, planeswalker, scheme, sorcery, and vanguard. See section 3, “Card Types.”\\ 
-205.2a 牌类别包括神器、战役、诡局、生物、地城、结界、瞬间、亲缘、地、异象、时空、鹏洛客、阴谋、法术，以及先锋。参见[[cr:3|第3章]]，“牌类别”。
+205.2a 牌张类别包括神器、战役、诡局、生物、地城、结界、瞬间、亲缘、地、异象、时空、鹏洛客、阴谋、法术，以及先锋。参见[[cr:3|第3章]]，“牌张类别”。
 
 <BOOKMARK:cr205-2b>205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.\\ 
-205.2b 一些物件具有多种牌类别（例如，神器生物）。任何会影响到其中任一牌类别的效应，都会影响到此物件。
+205.2b 一些物件具有多种牌张类别（例如，神器生物）。任何会影响到其中任一牌张类别的效应，都会影响到此物件。
 
 <BOOKMARK:cr205-2c>205.2c Tokens have card types even though they aren’t cards. The same is true of copies of spells and copies of cards.\\ 
-205.2c 衍生物虽然不是牌但具有牌类别。咒语的复制和牌的复制亦是如此。
+205.2c 衍生物虽然不是牌但具有牌张类别。咒语的复制品和牌的复制品亦是如此。
 
 <BOOKMARK:cr205-3>205.3. Subtypes\\ 
 205.3. 副类别
@@ -244,22 +244,22 @@ Example: An ability reads, “All artifacts are 1/1 artifact creatures.” If a 
 205.3a 牌可以在其类别栏上印有一种或多种副类别。
 
 <BOOKMARK:cr205-3b>205.3b Subtypes of each card type except creature and plane are always single words and are listed after a long dash. Each word after the dash is a separate subtype. Subtypes of creature cards are one or two words and are listed after a long dash. Each word or two-word phrase, as listed in rule 205.3m, is a separate subtype. Objects other than planes may have multiple subtypes. Subtypes of planes are also listed after a long dash, but may be multiple words; all words after the dash are, collectively, a single subtype.\\ 
-205.3b 生物及时空以外的牌类别所具有的副类别都是单独的一个英文单词，在一条长横线后列出。此横线后面的每一个单词都分别是一个副类别。生物牌所具有的副类别可能是一个或两个英文单词，在一条长横线后列出。规则[[cr:2#cr205-3m|205.3m]]中列出的每一个单词或词组都分别是一个副类别。除时空外的物件可以有多个副类别。时空的副类别同样在长横线后列出，但可能为数个英文单词。在长横线后的单词为一个单一的副类别。（译注：中文版之副类别都是单独的一个词，且接在“～”符号后面；各个副类别中间以“/”符号区隔。）
+205.3b 生物及时空以外的牌张类别所具有的副类别都是单独的一个英文单词，在一条长横线后列出。此横线后面的每一个单词都分别是一种副类别。生物牌所具有的副类别可能是一个或两个英文单词，在一条长横线后列出。规则[[cr:2#cr205-3m|205.3m]]中列出的每一个单词或词组都分别是一种副类别。除时空外的物件可以有多种副类别。时空的副类别同样在长横线后列出，但可能为数个英文单词。在长横线后的单词为一个单一的副类别。（译注：中文版之副类别都是单独的一个词，且接在“～”符号后面；各副类别中间以“／”符号区隔。）
 
 Example: “Basic Land — Mountain” means the card is a land with the subtype Mountain. “Creature — Goblin Wizard” means the card is a creature with the subtypes Goblin and Wizard. “Artifact — Equipment” means the card is an artifact with the subtype Equipment.\\ 
-例如：“基本地～山脉”意指该牌是具有山脉这个副类别的地。“生物～鬼怪／法术师”意指该牌是同时具有鬼怪和法术师两个副类别的生物。“神器～武具”意指该牌是具有武具这个副类别的神器。
+例如：“基本地～山脉”意指该牌是具有山脉此副类别的地。“生物～鬼怪／法术师”意指该牌是同时具有鬼怪和法术师两种副类别的生物。“神器～武具”意指该牌是具有武具此副类别的神器。
 
 <BOOKMARK:cr205-3c>205.3c If a card with multiple card types has one or more subtypes, each subtype is correlated to its appropriate card type.\\ 
-205.3c 如果一张牌有多种类别，且有一种或多种副类别，则每个副类别都只与其对应的牌类别有关联。
+205.3c 如果一张牌有多种类别，且有一种或多种副类别，则每种副类别都只与其对应的牌张类别有关联。
 
 Example: Dryad Arbor’s type line says “Land Creature — Forest Dryad.” Forest is a land type, and Dryad is a creature type.\\ 
-例如：树灵乔木的类别为“地生物～树林／树灵”。树林是一个地类别，树灵是一个生物类别。
+例如：树灵乔木的类别为“地生物～树林／树灵”。树林是一种地类别，树灵是一种生物类别。
 
 <BOOKMARK:cr205-3d>205.3d An object can’t gain a subtype that doesn’t correspond to one of that object’s types.\\ 
 205.3d 一个物件不能得到不对应该物件任何类别的副类别。
 
 <BOOKMARK:cr205-3e>205.3e If an effect instructs a player to choose a subtype, that player must choose one, and only one, existing subtype, and the subtype must be for the appropriate card type. For example, the player can’t choose a land type if an instruction requires choosing a creature type.\\ 
-205.3e 如果一个叙述要求牌手选择一种副类别，则其必须而且只能选择一种已存在的副类别，且该选择必须符合该牌类别。例如，若某叙述要求牌手选择一种生物类别，则其不能选择地类别中的一种。
+205.3e 如果一个叙述要求牌手选择一种副类别，则其必须而且只能选择一种已存在的副类别，且该选择必须符合该牌张类别。例如，若某叙述要求牌手选择一种生物类别，则其不能选择地类别中的一种。
 
 Example: When choosing a creature type, “Merfolk” or “Wizard” is acceptable, but “Merfolk Wizard” is not. Words like “artifact,” “opponent,” “Swamp,” or “truck” can’t be chosen because they aren’t creature types.\\ 
 例如：当选择一种生物类别时，可以选择“人鱼”或者“法术师”，但是不能选择“人鱼／法术师”。不能选择类似“神器”、“对手”、“沼泽”，或者“卡车”等等，是因为它们不是生物类别。
@@ -282,14 +282,14 @@ Example: When choosing a creature type, “Merfolk” or “Wizard” is accepta
 <BOOKMARK:cr205-3k>205.3k Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Adventure, Arcane, Lesson, and Trap.\\ 
 205.3k 瞬间和法术共享副类别；这些副类别被称为咒语类别。咒语类别包括历险、古咒、课程，以及陷阱。
 
-<BOOKMARK:cr205-3m>205.3m Creatures and kindreds share their lists of subtypes; these subtypes are called creature types. One creature type is two words long: Time Lord. All other creature types are one word long: Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Varmint, Vedalken, Volver, Wall, Walrus, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.\\ 
-205.3m 生物和亲缘共享其副类别列表；这些副类别被称为生物类别。一个生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人[Alien]、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、奴兽、德鲁伊、树灵、矮人、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、石像鬼、病菌、巨人、吉斯人、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、访客[Guest]、巫婆、半身人、仓鼠、哈痞、地狱兽、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、骆马、拉弥亚、拉玛苏、蛭、海怪、拉高耶夫、立吸怪、蜥蜴、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、豪猪、负鼠、魔判官、原体、棱镜、噬体、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、雕像[Sculpture]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、塞连、骷髅妖、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、乌贼、松鼠、海星、苏拉卡、幸存者[Survivor]、合成人、触手、四分节[Tetravite]、萨拉卡斯[Thalakos]、振翼机、索尔兽、魔人、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、吸血鬼、害兽、维多肯、进化体、墙、海象、邪术师、战士、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑、无面鬼。
+<BOOKMARK:cr205-3m>205.3m Creatures and kindreds share their lists of subtypes; these subtypes are called creature types. One creature type is two words long: Time Lord. All other creature types are one word long: Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Skunk, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Varmint, Vedalken, Volver, Wall, Walrus, Warlock, Warrior, Weasel, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.\\ 
+205.3m 生物和亲缘共享其副类别列表；这些副类别被称为生物类别。有一种生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人[Alien]、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、奴兽、德鲁伊、树灵、矮人、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、石像鬼、病菌、巨人、吉斯人、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、访客[Guest]、巫婆、半身人、仓鼠、哈痞、地狱兽、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、骆马、拉弥亚、拉玛苏、蛭、海怪、拉高耶夫、立吸怪、蜥蜴、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、豪猪、负鼠、魔判官、原体、棱镜、噬体、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、雕像[Sculpture]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、塞连、骷髅妖、臭鼬、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、乌贼、松鼠、海星、苏拉卡、幸存者[Survivor]、合成人、触手、四分节[Tetravite]、萨拉卡斯[Thalakos]、振翼机、索尔兽、魔人、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、吸血鬼、害兽、维多肯、进化体、墙、海象、邪术师、战士、白鼬、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑、无面鬼。
 
 <BOOKMARK:cr205-3n>205.3n Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are The Abyss, Alara, Alfava Metraxis, Amonkhet, Androzani Minor, Antausia, Apalapucia, Arcavios, Arkhos, Azgol, Belenon, Bolas’s Meditation Realm, Capenna, Cridhe, The Dalek Asylum, Darillium, Dominaria, Earth, Echoir, Eldraine, Equilor, Ergamon, Fabacin, Fiora, Gallifrey, Gargantikar, Gobakhan, Horsehead Nebula, Ikoria, Innistrad, Iquatana, Ir, Ixalan, Kaladesh, Kaldheim, Kamigawa, Kandoka, Karsus, Kephalai, Kinshala, Kolbahan, Kylem, Kyneth, The Library, Lorwyn, Luvion, Mars, Mercadia, Mirrodin, Moag, Mongseng, Moon, Muraganda, Necros, New Earth, New Phyrexia, Outside Mutter’s Spiral, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra’s Realm, Shadowmoor, Shandalar, Shenmeng, Skaro, Spacecraft, Tarkir, Theros, Time, Trenzalore, Ulgrotha, Unknown Planet, Valla, Vryn, Wildfire, Xerex, Zendikar, and Zhalfir.\\ 
 205.3n 时空具有其特有的副类别，这些副类别被称为时空类别。时空类别包括邃狱、阿拉若、[Alfava Metraxis]、阿芒凯、[Androzani Minor]、安陶西亚、[Apalapucia]、阿凯维沃、[Arkhos]、阿兹戈尔[Azgol]、贝列侬[Belenon]、波拉斯冥想域[Bolas’s Meditation Realm]、卡佩纳、克莱哲、[The Dalek Asylum]、[Darillium]、多明纳里亚、地球[Earth]、埃圭尔、艾卓、埃奎罗、厄加蒙、法巴辛、翡欧拉、[Gallifrey]、庞巨地、高巴汗、[Horsehead Nebula]、依克黎、依尼翠、伊夸塔纳、伊尔、依夏兰、卡拉德许、凯德海姆、神河、[Kandoka]、卡瑟斯[Karsus]、喀法莱[Kephalai]、[Kinshala]、[Kolbahan]、凯勒姆、[Kyneth]、[The Library]、洛温、[Luvion]、火星[Mars]、玛凯迪亚[Mercadia]、秘罗地、墨格[Moag]、蒙森、月球[Moon]、莫甘达[Muraganda]、[Necros]、[New Earth]、新非瑞克西亚、[Outside Mutter's Spiral]、非瑞克西亚[Phyrexia]、派鲁利亚[Pyrulea]、拉比耶[Rabiah]、瑞斯、拉尼卡、瑞格沙[Regatha]、塞哥维亚[Segovia]、撒拉的圣域[Serra’s Realm]、暗影荒原[Shadowmoor]、山德拉[Shandalar]、蜃梦、[Skaro]、[Spacecraft]、鞑契、塞洛斯、[Time]、[Trenzalore]、厄格罗沙[Ulgrotha]、[Unknown Planet]、瓦拉[Valla]、维林[Vryn]、[Wildfire]、兹雷兹[Xerex]、赞迪卡、赛费尔。
 
 <BOOKMARK:cr205-3p>205.3p One dungeon card (Undercity) has a subtype; this subtype is called a dungeon type. That dungeon type is Undercity.\\ 
-205.3p 一张地城牌（地底城）具有副类别；这个副类别被称为地城类别。该地城类别是地底城。
+205.3p 一张地城牌（地底城）具有副类别；此副类别被称为地城类别。该地城类别是地底城。
 
 <BOOKMARK:cr205-3q>205.3q Battles have a unique subtype, called a battle type. That battle type is Siege.\\ 
 205.3q 战役具有其特有的副类别，这些副类别被称为战役类别。战役类别包括围攻。
@@ -301,10 +301,10 @@ Example: When choosing a creature type, “Merfolk” or “Wizard” is accepta
 205.4. 超类别
 
 <BOOKMARK:cr205-4a>205.4a An object can have one or more supertypes. A card’s supertypes are printed directly before its card types. The supertypes are basic, legendary, ongoing, snow, and world.\\ 
-205.4a 一个物件可以同时拥有一个或数个超类别。一张牌的超类别印在它的牌类别之前。超类别包括基本、传奇、雪境、持续、普世。
+205.4a 一个物件可以同时拥有一种或数种超类别。一张牌的超类别印在它的牌张类别之前。超类别包括基本、传奇、雪境、持续、普世。
 
 <BOOKMARK:cr205-4b>205.4b An object’s supertype is independent of its card type and subtype, even though some supertypes are closely identified with specific card types. Changing an object’s card types or subtypes won’t change its supertypes. Changing an object’s supertypes won’t change its card types or subtypes. When an object gains or loses a supertype, it retains any other supertypes it had.\\ 
-205.4b 一个物件的超类别与其牌类别和副类别无关，即使一些超类别与某些牌类别有紧密的关联。改变物件的牌类别或副类别并不会影响到其超类别。改变物件的超类别不会影响到其牌类别或副类别。当物件得到或失去超类别时，它会保留其他的超类别。
+205.4b 一个物件的超类别与其牌张类别和副类别无关，即使一些超类别与某些牌张类别有紧密的关联。改变物件的牌张类别或副类别并不会影响到其超类别。改变物件的超类别不会影响到其牌张类别或副类别。当物件得到或失去超类别时，它会保留其他的超类别。
 
 Example: An ability reads, “All lands are 1/1 creatures that are still lands.” If any of the affected lands were legendary, they are still legendary.\\ 
 例如：某异能为“所有地都是1/1的生物，且仍是地”。若在此效应影响之前，某些地已经为传奇，则这些地依旧为传奇。
@@ -374,8 +374,8 @@ Cards printed in sets prior to the Eighth Edition core set didn’t use the word
 <BOOKMARK:cr207-2b>207.2b Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It usually appears below the rules text.\\ 
 207.2b 背景叙述以斜体字方式印刷，用来发展游戏的意境，功效有如图片。它通常印在规则叙述的下方。
 
-<BOOKMARK:cr207-2c>207.2c An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are adamant, addendum, alliance, battalion, bloodrush, celebration, channel, chroma, cohort, constellation, converge, council’s dilemma, coven, delirium, descend 4, descend 8, domain, eminence, enrage, fateful hour, fathomless descent, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, magecraft, metalcraft, morbid, pack tactics, paradox, parley, radiance, raid, rally, revolt, secret council, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.\\ 
-207.2c 牌上的一些异能以斜体字方式的异能提示开头。异能提示与关键字相似，它们将一些运作方式类似的牌归为一类，但是它们没有特殊的规则含义，且在完整规则中也没有独自的章节。异能提示包括固色、附案、联手、协战、血激、欢庆、魂力、渲色、齐力、星彩、聚辉、议争、鸠集、躁狂、落坟4、落坟8、领土、威仪、激怒、命悬一刻、落坟无边、威猛、强横、声威、背水战、勇行、压印、启悟、携手、血族、地落、副官、魔艺、金技、丧心、集群战术、悖论、论争、辉耀、突击、奋扬、反抗、密议、精熟咒语、积力、扫平、诱引、门槛、朽力、议定。
+<BOOKMARK:cr207-2c>207.2c An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are adamant, addendum, alliance, battalion, bloodrush, celebration, channel, chroma, cohort, constellation, converge, council’s dilemma, coven, delirium, descend 4, descend 8, domain, eminence, enrage, fateful hour, fathomless descent, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, magecraft, metalcraft, morbid, pack tactics, paradox, parley, radiance, raid, rally, revolt, secret council, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, valiant, and will of the council.\\ 
+207.2c 牌上的一些异能以斜体字方式的异能提示开头。异能提示与关键字相似，它们将一些运作方式类似的牌归为一类，但是它们没有特殊的规则含义，且在完整规则中也没有独自的章节。异能提示包括固色、附案、联手、协战、血激、欢庆、魂力、渲色、齐力、星彩、聚辉、议争、鸠集、躁狂、落坟4、落坟8、领土、威仪、激怒、命悬一刻、落坟无边、威猛、强横、声威、背水战、勇行、压印、启悟、携手、血族、地落、副官、魔艺、金技、丧心、集群战术、悖论、论争、辉耀、突击、奋扬、反抗、密议、精熟咒语、积力、扫平、诱引、门槛、朽力、英武、议定。
 
 <BOOKMARK:cr207-2d>207.2d Similar to ability words, flavor words appear in italics at the beginning of some abilities. Flavor words provide a flavorful description of abilities, but they have no special rules meaning and are not listed in the Comprehensive Rules. While an ability word ties together several abilities with similar functionality, each flavor word is tailored to the specific ability it appears with.\\ 
 207.2d 与异能提示类似，风味提示以斜体字方式出现在一些异能的开头。风味提示使得异能的叙述更显鲜活，但是它们本身没有特殊的规则含义，且在完整规则中也没有独自的章节。
@@ -400,13 +400,13 @@ Cards printed in sets prior to the Eighth Edition core set didn’t use the word
 208.2. 一些生物牌的力量和/或防御力包括星号（*）而不是数字表示。
 
 <BOOKMARK:cr208-2a>208.2a The card may have a characteristic-defining ability that sets its power and/or toughness according to some stated condition. (See rule 604.3.) Such an ability is worded “[This creature’s] [power or toughness] is equal to . . .” or “[This creature’s] power and toughness are each equal to . . .” This ability functions everywhere, even outside the game. If the ability needs to use a number that can’t be determined, including inside a calculation, use 0 instead of that number.\\ 
-208.2a 一些牌具有特征定义异能，其根据一些状态设定它的力量和/或防御力。（参见规则[[cr:6#cr604-3|604.3]]。）此类异能为“[此生物的][力量或防御力]等于…”或“[此生物的]力量和防御力各等于…”。此类异能在所有地方均生效，即使在游戏外。如果该异能需要使用的数字不能确定，则以0来代替。
+208.2a 一些牌具有特征定义异能，其根据一些状态设定它的力量和/或防御力。（参见规则[[cr:6#cr604-3|604.3]]。）此类异能为“[此生物的][力量或防御力]等同于…”或“[此生物的]力量和防御力各等同于…”。此类异能在所有地方均生效，即使在游戏外。如果该异能需要使用的数字不能确定，则以0来代替。
 
-Example: Lost Order of Jarkeld has power and toughness each equal to 1+*. It has the abilities “As Lost Order of Jarkeld enters the battlefield, choose an opponent” and “Lost Order of Jarkeld’s power and toughness are each equal to 1 plus the number of creatures the chosen player controls.” While Lost Order of Jarkeld isn’t on the battlefield, there won’t be a chosen player. Its power and toughness will each be equal to 1 plus 0, so it’s 1/1.\\ 
-例如：杰卡失落骑士团[Lost Order of Jarkeld]的力量和防御力各等于1+*。它的叙述为“当杰卡失落骑士团进战场时，选择一位对手”和“杰卡失落骑士团的力量和防御力各等于1加该对手所操控的生物数量”。当杰卡失落骑士团不在战场时，它将没有选择任何对手。其力量和防御力各等于1加0，所以它是1/1。
+Example: Lost Order of Jarkeld has power and toughness each equal to 1+*. It has the abilities “As Lost Order of Jarkeld enters, choose an opponent” and “Lost Order of Jarkeld’s power and toughness are each equal to 1 plus the number of creatures the chosen player controls.” While Lost Order of Jarkeld isn’t on the battlefield, there won’t be a chosen player. Its power and toughness will each be equal to 1 plus 0, so it’s 1/1.\\ 
+例如：杰卡失落骑士团[Lost Order of Jarkeld]的力量和防御力各等于1+*。它的叙述为“于杰卡失落骑士团进场时，选择一位对手”和“杰卡失落骑士团的力量和防御力各等同于由该牌手操控的生物数量加1”。当杰卡失落骑士团不在战场时，它将没有选择任何对手。其力量和防御力各等于1加0，所以它是1/1。
 
-<BOOKMARK:cr208-2b>208.2b The card may have a static ability that creates a replacement effect that sets the creature’s power and toughness to one of a number of specific values as it enters the battlefield or is turned face up. (See rule 614, “Replacement Effects.”) Such an ability is worded “As [this creature] enters the battlefield . . . ,” “As [this creature] is turned face up . . . ,” or “[This creature] enters the battlefield as . . .” and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen or determined with these effects affect the creature’s copiable values. (See rule 707.2.) While the card isn’t on the battlefield, its power and toughness are each considered to be 0.\\ 
-208.2b 牌可能具有静止式异能，当该生物进入战场或翻回正面时创造替代性效应，将该生物的力量和防御力设定为某个数值。（参见规则[[cr:6#cr614|614]]，“替代性效应”。）此类异能为“于[此生物]进入战场时…”、“于[此生物]翻回正面时”，或“[此生物]当成…进入战场”，然后列出两个或以上特定的力量和防御力数值（且或许有其他特征）。这些效应所选择或确定的特征影响该生物的可复制值。（参见规则[[cr:7#cr707-2|707.2]]。）该牌不在战场时的力量和防御力视同0。
+<BOOKMARK:cr208-2b>208.2b The card may have a static ability that creates a replacement effect that sets the creature’s power and toughness to one of a number of specific values as it enters the battlefield or is turned face up. (See rule 614, “Replacement Effects.”) Such an ability is worded “As [this creature] enters . . . ,” “As [this creature] is turned face up . . . ,” or “[This creature] enters as . . .” and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen or determined with these effects affect the creature’s copiable values. (See rule 707.2.) While the card isn’t on the battlefield, its power and toughness are each considered to be 0.\\ 
+208.2b 牌可能具有静止式异能，当该生物进入战场或翻回正面时创造替代性效应，将该生物的力量和防御力设定为某个数值。（参见规则[[cr:6#cr614|614]]，“替代性效应”。）此类异能为“于[此生物]进场时…”、“于[此生物]翻回正面时”或“[此生物]进场时是…”，然后列出两个或以上特定的力量和防御力数值（且或许有其他特征）。这些效应所选择或确定的特征影响该生物的可复制特征值。（参见规则[[cr:7#cr707-2|707.2]]。）该牌不在战场时的力量和防御力视同0。
 
 <BOOKMARK:cr208-3>208.3. A noncreature permanent has no power or toughness, even if it’s a card with a power and toughness printed on it (such as a Vehicle). A noncreature object not on the battlefield has power or toughness only if it has a power and toughness printed on it.\\ 
 208.3. 即使牌上印有力量与防御力，非生物永久物不具有力量与防御力（例如载具）。除非其上印有力量与防御力，否则不在战场上的非生物物件不具有力量与防御力。
@@ -490,6 +490,6 @@ Example: Veteran Motorist has the ability “Whenever Veteran Motorist crews a V
 
 
 
-[[:完整规则|返回完整规则目录]] | [[cr:1|第一章 - 游戏概念 Game Concepts]] | [[cr:3|第三章 - 牌类别 Card Types]]
+[[:完整规则|返回完整规则目录]] | [[cr:1|第一章 - 游戏概念 Game Concepts]] | [[cr:3|第三章 - 牌张类别 Card Types]]
 
 {{page>:规则和文档索引&nofooter}}
