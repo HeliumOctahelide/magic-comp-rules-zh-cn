@@ -3650,7 +3650,7 @@ Example: Fire//Ice’s mana cost is {2}{U}{R}. It has the same mana cost as Stea
 709.4d 堆叠上的已融咒的连体咒语之特征亦是其两边特征的综合（参见规则[[cr:7#cr702-102|702.102]]，“融咒”）。
 
 <BOOKMARK:cr709-5>709.5. Some split cards are permanent cards with a single shared type line. A shared type line on such an object represents two static abilities that function on the battlefield. These are “As long as this permanent doesn’t have the ‘left half unlocked’ designation, it doesn’t have the name, mana cost, or rules text of this object’s left half” and “As long as this permanent doesn’t have the ‘right half unlocked’ designation, it doesn’t have the name, mana cost, or rules text of this object’s right half.” These abilities, as well as which half of that permanent a characteristic is in, are part of that object’s copiable values.\\ 
-709.5. 一些连体牌是永久物牌，其两边共享一个类别栏。此类物件上的共享类别栏代表两个在战场上生效的静止式异能：“只要此永久物不具有‘左边已解锁’此称号，它就没有此物件左边的名称、法术力费用或文字栏”以及“只要此永久物不具有‘右边已解锁’此称号，它就没有此物件右边的名称、法术力费用或文字栏”。这两个异能是互相独立的。这些异能，以及某特征属于该永久物的哪一边，都是该物件可复制特征值的一部分。
+709.5. 一些连体牌是永久物牌，其两边共享一个类别栏。此类物件上的共享类别栏代表两个在战场上生效的静止式异能：“只要此永久物不具有‘左边已解锁’此称号，它就没有此物件左边的名称、法术力费用或文字栏”以及“只要此永久物不具有‘右边已解锁’此称号，它就没有此物件右边的名称、法术力费用或文字栏”。这些异能，以及某特征属于该永久物的哪一边，都是该物件可复制特征值的一部分。
 
 <BOOKMARK:cr709-5a>709.5a Each half of a split card with a shared type line shares the types and subtypes listed on that card’s shared type line.\\ 
 709.5a 具有共享类别栏的连体牌的每一边都会共享该牌类别栏上列出的类别和副类别。
