@@ -1,6 +1,6 @@
 # 目录
 
-*此规则于2024年7月30日起生效。*
+*此规则于2024年9月20日起生效。*
 
 [前言](./intro)
 
@@ -61,7 +61,7 @@
   - [311. 时空 Planes](./3#cr311)  
   - [312. 异象 Phenomena](./3#cr312)  
   - [313. 先锋 Vanguards](./3#cr313)  
-  - [314. 阴谋 Schemes](./3#cr314)  
+  - [314. 邪计 Schemes](./3#cr314)  
   - [315. 诡局 Conspiracies](./3#cr315)  
 
 - [第四章 - 区域 Zones](./4)
@@ -169,5 +169,7 @@
 
 
 词汇表 Glossary - [按英文首字母排序](./glossary) | [按拼音首字母排序](./glossarycn)
+
+[暂译名称列表](./translatedterms)
 
 [版权信息](./credits)

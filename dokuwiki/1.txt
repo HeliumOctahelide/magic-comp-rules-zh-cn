@@ -488,8 +488,8 @@ Example: Chameleon Colossus is a 4/4 creature with the ability “{2}{G}{G}: Cha
 <BOOKMARK:cr107-3p>107.3p Some objects use the letter Y in addition to the letter X. Y follows the same rules as X.\\ 
 107.3p 一些物件上除了会使用字母X以外还会额外使用字母Y。Y遵循于X相同的规则。
 
-<BOOKMARK:cr107-4>107.4. The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; the hybrid Phyrexian symbols {W/U/P}, {W/B/P}, {U/B/P}, {U/R/P}, {B/R/P}, {B/G/P}, {R/G/P}, {R/W/P}, {G/W/P}, and {G/U/P}; and the snow mana symbol {S}.\\ 
-107.4. 法术力符号包括{W}、{U}、{B}、{R}、{G}和{C}；数字符号{0}、{1}、{2}、{3}、{4}，依此类推；可变数值符号{X}；混血符号{W/U}、{W/B}、{U/B}、{U/R}、{B/R}、{B/G}、{R/G}、{R/W}、{G/W}和{G/U}；单色混血符号{2/W}、{2/U}、{2/B}、{2/R}和{2/G}；非瑞克西亚法术力符号{W/P}、{U/P}、{B/P}、{R/P}和{G/P}；混血非瑞克西亚法术力{W/U/P}、{W/B/P}、{U/B/P}、{U/R/P}、{B/R/P}、{B/G/P}、{R/G/P}、{R/W/P}、{G/W/P}和{G/U/P}；以及雪境法术力符号{S}。
+<BOOKMARK:cr107-4>107.4. The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, {2/G}, {C/W}, {C/U}, {C/B}, {C/R}, and {C/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; the hybrid Phyrexian symbols {W/U/P}, {W/B/P}, {U/B/P}, {U/R/P}, {B/R/P}, {B/G/P}, {R/G/P}, {R/W/P}, {G/W/P}, and {G/U/P}; and the snow mana symbol {S}.\\ 
+107.4. 法术力符号包括{W}、{U}、{B}、{R}、{G}和{C}；数字符号{0}、{1}、{2}、{3}、{4}，依此类推；可变数值符号{X}；混血符号{W/U}、{W/B}、{U/B}、{U/R}、{B/R}、{B/G}、{R/G}、{R/W}、{G/W}和{G/U}；单色混血符号{2/W}、{2/U}、{2/B}、{2/R}、{2/G}、{C/W}、{C/U}、{C/B}、{C/R}和{C/G}；非瑞克西亚法术力符号{W/P}、{U/P}、{B/P}、{R/P}和{G/P}；混血非瑞克西亚法术力{W/U/P}、{W/B/P}、{U/B/P}、{U/R/P}、{B/R/P}、{B/G/P}、{R/G/P}、{R/W/P}、{G/W/P}和{G/U/P}；以及雪境法术力符号{S}。
 
 <BOOKMARK:cr107-4a>107.4a There are five primary colored mana symbols: {W} is white, {U} blue, {B} black, {R} red, and {G} green. These symbols are used to represent colored mana, and also to represent colored mana in costs. Colored mana in costs can be paid only with the appropriate color of mana. See rule 202, “Mana Cost and Color.”\\ 
 107.4a 主要的有色法术力符号有五种：{W}为白色、{U}为蓝色、{B}为黑色、{R}为红色以及{G}为绿色。这些符号代表有色法术力，同时也代表费用中的有色法术力。费用中的有色法术力必须用相对应颜色的法术力来支付。参见规则[[cr:2#cr202|202]]，“法术力费用和颜色”。
@@ -503,8 +503,8 @@ Example: Chameleon Colossus is a 4/4 creature with the ability “{2}{G}{G}: Cha
 <BOOKMARK:cr107-4d>107.4d The symbol {0} represents zero mana and is used as a placeholder for a cost that can be paid with no resources. (See rule 118.5.)\\ 
 107.4d 符号{0}表示零点法术力，也表示无须任何资源便可支付的费用。（参见规则[[cr:1#cr118-5|118.5]]。）
 
-<BOOKMARK:cr107-4e>107.4e Hybrid mana symbols are also colored mana symbols. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.\\ 
-107.4e 混血法术力符号同样也是有色法术力符号。每个混血符号由两边组成，代表可以用两者之一来支付的费用。如一个{W/U}的混血符号可用白色法术力或是蓝色法术力来支付，而单色混血符号如{2/B}可以用一点黑色法术力或者两点任意法术力来支付。混血符号的颜色为其各部分包含的所有颜色。
+<BOOKMARK:cr107-4e>107.4e A hybrid mana symbol is also a colored mana symbol, even if one of its components is colorless. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.\\ 
+107.4e 混血法术力符号同样也是有色法术力符号，即使其中一边是无色。每个混血符号由两边组成，代表可以用两者之一来支付的费用。如一个{W/U}的混血符号可用白色法术力或是蓝色法术力来支付，而单色混血符号如{2/B}可以用一点黑色法术力或者两点任意法术力来支付。混血符号的颜色为其各部分包含的所有颜色。
 
 Example: {G/W}{G/W} can be paid by spending {G}{G}, {G}{W}, or {W}{W}.\\ 
 例如：{G/W}{G/W}可以使用{G}{G}、{G}{W}或{W}{W}来支付。
@@ -626,7 +626,7 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 109.1. 物件包括堆叠中的异能、牌、牌的复制品、衍生物、咒语、永久物或徽记。
 
 <BOOKMARK:cr109-2>109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t refer to a specific zone or include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.\\ 
-109.2. 如果咒语或异能使用类别或副类别描述物件，且并未提及某特定区域或未使用“牌”、“咒语”、“来源”或“阴谋”，它表示战场上该类别或副类别的永久物。
+109.2. 如果咒语或异能使用类别或副类别描述物件，且并未提及某特定区域或未使用“牌”、“咒语”、“来源”或“邪计”，它表示战场上该类别或副类别的永久物。
 
 <BOOKMARK:cr109-2a>109.2a If a spell or ability uses a description of an object that includes the word “card” and the name of a zone, it means a card matching that description in the stated zone.\\ 
 109.2a 如果咒语或异能使用“牌”一词描述物件，以及某区域的名称，它表示该区域中符合该描述的牌。
@@ -638,7 +638,7 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 109.2c 如果咒语或异能使用“来源”一词描述物件，它表示任何区域中符合该描述的来源——包括异能、伤害、或法术力的来源。参见规则[[cr:1#cr113-7|113.7]]和[[cr:6#cr609-7|609.7]]。
 
 <BOOKMARK:cr109-2d>109.2d If an ability of a scheme card includes the text “this scheme,” it means the scheme card in the command zone on which that ability is printed.\\ 
-109.2d 如果阴谋牌的异能包含叙述“此阴谋”，它表示统帅区中印有该异能的阴谋牌。
+109.2d 如果邪计牌的异能包含叙述“此邪计”，它表示统帅区中印有该异能的邪计牌。
 
 <BOOKMARK:cr109-3>109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, defense, hand modifier, and life modifier. Objects can have some or all of these characteristics. Any other information about an object isn’t a characteristic. For example, characteristics don’t include whether a permanent is tapped, a spell’s target, an object’s owner or controller, what an Aura enchants, and so on.\\ 
 109.3. 物件的特征包括名称、法术力费用、颜色、颜色标志、牌张类别、副类别、超类别、规则叙述、异能、力量、防御力、忠诚、布防、手牌修正和生命修正。物件可以拥有一些甚至全部这些特征。所有关于物件的其他信息均不是特征。例如，特征不包括永久物是否横置、咒语的目标、物件的拥有者或操控者、灵气所结附的对象等。
@@ -662,7 +662,7 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 109.4e 在先锋游戏中，每张先锋牌由其拥有者操控。参见规则[[cr:9#cr902-6|902.6]]。
 
 <BOOKMARK:cr109-4f>109.4f In an Archenemy game, each scheme card is controlled by its owner. See rule 904.7.\\ 
-109.4f 在魔王游戏中，每张阴谋牌由其拥有者操控。参见规则[[cr:9#cr904-7|904.7]]。
+109.4f 在魔王游戏中，每张邪计牌由其拥有者操控。参见规则[[cr:9#cr904-7|904.7]]。
 
 <BOOKMARK:cr109-4g>109.4g In a Conspiracy Draft game, each conspiracy card is controlled by its owner. See rule 905.5.\\ 
 109.4g 在诡局轮抽游戏中，每张诡局牌由其拥有者来操控。参见规则[[cr:9#cr905-5|905.5]]。
@@ -966,7 +966,7 @@ Example: Reassembling Skeleton says “{1}{B}: Return Reassembling Skeleton from
 113.6n 一个修改套牌构组规则的异能在游戏开始前便已运作。此类异能不仅修改此完整规则，并且影响万智牌比赛规则以及规定构组赛制中套牌构组的其他文件。但此类异能不会影响一张牌在玩法中是否可以用，包括它是否被禁用或限用。当前的万智牌比赛规则可以在[url]http://WPN.Wizards.com/en/resources/rules-documents[/url]找到。
 
 <BOOKMARK:cr113-6p>113.6p Abilities of emblems, plane cards, vanguard cards, scheme cards, and conspiracy cards function in the command zone. See rule 114, “Emblems”; rule 901, “Planechase”; rule 902, “Vanguard”; rule 904, “Archenemy”; and rule 905, “Conspiracy Draft.”\\ 
-113.6p 徽记、时空牌、先锋牌、阴谋牌、和诡局牌的异能在统帅区生效。参见规则[[cr:1#cr114|114]]，“徽记”；规则[[cr:9#cr901|901]]，“竞逐时空”；规则[[cr:9#cr902|902]]，“先锋”；规则[[cr:9#cr904|904]]，“魔王”；以及规则[[cr:9#cr905|905]]，“诡局轮抽”。
+113.6p 徽记、时空牌、先锋牌、邪计牌、和诡局牌的异能在统帅区生效。参见规则[[cr:1#cr114|114]]，“徽记”；规则[[cr:9#cr901|901]]，“竞逐时空”；规则[[cr:9#cr902|902]]，“先锋”；规则[[cr:9#cr904|904]]，“魔王”；以及规则[[cr:9#cr905|905]]，“诡局轮抽”。
 
 <BOOKMARK:cr113-7>113.7. The source of an ability is the object that generated it. The source of an activated ability on the stack is the object whose ability was activated. The source of a triggered ability (other than a delayed triggered ability) on the stack, or one that has triggered and is waiting to be put on the stack, is the object whose ability triggered. To determine the source of a delayed triggered ability, see rules 603.7d–f.\\ 
 113.7. 一个的异能的来源为创造该异能的物件。对于堆叠上的起动式异能，其来源为被起动该异能的物件。对于堆叠上的触发式异能（除延迟触发式异能外）或者已经触发而正在等待进入堆叠的异能，其来源为被触发异能的物件。决定延迟触发异能的来源，参见规则[[cr:6#cr603-7d|603.7d-f]]。
@@ -1115,8 +1115,8 @@ Example: Arc Trail is a sorcery that reads “Arc Trail deals 2 damage to any ta
 <BOOKMARK:cr116-1>116.1. Special actions are actions a player may take when they have priority that don’t use the stack. These are not to be confused with turn-based actions and state-based actions, which the game generates automatically. (See rule 703, “Turn-Based Actions,” and rule 704, “State-Based Actions.”)\\ 
 116.1. 特殊动作为当牌手具有优先权时可以执行的不使用堆叠的动作。它们与游戏自动执行的回合动作与状态动作不同。（参见规则[[cr:7#cr703|703]]，“回合动作”和[[cr:7#cr704|704]]，“状态动作”。）
 
-<BOOKMARK:cr116-2>116.2. There are eleven special actions:\\ 
-116.2. 特殊动作有十一种：
+<BOOKMARK:cr116-2>116.2. There are twelve special actions:\\ 
+116.2. 特殊动作有十二种：
 
 <BOOKMARK:cr116-2a>116.2a Playing a land is a special action. To play a land, a player puts that land onto the battlefield from the zone it was in (usually that player’s hand). By default, a player can take this action only once during each of their turns. A player can take this action any time they have priority and the stack is empty during a main phase of their turn. See rule 305, “Lands.”\\ 
 116.2a 使用地为特殊动作。牌手将地牌从其原有区域（通常为该牌手的手牌）放置到战场上来使用一个地。默认情况下，牌手在自己每个回合只可以执行该动作一次。牌手可以随时在自己回合的行动阶段，拥有优先权并且堆叠为空时，执行此动作。参见规则[[cr:3#cr305|305]]，“地”。
@@ -1150,6 +1150,9 @@ Example: Arc Trail is a sorcery that reads “Arc Trail deals 2 damage to any ta
 
 <BOOKMARK:cr116-2k>116.2k A player who has a card with plot in their hand may exile that card. This is a special action. A player can take this action any time they have priority during their own turn while the stack is empty. See rule 702.170, “Plot.”\\ 
 116.2k 牌手可以放逐手上具有设谋异能的牌。这是个特殊动作。牌手随时可以在自己回合的行动阶段，拥有优先权并且堆叠为空时执行此动作。参见规则[[cr:7#cr702-170|702.170]]，“设谋”。
+
+<BOOKMARK:cr116-2m>116.2m A player who controls a permanent that has one or more locked halves (see rule 709.5) may pay the mana cost of a locked half of that permanent to give that permanent the appropriate unlocked designation. This cost is referred to as an “unlock cost.” A player can take this action any time they have priority and the stack is empty during a main phase of their turn.\\ 
+116.2m 如果牌手操控一边或数边已上锁的永久物（参见规则[[cr:7#cr709-5|709.5]]），该牌手可以支付该永久物已上锁之某边的法术力费用，以使该永久物得到相应的解锁称号。此费用称为“解锁费用”。牌手随时可以在自己回合的行动阶段，拥有优先权并且堆叠为空时执行此动作。
 
 <BOOKMARK:cr116-3>116.3. If a player takes a special action, that player receives priority afterward.\\ 
 116.3. 如果牌手执行特殊动作，该牌手在此之后重新得到优先权。

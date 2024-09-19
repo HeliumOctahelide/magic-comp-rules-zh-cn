@@ -37,5 +37,7 @@ CATALOG_TEMPLATE = """# 目录
 
 词汇表 Glossary - [按英文首字母排序](./glossary) | [按拼音首字母排序](./glossarycn)
 
+[暂译名称列表](./translatedterms)
+
 [版权信息](./credits)
 """

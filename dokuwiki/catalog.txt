@@ -2,7 +2,7 @@
 这是目录页的主要部分。将这部分内容和catalog_instruction.txt组合成完整的目录页。
 </nowiki>
 ===== 目录 =====
-//此规则于2024年7月30日起生效。//
+//此规则于2024年9月20日起生效。//
 
 [[CR:Intro|前言]]
 
@@ -63,7 +63,7 @@
   * [[CR:3#时空_planes|311. 时空 Planes]]
   * [[CR:3#异象_phenomena|312. 异象 Phenomena]]
   * [[CR:3#先锋_vanguards|313. 先锋 Vanguards]]
-  * [[CR:3#阴谋_schemes|314. 阴谋 Schemes]]
+  * [[CR:3#邪计_schemes|314. 邪计 Schemes]]
   * [[CR:3#诡局_conspiracies|315. 诡局 Conspiracies]]
 
 [[CR:4|第四章 - 区域 Zones]]

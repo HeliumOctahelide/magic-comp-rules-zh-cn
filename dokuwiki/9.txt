@@ -327,7 +327,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 904. 魔王
 
 <BOOKMARK:cr904-1>904.1. In the Archenemy variant, a team of players faces off against a single opponent strengthened with powerful scheme cards. The Archenemy variant uses all the normal rules for a Magic game, with the following additions.\\ 
-904.1. 在魔王玩法中，一队牌手齐心协力，共同面对有强力阴谋牌加持的强大对手。魔王玩法遵循万智牌游戏的一般规则，并有下列补充规则。
+904.1. 在魔王玩法中，一队牌手齐心协力，共同面对有强力邪计牌加持的强大对手。魔王玩法遵循万智牌游戏的一般规则，并有下列补充规则。
 
 <BOOKMARK:cr904-2>904.2. The default setup for an Archenemy game is the Team vs. Team multiplayer variant (see rule 808) involving exactly two teams. The attack multiple players option (see rule 802) and the shared team turns option (see rule 805) are used; no other multiplayer options are used.\\ 
 904.2. 魔王游戏默认的游戏模式是由正好两支队伍参加的队伍对队伍多人游戏玩法（参见规则[[cr:8#cr808|808]]）。使用攻击复数牌手模式（参见规则[[cr:8#cr802|802]]）和队伍共享回合模式（参见规则[[cr:8#cr805|805]]）；不使用其他多人游戏模式。
@@ -339,10 +339,10 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 904.2b 另一支队伍可由任意数量的牌手组成。
 
 <BOOKMARK:cr904-3>904.3. In addition to the normal game materials, the archenemy needs a supplementary scheme deck of at least twenty scheme cards. A scheme deck may contain no more than two of any card with a particular English name. (See rule 314, “Schemes.”)\\ 
-904.3. 除了一般的游戏用具外，魔王还需要一副由至少二十张阴谋牌构成的附加阴谋套牌。阴谋套牌中同一英文名称的牌张不得多于两张。（参见规则[[cr:3#cr314|314]]，“阴谋”。）
+904.3. 除了一般的游戏用具外，魔王还需要一副由至少二十张邪计牌构成的附加邪计套牌。邪计套牌中同一英文名称的牌张不得多于两张。（参见规则[[cr:3#cr314|314]]，“邪计”。）
 
 <BOOKMARK:cr904-4>904.4. All scheme cards remain in the command zone throughout the game, both while they’re part of a scheme deck and while they’re face up.\\ 
-904.4. 整个游戏过程当中，所有阴谋牌均位于统帅区中，无论是在他们仍属阴谋套牌部分，或是处于牌面朝上期间，均是如此。
+904.4. 整个游戏过程当中，所有邪计牌均位于统帅区中，无论是在他们仍属邪计套牌部分，或是处于牌面朝上期间，均是如此。
 
 <BOOKMARK:cr904-5>904.5. The archenemy’s starting life total is 40. Each other player’s starting life total is 20.\\ 
 904.5. 魔王的起始生命为40。其他牌手的起始生命为20。
@@ -351,31 +351,46 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 904.6. 始终由魔王首先进行回合，而不采用随机方式确定先手牌手。
 
 <BOOKMARK:cr904-7>904.7. The owner of a scheme card is the player who started the game with it in the command zone. The controller of a face-up scheme card is its owner.\\ 
-904.7. 阴谋牌的拥有者，为以其在统帅区中开始游戏的牌手。其拥有者即为牌面朝上之阴谋牌的操控者。
+904.7. 邪计牌的拥有者，为以其在统帅区中开始游戏的牌手。其拥有者即为牌面朝上之邪计牌的操控者。
 
 <BOOKMARK:cr904-8>904.8. Any abilities of a face-up scheme card in the command zone function from that zone. The card’s static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.\\ 
-904.8. 位于统帅区之牌面朝上的阴谋牌的异能均从该区域生效。该牌的静止式异能会对游戏产生影响，其触发式异能会触发，其起动式异能也可起动。
+904.8. 位于统帅区之牌面朝上的邪计牌的异能均从该区域生效。该牌的静止式异能会对游戏产生影响，其触发式异能会触发，其起动式异能也可起动。
 
 <BOOKMARK:cr904-9>904.9. Immediately after the archenemy’s precombat main phase begins during each of their turns, that player moves the top card of their scheme deck off that scheme deck and turns it face up. This is called “setting that scheme in motion.” (See rule 701.25.) This turn-based action doesn’t use the stack. Abilities of that scheme card that trigger “When you set this scheme in motion” trigger.\\ 
-904.9. 于魔王的回合中，在其战斗前行动阶段开始的同时，该牌手将其阴谋套牌牌库顶牌移离阴谋套牌，并将其翻回正面。此动作称为“实施该阴谋”。（参见规则[[cr:7#cr701-25|701.25]]）此回合动作不用到堆叠。该阴谋牌上所有注记着在“当你实施此阴谋”时触发的异能触发。
+904.9. 于魔王的回合中，在其战斗前行动阶段开始的同时，该牌手将其邪计套牌牌库顶牌移离邪计套牌，并将其翻回正面。此动作称为“发动该邪计”。（参见规则[[cr:7#cr701-25|701.25]]）此回合动作不用到堆叠。该邪计牌上所有注记着在“当你发动此邪计”时触发的异能触发。
 
 <BOOKMARK:cr904-10>904.10. If a non-ongoing scheme card is face up in the command zone, and no triggered abilities of any scheme are on the stack or waiting to be put on the stack, that scheme card is turned face down and put on the bottom of its owner’s scheme deck the next time a player would receive priority. (This is a state-based action. See rule 704.)\\ 
-904.10. 如果非持续的阴谋牌面朝上位于统帅区中，且没有任何阴谋的触发式异能在堆叠上或等待被放进堆叠，则在下次有牌手将得到优先权时，将该牌翻成牌面朝下，并将其置于其拥有者阴谋套牌的牌库底。（此为状态动作。参见规则[[cr:7#cr704|704]]。）
+904.10. 如果非长效的邪计牌面朝上位于统帅区中，且没有任何邪计的触发式异能在堆叠上或等待被放进堆叠，则在下次有牌手将得到优先权时，将该牌翻成牌面朝下，并将其置于其拥有者邪计套牌的牌库底。（此为状态动作。参见规则[[cr:7#cr704|704]]。）
 
 <BOOKMARK:cr904-11>904.11. Once an ongoing scheme card is set in motion, it remains face up in the command zone until an ability causes it to be abandoned (see rule 701.26).\\ 
-904.11. 持续阴谋实施后，便一直以牌面朝上的状态处于统帅区中，直到有异能将之终止为止（参见规则[[cr:7#cr701-26|701.26]]）。
+904.11. 长效邪计发动后，便一直以牌面朝上的状态处于统帅区中，直到有异能将之撤废为止（参见规则[[cr:7#cr701-26|701.26]]）。
 
 <BOOKMARK:cr904-12>904.12. Supervillain Rumble Option\\ 
 904.12. 群魔乱斗玩法
 
 <BOOKMARK:cr904-12a>904.12a As an alternative option, players may play a Free-for-All game in which each player has their own scheme deck. The attack multiple players option (see rule 802) is used; no other multiplayer options are used.\\ 
-904.12a 魔王游戏还有一种每位牌手各自准备一副阴谋套牌进行自由竞赛的玩法。这种玩法使用攻击复数牌手模式（参见规则[[cr:8#cr802|802]]）；不使用其他多人游戏规则。
+904.12a 魔王游戏还有一种每位牌手各自准备一副邪计套牌进行自由竞赛的玩法。这种玩法使用攻击复数牌手模式（参见规则[[cr:8#cr802|802]]）；不使用其他多人游戏规则。
 
 <BOOKMARK:cr904-12b>904.12b Each player in this game is an archenemy.\\ 
 904.12b 游戏中每位牌手都是魔王。
 
 <BOOKMARK:cr904-12c>904.12c As in a normal Free-for-All game, the starting player is randomly determined. All other rules that apply to the archenemy in an Archenemy game apply to each player in a Supervillain Rumble game.\\ 
 904.12c 如正常多人自由竞赛游戏一般，采用随机方式决定先手牌手。魔王游戏中所有作用于魔王的其他规则，在群魔乱斗游戏中则会适用于作有牌手。
+
+<BOOKMARK:cr904-13>904.13. Archenemy Commander Option\\ 
+904.13. 魔王指挥官玩法
+
+<BOOKMARK:cr904-13a>904.13a As an alternative option, players may play a Commander game (see rule 903, “Commander”) using the Archenemy rules. The normal rules for Commander apply, as modified by the Archenemy rules, with the following exceptions.\\ 
+904.13a 魔王游戏还有一种使用魔王规则进行指挥官游戏（参见规则[[cr:9#cr903|903]]，“指挥官”）的玩法。此玩法遵从指挥官游戏的一般规则和魔王规则的修订，且有以下特例：
+
+<BOOKMARK:cr904-13b>904.13b The archenemy starts with 60 life. The opposing team has a shared life total that starts at 60 life rather than individual life totals. The use of a shared life total is detailed in rules 810.8 and 810.9 of the Two-Headed Giant variant.\\ 
+904.13b 魔王的起始生命为60。对手队伍共享60点总生命，而非每位牌手有单独的总生命。共享总生命的方式详见双头巨人玩法的规则[[cr:8#cr810-8|810.8]]和[[cr:8#cr810-9|810.9]]。
+
+<BOOKMARK:cr904-13c>904.13c Poison counters are not shared. If the archenemy has ten or more poison counters, they lose the game. If any individual member of the opposing team has ten or more poison counters, they lose the game. (This is a state-based action. See rule 704.)\\ 
+904.13c 中毒指示物不会共享。如果魔王具有十个或更多中毒指示物，则其输掉此盘游戏。如果对手队伍中任一牌手具有十个或更多中毒指示物，则该牌手输掉此盘游戏。（此为状态动作。参见规则[[cr:7#cr704|704]]。）
+
+<BOOKMARK:cr904-13d>904.13d The archenemy’s scheme deck must contain at least ten cards, and each card must have a different English name.\\ 
+904.13d 魔王的邪计套牌需要包含至少十张牌，且每张牌的英文名称须各不相同。
 
 ===== 905. 诡局轮抽 Conspiracy Draft =====
 <BOOKMARK:cr905>905. Conspiracy Draft\\ 

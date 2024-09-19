@@ -23,7 +23,7 @@
 400.4a 如果一张瞬间或法术牌将要进入战场，它将留在其之前的区域。
 
 <BOOKMARK:cr400-4b>400.4b If a conspiracy, phenomenon, plane, scheme, or vanguard card would leave the command zone, it remains in the command zone.\\ 
-400.4b 如果一张诡局牌、异象牌、时空牌、先锋牌或阴谋牌将要离开统帅区，它留在统帅区。
+400.4b 如果一张诡局牌、异象牌、时空牌、先锋牌或邪计牌将要离开统帅区，它留在统帅区。
 
 <BOOKMARK:cr400-5>400.5. The order of objects in a library, in a graveyard, or on the stack can’t be changed except when effects or rules allow it. The same is true for objects arranged in face-down piles in other zones. Other objects in other zones can be arranged however their owners wish, although who controls those objects, whether they’re tapped or flipped, and what other objects are attached to them must remain clear to all players.\\ 
 400.5. 除非效应或规则允许，否则牌库、坟墓场、堆叠中的物件不能改变顺序。同样，其他区域中一堆牌面朝下的物件不能改变顺序。在其他区域中的其他物件，则可以由其拥有者任意安排顺序，然它们由谁操控、是否横置、是否被倒转、是否被其他物件贴附、是否佩带其他物件，都必须清楚展示给所有牌手。

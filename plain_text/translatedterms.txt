@@ -1,28 +1,38 @@
 暂译名称列表
 
 Ante: 押注（用作动词）/赌注（用作名词）
-Abandon: 终止
+Abandon: 撤废
 Alternative name: 别名（仅限于规则201.6所述之情形）
 Archenemy: 魔王
+Door：偏门
+Eerie：异景
 Enter: 进场
 Expend: 花销
 Forage: 觅粮
 Friends forever: 友谊永恒
 Gift: 礼赠
+Impending：隐现
 Interchangeable names: 可互换名称
+Lock：上锁
+Locked：已上锁
+Manifest Dread：显化惧象
 Offspring: 繁生
-Ongoing: 持续
+Ongoing: 长效
 Pawprint: 爪印
 Reroll: 重新掷骰
 Rolled doubles: 掷出同点
-Scheme: 阴谋
+Room：隔间
+Scheme: 邪计
 Sector: 星区
-Set in Motion: 实施
-Space Sculptor: 太空塑匠
+Set in Motion: 发动
+Space Sculptor: 太空塑师
 Sticker kicker: 贴纸增幅
 Stickered: 贴有贴纸
 Store: 存储
 Supplementary Deck: 附加套牌
+Survival：生还
+Unlock: 解锁
+Unlocked: 已解锁
 Valiant: 英武
 Vanguard: 先锋
 Walker: 尸行者

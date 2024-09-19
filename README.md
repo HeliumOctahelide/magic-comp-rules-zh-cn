@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2024年8月2日，*斑隆洛*系列。
+本译文最近一次更新于：2024年9月17日，*斑隆洛*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -21,7 +21,7 @@
 
 | 年度 | 冬 | 春 | 夏 | 秋 | 额外系列 |
 |------|----|----|----|---|---------|
-| 2024 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mkm.svg' width='14' height='14' />[卡洛夫庄园谋杀案](release_notes/faq_mkm.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/otj.svg' width='14' height='14' />[光雷驿镖客](release_notes/faq_otj.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/blb.svg' width='14' height='14' />[斑隆洛（通则部分）](https://mp.weixin.qq.com/s/EVo73eSYd9nguefZEN2iLQ) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dsk.svg' width='14' height='14' />暮悲邸：鬼屋惊魂 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/rvr.svg' width='14' height='14' />[拉尼卡：重制版](release_notes/faq_rvr.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/pip.svg' width='14' height='14' />[无疆新宇宙：辐射](release_notes/faq_pip.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/acr.svg' width='14' height='14' />[无疆新宇宙：刺客信条](release_notes/acr_pip.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mh3.svg' width='14' height='14' />[摩登新篇3](release_notes/faq_mh3.pdf) |
+| 2024 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mkm.svg' width='14' height='14' />[卡洛夫庄园谋杀案](release_notes/faq_mkm.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/otj.svg' width='14' height='14' />[光雷驿镖客](release_notes/faq_otj.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/blb.svg' width='14' height='14' />[斑隆洛（通则部分）](https://mp.weixin.qq.com/s/EVo73eSYd9nguefZEN2iLQ) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dsk.svg' width='14' height='14' />[暮悲邸：鬼屋惊魂（通则部分）](https://lib.sbwsz.com/archives/duskmourn-house-of-horror-release-notes.html) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/rvr.svg' width='14' height='14' />[拉尼卡：重制版](release_notes/faq_rvr.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/pip.svg' width='14' height='14' />[无疆新宇宙：辐射](release_notes/faq_pip.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/acr.svg' width='14' height='14' />[无疆新宇宙：刺客信条](release_notes/acr_pip.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mh3.svg' width='14' height='14' />[摩登新篇3](release_notes/faq_mh3.pdf) |
 | 2023 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/one.svg' width='14' height='14' />[非瑞克西亚：万界归一](release_notes/faq_one.pdf)  | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mom.svg' width='14' height='14' />[邪军压境](release_notes/faq_mom.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mat.svg' width='14' height='14' />[邪军压境：终战回响](release_notes/faq_mat.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/woe.svg' width='14' height='14' />[艾卓仙踪](release_notes/faq_woe.pdf)           | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/lci.svg' width='14' height='14' />[依夏兰迷窟](release_notes/faq_lci.pdf)     | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dmr.svg' width='14' height='14' />[多明纳里亚：重制版](release_notes/faq_dmr.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/ltr.svg' width='14' height='14' />[魔戒：中洲传说](release_notes/faq_ltr.pdf)      |
 | 2022 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/neo.svg' width='14' height='14' />[神河霓朝纪](release_notes/faq_neo.pdf)       | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/snc.svg' width='14' height='14' />[新卡佩纳：喧嚣黑街](release_notes/faq_snc.pdf)  | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dmu.svg' width='14' height='14' />[多明纳里亚：众志成城](release_notes/faq_dmu.pdf)     | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/bro.svg' width='14' height='14' />[兄弟之战](release_notes/faq_bro.pdf)      | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/clb.svg' width='14' height='14' />[指挥官传奇：争战博德之门](release_notes/faq_clb.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/2x2.svg' width='14' height='14' />[双星大师2022](release_notes/faq_2x2.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/40k.svg' width='14' height='14' />[无疆新宇宙：战锤40000](release_notes/faq_40k.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/j22.svg' width='14' height='14' />[速战2022](release_notes/faq_j22.pdf)   |
 | 2021 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/khm.svg' width='14' height='14' />[凯德海姆](release_notes/faq_khm.pdf)        | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/stx.svg' width='14' height='14' />[斯翠海文：魔法学校](release_notes/faq_stx.pdf)  | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/afr.svg' width='14' height='14' />[龙与地下城：被遗忘国度战记](release_notes/faq_afr.pdf)  | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mid.svg' width='14' height='14' />[依尼翠：黯夜猎踪](release_notes/faq_mid.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/vow.svg' width='14' height='14' />[依尼翠：腥红婚誓](release_notes/faq_vow.pdf)  | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tsr.svg' width='14' height='14' />[时间漩涡重制版](release_notes/faq_tsr.pdf)<br><img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/mh2.svg' width='14' height='14' />[摩登新篇2](release_notes/faq_mh2.pdf)        |
@@ -50,6 +50,20 @@
 
 ## 内容更新
 
+### 20240917
+
+- *暮悲邸：鬼屋惊魂*
+    - 通用：“Scheme”之译名由「阴谋」改为「邪计」。“Set in Motion”“Abandon”“Ongoing”等译名一并修改。
+    - 107.4：加入了五种新的单色混血符号{C/W}、{C/U}、{C/B}、{C/R}和{C/G}（残暴合体钨拉雷）。
+    - 116.2：加入了解锁偏门这一新的特殊动作。
+    - 207.2c：新异能提示：异景、生还。
+    - 701.60, 702.176：新关键字：显化惧象、隐现。~~你是不会知道卫生纸把隐现的章节编号写成了重复的702.175的。~~
+    - 708.12：定义了展示牌面朝下永久物时如何获取其信息。（凶林啸鸣兽[Hauntwoods Shrieker]）
+    - 709.5：定义了隔间永久物的相关规则。
+    - 904.13：引入了魔王指挥官玩法。
+    - 新的副类别：隔间、烁光体、玩具。
+    - 词汇表更新：魔王指挥官、偏门、隐现、上锁、已上锁、显化惧象、隔间、解锁、已解锁。
+
 ### 20240802
 
 - *无疆新宇宙：刺客信条*和*斑隆洛*
@@ -58,12 +72,12 @@
     - 107.18：引入了爪印符号{P}。
     - 200.1：在一年之后，卫生纸终于发现了这里丢失了「布防」。
     - 207.2c：新异能提示：英武。
-    - 505.1b：定义了“第一个行动阶段”及类似用词，明确它们只计算当前回合内的行动阶段数量。
+    - 505.1b：定义了「第一个行动阶段」及类似用词，明确它们只计算当前回合内的行动阶段数量。
     - 602.1e：规定了影响支付起动费用的效应对总费用生效。（家传史诗[Heirloom Epic]）
     - 609.8：被移动到608.2i表明了此条和608.2h间的联系（它是608.2h的例外情况）。
-    - 700.2i：定义了爪印式模式咒语，其模式包含“模式价值”。
+    - 700.2i：定义了爪印式模式咒语，其模式包含「模式价值」。
     - 700.14：定义了花销N的概念。
-    - 700.15：定义了“进场”一词的概念（作为“进入战场”的缩写）。
+    - 700.15：定义了「进场」一词的概念（作为「进入战场」的缩写）。
     - 701.59, 702.173-175：新关键字：觅粮、自由奔跑、礼赠、繁生。
     - 新的副类别：臭鼬、白鼬。
     - 词汇表更新：进场、花销、觅粮、自由奔跑、礼赠、繁生、爪印符号。

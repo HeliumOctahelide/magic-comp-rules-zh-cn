@@ -175,4 +175,4 @@ def plain_text_to_markdown(json_file, output_dir):
         f.write(catalog_text)
 
 if __name__ == '__main__':
-    plain_text_to_markdown('./20240802.json', '../markdown')
+    plain_text_to_markdown('./20240917.json', '../markdown')

@@ -963,7 +963,7 @@ Example: Rune of Flight is an Aura that grants enchanted Equipment “Equipped c
 613.7g 每当一个转化式双面永久物转化或转换时，它得到新的时间印记。
 
 <BOOKMARK:cr613-7h>613.7h A face-up plane card, phenomenon card, or scheme card receives a timestamp at the time it’s turned face up.\\ 
-613.7h 牌面朝上的时空牌、异象牌或阴谋牌于其翻回正面时得到时间印记。
+613.7h 牌面朝上的时空牌、异象牌或邪计牌于其翻回正面时得到时间印记。
 
 <BOOKMARK:cr613-7i>613.7i A face-up vanguard card receives a timestamp at the beginning of the game.\\ 
 613.7i 牌面朝上的先锋牌在游戏开始时得到时间印记。

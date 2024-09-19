@@ -42,7 +42,7 @@ A keyword ability that means “This creature can’t block” and “When this 
 
 ### <span id='白昼'>白昼</span> / <span id='Day'>Day</span>
 与黑夜一起，均是游戏可以具有的称号。参见规则[728](./7#cr728)，“白昼与黑夜”，与规则[702.145](./7#cr702-145)，“昼形与夜形”。   
-Along with night, a designation the game can have. See rule 727, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
+Along with night, a designation the game can have. See rule 728, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
 
 ### <span id='版本符号'>版本符号</span> / <span id='Expansion Symbol'>Expansion Symbol</span>
 牌的版本符号是印在图片右下角对游戏没有任何效应的小符号。参见规则[206](./2#cr206)，“版本符号”。   
@@ -196,6 +196,10 @@ A keyword ability that provides an alternative cost to cast a card if you or one
 一个关键字异能，让一个咒语影响一个目标或多个物件。参见规则[702.96](./7#cr702-96)，“超载”。   
 A keyword ability that allows a spell to affect either a single target or many objects. See rule 702.96, “Overload.”
 
+### <span id='撤废'>撤废</span> / <span id='Abandon'>Abandon</span>
+将一张牌面朝上的长效邪计牌翻为牌面朝下并置于其拥有者的邪计套牌牌库底。参见规则[701.26](./7#cr701-26)，“撤废”。   
+To turn a face-up ongoing scheme card face down and put it on the bottom of its owner’s scheme deck. See rule 701.26, “Abandon.”
+
 ### <span id='成功施放（已废止）'>成功施放（已废止）</span> / <span id='Successfully Cast (Obsolete)'>Successfully Cast (Obsolete)</span>
 一些老牌上印的用词。一般情况下指咒语被“成功施放”的牌在Oracle牌张参考文献中已得到勘误，改为该咒语被“施放”。   
 A term that was printed on some older cards. In general, cards that referred to a spell being “successfully cast” have received errata in the Oracle card reference to simply refer to a spell being “cast.”
@@ -211,10 +215,6 @@ A word used in some trigger events to indicate a change in status or characteris
 ### <span id='持戒人'>持戒人</span> / <span id='Ring-bearer'>Ring-bearer</span>
 一个永久物可在魔戒引诱你时得到的称号。参见规则[701.52](./7#cr701-52)，“魔戒引诱你”。   
 A designation that a creature can be given as the Ring tempts you. See rule 701.52, “The Ring Tempts You.”
-
-### <span id='持续'>持续</span> / <span id='Ongoing'>Ongoing</span>
-只出现在阴谋牌上的超类别。参见规则[205.4](./2#cr205-4)，“超类别”。   
-A supertype that appears only on scheme cards. See rule 205.4, “Supertypes.”
 
 ### <span id='持续神器（已废止）'>持续神器（已废止）</span> / <span id='Continuous Artifact (Obsolete)'>Continuous Artifact (Obsolete)</span>
 一个已废止的用语，出现在不具有起动式异能的神器类别栏。印有此叙述的牌已经在Oracle牌张参考文献中得到了勘误，改为只是“神器”。   
@@ -465,6 +465,10 @@ A cost a spell may have that its controller may pay (or, in some cases, must pay
 A turn created by an effect of a spell or ability. See rule 500.7. For rules about extra turns in a multiplayer game using the shared team turns option, see 805.8. For rules about extra turns in a Grand Melee game, see rule 807.4.
 
 ## F
+### <span id='发动'>发动</span> / <span id='Set in Motion'>Set in Motion</span>
+将你的邪计套牌顶牌移离并将其翻回正面。参见规则[701.25](./7#cr701-25)，“发动”。   
+To move a scheme card off the top of your scheme deck and turn it face up. See rule 701.25, “Set in Motion.”
+
 ### <span id='发掘'>发掘</span> / <span id='Dredge'>Dredge</span>
 一个关键字异能，让牌手将牌从其坟墓场中移回其手上。参见规则[702.52](./7#cr702-52)，“发掘”。   
 A keyword ability that lets a player return a card from their graveyard to their hand. See rule 702.52, “Dredge.”
@@ -536,9 +540,12 @@ Myriad is a triggered ability that effectively lets a creature attack in all pos
 一个关键字异能，让牌手从其坟墓场中施放一张牌。参见规则[702.34](./7#cr702-34)，“返照”。   
 A keyword ability that lets a player cast a card from their graveyard. See rule 702.34, “Flashback.”
 
-### <span id='房间'>房间</span> / <span id='Room'>Room</span>
-地城牌的一个分区。参见规则[309](./3#cr309)，“地城”。   
-A subsection of a dungeon card. See rule 309, “Dungeons.”
+### <span id='房间/隔间'>房间/隔间</span> / <span id='Room'>Room</span>
+1. 地城牌的一个分区。参见规则[309](./3#cr309)，“地城”。   
+1. A subsection of a dungeon card. See rule 309, “Dungeons.”
+
+2. 一种结界的副类别，见于一些连体牌上。参见规则[709](./7#cr709)，“连体牌”。   
+2. An enchantment subtype found on some split cards. See rule 709, “Split Cards.”
 
 ### <span id='房间异能'>房间异能</span> / <span id='Room Ability'>Room Ability</span>
 一个触发式异能，每当牌手将其进度标记移动到地城牌的一个房间中时触发。参见规则[309](./3#cr309)，“地城”。   
@@ -766,8 +773,8 @@ A keyword ability that reduces how much mana you need to spend to cast a spell. 
 一个神器副类别。工事可以贴附于地上。参见规则[301](./3#cr301)，“神器”，以及规则[702.67](./7#cr702-67)，“构工”。   
 An artifact subtype. Fortifications can be attached to lands. See rule 301, “Artifacts,” and rule 702.67, “Fortify.”
 
-### <span id='共享生命总值'>共享生命总值</span> / <span id='Shared Life Total'>Shared Life Total</span>
-在双头巨人多人玩法中，每个队伍具有“共享生命总值”而不是每位牌手有单独的生命总值。参见规则[810](./8#cr810)，“双头巨人玩法”。   
+### <span id='共享总生命'>共享总生命</span> / <span id='Shared Life Total'>Shared Life Total</span>
+在双头巨人多人玩法中，每个队伍具有“共享总生命”而不是每位牌手有单独的总生命。参见规则[810](./8#cr810)，“双头巨人玩法”。   
 In the Two-Headed Giant multiplayer variant, each team has a “shared life total” rather than each player having an individual life total. See rule 810, “Two-Headed Giant Variant.”
 
 ### <span id='构工'>构工</span> / <span id='Fortify'>Fortify</span>
@@ -1046,6 +1053,10 @@ To “end the combat phase” as the result of an effect is to perform an expedi
 ### <span id='结算'>结算</span> / <span id='Resolve'>Resolve</span>
 当堆叠顶端的咒语或异能“结算”时，它的叙述被执行且它具有其效应。参见规则[608](./6#cr608)，“结算咒语和异能”。   
 When the spell or ability on top of the stack “resolves,” its instructions are followed and it has its effect. See rule 608, “Resolving Spells and Abilities.”
+
+### <span id='解锁'>解锁</span> / <span id='Unlock'>Unlock</span>
+令一边或数边已上锁的永久物得到一个解锁称号。参见规则[709.5g](./7#cr709-5g)。   
+To give an unlocked designation to a permanent that has one or more locked halves. See rule 709.5f.
 
 ### <span id='接殖'>接殖</span> / <span id='Graft'>Graft</span>
 一个关键字异能，让一个永久物进入战场带有+1/+1指示物，以及这些指示物可以移动到其他生物上。参见规则[702.58](./7#cr702-58)，“接殖”。   
@@ -1352,11 +1363,15 @@ One of two kinds of double-faced cards. Modal double-faced cards can be played w
 An additional rule or set of rules that can be used in a multiplayer game. See rule 800.2.
 
 ### <span id='魔王'>魔王</span> / <span id='Archenemy'>Archenemy</span>
-1. 一种休闲式玩法，一队牌手齐心协力，共同面对有强力阴谋牌加持的强大对手。参见规则[904](./9#cr904)，“魔王”。   
+1. 一种休闲式玩法，一队牌手齐心协力，共同面对有强力邪计牌加持的强大对手。参见规则[904](./9#cr904)，“魔王”。   
 1. A casual variant in which a team of players faces off against a single opponent strengthened with powerful scheme cards. See rule 904, “Archenemy.”
 
-2. 魔王游戏中使用阴谋套牌进行游戏的牌手。   
+2. 魔王游戏中使用邪计套牌进行游戏的牌手。   
 2. A player in an Archenemy game who is playing with a scheme deck.
+
+### <span id='魔王指挥官'>魔王指挥官</span> / <span id='Archenemy Commander'>Archenemy Commander</span>
+一种使用魔王规则修订的指挥官游戏。参见规则[903](./9#cr903)，“指挥官”，以及规则[904](./9#cr904)，“魔王”。   
+A Commander game that follows a modified version of the Archenemy rules. See rule 903, “Commander,” and rule 904, “Archenemy.”
 
 ### <span id='墓碑标志'>墓碑标志</span> / <span id='Tombstone Icon'>Tombstone Icon</span>
 在一些奥德赛环境牌的左上角有墓碑符号，它对游戏没有影响。参见规则[107.9](./1#cr107-9)。   
@@ -1450,6 +1465,10 @@ Older versions of the rules stated that a player who controlled two or more plan
 ### <span id='鹏洛客（旧译旅法师）'>鹏洛客（旧译旅法师）</span> / <span id='Planeswalker'>Planeswalker</span>
 一种牌张类别。鹏洛客是永久物。参见规则[306](./3#cr306)，“鹏洛客”。   
 A card type. A planeswalker is a permanent. See rule 306, “Planeswalkers.”
+
+### <span id='偏门'>偏门</span> / <span id='Door'>Door</span>
+一扇偏门是隔间永久物的一边。参见规则[709](./7#cr709)，“连体牌”。   
+A door is one half of a Room permanent. See rule 709, “Split Cards.”
 
 ### <span id='拼造'>拼造</span> / <span id='Improvise'>Improvise</span>
 一个关键字异能，使你可以在施放咒语时横置神器代替法术力来支付费用。   
@@ -1630,6 +1649,10 @@ The object that dealt that damage. See rule 609.7.
 在宣告阻挡者步骤中，对攻击生物对多个阻挡它的生物分配战斗伤害的顺序，或阻挡生物对其阻挡的多个生物分配战斗伤害的顺序。参见规则[509.2](./5#cr509-2)以及[509.3](./5#cr509-3)。   
 The order, announced during the declare blockers step, that an attacking creature will assign its combat damage among the multiple creatures blocking it, or that a blocking creature will assign its combat damage among the multiple creatures it’s blocking. See rules 509.2 and 509.3.
 
+### <span id='上锁'>上锁</span> / <span id='Lock'>Lock</span>
+令一边或数边已解锁的永久物失去一个解锁称号。参见规则[709.5g](./7#cr709-5g)。   
+To remove an unlocked designation from a permanent that has one or more unlocked halves. See rule 709.5g.
+
 ### <span id='设谋'>设谋</span> / <span id='Plot'>Plot</span>
 一个关键字异能，允许牌手从手上放逐牌并在之后的回合中施放，且不需支付其法术力费用。参见规则[702.170](./7#cr702-170)，“设谋”。   
 A keyword ability that lets a player exile cards from their hand and cast them without paying their mana cost on future turns. See rule 702.170, “Plot.”
@@ -1753,10 +1776,6 @@ A specialized six-sided die needed to play the Planechase casual variant. See ru
 ### <span id='食品衍生物'>食品衍生物</span> / <span id='Food Token'>Food Token</span>
 食品衍生物是具有“{2}，{T}，牺牲此神器：你获得3点生命”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](./1#cr111-10)。   
 A Food token is a colorless artifact token with “{2}, {T}, Sacrifice this artifact: You gain 3 life.” For more information about predefined tokens, see rule 111.10.
-
-### <span id='实施'>实施</span> / <span id='Set in Motion'>Set in Motion</span>
-将你的阴谋套牌顶牌移离并将其翻回正面。参见规则[701.25](./7#cr701-25)，“实施”。   
-To move a scheme card off the top of your scheme deck and turn it face up. See rule 701.25, “Set in Motion.”
 
 ### <span id='视同'>视同</span> / <span id='As Though'>As Though</span>
 一个叙述，用来表示游戏由于一些特殊的原因，即使在某条件不符合的情况下按照符合的情况对待。参见规则[609.4](./6#cr609-4)。   
@@ -2109,6 +2128,10 @@ A keyword ability that lets a creature deal its combat damage before other creat
 一个关键字动作，将牌以牌面朝下的方式作为2/2生物放进战场。参见规则[701.34](./7#cr701-34)，“显化”，和规则[708](./7#cr708)，“牌面朝下的咒语和永久物”。   
 A keyword action that puts a card onto the battlefield face down as a 2/2 creature. See rule 701.34, “Manifest,” and rule 708, “Face-Down Spells and Permanents.”
 
+### <span id='显化惧象'>显化惧象</span> / <span id='Manifest Dread'>Manifest Dread</span>
+一个关键字动作，将你牌库顶两张牌中的一张以牌面朝下的方式作为2/2生物放进战场。参见规则[701.60](./7#cr701-60)，“显化惧象”，规则[701.34](./7#cr701-34)，“显化”，和规则[708](./7#cr708)，“牌面朝下的咒语和永久物”。   
+A keyword action that puts one of the top two cards of your library onto the battlefield face down as a 2/2 creature. See rule 701.60, “Manifest Dread,” rule 701.34, “Manifest,” and rule 708, “Face-Down Spells and Permanents.”
+
 ### <span id='献祭'>献祭</span> / <span id='Offering'>Offering</span>
 一个关键字异能，影响你何时施放咒语以及所需要花费的法术力数量。参见规则[702.48](./7#cr702-48)，“献祭”。   
 A keyword ability that modifies when you can cast a spell and how much mana you need to spend to do it. See rule 702.48, “Offering.”
@@ -2168,6 +2191,14 @@ A keyword ability that limits how long a permanent remains on the battlefield. S
 ### <span id='效应'>效应</span> / <span id='Effect'>Effect</span>
 作为咒语或异能的结论在游戏中发生。参见规则[609](./6#cr609)，“效应”。   
 Something that happens in the game as a result of a spell or ability. See rule 609, “Effects.”
+
+### <span id='邪计'>邪计</span> / <span id='Scheme'>Scheme</span>
+一种牌张类别，只在魔王休闲式玩法中使用的非传统万智牌上出现。邪计牌不是永久物。参见规则[314](./3#cr314)，“邪计”。   
+A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 314, “Schemes.”
+
+### <span id='邪计套牌'>邪计套牌</span> / <span id='Scheme Deck'>Scheme Deck</span>
+魔王休闲式玩法需要的至少二十张邪计牌组成的套牌。参见规则[904.3](./9#cr904-3)。   
+A deck of at least twenty scheme cards needed to play the Archenemy casual variant. See rule 904.3.
 
 ### <span id='协力'>协力</span> / <span id='Conspire'>Conspire</span>
 一个关键字异能，让生物可以复制咒语。参见规则[702.78](./7#cr702-78)，“协力”。   
@@ -2368,6 +2399,10 @@ Some older cards used “move” with respect to Auras; those cards have receive
 一个永久物可能具有的状态。参见规则[110.5](./1#cr110-5)和规则[701.21](./7#cr701-21)，“横置和重置”。另参见未横置。   
 A status a permanent may have. See rule 110.5 and rule 701.21, “Tap and Untap.” See also Untapped.
 
+### <span id='已解锁'>已解锁</span> / <span id='Unlocked'>Unlocked</span>
+如果一个连体永久物具有特定的解锁称号，则其相应的一边为“已解锁”。参见规则[709.5](./7#cr709-5)。   
+One half of a split permanent is “unlocked” if it has the appropriate unlocked designation. See rule 709.5.
+
 ### <span id='已铭勇'>已铭勇</span> / <span id='Renowned'>Renowned</span>
 因永久物的铭勇异能，而赋予它的一种称号。参见规则[702.112](./7#cr702-112)，“铭勇”。   
 A designation given to a permanent as a result of the renown ability. See rule 702.112, “Renown.”
@@ -2389,6 +2424,10 @@ The object that generated that ability. See rule 113.7.
 ### <span id='异能提示'>异能提示</span> / <span id='Ability Word'>Ability Word</span>
 一个斜体的词，没有规则上的意义，将不同牌上类似作用的异能联系起来。参见规则[207.2c](./2#cr207-2c)。   
 An italicized word with no rules meaning that ties together abilities on different cards that have similar functionality. See rule 207.2c.
+
+### <span id='已上锁'>已上锁</span> / <span id='Locked'>Locked</span>
+如果一个连体永久物不具有特定的解锁称号，则其相应的一边为“已上锁”。参见规则[709.5](./7#cr709-5)。   
+One half of a split permanent is “locked” if it doesn’t have the appropriate unlocked designation. See rule 709.5.
 
 ### <span id='已设谋'>已设谋</span> / <span id='Plotted'>Plotted</span>
 以设谋特殊动作放逐的牌成为已设谋。其他效应亦能令一张已放逐的牌成为已设谋。参见规则[702.170](./7#cr702-170)，“设谋”。   
@@ -2445,13 +2484,9 @@ Cards in certain sets and certain promotional cards are printed with a silver bo
 不是所有牌手都应该可以看到牌面的区域。参见规则[400.2](./4#cr400-2)。另参见公开区域。   
 A zone in which not all players can be expected to see the cards’ faces. See rule 400.2. See also Public Zone.
 
-### <span id='阴谋'>阴谋</span> / <span id='Scheme'>Scheme</span>
-一种牌张类别，只在魔王休闲式玩法中使用的非传统万智牌上出现。阴谋牌不是永久物。参见规则[314](./3#cr314)，“阴谋”。   
-A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 314, “Schemes.”
-
-### <span id='阴谋套牌'>阴谋套牌</span> / <span id='Scheme Deck'>Scheme Deck</span>
-魔王休闲式玩法需要的至少二十张阴谋牌组成的套牌。参见规则[904.3](./9#cr904-3)。   
-A deck of at least twenty scheme cards needed to play the Archenemy casual variant. See rule 904.3.
+### <span id='隐现'>隐现</span> / <span id='Impending'>Impending</span>
+一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。   
+An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time.
 
 ### <span id='影响范围'>影响范围</span> / <span id='Range of Influence'>Range of Influence</span>
 参见限制影响范围。   
@@ -2622,6 +2657,10 @@ To show a card to all players for a brief time. See rule 701.16, “Reveal.”
 一种牌张类别。战役是永久物。参见规则[310](./3#cr310)，“战役”。   
 A card type. A battle is a permanent. See rule 310, “Battles.”
 
+### <span id='长效'>长效</span> / <span id='Ongoing'>Ongoing</span>
+只出现在邪计牌上的超类别。参见规则[205.4](./2#cr205-4)，“超类别”。   
+A supertype that appears only on scheme cards. See rule 205.4, “Supertypes.”
+
 ### <span id='召唤失调规则'>召唤失调规则</span> / <span id='Summoning Sickness Rule'>Summoning Sickness Rule</span>
 非正式用语，指除非一个生物在牌手最近的一个回合开始时便已经操控它，否则该牌手不能用该生物进行攻击或起动它包含横置符号或重置符号的起动式异能。参见规则[302.6](./3#cr302-6)。另参见敏捷。   
 Informal term for a player’s inability to attack with a creature or to activate its abilities that include the tap symbol or the untap symbol unless the creature has been under that player’s control since the beginning of that player’s most recent turn. See rule 302.6. See also Haste.
@@ -2744,13 +2783,9 @@ A counter that exiles the permanent it is on if that permanent would go to the g
 一个关键字异能，让武具生物暂时不再是生物，且贴附于另一个生物上。参见规则[702.151](./7#cr702-151)，“重配”。   
 A keyword ability that allows an Equipment creature to temporarily stop being a creature and become attached to another creature. See rule 702.151, “Reconfigure.”
 
-### <span id='终止'>终止</span> / <span id='Abandon'>Abandon</span>
-将一张牌面朝上的持续阴谋牌翻为牌面朝下并置于其拥有者的阴谋套牌牌库底。参见规则[701.26](./7#cr701-26)，“终止”。   
-To turn a face-up ongoing scheme card face down and put it on the bottom of its owner’s scheme deck. See rule 701.26, “Abandon.”
-
 ### <span id='昼形'>昼形</span> / <span id='Daybound'>Daybound</span>
 一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](./7#cr702-145)，“昼形与夜形”，与规则[728](./7#cr728)，“白昼与黑夜”。   
-An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 727, “Day and Night.”
+An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 728, “Day and Night.”
 
 ### <span id='咒语'>咒语</span> / <span id='Spell'>Spell</span>
 堆叠上的牌。以及堆叠上（无论是牌还是另一个咒语）的复制品。参见规则[112](./1#cr112)，“咒语”。   
