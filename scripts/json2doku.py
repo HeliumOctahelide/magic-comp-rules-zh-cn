@@ -124,6 +124,7 @@ def plain_text_to_dokuwiki(json_file, output_dir):
         for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
             content += f"{en_line}\\\\ \n"
             content += f"{match_rule_num(zh_line)}\n"
+            content += '\n'
         content += '----\n'
     glossarycn_text = doku_template.GLOSSARY_PINYIN_TEMPLATE.format(content=content)  
     with open(f'{output_dir}/glossarycn.txt', 'w', encoding='utf-8') as f:
@@ -166,4 +167,4 @@ def plain_text_to_dokuwiki(json_file, output_dir):
         f.write(catalog_text)
 
 if __name__ == '__main__':
-    plain_text_to_dokuwiki('./20240917.json', '../dokuwiki')
+    plain_text_to_dokuwiki('./20241108.json', '../dokuwiki')

@@ -1645,9 +1645,9 @@ Objects can deal “damage” to creatures, planeswalkers, and players. This is 
 造成伤害的物件。参见规则[609.7](./6#cr609-7)。   
 The object that dealt that damage. See rule 609.7.
 
-### <span id='伤害分配顺序'>伤害分配顺序</span> / <span id='Damage Assignment Order'>Damage Assignment Order</span>
-在宣告阻挡者步骤中，对攻击生物对多个阻挡它的生物分配战斗伤害的顺序，或阻挡生物对其阻挡的多个生物分配战斗伤害的顺序。参见规则[509.2](./5#cr509-2)以及[509.3](./5#cr509-3)。   
-The order, announced during the declare blockers step, that an attacking creature will assign its combat damage among the multiple creatures blocking it, or that a blocking creature will assign its combat damage among the multiple creatures it’s blocking. See rules 509.2 and 509.3.
+### <span id='伤害分配顺序（已废止）'>伤害分配顺序（已废止）</span> / <span id='Damage Assignment Order (Obsolete)'>Damage Assignment Order (Obsolete)</span>
+先前，如果一个生物被多个生物阻挡，或阻挡了多个生物，它的操控者需要选择一个顺序来给阻挡它或被它阻挡的生物分配战斗伤害。现在，它的操控者不再需要选择顺序，只需将其战斗伤害在所有阻挡它或被它阻挡的生物之间分配。参见规则[510.1c-d](./5#cr510-1c)。   
+Previously, if a creature blocks or becomes blocked by multiple creatures, the creature’s controller would be required to choose an order in which it would assign combat damage to the creatures blocking or blocked by it. Now, its controller no longer needs to assign an order, and simply divides its combat damage as they choose among all creatures it’s blocking or blocked by. See rules 510.1c-d.
 
 ### <span id='上锁'>上锁</span> / <span id='Lock'>Lock</span>
 令一边或数边已解锁的永久物失去一个解锁称号。参见规则[709.5g](./7#cr709-5g)。   
@@ -1924,8 +1924,8 @@ A keyword ability that has a permanent enter the battlefield with +1/+1 counters
 牌手开始游戏时所使用牌的集合；它将成为该牌手的牌库。参见规则[100](./1#cr100)，“总则”，以及规则[103](./1#cr103)，“开始游戏”。   
 The collection of cards a player starts the game with; it becomes that player’s library. See rule 100, “General,” and rule 103, “Starting the Game.”
 
-### <span id='套牌张数下限'>套牌张数下限</span> / <span id='Minimum Deck Size'>Minimum Deck Size</span>
-如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌张数下限。   
+### <span id='套牌数量下限'>套牌数量下限</span> / <span id='Minimum Deck Size'>Minimum Deck Size</span>
+如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌数量下限。   
 If a rule or effect states that a player’s deck must contain at least a specific number of cards, that number is the player’s minimum deck size.
 
 ### <span id='特殊动作'>特殊动作</span> / <span id='Special Action'>Special Action</span>
@@ -2485,8 +2485,8 @@ Cards in certain sets and certain promotional cards are printed with a silver bo
 A zone in which not all players can be expected to see the cards’ faces. See rule 400.2. See also Public Zone.
 
 ### <span id='隐现'>隐现</span> / <span id='Impending'>Impending</span>
-一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。   
-An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time.
+一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。参见规则[702.176](./7#cr702-176)，“隐现”。   
+An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time. See rule 702.176, “Impending.”
 
 ### <span id='影响范围'>影响范围</span> / <span id='Range of Influence'>Range of Influence</span>
 参见限制影响范围。   

@@ -1098,11 +1098,11 @@ Objects can deal “damage” to creatures, planeswalkers, and players. This is 
 物件可以对生物、鹏洛客、以及牌手造成“伤害”。一般情况下这对受到伤害的物件或牌手来说是不利的。参见规则[[cr:1#cr120|120]]，“伤害”。
 
 ----
-Damage Assignment Order\\ 
-伤害分配顺序
+Damage Assignment Order (Obsolete)\\ 
+伤害分配顺序（已废止）
 
-The order, announced during the declare blockers step, that an attacking creature will assign its combat damage among the multiple creatures blocking it, or that a blocking creature will assign its combat damage among the multiple creatures it’s blocking. See rules 509.2 and 509.3.\\ 
-在宣告阻挡者步骤中，对攻击生物对多个阻挡它的生物分配战斗伤害的顺序，或阻挡生物对其阻挡的多个生物分配战斗伤害的顺序。参见规则[[cr:5#cr509-2|509.2]]以及[[cr:5#cr509-3|509.3]]。
+Previously, if a creature blocks or becomes blocked by multiple creatures, the creature’s controller would be required to choose an order in which it would assign combat damage to the creatures blocking or blocked by it. Now, its controller no longer needs to assign an order, and simply divides its combat damage as they choose among all creatures it’s blocking or blocked by. See rules 510.1c-d.\\ 
+先前，如果一个生物被多个生物阻挡，或阻挡了多个生物，它的操控者需要选择一个顺序来给阻挡它或被它阻挡的生物分配战斗伤害。现在，它的操控者不再需要选择顺序，只需将其战斗伤害在所有阻挡它或被它阻挡的生物之间分配。参见规则[[cr:5#cr510-1c|510.1c-d]]。
 
 ----
 Dash\\ 
@@ -2227,8 +2227,8 @@ Information printed directly below the text box that has no effect on game play.
 Impending\\ 
 隐现
 
-An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time.\\ 
-一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。
+An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time. See rule 702.176, “Impending.”\\ 
+一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。参见规则[[cr:7#cr702-176|702.176]]，“隐现”。
 
 ----
 Imprint\\ 
@@ -2840,10 +2840,10 @@ To mill a number of cards, a player puts that many cards from the top of their l
 
 ----
 Minimum Deck Size\\ 
-套牌张数下限
+套牌数量下限
 
 If a rule or effect states that a player’s deck must contain at least a specific number of cards, that number is the player’s minimum deck size.\\ 
-如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌张数下限。
+如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌数量下限。
 
 ----
 Miracle\\ 

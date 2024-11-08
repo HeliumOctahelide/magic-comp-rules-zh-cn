@@ -1243,9 +1243,6 @@ Example: Arc Trail is a sorcery that reads “Arc Trail deals 2 damage to any ta
 <BOOKMARK:cr118-3c>118.3c Activating mana abilities is not mandatory, even if paying a cost is.\\ 
 118.3c 起动法术力异能并不是必须的，即使支付费用是必须的。
 
-Example: A player controls Lodestone Golem, which says “Nonartifact spells cost {1} more to cast.” Another player removes the last time counter from a suspended sorcery card. That player must cast that spell if able, but doing so costs {1}. The player is forced to pay that cost if enough mana is in their mana pool, but the player isn’t forced to activate a mana ability to produce that mana. If they don’t, the card simply remains exiled.\\ 
-例如：一位牌手操控磁石魔像，它具有异能“非神器咒语增加{1}来施放。”另一位牌手从其延缓的法术牌上移去最后一个计时指示物。该牌手若能施放该咒语，则必须施放，但如此作需要支付{1}。如果该牌手的法术力池中有足够的法术力，他将被强制支付该费用，但该牌手不会因此被强制起动法术力异能来产生此法术力。如果他不如此作，该法术牌将留在放逐区。
-
 <BOOKMARK:cr118-4>118.4. Some costs include an {X} or an X. See rule 107.3.\\ 
 118.4. 一些费用中包含{X}或X。参见规则[[cr:1#cr107-3|107.3]]。
 
@@ -1569,7 +1566,7 @@ Example: A player casts Lightning Bolt, an instant that says “Lightning Bolt d
 122.1c 永久物上的一个或数个后盾指示物创造一个替代性效应和一个防止性效应，可以保护该永久物。这些效应为“如果此永久物将因一个效应的结果被消灭，改为从其上移去一个后盾指示物”和“如果此永久物将受到伤害，则防止该伤害并从其上移去一个后盾指示物”。参见规则[[cr:6#cr614|614]]，“替代性效应”和规则[[cr:6#cr615|615]]，“防止性效应”。
 
 <BOOKMARK:cr122-1d>122.1d One or more stun counters on a permanent create a single replacement effect that stops the permanent from untapping. That effect is “If a permanent with a stun counter on it would become untapped, instead remove a stun counter from it.”\\ 
-122.1d 永久物上的一个或数个晕眩指示物创造一个替代式效应，可以阻止该永久物重置。该效应为“如果某个其上有眩晕指示物的已横置永久物将成为未横置，则改为从其上移去一个晕眩指示物。”
+122.1d 永久物上的一个或数个晕眩指示物创造一个替代性效应，可以阻止该永久物重置。该效应为“如果某个其上有眩晕指示物的已横置永久物将成为未横置，则改为从其上移去一个晕眩指示物。”
 
 <BOOKMARK:cr122-1e>122.1e The number of loyalty counters on a planeswalker on the battlefield indicates how much loyalty it has. A planeswalker with 0 loyalty is put into its owner’s graveyard as a state-based action. See rule 704.\\ 
 122.1e 在战场上的鹏洛客的忠诚指示物数量，表明它有多少忠诚。忠诚为0的鹏洛客作为状态动作被置入其拥有者的坟墓场。参见规则[[cr:7#cr704|704]]。

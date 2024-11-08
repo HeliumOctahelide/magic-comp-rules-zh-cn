@@ -252,11 +252,8 @@ Example: Rob attacks Alex with Runeclaw Bear and attacks Carissa with a creature
 <BOOKMARK:cr802-4b>802.4b When determining whether a defending player’s blocks are legal, ignore any creatures attacking other players and any blocking creatures controlled by other players.\\ 
 802.4b 当决定一位防御牌手的阻挡是否合法时，忽略正在对其他牌手进行攻击的生物，以及由其他牌手操控的阻挡生物。
 
-<BOOKMARK:cr802-5>802.5. After blockers have been declared, if any creatures are blocking multiple creatures, each defending player in APNAP order announces the damage assignment order among the attacking creatures for each blocking creature they control. See rule 510, “Combat Damage Step.”\\ 
-802.5. 宣告阻挡之后，如果有生物阻挡了多个生物，则每位防御牌手按照“主动牌手先决定”的顺序，为其操控的每个阻挡生物对攻击生物宣告伤害分配顺序。参见规则[[cr:5#cr510|510]]，“战斗伤害步骤”。
-
-<BOOKMARK:cr802-6>802.6. Combat damage is assigned in APNAP order. Other than that, the combat damage step proceeds just as in a two-player game. See rule 510, “Combat Damage Step.”\\ 
-802.6. 战斗伤害按照“主动牌手先决定”的顺序进行分配。除此之外，战斗伤害步骤以与双人游戏一样的方式进行。参见规则[[cr:5#cr510|510]]，“战斗伤害步骤”。
+<BOOKMARK:cr802-5>802.5. Combat damage is assigned in APNAP order. Other than that, the combat damage step proceeds just as in a two-player game. See rule 510, “Combat Damage Step.”\\ 
+802.5. 战斗伤害按照“主动牌手先决定”的顺序进行分配。除此之外，战斗伤害步骤以与双人游戏一样的方式进行。参见规则[[cr:5#cr510|510]]，“战斗伤害步骤”。
 
 ===== 803. 攻击左边或右边模式 Attack Left and Attack Right Options =====
 <BOOKMARK:cr803>803. Attack Left and Attack Right Options\\ 
@@ -357,11 +354,8 @@ Example: Rob attacks Alex with Runeclaw Bear and attacks Carissa with a creature
 <BOOKMARK:cr805-10e>805.10e Any rule, object, or effect that refers to a “defending player” refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it’s referring to is the player that creature is attacking, the controller of the planeswalker that creature is attacking, or the protector of the battle that creature is attacking. If that creature is no longer attacking, the defending player it’s referring to is the player that creature was attacking before it was removed from combat, the controller of the planeswalker that creature was attacking before it was removed from combat, or the protector of the battle that creature was attacking before it was removed from combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one.\\ 
 805.10e 任何提及“防御牌手”的规则、物件，或是效应，指一位特定的防御牌手，而不是所有防御牌手。如果一个攻击生物的异能提及防御牌手，或一个咒语或异能同时提及攻击生物和防御牌手，除非另有指定，该防御牌手指该生物正在攻击的牌手、其正在攻击的鹏洛客的操控者，或是其正在攻击的战役的防卫者。如果该生物不再进行攻击，该防御牌手指该生物被移出战斗之前所攻击的牌手、所攻击的鹏洛客的操控者，或是所攻击的战役的防卫者。如果一个咒语或异能可以对多个攻击生物生效，分别为每个攻击生物确定其所对应的防御牌手。如果有多位防御牌手可供选择，则由该咒语或异能的操控者选择其中一位。
 
-<BOOKMARK:cr805-10f>805.10f Once blockers have been declared, for each attacking creature that’s become blocked by multiple creatures, the active team announces the damage assignment order among the blocking creatures. Then, for each creature that’s blocking multiple creatures, the defending team announces the damage assignment order among the attacking creatures.\\ 
-805.10f 一旦阻挡者宣告完成，对于每个被多个生物阻挡的攻击生物，主动队伍宣告其在每个进行阻挡的生物上的伤害分配顺序。然后，对于每个阻挡了多个生物之生物，防御队伍宣告其在每个其阻挡的攻击生物上的伤害分配顺序。
-
-<BOOKMARK:cr805-10g>805.10g As the combat damage step begins, the active team announces how each attacking creature will assign its combat damage. Then the defending team announces how each blocking creature will assign its combat damage. See rule 510.1.\\ 
-805.10g 于战斗伤害步骤开始时，主动队伍宣告每个攻击生物如何分配其战斗伤害。然后防御队伍宣告每个进行阻挡的生物如何分配其战斗伤害。参见规则[[cr:5#cr510-1|510.1]]。
+<BOOKMARK:cr805-10f>805.10f As the combat damage step begins, the active team announces how each attacking creature will assign its combat damage. Then the defending team announces how each blocking creature will assign its combat damage. See rule 510.1.\\ 
+805.10f 于战斗伤害步骤开始时，主动队伍宣告每个攻击生物如何分配其战斗伤害。然后防御队伍宣告每个进行阻挡的生物如何分配其战斗伤害。参见规则[[cr:5#cr510-1|510.1]]。
 
 ===== 806. 自由竞赛玩法 Free-for-All Variant =====
 <BOOKMARK:cr806>806. Free-for-All Variant\\ 

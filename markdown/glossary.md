@@ -793,9 +793,9 @@ A keyword ability that lets a card be discarded and replaced with a new card. Se
 Objects can deal “damage” to creatures, planeswalkers, and players. This is generally detrimental to the object or player that receives that damage. See rule 120, “Damage.”
 
 ----
-### <span id='Damage Assignment Order'>Damage Assignment Order</span> / <span id='伤害分配顺序'>伤害分配顺序</span>
-在宣告阻挡者步骤中，对攻击生物对多个阻挡它的生物分配战斗伤害的顺序，或阻挡生物对其阻挡的多个生物分配战斗伤害的顺序。参见规则[509.2](./5#cr509-2)以及[509.3](./5#cr509-3)。   
-The order, announced during the declare blockers step, that an attacking creature will assign its combat damage among the multiple creatures blocking it, or that a blocking creature will assign its combat damage among the multiple creatures it’s blocking. See rules 509.2 and 509.3.
+### <span id='Damage Assignment Order (Obsolete)'>Damage Assignment Order (Obsolete)</span> / <span id='伤害分配顺序（已废止）'>伤害分配顺序（已废止）</span>
+先前，如果一个生物被多个生物阻挡，或阻挡了多个生物，它的操控者需要选择一个顺序来给阻挡它或被它阻挡的生物分配战斗伤害。现在，它的操控者不再需要选择顺序，只需将其战斗伤害在所有阻挡它或被它阻挡的生物之间分配。参见规则[510.1c-d](./5#cr510-1c)。   
+Previously, if a creature blocks or becomes blocked by multiple creatures, the creature’s controller would be required to choose an order in which it would assign combat damage to the creatures blocking or blocked by it. Now, its controller no longer needs to assign an order, and simply divides its combat damage as they choose among all creatures it’s blocking or blocked by. See rules 510.1c-d.
 
 ----
 ### <span id='Dash'>Dash</span> / <span id='掩袭'>掩袭</span>
@@ -1610,8 +1610,8 @@ Information printed directly below the text box that has no effect on game play.
 
 ----
 ### <span id='Impending'>Impending</span> / <span id='隐现'>隐现</span>
-一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。   
-An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time.
+一个出现在生物上的异能，允许它们以替代性费用施放。如果以其隐现费用施放，它在一段时间内不是生物。参见规则[702.176](./7#cr702-176)，“隐现”。   
+An ability on some creatures that allows them to be cast for an alternative cost. If cast for its impending cost, it isn’t a creature for some period of time. See rule 702.176, “Impending.”
 
 ----
 ### <span id='Imprint'>Imprint</span> / <span id='压印'>压印</span>
@@ -2052,8 +2052,8 @@ A card or token may merge with a permanent to form a merged permanent. This merg
 To mill a number of cards, a player puts that many cards from the top of their library into their graveyard. See rule 701.13.
 
 ----
-### <span id='Minimum Deck Size'>Minimum Deck Size</span> / <span id='套牌张数下限'>套牌张数下限</span>
-如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌张数下限。   
+### <span id='Minimum Deck Size'>Minimum Deck Size</span> / <span id='套牌数量下限'>套牌数量下限</span>
+如果一个规则或效应叙述牌手的套牌必须至少包含一定数量的牌，该数量即为套牌数量下限。   
 If a rule or effect states that a player’s deck must contain at least a specific number of cards, that number is the player’s minimum deck size.
 
 ----
