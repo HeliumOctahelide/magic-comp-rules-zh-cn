@@ -185,7 +185,7 @@ def terms_to_dokuwiki(json_data, output_dir):
     back_link = "[[:完整规则|返回完整规则目录]]\n"
 
     # 2) 标题
-    title = "====== 暂译名称列表 ======\n"
+    title = "====== 暂译名称列表 ======\n\n"
 
     # 3) 第一段说明文字
     intro_text = (
@@ -219,7 +219,7 @@ def terms_to_dokuwiki(json_data, output_dir):
     #    DOKUWIKI 的斜体用 // 来表示
     #    这里与 Markdown 不同，需要将 * 替换为 //
     between_tables_text = (
-        "\n下列出现于//Unfinity//、//无疆新宇宙：神秘博士//系列中的名词之译名"
+        "\n\n下列出现于//Unfinity//、//无疆新宇宙：神秘博士//系列中的名词之译名"
         "在官网文章中出现，但未出现于卡牌上。\n\n"
     )
 
@@ -228,7 +228,7 @@ def terms_to_dokuwiki(json_data, output_dir):
     unfinity_table = glossary_to_dokuwiki_table(unfinity_data)
 
     # 7) 最后插入 nofooter 页面
-    nofooter_text = "\n{{page>:规则和文档索引&nofooter}}\n"
+    nofooter_text = "\n\n{{page>:规则和文档索引&nofooter}}\n"
 
     # 拼接成完整 DOKUWIKI 内容
     dokuwiki_output = (
@@ -246,5 +246,5 @@ def terms_to_dokuwiki(json_data, output_dir):
         f.write(dokuwiki_output)
 
 if __name__ == '__main__':
-    plain_text_to_dokuwiki('./20241108.json', '../dokuwiki')
+    plain_text_to_dokuwiki('./20250207.json', '../dokuwiki')
     terms_to_dokuwiki('./translatedterms.json', '../dokuwiki')

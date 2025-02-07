@@ -188,10 +188,10 @@ def terms_to_markdown(json_data, output_dir):
     # 原本 Markdown 文件中的说明文本
     title = "# 暂译名称列表\n"
     intro_text = (
-        "\n下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n"
+        "\n\n下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n\n"
     )
     between_tables_text = (
-        "\n下列出现于*Unfinity*、*无疆新宇宙：神秘博士*系列中的名词之译名在官网文章中出现，但未出现于卡牌上。\n"
+        "\n\n下列出现于*Unfinity*、*无疆新宇宙：神秘博士*系列中的名词之译名在官网文章中出现，但未出现于卡牌上。\n\n"
     )
 
     # 定义一个字符串模板，用于拼接 Markdown 表格的头部
@@ -232,5 +232,5 @@ def terms_to_markdown(json_data, output_dir):
         f.write(markdown_output)
 
 if __name__ == '__main__':
-    plain_text_to_markdown('./20241108.json', '../markdown')
+    plain_text_to_markdown('./20250207.json', '../markdown')
     terms_to_markdown('./translatedterms.json', '../markdown')

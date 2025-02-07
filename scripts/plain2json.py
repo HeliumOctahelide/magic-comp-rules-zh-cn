@@ -126,6 +126,10 @@ def plain_text_to_json(en_text, zh_text, output_file, version):
             'zh': zh_line,
         } for en_line, zh_line in zip(en_credits, zh_credits) if en_line and zh_line],
     }
+
+    # 读取暂译词汇表
+    translatedterms = json.load(open('./translatedterms.json'))
+
     # 将所有部分组合成一个JSON对象
     output = {
         'version': version,
@@ -133,9 +137,10 @@ def plain_text_to_json(en_text, zh_text, output_file, version):
         'main': main,
         'glossary': glossary,
         'credits': credits,
+        'translatedterms': translatedterms
     }
     json.dump(output, open(output_file, 'w'), ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':
-    plain_text_to_json('../plain_text/20241108_En.txt', '../plain_text/20241108_Zh.txt', './20241108.json', '20241108')
+    plain_text_to_json('../plain_text/20250207_En.txt', '../plain_text/20250207_Zh.txt', './20250207.json', '20250207')
