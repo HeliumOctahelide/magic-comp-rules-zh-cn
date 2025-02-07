@@ -19,7 +19,7 @@ Manifest Dread：显化惧象
 Offspring: 繁生
 Ongoing: 长效
 Pawprint: 爪印
-Reroll: 重新掷骰
+Reroll: 重掷
 Rolled doubles: 掷出同点
 Room：隔间
 Scheme: 邪计

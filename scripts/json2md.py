@@ -174,5 +174,63 @@ def plain_text_to_markdown(json_file, output_dir):
     with open(f'{output_dir}/index.md', 'w', encoding='utf-8') as f:
         f.write(catalog_text)
 
+def terms_to_markdown(json_data, output_dir):
+    """
+    接收一个包含 mainGlossary 和 unfinityDoctorGlossary 两个键的 JSON 对象，
+    会自动按照 English 字段进行字母顺序排序，然后输出完整 Markdown 字符串：
+    1) 标题 # 暂译名称列表
+    2) 原本的说明文字
+    3) 第一张表格（mainGlossary）
+    4) 中间过渡文本
+    5) 第二张表格（unfinityDoctorGlossary）
+    """
+    data = json.load(open(json_data, 'r'))
+    # 原本 Markdown 文件中的说明文本
+    title = "# 暂译名称列表\n"
+    intro_text = (
+        "\n下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n"
+    )
+    between_tables_text = (
+        "\n下列出现于*Unfinity*、*无疆新宇宙：神秘博士*系列中的名词之译名在官网文章中出现，但未出现于卡牌上。\n"
+    )
+
+    # 定义一个字符串模板，用于拼接 Markdown 表格的头部
+    table_header_template = """| English | 中文 |
+| --- | --- |"""
+
+    # 将列表中的每条记录格式化为 Markdown 表格行
+    def dict_list_to_md_rows(dict_list):
+        md_lines = []
+        # 按 English 字段进行字母顺序排序
+        sorted_list = sorted(dict_list, key=lambda x: x.get("English", "").lower())
+        for item in sorted_list:
+            english = item.get("English", "")
+            chinese = item.get("Chinese", "")
+            md_lines.append(f"| {english} | {chinese} |")
+        return "\n".join(md_lines)
+
+    # 取出 mainGlossary 列表并转换为 Markdown
+    main_data = data.get("mainGlossary", [])
+    main_table_body = dict_list_to_md_rows(main_data)
+    main_table_md = f"{table_header_template}\n{main_table_body}"
+
+    # 取出 unfinityDoctorGlossary 列表并转换为 Markdown
+    unfinity_data = data.get("unfinityDoctorGlossary", [])
+    unfinity_table_body = dict_list_to_md_rows(unfinity_data)
+    unfinity_table_md = f"{table_header_template}\n{unfinity_table_body}"
+
+    # 将各部分拼接成完整 Markdown 内容
+    markdown_output = (
+        title
+        + intro_text
+        + main_table_md
+        + between_tables_text
+        + unfinity_table_md
+    )
+
+    with open(f'{output_dir}/translatedterms.md', 'w', encoding='utf-8') as f:
+        f.write(markdown_output)
+
 if __name__ == '__main__':
     plain_text_to_markdown('./20241108.json', '../markdown')
+    terms_to_markdown('./translatedterms.json', '../markdown')

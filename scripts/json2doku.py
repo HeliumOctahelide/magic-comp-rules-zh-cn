@@ -166,5 +166,85 @@ def plain_text_to_dokuwiki(json_file, output_dir):
     with open(f'{output_dir}/catalog.txt', 'w', encoding='utf-8') as f:
         f.write(catalog_text)
 
+def terms_to_dokuwiki(json_data, output_dir):
+    """
+    接收一个包含 mainGlossary 和 unfinityDoctorGlossary 两个键的 JSON 文件，
+    会自动按照 English 字段进行字母顺序排序，然后输出 DOKUWIKI 格式文本：
+      1) 返回完整规则目录的链接
+      2) 标题
+      3) 说明文字
+      4) 第一张表（mainGlossary）
+      5) 中间说明文字（提及 *Unfinity* / 无疆新宇宙：神秘博士）
+      6) 第二张表（unfinityDoctorGlossary）
+      7) 最后插入 "规则和文档索引" 的 nofooter 页面
+    """
+    # 读取 JSON 数据
+    data = json.load(open(json_data, 'r', encoding='utf-8'))
+
+    # 1) 返回完整规则目录的链接
+    back_link = "[[:完整规则|返回完整规则目录]]\n"
+
+    # 2) 标题
+    title = "====== 暂译名称列表 ======\n"
+
+    # 3) 第一段说明文字
+    intro_text = (
+        "下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n\n"
+    )
+
+    # 4) 第一张表（mainGlossary）
+    #    DOKUWIKI 使用 ^ 作为表格的单元格边界
+    #    表头举例：^英文名^暂译中文名^
+    def glossary_to_dokuwiki_table(entries):
+        """
+        将 glossary 列表转换为 DOKUWIKI 表格
+        """
+        # 先按 English 字段做排序
+        sorted_entries = sorted(entries, key=lambda x: x.get("English", "").lower())
+        lines = []
+        # 表头
+        lines.append("^英文名^暂译中文名^")
+        # 表体
+        for item in sorted_entries:
+            english = item.get("English", "")
+            chinese = item.get("Chinese", "")
+            # 每一行示例： ^Ante|押注（用作动词）/赌注（用作名词）|
+            lines.append(f"^{english}|{chinese}|")
+        return "\n".join(lines)
+
+    main_data = data.get("mainGlossary", [])
+    main_table = glossary_to_dokuwiki_table(main_data)
+
+    # 5) 第二段说明文字（中间过渡文本）
+    #    DOKUWIKI 的斜体用 // 来表示
+    #    这里与 Markdown 不同，需要将 * 替换为 //
+    between_tables_text = (
+        "\n下列出现于//Unfinity//、//无疆新宇宙：神秘博士//系列中的名词之译名"
+        "在官网文章中出现，但未出现于卡牌上。\n\n"
+    )
+
+    # 6) 第二张表（unfinityDoctorGlossary）
+    unfinity_data = data.get("unfinityDoctorGlossary", [])
+    unfinity_table = glossary_to_dokuwiki_table(unfinity_data)
+
+    # 7) 最后插入 nofooter 页面
+    nofooter_text = "\n{{page>:规则和文档索引&nofooter}}\n"
+
+    # 拼接成完整 DOKUWIKI 内容
+    dokuwiki_output = (
+        back_link
+        + title
+        + intro_text
+        + main_table
+        + between_tables_text
+        + unfinity_table
+        + nofooter_text
+    )
+    
+    # 写出到目标文件
+    with open(f'{output_dir}/translatedterms.txt', 'w', encoding='utf-8') as f:
+        f.write(dokuwiki_output)
+
 if __name__ == '__main__':
     plain_text_to_dokuwiki('./20241108.json', '../dokuwiki')
+    terms_to_dokuwiki('./translatedterms.json', '../dokuwiki')
