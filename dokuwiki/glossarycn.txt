@@ -811,6 +811,13 @@ To move a scheme card off the top of your scheme deck and turn it face up. See r
 将你的邪计套牌顶牌移离并将其翻回正面。参见规则[[cr:7#cr701-25|701.25]]，“发动”。
 
 ----
+Start Your Engines!\\ 
+发动引擎！
+
+A keyword ability that gives a player a speed of 1 if they have no speed. Once a player has speed, their speed increases once on each of their turns when an opponent loses life. See rule 702.179, “Start Your Engines!”\\ 
+一个关键字异能，在牌手没有速度时使其速度成为1。一旦牌手具有速度，于其自己的每个回合中且限一次，当有对手失去生命时，其速度便会增加1。参见规则[[cr:7#cr702-179|702.179]]，“发动引擎！”。
+
+----
 Dredge\\ 
 发掘
 
@@ -1667,6 +1674,13 @@ A keyword ability found on creature cards that allows them to be cast for an alt
 一个见于生物牌上的关键字异能，允许其使用替代性费用来施放。参见规则[[cr:7#cr702-152|702.152]]，“急袭”。
 
 ----
+Double\\ 
+加倍
+
+A keyword action used in a variety of contexts. See rule 701.9, “Double.”\\ 
+一个关键字动作，在各种情境下使用。参见规则[[cr:7#cr701-9|701.9]]，“加倍”。
+
+----
 Bargain\\ 
 加码
 
@@ -1773,6 +1787,13 @@ Merged Permanent\\
 
 A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 727, “Merging with Permanents.”\\ 
 牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr727|727]]，“与永久物结聚”。
+
+----
+Exhaust\\ 
+竭绝
+
+A special kind of activated ability that may be activated only once. See rule 702.177, “Exhaust.”\\ 
+一类特殊的起动式异能，只能起动一次。参见规则[[cr:7#cr702-177|702.177]]，“竭绝”。
 
 ----
 Spectacle\\ 
@@ -3247,6 +3268,23 @@ Collect Evidence\\
 
 A keyword action. To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater. See rule 701.57, “Collect Evidence.”\\ 
 一个关键字动作。“搜证N”意指，从你的坟墓场放逐任意数量的牌，且其法术力值加总须达到N或更多。参见规则[[cr:7#cr701-57|701.57]]，“搜证”。
+
+----
+Speed\\ 
+速度
+
+Speed is a value that a player can have. See rule 702.179, “Start Your Engines!”\\ 
+速度是牌手可具有的数值。参见规则[[cr:7#cr702-179|702.179]]，“发动引擎！”。
+
+----
+Max Speed\\ 
+速度极限
+
+1. A player has max speed if their speed is 4. See rule 702.179, “Start Your Engines!”\\ 
+1. 如果某牌手的速度达到4，则其便达到速度极限。参见规则[[cr:7#cr702-179|702.179]]，“发动引擎！”。
+
+2. A keyword ability that grants an ability to the permanent or card it’s on only if that permanent’s controller (or that card’s owner, if it isn’t on the battlefield) has a speed of 4. See rule 702.178, “Max Speed.”\\ 
+2. 一个关键字异能，赋予永久物或牌一个异能，该异能仅在该永久物的操控者（或该牌的拥有者，如果它不在战场上）的速度4时生效。参见规则[[cr:7#cr702-178|702.178]]，“速度极限”。
 
 ----
 Shard Token\\ 

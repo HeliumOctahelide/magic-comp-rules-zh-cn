@@ -37,8 +37,8 @@
 <BOOKMARK:cr500-10>500.10. Some effects add a step after a particular phase. In that case, that effect first creates the phase which normally contains that step directly after the specified phase. Any other steps that phase would normally have are skipped (see rule 500.11).\\ 
 500.10. 一些效应会在一个特定阶段后增加步骤。在这种情况下，该效应首先在此特定阶段后创造一个本应包含此步骤的阶段。该阶段本应包含的其他步骤均被略过（参见规则[[cr:5#cr500-11|500.11]]）。
 
-Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka, Splitter of Seconds deals combat damage to a player, you get that many additional upkeep steps after this phase.” After that ability resolves, its controller adds that many beginning phases after this phase. Those new beginning phases have only an upkeep step. The untap steps and draw steps of those phases are skipped.\\ 
-例如：裂时术师欧蓓卡的部分叙述为“每当裂时术师欧蓓卡对任一牌手造成战斗伤害时，你在此阶段后额外得到等量的维持步骤。”在该异能结算后，其操控者将等量的开始阶段增加到此阶段后。这些新的开始阶段只包含一个维持步骤，而重置步骤和抓牌步骤均被略过。
+Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.” After that ability resolves, its controller adds that many beginning phases after this phase. Those new beginning phases have only an upkeep step. The untap steps and draw steps of those phases are skipped.\\ 
+例如：裂时术师欧蓓卡的部分叙述为“每当欧蓓卡对任一牌手造成战斗伤害时，你在此阶段后额外得到等量的维持步骤。”在该异能结算后，其操控者将等量的开始阶段增加到此阶段后。这些新的开始阶段只包含一个维持步骤，而重置步骤和抓牌步骤均被略过。
 
 <BOOKMARK:cr500-10a>500.10a If an effect that says “you get” an additional step or phase would add a step or phase to a turn other than its controller’s, no steps or phases are added.\\ 
 500.10a 如果一个叙述“你得到”一个额外步骤或阶段的效应将在并非其操控者的回合中增加步骤或阶段，该效应不会增加步骤或阶段。
@@ -243,8 +243,8 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka, Splitter o
 <BOOKMARK:cr508-1c>508.1c The active player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t attack, or that it can’t attack unless some condition is met). If any restrictions are being disobeyed, the declaration of attackers is illegal.\\ 
 508.1c 主动牌手检查其操控的每个生物是否被任何限制（注明生物不能攻击，或符合某些条件才能攻击的效应）所影响。如果违反了任何限制，该宣告攻击者非法。
 
-Example: A player controls two creatures, each with a restriction that states “[This creature] can’t attack alone.” It’s legal to declare both as attackers.\\ 
-例如：某牌手操控两个生物，每个都具有限制为“[此生物]不能单独攻击”。宣告两者均为攻击者是合法的。
+Example: A player controls two creatures, each with a restriction that states “This creature can’t attack alone.” It’s legal to declare both as attackers.\\ 
+例如：某牌手操控两个生物，每个都具有限制为“此生物不能单独攻击”。宣告两者均为攻击者是合法的。
 
 <BOOKMARK:cr508-1d>508.1d The active player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature attacks if able, or that it attacks if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal. If a creature can’t attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed. If a requirement that says a creature attacks if able during a certain turn refers to a turn with multiple combat phases, the creature attacks if able during each declare attackers step in that turn.\\ 
 508.1d 主动牌手检查其操控的每个生物是否被任何要求（注明生物若能攻击则必须攻击，或符合某些条件便攻击的效应）所影响。如果被遵循的要求数量在不违反任何限制的情况下小于可以遵循的最大要求数量，该宣告攻击者为非法。如果除非牌手支付某费用否则一个生物不能攻击，此费用并不会使该牌手强制支付，即使若以该生物进行攻击将会增加所遵循的要求之数量。如果一个要求叙述为使某生物在一个特定回合若能攻击则必须攻击，而该回合具有多个战斗阶段，则该生物在该回合的每个宣告攻击者步骤若能攻击则必须攻击。
@@ -453,7 +453,7 @@ Example: A creature has the ability “Whenever this creature becomes blocked by
 510.1c 被阻挡生物对阻挡它的生物分配战斗伤害。如果当前没有生物阻挡它（例如，生物被消灭或移出战斗），该生物不会分配战斗伤害。如果只有一个生物对其进行阻挡，则它将分配所有战斗伤害给该生物。如果两个或更多的生物对其进行阻挡，则它的操控者将其战斗伤害任意分配给这些生物。
 
 Example: An attacking Elvish Regrower (a 4/3 creature) is blocked by Vampire Spawn (a 2/3 creature) and Helpful Hunter (a 1/1 creature). Elvish Regrower’s controller can assign all 4 damage to the Hunter, 1 damage to the Spawn and 3 damage to the Hunter, 2 damage to each creature, 3 damage to the Spawn and 1 damage to the Hunter, or all 4 damage to the Spawn.\\ 
-例如：正在进行攻击的妖精护生师（4/3生物）被吸血衍体（2/3生物）和有用捕手（1/1生物）阻挡。妖精护生师的操控者可以选择将全部4点伤害分配给有用捕手；将1点伤害分配给吸血衍体，3点伤害分配给有用捕手；将2点伤害各分配给吸血衍体和有用捕手；将3点伤害分配给吸血衍体，1点伤害分配给有用捕手；或将全部4点伤害分配给吸血衍体。
+例如：正在进行攻击的妖精护生师[Elvish Regrower]（4/3生物）被吸血衍体（2/3生物）和有用捕手[Helpful Hunter]（1/1生物）阻挡。妖精护生师的操控者可以选择将全部4点伤害分配给有用捕手；将1点伤害分配给吸血衍体，3点伤害分配给有用捕手；将2点伤害各分配给吸血衍体和有用捕手；将3点伤害分配给吸血衍体，1点伤害分配给有用捕手；或将全部4点伤害分配给吸血衍体。
 
 <BOOKMARK:cr510-1d>510.1d A blocking creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If it’s blocking exactly one creature, it assigns all its combat damage to that creature. If it’s blocking two or more creatures, it assigns its combat damage divided as its controller chooses among them.\\ 
 510.1d 阻挡生物对它阻挡的生物分配战斗伤害。如果当前它没有阻挡任何生物（例如，生物被消灭或移出战斗），该生物不会分配战斗伤害。如果它只阻挡一个生物，则它将分配所有战斗伤害给该生物。如果它阻挡两个或更多的生物，则它的操控者将其战斗伤害任意分配给这些生物。

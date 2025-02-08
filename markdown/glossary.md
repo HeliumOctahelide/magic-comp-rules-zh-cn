@@ -966,6 +966,11 @@ A partner ability that allows a player to play with two legendary creature cards
 A door is one half of a Room permanent. See rule 709, “Split Cards.”
 
 ----
+### <span id='Double'>Double</span> / <span id='加倍'>加倍</span>
+一个关键字动作，在各种情境下使用。参见规则[701.9](./7#cr701-9)，“加倍”。   
+A keyword action used in a variety of contexts. See rule 701.9, “Double.”
+
+----
 ### <span id='Double Agenda'>Double Agenda</span> / <span id='双重秘案'>双重秘案</span>
 秘案异能的一种变化。参见规则[702.106](./7#cr702-106)，“秘案”。   
 A variant of the hidden agenda ability. See rule 702.106, “Hidden Agenda.”
@@ -1211,6 +1216,11 @@ To swap two things, such as objects, sets of objects, or life totals. See rule 7
 ### <span id='Exert'>Exert</span> / <span id='耗竭'>耗竭</span>
 一个关键字动作，阻止一个永久物于耗竭之的牌手之下一个重置步骤中重置。参见规则[701.39](./7#cr701-39)，“耗竭”。   
 A keyword action that stops a permanent from untapping during the next untap step of the player who exerted it. See rule 701.39, “Exert.”
+
+----
+### <span id='Exhaust'>Exhaust</span> / <span id='竭绝'>竭绝</span>
+一类特殊的起动式异能，只能起动一次。参见规则[702.177](./7#cr702-177)，“竭绝”。   
+A special kind of activated ability that may be activated only once. See rule 702.177, “Exhaust.”
 
 ----
 ### <span id='Exile'>Exile</span> / <span id='放逐'>放逐</span>
@@ -2005,6 +2015,14 @@ A Map token is a colorless Map artifact token with “{1}, {T}, Sacrifice this a
 ### <span id='Match'>Match</span> / <span id='局'>局</span>
 在比赛中进行的一盘多人游戏或一系列双人游戏（通常是三局两胜制）。参见规则[100.6](./1#cr100-6)。   
 A multiplayer game or a two-player series of games (usually best-two-of-three) played in a tournament. See rule 100.6.
+
+----
+### <span id='Max Speed'>Max Speed</span> / <span id='速度极限'>速度极限</span>
+1. 如果某牌手的速度达到4，则其便达到速度极限。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+1. A player has max speed if their speed is 4. See rule 702.179, “Start Your Engines!”
+
+2. 一个关键字异能，赋予永久物或牌一个异能，该异能仅在该永久物的操控者（或该牌的拥有者，如果它不在战场上）的速度4时生效。参见规则[702.178](./7#cr702-178)，“速度极限”。   
+2. A keyword ability that grants an ability to the permanent or card it’s on only if that permanent’s controller (or that card’s owner, if it isn’t on the battlefield) has a speed of 4. See rule 702.178, “Max Speed.”
 
 ----
 ### <span id='Maximum Hand Size'>Maximum Hand Size</span> / <span id='手牌上限'>手牌上限</span>
@@ -2974,6 +2992,11 @@ An action a player may take that doesn’t use the stack. See rule 116, “Speci
 A keyword ability that allows certain spells to be cast for an alternative cost if an opponent has lost life. See rule 702.137, “Spectacle.”
 
 ----
+### <span id='Speed'>Speed</span> / <span id='速度'>速度</span>
+速度是牌手可具有的数值。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+Speed is a value that a player can have. See rule 702.179, “Start Your Engines!”
+
+----
 ### <span id='Spell'>Spell</span> / <span id='咒语'>咒语</span>
 堆叠上的牌。以及堆叠上（无论是牌还是另一个咒语）的复制品。参见规则[112](./1#cr112)，“咒语”。   
 A card on the stack. Also a copy (of either a card or another spell) on the stack. See rule 112, “Spells.”
@@ -3017,6 +3040,11 @@ A keyword ability that creates copies of a creature when it enters the battlefie
 ### <span id='Stack'>Stack</span> / <span id='堆叠'>堆叠</span>
 一个区域。堆叠是让咒语、起动式异能、和触发式异能等待结算的区域。参见规则[405](./4#cr405)，“堆叠”。   
 A zone. The stack is the zone in which spells, activated abilities, and triggered abilities wait to resolve. See rule 405, “Stack.”
+
+----
+### <span id='Start Your Engines!'>Start Your Engines!</span> / <span id='发动引擎！'>发动引擎！</span>
+一个关键字异能，在牌手没有速度时使其速度成为1。一旦牌手具有速度，于其自己的每个回合中且限一次，当有对手失去生命时，其速度便会增加1。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+A keyword ability that gives a player a speed of 1 if they have no speed. Once a player has speed, their speed increases once on each of their turns when an opponent loses life. See rule 702.179, “Start Your Engines!”
 
 ----
 ### <span id='Starting Deck'>Starting Deck</span> / <span id='起始套牌'>起始套牌</span>

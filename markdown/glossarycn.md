@@ -469,6 +469,10 @@ A turn created by an effect of a spell or ability. See rule 500.7. For rules abo
 将你的邪计套牌顶牌移离并将其翻回正面。参见规则[701.25](./7#cr701-25)，“发动”。   
 To move a scheme card off the top of your scheme deck and turn it face up. See rule 701.25, “Set in Motion.”
 
+### <span id='发动引擎！'>发动引擎！</span> / <span id='Start Your Engines!'>Start Your Engines!</span>
+一个关键字异能，在牌手没有速度时使其速度成为1。一旦牌手具有速度，于其自己的每个回合中且限一次，当有对手失去生命时，其速度便会增加1。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+A keyword ability that gives a player a speed of 1 if they have no speed. Once a player has speed, their speed increases once on each of their turns when an opponent loses life. See rule 702.179, “Start Your Engines!”
+
 ### <span id='发掘'>发掘</span> / <span id='Dredge'>Dredge</span>
 一个关键字异能，让牌手将牌从其坟墓场中移回其手上。参见规则[702.52](./7#cr702-52)，“发掘”。   
 A keyword ability that lets a player return a card from their graveyard to their hand. See rule 702.52, “Dredge.”
@@ -971,6 +975,10 @@ Effects that change the base power and/or base toughness of a creature set one o
 一个见于生物牌上的关键字异能，允许其使用替代性费用来施放。参见规则[702.152](./7#cr702-152)，“急袭”。   
 A keyword ability found on creature cards that allows them to be cast for an alternative cost. See rule 702.152, “Blitz.”
 
+### <span id='加倍'>加倍</span> / <span id='Double'>Double</span>
+一个关键字动作，在各种情境下使用。参见规则[701.9](./7#cr701-9)，“加倍”。   
+A keyword action used in a variety of contexts. See rule 701.9, “Double.”
+
 ### <span id='加码'>加码</span> / <span id='Bargain'>Bargain</span>
 加码是一个关键字异能，表示一个牺牲一个神器、结界或衍生物的可选额外费用。如果一个咒语的操控者宣告将支付其加码费用，则该咒语已加码。参见规则[702.166](./7#cr702-166)，“加码”。   
 Bargain is a keyword ability that represents an optional additional cost of sacrificing an artifact, enchantment, or token. A spell has been bargained if its controller declared the intention to pay that cost. See rule 702.166, “Bargain.”
@@ -1033,6 +1041,10 @@ A subtype that’s correlated to the enchantment card type. See rule 303, “Enc
 ### <span id='结聚永久物'>结聚永久物</span> / <span id='Merged Permanent'>Merged Permanent</span>
 牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[727](./7#cr727)，“与永久物结聚”。   
 A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 727, “Merging with Permanents.”
+
+### <span id='竭绝'>竭绝</span> / <span id='Exhaust'>Exhaust</span>
+一类特殊的起动式异能，只能起动一次。参见规则[702.177](./7#cr702-177)，“竭绝”。   
+A special kind of activated ability that may be activated only once. See rule 702.177, “Exhaust.”
 
 ### <span id='揭幕'>揭幕</span> / <span id='Spectacle'>Spectacle</span>
 一个关键字异能，在对手失去生命后允许一些咒语以替代性费用施放。参见规则[702.137](./7#cr702-137)，“揭幕”。   
@@ -1898,6 +1910,17 @@ To look at all cards in a stated zone and possibly find a card that matches a gi
 ### <span id='搜证'>搜证</span> / <span id='Collect Evidence'>Collect Evidence</span>
 一个关键字动作。“搜证N”意指，从你的坟墓场放逐任意数量的牌，且其法术力值加总须达到N或更多。参见规则[701.57](./7#cr701-57)，“搜证”。   
 A keyword action. To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater. See rule 701.57, “Collect Evidence.”
+
+### <span id='速度'>速度</span> / <span id='Speed'>Speed</span>
+速度是牌手可具有的数值。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+Speed is a value that a player can have. See rule 702.179, “Start Your Engines!”
+
+### <span id='速度极限'>速度极限</span> / <span id='Max Speed'>Max Speed</span>
+1. 如果某牌手的速度达到4，则其便达到速度极限。参见规则[702.179](./7#cr702-179)，“发动引擎！”。   
+1. A player has max speed if their speed is 4. See rule 702.179, “Start Your Engines!”
+
+2. 一个关键字异能，赋予永久物或牌一个异能，该异能仅在该永久物的操控者（或该牌的拥有者，如果它不在战场上）的速度4时生效。参见规则[702.178](./7#cr702-178)，“速度极限”。   
+2. A keyword ability that grants an ability to the permanent or card it’s on only if that permanent’s controller (or that card’s owner, if it isn’t on the battlefield) has a speed of 4. See rule 702.178, “Max Speed.”
 
 ### <span id='碎片衍生物'>碎片衍生物</span> / <span id='Shard Token'>Shard Token</span>
 碎片衍生物是具有“{2}，牺牲此结界：占卜1，然后抓一张牌”的无色衍生结界。欲知关于预定义衍生物的更多信息，参见规则[111.10](./1#cr111-10)。   
