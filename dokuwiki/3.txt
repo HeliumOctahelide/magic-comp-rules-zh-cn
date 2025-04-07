@@ -155,7 +155,7 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 303.4k 如果一个效应允许一个正在翻回正面的灵气贴附于一个物件或牌手，则该灵气的操控者须根据该灵气将以牌面朝上的状态存在于战场上时的特征考虑其能够贴附于哪些物件或牌手，且他必须遵循该灵气的结附异能以及任何适用的效应来选择一个合法的物件或牌手。
 
 <BOOKMARK:cr303-4m>303.4m An ability of a permanent that refers to the “enchanted [object or player]” refers to whatever object or player that permanent is attached to, even if the permanent with the ability isn’t an Aura.\\ 
-303.4m 永久物具有提及“所结附的[物件或牌手]”的异能指该永久物所贴附的生物，即使具有该异能的永久物不是灵气。（译注：一些较旧版本的简体中文牌译为“受此结界”，现已改译为“所结附”）
+303.4m 永久物具有提及“所结附的[物件或牌手]”的异能指该永久物所贴附的物件或牌手，即使具有该异能的永久物不是灵气。（译注：一些较旧版本的简体中文牌译为“受此结界”，现已改译为“所结附”）
 
 <BOOKMARK:cr303-5>303.5. Some enchantments have the subtype “Saga.” See rule 714 for more information about Saga cards.\\ 
 303.5. 一些结界具有“传纪”副类别。关于传纪牌的详细信息，参见规则[[cr:7#cr714|714]]。

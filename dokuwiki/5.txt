@@ -63,8 +63,8 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 <BOOKMARK:cr502-1>502.1. First, all phased-in permanents with phasing that the active player controls phase out, and all phased-out permanents that the active player controlled when they phased out phase in. This all happens simultaneously. This turn-based action doesn’t use the stack. See rule 702.26, “Phasing.”\\ 
 502.1. 首先，主动牌手操控的所有已跃回且具有时间跳跃异能的永久物跃离，且跃离时由主动牌手操控的所有已跃离永久物跃回。这些均同时发生。此回合动作不使用堆叠。参见规则[[cr:7#cr702-26|702.26]]，“时间跳跃”。
 
-<BOOKMARK:cr502-2>502.2. Second, if it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. If it’s night and the previous turn’s active player cast two or more spells during that turn, it becomes day. If it’s neither day nor night, this check doesn’t happen and it remains neither. This turn-based action doesn’t use the stack. See rule 728, “Day and Night.”\\ 
-502.2. 其次，如果当前是白昼，且上一个回合的主动牌手没有在该回合中施放任何咒语，则成为黑夜。如果当前是黑夜，且上一个回合的主动牌手在该回合中施放了两个或更多咒语，则成为白昼。如果当前既非白昼也非黑夜，则此检查不会发生，且当前仍然既非白昼也非黑夜。此回合动作不使用堆叠。参见规则[[cr:7#cr728|728]]，“白昼与黑夜”。
+<BOOKMARK:cr502-2>502.2. Second, if it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. If it’s night and the previous turn’s active player cast two or more spells during that turn, it becomes day. If it’s neither day nor night, this check doesn’t happen and it remains neither. This turn-based action doesn’t use the stack. See rule 729, “Day and Night.”\\ 
+502.2. 其次，如果当前是白昼，且上一个回合的主动牌手没有在该回合中施放任何咒语，则成为黑夜。如果当前是黑夜，且上一个回合的主动牌手在该回合中施放了两个或更多咒语，则成为白昼。如果当前既非白昼也非黑夜，则此检查不会发生，且当前仍然既非白昼也非黑夜。此回合动作不使用堆叠。参见规则[[cr:7#cr729|729]]，“白昼与黑夜”。
 
 <BOOKMARK:cr502-2a>502.2a Multiplayer games using the shared team turns option use a modified rule. If it’s day and no player on the previous turn’s active team cast a spell during that turn, it becomes night. If it’s night and any player on the previous turn’s active team cast two or more spells during the previous turn, it becomes day. If it’s neither day nor night, this check doesn’t happen and it remains neither. This turn-based action doesn’t use the stack.\\ 
 502.2a 使用队伍共享回合模式的多人游戏使用不同的规则。如果当前是白昼，且上一个回合的主动队伍中没有任何牌手在该回合中施放咒语，则成为黑夜。如果当前是黑夜，且上一个回合的主动队伍中有任一牌手在该回合中施放了两个或更多咒语，则成为白昼。如果当前既非白昼也非黑夜，则此检查不会发生，且当前仍然既非白昼也非黑夜。此回合动作不使用堆叠。
@@ -231,8 +231,8 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 <BOOKMARK:cr508>508. Declare Attackers Step\\ 
 508. 宣告攻击者步骤
 
-<BOOKMARK:cr508-1>508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 730, “Handling Illegal Actions”).\\ 
-508.1. 首先，主动牌手宣告攻击者。此回合动作不使用堆叠。宣告攻击者时，主动牌手依序进行下列步骤。如果在宣告攻击者的任何时段，主动牌手不能完成下列步骤，则宣告非法；游戏倒回至宣告之前的时间点（参见规则[[cr:7#cr730|730]]，“处理非法动作”）。
+<BOOKMARK:cr508-1>508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 731, “Handling Illegal Actions”).\\ 
+508.1. 首先，主动牌手宣告攻击者。此回合动作不使用堆叠。宣告攻击者时，主动牌手依序进行下列步骤。如果在宣告攻击者的任何时段，主动牌手不能完成下列步骤，则宣告非法；游戏倒回至宣告之前的时间点（参见规则[[cr:7#cr731|731]]，“处理非法动作”）。
 
 <BOOKMARK:cr508-1a>508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, they can’t also be battles, and each one must either have haste or have been controlled by the active player continuously since the turn began.\\ 
 508.1a 如果主动牌手攻击的话，其选择哪些由其操控的生物攻击。被选择的生物必须未横置，不能是战役，且每个生物必须具有敏捷或者在回合开始时便由主动牌手持续操控。
@@ -355,8 +355,8 @@ Example: A permanent has the ability “Whenever a green creature attacks, destr
 <BOOKMARK:cr509>509. Declare Blockers Step\\ 
 509. 宣告阻挡者步骤
 
-<BOOKMARK:cr509-1>509.1. First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 730, “Handling Illegal Actions”).\\ 
-509.1. 首先，防御牌手宣告阻挡者。此回合动作不使用堆叠。宣告阻挡者时，防御牌手依序进行下列步骤。如果在宣告阻挡者的任何时段，防御牌手不能完成下列步骤，则宣告非法；游戏倒回至宣告之前的时间点（参见规则[[cr:7#cr730|730]]，“处理非法动作”）。
+<BOOKMARK:cr509-1>509.1. First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 731, “Handling Illegal Actions”).\\ 
+509.1. 首先，防御牌手宣告阻挡者。此回合动作不使用堆叠。宣告阻挡者时，防御牌手依序进行下列步骤。如果在宣告阻挡者的任何时段，防御牌手不能完成下列步骤，则宣告非法；游戏倒回至宣告之前的时间点（参见规则[[cr:7#cr731|731]]，“处理非法动作”）。
 
 <BOOKMARK:cr509-1a>509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped and they can’t also be battles. For each of the chosen creatures, the defending player chooses one creature for it to block that’s attacking that player, a planeswalker they control, or a battle they protect.\\ 
 509.1a 如果防御牌手阻挡的话，其选择哪些由其操控的生物阻挡。被选择的生物必须未横置，且不能是战役。防御牌手为每个被选择的生物选择一个正在攻击该牌手、该牌手所操控的鹏洛客或该牌手防卫的战役的生物进行阻挡。
@@ -458,8 +458,8 @@ Example: An attacking Elvish Regrower (a 4/3 creature) is blocked by Vampire Spa
 <BOOKMARK:cr510-1d>510.1d A blocking creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If it’s blocking exactly one creature, it assigns all its combat damage to that creature. If it’s blocking two or more creatures, it assigns its combat damage divided as its controller chooses among them.\\ 
 510.1d 阻挡生物对它阻挡的生物分配战斗伤害。如果当前它没有阻挡任何生物（例如，生物被消灭或移出战斗），该生物不会分配战斗伤害。如果它只阻挡一个生物，则它将分配所有战斗伤害给该生物。如果它阻挡两个或更多的生物，则它的操控者将其战斗伤害任意分配给这些生物。
 
-<BOOKMARK:cr510-1e>510.1e Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn’t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 730, “Handling Illegal Actions.”)\\ 
-510.1e 一旦牌手为每个其操控的攻击或阻挡生物分配完毕伤害，总伤害分配（而非任何单独的攻击或阻挡生物的伤害分配）检查其是否符合以上所有规定。如果不符合，则战斗伤害分配非法；游戏倒回至该牌手开始伤害分配之前的时间点（参见规则[[cr:7#cr730|730]]，“处理非法动作”。）
+<BOOKMARK:cr510-1e>510.1e Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn’t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 731, “Handling Illegal Actions.”)\\ 
+510.1e 一旦牌手为每个其操控的攻击或阻挡生物分配完毕伤害，总伤害分配（而非任何单独的攻击或阻挡生物的伤害分配）检查其是否符合以上所有规定。如果不符合，则战斗伤害分配非法；游戏倒回至该牌手开始伤害分配之前的时间点（参见规则[[cr:7#cr731|731]]，“处理非法动作”。）
 
 <BOOKMARK:cr510-2>510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.\\ 
 510.2. 其次，所有被分配的战斗伤害同时造成。此回合动作不使用堆叠。没有牌手有机会在分配战斗伤害和造成战斗伤害之间施放咒语或起动异能。

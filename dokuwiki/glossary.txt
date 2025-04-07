@@ -105,8 +105,8 @@ A cost a spell may have that its controller may pay (or, in some cases, must pay
 Adventurer Card\\ 
 历险者牌
 
-Cards with a two-part card frame (one part of which is inset on the left) on a single card. See rule 715, “Adventurer Cards.”\\ 
-一张分为两部分（且其中一部分是嵌在文字栏左面）的牌。参见规则[[cr:7#cr715|715]]，“历险者牌”。
+Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Adventure spell type. See rule 715, “Adventurer Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括历险此咒语类别。。参见规则[[cr:7#cr715|715]]，“历险者牌”。
 
 ----
 Affinity\\ 
@@ -488,6 +488,13 @@ Beginning of Combat Step\\
 
 Part of the turn. This step is the first step of the combat phase. See rule 507, “Beginning of Combat Step.”\\ 
 回合的一部分。这是战斗阶段的第一个步骤。参见规则[[cr:5#cr507|507]]，“战斗开始步骤”。
+
+----
+Behold\\ 
+请援
+
+A keyword action that allows a player to choose a permanent they control of a particular quality or reveal a card of that quality from their hand, usually to pay a cost or get an additional effect. See rule 701.61, “Behold.”\\ 
+一个关键字动作，允许牌手选择一个由其操控且具有特定特征的永久物，或从手上展示一张具有该特征的牌，通常是为了支付费用或获得额外效应。参见规则[[cr:7#cr701-61|701.61]]，“请援”。
 
 ----
 Bestow\\ 
@@ -958,8 +965,8 @@ An effect that modifies characteristics of objects, modifies control of objects,
 Control Another Player\\ 
 操控其他牌手
 
-To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 720, “Controlling Another Player.”\\ 
-为在该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr720|720]]，“操控其他牌手”。
+To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 721, “Controlling Another Player.”\\ 
+为在该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr721|721]]，“操控其他牌手”。
 
 ----
 Control, Controller\\ 
@@ -1115,15 +1122,15 @@ A keyword ability found on creature cards that allows them to be cast for an alt
 Day\\ 
 白昼
 
-Along with night, a designation the game can have. See rule 728, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
-与黑夜一起，均是游戏可以具有的称号。参见规则[[cr:7#cr728|728]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
+Along with night, a designation the game can have. See rule 729, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
+与黑夜一起，均是游戏可以具有的称号。参见规则[[cr:7#cr729|729]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
 
 ----
 Daybound\\ 
 昼形
 
-An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 728, “Day and Night.”\\ 
-一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr728|728]]，“白昼与黑夜”。
+An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 729, “Day and Night.”\\ 
+一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr729|729]]，“白昼与黑夜”。
 
 ----
 Deal\\ 
@@ -1538,15 +1545,15 @@ Part of the turn. This step is the fifth and final step of the combat phase. See
 End the Combat Phase\\ 
 结束战斗阶段
 
-To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 721, “Ending Turns and Phases.”\\ 
-作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[[cr:7#cr721|721]]，“结束回合和阶段”。
+To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 722, “Ending Turns and Phases.”\\ 
+作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[[cr:7#cr722|722]]，“结束回合和阶段”。
 
 ----
 End the Turn\\ 
 结束回合
 
-To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 721, “Ending Turns and Phases.”\\ 
-作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的所有其他事情。参见规则[[cr:7#cr721|721]]，“结束回合和阶段”。
+To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 722, “Ending Turns and Phases.”\\ 
+作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的所有其他事情。参见规则[[cr:7#cr722|722]]，“结束回合和阶段”。
 
 ----
 Ending Phase\\ 
@@ -1554,6 +1561,13 @@ Ending Phase\\
 
 Part of the turn. This phase is the fifth and final phase of the turn. See rule 512, “Ending Phase.”\\ 
 回合的一部分。此阶段是回合的第五个也是最后一个阶段。参见规则[[cr:5#cr512|512]]，“终结阶段”。
+
+----
+Endure\\ 
+续战
+
+A keyword ability that lets you choose put +1/+1 counters on a creature or create a Spirit creature token. See rule 702.62, “Endure.”\\ 
+一个关键字异能，让你选择在生物上放置+1/+1指示物或派出精怪衍生生物。参见规则[[cr:7#cr702-62|702.62]]，“续战”。（译注：我确信这是一个关键字动作。）
 
 ----
 Energy Symbol\\ 
@@ -2125,6 +2139,13 @@ A characteristic that only vanguards have. See rule 211, “Hand Modifier.”\\
 一个只有先锋牌才有的特征。参见规则[[cr:2#cr211|211]]，“手牌修正”。
 
 ----
+Harmonize\\ 
+谐颂
+
+A keyword ability that lets a player cast a card from their graveyard for a specific cost and lets them tap a creature they control to reduce that cost. See rule 702.180, “Harmonize.”\\ 
+一个关键字异能，让牌手能支付特定费用从其坟墓场中施放牌，且能横置由其操控的生物来减少该费用。参见规则[[cr:7#cr702-180|702.180]]，“谐颂”。
+
+----
 Haste\\ 
 敏捷
 
@@ -2213,8 +2234,8 @@ See Intervening “If” Clause.\\
 Illegal Action\\ 
 非法动作
 
-An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 730, “Handling Illegal Actions.”\\ 
-一个违反游戏规则和/或效应所创造的要求或限制的动作。参见规则[[cr:7#cr730|730]]，“处理非法动作”。
+An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 731, “Handling Illegal Actions.”\\ 
+一个违反游戏规则和/或效应所创造的要求或限制的动作。参见规则[[cr:7#cr731|731]]，“处理非法动作”。
 
 ----
 Illegal Target\\ 
@@ -2318,8 +2339,8 @@ A keyword ability that can exile the top card of a player’s library. See rule 
 Initiative\\ 
 先制
 
-A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 723, “The Initiative.”\\ 
-牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr723|723]]，“先制”。
+A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 724, “The Initiative.”\\ 
+牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr724|724]]，“先制”。
 
 ----
 Instant\\ 
@@ -2656,8 +2677,8 @@ Informal term for the current system of mulligan rules. See rule 103.5.\\
 Loop\\ 
 循环（动作）
 
-A set of actions that could be repeated indefinitely. See rule 729, “Taking Shortcuts.”\\ 
-一系列可以重复无数次的动作。参见规则[[cr:7#cr729|729]]，“进行简化”。
+A set of actions that could be repeated indefinitely. See rule 730, “Taking Shortcuts.”\\ 
+一系列可以重复无数次的动作。参见规则[[cr:7#cr730|730]]，“进行简化”。
 
 ----
 Lose the Game\\ 
@@ -2695,8 +2716,8 @@ A keyword ability that lets a player cast a card they discard. See rule 702.35, 
 Main Game\\ 
 主游戏
 
-The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 726, “Subgames.”\\ 
-施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[[cr:7#cr726|726]]，“子游戏”。
+The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 727, “Subgames.”\\ 
+施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[[cr:7#cr727|727]]，“子游戏”。
 
 ----
 Main Phase\\ 
@@ -2852,8 +2873,8 @@ A keyword ability that lets your bigger creatures power up your smaller creature
 Merged Permanent\\ 
 结聚永久物
 
-A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 727, “Merging with Permanents.”\\ 
-牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr727|727]]，“与永久物结聚”。
+A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 728, “Merging with Permanents.”\\ 
+牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr728|728]]，“与永久物结聚”。
 
 ----
 Mill\\ 
@@ -2875,6 +2896,13 @@ Miracle\\
 
 A keyword ability that lets you cast a spell for a reduced cost if it’s the first card you draw in a turn. See rule 702.94, “Miracle.”\\ 
 一个关键字异能，如果该牌是回合中你所抓的第一张牌，便允许你用较低的费用施放它。参见规则[[cr:7#cr702-94|702.94]]，“奇迹”。
+
+----
+Mobilize\\ 
+动员
+
+A keyword ability that creates a number of tapped and attacking red Warrior creature tokens that are sacrificed at the beginning of the next end step. See rule 702.181, “Mobilize.”\\ 
+一个关键字异能，派出若干已横置且正进行攻击的红色战士衍生生物，且在下一个结束步骤开始时牺牲之。参见规则[[cr:7#cr702-181|702.181]]，“动员”。
 
 ----
 Modal Double-Faced Cards\\ 
@@ -2908,8 +2936,8 @@ A keyword ability that has a permanent enter the battlefield with +1/+1 counters
 Monarch\\ 
 君主
 
-A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 722, “The Monarch.”\\ 
-牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[[cr:7#cr722|722]]，“君主”。
+A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 723, “The Monarch.”\\ 
+牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[[cr:7#cr723|723]]，“君主”。
 
 ----
 Mono Artifact (Obsolete)\\ 
@@ -3030,8 +3058,8 @@ A keyword that lets a creature card be cast as a mutating creature spell. See ru
 Mutating Creature Spell\\ 
 合变式生物咒语
 
-A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 727, “Merging with Permanents.”\\ 
-一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[[cr:7#cr702-140|702.140]]，“合变”，以及规则[[cr:7#cr727|727]]，“与永久物结聚”。
+A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 728, “Merging with Permanents.”\\ 
+一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[[cr:7#cr702-140|702.140]]，“合变”，以及规则[[cr:7#cr728|728]]，“与永久物结聚”。
 
 ----
 Myriad\\ 
@@ -3052,15 +3080,15 @@ A characteristic, and part of a card. A card’s name is printed in its upper le
 Night\\ 
 黑夜
 
-Along with day, a designation the game can have. See rule 728, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
-与白昼一起，均是游戏可以具有的称号。参见规则[[cr:7#cr728|728]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
+Along with day, a designation the game can have. See rule 729, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
+与白昼一起，均是游戏可以具有的称号。参见规则[[cr:7#cr729|729]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
 
 ----
 Nightbound\\ 
 夜形
 
-An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 728, “Day and Night.”\\ 
-一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr728|728]]，“白昼与黑夜”。
+An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 729, “Day and Night.”\\ 
+一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr729|729]]，“白昼与黑夜”。
 
 ----
 Ninjutsu\\ 
@@ -3104,6 +3132,13 @@ Offspring\\
 
 A keyword ability that allows you to pay an additional cost as you cast a creature spell to create a 1/1 token that’s a copy of that permanent when it enters the battlefield. See rule 702.175, “Offspring.”\\ 
 一个关键字异能，允许你施放生物咒语时支付额外费用，在该永久物进战场时派出为其复制品的1/1衍生物。参见规则[[cr:7#cr702-175|702.175]]，“繁生”。
+
+----
+Omen Card\\ 
+预兆牌
+
+Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Omen spell type. See rule 720, “Omen Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括预兆此咒语类别。。参见规则[[cr:7#cr720|720]]，“预兆牌”。
 
 ----
 One-Shot Effect\\ 
@@ -3612,8 +3647,8 @@ A zone in which all players can be expected to see the cards’ faces. See rule 
 Rad Counter\\ 
 拉德指示物
 
-A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 725, “Rad Counters.”\\ 
-牌手可以具有的一种指示物，会导致牌手在其战斗前的行动阶段磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr725|725]]，“拉德指示物”。
+A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 726, “Rad Counters.”\\ 
+牌手可以具有的一种指示物，会导致牌手在其战斗前的行动阶段磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr726|726]]，“拉德指示物”。
 
 ----
 Rampage\\ 
@@ -3987,8 +4022,8 @@ A counter that protects a permanent from being damaged or destroyed. See rule 12
 Shortcut\\ 
 简化
 
-A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 729, “Taking Shortcuts.”\\ 
-在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr729|729]]，“进行简化”。
+A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 730, “Taking Shortcuts.”\\ 
+在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr730|730]]，“进行简化”。
 
 ----
 Shroud\\ 
@@ -4326,8 +4361,8 @@ A counter that stops a permanent from untapping. See rule 122.1d.\\
 Subgame\\ 
 子游戏
 
-A completely separate Magic game created by an effect. See rule 726, “Subgames.”\\ 
-由一个效应创造出的完全分开的万智牌游戏。参见规则[[cr:7#cr726|726]]，“子游戏”。
+A completely separate Magic game created by an effect. See rule 727, “Subgames.”\\ 
+由一个效应创造出的完全分开的万智牌游戏。参见规则[[cr:7#cr727|727]]，“子游戏”。
 
 ----
 Substitute Card\\ 

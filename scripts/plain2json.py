@@ -143,4 +143,15 @@ def plain_text_to_json(en_text, zh_text, output_file, version):
 
 
 if __name__ == '__main__':
-    plain_text_to_json('../plain_text/20250207_En.txt', '../plain_text/20250207_Zh.txt', './20250207.json', '20250207')
+    # plain_text_to_json('../plain_text/20250207_En.txt', '../plain_text/20250207_Zh.txt', './20250207.json', '20250207')
+    import argparse
+    parser = argparse.ArgumentParser(description='Convert plain text to JSON format.')
+    parser.add_argument('date', type=str, help='The date of the rules in YYYYMMDD format.')
+
+    args = parser.parse_args()
+    plain_text_to_json(
+        f'../plain_text/{args.date}_En.txt',
+        f'../plain_text/{args.date}_Zh.txt',
+        f'./{args.date}.json',
+        args.date
+    )

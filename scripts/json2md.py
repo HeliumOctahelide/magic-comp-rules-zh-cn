@@ -232,5 +232,12 @@ def terms_to_markdown(json_data, output_dir):
         f.write(markdown_output)
 
 if __name__ == '__main__':
-    plain_text_to_markdown('./20250207.json', '../markdown')
-    terms_to_markdown('./translatedterms.json', '../markdown')
+    # plain_text_to_markdown('./20250207.json', '../markdown')
+    # terms_to_markdown('./translatedterms.json', '../markdown')
+    import argparse
+    parser = argparse.ArgumentParser(description='Convert JSON to Markdown.')
+    parser.add_argument('date', type=str, help='Date of the JSON file (e.g., 20250207)')
+    args = parser.parse_args()
+
+    plain_text_to_markdown(f'./{args.date}.json', '../markdown')
+    terms_to_markdown(f'./translatedterms.json', '../markdown')

@@ -53,12 +53,8 @@
       "Chinese": "可互换名称"
     },
     {
-      "English": "Lock",
-      "Chinese": "上锁"
-    },
-    {
-      "English": "Locked",
-      "Chinese": "已上锁"
+      "English": "Lock/Locked",
+      "Chinese": "上锁/已上锁"
     },
     {
       "English": "Manifest Dread",
@@ -75,14 +71,6 @@
     {
       "English": "Pawprint",
       "Chinese": "爪印"
-    },
-    {
-      "English": "Reroll",
-      "Chinese": "重掷"
-    },
-    {
-      "English": "Rolled doubles",
-      "Chinese": "掷出同点"
     },
     {
       "English": "Room",
@@ -109,14 +97,6 @@
       "Chinese": "贴纸增幅"
     },
     {
-      "English": "Stickered",
-      "Chinese": "贴有贴纸"
-    },
-    {
-      "English": "Store",
-      "Chinese": "存储"
-    },
-    {
       "English": "Supplementary Deck",
       "Chinese": "附加套牌"
     },
@@ -125,12 +105,8 @@
       "Chinese": "生还"
     },
     {
-      "English": "Unlock",
-      "Chinese": "解锁"
-    },
-    {
-      "English": "Unlocked",
-      "Chinese": "已解锁"
+      "English": "Unlock/Unlocked",
+      "Chinese": "解锁/已解锁"
     },
     {
       "English": "Valiant",
@@ -159,6 +135,34 @@
     {
       "English": "Start Your Engine!",
       "Chinese": "发动引擎！"
+    },
+    {
+      "English": "Flurry",
+      "Chinese": "连咒"
+    },
+    {
+      "English": "Renew",
+      "Chinese": "复新"
+    },
+    {
+      "English": "Endure",
+      "Chinese": "续战"
+    },
+    {
+      "English": "Behold",
+      "Chinese": "请援"
+    },
+    {
+      "English": "Mobilize",
+      "Chinese": "动员"
+    },
+    {
+      "English": "Omen",
+      "Chinese": "预兆"
+    },
+    {
+      "English": "Harmonize",
+      "Chinese": "谐颂"
     }
   ],
   "unfinityDoctorGlossary": [
@@ -177,10 +181,6 @@
     {
       "English": "Light",
       "Chinese": "灯号"
-    },
-    {
-      "English": "Lit up",
-      "Chinese": "亮起"
     },
     {
       "English": "Open an Attraction",

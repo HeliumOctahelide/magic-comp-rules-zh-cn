@@ -246,5 +246,12 @@ def terms_to_dokuwiki(json_data, output_dir):
         f.write(dokuwiki_output)
 
 if __name__ == '__main__':
-    plain_text_to_dokuwiki('./20250207.json', '../dokuwiki')
-    terms_to_dokuwiki('./translatedterms.json', '../dokuwiki')
+    # plain_text_to_dokuwiki('./20250207.json', '../dokuwiki')
+    # terms_to_dokuwiki('./translatedterms.json', '../dokuwiki')
+    import argparse
+    parser = argparse.ArgumentParser(description='Convert JSON to DokuWiki format.')
+    parser.add_argument('date', type=str, help='Date of the JSON file (e.g. 20250207)')
+    args = parser.parse_args()
+
+    plain_text_to_dokuwiki(f'./{args.date}.json', '../dokuwiki')
+    terms_to_dokuwiki(f'./translatedterms.json', '../dokuwiki')

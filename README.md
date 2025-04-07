@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2025年2月7日，*乙太飘移*系列。
+本译文最近一次更新于：2025年4月4日，*鞑契龙岚录*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -21,8 +21,8 @@
 
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
-| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | 鞑契龙岚录 | 无疆新宇宙：最终幻想 |
-| 2025 下半年 | Edge of Eternities | 漫威的蜘蛛侠 | |
+| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | 万智牌～最终幻想 |
+| 2025 下半年 | 虚空边域 | 漫威的蜘蛛侠 | 降世神通：最后的气宗 |
 | 2025 额外系列 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/inr.svg' width='14' height='14' />依尼翠：重置版 | | |
 
 | 年度 | 冬 | 春 | 夏 | 秋 | 额外系列 |
@@ -55,6 +55,20 @@
 
 
 ## 内容更新
+
+### 20250404
+
+- *鞑契龙岚录*
+    - 207.2c：新异能提示：连咒、复新。
+    - 701.40d, 701.47d：明确了多个筹谋和勘察指示同时结算的方式，以及所指永久物不在战场时的处理方式。
+    - 701.61-62：新关键字动作：请援、续战。
+    - 702.176a：略微调整了隐现的运作方式，使其更为直观（复制堆叠上的隐现咒语时，复制品也会隐现地进战场。）
+    - 702.178b：填补了速度极限异能的一个漏洞，允许它在其他区域生效。
+    - 702.180-181：新关键字异能：谐颂、动员。
+    - 707.10e：明确了一个与派出指定特定目标的咒语复制品相关的一个罕见互动（前线勇行[Frontline Heroism]与倍产旺季类效应）
+    - 720：新种类的牌：预兆牌。
+    - 新的副类别：预兆。
+    - 词汇表更新：请援、续战、谐颂、动员、预兆牌。
 
 ### 20250207
 

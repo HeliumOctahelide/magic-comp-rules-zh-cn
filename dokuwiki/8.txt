@@ -212,8 +212,8 @@ Example: Rob is within Alex’s range of influence, but Carissa is not. Carissa 
 <BOOKMARK:cr801-16>801.16. If the game somehow enters a “loop” of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw for each player who controls an object that’s involved in that loop, as well as for each player within the range of influence of any of those players. They leave the game. All remaining players continue to play the game.\\ 
 801.16. 如果游戏中出现了强制动作组成的“循环”，重复一系列事件且无法停止，对于循环中包含的每个物件之操控者，以及在这些牌手影响范围内的每位牌手，游戏为平手。这些牌手离开游戏。其余牌手继续游戏。
 
-<BOOKMARK:cr801-17>801.17. Effects that restart the game (see rule 723) are exempt from the limited range of influence option. All players in the game will be involved in the new game.\\ 
-801.17. 重新开始游戏的效应（参见规则[[cr:7#cr724|724]]）不受限制影响范围模式的限制。所有仍在游戏中的牌手将会开始新游戏。
+<BOOKMARK:cr801-17>801.17. Effects that restart the game (see rule 725) are exempt from the limited range of influence option. All players in the game will be involved in the new game.\\ 
+801.17. 重新开始游戏的效应（参见规则[[cr:7#cr725|725]]）不受限制影响范围模式的限制。所有仍在游戏中的牌手将会开始新游戏。
 
 <BOOKMARK:cr801-18>801.18. In multiplayer Planechase games other than Grand Melee games, plane cards and phenomenon cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. See rule 901, “Planechase.”\\ 
 801.18. 在多人竞逐时空游戏中，除了大型混战玩法之外，时空牌和异象牌均不受限制影响范围模式限制。这些牌的异能及该些异能的效应，会对游戏中所有适用的物件和牌手产生影响。参见规则[[cr:9#cr901|901]]，“竞逐时空”。
