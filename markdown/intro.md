@@ -1,4 +1,4 @@
-[返回完整规则目录](./)
+[返回完整规则目录](/cr/)
 
 # 前言
 
@@ -10,4 +10,4 @@ Changes may have been made to this document since its publication. You can downl
 
 
 
-[第一章 - 游戏概念 Game Concepts](./1)
+[第一章 - 游戏概念 Game Concepts](/cr/1)

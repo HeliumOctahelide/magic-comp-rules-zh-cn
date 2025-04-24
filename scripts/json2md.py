@@ -21,13 +21,13 @@ def plain_text_to_markdown(json_file, output_dir):
     # 生成main
     HANZI_NUM = '一二三四五六七八九'
     for i in range(len(main)):
-        catalog_content += f"- [第{HANZI_NUM[i]}章 - {main[i]['zh']} {main[i]['en']}](./{i+1})\n"
+        catalog_content += f"- [第{HANZI_NUM[i]}章 - {main[i]['zh']} {main[i]['en']}](/cr/{i+1}/)\n"
         if i == 0:
-            prev_next_chapter = f"[第{HANZI_NUM[i+1]}章 - {main[i+1]['zh']} {main[i+1]['en']}](./{i+2})"
+            prev_next_chapter = f"[第{HANZI_NUM[i+1]}章 - {main[i+1]['zh']} {main[i+1]['en']}](/cr/{i+2}/)"
         elif i == 8:
-            prev_next_chapter = f"[第{HANZI_NUM[i-1]}章 - {main[i-1]['zh']} {main[i-1]['en']}](./{i})"
+            prev_next_chapter = f"[第{HANZI_NUM[i-1]}章 - {main[i-1]['zh']} {main[i-1]['en']}](/cr/{i}/)"
         else:
-            prev_next_chapter = f"[第{HANZI_NUM[i-1]}章 - {main[i-1]['zh']} {main[i-1]['en']}](./{i}) | [第{HANZI_NUM[i+1]}章 - {main[i+1]['zh']} {main[i+1]['en']}](./{i+2})"
+            prev_next_chapter = f"[第{HANZI_NUM[i-1]}章 - {main[i-1]['zh']} {main[i-1]['en']}](/cr/{i}/) | [第{HANZI_NUM[i+1]}章 - {main[i+1]['zh']} {main[i+1]['en']}](/cr/{i+2}/)"
         
         content = ''
 
@@ -42,7 +42,7 @@ def plain_text_to_markdown(json_file, output_dir):
                 content += f"# {rule['chapter']} {rule['zh']} {rule['en']}\n"
             elif re.match(r'^\w+\.$', rule['chapter']):
                 content += f"## <span id='cr{chapter_num_to_bookmark(rule['chapter'])}'>{rule['chapter']}</span> {rule['zh']} {rule['en']}\n"
-                catalog_content += f"  - [{rule['chapter']} {rule['zh']} {rule['en']}](./{rule['chapter'][0]}#cr{rule['chapter'][:-1]})  \n"
+                catalog_content += f"    - [{rule['chapter']} {rule['zh']} {rule['en']}](/cr/{rule['chapter'][0]}/#cr{rule['chapter'][:-1]})  \n"
             elif content_is_not_a_sentence(rule):
                 content += f"### <span id=cr{chapter_num_to_bookmark(rule['chapter'])}>{rule['chapter']}"
                 content += f" {rule['zh']} {rule['en']}</span>\n" if rule['en'] != rule['zh'] else f" {rule['zh']}</span>\n"
@@ -67,7 +67,7 @@ def plain_text_to_markdown(json_file, output_dir):
             startwith = chapter_match.group(1)
             chapter_num = chapter_match.group(2)
             if chapter_num[-1] == '.': chapter_num = chapter_num[:-1]
-            return f"{startwith}[{chapter_num}](./{chapter_num[0]}#cr{chapter_num_to_bookmark(chapter_num.split('-')[0])})"
+            return f"{startwith}[{chapter_num}](/cr/{chapter_num[0]}/#cr{chapter_num_to_bookmark(chapter_num.split('-')[0])})"
 
         def format_url(match):
             url = match.group(0)
@@ -76,7 +76,7 @@ def plain_text_to_markdown(json_file, output_dir):
             return f"[{url}]"
 
         def match_rule_num(text):
-            text = re.sub(r'第(\d)章', r'[第\1章](\1)', text)
+            text = re.sub(r'第(\d)章', r'[第\1章](/cr/\1/)', text)
             text = re.sub(r'([规则|和|及|与|、|，])(\d{3}\.?\d*[a-z\.]?\-?\d*[a-z\.]?)', chapter_num_to_link, text)
             text = re.sub(r'([\dA-z]+\.)?wizards\.com[\dA-z\-/]*', format_url, text, flags=re.IGNORECASE)
             return text
