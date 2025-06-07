@@ -138,8 +138,8 @@ Example: The activation cost of an ability that reads “{2}, {T}: You gain 1 li
 <BOOKMARK:cr602-2>602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 731, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made.\\ 
 602.2. 起动一个异能指将其放进堆叠并支付其费用，导致它最终可以结算并产生其效果。除非一个物件特别注明，否则只有该物件的操控者（或没有操控者的话，其拥有者）可以起动其起动式异能。起动异能须按照顺序完成以下列出的步骤。如果在起动异能的过程之中，牌手不能完成其中任何步骤，该异能为非法起动；游戏倒回至该异能开始起动之前的时刻（参见规则[[cr:7#cr731|731]]，“处理非法动作”）。宣告起动和支付费用在之后将不能更改。
 
-<BOOKMARK:cr602-2a>602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed (see rule 701.16a). That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.\\ 
-602.2a 该牌手宣告他将起动该异能。如果一个起动式异能从隐藏区域中被起动，具有该异能的牌将被展示（参见规则[[cr:7#cr701-16a|701.16a]]）。该异能将作为非牌物件被放进堆叠。它成为堆叠最顶端的物件。它具有创造它的异能所具有的文字叙述，且不具有任何其他特征。其操控者为起动该异能的牌手。该异能直到被反击、结算，或被一个效应转移到其他区域之前将一直保持留在堆叠上。
+<BOOKMARK:cr602-2a>602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed (see rule 701.20a). That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.\\ 
+602.2a 该牌手宣告他将起动该异能。如果一个起动式异能从隐藏区域中被起动，具有该异能的牌将被展示（参见规则[[cr:7#cr701-20a|701.20a]]）。该异能将作为非牌物件被放进堆叠。它成为堆叠最顶端的物件。它具有创造它的异能所具有的文字叙述，且不具有任何其他特征。其操控者为起动该异能的牌手。该异能直到被反击、结算，或被一个效应转移到其他区域之前将一直保持留在堆叠上。
 
 <BOOKMARK:cr602-2b>602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.\\ 
 602.2b 起动异能的其余部分与规则[[cr:6#cr601-2b|601.2b-i]]中列出的施放咒语部分相同。这些规则对起动一个异能与施放一个咒语相同。与咒语的法术力费用（规则[[cr:6#cr601-2f|601.2f]]中引用）对应的为起动式异能的起动费用。
@@ -328,8 +328,8 @@ Example: Two creatures are on the battlefield along with an artifact that has th
 <BOOKMARK:cr603-10c>603.10c Abilities that trigger specifically when an object becomes unattached look back in time.\\ 
 603.10c 当特指一个物件成为未被贴附时触发的异能需要回溯。
 
-<BOOKMARK:cr603-10d>603.10d Abilities that trigger when a player loses control of an object look back in time.\\ 
-603.10d 当一位牌手失去一个物件的操控权时触发的异能需要回溯。
+<BOOKMARK:cr603-10d>603.10d Abilities that trigger when a player loses control of an object or when a player’s opponent gains control of an object from that player look back in time.\\ 
+603.10d 当一位牌手失去一个物件的操控权或当一位牌手的对手获得一个由该牌手操控之物件时触发的异能需要回溯。
 
 <BOOKMARK:cr603-10e>603.10e Abilities that trigger when a spell is countered look back in time.\\ 
 603.10e 当一个咒语被反击时触发的异能需要回溯。
@@ -1053,8 +1053,8 @@ Example: A player controls two permanents, each with an ability that reads “If
 <BOOKMARK:cr614-7a>614.7a If a source would deal 0 damage, it does not deal damage at all. Replacement effects that would increase the damage dealt by that source, or would have that source deal that damage to a different object or player, have no event to replace, so they have no effect.\\ 
 614.7a 如果一个来源将造成0点伤害，它从未造成伤害。将增加该来源所造成伤害的替代性效应，或将令该来源对其他物件或牌手造成伤害，将没有任何事件来替代，所以它们将没有任何效应。
 
-<BOOKMARK:cr614-8>614.8. Regeneration is a destruction-replacement effect. The word “instead” doesn’t appear on the card but is implicit in the definition of regeneration. “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.” Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.15.\\ 
-614.8. 重生是一个替代消灭的效应。“改为”一词并没有出现在牌上，但隐含在重生的定义中。“重生[永久物]”表示“本回合中下一次[永久物]将被消灭时，改为移除它上面所有被标记的所有伤害，然后其操控者将它横置。如果它是一个攻击或阻挡中的生物，将其移出战斗。”因造成伤害而触发的异能即使该永久物重生也依然会触发。参见规则[[cr:7#cr701-15|701.15]]。
+<BOOKMARK:cr614-8>614.8. Regeneration is a destruction-replacement effect. The word “instead” doesn’t appear on the card but is implicit in the definition of regeneration. “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.” Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.19.\\ 
+614.8. 重生是一个替代消灭的效应。“改为”一词并没有出现在牌上，但隐含在重生的定义中。“重生[永久物]”表示“本回合中下一次[永久物]将被消灭时，改为移除它上面所有被标记的所有伤害，然后其操控者将它横置。如果它是一个攻击或阻挡中的生物，将其移出战斗。”因造成伤害而触发的异能即使该永久物重生也依然会触发。参见规则[[cr:7#cr701-19|701.19]]。
 
 <BOOKMARK:cr614-9>614.9. Some effects replace damage dealt to one battle, creature, planeswalker, or player with the same damage dealt to another battle, creature, planeswalker, or player; such effects are called redirection effects. If one of those permanents is no longer on the battlefield when the damage would be redirected, or is no longer a battle, creature, or planeswalker when the damage would be redirected, the effect does nothing. If damage would be redirected to or from a player who has left the game, the effect does nothing.\\ 
 614.9. 一些效应将对一个战役、生物、鹏洛客、或牌手所造成的伤害替代为对另一个战役、生物、鹏洛客、或牌手造成伤害；此类效应被称为转移性效应。如果当伤害将被转移时其中一个永久物不再在战场上，或不再是战役、生物或鹏洛客，该效应将没有任何效果。如果伤害将转移到或从已经离开游戏的牌手上转移，该效应没有任何效果。
@@ -1214,8 +1214,8 @@ Example: Wojek Apothecary has an ability that says “{T}: Prevent the next 1 da
 <BOOKMARK:cr616-1c>616.1c If any of the replacement and/or prevention effects would cause an object to become a copy of another object as it enters the battlefield, one of them must be chosen. If not, proceed to rule 616.1d.\\ 
 616.1c 如果任何替代性和/或防止性效应将使一个物件于进入战场时成为另一个物件的复制品，则必须选择它们其中之一。如果没有，则继续至规则[[cr:6#cr616-1d|616.1d]]。
 
-<BOOKMARK:cr616-1d>616.1d If any of the replacement and/or prevention effects would cause a card to enter the battlefield with its back face up, one of them must be chosen (See rule 701.28, “Transform,” and rule 701.50, “Convert.”). If not, proceed to 616.1e.\\ 
-616.1d 如果任何替代性和/或防止性效应将使一张牌以背面朝上的方式进入战场，则必须选择它们其中之一（参见规则[[cr:7#cr701-28|701.28]]，“转化”，及规则[[cr:7#cr701-50|701.50]]，“转换”）。如果没有，则继续至规则[[cr:6#cr616-1e|616.1e]]。
+<BOOKMARK:cr616-1d>616.1d If any of the replacement and/or prevention effects would cause a card to enter the battlefield with its back face up, one of them must be chosen (See rule 701.27, “Transform,” and rule 701.28, “Convert.”). If not, proceed to 616.1e.\\ 
+616.1d 如果任何替代性和/或防止性效应将使一张牌以背面朝上的方式进入战场，则必须选择它们其中之一（参见规则[[cr:7#cr701-27|701.27]]，“转化”，及规则[[cr:7#cr701-28|701.28]]，“转换”）。如果没有，则继续至规则[[cr:6#cr616-1e|616.1e]]。
 
 <BOOKMARK:cr616-1e>616.1e Any of the applicable replacement and/or prevention effects may be chosen.\\ 
 616.1e 任何适用的替代性效应和/或防止性效应均可以被选择。

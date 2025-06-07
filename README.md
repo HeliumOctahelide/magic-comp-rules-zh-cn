@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2025年4月4日，*鞑契龙岚录*系列。
+本译文最近一次更新于：2025年6月6日，*万智牌～最终幻想*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -21,7 +21,7 @@
 
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
-| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | 万智牌～最终幻想 |
+| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | <img src='https://raw.githubusercontent.com/heliumoctahelide/keyrune/3.16.2/svg/fin.svg' width='14' height='14' />[万智牌～最终幻想](release_notes/faq_fin.pdf) |
 | 2025 下半年 | 虚空边域 | 漫威的蜘蛛侠 | 降世神通：最后的气宗 |
 | 2025 额外系列 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/inr.svg' width='14' height='14' />依尼翠：重置版 | | |
 
@@ -55,6 +55,25 @@
 
 
 ## 内容更新
+
+### 20250606
+
+- *万智牌～最终幻想*
+    - 122.9：明确了牺牲物件并将物件上的指示物放置在其他物件上的运作方式。（扎克斯·菲尔[Zack Fair]）
+    - 505.4, 703.4f, 704.5s, 714.3b：改动了传纪规则，使得只有具有章节异能的传纪才需要受到传纪相关回合动作和状态动作的影响。
+    - 603.10d：为需要回溯的场景添加了牌手之对手获得由其操控之物件时的情况。
+    - 700.2h：拓展了此条以覆盖分级此关键字。
+    - 700.7：拓展了叙述范围以支持「此衍生物」的情况。
+    - 701：重新排列了许多关键字动作的位置。
+    - 701.11：新关键字动作：加两倍。
+    - 702.182-183：新关键字异能：职业选择、分级。
+    - 705.3：加入了定义掷硬币结果的效应。（费加罗国王埃德加[Edgar, King of Figaro]）
+    - 712.5：加入了一对新融合牌组（无畏路希牙[Fang, Fearless l'Cie]/愉悦路希班尼拉[Vanille, Cheerful l'Cie]）。
+    - 714.1a：定义了传纪生物的文字栏。
+    - 715.3：略微调整了历险牌的运作方式以支持新增的历险地。
+    - 903.1：删除了「指挥官玩法有独立的规则委员会来维护相关额外资源」的字样。
+    - 新的副类别：市镇、英雄、莫古力、食族。
+    - 词汇表更新：职业选择、分级、加两倍。
 
 ### 20250404
 

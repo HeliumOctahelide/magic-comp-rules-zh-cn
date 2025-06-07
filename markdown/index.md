@@ -1,8 +1,8 @@
 # 目录
 
-*此规则于2025年4月4日起生效。*
+*此规则于2025年6月6日起生效。*
 
-[前言](/cr/intro)
+[前言](/cr/intro/)
 
 - [第一章 - 游戏概念 Game Concepts](/cr/1/)
     - [100. 总则 General](/cr/1/#cr100)  
@@ -169,8 +169,8 @@
 
 
 
-词汇表 Glossary - [按英文首字母排序](/cr/glossary) | [按拼音首字母排序](/cr/glossarycn)
+词汇表 Glossary - [按英文首字母排序](/cr/glossary/) | [按拼音首字母排序](/cr/glossarycn/)
 
-[暂译名称列表](/cr/translatedterms)
+[暂译名称列表](/cr/translatedterms/)
 
-[版权信息](/cr/credits)
+[版权信息](/cr/credits/)

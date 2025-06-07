@@ -102,8 +102,8 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 <BOOKMARK:cr302-6>302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began. A creature can’t attack unless it has been under its controller’s control continuously since their most recent turn began. This rule is informally called the “summoning sickness” rule.\\ 
 302.6. 生物的起动式异能之中，如果其起动费用包含了横置符号或重置符号，则除非生物的操控者从其最近的一回合开始时一直操控它，否则便不能起动该异能。除非生物的操控者从其最近的一回合开始时一直操控它，否则该生物不能进行攻击。此规则非正式称呼是“召唤失调”规则。
 
-<BOOKMARK:cr302-7>302.7. Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 120.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.15, “Regenerate”) and during the cleanup step (see rule 514.2).\\ 
-302.7. 一个不具有干枯或侵染的来源对生物造成的伤害会标记在该生物上（参见规则[[cr:1#cr120-3|120.3]]）。如果标记在一个生物上的总伤害等于或大于它的防御力，该生物受到致命伤害，且会因状态动作被消灭（参见规则[[cr:7#cr704|704]]）。当生物重生时（参见规则[[cr:7#cr701-15|701.15]]，“重生”）以及在清除步骤中（参见规则[[cr:5#cr514-2|514.2]]），移除该生物上标记的所有伤害。
+<BOOKMARK:cr302-7>302.7. Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 120.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.19, “Regenerate”) and during the cleanup step (see rule 514.2).\\ 
+302.7. 一个不具有干枯或侵染的来源对生物造成的伤害会标记在该生物上（参见规则[[cr:1#cr120-3|120.3]]）。如果标记在一个生物上的总伤害等于或大于它的防御力，该生物受到致命伤害，且会因状态动作被消灭（参见规则[[cr:7#cr704|704]]）。当生物重生时（参见规则[[cr:7#cr701-19|701.19]]，“重生”）以及在清除步骤中（参见规则[[cr:5#cr514-2|514.2]]），移除该生物上标记的所有伤害。
 
 ===== 303. 结界 Enchantments =====
 <BOOKMARK:cr303>303. Enchantments\\ 
@@ -313,8 +313,8 @@ Example: “Basic Land — Mountain” means the card is a land with the subtype
 <BOOKMARK:cr309-1>309.1. Dungeon is a card type seen only on nontraditional Magic cards.\\ 
 309.1. 地城是仅见于非传统万智牌牌张上的牌张类别。
 
-<BOOKMARK:cr309-2>309.2. Dungeon cards begin outside the game. Dungeon cards aren’t part of a player’s deck or sideboard. They are brought into the game using the venture into the dungeon keyword action. See rule 701.46, “Venture into the Dungeon.”\\ 
-309.2. 地城牌在游戏开始时位于游戏外。地城牌不是牌手牌库或备牌的一部分。它们由深入地城此关键字动作带入游戏中。参见规则[[cr:7#cr701-46|701.46]]，“深入地城”。
+<BOOKMARK:cr309-2>309.2. Dungeon cards begin outside the game. Dungeon cards aren’t part of a player’s deck or sideboard. They are brought into the game using the venture into the dungeon keyword action. See rule 701.49, “Venture into the Dungeon.”\\ 
+309.2. 地城牌在游戏开始时位于游戏外。地城牌不是牌手牌库或备牌的一部分。它们由深入地城此关键字动作带入游戏中。参见规则[[cr:7#cr701-49|701.49]]，“深入地城”。
 
 <BOOKMARK:cr309-2a>309.2a If a player ventures into the dungeon while they don’t own a dungeon card in the command zone, they choose a dungeon card they own from outside the game and put it into the command zone.\\ 
 309.2a 如果牌手未在统帅区拥有一张地城牌时深入地城，该牌手从游戏外选择一张由其拥有的地城牌并将其置入统帅区。
@@ -478,8 +478,8 @@ Example: “Basic Land — Mountain” means the card is a land with the subtype
 <BOOKMARK:cr312-6>312.6. A face-up phenomenon card that’s turned face down becomes a new object.\\ 
 312.6. 牌面朝上的异象牌翻为牌面朝下之后成为新的物件。
 
-<BOOKMARK:cr312-7>312.7. If a phenomenon card is face up in the command zone, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.24, “Planeswalk.”)\\ 
-312.7. 如果一张异象牌在统帅区牌面朝上，且它不是已触发、且尚未离开堆叠的触发式异能之来源，时空操控者于下一次牌手将得到优先权时，时空换境。（此为状态动作；参见规则[[cr:7#cr704|704]]。亦见规则[[cr:7#cr701-24|701.24]]，“时空换境”。）
+<BOOKMARK:cr312-7>312.7. If a phenomenon card is face up in the command zone, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.31, “Planeswalk.”)\\ 
+312.7. 如果一张异象牌在统帅区牌面朝上，且它不是已触发、且尚未离开堆叠的触发式异能之来源，时空操控者于下一次牌手将得到优先权时，时空换境。（此为状态动作；参见规则[[cr:7#cr704|704]]。亦见规则[[cr:7#cr701-31|701.31]]，“时空换境”。）
 
 ===== 313. 先锋 Vanguards =====
 <BOOKMARK:cr313>313. Vanguards\\ 

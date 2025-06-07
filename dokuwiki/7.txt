@@ -37,8 +37,8 @@ Example: If an attacking creature is blocked by two creatures, this is one event
 <BOOKMARK:cr700-2g>700.2g A copy of a modal spell or ability copies the mode(s) chosen for it. The controller of the copy can’t choose a different mode. (See rule 707.10.)\\ 
 700.2g 具有模式的咒语或异能之复制品，会复制为该咒语或异能所选择的模式。该复制品的操控者不能选择其他模式。（参见规则[[cr:7#cr707-10|707.10]]。）
 
-<BOOKMARK:cr700-2h>700.2h Some modal spells use plus signs (+) rather than bullet points, with each plus sign followed by a cost. This indicates that each mode has an additional cost that must be paid as the spell is cast if that mode is chosen. If more than one such mode is chosen, all additional costs must be paid to cast that spell. Paying these costs follows the rules for paying additional costs in rules 601.2b and 601.2f–h.\\ 
-700.2h 一些具有模式的咒语使用加号（+）而不是圆点，且加号后面带有费用。它表示每个模式具有一个额外费用，如果选择了该模式，则在施放咒语时必须支付之。如果选择了多于一个此类模式，则在施放该咒语时必须支付所有额外费用。支付这些费用时，需依照规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]的规定来支付额外费用。
+<BOOKMARK:cr700-2h>700.2h Some modal spells have one or more modes with a cost listed before the effect of that mode. This indicates that the mode has an additional cost that must be paid as the spell is cast if that mode is chosen. If more than one such mode is chosen, all additional costs must be paid to cast that spell. Paying these costs follows the rules for paying additional costs in rules 601.2b and 601.2f–h.\\ 
+700.2h 一些咒语具有一个或数个模式，且模式之前列有费用。它表示该模式具有一个额外费用，如果选择了该模式，则在施放咒语时必须支付之。如果选择了多于一个此类模式，则在施放该咒语时必须支付所有额外费用。支付这些费用时，需依照规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]的规定来支付额外费用。
 
 <BOOKMARK:cr700-2i>700.2i Some modal spells have one or more pawprint symbols ({P}) rather than bullet points, as well as an instruction to choose up to a specified number of {P} “worth of modes.” While casting such a spell, its controller can choose any number of modes such that the total number of pawprint symbols listed for the chosen modes is not greater than the specified number.\\ 
 700.2i 一些具有模式的咒语上有一个或数个爪印符号（{P}）而不是圆点，并指示选择数量加总不超过若干{P}的模式。在施放此类咒语时，其操控者可以选择任意数量的模式，只要所选模式中列出的爪印符号总数不超过指定的数量。
@@ -76,8 +76,8 @@ Example: Altar of the Pantheon is an artifact with no colored mana in its cost a
 <BOOKMARK:cr700-6>700.6. The term historic refers to an object that has the legendary supertype, the artifact card type, or the Saga subtype.\\ 
 700.6. 史迹一词表示一个具有传奇此超类别、或具有神器此牌张类别、或具有传纪此副类别的物件。
 
-<BOOKMARK:cr700-7>700.7. If an ability uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn’t the appropriate characteristic at the time.\\ 
-700.7. 如果异能使用“此[对象]”来表示一个物件，[对象]为某个特征，则仅指该物件本身，即使该物件的[对象]特征当时已经改变。
+<BOOKMARK:cr700-7>700.7. If an ability uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic or other quality, it is referring to that particular object, even if it isn’t the appropriate quality at the time.\\ 
+700.7. 如果异能使用“此[对象]”来表示一个物件，且[对象]为某个特征或其他特性，则仅指该物件本身，即使该物件的[对象]特性当时已经改变。
 
 Example: An ability reads “Target creature gets +2/+2 until end of turn. Destroy that creature at the beginning of the next end step.” The ability will destroy the object it gave +2/+2 to even if that object isn’t a creature at the beginning of the next end step.\\ 
 例如：某异能为“目标生物得+2/+2直到回合结束。在下个回合步骤开始时，消灭该生物。”该异能将在下个回合步骤开始时消灭其赋予+2/+2的物件，即使它已不是生物。
@@ -152,275 +152,317 @@ Example: A player casts Bark-Knuckle Boxer, which costs {1}{G} and reads “When
 <BOOKMARK:cr701-3d>701.3d To “unattach” an Equipment from a creature means to move it away from that creature so the Equipment is on the battlefield but is not equipping anything. It should no longer be physically touching any creature. If an Aura, Equipment, or Fortification that was attached to an object or player ceases to be attached to it, that counts as “becoming unattached [from that object or player]”; this includes if that Aura, Equipment, or Fortification leaves the battlefield, the object leaves the zone it was in, or that player leaves the game.\\ 
 701.3d 将武具从生物上“卸装”意指，将其从生物上移开，使得此武具仍在战场，但并未装备在任何生物上。放置时不应再将它与其他生物接触。如果曾贴附于某物的灵气、武具或工事不再贴附于该物件或牌手之上，便视作“[从该物件或牌手上]不再贴附/卸装”；此灵气、武具或工事离开战场、该物件离开之前所在的区域、或该牌手离开游戏的状况，也包括在此描述之内。
 
-<BOOKMARK:cr701-4>701.4. Cast\\ 
-701.4. 施放
+<BOOKMARK:cr701-4>701.4. Behold\\ 
+701.4. 请援
 
-<BOOKMARK:cr701-4a>701.4a To cast a spell is to take it from the zone it’s in (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. A player may cast a spell if they have priority. See rule 601, “Casting Spells.”\\ 
-701.4a 施放咒语指，将该咒语从其所在区域（通常为手上）放入堆叠，并支付费用，使得它最终得以结算并产生效应。牌手在其拥有优先权的时候可以施放咒语。参见规则[[cr:6#cr601|601]]，“施放咒语”。
+<BOOKMARK:cr701-4a>701.4a “Behold a [quality]” means “Reveal a [quality] card from your hand or choose a [quality] permanent you control on the battlefield.”\\ 
+701.4a “请援[特性]”意指“从你手上展示一张[特性]牌，或选择一个战场上由你操控的[特性]永久物”。
 
-<BOOKMARK:cr701-4b>701.4b To cast a card is to cast it as a spell.\\ 
-701.4b 施放某牌指将其作为咒语来施放。
+<BOOKMARK:cr701-4b>701.4b The phrase “if a [quality] was beheld” refers to whether or not the object had that quality at the time the player took that action, regardless of whether or not the revealed card or chosen permanent still has that quality as the spell or ability including that phrase resolves.\\ 
+701.4b “如果已请援[特性]”此描述仅关注该物件于牌手执行该动作时是否具有该特性，无论所展示的牌或所选择的永久物于包含该描述的咒语或异能结算时是否仍具有该特性。
 
-<BOOKMARK:cr701-5>701.5. Counter\\ 
-701.5. 反击
+<BOOKMARK:cr701-5>701.5. Cast\\ 
+701.5. 施放
 
-<BOOKMARK:cr701-5a>701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.\\ 
-701.5a 反击一个咒语或异能指，取消它并将其移出堆叠。它不会结算，并且其效应完全不会发生。将被反击的咒语置于其拥有者的坟墓场。
+<BOOKMARK:cr701-5a>701.5a To cast a spell is to take it from the zone it’s in (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. A player may cast a spell if they have priority. See rule 601, “Casting Spells.”\\ 
+701.5a 施放咒语指，将该咒语从其所在区域（通常为手上）放入堆叠，并支付费用，使得它最终得以结算并产生效应。牌手在其拥有优先权的时候可以施放咒语。参见规则[[cr:6#cr601|601]]，“施放咒语”。
 
-<BOOKMARK:cr701-5b>701.5b The player who cast a countered spell or activated a countered ability doesn’t get a “refund” of any costs that were paid.\\ 
-701.5b 咒语或异能被反击后，已支付的费用均不会“退费”给施放该咒语或起动该异能的牌手。
+<BOOKMARK:cr701-5b>701.5b To cast a card is to cast it as a spell.\\ 
+701.5b 施放某牌指将其作为咒语来施放。
 
-<BOOKMARK:cr701-6>701.6. Create\\ 
-701.6. 派出
+<BOOKMARK:cr701-6>701.6. Counter\\ 
+701.6. 反击
 
-<BOOKMARK:cr701-6a>701.6a To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.\\ 
-701.6a 派出一个或数个具有特定特征的衍生物指，将该数量的、具有该特征的衍生物放进战场。
+<BOOKMARK:cr701-6a>701.6a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.\\ 
+701.6a 反击一个咒语或异能指，取消它并将其移出堆叠。它不会结算，并且其效应完全不会发生。将被反击的咒语置于其拥有者的坟墓场。
 
-<BOOKMARK:cr701-6b>701.6b If a replacement effect applies to a token being created, that effect applies before considering any continuous effects that will modify the characteristics of that token. If a replacement effect applies to a token entering the battlefield, that effect applies after considering any continuous effects that will modify the characteristics of that token.\\ 
-701.6b 如果一个替代性效应将要对如何派出衍生物生效，则该效应在适用任何影响该衍生物特征的持续性效应之前生效。如果一个替代性效应将要对衍生物如何进入战场生效，则该效应在适用任何影响该衍生物特征的持续性效应之后生效。
+<BOOKMARK:cr701-6b>701.6b The player who cast a countered spell or activated a countered ability doesn’t get a “refund” of any costs that were paid.\\ 
+701.6b 咒语或异能被反击后，已支付的费用均不会“退费”给施放该咒语或起动该异能的牌手。
 
-<BOOKMARK:cr701-6c>701.6c Previously, an effect that created tokens instructed a player to “put [those tokens] onto the battlefield.” Cards that were printed with that text have received errata in the Oracle card reference so they now “create” those tokens.\\ 
-701.6c 多年以来，派出衍生物的效应指示牌手“将[衍生物]放进战场”。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“派出”这些衍生物。
+<BOOKMARK:cr701-7>701.7. Create\\ 
+701.7. 派出
 
-<BOOKMARK:cr701-7>701.7. Destroy\\ 
-701.7. 消灭
+<BOOKMARK:cr701-7a>701.7a To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.\\ 
+701.7a 派出一个或数个具有特定特征的衍生物指，将该数量的、具有该特征的衍生物放进战场。
 
-<BOOKMARK:cr701-7a>701.7a To destroy a permanent, move it from the battlefield to its owner’s graveyard.\\ 
-701.7a 消灭一个永久物指，将其从战场移至其拥有者的坟墓场。
+<BOOKMARK:cr701-7b>701.7b If a replacement effect applies to a token being created, that effect applies before considering any continuous effects that will modify the characteristics of that token. If a replacement effect applies to a token entering the battlefield, that effect applies after considering any continuous effects that will modify the characteristics of that token.\\ 
+701.7b 如果一个替代性效应将要对如何派出衍生物生效，则该效应在适用任何影响该衍生物特征的持续性效应之前生效。如果一个替代性效应将要对衍生物如何进入战场生效，则该效应在适用任何影响该衍生物特征的持续性效应之后生效。
 
-<BOOKMARK:cr701-7b>701.7b The only ways a permanent can be destroyed are as a result of an effect that uses the word “destroy” or as a result of the state-based actions that check for lethal damage (see rule 704.5g) or damage from a source with deathtouch (see rule 704.5h). If a permanent is put into its owner’s graveyard for any other reason, it hasn’t been “destroyed.”\\ 
-701.7b 永久物只可能是由于以下数种效应的结果而被消灭：受到了注记着“消灭”的效应；因检查状态动作中的致命伤害（参见规则[[cr:7#cr704-5g|704.5g]]）；或是受到了具死触异能的来源造成伤害（参见704.5h）。若某永久物是因其他原因而被置入其拥有者的坟墓场，它并不是被“消灭”的。
+<BOOKMARK:cr701-7c>701.7c Previously, an effect that created tokens instructed a player to “put [those tokens] onto the battlefield.” Cards that were printed with that text have received errata in the Oracle card reference so they now “create” those tokens.\\ 
+701.7c 多年以来，派出衍生物的效应指示牌手“将[衍生物]放进战场”。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“派出”这些衍生物。
 
-<BOOKMARK:cr701-7c>701.7c A regeneration effect replaces a destruction event. See rule 701.15, “Regenerate.”\\ 
-701.7c 一个重生效应可替代一次消灭事件。参见规则[[cr:7#cr701-15|701.15]]，“重生”。
+<BOOKMARK:cr701-8>701.8. Destroy\\ 
+701.8. 消灭
 
-<BOOKMARK:cr701-8>701.8. Discard\\ 
-701.8. 弃牌
+<BOOKMARK:cr701-8a>701.8a To destroy a permanent, move it from the battlefield to its owner’s graveyard.\\ 
+701.8a 消灭一个永久物指，将其从战场移至其拥有者的坟墓场。
 
-<BOOKMARK:cr701-8a>701.8a To discard a card, move it from its owner’s hand to that player’s graveyard.\\ 
-701.8a 弃掉一张牌指，将它从其拥有者的手上移到该牌手的坟墓场中。
+<BOOKMARK:cr701-8b>701.8b The only ways a permanent can be destroyed are as a result of an effect that uses the word “destroy” or as a result of the state-based actions that check for lethal damage (see rule 704.5g) or damage from a source with deathtouch (see rule 704.5h). If a permanent is put into its owner’s graveyard for any other reason, it hasn’t been “destroyed.”\\ 
+701.8b 永久物只可能是由于以下数种效应的结果而被消灭：受到了注记着“消灭”的效应；因检查状态动作中的致命伤害（参见规则[[cr:7#cr704-5g|704.5g]]）；或是受到了具死触异能的来源造成伤害（参见704.5h）。若某永久物是因其他原因而被置入其拥有者的坟墓场，它并不是被“消灭”的。
 
-<BOOKMARK:cr701-8b>701.8b By default, effects that cause a player to discard a card allow the affected player to choose which card to discard. Some effects, however, require a random discard or allow another player to choose which card is discarded.\\ 
-701.8b 在默认情况下，使某位牌手弃掉一张牌的效应允许由受影响的牌手来选择弃掉哪一张牌。然而有些效应会要求牌手随机弃牌，或允许其他牌手来选弃掉哪张牌。
+<BOOKMARK:cr701-8c>701.8c A regeneration effect replaces a destruction event. See rule 701.19, “Regenerate.”\\ 
+701.8c 一个重生效应可替代一次消灭事件。参见规则[[cr:7#cr701-19|701.19]]，“重生”。
 
-<BOOKMARK:cr701-8c>701.8c If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 731, “Handling Illegal Actions”).\\ 
-701.8c 若一张牌被弃掉，但某效应使其改为以未被展示的方式放置于一个隐藏区域而非其拥有者的坟墓场中，该牌的任何特征值皆视为是未定义的。若以此法弃掉牌来支付某费用，且该费用指定了所弃之牌的某种特征，该费用的支付非法；游戏将倒回至该费用被支付之前的时刻（参见规则[[cr:7#cr731|731]]，“处理非法动作”）。
+<BOOKMARK:cr701-9>701.9. Discard\\ 
+701.9. 弃牌
 
-<BOOKMARK:cr701-9>701.9. Double\\ 
-701.9. 加倍
+<BOOKMARK:cr701-9a>701.9a To discard a card, move it from its owner’s hand to that player’s graveyard.\\ 
+701.9a 弃掉一张牌指，将它从其拥有者的手上移到该牌手的坟墓场中。
 
-<BOOKMARK:cr701-9a>701.9a Doubling a creature’s power and/or toughness creates a continuous effect. This effect modifies that creature’s power and/or toughness but doesn’t set those characteristics to a specific value. See rule 613.4c.\\ 
-701.9a 加倍生物的力量和/或防御力会创造一个持续性效应。该效应影响该生物的力量或防御力，但并非将这些特征设定为特定值。参见规则[[cr:6#cr613-4c|613.4c]]。
+<BOOKMARK:cr701-9b>701.9b By default, effects that cause a player to discard a card allow the affected player to choose which card to discard. Some effects, however, require a random discard or allow another player to choose which card is discarded.\\ 
+701.9b 在默认情况下，使某位牌手弃掉一张牌的效应允许由受影响的牌手来选择弃掉哪一张牌。然而有些效应会要求牌手随机弃牌，或允许其他牌手来选弃掉哪张牌。
 
-<BOOKMARK:cr701-9b>701.9b To double a creature’s power, that creature gets +X/+0, where X is that creature’s power as the spell or ability that doubles its power resolves. Similarly, an effect that doubles a creature’s toughness gives it +0/+X, where X is that creature’s toughness. Doubling a creature’s power and toughness gives it +X/+Y, where X is its power and Y is its toughness.\\ 
-701.9b 加倍生物的力量指，其得+X/+0，X为于加倍其力量的该咒语或异能结算时该生物的力量。类似地，加倍生物的防御力之效应使其得+0/+X，X为该生物的防御力。加倍生物的力量和防御力使其得+X/+Y，X为其力量且Y为其防御力。
+<BOOKMARK:cr701-9c>701.9c If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 731, “Handling Illegal Actions”).\\ 
+701.9c 若一张牌被弃掉，但某效应使其改为以未被展示的方式放置于一个隐藏区域而非其拥有者的坟墓场中，该牌的任何特征值皆视为是未定义的。若以此法弃掉牌来支付某费用，且该费用指定了所弃之牌的某种特征，该费用的支付非法；游戏将倒回至该费用被支付之前的时刻（参见规则[[cr:7#cr731|731]]，“处理非法动作”）。
 
-<BOOKMARK:cr701-9c>701.9c If a creature’s power is less than 0 when it’s doubled, doubling that creature’s power instead means that the creature gets -X/-0, where X is the difference between 0 and its power. Similarly, if its toughness is less than 0 when doubled, it gets -0/-X. If one characteristic’s value is negative but the other isn’t when both are doubled, it gets -X/+Y or +X/-Y, as appropriate.\\ 
-701.9c 如果生物的力量于被加倍时小于0，加倍该生物的力量改为意指该生物得-X/-0，X为该生物的力量与0之差值。类似地，如果其防御力于被加倍时小于0，其得-0/-X。如果两者都被加倍，且其中一个特征为负但另一个不为负时，视情况其得-X/+Y或+X/-Y。
+<BOOKMARK:cr701-10>701.10. Double\\ 
+701.10. 加倍
 
-<BOOKMARK:cr701-9d>701.9d To double a player’s life total, the player gains or loses an amount of life such that their new life total is twice its current value.\\ 
-701.9d 加倍牌手的总生命指，该牌手获得或失去若干生命，使得其新的总生命等同于其当前值的两倍。
+<BOOKMARK:cr701-10a>701.10a Doubling a creature’s power and/or toughness creates a continuous effect. This effect modifies that creature’s power and/or toughness but doesn’t set those characteristics to a specific value. See rule 613.4c.\\ 
+701.10a 加倍生物的力量和/或防御力会创造一个持续性效应。该效应影响该生物的力量或防御力，但并非将这些特征设定为特定值。参见规则[[cr:6#cr613-4c|613.4c]]。
 
-<BOOKMARK:cr701-9e>701.9e To double the number of a kind of counters on a player or permanent, give that player or permanent as many of those counters as that player or permanent already has.\\ 
-701.9e 加倍牌手或永久物上某种指示物的数量指，给予该牌手或永久物若干该种指示物，其数量等同于其已有该种指示物之数量。
+<BOOKMARK:cr701-10b>701.10b To double a creature’s power, that creature gets +X/+0, where X is that creature’s power as the spell or ability that doubles its power resolves. Similarly, an effect that doubles a creature’s toughness gives it +0/+X, where X is that creature’s toughness. Doubling a creature’s power and toughness gives it +X/+Y, where X is its power and Y is its toughness.\\ 
+701.10b 加倍生物的力量指，其得+X/+0，X为将该生物力量加倍的咒语或异能结算时，该生物的力量。类似地，加倍生物的防御力之效应使其得+0/+X，X为该生物的防御力。加倍生物的力量和防御力使其得+X/+Y，X为其力量且Y为其防御力。
 
-<BOOKMARK:cr701-9f>701.9f To double the amount of a type of mana in a player’s mana pool, that player adds an amount of mana of that type equal to the amount they already have.\\ 
-701.9f 加倍牌手法术力池中某种类别的法术力的数量指，该牌手加若干该类别的法术力，其数量等同于其已有该类别法术力之数量。
+<BOOKMARK:cr701-10c>701.10c If a creature’s power is less than 0 when it’s doubled, doubling that creature’s power instead means that the creature gets -X/-0, where X is the difference between 0 and its power. Similarly, if its toughness is less than 0 when doubled, it gets -0/-X. If one characteristic’s value is negative but the other isn’t when both are doubled, it gets -X/+Y or +X/-Y, as appropriate.\\ 
+701.10c 如果生物的力量于被加倍时小于0，加倍该生物的力量改为意指该生物得-X/-0，X为该生物的力量与0之差值。类似地，如果其防御力于被加倍时小于0，其得-0/-X。如果两者都被加倍，且其中一个特征为负但另一个不为负时，视情况其得-X/+Y或+X/-Y。
 
-<BOOKMARK:cr701-9g>701.9g To double an amount of damage a source would deal, that source instead deals twice that much damage. This is a replacement effect.\\ 
-701.9g 加倍某个来源将造成的伤害指，该来源改为造成两倍的伤害。此为替代性效应。
+<BOOKMARK:cr701-10d>701.10d To double a player’s life total, the player gains or loses an amount of life such that their new life total is twice its current value.\\ 
+701.10d 加倍牌手的总生命指，该牌手获得或失去若干生命，使得其新的总生命等同于其当前值的两倍。
 
-<BOOKMARK:cr701-10>701.10. Exchange\\ 
-701.10. 交换
+<BOOKMARK:cr701-10e>701.10e To double the number of a kind of counters on a player or permanent, give that player or permanent as many of those counters as that player or permanent already has.\\ 
+701.10e 加倍牌手或永久物上某种指示物的数量指，给予该牌手或永久物若干该种指示物，其数量等同于其已有该种指示物之数量。
 
-<BOOKMARK:cr701-10a>701.10a A spell or ability may instruct players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if the entire exchange can’t be completed, no part of the exchange occurs.\\ 
-701.10a 作为咒语或异能结算的一部分，可能会指示双方交换某物（例如，总生命或两个永久物的操控权）。当此类咒语或异能结算时，若无法完成整个交换，则此交换的任何部分均不会发生。
+<BOOKMARK:cr701-10f>701.10f To double the amount of a type of mana in a player’s mana pool, that player adds an amount of mana of that type equal to the amount they already have.\\ 
+701.10f 加倍牌手法术力池中某种类别的法术力的数量指，该牌手加若干该类别的法术力，其数量等同于其已有该类别法术力之数量。
+
+<BOOKMARK:cr701-10g>701.10g To double an amount of damage a source would deal, that source instead deals twice that much damage. This is a replacement effect.\\ 
+701.10g 加倍某个来源将造成的伤害指，该来源改为造成两倍的伤害。此为替代性效应。
+
+<BOOKMARK:cr701-11>701.11. Triple\\ 
+701.11. 加两倍
+
+<BOOKMARK:cr701-11a>701.11a Tripling a creature’s power and/or toughness creates a continuous effect. This effect modifies that creature’s power and/or toughness but doesn’t set those characteristics to a specific value. See rule 613.4c.\\ 
+701.11a 加两倍生物的力量和/或防御力会创造一个持续性效应。该效应影响该生物的力量或防御力，但并非将这些特征设定为特定值。参见规则[[cr:6#cr613-4c|613.4c]]。
+
+<BOOKMARK:cr701-11b>701.11b To triple a creature’s power, that creature gets +X/+0, where X is twice that creature’s power as the spell or ability that triples its power resolves. Similarly, an effect that triples a creature’s toughness gives it +0/+X, where X is twice that creature’s toughness. Tripling a creature’s power and toughness gives it +X/+Y, where X is twice its power and Y is twice its toughness.\\ 
+701.11b 加两倍生物的力量指，其得+X/+0，X为将该生物力量加两倍的咒语或异能结算时，该生物的力量的两倍。类似地，加两倍生物的防御力之效应使其得+0/+X，X为该生物防御力的两倍。加两倍生物的力量和防御力使其得+X/+Y，X为其力量的两倍且Y为其防御力的两倍。
+
+<BOOKMARK:cr701-11c>701.11c If a creature’s power is less than 0 when it’s tripled, tripling that creature’s power instead means that the creature gets -X/-0, where X is twice the difference between 0 and its power. Similarly, if its toughness is less than 0 when tripled, it gets -0/-X. If one characteristic’s value is negative but the other isn’t when both are tripled, it gets -X/+Y or +X/-Y, as appropriate.\\ 
+701.11c 如果生物的力量于被加两倍时小于0，加两倍该生物的力量改为意指该生物得-X/-0，X为该生物的力量与0之差值的两倍。类似地，如果其防御力于被加两倍时小于0，其得-0/-X。如果两者都被加两倍，且其中一个特征为负但另一个不为负时，视情况其得-X/+Y或+X/-Y。
+
+<BOOKMARK:cr701-12>701.12. Exchange\\ 
+701.12. 交换
+
+<BOOKMARK:cr701-12a>701.12a A spell or ability may instruct players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if the entire exchange can’t be completed, no part of the exchange occurs.\\ 
+701.12a 作为咒语或异能结算的一部分，可能会指示双方交换某物（例如，总生命或两个永久物的操控权）。当此类咒语或异能结算时，若无法完成整个交换，则此交换的任何部分均不会发生。
 
 Example: If a spell attempts to exchange control of two target creatures but one of those creatures is destroyed before the spell resolves, the spell does nothing to the other creature.\\ 
 例如：若某咒语试图交换两个目标生物的操控权，但在咒语结算前，其中一个被消灭了，则此咒语不会对另一个生物产生效果。
 
-<BOOKMARK:cr701-10b>701.10b When control of two permanents is exchanged, if those permanents are controlled by different players, each of those players simultaneously gains control of the permanent that was controlled by the other player. If, on the other hand, those permanents are controlled by the same player, the exchange effect does nothing.\\ 
-701.10b 当两个永久物的操控权被交换时，若这些永久物由不同的牌手操控，则每位牌手同时获得由另一位牌手所操控之该永久物的操控权。另一方面，若这些永久物都由同一位牌手操控，则此交换效应没有效果。
+<BOOKMARK:cr701-12b>701.12b When control of two permanents is exchanged, if those permanents are controlled by different players, each of those players simultaneously gains control of the permanent that was controlled by the other player. If, on the other hand, those permanents are controlled by the same player, the exchange effect does nothing.\\ 
+701.12b 当两个永久物的操控权被交换时，若这些永久物由不同的牌手操控，则每位牌手同时获得由另一位牌手所操控之该永久物的操控权。另一方面，若这些永久物都由同一位牌手操控，则此交换效应没有效果。
 
-<BOOKMARK:cr701-10c>701.10c When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player’s previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them. A player who can’t gain life can’t be given a higher life total this way, and a player who can’t lose life can’t be given a lower life total this way (see rules 119.7–8).\\ 
-701.10c 当总生命被交换时，每位牌手获得或失去必要数量的生命，以使得自己的总生命与另一位牌手之前的总生命相同。替代性效应可能改变因此得到或失去的数量，触发式异能也可能因生命的得失而触发。不能获得生命的牌手不能以此法得到较高的总生命，不能失去生命的牌手不能以此法得到较低的总生命（参见规则[[cr:1#cr119-7|119.7-8]]）。
+<BOOKMARK:cr701-12c>701.12c When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player’s previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them. A player who can’t gain life can’t be given a higher life total this way, and a player who can’t lose life can’t be given a lower life total this way (see rules 119.7–8).\\ 
+701.12c 当总生命被交换时，每位牌手获得或失去必要数量的生命，以使得自己的总生命与另一位牌手之前的总生命相同。替代性效应可能改变因此得到或失去的数量，触发式异能也可能因生命的得失而触发。不能获得生命的牌手不能以此法得到较高的总生命，不能失去生命的牌手不能以此法得到较低的总生命（参见规则[[cr:1#cr119-7|119.7-8]]）。
 
-<BOOKMARK:cr701-10d>701.10d Some spells or abilities may instruct a player to exchange cards in one zone with cards in a different zone (for example, exiled cards and cards in a player’s hand). These spells and abilities work the same as other “exchange” spells and abilities, except they can exchange the cards only if all the cards are owned by the same player, and they can exchange the cards even if one zone is empty.\\ 
-701.10d 某些咒语或异能可能会指示牌手将处于两个不同区域的牌交换（例如，被放逐的牌和牌手手上的牌）。这些咒语及异能的运作方式与其他“交换”咒语或异能相同，不同之处在于，交换只有在所交换的牌都由同一位牌手所拥有的情况下才能进行，且即使其中一个区域为空，牌手也能交换这些牌。
+<BOOKMARK:cr701-12d>701.12d Some spells or abilities may instruct a player to exchange cards in one zone with cards in a different zone (for example, exiled cards and cards in a player’s hand). These spells and abilities work the same as other “exchange” spells and abilities, except they can exchange the cards only if all the cards are owned by the same player, and they can exchange the cards even if one zone is empty.\\ 
+701.12d 某些咒语或异能可能会指示牌手将处于两个不同区域的牌交换（例如，被放逐的牌和牌手手上的牌）。这些咒语及异能的运作方式与其他“交换”咒语或异能相同，不同之处在于，交换只有在所交换的牌都由同一位牌手所拥有的情况下才能进行，且即使其中一个区域为空，牌手也能交换这些牌。
 
-<BOOKMARK:cr701-10e>701.10e If a card in one zone is exchanged with a card in a different zone, and either of them is attached to an object, that card stops being attached to that object and the other card becomes attached to that object.\\ 
-701.10e 如果在交换处于两个不同区域的牌时，其中之一正贴附于某物件之上，则交换时，原本贴附于物件之上的牌不再贴附于该物件，改为由另一张牌贴附于该物件。
+<BOOKMARK:cr701-12e>701.12e If a card in one zone is exchanged with a card in a different zone, and either of them is attached to an object, that card stops being attached to that object and the other card becomes attached to that object.\\ 
+701.12e 如果在交换处于两个不同区域的牌时，其中之一正贴附于某物件之上，则交换时，原本贴附于物件之上的牌不再贴附于该物件，改为由另一张牌贴附于该物件。
 
-<BOOKMARK:cr701-10f>701.10f If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.\\ 
-701.10f 如果某咒语或异能指示牌手将两个区域交换，则即使其中一个区域空着，也依然会交换这两个区域中的牌。
+<BOOKMARK:cr701-12f>701.12f If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.\\ 
+701.12f 如果某咒语或异能指示牌手将两个区域交换，则即使其中一个区域空着，也依然会交换这两个区域中的牌。
 
-<BOOKMARK:cr701-10g>701.10g A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. A player who can’t gain life can’t be given a higher life total this way, and a player who can’t lose life can’t be given a lower life total this way (see rules 119.7–8). If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.4b). This rule does not apply to spells and abilities that switch a creature’s power and toughness.\\ 
-701.10g 咒语或异能可能会指示牌手交换两个数值。在此类交换中，每个数值成为另一个数值交换之前的值。若其中之一为总生命，受影响的牌手获得或失去必要数量的生命，以使其生命等同于另一个数值。替代性效应可能改变因此得到或失去的数量，触发式异能也可能因生命的得失而触发。不能获得生命的牌手不能以此法得到较高的总生命，不能失去生命的牌手不能以此法得到较低的总生命（参见规则[[cr:1#cr119-7|119.7-8]]）。如果这些数值之一是力量或防御力，一个持续性效应被创造，以设置该力量或防御力成为另一个值（参见规则[[cr:6#cr613-4b|613.4b]]）。此规则不适用于交换某生物的力量和防御力之咒语或异能。
+<BOOKMARK:cr701-12g>701.12g A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. A player who can’t gain life can’t be given a higher life total this way, and a player who can’t lose life can’t be given a lower life total this way (see rules 119.7–8). If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.4b). This rule does not apply to spells and abilities that switch a creature’s power and toughness.\\ 
+701.12g 咒语或异能可能会指示牌手交换两个数值。在此类交换中，每个数值成为另一个数值交换之前的值。若其中之一为总生命，受影响的牌手获得或失去必要数量的生命，以使其生命等同于另一个数值。替代性效应可能改变因此得到或失去的数量，触发式异能也可能因生命的得失而触发。不能获得生命的牌手不能以此法得到较高的总生命，不能失去生命的牌手不能以此法得到较低的总生命（参见规则[[cr:1#cr119-7|119.7-8]]）。如果这些数值之一是力量或防御力，一个持续性效应被创造，以设置该力量或防御力成为另一个值（参见规则[[cr:6#cr613-4b|613.4b]]）。此规则不适用于交换某生物的力量和防御力之咒语或异能。
 
-<BOOKMARK:cr701-10h>701.10h One card (Exchange of Words) instructs a player to exchange the text boxes of two creatures. This creates a text-changing effect (see rule 612, “Text-Changing Effects”). In such an exchange, the rules text of each permanent becomes the previous rules text of the other.\\ 
-701.10h 一张牌（Exchange of Words）指示牌手交换两个生物的文字栏。这会创造一个改变叙述的效应（参见规则[[cr:6#cr612|612]]，“改变叙述的效应”）。在这此交换中，每个永久物的规则叙述成为另一个永久物之前的规则叙述。
+<BOOKMARK:cr701-12h>701.12h One card (Exchange of Words) instructs a player to exchange the text boxes of two creatures. This creates a text-changing effect (see rule 612, “Text-Changing Effects”). In such an exchange, the rules text of each permanent becomes the previous rules text of the other.\\ 
+701.12h 一张牌（Exchange of Words）指示牌手交换两个生物的文字栏。这会创造一个改变叙述的效应（参见规则[[cr:6#cr612|612]]，“改变叙述的效应”）。在这此交换中，每个永久物的规则叙述成为另一个永久物之前的规则叙述。
 
-<BOOKMARK:cr701-11>701.11. Exile\\ 
-701.11. 放逐
+<BOOKMARK:cr701-13>701.13. Exile\\ 
+701.13. 放逐
 
-<BOOKMARK:cr701-11a>701.11a To exile an object, move it to the exile zone from wherever it is. See rule 406, “Exile.”\\ 
-701.11a 放逐一个物件指，将它从原本所在区域移到放逐区中。参见规则[[cr:4#cr406|406]]，“放逐”。
+<BOOKMARK:cr701-13a>701.13a To exile an object, move it to the exile zone from wherever it is. See rule 406, “Exile.”\\ 
+701.13a 放逐一个物件指，将它从原本所在区域移到放逐区中。参见规则[[cr:4#cr406|406]]，“放逐”。
 
-<BOOKMARK:cr701-12>701.12. Fight\\ 
-701.12. 互斗
+<BOOKMARK:cr701-14>701.14. Fight\\ 
+701.14. 互斗
 
-<BOOKMARK:cr701-12a>701.12a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.\\ 
-701.12a 一个咒语或异能可能会要求一个生物与另一个生物互斗。这两个生物互相向对方造成等同于自身力量的伤害。
+<BOOKMARK:cr701-14a>701.14a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.\\ 
+701.14a 一个咒语或异能可能会要求一个生物与另一个生物互斗。这两个生物互相向对方造成等同于自身力量的伤害。
 
-<BOOKMARK:cr701-12b>701.12b If one or both creatures instructed to fight are no longer on the battlefield or are no longer creatures, neither of them fights or deals damage. If one or both creatures are illegal targets for a resolving spell or ability that instructs them to fight, neither of them fights or deals damage.\\ 
-701.12b 如果一个被要求互斗的生物已不在战场上或不再是生物（或两者皆如此），没有生物互斗，也没有伤害造成。如果一个生物在一个要求它互斗的咒语或异能结算时不是合法目标（或两者皆如此），没有生物互斗，也没有伤害造成。
+<BOOKMARK:cr701-14b>701.14b If one or both creatures instructed to fight are no longer on the battlefield or are no longer creatures, neither of them fights or deals damage. If one or both creatures are illegal targets for a resolving spell or ability that instructs them to fight, neither of them fights or deals damage.\\ 
+701.14b 如果一个被要求互斗的生物已不在战场上或不再是生物（或两者皆如此），没有生物互斗，也没有伤害造成。如果一个生物在一个要求它互斗的咒语或异能结算时不是合法目标（或两者皆如此），没有生物互斗，也没有伤害造成。
 
-<BOOKMARK:cr701-12c>701.12c If a creature fights itself, it deals damage to itself equal to twice its power.\\ 
-701.12c 如果某生物与本身互斗，则它会对本身造成其力量值两倍的伤害。
+<BOOKMARK:cr701-14c>701.14c If a creature fights itself, it deals damage to itself equal to twice its power.\\ 
+701.14c 如果某生物与本身互斗，则它会对本身造成其力量值两倍的伤害。
 
-<BOOKMARK:cr701-12d>701.12d The damage dealt when a creature fights isn’t combat damage.\\ 
-701.12d 生物互斗所造成的伤害并非战斗伤害。
+<BOOKMARK:cr701-14d>701.14d The damage dealt when a creature fights isn’t combat damage.\\ 
+701.14d 生物互斗所造成的伤害并非战斗伤害。
 
-<BOOKMARK:cr701-13>701.13. Mill\\ 
-701.13. 磨
+<BOOKMARK:cr701-15>701.15. Goad\\ 
+701.15. 煽惑
 
-<BOOKMARK:cr701-13a>701.13a For a player to mill a number of cards, that player puts that many cards from the top of their library into their graveyard.\\ 
-701.13a 牌手磨数张牌指，该牌手将该数量的牌从牌库顶置于其坟墓场。
+<BOOKMARK:cr701-15a>701.15a Certain spells and abilities can goad a creature. Until the next turn of the controller of that spell or ability, that creature is goaded.\\ 
+701.15a 某些咒语和异能可以煽惑生物。直到此类咒语或异能之操控者的下一个回合，该生物被煽惑。
 
-<BOOKMARK:cr701-13b>701.13b A player can’t mill a number of cards greater than the number of cards in their library. If given the choice to do so, they can’t choose to take that action. If instructed to do so, they mill as many as possible. Similarly, the player can’t pay a cost that includes milling a number of cards greater than the number of cards in their library.\\ 
-701.13b 牌手不能磨大于其牌库中牌之数量的牌。如果该牌手获得如此作的选项，其不能选择执行该动作。如果该牌手被指示如此作，该牌手磨尽可能多的牌。相似地，该牌手不能支付包含磨大于其牌库中牌之数量的牌的费用。
+<BOOKMARK:cr701-15b>701.15b Goaded is a designation a permanent can have. A goaded creature attacks each combat if able and attacks a player other than the controller of the permanent, spell, or ability that caused it to be goaded if able. Goaded is neither an ability nor part of the permanent’s copiable values.\\ 
+701.15b “被煽惑”是永久物能够具有的称号。被煽惑的生物每次战斗若能攻击，则必须攻击，且若能攻击使其被煽惑之永久物、咒语或异能的操控者以外的牌手，则必须如此作。被煽惑既不是异能，也不是该永久物可复制特征值的一部分。
 
-<BOOKMARK:cr701-13c>701.13c An effect that refers to a milled card can find that card in the zone it moved to from the library, as long as that zone is a public zone.\\ 
-701.13c 提及所磨的牌的效应可以在其从牌库移动到的区域找到该牌，只要该区域是公开区域。
+<BOOKMARK:cr701-15c>701.15c A creature can be goaded by multiple players. Doing so creates additional combat requirements.\\ 
+701.15c 一个生物可以被多位牌手煽惑。这会创造额外的战斗需求。
 
-<BOOKMARK:cr701-13d>701.13d If an ability checks information about a single milled card but more than one card was milled, that ability refers to each of the milled cards. If that ability asks for any information about the milled card, such as a characteristic or mana value, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on “the” card, it performs that action on each milled card. If that ability performs any actions on “a” card, the controller of the ability chooses which card is affected.\\ 
-701.13d 如果一个异能检查一张所磨的牌的信息，但多于一张牌被磨掉，该异能提及所磨的每张牌。如果该异能询问所磨的牌的任何信息，诸如特征或法术力值，它将得到复数个答案。如果这些答案用于确定一个可变数值的值，使用这些答案之加总。如果该异能对“该”牌执行任何动作，它将对每张所磨的牌执行该动作。如果该异能对“一张”牌执行任何动作，该异能的操控者选择哪张牌会受其影响。
+<BOOKMARK:cr701-15d>701.15d Once a player has goaded a creature, the same player goading it again has no effect. Doing so doesn’t create additional combat requirements.\\ 
+701.15d 一旦牌手煽惑了某个生物，同一位牌手再次煽惑它没有效果。这不会创造额外的战斗需求。
 
-<BOOKMARK:cr701-14>701.14. Play\\ 
-701.14. 使用
+<BOOKMARK:cr701-16>701.16. Investigate\\ 
+701.16. 探查
 
-<BOOKMARK:cr701-14a>701.14a To play a land means to put it onto the battlefield from the zone it’s in (usually the hand). A player may play a land if they have priority, it’s the main phase of their turn, the stack is empty, and they haven’t played a land this turn. Playing a land is a special action (see rule 116), so it doesn’t use the stack; it simply happens. Putting a land onto the battlefield as the result of a spell or ability isn’t the same as playing a land. See rule 305, “Lands.”\\ 
-701.14a 使用地牌指，将其从原本所在区域（通常为手上）放进战场。在同时符合下列所有情况的时候，牌手可以使用地牌：具有优先权、在其回合的行动阶段、堆叠为空、且本回合尚未使用过地牌。使用地牌是一个特殊动作（参见规则[[cr:1#cr116|116]]），因此并不使用堆叠；此动作直接发生。因咒语或异能的效果而将地牌放进战场并不是使用地牌。参见规则[[cr:3#cr305|305]]，“地”。
+<BOOKMARK:cr701-16a>701.16a “Investigate” means “Create a Clue token.” See rule 111.10f.\\ 
+701.16a “探查”意指“派出一个线索衍生物。”参见规则[[cr:1#cr111-10f|111.10f]]。
 
-<BOOKMARK:cr701-14b>701.14b To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.\\ 
-701.14b 使用某张牌指将该牌作为地来使用或作为咒语来施放，依状况而定。
+<BOOKMARK:cr701-17>701.17. Mill\\ 
+701.17. 磨
 
-<BOOKMARK:cr701-14c>701.14c Some effects instruct a player to “play” with a certain aspect of the game changed, such as “Play with the top card of your library revealed.” “Play” in this sense means to play the Magic game.\\ 
-701.14c 有些效应会指示牌手在游戏的某些条件有所改变的情况下“进行游戏”，例如“以展示牌库顶牌的方式进行游戏”。在此语境中的“进行游戏”意指进行万智牌的游戏。（译注：“进行游戏”英文原文亦为“Play”，故在此说明，中文翻译的用词上有显著不同。）
+<BOOKMARK:cr701-17a>701.17a For a player to mill a number of cards, that player puts that many cards from the top of their library into their graveyard.\\ 
+701.17a 牌手磨数张牌指，该牌手将该数量的牌从牌库顶置于其坟墓场。
 
-<BOOKMARK:cr701-14d>701.14d Previously, the action of casting a spell, or casting a card as a spell, was referred to on cards as “playing” that spell or that card. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to “casting” that spell or that card.\\ 
-701.14d 多年以来，施放咒语或作为咒语施放一张牌这个动作，在牌上被称为“使用”该咒语或该牌。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“施放”该咒语或该牌。
+<BOOKMARK:cr701-17b>701.17b A player can’t mill a number of cards greater than the number of cards in their library. If given the choice to do so, they can’t choose to take that action. If instructed to do so, they mill as many as possible. Similarly, the player can’t pay a cost that includes milling a number of cards greater than the number of cards in their library.\\ 
+701.17b 牌手不能磨大于其牌库中牌之数量的牌。如果该牌手获得如此作的选项，其不能选择执行该动作。如果该牌手被指示如此作，该牌手磨尽可能多的牌。相似地，该牌手不能支付包含磨大于其牌库中牌之数量的牌的费用。
 
-<BOOKMARK:cr701-14e>701.14e Previously, the action of using an activated ability was referred to on cards as “playing” that ability. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to “activating” that ability.\\ 
-701.14e 多年以来，起动一个起动式异能的动作，在牌上被称为“使用”该异能。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“起动”该异能。
+<BOOKMARK:cr701-17c>701.17c An effect that refers to a milled card can find that card in the zone it moved to from the library, as long as that zone is a public zone.\\ 
+701.17c 提及所磨的牌的效应可以在其从牌库移动到的区域找到该牌，只要该区域是公开区域。
 
-<BOOKMARK:cr701-15>701.15. Regenerate\\ 
-701.15. 重生
+<BOOKMARK:cr701-17d>701.17d If an ability checks information about a single milled card but more than one card was milled, that ability refers to each of the milled cards. If that ability asks for any information about the milled card, such as a characteristic or mana value, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on “the” card, it performs that action on each milled card. If that ability performs any actions on “a” card, the controller of the ability chooses which card is affected.\\ 
+701.17d 如果一个异能检查一张所磨的牌的信息，但多于一张牌被磨掉，该异能提及所磨的每张牌。如果该异能询问所磨的牌的任何信息，诸如特征或法术力值，它将得到复数个答案。如果这些答案用于确定一个可变数值的值，使用这些答案之加总。如果该异能对“该”牌执行任何动作，它将对每张所磨的牌执行该动作。如果该异能对“一张”牌执行任何动作，该异能的操控者选择哪张牌会受其影响。
 
-<BOOKMARK:cr701-15a>701.15a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.”\\ 
-701.15a 如果正在结算的咒语或异能之效应重生永久物，则它会创造出一个替代性效应，以在下一次该永久物将要被消灭时保护之。此时，“重生[永久物]”意指，“本回合中，当[永久物]下一次将要被消灭时，改为移除其上标记的所有伤害，然后其操控者将它横置。如果它为进行攻击或阻挡的生物，则将其移出战斗。”
+<BOOKMARK:cr701-18>701.18. Play\\ 
+701.18. 使用
 
-<BOOKMARK:cr701-15b>701.15b If the effect of a static ability regenerates a permanent, it replaces destruction with an alternate effect each time that permanent would be destroyed. In this case, “Regenerate [permanent]” means “Instead remove all damage marked on [permanent] and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.”\\ 
-701.15b 如果静止式异能之效应重生永久物，则每次该永久物要被消灭时，该效应均会以其他效应来替代之。此时，“重生[永久物]”意指，“改为移除标记在[永久物]上的所有伤害，然后其操控者将它横置。如果它为进行攻击或阻挡的生物，则将其移出战斗。”
+<BOOKMARK:cr701-18a>701.18a To play a land means to put it onto the battlefield from the zone it’s in (usually the hand). A player may play a land if they have priority, it’s the main phase of their turn, the stack is empty, and they haven’t played a land this turn. Playing a land is a special action (see rule 116), so it doesn’t use the stack; it simply happens. Putting a land onto the battlefield as the result of a spell or ability isn’t the same as playing a land. See rule 305, “Lands.”\\ 
+701.18a 使用地牌指，将其从原本所在区域（通常为手上）放进战场。在同时符合下列所有情况的时候，牌手可以使用地牌：具有优先权、在其回合的行动阶段、堆叠为空、且本回合尚未使用过地牌。使用地牌是一个特殊动作（参见规则[[cr:1#cr116|116]]），因此并不使用堆叠；此动作直接发生。因咒语或异能的效果而将地牌放进战场并不是使用地牌。参见规则[[cr:3#cr305|305]]，“地”。
 
-<BOOKMARK:cr701-15c>701.15c Neither activating an ability that creates a regeneration shield nor casting a spell that creates a regeneration shield is the same as regenerating a permanent. Effects that say that a permanent can’t be regenerated don’t preclude such abilities from being activated or such spells from being cast; rather, they cause regeneration shields to not be applied.\\ 
-701.15c 起动能创造重生护盾的异能，或施放创造重生护盾的咒语，均与重生某永久物并不相同。叙述为某永久物不能重生的效应不会阻止此类异能的起动或咒语的施放；相反地，该类效应只是使得重生护盾没有效果。
+<BOOKMARK:cr701-18b>701.18b To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.\\ 
+701.18b 使用某张牌指将该牌作为地来使用或作为咒语来施放，依状况而定。
 
-<BOOKMARK:cr701-16>701.16. Reveal\\ 
-701.16. 展示
+<BOOKMARK:cr701-18c>701.18c Some effects instruct a player to “play” with a certain aspect of the game changed, such as “Play with the top card of your library revealed.” “Play” in this sense means to play the Magic game.\\ 
+701.18c 有些效应会指示牌手在游戏的某些条件有所改变的情况下“进行游戏”，例如“以展示牌库顶牌的方式进行游戏”。在此语境中的“进行游戏”意指进行万智牌的游戏。（译注：“进行游戏”英文原文亦为“Play”，故在此说明，中文翻译的用词上有显著不同。）
 
-<BOOKMARK:cr701-16a>701.16a To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, or if a card is revealed because an ability is activated from a hidden zone (see rule 602.2a), the card remains revealed from the time the spell or ability is announced until the time it leaves the stack. If revealing a card causes a triggered ability to trigger, the card remains revealed until that triggered ability leaves the stack. If that ability isn’t put onto the stack the next time a player would receive priority, the card ceases to be revealed.\\ 
-701.16a 展示一张牌指，将该牌给所有牌手各看上一段适当的时间。如果有效应要展示某张牌，则只要在完成此效应中与之相关的部分之过程中，尚有展示该牌的需要，便需一直展示之。如果施放咒语或起动异能的费用中包含展示牌，或因从隐藏区域中起动异能而展示牌（参见规则[[cr:6#cr602-2a|602.2a]]），则从宣告该咒语或异能起，直至其离开堆叠为止，都需要一直展示该牌。如果展示一张牌导致一个触发式异能触发，则直至该触发式异能离开堆叠为止，都需要一直展示该牌。如果该异能在下一次牌手将获得优先权时没有进入堆叠，则该牌不再被展示。
+<BOOKMARK:cr701-18d>701.18d Previously, the action of casting a spell, or casting a card as a spell, was referred to on cards as “playing” that spell or that card. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to “casting” that spell or that card.\\ 
+701.18d 多年以来，施放咒语或作为咒语施放一张牌这个动作，在牌上被称为“使用”该咒语或该牌。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“施放”该咒语或该牌。
 
-<BOOKMARK:cr701-16b>701.16b Revealing a card doesn’t cause it to leave the zone it’s in.\\ 
-701.16b 展示一张牌并不会使得它因此离开当前所在区域。
+<BOOKMARK:cr701-18e>701.18e Previously, the action of using an activated ability was referred to on cards as “playing” that ability. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to “activating” that ability.\\ 
+701.18e 多年以来，起动一个起动式异能的动作，在牌上被称为“使用”该异能。以这些用词印刷的卡牌均已经在Oracle牌张参考文献中勘误为“起动”该异能。
 
-<BOOKMARK:cr701-16c>701.16c A card that is currently revealed may be revealed again.\\ 
-701.16c 当前已展示的牌可以再次被展示。
+<BOOKMARK:cr701-19>701.19. Regenerate\\ 
+701.19. 重生
+
+<BOOKMARK:cr701-19a>701.19a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.”\\ 
+701.19a 如果正在结算的咒语或异能之效应重生永久物，则它会创造出一个替代性效应，以在下一次该永久物将要被消灭时保护之。此时，“重生[永久物]”意指，“本回合中，当[永久物]下一次将要被消灭时，改为移除其上标记的所有伤害，然后其操控者将它横置。如果它为进行攻击或阻挡的生物，则将其移出战斗。”
+
+<BOOKMARK:cr701-19b>701.19b If the effect of a static ability regenerates a permanent, it replaces destruction with an alternate effect each time that permanent would be destroyed. In this case, “Regenerate [permanent]” means “Instead remove all damage marked on [permanent] and its controller taps it. If it’s an attacking or blocking creature, remove it from combat.”\\ 
+701.19b 如果静止式异能之效应重生永久物，则每次该永久物要被消灭时，该效应均会以其他效应来替代之。此时，“重生[永久物]”意指，“改为移除标记在[永久物]上的所有伤害，然后其操控者将它横置。如果它为进行攻击或阻挡的生物，则将其移出战斗。”
+
+<BOOKMARK:cr701-19c>701.19c Neither activating an ability that creates a regeneration shield nor casting a spell that creates a regeneration shield is the same as regenerating a permanent. Effects that say that a permanent can’t be regenerated don’t preclude such abilities from being activated or such spells from being cast; rather, they cause regeneration shields to not be applied.\\ 
+701.19c 起动能创造重生护盾的异能，或施放创造重生护盾的咒语，均与重生某永久物并不相同。叙述为某永久物不能重生的效应不会阻止此类异能的起动或咒语的施放；相反地，该类效应只是使得重生护盾没有效果。
+
+<BOOKMARK:cr701-20>701.20. Reveal\\ 
+701.20. 展示
+
+<BOOKMARK:cr701-20a>701.20a To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, or if a card is revealed because an ability is activated from a hidden zone (see rule 602.2a), the card remains revealed from the time the spell or ability is announced until the time it leaves the stack. If revealing a card causes a triggered ability to trigger, the card remains revealed until that triggered ability leaves the stack. If that ability isn’t put onto the stack the next time a player would receive priority, the card ceases to be revealed.\\ 
+701.20a 展示一张牌指，将该牌给所有牌手各看上一段适当的时间。如果有效应要展示某张牌，则只要在完成此效应中与之相关的部分之过程中，尚有展示该牌的需要，便需一直展示之。如果施放咒语或起动异能的费用中包含展示牌，或因从隐藏区域中起动异能而展示牌（参见规则[[cr:6#cr602-2a|602.2a]]），则从宣告该咒语或异能起，直至其离开堆叠为止，都需要一直展示该牌。如果展示一张牌导致一个触发式异能触发，则直至该触发式异能离开堆叠为止，都需要一直展示该牌。如果该异能在下一次牌手将获得优先权时没有进入堆叠，则该牌不再被展示。
+
+<BOOKMARK:cr701-20b>701.20b Revealing a card doesn’t cause it to leave the zone it’s in.\\ 
+701.20b 展示一张牌并不会使得它因此离开当前所在区域。
+
+<BOOKMARK:cr701-20c>701.20c A card that is currently revealed may be revealed again.\\ 
+701.20c 当前已展示的牌可以再次被展示。
 
 Example: Telepathy is an enchantment card that reads “Your opponents play with their hands revealed.” Silvergill Adept is a creature card that reads, in part, “As an additional cost to cast this spell, reveal a Merfolk card from your hand or pay {3}.” A player may reveal a Merfolk card from their hand to pay the additional cost of Silvergill Adept even if that card is already revealed due to Telepathy’s effect.\\ 
 例如：心灵感应是叙述为“对手以展示手牌的方式进行游戏”的结界牌。银鳃专家是部分叙述为“从你手上展示一张人鱼牌或支付{3}，以作为施放此咒语的额外费用”的生物牌。即使一张人鱼牌已经因为心灵感应的效应而被展示，牌手仍然可以从手上展示该牌以作为施放银鳃专家的额外费用。
 
-<BOOKMARK:cr701-16d>701.16d If cards in a player’s library are shuffled or otherwise reordered, any revealed cards that are reordered stop being revealed and become new objects.\\ 
-701.16d 如果牌手牌库中的牌被洗牌或因其他原因被重新排序，任何被重新排序的、且被展示的牌停止被展示，且成为新物件。
+<BOOKMARK:cr701-20d>701.20d If cards in a player’s library are shuffled or otherwise reordered, any revealed cards that are reordered stop being revealed and become new objects.\\ 
+701.20d 如果牌手牌库中的牌被洗牌或因其他原因被重新排序，任何被重新排序的、且被展示的牌停止被展示，且成为新物件。
 
-<BOOKMARK:cr701-16e>701.16e Some effects instruct a player to look at one or more cards. Looking at a card follows the same rules as revealing a card, except that the card is shown only to the specified player.\\ 
-701.16e 一些效应指示牌手检视一张或数张牌。检视一张牌与展示一张牌之规则大致相同，区别在于被检视的牌只会给指定的牌手看。
+<BOOKMARK:cr701-20e>701.20e Some effects instruct a player to look at one or more cards. Looking at a card follows the same rules as revealing a card, except that the card is shown only to the specified player.\\ 
+701.20e 一些效应指示牌手检视一张或数张牌。检视一张牌与展示一张牌之规则大致相同，区别在于被检视的牌只会给指定的牌手看。
 
-<BOOKMARK:cr701-17>701.17. Sacrifice\\ 
-701.17. 牺牲
+<BOOKMARK:cr701-21>701.21. Sacrifice\\ 
+701.21. 牺牲
 
-<BOOKMARK:cr701-17a>701.17a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent they don’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.\\ 
-701.17a 牺牲一个永久物指，其操控者将它从战场直接移到其拥有者的坟墓场。牌手不能牺牲不是永久物的东西，也不能牺牲不由其操控的永久物。牺牲一个永久物并非将其消灭，所以重生或其他替代消灭的替代性效应不能影响此动作。
+<BOOKMARK:cr701-21a>701.21a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent they don’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.\\ 
+701.21a 牺牲一个永久物指，其操控者将它从战场直接移到其拥有者的坟墓场。牌手不能牺牲不是永久物的东西，也不能牺牲不由其操控的永久物。牺牲一个永久物并非将其消灭，所以重生或其他替代消灭的替代性效应不能影响此动作。
 
-<BOOKMARK:cr701-18>701.18. Scry\\ 
-701.18. 占卜
+<BOOKMARK:cr701-22>701.22. Scry\\ 
+701.22. 占卜
 
-<BOOKMARK:cr701-18a>701.18a To “scry N” means to look at the top N cards of your library, then put any number of them on the bottom of your library in any order and the rest on top of your library in any order.\\ 
-701.18a “占卜N”意指，检视你牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置于你的牌库底，其余则以任意顺序置于你的牌库顶。
+<BOOKMARK:cr701-22a>701.22a To “scry N” means to look at the top N cards of your library, then put any number of them on the bottom of your library in any order and the rest on top of your library in any order.\\ 
+701.22a “占卜N”意指，检视你牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置于你的牌库底，其余则以任意顺序置于你的牌库顶。
 
-<BOOKMARK:cr701-18b>701.18b If a player is instructed to scry 0, no scry event occurs. Abilities that trigger whenever a player scries won’t trigger.\\ 
-701.18b 如果牌手被指示占卜0，占卜事件不会发生。因牌手占卜而触发的异能不会触发。
+<BOOKMARK:cr701-22b>701.22b If a player is instructed to scry 0, no scry event occurs. Abilities that trigger whenever a player scries won’t trigger.\\ 
+701.22b 如果牌手被指示占卜0，占卜事件不会发生。因牌手占卜而触发的异能不会触发。
 
-<BOOKMARK:cr701-18c>701.18c If multiple players scry at once, each of those players looks at the top cards of their library at the same time. Those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.\\ 
-701.18c 如果多位牌手同时占卜，这些牌手中的每一位同时检视各自牌库顶的牌。这些牌手按主动牌手先决定（APNAP）顺序（参见规则[[cr:1#cr101-4|101.4]]）决定这些牌放置的位置，然后这些牌同时移动到该位置。
+<BOOKMARK:cr701-22c>701.22c If multiple players scry at once, each of those players looks at the top cards of their library at the same time. Those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.\\ 
+701.22c 如果多位牌手同时占卜，这些牌手中的每一位同时检视各自牌库顶的牌。这些牌手按主动牌手先决定（APNAP）顺序（参见规则[[cr:1#cr101-4|101.4]]）决定这些牌放置的位置，然后这些牌同时移动到该位置。
 
-<BOOKMARK:cr701-18d>701.18d An ability that triggers whenever a player scries triggers after the process described in rule 701.18a is complete, even if some or all of those actions were impossible.\\ 
-701.18d 每当牌手占卜时触发的异能会在完成规则[[cr:7#cr701-18a|701.18a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-22d>701.22d An ability that triggers whenever a player scries triggers after the process described in rule 701.22a is complete, even if some or all of those actions were impossible.\\ 
+701.22d 每当牌手占卜时触发的异能会在完成规则[[cr:7#cr701-22a|701.22a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-19>701.19. Search\\ 
-701.19. 搜寻
+<BOOKMARK:cr701-23>701.23. Search\\ 
+701.23. 搜寻
 
-<BOOKMARK:cr701-19a>701.19a To search for a card in a zone, look at all cards in that zone (even if it’s a hidden zone) and find a card that matches the given description.\\ 
-701.19a 在一个区域中搜寻一张牌指，检视在该区域中（即便是隐藏区域）的所有牌，并找到一张符合所赋予描述的牌。
+<BOOKMARK:cr701-23a>701.23a To search for a card in a zone, look at all cards in that zone (even if it’s a hidden zone) and find a card that matches the given description.\\ 
+701.23a 在一个区域中搜寻一张牌指，检视在该区域中（即便是隐藏区域）的所有牌，并找到一张符合所赋予描述的牌。
 
-<BOOKMARK:cr701-19b>701.19b If a player is searching a hidden zone for cards with a stated quality, such as a card with a certain card type or color, that player isn’t required to find some or all of those cards even if they’re present in that zone.\\ 
-701.19b 如果牌手需要在隐藏区域中搜寻符合某个标准的牌，例如特定的牌张类别或颜色，则即使该类牌在该区域中确实存在，该牌手也不一定要找出来。
+<BOOKMARK:cr701-23b>701.23b If a player is searching a hidden zone for cards with a stated quality, such as a card with a certain card type or color, that player isn’t required to find some or all of those cards even if they’re present in that zone.\\ 
+701.23b 如果牌手需要在隐藏区域中搜寻符合某个标准的牌，例如特定的牌张类别或颜色，则即使该类牌在该区域中确实存在，该牌手也不一定要找出来。
 
 Example: Splinter says “Exile target artifact. Search its controller’s graveyard, hand, and library for all cards with the same name as that artifact and exile them. Then that player shuffles their library.” A player casts Splinter targeting Howling Mine (an artifact). Howling Mine’s controller has another Howling Mine in her graveyard and two more in her library. Splinter’s controller must find the Howling Mine in the graveyard, but may choose to find zero, one, or two of the Howling Mines in the library.\\ 
 例如：碎裂的叙述为“将目标神器放逐。自其操控者的坟墓场、手牌，以及牌库中搜寻与该神器同名的牌，并将这些牌放逐。然后该牌手将其牌库洗牌。”一位牌手以嚎叫的矿井（一个神器）为目标，施放了碎裂。嚎叫的矿井的操控者在其坟墓场中还有另一张同名牌，且在其牌库中还有两张。碎裂的操控者必须找到在坟墓场中的那张嚎叫的矿井，但可以选择在牌库中找到其中的零张、一张，或是两张。
 
-<BOOKMARK:cr701-19c>701.19c If a player is instructed to search a hidden zone for cards that match an undefined quality, that player may still search that zone but can’t find any cards.\\ 
-701.19c 如果一位牌手被指示搜寻隐藏区域，但搜寻的标准没有定义，该牌手仍然可以搜寻该区域但无法找到任何牌。
+<BOOKMARK:cr701-23c>701.23c If a player is instructed to search a hidden zone for cards that match an undefined quality, that player may still search that zone but can’t find any cards.\\ 
+701.23c 如果一位牌手被指示搜寻隐藏区域，但搜寻的标准没有定义，该牌手仍然可以搜寻该区域但无法找到任何牌。
 
 Example: Lobotomy says “Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player’s graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles their library.” If the target player has no cards in their hand when Lobotomy resolves, the player who cast Lobotomy searches the specified zones but doesn’t exile any cards.\\ 
 例如：脑叶切除叙述为“目标牌手展示其手牌。你从中选择一张非基本地的牌，从该牌手的坟墓场、手牌以及牌库中搜寻任意数量与该牌名称相同的牌，并将它们放逐。然后该牌手将其牌库洗牌。”如果于脑叶切除结算时，该目标牌手的手牌中没有牌，施放脑叶切除的牌手仍然可以搜寻指定的区域，但无法放逐任何牌。
 
-<BOOKMARK:cr701-19d>701.19d If a player is searching a hidden zone simply for a quantity of cards, such as “a card” or “three cards,” that player must find that many cards (or as many as possible, if the zone doesn’t contain enough cards).\\ 
-701.19d 如果牌手在隐藏区域中搜寻的是一定数量的牌，例如“一张牌”或“三张牌”，则该牌手必须找出相应数量的牌（如果该区域内没有足够的牌，则需尽量接近该数量）。
+<BOOKMARK:cr701-23d>701.23d If a player is searching a hidden zone simply for a quantity of cards, such as “a card” or “three cards,” that player must find that many cards (or as many as possible, if the zone doesn’t contain enough cards).\\ 
+701.23d 如果牌手在隐藏区域中搜寻的是一定数量的牌，例如“一张牌”或“三张牌”，则该牌手必须找出相应数量的牌（如果该区域内没有足够的牌，则需尽量接近该数量）。
 
-<BOOKMARK:cr701-19e>701.19e If the effect that contains the search instruction doesn’t also contain instructions to reveal the found card(s), then they’re not revealed.\\ 
-701.19e 如果含有指示牌手搜寻的效应中，没有指示牌手展示所找到的牌，则不需要展示这些牌。
+<BOOKMARK:cr701-23e>701.23e If the effect that contains the search instruction doesn’t also contain instructions to reveal the found card(s), then they’re not revealed.\\ 
+701.23e 如果含有指示牌手搜寻的效应中，没有指示牌手展示所找到的牌，则不需要展示这些牌。
 
-<BOOKMARK:cr701-19f>701.19f If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply. Any abilities that trigger on a library being searched will trigger.\\ 
-701.19f 如果牌手搜寻一个区域被替代为搜寻该区域的一部分，任何对该牌手搜寻该区域的要求依然生效。任何因牌库被搜寻而触发的异能仍然会触发。
+<BOOKMARK:cr701-23f>701.23f If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply. Any abilities that trigger on a library being searched will trigger.\\ 
+701.23f 如果牌手搜寻一个区域被替代为搜寻该区域的一部分，任何对该牌手搜寻该区域的要求依然生效。任何因牌库被搜寻而触发的异能仍然会触发。
 
 Example: Aven Mindcensor says, in part, “If an opponent would search a library, that player searches the top four cards of that library instead.” Veteran Explorer says “When this creature dies, each player may search their library for up to two basic land cards, put them onto the battlefield, then shuffle.” An opponent who searched the top four cards of their library because of Veteran Explorer’s ability would shuffle the entire library.\\ 
 例如：艾文核灵师的部分叙述为“如果任一对手将搜寻某牌库，则改为他搜寻该牌库顶的四张牌。”资深探险家的叙述为“当此生物死去时，每位牌手各可以从其牌库中搜寻至多两张基本地牌，将它们放进战场，然后洗牌。”因资深探险家的异能而搜寻了牌库顶四张牌的对手也将洗整个牌库。
 
-<BOOKMARK:cr701-19g>701.19g If an effect offers a player a choice to search a zone and take additional actions with the cards found, that player may choose to search even if the additional actions are illegal or impossible.\\ 
-701.19g 如果效应使牌手选择搜寻某区域并对找到的牌作额外动作，即使该额外动作非法或不可能作到，该牌手依然可以选择搜寻。
+<BOOKMARK:cr701-23g>701.23g If an effect offers a player a choice to search a zone and take additional actions with the cards found, that player may choose to search even if the additional actions are illegal or impossible.\\ 
+701.23g 如果效应使牌手选择搜寻某区域并对找到的牌作额外动作，即使该额外动作非法或不可能作到，该牌手依然可以选择搜寻。
 
-<BOOKMARK:cr701-19h>701.19h An effect may instruct a player to search a library for one or more cards more than once before instructing a player to shuffle that library. This is the same as a single instruction for that player to search that library for all those cards. The player searches that library only once.\\ 
-701.19h 某些效应可能会指示牌手从牌库中搜寻一张或数张牌多于一次，再指示牌手洗该牌库。这与令该牌手一次性从该牌库中搜寻所有这些牌的单一指示并无区别。该牌手只会搜寻该牌库一次。
+<BOOKMARK:cr701-23h>701.23h An effect may instruct a player to search a library for one or more cards more than once before instructing a player to shuffle that library. This is the same as a single instruction for that player to search that library for all those cards. The player searches that library only once.\\ 
+701.23h 某些效应可能会指示牌手从牌库中搜寻一张或数张牌多于一次，再指示牌手洗该牌库。这与令该牌手一次性从该牌库中搜寻所有这些牌的单一指示并无区别。该牌手只会搜寻该牌库一次。
 
-<BOOKMARK:cr701-19i>701.19i If multiple players search at once, each of those players looks at the appropriate cards at the same time, then those players decide in APNAP order (see rule 101.4) which card to find.\\ 
-701.19i 如果多位牌手同时搜寻，这些牌手同时检视其搜寻的适用范围，然后这些牌手以“主动牌手先决定”的顺序（参见规则[[cr:1#cr101-4|101.4]]）决定要找到哪张牌。
+<BOOKMARK:cr701-23i>701.23i If multiple players search at once, each of those players looks at the appropriate cards at the same time, then those players decide in APNAP order (see rule 101.4) which card to find.\\ 
+701.23i 如果多位牌手同时搜寻，这些牌手同时检视其搜寻的适用范围，然后这些牌手以“主动牌手先决定”的顺序（参见规则[[cr:1#cr101-4|101.4]]）决定要找到哪张牌。
 
-<BOOKMARK:cr701-19j>701.19j If an effect instructs a player to search outside the game for a card, that player may choose an appropriate card they own from outside the game.\\ 
-701.19j 如果一个效应指示牌手从游戏外搜寻一张卡牌，该牌手可以从游戏外选择一张由其拥有的适当卡牌。
+<BOOKMARK:cr701-23j>701.23j If an effect instructs a player to search outside the game for a card, that player may choose an appropriate card they own from outside the game.\\ 
+701.23j 如果一个效应指示牌手从游戏外搜寻一张卡牌，该牌手可以从游戏外选择一张由其拥有的适当卡牌。
 
-<BOOKMARK:cr701-20>701.20. Shuffle\\ 
-701.20. 洗牌
+<BOOKMARK:cr701-24>701.24. Shuffle\\ 
+701.24. 洗牌
 
-<BOOKMARK:cr701-20a>701.20a To shuffle a library or a face-down pile of cards, randomize the cards within it so that no player knows their order.\\ 
-701.20a 将牌库或一堆面朝下的牌洗牌指，将这些牌随机化，并使得没有牌手知晓其顺序。
+<BOOKMARK:cr701-24a>701.24a To shuffle a library or a face-down pile of cards, randomize the cards within it so that no player knows their order.\\ 
+701.24a 将牌库或一堆面朝下的牌洗牌指，将这些牌随机化，并使得没有牌手知晓其顺序。
 
-<BOOKMARK:cr701-20b>701.20b Some effects cause a player to search a library for a card or cards, shuffle that library, then put some or all of the found cards into a different zone or in a certain position in that library. In such cases, the found cards aren’t included in the shuffle, even though they remain in the library at that time. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger. See also rule 401, “Library.”\\ 
-701.20b 一些效应使牌手从牌库中搜寻一张或数张牌，将该牌库洗牌，并将搜寻到的一些或全部牌置入其他区域，或置于该牌库中的特定位置。这种情况下，即使这些搜寻到的牌此时仍在牌库中，它们并不会参与洗牌。该牌库中除了这些牌以外的所有牌都会被洗牌。因该牌库洗牌而触发的异能仍然会触发。参见规则[[cr:4#cr401|401]]，“牌库”。
+<BOOKMARK:cr701-24b>701.24b Some effects cause a player to search a library for a card or cards, shuffle that library, then put some or all of the found cards into a different zone or in a certain position in that library. In such cases, the found cards aren’t included in the shuffle, even though they remain in the library at that time. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger. See also rule 401, “Library.”\\ 
+701.24b 一些效应使牌手从牌库中搜寻一张或数张牌，将该牌库洗牌，并将搜寻到的一些或全部牌置入其他区域，或置于该牌库中的特定位置。这种情况下，即使这些搜寻到的牌此时仍在牌库中，它们并不会参与洗牌。该牌库中除了这些牌以外的所有牌都会被洗牌。因该牌库洗牌而触发的异能仍然会触发。参见规则[[cr:4#cr401|401]]，“牌库”。
 
-<BOOKMARK:cr701-20c>701.20c If an effect would cause a player to shuffle one or more specific objects into a library, that library is shuffled even if none of those objects are in the zone they’re expected to be in or an effect causes all of those objects to be moved to another zone or remain in their current zone.\\ 
-701.20c 如果某效应将使得牌手将一个或数个特定的物件洗入牌库，而这些物件并不在它们所应在的区域，或者某效应使得所有这些物件都移至其他区域或留在当前区域，该牌库仍然会洗牌。
+<BOOKMARK:cr701-24c>701.24c If an effect would cause a player to shuffle one or more specific objects into a library, that library is shuffled even if none of those objects are in the zone they’re expected to be in or an effect causes all of those objects to be moved to another zone or remain in their current zone.\\ 
+701.24c 如果某效应将使得牌手将一个或数个特定的物件洗入牌库，而这些物件并不在它们所应在的区域，或者某效应使得所有这些物件都移至其他区域或留在当前区域，该牌库仍然会洗牌。
 
 Example: Guile says, in part, “When Guile is put into a graveyard from anywhere, shuffle it into its owner’s library.” It’s put into a graveyard and its ability triggers, then a player exiles it from that graveyard in response. When the ability resolves, the library is shuffled.\\ 
 例如：智谋的部分叙述为“当智谋从任何地方置入坟墓场时，将它洗入其拥有者的牌库。”它置入坟墓场时其异能触发，然后某牌手响应将其从该坟墓场放逐。当该异能结算时，该牌库被洗牌。
@@ -428,536 +470,506 @@ Example: Guile says, in part, “When Guile is put into a graveyard from anywher
 Example: Black Sun’s Zenith says, in part, “Shuffle Black Sun’s Zenith into its owner’s library.” Black Sun’s Zenith is in a graveyard, has gained flashback (due to Recoup, perhaps), and is cast from that graveyard. Black Sun’s Zenith will be exiled, and its owner’s library will be shuffled.\\ 
 例如：黑阳当空的部分叙述为“将黑阳当空洗入其拥有者的牌库。”黑阳当空在坟墓场中，并获得了返照异能（可能因为偿付），然后从该坟墓场施放。黑阳当空将被放逐，并且其拥有者的牌库被洗牌。
 
-<BOOKMARK:cr701-20d>701.20d If an effect would cause a player to shuffle a set of objects into a library, that library is shuffled even if there are no objects in that set.\\ 
-701.20d 如果某效应将使得牌手将一组物件洗入牌库，即使该组中没有物件，该牌库仍然会洗牌。
+<BOOKMARK:cr701-24d>701.24d If an effect would cause a player to shuffle a set of objects into a library, that library is shuffled even if there are no objects in that set.\\ 
+701.24d 如果某效应将使得牌手将一组物件洗入牌库，即使该组中没有物件，该牌库仍然会洗牌。
 
 Example: Loaming Shaman says “When this creature enters, target player shuffles any number of target cards from their graveyard into their library.” It enters the battlefield, its ability triggers, and no cards are targeted. When the ability resolves, the targeted player will still have to shuffle their library.\\ 
 例如：填土祭师的叙述为“当此生物进场时，目标牌手将任意数量的目标牌从其坟墓场洗入其牌库。”它进战场时异能触发，但没有指定任何牌为目标。当该异能结算时，指定为目标的牌手仍然需要将其牌库洗牌。
 
-<BOOKMARK:cr701-20e>701.20e If an effect causes a player to shuffle a library containing zero or one cards, abilities that trigger when a library is shuffled will still trigger.\\ 
-701.20e 如果某效应使得牌手洗一个包含零或一张牌的牌库，因该牌库洗牌而触发的异能仍然会触发。
+<BOOKMARK:cr701-24e>701.24e If an effect causes a player to shuffle a library containing zero or one cards, abilities that trigger when a library is shuffled will still trigger.\\ 
+701.24e 如果某效应使得牌手洗一个包含零或一张牌的牌库，因该牌库洗牌而触发的异能仍然会触发。
 
-<BOOKMARK:cr701-20f>701.20f If two or more effects cause a library to be shuffled multiple times simultaneously, abilities that trigger when that library is shuffled will trigger that many times.\\ 
-701.20f 如果两个或更多效应使得某牌库同时洗牌数次，因该牌库洗牌而触发的异能将触发等量的次数。
+<BOOKMARK:cr701-24f>701.24f If two or more effects cause a library to be shuffled multiple times simultaneously, abilities that trigger when that library is shuffled will trigger that many times.\\ 
+701.24f 如果两个或更多效应使得某牌库同时洗牌数次，因该牌库洗牌而触发的异能将触发等量的次数。
 
-<BOOKMARK:cr701-20g>701.20g If an effect would cause a player to shuffle a library at the same time that an object would be put into a certain position in that library, the result is a shuffled library that’s randomized except that the object is in the specified position.\\ 
-701.20g 如果某效应将使得牌手洗牌库的同时某物件将被置于该牌库的指定位置，其结果是一个被洗牌的牌库，除了该物件在指定位置之外，其余部分被随机化。
+<BOOKMARK:cr701-24g>701.24g If an effect would cause a player to shuffle a library at the same time that an object would be put into a certain position in that library, the result is a shuffled library that’s randomized except that the object is in the specified position.\\ 
+701.24g 如果某效应将使得牌手洗牌库的同时某物件将被置于该牌库的指定位置，其结果是一个被洗牌的牌库，除了该物件在指定位置之外，其余部分被随机化。
 
 Example: Darksteel Colossus and Gravebane Zombie are put into a player’s graveyard from the battlefield at the same time. Darksteel Colossus says in part “If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner’s library instead.” Gravebane Zombie says “If this creature would die, put it on top of its owner’s library instead.” The player shuffles Darksteel Colossus into their library and puts Gravebane Zombie on top of that library.\\ 
 例如：玄铁巨像和破坟灵俑被同时从战场置于一位牌手的坟墓场。玄铁巨像的一部分叙述为“若玄铁巨像将从任何区域置入坟墓场，则改为展示玄铁巨像，并将它洗入其拥有者的牌库。”破坟灵俑叙述为“若此生物将死去，则改为将它置于其拥有者的牌库顶。”该牌手将玄铁巨像洗入其牌库，并将破坟灵俑置于该牌库的牌库顶。
 
-<BOOKMARK:cr701-21>701.21. Tap and Untap\\ 
-701.21. 横置和重置
+<BOOKMARK:cr701-25>701.25. Surveil\\ 
+701.25. 刺探
 
-<BOOKMARK:cr701-21a>701.21a To tap a permanent, turn it sideways from an upright position. Only untapped permanents can be tapped.\\ 
-701.21a 横置一个永久物指，将它由直向转成横向。只有未横置的永久物可以被横置。
+<BOOKMARK:cr701-25a>701.25a To “surveil N” means to look at the top N cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.\\ 
+701.25a “刺探N”意指，检视你牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置入你的坟墓场，其余则以任意顺序置于你牌库顶。
 
-<BOOKMARK:cr701-21b>701.21b To untap a permanent, rotate it back to the upright position from a sideways position. Only tapped permanents can be untapped.\\ 
-701.21b 重置一个永久物指，将它由横向转回直向。只有已横置的永久物可以被重置。
+<BOOKMARK:cr701-25b>701.25b If an effect allows you to look at additional cards while you surveil, those cards are included among the cards you may put into your graveyard and on top of your library in any order.\\ 
+701.25b 如果某效应允许你在刺探时检视额外的牌，那么这些牌包括在你置入坟墓场或以任意顺序置于你牌库顶的牌之中。
 
-<BOOKMARK:cr701-22>701.22. Fateseal\\ 
-701.22. 论命
+<BOOKMARK:cr701-25c>701.25c If a player is instructed to surveil 0, no surveil event occurs. Abilities that trigger whenever a player surveils won’t trigger.\\ 
+701.25c 如果牌手被指示刺探0，刺探事件不会发生。因牌手刺探而触发的异能不会触发。
 
-<BOOKMARK:cr701-22a>701.22a To “fateseal N” means to look at the top N cards of an opponent’s library, then put any number of them on the bottom of that library in any order and the rest on top of that library in any order.\\ 
-701.22a “论命N”意指，检视任一对手牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置于该牌库底，其余则以任意顺序置于该牌库顶。
+<BOOKMARK:cr701-25d>701.25d An ability that triggers whenever a player surveils triggers after the process described in rule 701.25a is complete, even if some or all of those actions were impossible.\\ 
+701.25d 每当牌手刺探时触发的异能会在完成规则[[cr:7#cr701-25a|701.25a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-23>701.23. Clash\\ 
-701.23. 比点
+<BOOKMARK:cr701-26>701.26. Tap and Untap\\ 
+701.26. 横置和重置
 
-<BOOKMARK:cr701-23a>701.23a To clash, a player reveals the top card of their library. That player may then put that card on the bottom of their library.\\ 
-701.23a 比点指，牌手展示其牌库顶牌。该牌手可以把该牌置于其牌库底。
+<BOOKMARK:cr701-26a>701.26a To tap a permanent, turn it sideways from an upright position. Only untapped permanents can be tapped.\\ 
+701.26a 横置一个永久物指，将它由直向转成横向。只有未横置的永久物可以被横置。
 
-<BOOKMARK:cr701-23b>701.23b “Clash with an opponent” means “Choose an opponent. You and that opponent each clash.”\\ 
-701.23b “与一位对手比点”意指，“选择一位对手。你与该对手分别比点。”
+<BOOKMARK:cr701-26b>701.26b To untap a permanent, rotate it back to the upright position from a sideways position. Only tapped permanents can be untapped.\\ 
+701.26b 重置一个永久物指，将它由横向转回直向。只有已横置的永久物可以被重置。
 
-<BOOKMARK:cr701-23c>701.23c Each clashing player reveals the top card of their library at the same time. Then those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.\\ 
-701.23c 每位比点的牌手同时展示其牌库顶牌。然后这些牌手按主动牌手先决定（APNAP）顺序（参见规则[[cr:1#cr101-4|101.4]]）决定这些牌放置的位置，然后这些牌同时移动到该位置。
+<BOOKMARK:cr701-27>701.27. Transform\\ 
+701.27. 转化
 
-<BOOKMARK:cr701-23d>701.23d A player wins a clash if that player revealed a card with a higher mana value than all other cards revealed in that clash.\\ 
-701.23d 如果某位牌手所展示的牌之法术力值比所有参与比点者所展示的牌都高，其赢得这次比点。
+<BOOKMARK:cr701-27a>701.27a To transform a permanent, turn it over so that its other face is up. Only transforming tokens and permanents represented by transforming double-faced cards can transform. (See rule 712, “Double-Faced Cards.”)\\ 
+701.27a 转化一个永久物指，将它翻到另一面牌面朝上。只有转化式衍生物和以转化式双面牌代表的永久物才能转化。（参见规则[[cr:7#cr712|712]]，“双面牌”。）
 
-<BOOKMARK:cr701-24>701.24. Planeswalk\\ 
-701.24. 时空换境
+<BOOKMARK:cr701-27b>701.27b Although transforming a permanent uses the same physical action as turning a permanent face up or face down, they are different game actions. Abilities that trigger when a permanent is turned face down won’t trigger when that permanent transforms, and so on.\\ 
+701.27b 虽然转化某永久物与将某永久物翻为牌面朝下或翻回正面所执行的具体动作完全相同，但此两者是完全不同的游戏动作。会因某永久物翻为牌面朝下而触发的异能，并不会在该永久物转化时触发，其他依此类推。
 
-<BOOKMARK:cr701-24a>701.24a A player may planeswalk only during a Planechase game. Only the planar controller may planeswalk. See rule 901, “Planechase.”\\ 
-701.24a 牌手只能在竞逐时空游戏中时空换境。只有时空操控者可以时空换境。参见规则[[cr:9#cr901|901]]，“竞逐时空”。
+<BOOKMARK:cr701-27c>701.27c If a spell or ability instructs a player to transform a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.\\ 
+701.27c 如果某咒语或异能要求牌手转化某个既不是转化式衍生物也不是转化式双面牌代表的永久物，则什么都不会发生。
 
-<BOOKMARK:cr701-24b>701.24b To planeswalk is to put each face-up plane card and phenomenon card on the bottom of its owner’s planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up.\\ 
-701.24b 时空换境指，将每张牌面朝上时空牌和异象牌面朝下置于其拥有者的时空套牌牌库底，然后将你时空套牌的牌库顶牌移离时空套牌并翻回正面。
+<BOOKMARK:cr701-27d>701.27d If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.\\ 
+701.27d 如果某咒语或异能要求牌手转化某个永久物，且该永久物将要转化成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。
 
-<BOOKMARK:cr701-24c>701.24c A player may planeswalk as the result of the “planeswalking ability” (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon’s triggered ability leaves the stack (see rule 704.6f). Abilities may also instruct a player to planeswalk.\\ 
-701.24c 牌手可以因“时空换境异能”的结果（参见规则[[cr:9#cr901-8|901.8]]），因牌面朝上的时空牌或异象牌的操控者离开游戏（参见规则[[cr:9#cr901-10|901.10]]），或因异象的触发式异能离开堆叠（参见规则[[cr:7#cr704-6f|704.6f]]）而时空换境。异能也可能指示牌手时空换境。
+<BOOKMARK:cr701-27e>701.27e Some triggered abilities trigger when an object “transforms into” an object with a specified characteristic. Such an ability triggers if the object either transforms or converts (see rule 701.28) and has the specified characteristic immediately after it does so.\\ 
+701.27e 一些触发式异能在一个物件“转化为”一个具有特定特征的物件时触发。此类触发式异能只会在该物件转化或转换（参见规则[[cr:7#cr701-28|701.28]]），且在这之后的时刻立即具有该特征时触发。
 
-<BOOKMARK:cr701-24d>701.24d The plane card that’s turned face up is the plane the player planeswalks to. The plane card that’s turned face down or that leaves the game is the plane the player planeswalks away from. The same is true with respect to phenomena.\\ 
-701.24d 翻回正面的时空牌即为牌手时空换入的时空。翻为牌面朝下的、或离开游戏的时空牌即为牌手时空换出的时空。异象也同样适用此规则。
+<BOOKMARK:cr701-27f>701.27f If an activated or triggered ability of a permanent that isn’t a delayed triggered ability of that permanent tries to transform it, the permanent does so only if it hasn’t transformed or converted since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to transform that permanent, the permanent does so only if it hasn’t transformed or converted since that delayed triggered ability was created. In both cases, if the permanent has already transformed or converted, an instruction to do either is ignored.\\ 
+701.27f 如果一个永久物的起动式或触发式异能（且并非是该永久物的延迟触发式异能）试图转化之，该永久物仅在自该异能放进堆叠之后还没有被转化或转换过时才会如此作。如果一个永久物的延迟触发式异能试图转化该永久物，该永久物仅在自该延迟触发式异能被创造之后还没有被转化或转换过时才会如此作。在这两种情况下，如果该永久物已被转化或转换过，这类指示将被忽略。这是对先前规则的更改。
 
-<BOOKMARK:cr701-25>701.25. Set in Motion\\ 
-701.25. 发动
+<BOOKMARK:cr701-27g>701.27g Some spells and abilities refer to a “transformed permanent.” This phrase refers to a permanent on the battlefield with its back face up that’s also a transforming double-faced card or a transforming token. A permanent with its front face up is never considered a transformed permanent, even if it had its back face up previously.\\ 
+701.27g 一些咒语和异能提及一个“已转化的永久物”。此用词意指一个在战场上且背面朝上的永久物，且此面同样为转化式双面牌或转化式衍生物。正面朝上的永久物不会被视为已转化的永久物，即使它们之前是背面朝上的。
 
-<BOOKMARK:cr701-25a>701.25a Only a scheme card may be set in motion, and only during an Archenemy game. Only the archenemy may set a scheme card in motion. See rule 314, “Schemes,” and rule 904, “Archenemy.”\\ 
-701.25a 只有邪计牌可以发动，并且只可以在魔王游戏中如此作。只有魔王可以发动邪计。参见规则[[cr:3#cr314|314]]，“邪计”，及规则[[cr:9#cr904|904]]，“魔王”。
+<BOOKMARK:cr701-28>701.28. Convert\\ 
+701.28. 转换
 
-<BOOKMARK:cr701-25b>701.25b To set a scheme in motion, move it off the top of your scheme deck if it’s on top of your scheme deck and turn it face up if it isn’t face up. That scheme is considered to have been set in motion even if neither of these actions was performed on it.\\ 
-701.25b 发动邪计指，如果它在你的邪计套牌牌库顶，将其从邪计套牌牌库顶移离，且如果它不是牌面朝上，将其翻回正面。即使以上动作之一或两者均未在其上实行，该邪计仍视同为被发动。
+<BOOKMARK:cr701-28a>701.28a To convert a permanent, turn it so that its other face is up. This follows rules 701.27a–f, 712.9–10, and 712.18. Those rules apply to converting a permanent just as they apply to transforming a permanent.\\ 
+701.28a 转换一个永久物指，将它翻到另一面牌面朝上。这遵循规则[[cr:7#cr701-27a|701.27a-f]]、[[cr:7#cr712-9|712.9-10]]、及[[cr:7#cr712-18|712.18]]。这些规则如同适用于转化永久物一般适用于转换永久物。
 
-<BOOKMARK:cr701-25c>701.25c Schemes may only be set in motion one at a time. If a player is instructed to set multiple schemes in motion, that player sets a scheme in motion that many times.\\ 
-701.25c 每次只能发动一个邪计。如果牌手被指示发动多个邪计，其发动等量次数的邪计。
+<BOOKMARK:cr701-28b>701.28b Although converting a permanent uses the same physical action as turning a permanent face up or face down, they are different game actions. Abilities that trigger when a permanent is turned face down won’t trigger when that permanent converts, and so on.\\ 
+701.28b 虽然转换某永久物与将某永久物翻为牌面朝下或翻回正面所执行的具体动作完全相同，但此两者是完全不同的游戏动作。会因某永久物翻为牌面朝下而触发的异能，并不会在该永久物转换时触发，其他依此类推。
 
-<BOOKMARK:cr701-26>701.26. Abandon\\ 
-701.26. 撤废
+<BOOKMARK:cr701-28c>701.28c If a spell or ability instructs a player to convert a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.\\ 
+701.28c 如果某咒语或异能要求牌手转换某个不是转化式双面牌的永久物，则什么都不会发生。
 
-<BOOKMARK:cr701-26a>701.26a Only a face-up ongoing scheme card may be abandoned, and only during an Archenemy game. See rule 314, “Schemes,” and rule 904, “Archenemy.”\\ 
-701.26a 只有面朝上的长效邪计牌可以被撤废，并且只可以在魔王游戏中如此作。参见规则[[cr:3#cr314|314]]，“邪计”，及规则[[cr:9#cr904|904]]，“魔王”。
+<BOOKMARK:cr701-28d>701.28d If a spell or ability instructs a player to convert a permanent, and the face that permanent would convert into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.\\ 
+701.28d 如果某咒语或异能要求牌手转换某个永久物，且该永久物将要转换成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。
 
-<BOOKMARK:cr701-26b>701.26b To abandon a scheme, turn it face down and put it on the bottom of its owner’s scheme deck.\\ 
-701.26b 撤废邪计指，将其翻为牌面朝下，并置于其拥有者的邪计套牌牌库底。
+<BOOKMARK:cr701-28e>701.28e If an activated or triggered ability of a permanent that isn’t a delayed triggered ability of that permanent tries to convert it, the permanent does so only if it hasn’t converted or transformed since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to convert that permanent, the permanent does so only if it hasn’t converted or transformed since that delayed triggered ability was created. In both cases, if the permanent has already transformed or converted, an instruction to do either is ignored.\\ 
+701.28e 如果一个永久物的起动式或触发式异能（且并非是该永久物的延迟触发式异能）试图转换之，该永久物仅在自该异能放进堆叠之后还没有被转化或转换过时才会如此作。如果一个永久物的延迟触发式异能试图转换该永久物，该永久物仅在自该延迟触发式异能被创造之后还没有被转化或转换过时才会如此作。在这两种情况下，如果该永久物已被转化或转换过，这类指示将被忽略。
 
-<BOOKMARK:cr701-27>701.27. Proliferate\\ 
-701.27. 增殖
+<BOOKMARK:cr701-28f>701.28f If a spell or ability states that a permanent can’t transform, that permanent also can’t convert.\\ 
+701.28f 如果一个效应叙述一个永久物不能转化，则该永久物也不能转换。
 
-<BOOKMARK:cr701-27a>701.27a To proliferate means to choose any number of permanents and/or players that have a counter, then give each one additional counter of each kind that permanent or player already has.\\ 
-701.27a 增殖表示，选择任意数量其上有指示物的永久物和/或牌手，然后对于其上已经有的每种指示物而言，给该永久物或牌手一个额外的此种指示物。
+<BOOKMARK:cr701-29>701.29. Fateseal\\ 
+701.29. 论命
 
-<BOOKMARK:cr701-27b>701.27b In a Two-Headed Giant game, poison counters are shared by the team. If more than one player on a team is chosen this way, only one of those players can be given an additional poison counter. The player who proliferates chooses which player that is. See rule 810, “Two-Headed Giant Variant.”\\ 
-701.27b 在双头巨人游戏中，队伍中的牌手共享中毒指示物。如果以此法选择多于一个在同一队伍中的牌手，只有这些牌手其中之一可以被给予一个额外的中毒指示物。由执行增殖的牌手来选择是哪位牌手获得该指示物。参见规则[[cr:8#cr810|810]]，“双头巨人玩法”。
+<BOOKMARK:cr701-29a>701.29a To “fateseal N” means to look at the top N cards of an opponent’s library, then put any number of them on the bottom of that library in any order and the rest on top of that library in any order.\\ 
+701.29a “论命N”意指，检视任一对手牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置于该牌库底，其余则以任意顺序置于该牌库顶。
 
-<BOOKMARK:cr701-28>701.28. Transform\\ 
-701.28. 转化
+<BOOKMARK:cr701-30>701.30. Clash\\ 
+701.30. 比点
 
-<BOOKMARK:cr701-28a>701.28a To transform a permanent, turn it over so that its other face is up. Only transforming tokens and permanents represented by transforming double-faced cards can transform. (See rule 712, “Double-Faced Cards.”)\\ 
-701.28a 转化一个永久物指，将它翻到另一面牌面朝上。只有转化式衍生物和以转化式双面牌代表的永久物才能转化。（参见规则[[cr:7#cr712|712]]，“双面牌”。）
+<BOOKMARK:cr701-30a>701.30a To clash, a player reveals the top card of their library. That player may then put that card on the bottom of their library.\\ 
+701.30a 比点指，牌手展示其牌库顶牌。该牌手可以把该牌置于其牌库底。
 
-<BOOKMARK:cr701-28b>701.28b Although transforming a permanent uses the same physical action as turning a permanent face up or face down, they are different game actions. Abilities that trigger when a permanent is turned face down won’t trigger when that permanent transforms, and so on.\\ 
-701.28b 虽然转化某永久物与将某永久物翻为牌面朝下或翻回正面所执行的具体动作完全相同，但此两者是完全不同的游戏动作。会因某永久物翻为牌面朝下而触发的异能，并不会在该永久物转化时触发，其他依此类推。
+<BOOKMARK:cr701-30b>701.30b “Clash with an opponent” means “Choose an opponent. You and that opponent each clash.”\\ 
+701.30b “与一位对手比点”意指，“选择一位对手。你与该对手分别比点。”
 
-<BOOKMARK:cr701-28c>701.28c If a spell or ability instructs a player to transform a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.\\ 
-701.28c 如果某咒语或异能要求牌手转化某个既不是转化式衍生物也不是转化式双面牌代表的永久物，则什么都不会发生。
+<BOOKMARK:cr701-30c>701.30c Each clashing player reveals the top card of their library at the same time. Then those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.\\ 
+701.30c 每位比点的牌手同时展示其牌库顶牌。然后这些牌手按主动牌手先决定（APNAP）顺序（参见规则[[cr:1#cr101-4|101.4]]）决定这些牌放置的位置，然后这些牌同时移动到该位置。
 
-<BOOKMARK:cr701-28d>701.28d If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.\\ 
-701.28d 如果某咒语或异能要求牌手转化某个永久物，且该永久物将要转化成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。
+<BOOKMARK:cr701-30d>701.30d A player wins a clash if that player revealed a card with a higher mana value than all other cards revealed in that clash.\\ 
+701.30d 如果某位牌手所展示的牌之法术力值比所有参与比点者所展示的牌都高，其赢得这次比点。
 
-<BOOKMARK:cr701-28e>701.28e Some triggered abilities trigger when an object “transforms into” an object with a specified characteristic. Such an ability triggers if the object either transforms or converts (see rule 701.50) and has the specified characteristic immediately after it does so.\\ 
-701.28e 一些触发式异能在一个物件“转化为”一个具有特定特征的物件时触发。此类触发式异能只会在该物件转化或转换（参见规则[[cr:7#cr701-50|701.50]]），且在这之后的时刻立即具有该特征时触发。
+<BOOKMARK:cr701-31>701.31. Planeswalk\\ 
+701.31. 时空换境
 
-<BOOKMARK:cr701-28f>701.28f If an activated or triggered ability of a permanent that isn’t a delayed triggered ability of that permanent tries to transform it, the permanent does so only if it hasn’t transformed or converted since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to transform that permanent, the permanent does so only if it hasn’t transformed or converted since that delayed triggered ability was created. In both cases, if the permanent has already transformed or converted, an instruction to do either is ignored.\\ 
-701.28f 如果一个永久物的起动式或触发式异能（且并非是该永久物的延迟触发式异能）试图转化之，该永久物仅在自该异能放进堆叠之后还没有被转化或转换过时才会如此作。如果一个永久物的延迟触发式异能试图转化该永久物，该永久物仅在自该延迟触发式异能被创造之后还没有被转化或转换过时才会如此作。在这两种情况下，如果该永久物已被转化或转换过，这类指示将被忽略。这是对先前规则的更改。
+<BOOKMARK:cr701-31a>701.31a A player may planeswalk only during a Planechase game. Only the planar controller may planeswalk. See rule 901, “Planechase.”\\ 
+701.31a 牌手只能在竞逐时空游戏中时空换境。只有时空操控者可以时空换境。参见规则[[cr:9#cr901|901]]，“竞逐时空”。
 
-<BOOKMARK:cr701-28g>701.28g Some spells and abilities refer to a “transformed permanent.” This phrase refers to a permanent on the battlefield with its back face up that’s also a transforming double-faced card or a transforming token. A permanent with its front face up is never considered a transformed permanent, even if it had its back face up previously.\\ 
-701.28g 一些咒语和异能提及一个“已转化的永久物”。此用词意指一个在战场上且背面朝上的永久物，且此面同样为转化式双面牌或转化式衍生物。正面朝上的永久物不会被视为已转化的永久物，即使它们之前是背面朝上的。
+<BOOKMARK:cr701-31b>701.31b To planeswalk is to put each face-up plane card and phenomenon card on the bottom of its owner’s planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up.\\ 
+701.31b 时空换境指，将每张牌面朝上时空牌和异象牌面朝下置于其拥有者的时空套牌牌库底，然后将你时空套牌的牌库顶牌移离时空套牌并翻回正面。
 
-<BOOKMARK:cr701-29>701.29. Detain\\ 
-701.29. 拘留
+<BOOKMARK:cr701-31c>701.31c A player may planeswalk as the result of the “planeswalking ability” (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon’s triggered ability leaves the stack (see rule 704.6f). Abilities may also instruct a player to planeswalk.\\ 
+701.31c 牌手可以因“时空换境异能”的结果（参见规则[[cr:9#cr901-8|901.8]]），因牌面朝上的时空牌或异象牌的操控者离开游戏（参见规则[[cr:9#cr901-10|901.10]]），或因异象的触发式异能离开堆叠（参见规则[[cr:7#cr704-6f|704.6f]]）而时空换境。异能也可能指示牌手时空换境。
 
-<BOOKMARK:cr701-29a>701.29a Certain spells and abilities can detain a permanent. Until the next turn of the controller of that spell or ability, that permanent can’t attack or block and its activated abilities can’t be activated.\\ 
-701.29a 某些咒语和异能可以拘留永久物。直到该咒语或异能之操控者的下一个回合，该永久物不能进行攻击或阻挡，其起动式异能也不能起动。
+<BOOKMARK:cr701-31d>701.31d The plane card that’s turned face up is the plane the player planeswalks to. The plane card that’s turned face down or that leaves the game is the plane the player planeswalks away from. The same is true with respect to phenomena.\\ 
+701.31d 翻回正面的时空牌即为牌手时空换入的时空。翻为牌面朝下的、或离开游戏的时空牌即为牌手时空换出的时空。异象也同样适用此规则。
 
-<BOOKMARK:cr701-30>701.30. Populate\\ 
-701.30. 殖民
+<BOOKMARK:cr701-32>701.32. Set in Motion\\ 
+701.32. 发动
 
-<BOOKMARK:cr701-30a>701.30a To populate means to choose a creature token you control and create a token that’s a copy of that creature token.\\ 
-701.30a 殖民意指选择一个由你操控的衍生生物并派出一个衍生物，且其为前者衍生生物之复制品。
+<BOOKMARK:cr701-32a>701.32a Only a scheme card may be set in motion, and only during an Archenemy game. Only the archenemy may set a scheme card in motion. See rule 314, “Schemes,” and rule 904, “Archenemy.”\\ 
+701.32a 只有邪计牌可以发动，并且只可以在魔王游戏中如此作。只有魔王可以发动邪计。参见规则[[cr:3#cr314|314]]，“邪计”，及规则[[cr:9#cr904|904]]，“魔王”。
 
-<BOOKMARK:cr701-30b>701.30b If you control no creature tokens when instructed to populate, you won’t create a token.\\ 
-701.30b 当有效应指示你进行殖民时，如果你并未操控任何衍生生物，则你不会派出衍生物。
+<BOOKMARK:cr701-32b>701.32b To set a scheme in motion, move it off the top of your scheme deck if it’s on top of your scheme deck and turn it face up if it isn’t face up. That scheme is considered to have been set in motion even if neither of these actions was performed on it.\\ 
+701.32b 发动邪计指，如果它在你的邪计套牌牌库顶，将其从邪计套牌牌库顶移离，且如果它不是牌面朝上，将其翻回正面。即使以上动作之一或两者均未在其上实行，该邪计仍视同为被发动。
 
-<BOOKMARK:cr701-31>701.31. Monstrosity\\ 
-701.31. 蛮化
+<BOOKMARK:cr701-32c>701.32c Schemes may only be set in motion one at a time. If a player is instructed to set multiple schemes in motion, that player sets a scheme in motion that many times.\\ 
+701.32c 每次只能发动一个邪计。如果牌手被指示发动多个邪计，其发动等量次数的邪计。
 
-<BOOKMARK:cr701-31a>701.31a “Monstrosity N” means “If this permanent isn’t monstrous, put N +1/+1 counters on it and it becomes monstrous.”\\ 
-701.31a “蛮化N”意指，如果此永久物未蛮化，则在其上放置N个+1/+1指示物且它蛮化。
+<BOOKMARK:cr701-33>701.33. Abandon\\ 
+701.33. 撤废
 
-<BOOKMARK:cr701-31b>701.31b Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent’s copiable values.\\ 
-701.31b “已蛮化”此称号并无规则含义。它仅用作标记，供蛮化异能及其他咒语和异能辨识之用。只有永久物能够蛮化。一旦某永久物已蛮化后，它便会一直保持已蛮化，直到它离开战场为止。“已蛮化”既不是异能，也不是该永久物可复制特征值的一部分。
+<BOOKMARK:cr701-33a>701.33a Only a face-up ongoing scheme card may be abandoned, and only during an Archenemy game. See rule 314, “Schemes,” and rule 904, “Archenemy.”\\ 
+701.33a 只有面朝上的长效邪计牌可以被撤废，并且只可以在魔王游戏中如此作。参见规则[[cr:3#cr314|314]]，“邪计”，及规则[[cr:9#cr904|904]]，“魔王”。
 
-<BOOKMARK:cr701-31c>701.31c If a permanent’s ability instructs a player to “monstrosity X,” other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X as that permanent became monstrous.\\ 
-701.31c 如果某永久物的异能指示牌手“蛮化X”，则该永久物的其他异能也可能会提及X。后者异能中的X值等同于该永久物蛮化时的X值。
+<BOOKMARK:cr701-33b>701.33b To abandon a scheme, turn it face down and put it on the bottom of its owner’s scheme deck.\\ 
+701.33b 撤废邪计指，将其翻为牌面朝下，并置于其拥有者的邪计套牌牌库底。
 
-<BOOKMARK:cr701-32>701.32. Vote\\ 
-701.32. 投票
+<BOOKMARK:cr701-34>701.34. Proliferate\\ 
+701.34. 增殖
 
-<BOOKMARK:cr701-32a>701.32a Some spells and abilities instruct players to vote for one choice from a list of options to determine some aspect of the effect of that spell or ability. To vote, each player, starting with a specified player and proceeding in turn order, chooses one of those choices.\\ 
-701.32a 某些咒语和异能要求牌手在所列的多个选项中投票选择其中一个，以决定该咒语或异能会产生哪部分的效应。投票选择的流程为：由某位指定牌手开始，每位牌手依照回合顺序依次选择其中一个选项。如果某效应允许牌手多次投票，则牌手于其原本应进行投票的时候同时完成多次投票。
+<BOOKMARK:cr701-34a>701.34a To proliferate means to choose any number of permanents and/or players that have a counter, then give each one additional counter of each kind that permanent or player already has.\\ 
+701.34a 增殖表示，选择任意数量其上有指示物的永久物和/或牌手，然后对于其上已经有的每种指示物而言，给该永久物或牌手一个额外的此种指示物。
 
-<BOOKMARK:cr701-32b>701.32b The listed choices may be objects, words with no rules meaning that are each connected to a different effect, or other variables relevant to the resolution of the spell or ability.\\ 
-701.32b 所列之选项可包括物件，与不同的效应相关但无规则含义的字词，或与咒语或异能之结算相关的其他变数。
+<BOOKMARK:cr701-34b>701.34b In a Two-Headed Giant game, poison counters are shared by the team. If more than one player on a team is chosen this way, only one of those players can be given an additional poison counter. The player who proliferates chooses which player that is. See rule 810, “Two-Headed Giant Variant.”\\ 
+701.34b 在双头巨人游戏中，队伍中的牌手共享中毒指示物。如果以此法选择多于一个在同一队伍中的牌手，只有这些牌手其中之一可以被给予一个额外的中毒指示物。由执行增殖的牌手来选择是哪位牌手获得该指示物。参见规则[[cr:8#cr810|810]]，“双头巨人玩法”。
 
-<BOOKMARK:cr701-32c>701.32c If the text of a spell or ability refers to “voting,” it refers only to an actual vote, not to any spell or ability that involves the players making choices or decisions without using the word “vote.”\\ 
-701.32c 如果某咒语或异能之规则叙述中提及“投票”，则其指的是“牌手以投票作出选择”；而非未在规则叙述中注明“投票”字样，且让牌手进行选择或作出决定的其他咒语或异能。
+<BOOKMARK:cr701-35>701.35. Detain\\ 
+701.35. 拘留
 
-<BOOKMARK:cr701-32d>701.32d If an effect gives a player multiple votes, those votes all happen at the same time the player would otherwise have voted.\\ 
-701.32d 如果一个效应使牌手可以额外多投票，这些投票选择于牌手本应作出投票选择之时一同发生。
+<BOOKMARK:cr701-35a>701.35a Certain spells and abilities can detain a permanent. Until the next turn of the controller of that spell or ability, that permanent can’t attack or block and its activated abilities can’t be activated.\\ 
+701.35a 某些咒语和异能可以拘留永久物。直到该咒语或异能之操控者的下一个回合，该永久物不能进行攻击或阻挡，其起动式异能也不能起动。
 
-<BOOKMARK:cr701-33>701.33. Bolster\\ 
-701.33. 振励
+<BOOKMARK:cr701-36>701.36. Populate\\ 
+701.36. 殖民
 
-<BOOKMARK:cr701-33a>701.33a “Bolster N” means “Choose a creature you control with the least toughness or tied for least toughness among creatures you control. Put N +1/+1 counters on that creature.”\\ 
-701.33a “振励N”意指“选择一个由你操控的生物，且需是由你操控的生物中防御力最小或同为防御力最小者。在其上放置N个+1/+1指示物。”
+<BOOKMARK:cr701-36a>701.36a To populate means to choose a creature token you control and create a token that’s a copy of that creature token.\\ 
+701.36a 殖民意指选择一个由你操控的衍生生物并派出一个衍生物，且其为前者衍生生物之复制品。
 
-<BOOKMARK:cr701-34>701.34. Manifest\\ 
-701.34. 显化
+<BOOKMARK:cr701-36b>701.36b If you control no creature tokens when instructed to populate, you won’t create a token.\\ 
+701.36b 当有效应指示你进行殖民时，如果你并未操控任何衍生生物，则你不会派出衍生物。
 
-<BOOKMARK:cr701-34a>701.34a To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up.\\ 
-701.34a 显化一张牌指，将其翻为牌面朝下。它成为2/2生物牌，没有规则文字，没有名称，没有副类别，没有法术力费用。将其牌面朝下地放进战场。只要该永久物牌面朝下，它便是已显化的永久物。此设定特征之效应会持续影响此牌面朝下的牌张，直到其被翻回正面为止。
+<BOOKMARK:cr701-37>701.37. Monstrosity\\ 
+701.37. 蛮化
 
-<BOOKMARK:cr701-34b>701.34b Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)\\ 
-701.34b 在你拥有优先权的时机下，你可以把由你操控之已显化的永久物翻回正面。这属于特殊动作；它不用到堆叠（参见规则[[cr:1#cr116-2b|116.2b]]）。具体方法如下：将代表该永久物的牌张展示给所有牌手，以示此牌确为生物牌，并展示其法术力费用，支付此费用，然后将该永久物翻回正面。于此牌处于牌面朝下状态时设定其特征的效应随之结束，其重新获得在正常状况下的特征。（如果代表该永久物的牌不是生物牌，或是没有法术力费用，则它不能以此法翻回正面。）
+<BOOKMARK:cr701-37a>701.37a “Monstrosity N” means “If this permanent isn’t monstrous, put N +1/+1 counters on it and it becomes monstrous.”\\ 
+701.37a “蛮化N”意指，如果此永久物未蛮化，则在其上放置N个+1/+1指示物且它蛮化。
 
-<BOOKMARK:cr701-34c>701.34c If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.37e to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.\\ 
-701.34c 如果显化的是一张具变身异能的牌，则其操控者可将其当作具变身异能的牌面朝下生物，并按照规则[[cr:7#cr702-37e|702.37e]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已显化的永久物来翻回正面。
+<BOOKMARK:cr701-37b>701.37b Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent’s copiable values.\\ 
+701.37b “已蛮化”此称号并无规则含义。它仅用作标记，供蛮化异能及其他咒语和异能辨识之用。只有永久物能够蛮化。一旦某永久物已蛮化后，它便会一直保持已蛮化，直到它离开战场为止。“已蛮化”既不是异能，也不是该永久物可复制特征值的一部分。
 
-<BOOKMARK:cr701-34d>701.34d If a card with disguise is manifested, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a manifested permanent face up.\\ 
-701.34d 如果显化的是一张具伪装异能的牌，则其操控者可将其当作具伪装异能的牌面朝下生物，并按照规则[[cr:7#cr702-168d|702.168d]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已显化的永久物来翻回正面。
+<BOOKMARK:cr701-37c>701.37c If a permanent’s ability instructs a player to “monstrosity X,” other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X as that permanent became monstrous.\\ 
+701.37c 如果某永久物的异能指示牌手“蛮化X”，则该永久物的其他异能也可能会提及X。后者异能中的X值等同于该永久物蛮化时的X值。
 
-<BOOKMARK:cr701-34e>701.34e If an effect instructs a player to manifest multiple cards from their library, those cards are manifested one at a time.\\ 
-701.34e 如果某效应指示牌手从其牌库显化数张牌，则逐张显化该些牌。
+<BOOKMARK:cr701-38>701.38. Vote\\ 
+701.38. 投票
 
-<BOOKMARK:cr701-34f>701.34f If an effect instructs a player to manifest a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t manifested. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up.\\ 
-701.34f 如果某效应指示牌手显化一张牌，且有另一个规则或效应阻止该面朝下的物件进入战场，该牌不会被显化。其特征不会被改变，并留在原来的区域。如果它原本是面朝上的，它仍然是面朝上。
+<BOOKMARK:cr701-38a>701.38a Some spells and abilities instruct players to vote for one choice from a list of options to determine some aspect of the effect of that spell or ability. To vote, each player, starting with a specified player and proceeding in turn order, chooses one of those choices.\\ 
+701.38a 某些咒语和异能要求牌手在所列的多个选项中投票选择其中一个，以决定该咒语或异能会产生哪部分的效应。投票选择的流程为：由某位指定牌手开始，每位牌手依照回合顺序依次选择其中一个选项。如果某效应允许牌手多次投票，则牌手于其原本应进行投票的时候同时完成多次投票。
 
-<BOOKMARK:cr701-34g>701.34g If a manifested permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger.\\ 
-701.34g 如果一个由瞬间和法术牌代表之已显化的永久物将要翻回正面，则其操控者展示该牌，然后将其保持牌面朝下。因永久物翻回正面时触发的异能不会触发。
+<BOOKMARK:cr701-38b>701.38b The listed choices may be objects, words with no rules meaning that are each connected to a different effect, or other variables relevant to the resolution of the spell or ability.\\ 
+701.38b 所列之选项可包括物件，与不同的效应相关但无规则含义的字词，或与咒语或异能之结算相关的其他变数。
 
-<BOOKMARK:cr701-34h>701.34h See rule 708, “Face-Down Spells and Permanents,” for more information.\\ 
-701.34h 欲了解更多信息，参见规则[[cr:7#cr708|708]]，“牌面朝下的咒语和永久物”。
+<BOOKMARK:cr701-38c>701.38c If the text of a spell or ability refers to “voting,” it refers only to an actual vote, not to any spell or ability that involves the players making choices or decisions without using the word “vote.”\\ 
+701.38c 如果某咒语或异能之规则叙述中提及“投票”，则其指的是“牌手以投票作出选择”；而非未在规则叙述中注明“投票”字样，且让牌手进行选择或作出决定的其他咒语或异能。
 
-<BOOKMARK:cr701-35>701.35. Support\\ 
-701.35. 支援
+<BOOKMARK:cr701-38d>701.38d If an effect gives a player multiple votes, those votes all happen at the same time the player would otherwise have voted.\\ 
+701.38d 如果一个效应使牌手可以额外多投票，这些投票选择于牌手本应作出投票选择之时一同发生。
 
-<BOOKMARK:cr701-35a>701.35a “Support N” on a permanent means “Put a +1/+1 counter on each of up to N other target creatures.” “Support N” on an instant or sorcery spell means “Put a +1/+1 counter on each of up to N target creatures.”\\ 
-701.35a 永久物上的“支援N”意指“在至多N个其他目标生物上各放置一个+1/+1指示物。”瞬间或法术咒语上的“支援N”意指“在至多N个目标生物上各放置一个+1/+1指示物。”
+<BOOKMARK:cr701-39>701.39. Bolster\\ 
+701.39. 振励
 
-<BOOKMARK:cr701-36>701.36. Investigate\\ 
-701.36. 探查
+<BOOKMARK:cr701-39a>701.39a “Bolster N” means “Choose a creature you control with the least toughness or tied for least toughness among creatures you control. Put N +1/+1 counters on that creature.”\\ 
+701.39a “振励N”意指“选择一个由你操控的生物，且需是由你操控的生物中防御力最小或同为防御力最小者。在其上放置N个+1/+1指示物。”
 
-<BOOKMARK:cr701-36a>701.36a “Investigate” means “Create a Clue token.” See rule 111.10f.\\ 
-701.36a “探查”意指“派出一个线索衍生物。”参见规则[[cr:1#cr111-10f|111.10f]]。
+<BOOKMARK:cr701-40>701.40. Manifest\\ 
+701.40. 显化
 
-<BOOKMARK:cr701-37>701.37. Meld\\ 
-701.37. 融合
+<BOOKMARK:cr701-40a>701.40a To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up.\\ 
+701.40a 显化一张牌指，将其翻为牌面朝下。它成为2/2生物牌，没有规则文字，没有名称，没有副类别，没有法术力费用。将其牌面朝下地放进战场。只要该永久物牌面朝下，它便是已显化的永久物。此设定特征之效应会持续影响此牌面朝下的牌张，直到其被翻回正面为止。
 
-<BOOKMARK:cr701-37a>701.37a Meld is a keyword action that appears in an ability on one card in a meld pair. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined. The resulting permanent is a single object represented by two cards. See rule 712, “Double-Faced Cards.”\\ 
-701.37a 融合属于关键字动作，每个融合牌组当中会有一张牌的异能用到这个关键字动作。融合同一融合牌组的两张牌，意指将它们以背面朝上且已组合的方式放进战场。所得之永久物为由两张牌代表的单一物件。参见规则[[cr:7#cr712|712]]，“双面牌”。
+<BOOKMARK:cr701-40b>701.40b Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)\\ 
+701.40b 在你拥有优先权的时机下，你可以把由你操控之已显化的永久物翻回正面。这属于特殊动作；它不用到堆叠（参见规则[[cr:1#cr116-2b|116.2b]]）。具体方法如下：将代表该永久物的牌张展示给所有牌手，以示此牌确为生物牌，并展示其法术力费用，支付此费用，然后将该永久物翻回正面。于此牌处于牌面朝下状态时设定其特征的效应随之结束，其重新获得在正常状况下的特征。（如果代表该永久物的牌不是生物牌，或是没有法术力费用，则它不能以此法翻回正面。）
 
-<BOOKMARK:cr701-37b>701.37b Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren’t meld cards, or meld cards that don’t form a meld pair can’t be melded.\\ 
-701.37b 只有属于同一融合牌组的两张牌才能融合。衍生物，不是融合牌之牌张，以及不属于同一融合牌组的融合牌不能融合。
+<BOOKMARK:cr701-40c>701.40c If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.37e to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.\\ 
+701.40c 如果显化的是一张具变身异能的牌，则其操控者可将其当作具变身异能的牌面朝下生物，并按照规则[[cr:7#cr702-37e|702.37e]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已显化的永久物来翻回正面。
 
-<BOOKMARK:cr701-37c>701.37c If an effect instructs a player to meld objects that can’t be melded, they stay in their current zone.\\ 
-701.37c 如果某效应要求牌手融合不能融合的物件，则这些物件会留在当前区域。
+<BOOKMARK:cr701-40d>701.40d If a card with disguise is manifested, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a manifested permanent face up.\\ 
+701.40d 如果显化的是一张具伪装异能的牌，则其操控者可将其当作具伪装异能的牌面朝下生物，并按照规则[[cr:7#cr702-168d|702.168d]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已显化的永久物来翻回正面。
+
+<BOOKMARK:cr701-40e>701.40e If an effect instructs a player to manifest multiple cards from their library, those cards are manifested one at a time.\\ 
+701.40e 如果某效应指示牌手从其牌库显化数张牌，则逐张显化该些牌。
+
+<BOOKMARK:cr701-40f>701.40f If an effect instructs a player to manifest a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t manifested. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up.\\ 
+701.40f 如果某效应指示牌手显化一张牌，且有另一个规则或效应阻止该面朝下的物件进入战场，该牌不会被显化。其特征不会被改变，并留在原来的区域。如果它原本是面朝上的，它仍然是面朝上。
+
+<BOOKMARK:cr701-40g>701.40g If a manifested permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger.\\ 
+701.40g 如果一个由瞬间和法术牌代表之已显化的永久物将要翻回正面，则其操控者展示该牌，然后将其保持牌面朝下。因永久物翻回正面时触发的异能不会触发。
+
+<BOOKMARK:cr701-40h>701.40h See rule 708, “Face-Down Spells and Permanents,” for more information.\\ 
+701.40h 欲了解更多信息，参见规则[[cr:7#cr708|708]]，“牌面朝下的咒语和永久物”。
+
+<BOOKMARK:cr701-41>701.41. Support\\ 
+701.41. 支援
+
+<BOOKMARK:cr701-41a>701.41a “Support N” on a permanent means “Put a +1/+1 counter on each of up to N other target creatures.” “Support N” on an instant or sorcery spell means “Put a +1/+1 counter on each of up to N target creatures.”\\ 
+701.41a 永久物上的“支援N”意指“在至多N个其他目标生物上各放置一个+1/+1指示物。”瞬间或法术咒语上的“支援N”意指“在至多N个目标生物上各放置一个+1/+1指示物。”
+
+<BOOKMARK:cr701-42>701.42. Meld\\ 
+701.42. 融合
+
+<BOOKMARK:cr701-42a>701.42a Meld is a keyword action that appears in an ability on one card in a meld pair. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined. The resulting permanent is a single object represented by two cards. See rule 712, “Double-Faced Cards.”\\ 
+701.42a 融合属于关键字动作，每个融合牌组当中会有一张牌的异能用到这个关键字动作。融合同一融合牌组的两张牌，意指将它们以背面朝上且已组合的方式放进战场。所得之永久物为由两张牌代表的单一物件。参见规则[[cr:7#cr712|712]]，“双面牌”。
+
+<BOOKMARK:cr701-42b>701.42b Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren’t meld cards, or meld cards that don’t form a meld pair can’t be melded.\\ 
+701.42b 只有属于同一融合牌组的两张牌才能融合。衍生物，不是融合牌之牌张，以及不属于同一融合牌组的融合牌不能融合。
+
+<BOOKMARK:cr701-42c>701.42c If an effect instructs a player to meld objects that can’t be melded, they stay in their current zone.\\ 
+701.42c 如果某效应要求牌手融合不能融合的物件，则这些物件会留在当前区域。
 
 Example: A player owns and controls Midnight Scavengers and a token that’s a copy of Graf Rats. At the beginning of combat, both are exiled but can’t be melded. Midnight Scavengers remains exiled and the exiled token ceases to exist.\\ 
 例如：某牌手同时拥有并操控午夜拾荒客和一个为墓地鼠群复制品的衍生物。在战斗开始时，两者都会被放逐，但不能融合。午夜拾荒客会留在放逐区，被放逐的衍生物消失。
 
-<BOOKMARK:cr701-38>701.38. Goad\\ 
-701.38. 煽惑
+<BOOKMARK:cr701-43>701.43. Exert\\ 
+701.43. 耗竭
 
-<BOOKMARK:cr701-38a>701.38a Certain spells and abilities can goad a creature. Until the next turn of the controller of that spell or ability, that creature is goaded.\\ 
-701.38a 某些咒语和异能可以煽惑生物。直到此类咒语或异能之操控者的下一个回合，该生物被煽惑。
+<BOOKMARK:cr701-43a>701.43a To exert a permanent, you choose to have it not untap during your next untap step.\\ 
+701.43a 耗竭一个永久物，意指你选择在你的下一个重置步骤中不重置它。
 
-<BOOKMARK:cr701-38b>701.38b Goaded is a designation a permanent can have. A goaded creature attacks each combat if able and attacks a player other than the controller of the permanent, spell, or ability that caused it to be goaded if able. Goaded is neither an ability nor part of the permanent’s copiable values.\\ 
-701.38b “被煽惑”是永久物能够具有的称号。被煽惑的生物每次战斗若能攻击，则必须攻击，且若能攻击使其被煽惑之永久物、咒语或异能的操控者以外的牌手，则必须如此作。被煽惑既不是异能，也不是该永久物可复制特征值的一部分。
+<BOOKMARK:cr701-43b>701.43b A permanent can be exerted even if it’s not tapped or has already been exerted in a turn. If you exert a permanent more than once before your next untap step, each effect causing it not to untap expires during the same untap step.\\ 
+701.43b 就算某个永久物尚未被横置，或已在某回合中被耗竭，也能耗竭之。如果你在你的下一个重置步骤到来之前，多次耗竭了同一个永久物，则所有令该永久物不能重置的效应都会在同一个重置步骤中失效。
 
-<BOOKMARK:cr701-38c>701.38c A creature can be goaded by multiple players. Doing so creates additional combat requirements.\\ 
-701.38c 一个生物可以被多位牌手煽惑。这会创造额外的战斗需求。
+<BOOKMARK:cr701-43c>701.43c An object that isn’t on the battlefield can’t be exerted.\\ 
+701.43c 不在战场上的物件不能被耗竭。
 
-<BOOKMARK:cr701-38d>701.38d Once a player has goaded a creature, the same player goading it again has no effect. Doing so doesn’t create additional combat requirements.\\ 
-701.38d 一旦牌手煽惑了某个生物，同一位牌手再次煽惑它没有效果。这不会创造额外的战斗需求。
+<BOOKMARK:cr701-43d>701.43d “You may exert [this creature] as it attacks” is an optional cost to attack (see rule 508.1g). Some objects with this static ability have a triggered ability that triggers “when you do” printed in the same paragraph. These abilities are linked. (See rule 607.2h.)\\ 
+701.43d “你可以于[此生物]攻击时耗竭之”是攻击的可选费用（参见规则[[cr:5#cr508-1g|508.1g]]）。一些具有此静止式异能的物件在同一段落中印有一个触发式异能，于“当你如此作”时触发。这些异能相互关联。（参见规则[[cr:6#cr607-2h|607.2h]]。）
 
-<BOOKMARK:cr701-39>701.39. Exert\\ 
-701.39. 耗竭
+<BOOKMARK:cr701-44>701.44. Explore\\ 
+701.44. 勘察
 
-<BOOKMARK:cr701-39a>701.39a To exert a permanent, you choose to have it not untap during your next untap step.\\ 
-701.39a 耗竭一个永久物，意指你选择在你的下一个重置步骤中不重置它。
+<BOOKMARK:cr701-44a>701.44a Certain abilities instruct a permanent to explore. To do so, that permanent’s controller reveals the top card of their library. If a land card is revealed this way, that player puts that card into their hand. Otherwise, that player puts a +1/+1 counter on the exploring permanent and may put the revealed card into their graveyard.\\ 
+701.44a 某些异能会令永久物进行勘察。其意指，该永久物的操控者展示其牌库顶牌。如果以此法展示出地牌，则该牌手将该牌置于其手上。若否，则该牌手在该进行勘察的永久物上放置一个+1/+1指示物，且可以将所展示的牌置入其坟墓场。
 
-<BOOKMARK:cr701-39b>701.39b A permanent can be exerted even if it’s not tapped or has already been exerted in a turn. If you exert a permanent more than once before your next untap step, each effect causing it not to untap expires during the same untap step.\\ 
-701.39b 就算某个永久物尚未被横置，或已在某回合中被耗竭，也能耗竭之。如果你在你的下一个重置步骤到来之前，多次耗竭了同一个永久物，则所有令该永久物不能重置的效应都会在同一个重置步骤中失效。
+<BOOKMARK:cr701-44b>701.44b A permanent “explores” after the process described in rule 701.44a is complete, even if some or all of those actions were impossible.\\ 
+701.44b 在完成规则[[cr:7#cr701-44a|701.44a]]所述之流程后，该永久物便已“勘察”，就算该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-39c>701.39c An object that isn’t on the battlefield can’t be exerted.\\ 
-701.39c 不在战场上的物件不能被耗竭。
+<BOOKMARK:cr701-44c>701.44c If a permanent changes zones before an effect causes it to explore, its last known information is used to determine which object explored and who controlled it.\\ 
+701.44c 如果某永久物在有效应令其勘察之前就已改变区域，则利用其最后已知信息来确定进行勘察的物件及其操控者。
 
-<BOOKMARK:cr701-39d>701.39d “You may exert [this creature] as it attacks” is an optional cost to attack (see rule 508.1g). Some objects with this static ability have a triggered ability that triggers “when you do” printed in the same paragraph. These abilities are linked. (See rule 607.2h.)\\ 
-701.39d “你可以于[此生物]攻击时耗竭之”是攻击的可选费用（参见规则[[cr:5#cr508-1g|508.1g]]）。一些具有此静止式异能的物件在同一段落中印有一个触发式异能，于“当你如此作”时触发。这些异能相互关联。（参见规则[[cr:6#cr607-2h|607.2h]]。）
+<BOOKMARK:cr701-44d>701.44d If multiple permanents are instructed to explore at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.44c) one or more of those permanents chooses one of them and it explores. Then this process is repeated for each remaining instruction to explore,\\ 
+701.44d 如果同时令多个永久物勘察，则在操控了一个或数个此类永久物的牌手（如果该永久物已不在战场上，则是最后操控它的牌手；参见规则[[cr:7#cr701-44c|701.44c]]）中，依主动牌手先决定（APNAP）顺序的第一位牌手选择其中一个由其操控的永久物，令该永久物勘察。然后对每个剩余的勘察指示重复此流程。
 
-<BOOKMARK:cr701-40>701.40. Explore\\ 
-701.40. 勘察
+<BOOKMARK:cr701-45>701.45. Assemble\\ 
+701.45. 组装
 
-<BOOKMARK:cr701-40a>701.40a Certain abilities instruct a permanent to explore. To do so, that permanent’s controller reveals the top card of their library. If a land card is revealed this way, that player puts that card into their hand. Otherwise, that player puts a +1/+1 counter on the exploring permanent and may put the revealed card into their graveyard.\\ 
-701.40a 某些异能会令永久物进行勘察。其意指，该永久物的操控者展示其牌库顶牌。如果以此法展示出地牌，则该牌手将该牌置于其手上。若否，则该牌手在该进行勘察的永久物上放置一个+1/+1指示物，且可以将所展示的牌置入其坟墓场。
+<BOOKMARK:cr701-45a>701.45a Assemble is a keyword action in the Unstable set that puts Contraptions onto the battlefield. Outside of silver-bordered cards, only one card (Steamflogger Boss) refers to assembling a Contraption. Cards and mechanics from the Unstable set aren’t included in these rules. See the Unstable FAQ for more information.\\ 
+701.45a 组装是出现在Unstable系列中的关键字动作，会将机巧放进战场。除银边牌以外，只有一张牌（汽鞭上司）提及组装机巧。本文件中的规则并未涵盖Unstable系列中的牌张和机制。欲知更多信息，请参见Unstable常见问题集。
 
-<BOOKMARK:cr701-40b>701.40b A permanent “explores” after the process described in rule 701.40a is complete, even if some or all of those actions were impossible.\\ 
-701.40b 在完成规则[[cr:7#cr701-40a|701.40a]]所述之流程后，该永久物便已“勘察”，就算该流程之部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-46>701.46. Adapt\\ 
+701.46. 演化
 
-<BOOKMARK:cr701-40c>701.40c If a permanent changes zones before an effect causes it to explore, its last known information is used to determine which object explored and who controlled it.\\ 
-701.40c 如果某永久物在有效应令其勘察之前就已改变区域，则利用其最后已知信息来确定进行勘察的物件及其操控者。
+<BOOKMARK:cr701-46a>701.46a “Adapt N” means “If this permanent has no +1/+1 counters on it, put N +1/+1 counters on it.”\\ 
+701.46a “演化N”意指“如果此永久物上没有+1/+1指示物，则在其上放置N个+1/+1指示物。”
 
-<BOOKMARK:cr701-40d>701.40d If multiple permanents are instructed to explore at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.40c) one or more of those permanents chooses one of them and it explores. Then this process is repeated for each remaining instruction to explore,\\ 
-701.40d 如果同时令多个永久物勘察，则在操控了一个或数个此类永久物的牌手（如果该永久物已不在战场上，则是最后操控它的牌手；参见规则[[cr:7#cr701-40c|701.40c]]）中，依主动牌手先决定（APNAP）顺序的第一位牌手选择其中一个由其操控的永久物，令该永久物勘察。然后对每个剩余的勘察指示重复此流程。
+<BOOKMARK:cr701-47>701.47. Amass\\ 
+701.47. 囤兵
 
-<BOOKMARK:cr701-41>701.41. Assemble\\ 
-701.41. 组装
+<BOOKMARK:cr701-47a>701.47a To amass [subtype] N means “If you don’t control an Army creature, create a 0/0 black [subtype] Army creature token. Choose an Army creature you control. Put N +1/+1 counters on that creature. If it isn’t a [subtype], it becomes a [subtype] in addition to its other types.”\\ 
+701.47a “囤兵[副类别]N”意指，“如果你未操控军队生物，则派出一个0/0黑色[副类别]／军队衍生生物。选择一个由你操控的军队生物。在该生物上放置N个+1/+1指示物。如果它不是[副类别]，它额外具有[副类别]此类别。”
 
-<BOOKMARK:cr701-41a>701.41a Assemble is a keyword action in the Unstable set that puts Contraptions onto the battlefield. Outside of silver-bordered cards, only one card (Steamflogger Boss) refers to assembling a Contraption. Cards and mechanics from the Unstable set aren’t included in these rules. See the Unstable FAQ for more information.\\ 
-701.41a 组装是出现在Unstable系列中的关键字动作，会将机巧放进战场。除银边牌以外，只有一张牌（汽鞭上司）提及组装机巧。本文件中的规则并未涵盖Unstable系列中的牌张和机制。欲知更多信息，请参见Unstable常见问题集。
+<BOOKMARK:cr701-47b>701.47b A player “amassed” after the process described in rule 701.47a is complete, even if some or all of those actions were impossible.\\ 
+701.47b 在完成规则[[cr:7#cr701-47a|701.47a]]中所述之流程后，牌手便已“囤兵”，就算该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-42>701.42. Surveil\\ 
-701.42. 刺探
+<BOOKMARK:cr701-47c>701.47c The phrases “the Army you amassed” and “the amassed Army” refer to the creature you chose, whether or not it received counters.\\ 
+701.47c “受囤兵的军队”、“受囤兵军队”字样指的是你选择的生物，它是否确实得到指示物并不重要。
 
-<BOOKMARK:cr701-42a>701.42a To “surveil N” means to look at the top N cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.\\ 
-701.42a “刺探N”意指，检视你牌库顶的N张牌，然后将其中任意数量的牌以任意顺序置入你的坟墓场，其余则以任意顺序置于你牌库顶。
+<BOOKMARK:cr701-47d>701.47d Some older cards were printed with amass N without including a subtype. Those cards have received errata in the Oracle card reference so that they read “amass Zombies N.”\\ 
+701.47d 一些老牌印有不包括副类别的“囤兵N”。这些牌在Oracle牌张参考文献中勘误为“囤兵灵俑N”。
 
-<BOOKMARK:cr701-42b>701.42b If an effect allows you to look at additional cards while you surveil, those cards are included among the cards you may put into your graveyard and on top of your library in any order.\\ 
-701.42b 如果某效应允许你在刺探时检视额外的牌，那么这些牌包括在你置入坟墓场或以任意顺序置于你牌库顶的牌之中。
+<BOOKMARK:cr701-48>701.48. Learn\\ 
+701.48. 温习
 
-<BOOKMARK:cr701-42c>701.42c If a player is instructed to surveil 0, no surveil event occurs. Abilities that trigger whenever a player surveils won’t trigger.\\ 
-701.42c 如果牌手被指示刺探0，刺探事件不会发生。因牌手刺探而触发的异能不会触发。
+<BOOKMARK:cr701-48a>701.48a “Learn” means “You may discard a card. If you do, draw a card. If you didn’t discard a card, you may reveal a Lesson card you own from outside the game and put it into your hand.”\\ 
+701.48a “温习”意指“你可以弃一张牌。如果你如此作，则抓一张牌。如果你未弃牌，则你可以从游戏外展示一张由你拥有的课程牌，并将它置于你手上。”
 
-<BOOKMARK:cr701-42d>701.42d An ability that triggers whenever a player surveils triggers after the process described in rule 701.42a is complete, even if some or all of those actions were impossible.\\ 
-701.42d 每当牌手刺探时触发的异能会在完成规则[[cr:7#cr701-42a|701.42a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-49>701.49. Venture into the Dungeon\\ 
+701.49. 深入地城
 
-<BOOKMARK:cr701-43>701.43. Adapt\\ 
-701.43. 演化
+<BOOKMARK:cr701-49a>701.49a If a player is instructed to venture into the dungeon while they don’t own a dungeon card in the command zone, they choose a dungeon card they own from outside the game and put it into the command zone. They put their venture marker on the topmost room. See rule 309, “Dungeons.”\\ 
+701.49a 如果牌手未在统帅区拥有一张地城牌时被指示深入地城，该牌手从游戏外选择一张由其拥有的地城牌并将其置入统帅区。该牌手将其进度标记置于最上方的房间上。参见规则[[cr:3#cr309|309]]，“地城”。
 
-<BOOKMARK:cr701-43a>701.43a “Adapt N” means “If this permanent has no +1/+1 counters on it, put N +1/+1 counters on it.”\\ 
-701.43a “演化N”意指“如果此永久物上没有+1/+1指示物，则在其上放置N个+1/+1指示物。”
+<BOOKMARK:cr701-49b>701.49b If a player is instructed to venture into the dungeon while their venture marker is in any room except a dungeon card’s bottommost room, they choose an adjacent room, following the direction of an arrow pointing away from their current room. If there are multiple arrows pointing away from the room the player’s venture marker is in, they choose one of them to follow. They move their venture marker to that adjacent room.\\ 
+701.49b 如果牌手在统帅区拥有一张地城牌、且其进度标记不在该地城的最底下的房间上时被指示深入地城，该牌手按照某个从当前房间出发的箭头指示，选择一个相邻的房间。如果从该牌手的进度标记所在的房间出发的箭头有多个，该牌手选择其中一个。该牌手将其进度标记移动到该相邻的房间。
 
-<BOOKMARK:cr701-44>701.44. Amass\\ 
-701.44. 囤兵
+<BOOKMARK:cr701-49c>701.49c If a player is instructed to venture into the dungeon while their venture marker is in the bottommost room of a dungeon card, they remove that dungeon card from the game. Doing so causes the player to complete that dungeon (see rule 309.7). They then choose an appropriate dungeon card they own from outside the game, put it into the command zone, and put their venture marker on the topmost room of that dungeon.\\ 
+701.49c 如果牌手在统帅区拥有一张地城牌、且其进度标记在该地城的最底下的房间上时被指示深入地城，该牌手将该地城牌移出游戏。然后该牌手从游戏外选择一张由其拥有的、且适用的地城牌，将其置入统帅区，然后将其进度标记置于该地城最上方的房间上。
 
-<BOOKMARK:cr701-44a>701.44a To amass [subtype] N means “If you don’t control an Army creature, create a 0/0 black [subtype] Army creature token. Choose an Army creature you control. Put N +1/+1 counters on that creature. If it isn’t a [subtype], it becomes a [subtype] in addition to its other types.”\\ 
-701.44a “囤兵[副类别]N”意指，“如果你未操控军队生物，则派出一个0/0黑色[副类别]／军队衍生生物。选择一个由你操控的军队生物。在该生物上放置N个+1/+1指示物。如果它不是[副类别]，它额外具有[副类别]此类别。”
+<BOOKMARK:cr701-49d>701.49d Venture into [quality] is a variant of venture into the dungeon. If a player is instructed to “venture into [quality]” while they don’t own a dungeon card in the command zone, they choose a dungeon card they own from outside the game with the indicated quality and put it into the command zone. They put their venture marker on the topmost room of that dungeon. If they already own a dungeon card in the command zone, they follow the normal procedure for venturing into the dungeon outlined in 701.49b–c.\\ 
+701.49d “深入[特性]”是深入地城的变化形式。于指示牌手“深入[特性]”时，如果统帅区中没有由该牌手拥有的地城牌，则该牌手从游戏外选择一张由其拥有的、具有所述特性的地城牌，并将其置入统帅区。该牌手将其进度标记置于该地城最上方的房间上。如果统帅区中有由该牌手拥有的地城牌，则该牌手按照规则[[cr:7#cr701-49b|701.49b-c]]所述的一般流程深入地城。
 
-<BOOKMARK:cr701-44b>701.44b A player “amassed” after the process described in rule 701.44a is complete, even if some or all of those actions were impossible.\\ 
-701.44b 在完成规则[[cr:7#cr701-44a|701.44a]]中所述之流程后，牌手便已“囤兵”，就算该流程之部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-50>701.50. Connive\\ 
+701.50. 筹谋
 
-<BOOKMARK:cr701-44c>701.44c The phrases “the Army you amassed” and “the amassed Army” refer to the creature you chose, whether or not it received counters.\\ 
-701.44c “受囤兵的军队”、“受囤兵军队”字样指的是你选择的生物，它是否确实得到指示物并不重要。
+<BOOKMARK:cr701-50a>701.50a Certain abilities instruct a permanent to connive. To do so, that permanent’s controller draws a card, then discards a card. If a nonland card is discarded this way, that player puts a +1/+1 counter on the conniving permanent.\\ 
+701.50a 某些异能会令永久物筹谋。其意指，该永久物的操控者抓一张牌，然后弃一张牌。若以此法弃掉了一张非地牌，则该牌手在正筹谋的永久物上放置一个+1/+1指示物。
 
-<BOOKMARK:cr701-44d>701.44d Some older cards were printed with amass N without including a subtype. Those cards have received errata in the Oracle card reference so that they read “amass Zombies N.”\\ 
-701.44d 一些老牌印有不包括副类别的“囤兵N”。这些牌在Oracle牌张参考文献中勘误为“囤兵灵俑N”。
+<BOOKMARK:cr701-50b>701.50b A permanent “connives” after the process described in rule 701.50a is complete, even if some or all of those actions were impossible.\\ 
+701.50b 在规则[[cr:7#cr701-50a|701.50a]]中描述的过程完成后，某永久物便“筹谋”，即使该过程中的一些或全部动作无法完成也是如此。
 
-<BOOKMARK:cr701-45>701.45. Learn\\ 
-701.45. 温习
+<BOOKMARK:cr701-50c>701.50c If a permanent changes zones before an effect causes it to connive, its last known information is used to determine which object connived and who controlled it.\\ 
+701.50c 如果一个永久物在有效应令其筹谋之前就已改变区域，则利用其最后已知信息来确定筹谋的物件及其操控者。
 
-<BOOKMARK:cr701-45a>701.45a “Learn” means “You may discard a card. If you do, draw a card. If you didn’t discard a card, you may reveal a Lesson card you own from outside the game and put it into your hand.”\\ 
-701.45a “温习”意指“你可以弃一张牌。如果你如此作，则抓一张牌。如果你未弃牌，则你可以从游戏外展示一张由你拥有的课程牌，并将它置于你手上。”
+<BOOKMARK:cr701-50d>701.50d If multiple permanents are instructed to connive at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.50c) one or more of those permanents chooses one of them and it connives. Then this process is repeated for each remaining instruction to connive.\\ 
+701.50d 如果同时令多个永久物筹谋，则在操控了一个或数个此类永久物的牌手（如果该永久物已不在战场上，则是最后操控它的牌手；参见规则[[cr:7#cr701-44c|701.44c]]）中，依主动牌手先决定（APNAP）顺序的第一位牌手选择其中一个由其操控的永久物，令该永久物筹谋。然后对每个剩余的筹谋指示重复此流程。
 
-<BOOKMARK:cr701-46>701.46. Venture into the Dungeon\\ 
-701.46. 深入地城
+<BOOKMARK:cr701-50e>701.50e Connive N is a variant of connive. The permanent’s controller draws N cards, discards N cards, then puts a number of +1/+1 counters on the permanent equal to the number of nonland cards discarded this way.\\ 
+701.50e “筹谋N”是筹谋的变化形式。该永久物的操控者抓N张牌，弃N张牌，然后在该永久物上放置若干+1/+1指示物，其数量等同于以此法弃掉的非地牌数量。
 
-<BOOKMARK:cr701-46a>701.46a If a player is instructed to venture into the dungeon while they don’t own a dungeon card in the command zone, they choose a dungeon card they own from outside the game and put it into the command zone. They put their venture marker on the topmost room. See rule 309, “Dungeons.”\\ 
-701.46a 如果牌手未在统帅区拥有一张地城牌时被指示深入地城，该牌手从游戏外选择一张由其拥有的地城牌并将其置入统帅区。该牌手将其进度标记置于最上方的房间上。参见规则[[cr:3#cr309|309]]，“地城”。
+<BOOKMARK:cr701-51>701.51. Open an Attraction\\ 
+701.51. 打开景点
 
-<BOOKMARK:cr701-46b>701.46b If a player is instructed to venture into the dungeon while their venture marker is in any room except a dungeon card’s bottommost room, they choose an adjacent room, following the direction of an arrow pointing away from their current room. If there are multiple arrows pointing away from the room the player’s venture marker is in, they choose one of them to follow. They move their venture marker to that adjacent room.\\ 
-701.46b 如果牌手在统帅区拥有一张地城牌、且其进度标记不在该地城的最底下的房间上时被指示深入地城，该牌手按照某个从当前房间出发的箭头指示，选择一个相邻的房间。如果从该牌手的进度标记所在的房间出发的箭头有多个，该牌手选择其中一个。该牌手将其进度标记移动到该相邻的房间。
+<BOOKMARK:cr701-51a>701.51a A player may open an Attraction only during a game in which that player is playing with an Attraction deck (see rule 717, “Attraction Cards”).\\ 
+701.51a 牌手只可以在使用景点套牌进行的游戏中打开景点（参见规则[[cr:7#cr717|717]]，“景点牌”）。
 
-<BOOKMARK:cr701-46c>701.46c If a player is instructed to venture into the dungeon while their venture marker is in the bottommost room of a dungeon card, they remove that dungeon card from the game. Doing so causes the player to complete that dungeon (see rule 309.7). They then choose an appropriate dungeon card they own from outside the game, put it into the command zone, and put their venture marker on the topmost room of that dungeon.\\ 
-701.46c 如果牌手在统帅区拥有一张地城牌、且其进度标记在该地城的最底下的房间上时被指示深入地城，该牌手将该地城牌移出游戏。然后该牌手从游戏外选择一张由其拥有的、且适用的地城牌，将其置入统帅区，然后将其进度标记置于该地城最上方的房间上。
+<BOOKMARK:cr701-51b>701.51b To open an Attraction, move the top card of your Attraction deck off the Attraction deck, turn it face up, and put it onto the battlefield under your control.\\ 
+701.51b 打开景点意指，将你的景点套牌牌库顶牌移离景点套牌，将其翻回正面，然后将其在你的操控下放进战场。
 
-<BOOKMARK:cr701-46d>701.46d Venture into [quality] is a variant of venture into the dungeon. If a player is instructed to “venture into [quality]” while they don’t own a dungeon card in the command zone, they choose a dungeon card they own from outside the game with the indicated quality and put it into the command zone. They put their venture marker on the topmost room of that dungeon. If they already own a dungeon card in the command zone, they follow the normal procedure for venturing into the dungeon outlined in 701.46b–c.\\ 
-701.46d “深入[特性]”是深入地城的变化形式。于指示牌手“深入[特性]”时，如果统帅区中没有由该牌手拥有的地城牌，则该牌手从游戏外选择一张由其拥有的、具有所述特性的地城牌，并将其置入统帅区。该牌手将其进度标记置于该地城最上方的房间上。如果统帅区中有由该牌手拥有的地城牌，则该牌手按照规则[[cr:7#cr701-46b|701.46b-c]]所述的一般流程深入地城。
+<BOOKMARK:cr701-51c>701.51c An ability which triggers whenever a player opens an Attraction triggers when that player puts an Attraction card onto the battlefield while performing the instruction in the above rule. If an effect prevents that Attraction from entering the battlefield or replaces entering the battlefield with another event, that ability doesn’t trigger.\\ 
+701.51c 一个当牌手“打开一个景点”时触发的异能在牌手因执行上述规则的指示而将一张景点牌放进战场时触发。如果一个效应防止该景点牌进战场，或以其他事件替代其进战场，该异能不会触发。
 
-<BOOKMARK:cr701-47>701.47. Connive\\ 
-701.47. 筹谋
+<BOOKMARK:cr701-52>701.52. Roll to Visit Your Attractions\\ 
+701.52. 掷骰造访景点
 
-<BOOKMARK:cr701-47a>701.47a Certain abilities instruct a permanent to connive. To do so, that permanent’s controller draws a card, then discards a card. If a nonland card is discarded this way, that player puts a +1/+1 counter on the conniving permanent.\\ 
-701.47a 某些异能会令永久物筹谋。其意指，该永久物的操控者抓一张牌，然后弃一张牌。若以此法弃掉了一张非地牌，则该牌手在正筹谋的永久物上放置一个+1/+1指示物。
+<BOOKMARK:cr701-52a>701.52a To roll to visit your Attractions, roll a six-sided die. Then if you control one or more Attractions with a number lit up that is equal to that result, each of those Attractions has been “visited” and its visit ability triggers. See rule 717, “Attraction Cards,” and rule 702.159, “Visit.”\\ 
+701.52a 掷骰造访景点意指，掷一个六面骰，然后若掷骰结果等同于由你操控之一个或数个景点上的一个亮起的数字，这些景点均被“造访”，且其造访异能被触发。参见规则[[cr:7#cr717|717]]，“景点牌”，及规则[[cr:7#cr702-159|702.159]]，“造访”。
 
-<BOOKMARK:cr701-47b>701.47b A permanent “connives” after the process described in rule 701.47a is complete, even if some or all of those actions were impossible.\\ 
-701.47b 在规则[[cr:7#cr701-47a|701.47a]]中描述的过程完成后，某永久物便“筹谋”，即使该过程中的一些或全部动作无法完成也是如此。
+<BOOKMARK:cr701-53>701.53. Incubate\\ 
+701.53. 抚育
 
-<BOOKMARK:cr701-47c>701.47c If a permanent changes zones before an effect causes it to connive, its last known information is used to determine which object connived and who controlled it.\\ 
-701.47c 如果一个永久物在有效应令其筹谋之前就已改变区域，则利用其最后已知信息来确定筹谋的物件及其操控者。
+<BOOKMARK:cr701-53a>701.53a To incubate N, create an Incubator token that enters the battlefield with N +1/+1 counters on it. See rule 111.10i.\\ 
+701.53a “抚育N”意指，派出一个进战场时上面有N个+1/+1指示物的抚育器衍生物。参见规则[[cr:1#cr111-10i|111.10i]]。
 
-<BOOKMARK:cr701-47d>701.47d If multiple permanents are instructed to connive at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.47c) one or more of those permanents chooses one of them and it connives. Then this process is repeated for each remaining instruction to connive.\\ 
-701.47d 如果同时令多个永久物筹谋，则在操控了一个或数个此类永久物的牌手（如果该永久物已不在战场上，则是最后操控它的牌手；参见规则[[cr:7#cr701-40c|701.40c]]）中，依主动牌手先决定（APNAP）顺序的第一位牌手选择其中一个由其操控的永久物，令该永久物筹谋。然后对每个剩余的筹谋指示重复此流程。
+<BOOKMARK:cr701-53b>701.53b An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this artifact.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.”\\ 
+701.53b 抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此神器。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。
 
-<BOOKMARK:cr701-47e>701.47e Connive N is a variant of connive. The permanent’s controller draws N cards, discards N cards, then puts a number of +1/+1 counters on the permanent equal to the number of nonland cards discarded this way.\\ 
-701.47e “筹谋N”是筹谋的变化形式。该永久物的操控者抓N张牌，弃N张牌，然后在该永久物上放置若干+1/+1指示物，其数量等同于以此法弃掉的非地牌数量。
+<BOOKMARK:cr701-54>701.54. The Ring Tempts You\\ 
+701.54. 魔戒引诱你
 
-<BOOKMARK:cr701-48>701.48. Open an Attraction\\ 
-701.48. 打开景点
+<BOOKMARK:cr701-54a>701.54a Certain spells and abilities have the text “the Ring tempts you.” Each time the Ring tempts you, choose a creature you control. That creature becomes your Ring-bearer until another creature becomes your Ring-bearer or another player gains control of it.\\ 
+701.54a 某些咒语和异能具有叙述“魔戒引诱你”。于魔戒引诱你时，选择一个由你操控的生物。该生物成为你的持戒人，直到另一个生物成为你的持戒人或另一位牌手获得它的操控权为止。
 
-<BOOKMARK:cr701-48a>701.48a A player may open an Attraction only during a game in which that player is playing with an Attraction deck (see rule 717, “Attraction Cards”).\\ 
-701.48a 牌手只可以在使用景点套牌进行的游戏中打开景点（参见规则[[cr:7#cr717|717]]，“景点牌”）。
+<BOOKMARK:cr701-54b>701.54b Ring-bearer is a designation a permanent can have. Being a Ring-bearer is not a copiable value.\\ 
+701.54b 持戒人是永久物能够具有的称号，且并非该永久物的可复制特征值。
 
-<BOOKMARK:cr701-48b>701.48b To open an Attraction, move the top card of your Attraction deck off the Attraction deck, turn it face up, and put it onto the battlefield under your control.\\ 
-701.48b 打开景点意指，将你的景点套牌牌库顶牌移离景点套牌，将其翻回正面，然后将其在你的操控下放进战场。
+<BOOKMARK:cr701-54c>701.54c If a player doesn’t have an emblem named The Ring at the time the Ring tempts them, they get an emblem named The Ring before choosing a creature to be their Ring-bearer. The Ring has “Your Ring-bearer is legendary and can’t be blocked by creatures with greater power.” As long as the Ring has tempted that player two or more times, it has “Whenever your Ring-bearer attacks, draw a card, then discard a card.” As long as the Ring has tempted that player three or more times, it has “Whenever your Ring-bearer becomes blocked by a creature, the blocking creature’s controller sacrifices it at end of combat.” As long as the Ring has tempted that player four or more times, it has “Whenever your Ring-bearer deals combat damage to a player, each opponent loses 3 life.”\\ 
+701.54c 于魔戒引诱一位牌手时，如果其没有名称为魔戒的徽记，则其在选择持戒人之前获得一个该徽记。魔戒具有“你的持戒人是传奇且不能被力量比它大的生物阻挡。”只要魔戒已引诱该牌手两次及以上，它便具有“每当你的持戒人攻击时，抓一张牌，然后弃一张牌。”只要魔戒已引诱该牌手三次及以上，它便具有“每当你的持戒人被一个生物阻挡，在战斗结束时该生物的操控者将它牺牲。”只要魔戒已引诱该牌手四次及以上，它便具有“每当你的持戒人对任一牌手造成战斗伤害时，每位对手各失去3点生命。”
 
-<BOOKMARK:cr701-48c>701.48c An ability which triggers whenever a player opens an Attraction triggers when that player puts an Attraction card onto the battlefield while performing the instruction in the above rule. If an effect prevents that Attraction from entering the battlefield or replaces entering the battlefield with another event, that ability doesn’t trigger.\\ 
-701.48c 一个当牌手“打开一个景点”时触发的异能在牌手因执行上述规则的指示而将一张景点牌放进战场时触发。如果一个效应防止该景点牌进战场，或以其他事件替代其进战场，该异能不会触发。
+<BOOKMARK:cr701-54d>701.54d Some abilities trigger “Whenever the Ring tempts you.” The Ring tempts a player whenever they complete the actions in 701.54a, even if some or all of those actions were impossible.\\ 
+701.54d 一些异能于“魔戒引诱你”时触发。每当一位牌手完成701.54a中所述动作时，魔戒便引诱该牌手，即使其中部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-49>701.49. Roll to Visit Your Attractions\\ 
-701.49. 掷骰造访景点
+<BOOKMARK:cr701-54e>701.54e Some abilities check to see if a creature “is your Ring-bearer.” For the purposes of those abilities, that condition is true if that creature is on the battlefield under your control and has the Ring-bearer designation.\\ 
+701.54e 一些异能检查一个生物是否“是你的持戒人”。对于这些异能而言，若该生物在战场上由你操控且具有持戒人此称号，即符合该条件。
 
-<BOOKMARK:cr701-49a>701.49a To roll to visit your Attractions, roll a six-sided die. Then if you control one or more Attractions with a number lit up that is equal to that result, each of those Attractions has been “visited” and its visit ability triggers. See rule 717, “Attraction Cards,” and rule 702.159, “Visit.”\\ 
-701.49a 掷骰造访景点意指，掷一个六面骰，然后若掷骰结果等同于由你操控之一个或数个景点上的一个亮起的数字，这些景点均被“造访”，且其造访异能被触发。参见规则[[cr:7#cr717|717]]，“景点牌”，及规则[[cr:7#cr702-159|702.159]]，“造访”。
+<BOOKMARK:cr701-55>701.55. Face a Villainous Choice\\ 
+701.55. 面临邪恶抉择
 
-<BOOKMARK:cr701-50>701.50. Convert\\ 
-701.50. 转换
+<BOOKMARK:cr701-55a>701.55a “[A player] faces a villainous choice — [option A], or [option B]” means “[A player] chooses [option A] or [option B]. Then all actions in the chosen option are performed.”\\ 
+701.55a “[牌手]面临邪恶抉择～[选项A]；或[选项B]”意指“[牌手]选择[选项A]或[选项B]。然后执行所选项中的所有动作。”
 
-<BOOKMARK:cr701-50a>701.50a To convert a permanent, turn it so that its other face is up. This follows rules 701.28a–f, 712.9–10, and 712.18. Those rules apply to converting a permanent just as they apply to transforming a permanent.\\ 
-701.50a 转换一个永久物指，将它翻到另一面牌面朝上。这遵循规则[[cr:7#cr701-28a|701.28a-f]]、[[cr:7#cr712-9|712.9-10]]、及[[cr:7#cr712-18|712.18]]。这些规则如同适用于转化永久物一般适用于转换永久物。
+<BOOKMARK:cr701-55b>701.55b While facing a villainous choice, a player may choose an option that is illegal or impossible. In that case, they perform as much of the action as is possible. This is an exception to rule 608.2d.\\ 
+701.55b 当面临邪恶抉择时，牌手可以选择非法或无法完成的选项。在这种情况下，该牌手执行其中尽可能多的动作。这是规则[[cr:6#cr608-2d|608.2d]]的例外。
 
-<BOOKMARK:cr701-50b>701.50b Although converting a permanent uses the same physical action as turning a permanent face up or face down, they are different game actions. Abilities that trigger when a permanent is turned face down won’t trigger when that permanent converts, and so on.\\ 
-701.50b 虽然转换某永久物与将某永久物翻为牌面朝下或翻回正面所执行的具体动作完全相同，但此两者是完全不同的游戏动作。会因某永久物翻为牌面朝下而触发的异能，并不会在该永久物转换时触发，其他依此类推。
+<BOOKMARK:cr701-55c>701.55c A replacement effect may replace an instruction to face a villainous choice with an instruction to face that choice some number of additional times. In that case, the entire process described in rule 701.55a is performed for that player the appropriate number of times one at a time.\\ 
+701.55c 一个替代性效应可能将指示牌手面临一次邪恶抉择替代为指示牌手面临若干次额外的邪恶抉择。在这种情况下，牌手需要逐次执行相应次数的规则[[cr:7#cr701-55a|701.55a]]中所述之整个流程。
 
-<BOOKMARK:cr701-50c>701.50c If a spell or ability instructs a player to convert a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.\\ 
-701.50c 如果某咒语或异能要求牌手转换某个不是转化式双面牌的永久物，则什么都不会发生。
+<BOOKMARK:cr701-55d>701.55d If more than one player is instructed to face a villainous choice, the entire process described in rule 701.55a is performed for each of those players one at a time in APNAP order. This is an exception to rule 608.2e.\\ 
+701.55d 如果多位牌手被指示面临邪恶抉择，这些牌手按照“主动牌手先决定”的顺序逐个执行规则[[cr:7#cr701-55a|701.55a]]中所述之整个流程。这是规则[[cr:6#cr608-2e|608.2e]]的例外。
 
-<BOOKMARK:cr701-50d>701.50d If a spell or ability instructs a player to convert a permanent, and the face that permanent would convert into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.\\ 
-701.50d 如果某咒语或异能要求牌手转换某个永久物，且该永久物将要转换成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。
+<BOOKMARK:cr701-56>701.56. Time Travel\\ 
+701.56. 时间旅行
 
-<BOOKMARK:cr701-50e>701.50e If an activated or triggered ability of a permanent that isn’t a delayed triggered ability of that permanent tries to convert it, the permanent does so only if it hasn’t converted or transformed since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to convert that permanent, the permanent does so only if it hasn’t converted or transformed since that delayed triggered ability was created. In both cases, if the permanent has already transformed or converted, an instruction to do either is ignored.\\ 
-701.50e 如果一个永久物的起动式或触发式异能（且并非是该永久物的延迟触发式异能）试图转换之，该永久物仅在自该异能放进堆叠之后还没有被转化或转换过时才会如此作。如果一个永久物的延迟触发式异能试图转换该永久物，该永久物仅在自该延迟触发式异能被创造之后还没有被转化或转换过时才会如此作。在这两种情况下，如果该永久物已被转化或转换过，这类指示将被忽略。
+<BOOKMARK:cr701-56a>701.56a To time travel means to choose any number of permanents you control with one or more time counters on them and/or suspended cards you own in exile with one or more time counters on them and, for each of those objects, put a time counter on it or remove a time counter from it. See rule 702.62, “Suspend.”\\ 
+701.56a “时间旅行”意指，选择任意数量由你操控且其上有计时指示物的永久物和/或放逐区内由你拥有且其上有计时指示物之已延缓的牌。对每个这类物件而言，在其上放置一个计时指示物，或从其上移去一个计时指示物。参见规则[[cr:7#cr702-62|702.62]]，“延缓”。
 
-<BOOKMARK:cr701-50f>701.50f If a spell or ability states that a permanent can’t transform, that permanent also can’t convert.\\ 
-701.50f 如果一个效应叙述一个永久物不能转化，则该永久物也不能转换。
+<BOOKMARK:cr701-57>701.57. Discover\\ 
+701.57. 倾探
 
-<BOOKMARK:cr701-51>701.51. Incubate\\ 
-701.51. 抚育
+<BOOKMARK:cr701-57a>701.57a “Discover N” means “Exile cards from the top of your library until you exile a nonland card with mana value N or less. You may cast that card without paying its mana cost if the resulting spell’s mana value is less than or equal to N. If you don’t cast it, put that card into your hand. Put the remaining exiled cards on the bottom of your library in a random order.”\\ 
+701.57a “倾探N”意指“从你的牌库顶开始放逐牌，直到放逐一张法术力值等于或小于N的非地牌为止。你可以施放该牌，且不需支付其法术力费用，只要该牌所成为的咒语之法术力值等于或小于N。如果你未施放此牌，则将它置于你手上。然后将所有以此法放逐的其他牌以随机顺序置于你的牌库底。”
 
-<BOOKMARK:cr701-51a>701.51a To incubate N, create an Incubator token that enters the battlefield with N +1/+1 counters on it. See rule 111.10i.\\ 
-701.51a “抚育N”意指，派出一个进战场时上面有N个+1/+1指示物的抚育器衍生物。参见规则[[cr:1#cr111-10i|111.10i]]。
+<BOOKMARK:cr701-57b>701.57b A player has “discovered” after the process described in 701.57a is complete, even if some or all of those actions were impossible.\\ 
+701.57b 在完成规则[[cr:7#cr701-57a|701.57a]]中所述之流程后，牌手便已“倾探”，就算该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-51b>701.51b An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this artifact.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.”\\ 
-701.51b 抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此神器。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。
+<BOOKMARK:cr701-57c>701.57c If the final card exiled during the process described in rule 701.57a has mana value N or less, it is the “discovered card,” regardless of whether it was cast or put into a player’s hand.\\ 
+701.57c 如果以规则[[cr:7#cr701-57a|701.57a]]中所述之流程放逐的最后一张牌之法术力值等于或小于N，则该牌为“所倾探之牌”，无论该牌是被施放还是置于手上。
 
-<BOOKMARK:cr701-52>701.52. The Ring Tempts You\\ 
-701.52. 魔戒引诱你
+<BOOKMARK:cr701-58>701.58. Cloak\\ 
+701.58. 匿伏
 
-<BOOKMARK:cr701-52a>701.52a Certain spells and abilities have the text “the Ring tempts you.” Each time the Ring tempts you, choose a creature you control. That creature becomes your Ring-bearer until another creature becomes your Ring-bearer or another player gains control of it.\\ 
-701.52a 某些咒语和异能具有叙述“魔戒引诱你”。于魔戒引诱你时，选择一个由你操控的生物。该生物成为你的持戒人，直到另一个生物成为你的持戒人或另一位牌手获得它的操控权为止。
+<BOOKMARK:cr701-58a>701.58a To cloak a card, turn it face down. It becomes a 2/2 face-down creature card with ward {2}, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a cloaked permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up.\\ 
+701.58a 匿伏一张牌指，将其翻为牌面朝下。它成为2/2、具守护{2}的生物牌，没有规则文字，没有名称，没有副类别，没有法术力费用。将其牌面朝下地放进战场。只要该永久物牌面朝下，它便是已匿伏的永久物。此设定特征之效应会持续影响此牌面朝下的牌张，直到其被翻回正面为止。
 
-<BOOKMARK:cr701-52b>701.52b Ring-bearer is a designation a permanent can have. Being a Ring-bearer is not a copiable value.\\ 
-701.52b 持戒人是永久物能够具有的称号，且并非该永久物的可复制特征值。
+<BOOKMARK:cr701-58b>701.58b Any time you have priority, you may turn a cloaked permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)\\ 
+701.58b 在你拥有优先权的时机下，你可以把由你操控之已匿伏的永久物翻回正面。这属于特殊动作；它不用到堆叠（参见规则[[cr:1#cr116-2b|116.2b]]）。具体方法如下：将代表该永久物的牌张展示给所有牌手，以示此牌确为生物牌，并展示其法术力费用，支付此费用，然后将该永久物翻回正面。于此牌处于牌面朝下状态时设定其特征的效应随之结束，其重新获得在正常状况下的特征。（如果代表该永久物的牌不是生物牌，或是没有法术力费用，则它不能以此法翻回正面。）
 
-<BOOKMARK:cr701-52c>701.52c If a player doesn’t have an emblem named The Ring at the time the Ring tempts them, they get an emblem named The Ring before choosing a creature to be their Ring-bearer. The Ring has “Your Ring-bearer is legendary and can’t be blocked by creatures with greater power.” As long as the Ring has tempted that player two or more times, it has “Whenever your Ring-bearer attacks, draw a card, then discard a card.” As long as the Ring has tempted that player three or more times, it has “Whenever your Ring-bearer becomes blocked by a creature, the blocking creature’s controller sacrifices it at end of combat.” As long as the Ring has tempted that player four or more times, it has “Whenever your Ring-bearer deals combat damage to a player, each opponent loses 3 life.”\\ 
-701.52c 于魔戒引诱一位牌手时，如果其没有名称为魔戒的徽记，则其在选择持戒人之前获得一个该徽记。魔戒具有“你的持戒人是传奇且不能被力量比它大的生物阻挡。”只要魔戒已引诱该牌手两次及以上，它便具有“每当你的持戒人攻击时，抓一张牌，然后弃一张牌。”只要魔戒已引诱该牌手三次及以上，它便具有“每当你的持戒人被一个生物阻挡，在战斗结束时该生物的操控者将它牺牲。”只要魔戒已引诱该牌手四次及以上，它便具有“每当你的持戒人对任一牌手造成战斗伤害时，每位对手各失去3点生命。”
+<BOOKMARK:cr701-58c>701.58c If a card with morph is cloaked, its controller may turn that card face up using either the procedure described in rule 702.37e to turn a face-down permanent with morph face up or the procedure described above to turn a cloaked permanent face up.\\ 
+701.58c 如果匿伏的是一张具变身异能的牌，则其操控者可将其当作具变身异能的牌面朝下生物，并按照规则[[cr:7#cr702-37e|702.37e]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已匿伏的永久物来翻回正面。
 
-<BOOKMARK:cr701-52d>701.52d Some abilities trigger “Whenever the Ring tempts you.” The Ring tempts a player whenever they complete the actions in 701.52a, even if some or all of those actions were impossible.\\ 
-701.52d 一些异能于“魔戒引诱你”时触发。每当一位牌手完成701.52a中所述动作时，魔戒便引诱该牌手，即使其中部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-58d>701.58d If a card with disguise is cloaked, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a cloaked permanent face up.\\ 
+701.58d 如果匿伏的是一张具伪装异能的牌，则其操控者可将其当作具伪装异能的牌面朝下生物，并按照规则[[cr:7#cr702-168d|702.168d]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已匿伏的永久物来翻回正面。
 
-<BOOKMARK:cr701-52e>701.52e Some abilities check to see if a creature “is your Ring-bearer.” For the purposes of those abilities, that condition is true if that creature is on the battlefield under your control and has the Ring-bearer designation.\\ 
-701.52e 一些异能检查一个生物是否“是你的持戒人”。对于这些异能而言，若该生物在战场上由你操控且具有持戒人此称号，即符合该条件。
+<BOOKMARK:cr701-58e>701.58e If an effect instructs a player to cloak multiple cards from a single library, those cards are cloaked one at a time.\\ 
+701.58e 如果某效应指示牌手从其牌库匿伏数张牌，则逐张匿伏该些牌。
 
-<BOOKMARK:cr701-53>701.53. Face a Villainous Choice\\ 
-701.53. 面临邪恶抉择
+<BOOKMARK:cr701-58f>701.58f If an effect instructs a player to cloak a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t cloaked. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up.\\ 
+701.58f 如果某效应指示牌手匿伏一张牌，且有另一个规则或效应阻止该面朝下的物件进入战场，该牌不会被匿伏。其特征不会被改变，并留在原来的区域。如果它原本是面朝上的，它仍然是面朝上。
 
-<BOOKMARK:cr701-53a>701.53a “[A player] faces a villainous choice — [option A], or [option B]” means “[A player] chooses [option A] or [option B]. Then all actions in the chosen option are performed.”\\ 
-701.53a “[牌手]面临邪恶抉择～[选项A]；或[选项B]”意指“[牌手]选择[选项A]或[选项B]。然后执行所选项中的所有动作。”
+<BOOKMARK:cr701-58g>701.58g If a cloaked permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger.\\ 
+701.58g 如果一个由瞬间和法术牌代表之已匿伏的永久物将要翻回正面，则其操控者展示该牌，然后将其保持牌面朝下。因永久物翻回正面时触发的异能不会触发。
 
-<BOOKMARK:cr701-53b>701.53b While facing a villainous choice, a player may choose an option that is illegal or impossible. In that case, they perform as much of the action as is possible. This is an exception to rule 608.2d.\\ 
-701.53b 当面临邪恶抉择时，牌手可以选择非法或无法完成的选项。在这种情况下，该牌手执行其中尽可能多的动作。这是规则[[cr:6#cr608-2d|608.2d]]的例外。
+<BOOKMARK:cr701-58h>701.58h See rule 708, “Face-Down Spells and Permanents,” for more information.\\ 
+701.58h 欲了解更多信息，参见规则[[cr:7#cr708|708]]，“牌面朝下的咒语和永久物”。
 
-<BOOKMARK:cr701-53c>701.53c A replacement effect may replace an instruction to face a villainous choice with an instruction to face that choice some number of additional times. In that case, the entire process described in rule 701.53a is performed for that player the appropriate number of times one at a time.\\ 
-701.53c 一个替代性效应可能将指示牌手面临一次邪恶抉择替代为指示牌手面临若干次额外的邪恶抉择。在这种情况下，牌手需要逐次执行相应次数的规则[[cr:7#cr701-53a|701.53a]]中所述之整个流程。
+<BOOKMARK:cr701-59>701.59. Collect Evidence\\ 
+701.59. 搜证
 
-<BOOKMARK:cr701-53d>701.53d If more than one player is instructed to face a villainous choice, the entire process described in rule 701.53a is performed for each of those players one at a time in APNAP order. This is an exception to rule 608.2e.\\ 
-701.53d 如果多位牌手被指示面临邪恶抉择，这些牌手按照“主动牌手先决定”的顺序逐个执行规则[[cr:7#cr701-53a|701.53a]]中所述之整个流程。这是规则[[cr:6#cr608-2e|608.2e]]的例外。
+<BOOKMARK:cr701-59a>701.59a To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater.\\ 
+701.59a “搜证N”意指，从你的坟墓场放逐任意数量的牌，且其法术力值加总须达到N或更多。
 
-<BOOKMARK:cr701-54>701.54. Time Travel\\ 
-701.54. 时间旅行
+<BOOKMARK:cr701-59b>701.59b If a player is given the choice to collect evidence but is unable to exile cards with total mana value N or greater from their graveyard (usually because there aren’t enough cards to do so) they can’t choose to collect evidence.\\ 
+701.59b 如果牌手于其无法放逐法术力值加总达到N或更多的牌时得到搜证的选项（通常是由于其坟墓场中没有足够的牌），则其不能选择进行搜证。
 
-<BOOKMARK:cr701-54a>701.54a To time travel means to choose any number of permanents you control with one or more time counters on them and/or suspended cards you own in exile with one or more time counters on them and, for each of those objects, put a time counter on it or remove a time counter from it. See rule 702.62, “Suspend.”\\ 
-701.54a “时间旅行”意指，选择任意数量由你操控且其上有计时指示物的永久物和/或放逐区内由你拥有且其上有计时指示物之已延缓的牌。对每个这类物件而言，在其上放置一个计时指示物，或从其上移去一个计时指示物。参见规则[[cr:7#cr702-62|702.62]]，“延缓”。
+<BOOKMARK:cr701-59c>701.59c A spell that has an ability that allows a player to collect evidence as an additional cost to cast it may have another ability that refers to whether evidence was collected. These abilities are linked. See rule 607, “Linked Abilities.”\\ 
+701.59c 如果一个咒语具有允许牌手搜证以作为施放此咒语的额外费用的异能，则其可能还具有另一个提及是否搜证的异能。这些异能相互关联。参见规则[[cr:6#cr607|607]]，“关联异能”。
 
-<BOOKMARK:cr701-55>701.55. Discover\\ 
-701.55. 倾探
+<BOOKMARK:cr701-60>701.60. Suspect\\ 
+701.60. 怀疑
 
-<BOOKMARK:cr701-55a>701.55a “Discover N” means “Exile cards from the top of your library until you exile a nonland card with mana value N or less. You may cast that card without paying its mana cost if the resulting spell’s mana value is less than or equal to N. If you don’t cast it, put that card into your hand. Put the remaining exiled cards on the bottom of your library in a random order.”\\ 
-701.55a “倾探N”意指“从你的牌库顶开始放逐牌，直到放逐一张法术力值等于或小于N的非地牌为止。你可以施放该牌，且不需支付其法术力费用，只要该牌所成为的咒语之法术力值等于或小于N。如果你未施放此牌，则将它置于你手上。然后将所有以此法放逐的其他牌以随机顺序置于你的牌库底。”
+<BOOKMARK:cr701-60a>701.60a Certain spells and abilities instruct a player to suspect a creature. That creature becomes suspected until it leaves the battlefield or until a spell or ability causes it to no longer be suspected.\\ 
+701.60a 某些咒语和异能指示牌手怀疑一个生物。该生物成为已遭疑，直到它离开战场或是有咒语或异能使其不再遭疑为止。
 
-<BOOKMARK:cr701-55b>701.55b A player has “discovered” after the process described in 701.55a is complete, even if some or all of those actions were impossible.\\ 
-701.55b 在完成规则[[cr:7#cr701-55a|701.55a]]中所述之流程后，牌手便已“倾探”，就算该流程之部分或全部动作无法完成也是一样。
+<BOOKMARK:cr701-60b>701.60b Suspected is a designation a permanent can have. Only permanents can have the suspected designation. Suspected is neither an ability nor part of the permanent’s copiable values.\\ 
+701.60b 已遭疑是永久物能够具有的称号。只有永久物能够具有已遭疑此称号。已遭疑既不是异能，也不是该永久物可复制特征值的一部分。
 
-<BOOKMARK:cr701-55c>701.55c If the final card exiled during the process described in rule 701.55a has mana value N or less, it is the “discovered card,” regardless of whether it was cast or put into a player’s hand.\\ 
-701.55c 如果以规则[[cr:7#cr701-55a|701.55a]]中所述之流程放逐的最后一张牌之法术力值等于或小于N，则该牌为“所倾探之牌”，无论该牌是被施放还是置于手上。
+<BOOKMARK:cr701-60c>701.60c A suspected permanent has menace and “This creature can’t block” for as long as it’s suspected.\\ 
+701.60c 已遭疑的永久物于已遭疑期间具有威慑异能与“此生物不能进行阻挡”。
 
-<BOOKMARK:cr701-56>701.56. Cloak\\ 
-701.56. 匿伏
+<BOOKMARK:cr701-60d>701.60d A suspected permanent can’t become suspected again.\\ 
+701.60d 已遭疑的永久物不能再次成为已遭疑。
 
-<BOOKMARK:cr701-56a>701.56a To cloak a card, turn it face down. It becomes a 2/2 face-down creature card with ward {2}, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a cloaked permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up.\\ 
-701.56a 匿伏一张牌指，将其翻为牌面朝下。它成为2/2、具守护{2}的生物牌，没有规则文字，没有名称，没有副类别，没有法术力费用。将其牌面朝下地放进战场。只要该永久物牌面朝下，它便是已匿伏的永久物。此设定特征之效应会持续影响此牌面朝下的牌张，直到其被翻回正面为止。
+<BOOKMARK:cr701-61>701.61. Forage\\ 
+701.61. 觅粮
 
-<BOOKMARK:cr701-56b>701.56b Any time you have priority, you may turn a cloaked permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)\\ 
-701.56b 在你拥有优先权的时机下，你可以把由你操控之已匿伏的永久物翻回正面。这属于特殊动作；它不用到堆叠（参见规则[[cr:1#cr116-2b|116.2b]]）。具体方法如下：将代表该永久物的牌张展示给所有牌手，以示此牌确为生物牌，并展示其法术力费用，支付此费用，然后将该永久物翻回正面。于此牌处于牌面朝下状态时设定其特征的效应随之结束，其重新获得在正常状况下的特征。（如果代表该永久物的牌不是生物牌，或是没有法术力费用，则它不能以此法翻回正面。）
+<BOOKMARK:cr701-61a>701.61a To forage means “Exile three cards from your graveyard or sacrifice a Food.”\\ 
+701.61a 觅粮意指“从你的坟墓场放逐三张牌，或牺牲一个食品”。
 
-<BOOKMARK:cr701-56c>701.56c If a card with morph is cloaked, its controller may turn that card face up using either the procedure described in rule 702.37e to turn a face-down permanent with morph face up or the procedure described above to turn a cloaked permanent face up.\\ 
-701.56c 如果匿伏的是一张具变身异能的牌，则其操控者可将其当作具变身异能的牌面朝下生物，并按照规则[[cr:7#cr702-37e|702.37e]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已匿伏的永久物来翻回正面。
+<BOOKMARK:cr701-62>701.62. Manifest Dread\\ 
+701.62. 显化惧象
 
-<BOOKMARK:cr701-56d>701.56d If a card with disguise is cloaked, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a cloaked permanent face up.\\ 
-701.56d 如果匿伏的是一张具伪装异能的牌，则其操控者可将其当作具伪装异能的牌面朝下生物，并按照规则[[cr:7#cr702-168d|702.168d]]中所述之流程来将其翻回正面；亦可比照本条前述之流程，将其当作已匿伏的永久物来翻回正面。
+<BOOKMARK:cr701-62a>701.62a “Manifest dread” means “Look at the top two cards of your library. Manifest one of them, then put the cards you looked at that were not manifested this way into your graveyard.” See rule 701.40, “Manifest.”\\ 
+701.62a “显化惧象”意指“检视你牌库顶的两张牌。将其中一张显化，然后将所检视之牌中未以此法显化的牌置入你的坟墓场。”参见规则[[cr:7#cr701-40|701.40]]，“显化”。
 
-<BOOKMARK:cr701-56e>701.56e If an effect instructs a player to cloak multiple cards from a single library, those cards are cloaked one at a time.\\ 
-701.56e 如果某效应指示牌手从其牌库匿伏数张牌，则逐张匿伏该些牌。
+<BOOKMARK:cr701-62b>701.62b An ability that triggers whenever a player manifests dread triggers after the process described in rule 701.62a is complete, even if some or all of those actions were impossible.\\ 
+701.62b 每当牌手显化惧象时触发的异能会在完成规则[[cr:7#cr701-62a|701.62a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
 
-<BOOKMARK:cr701-56f>701.56f If an effect instructs a player to cloak a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t cloaked. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up.\\ 
-701.56f 如果某效应指示牌手匿伏一张牌，且有另一个规则或效应阻止该面朝下的物件进入战场，该牌不会被匿伏。其特征不会被改变，并留在原来的区域。如果它原本是面朝上的，它仍然是面朝上。
+<BOOKMARK:cr701-63>701.63. Endure\\ 
+701.63. 续战
 
-<BOOKMARK:cr701-56g>701.56g If a cloaked permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger.\\ 
-701.56g 如果一个由瞬间和法术牌代表之已匿伏的永久物将要翻回正面，则其操控者展示该牌，然后将其保持牌面朝下。因永久物翻回正面时触发的异能不会触发。
+<BOOKMARK:cr701-63a>701.63a Certain abilities instruct a permanent to endure N. To do so, that permanent’s controller creates an N/N white Spirit creature token unless they put N +1/+1 counters on that permanent.\\ 
+701.63a 某些异能会指示永久物续战N。其意指，除非该永久物的操控者在该永久物上放置N个+1/+1指示物，否则其派出一个N/N白色精怪衍生生物。
 
-<BOOKMARK:cr701-56h>701.56h See rule 708, “Face-Down Spells and Permanents,” for more information.\\ 
-701.56h 欲了解更多信息，参见规则[[cr:7#cr708|708]]，“牌面朝下的咒语和永久物”。
-
-<BOOKMARK:cr701-57>701.57. Collect Evidence\\ 
-701.57. 搜证
-
-<BOOKMARK:cr701-57a>701.57a To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater.\\ 
-701.57a “搜证N”意指，从你的坟墓场放逐任意数量的牌，且其法术力值加总须达到N或更多。
-
-<BOOKMARK:cr701-57b>701.57b If a player is given the choice to collect evidence but is unable to exile cards with total mana value N or greater from their graveyard (usually because there aren’t enough cards to do so) they can’t choose to collect evidence.\\ 
-701.57b 如果牌手于其无法放逐法术力值加总达到N或更多的牌时得到搜证的选项（通常是由于其坟墓场中没有足够的牌），则其不能选择进行搜证。
-
-<BOOKMARK:cr701-57c>701.57c A spell that has an ability that allows a player to collect evidence as an additional cost to cast it may have another ability that refers to whether evidence was collected. These abilities are linked. See rule 607, “Linked Abilities.”\\ 
-701.57c 如果一个咒语具有允许牌手搜证以作为施放此咒语的额外费用的异能，则其可能还具有另一个提及是否搜证的异能。这些异能相互关联。参见规则[[cr:6#cr607|607]]，“关联异能”。
-
-<BOOKMARK:cr701-58>701.58. Suspect\\ 
-701.58. 怀疑
-
-<BOOKMARK:cr701-58a>701.58a Certain spells and abilities instruct a player to suspect a creature. That creature becomes suspected until it leaves the battlefield or until a spell or ability causes it to no longer be suspected.\\ 
-701.58a 某些咒语和异能指示牌手怀疑一个生物。该生物成为已遭疑，直到它离开战场或是有咒语或异能使其不再遭疑为止。
-
-<BOOKMARK:cr701-58b>701.58b Suspected is a designation a permanent can have. Only permanents can have the suspected designation. Suspected is neither an ability nor part of the permanent’s copiable values.\\ 
-701.58b 已遭疑是永久物能够具有的称号。只有永久物能够具有已遭疑此称号。已遭疑既不是异能，也不是该永久物可复制特征值的一部分。
-
-<BOOKMARK:cr701-58c>701.58c A suspected permanent has menace and “This creature can’t block” for as long as it’s suspected.\\ 
-701.58c 已遭疑的永久物于已遭疑期间具有威慑异能与“此生物不能进行阻挡”。
-
-<BOOKMARK:cr701-58d>701.58d A suspected permanent can’t become suspected again.\\ 
-701.58d 已遭疑的永久物不能再次成为已遭疑。
-
-<BOOKMARK:cr701-59>701.59. Forage\\ 
-701.59. 觅粮
-
-<BOOKMARK:cr701-59a>701.59a To forage means “Exile three cards from your graveyard or sacrifice a Food.”\\ 
-701.59a 觅粮意指“从你的坟墓场放逐三张牌，或牺牲一个食品”。
-
-<BOOKMARK:cr701-60>701.60. Manifest Dread\\ 
-701.60. 显化惧象
-
-<BOOKMARK:cr701-60a>701.60a “Manifest dread” means “Look at the top two cards of your library. Manifest one of them, then put the cards you looked at that were not manifested this way into your graveyard.” See rule 701.34, “Manifest.”\\ 
-701.60a “显化惧象”意指“检视你牌库顶的两张牌。将其中一张显化，然后将所检视之牌中未以此法显化的牌置入你的坟墓场。”参见规则[[cr:7#cr701-34|701.34]]，“显化”。
-
-<BOOKMARK:cr701-60b>701.60b An ability that triggers whenever a player manifests dread triggers after the process described in rule 701.60a is complete, even if some or all of those actions were impossible.\\ 
-701.60b 每当牌手显化惧象时触发的异能会在完成规则[[cr:7#cr701-60a|701.60a]]所述之流程后触发，即使该流程之部分或全部动作无法完成也是一样。
-
-<BOOKMARK:cr701-61>701.61. Behold\\ 
-701.61. 请援
-
-<BOOKMARK:cr701-61a>701.61a “Behold a [quality]” means “Reveal a [quality] card from your hand or choose a [quality] permanent you control on the battlefield.”\\ 
-701.61a “请援[特性]”意指“从你手上展示一张[特性]牌，或选择一个战场上由你操控的[特性]永久物”。
-
-<BOOKMARK:cr701-61b>701.61b The phrase “if a [quality] was beheld” refers to whether or not the object had that quality at the time the player took that action, regardless of whether or not the revealed card or chosen permanent still has that quality as the spell or ability including that phrase resolves.\\ 
-701.61b “如果已请援[特性]”此描述仅关注该物件于牌手执行该动作时是否具有该特性，无论所展示的牌或所选择的永久物于包含该描述的咒语或异能结算时是否仍具有该特性。
-
-<BOOKMARK:cr701-62>701.62. Endure\\ 
-701.62. 续战
-
-<BOOKMARK:cr701-62a>701.62a Certain abilities instruct a permanent to endure N. To do so, that permanent’s controller creates an N/N white Spirit creature token unless they put N +1/+1 counters on that permanent.\\ 
-701.62a 某些异能会指示永久物续战N。其意指，除非该永久物的操控者在该永久物上放置N个+1/+1指示物，否则其派出一个N/N白色精怪衍生生物。
-
-<BOOKMARK:cr701-62b>701.62b If a permanent is instructed to endure 0, nothing happens. No counters are put on that permanent and no tokens are created.\\ 
-701.62b 如果某永久物被指示续战0，则什么都不会发生。该永久物上不会放置任何指示物，也不会派出衍生物。
+<BOOKMARK:cr701-63b>701.63b If a permanent is instructed to endure 0, nothing happens. No counters are put on that permanent and no tokens are created.\\ 
+701.63b 如果某永久物被指示续战0，则什么都不会发生。该永久物上不会放置任何指示物，也不会派出衍生物。
 
 ===== 702. 关键字异能 Keyword Abilities =====
 <BOOKMARK:cr702>702. Keyword Abilities\\ 
@@ -2208,8 +2220,8 @@ Example: You activate the aura swap ability of an Aura that you control but you 
 <BOOKMARK:cr702-94a>702.94a Miracle is a static ability linked to a triggered ability. (See rule 603.11.) “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”\\ 
 702.94a 奇迹是与触发式异能有关联的静止式异能。（参见规则[[cr:6#cr603-11|603.11]]。）“奇迹[费用]”意指“于你抓到此牌时，若其为你本回合抓到的第一张牌，你可以从手上展示它。当你以此法展示此牌时，你可以支付[费用]并施放之，而不需支付其法术力费用。”
 
-<BOOKMARK:cr702-94b>702.94b If a player chooses to reveal a card using its miracle ability, they play with that card revealed until that card leaves their hand, that ability resolves, or that ability otherwise leaves the stack. (See rule 701.16a.)\\ 
-702.94b 如果牌手选择通过某张牌的奇迹异能来展示，则直到该牌离开其手牌、该异能结算，或该异能因故离开堆叠为止，该牌手须以展示此牌的方式进行游戏。（参见规则[[cr:7#cr701-16a|701.16a]]。）
+<BOOKMARK:cr702-94b>702.94b If a player chooses to reveal a card using its miracle ability, they play with that card revealed until that card leaves their hand, that ability resolves, or that ability otherwise leaves the stack. (See rule 701.20a.)\\ 
+702.94b 如果牌手选择通过某张牌的奇迹异能来展示，则直到该牌离开其手牌、该异能结算，或该异能因故离开堆叠为止，该牌手须以展示此牌的方式进行游戏。（参见规则[[cr:7#cr701-20a|701.20a]]。）
 
 <BOOKMARK:cr702-95>702.95. Soulbond\\ 
 702.95. 魂系
@@ -2934,8 +2946,8 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-159>702.159. Visit\\ 
 702.159. 造访
 
-<BOOKMARK:cr702-159a>702.159a Visit is a keyword ability found on Attraction cards (see rule 717). “Visit — [Effect]” means “Whenever you roll to visit your Attractions, if the result is equal to a number that is lit up on this Attraction, [effect].” See rule 701.49, “Roll to Visit Your Attractions.”\\ 
-702.159a 造访是见于景点牌上的关键字异能（参见规则[[cr:7#cr717|717]]）。“造访～[效应]”意指“每当你掷骰造访景点时，若掷骰结果等同于由此景点上的一个亮起的数字，[效应]。”参见规则[[cr:7#cr701-49|701.49]]，“掷骰造访景点”。
+<BOOKMARK:cr702-159a>702.159a Visit is a keyword ability found on Attraction cards (see rule 717). “Visit — [Effect]” means “Whenever you roll to visit your Attractions, if the result is equal to a number that is lit up on this Attraction, [effect].” See rule 701.52, “Roll to Visit Your Attractions.”\\ 
+702.159a 造访是见于景点牌上的关键字异能（参见规则[[cr:7#cr717|717]]）。“造访～[效应]”意指“每当你掷骰造访景点时，若掷骰结果等同于由此景点上的一个亮起的数字，[效应]。”参见规则[[cr:7#cr701-52|701.52]]，“掷骰造访景点”。
 
 <BOOKMARK:cr702-159b>702.159b Some Attractions instruct a player to “claim the prize,” followed by a second paragraph that starts with the word “Prize” and a long dash. This text is part of its visit ability. To claim the prize of an Attraction, perform the actions listed after the long dash.\\ 
 702.159b 一些景点指示牌手“赢得奖励”，随后的第二个段落以单词“Prize”和一条长横线开头。这些叙述是其造访异能的一部分。赢得一个景点的奖励的流程是，执行在该长横线后列出的动作。
@@ -2955,8 +2967,8 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-162>702.162. More Than Meets the Eye\\ 
 702.162. 远超所见
 
-<BOOKMARK:cr702-162a>702.162a More Than Meets the Eye represents a static ability that functions in any zone from which the spell may be cast. “More Than Meets the Eye [cost]” means “You may cast this card converted by paying [cost] rather than its mana cost.” Casting a spell using its More Than Meets the Eye ability follows the rules for paying alternative costs (see 601.2b and 601.2f–h). See rule 701.50, “Convert.”\\ 
-702.162a 远超所见代表一个静止式异能，在任何能施放该咒语的区域中都会生效。“远超所见[费用]”意指“你可以支付[费用]来施放已转换的此牌，而不支付其法术力费用。”支付某咒语的远超所见费用时，需依照规定来支付额外费用（参见规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]）。参见规则[[cr:7#cr701-50|701.50]]，“转换”。
+<BOOKMARK:cr702-162a>702.162a More Than Meets the Eye represents a static ability that functions in any zone from which the spell may be cast. “More Than Meets the Eye [cost]” means “You may cast this card converted by paying [cost] rather than its mana cost.” Casting a spell using its More Than Meets the Eye ability follows the rules for paying alternative costs (see 601.2b and 601.2f–h). See rule 701.28, “Convert.”\\ 
+702.162a 远超所见代表一个静止式异能，在任何能施放该咒语的区域中都会生效。“远超所见[费用]”意指“你可以支付[费用]来施放已转换的此牌，而不支付其法术力费用。”支付某咒语的远超所见费用时，需依照规定来支付额外费用（参见规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]）。参见规则[[cr:7#cr701-28|701.28]]，“转换”。
 
 <BOOKMARK:cr702-163>702.163. For Mirrodin!\\ 
 702.163. 秘罗万岁！
@@ -3096,8 +3108,8 @@ Example: If a creature with toxic 2 gains toxic 1 due to another effect, its tot
 <BOOKMARK:cr702-172a>702.172a Spree is a static ability found on some modal spells (see rule 700.2) that applies while the spell on the stack. Spree means “Choose one or more modes. As an additional cost to cast this spell, pay the costs associated with those modes.”\\ 
 702.172a 追欢是见于某些具有模式之咒语上的静止式异能（参见规则[[cr:7#cr700-2|700.2]]），会于咒语在堆叠上时生效。“追欢”意指“选择一个或数个模式。支付与这些模式关联的费用，以作为施放此咒语的额外费用。”
 
-<BOOKMARK:cr702-172b>702.172b Cards with the spree ability have a plus sign icon in the upper right corner of the card. This symbol is a visual reminder that this card requires an additional cost to be cast. This icon has no rules meaning.\\ 
-702.172b 具有追欢异能之牌的右上角印有一个加号符号。此符号仅为视觉提示，说明此牌要求额外费用才能施放。此符号并无规则含义。
+<BOOKMARK:cr702-172b>702.172b Cards with the spree ability have a plus sign icon in the upper right corner of the card, and use a plus sign (+) rather than traditional cullet points. These symbols are a visual reminder that this card requires an additional cost to be cast, and do not have additional rules meaning..\\ 
+702.172b 具有追欢异能之牌的右上角印有一个加号符号，且使用加号（+）而非通常的圆点来指示模式。这些符号仅为视觉提示，说明此牌要求额外费用才能施放，并无额外规则含义。
 
 <BOOKMARK:cr702-173>702.173. Freerunning\\ 
 702.173. 自由奔跑
@@ -3156,8 +3168,8 @@ Example: If a creature with toxic 2 gains toxic 1 due to another effect, its tot
 <BOOKMARK:cr702-176>702.176. Impending\\ 
 702.176. 隐现
 
-<BOOKMARK:cr702-176a>702.176a Impending is a keyword that represents four abilities. The first and second are static abilities that function while the spell with impending is on the stack. The third is a static ability that functions on the battlefield. The fourth is a triggered ability that functions on the battlefield. “Impending N—[cost]” means “You may choose to pay [cost] rather than pay this spell’s mana cost,” “If this spell’s impending cost was paid, it enters with N time counters on it,” “As long as this permanent’s impending cost was paid and it has a time counter on it, it’s not a creature,” and “At the beginning of your end step, if this permanent’s impending cost was paid and it has a time counter on it, remove a time counter from it.” Casting a spell for its impending cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.\\ 
-702.176a 隐现此关键字代表四个异能。第一个和第二个是静止式异能，会于具有隐现异能的咒语在堆叠上时生效。第三个是静止式异能，在战场上生效。第四个是触发式异能，在战场上生效。“隐现N～[费用]”意指“你可以选择支付[费用]，而非支付此咒语的法术力费用”、“如果你曾支付此咒语的隐现费用，则其进场时上面有N个计时指示物”、“只要曾支付过此永久物的隐现费用且其上有计时指示物，它便不是生物”以及“在你的结束步骤开始时，若曾支付此永久物的隐现费用且其上有计时指示物，则从其上移去一个计时指示物。”支付隐现费用以施放咒语时，需依照规则[[cr:6#cr601-2b|601.2b]]与[[cr:6#cr601-2f|601.2f-h]]之规范来支付替代性费用。
+<BOOKMARK:cr702-176a>702.176a Impending is a keyword that represents four abilities. The first and second are static abilities that function while the spell with impending is on the stack. The third is a static ability that functions on the battlefield. The fourth is a triggered ability that functions on the battlefield. “Impending N—[cost]” means “You may choose to pay [cost] rather than pay this spell’s mana cost,” “If you chose to pay this spell’s impending cost, it enters with N time counters on it,” “As long as this permanent’s impending cost was paid and it has a time counter on it, it’s not a creature,” and “At the beginning of your end step, if this permanent’s impending cost was paid and it has a time counter on it, remove a time counter from it.” Casting a spell for its impending cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.\\ 
+702.176a 隐现此关键字代表四个异能。第一个和第二个是静止式异能，会于具有隐现异能的咒语在堆叠上时生效。第三个是静止式异能，在战场上生效。第四个是触发式异能，在战场上生效。“隐现N～[费用]”意指“你可以选择支付[费用]，而非支付此咒语的法术力费用”、“如果你选择支付此咒语的隐现费用，则其进场时上面有N个计时指示物”、“只要曾支付过此永久物的隐现费用且其上有计时指示物，它便不是生物”以及“在你的结束步骤开始时，若曾支付此永久物的隐现费用且其上有计时指示物，则从其上移去一个计时指示物。”支付隐现费用以施放咒语时，需依照规则[[cr:6#cr601-2b|601.2b]]与[[cr:6#cr601-2f|601.2f-h]]之规范来支付替代性费用。
 
 <BOOKMARK:cr702-177>702.177. Exhaust\\ 
 702.177. 竭绝
@@ -3216,6 +3228,18 @@ Example: Elvish Refueler has an exhaust ability that costs mana and also has an 
 <BOOKMARK:cr702-181a>702.181a Mobilize is a triggered ability. “Mobilize N” means “Whenever this creature attacks, create N 1/1 red Warrior creature tokens. Those tokens enter tapped and attacking. Sacrifice them at the beginning of the next end step.”\\ 
 702.181a 动员属于触发式异能。“动员N”意指，“每当此生物攻击时，派出N个已横置且正进行攻击的1/1红色战士衍生生物。在下一个结束步骤开始时将它们牺牲。”
 
+<BOOKMARK:cr702-182>702.182. Job Select\\ 
+702.182. 职业选择
+
+<BOOKMARK:cr702-182a>702.182a Job select is a triggered ability. “Job select” means “When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this Equipment to it.”\\ 
+702.182a 职业选择属于触发式异能。“职业选择”意指“当此武具进场时，派出一个1/1无色英雄衍生生物，然后将它贴附于其上。”
+
+<BOOKMARK:cr702-183>702.183. Tiered\\ 
+702.183. 分级
+
+<BOOKMARK:cr702-183a>702.183a Tiered is a static ability found on some modal spells (see rule 700.2) that applies while the spell is on the stack. Tiered means “Choose one. As an additional cost to cast this spell, pay the cost associated with that mode.”\\ 
+702.183a 分级是见于某些具有模式之咒语上的静止式异能（参见规则[[cr:7#cr700-2|700.2]]），会于咒语在堆叠上时生效。“分级”意指“选择一项。支付与该模式关联的费用，以作为施放此咒语的额外费用。”
+
 ===== 703. 回合动作 Turn-Based Actions =====
 <BOOKMARK:cr703>703. Turn-Based Actions\\ 
 703. 回合动作
@@ -3247,14 +3271,14 @@ Example: Elvish Refueler has an exhaust ability that costs mana and also has an 
 <BOOKMARK:cr703-4d>703.4d Immediately after the draw step begins, the active player draws a card. See rule 504.1.\\ 
 703.4d 在抓牌步骤开始之后，主动牌手立刻抓一张牌。参见规则[[cr:5#cr504-1|504.1]]。
 
-<BOOKMARK:cr703-4e>703.4e In an Archenemy game (see rule 904), immediately after the archenemy’s precombat main phase begins, that player sets the top card of their scheme deck in motion. See rule 701.25.\\ 
-703.4e 在魔王游戏中（参见规则[[cr:9#cr904|904]]），在魔王的战斗前行动阶段开始之后，该牌手立刻发动其邪计套牌的牌库顶牌。参见规则[[cr:7#cr701-25|701.25]]。
+<BOOKMARK:cr703-4e>703.4e In an Archenemy game (see rule 904), immediately after the archenemy’s precombat main phase begins, that player sets the top card of their scheme deck in motion. See rule 701.32.\\ 
+703.4e 在魔王游戏中（参见规则[[cr:9#cr904|904]]），在魔王的战斗前行动阶段开始之后，该牌手立刻发动其邪计套牌的牌库顶牌。参见规则[[cr:7#cr701-32|701.32]]。
 
-<BOOKMARK:cr703-4f>703.4f Immediately after a player’s precombat main phase begins, that player puts a lore counter on each Saga enchantment they control. In an Archenemy game, this happens after the archenemy’s scheme action. See rule 714, “Saga Cards.”\\ 
-703.4f 在牌手的战斗前行动阶段开始之后，该牌手立刻在其操控的每个传纪结界上放置一个学问指示物。在魔王游戏中，这会在魔王的邪计动作之后发生。参见规则[[cr:7#cr714|714]]，“传纪牌”。
+<BOOKMARK:cr703-4f>703.4f Immediately after a player’s precombat main phase begins, that player puts a lore counter on each Saga enchantment they control with one or more chapter abilities. In an Archenemy game, this happens after the archenemy’s scheme action. See rule 714, “Saga Cards.”\\ 
+703.4f 在牌手的战斗前行动阶段开始之后，该牌手立刻在每个由其操控且具有章节异能的传纪结界上放置一个学问指示物。在魔王游戏中，这会在魔王的邪计动作之后发生。参见规则[[cr:7#cr714|714]]，“传纪牌”。
 
-<BOOKMARK:cr703-4g>703.4g Immediately after the action of placing lore counters has been completed, if the active player controls any Attractions, that player rolls to visit their Attractions. See rule 701.49, “Roll to Visit Your Attractions.”\\ 
-703.4g 在放置学问指示物动作完成之后，如果主动牌手操控任何景点，该牌手立刻掷骰造访景点。参见规则[[cr:7#cr701-49|701.49]]，“掷骰造访景点”。
+<BOOKMARK:cr703-4g>703.4g Immediately after the action of placing lore counters has been completed, if the active player controls any Attractions, that player rolls to visit their Attractions. See rule 701.52, “Roll to Visit Your Attractions.”\\ 
+703.4g 在放置学问指示物动作完成之后，如果主动牌手操控任何景点，该牌手立刻掷骰造访景点。参见规则[[cr:7#cr701-52|701.52]]，“掷骰造访景点”。
 
 <BOOKMARK:cr703-4h>703.4h Immediately after the beginning of combat step begins, if the game being played is a multiplayer game in which the active player’s opponents don’t all automatically become defending players, the active player chooses one of their opponents. That player becomes the defending player. See rule 507.1.\\ 
 703.4h 在战斗开始步骤开始之后，如果正在进行一局多人游戏，且主动牌手之对手并不会全部自动成为防御牌手，则主动牌手立刻选择一位对手。该牌手成为防御牌手。参见规则[[cr:5#cr507-1|507.1]]。
@@ -3353,8 +3377,8 @@ Example: A player controls Maro, a creature with the ability “Maro’s power a
 <BOOKMARK:cr704-5r>704.5r If a permanent with an ability that says it can’t have more than N counters of a certain kind on it has more than N counters of that kind on it, all but N of those counters are removed from it.\\ 
 704.5r 如果一个永久物上具有多于N个的某种指示物，且该永久物具有不得有多于N个的该种指示物之异能，则N个以外的指示物将被移去。
 
-<BOOKMARK:cr704-5s>704.5s If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. See rule 714, “Saga Cards.”\\ 
-704.5s 如果一个传纪永久物上的学问指示物数量大于或等于其上章节异能的最终章节编号，且其并非一个已触发且尚未离开堆叠的章节异能之来源，该传纪的操控者将其牺牲。参见规则[[cr:7#cr714|714]]，“传纪牌”。
+<BOOKMARK:cr704-5s>704.5s If the number of lore counters on a Saga permanent with one or more chapter abilities is greater than or equal to its final chapter number and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. See rule 714, “Saga Cards.”\\ 
+704.5s 如果一个具有章节异能的传纪永久物上的学问指示物数量大于或等于其上章节异能的最终章节编号，且其并非一个已触发且尚未离开堆叠的章节异能之来源，该传纪的操控者将其牺牲。参见规则[[cr:7#cr714|714]]，“传纪牌”。
 
 <BOOKMARK:cr704-5t>704.5t If a player’s venture marker is on the bottommost room of a dungeon card, and that dungeon card isn’t the source of a room ability that has triggered but not yet left the stack, the dungeon card’s owner removes it from the game. See rule 309, “Dungeons.”\\ 
 704.5t 如果牌手的进度标记在一张地城牌最底下的房间上，且该地城牌不是已触发且未离开堆叠的某个房间异能之来源，该地城牌的拥有者将其移出游戏。参见规则[[cr:3#cr309|309]]，“地城”。
@@ -3419,6 +3443,9 @@ Example: You control Young Wolf, a 1/1 creature with undying, and it has a +1/+1
 
 <BOOKMARK:cr705-2>705.2. Some effects that instruct a player to flip a coin care only about whether the coin comes up heads or tails. No player wins or loses a coin flip for this kind of effect. For all other effects that instruct a player to flip a coin, the player that flips the coin calls “heads” or “tails.” If the call matches the result, the player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.\\ 
 705.2. 某些令牌手掷一枚硬币的效应只关心掷硬币的结果是正面还是反面。对于此类效应而言，没有牌手会猜对或猜错此掷。对于所有其他令牌手掷硬币的效应而言，掷硬币的牌手说出“正面”或“反面”。如果牌手所说与掷硬币的结果相符，则该牌手猜对这一掷。否则，该牌手猜错这一掷。只有掷硬币的牌手才能猜对或猜错此次掷硬币；并不会涉及其他牌手。
+
+<BOOKMARK:cr705-3>705.3. An effect may state that a coin flip has a certain result and/or that a certain player wins a coin flip. In that case, ignore the actual results of that flip and use the indicated results instead. This can cause a player to win a flip that couldn’t otherwise be won.\\ 
+705.3. 一个效应令掷硬币的结果成为某一面和/或某位牌手猜对掷硬币。在此情况下，忽略该掷的实际结果，并改为使用所指示的结果。这可能使得牌手猜对原本无法猜对的掷硬币。
 
 ===== 706. 掷骰 Rolling a Die =====
 <BOOKMARK:cr706>706. Rolling a Die\\ 
@@ -3865,14 +3892,14 @@ Example: Akki Lavarunner is a nonlegendary creature that flips into a legendary 
 <BOOKMARK:cr712-4>712.4. Meld cards have a Magic card face on one side and half of an oversized card face on the other.\\ 
 712.4. 融合牌的一面为万智牌的牌面，另一面为一张大号万智牌卡牌牌面的一半。
 
-<BOOKMARK:cr712-4a>712.4a One card in each meld pair has an ability that exiles both that object and its counterpart and melds them. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined (see rule 701.37, “Meld”). The resulting permanent is a single object represented by two cards.\\ 
-712.4a 每对融合牌组中都有一张牌具有放逐此物件及同组当中之另一物件，并融合两者的异能。融合同一融合牌组中的两张牌，意指将它们以背面朝上且已组合的方式放进战场。（参见规则[[cr:7#cr701-37|701.37]]，“融合”。）所得之永久物为由两张牌代表的单一物件。
+<BOOKMARK:cr712-4a>712.4a One card in each meld pair has an ability that exiles both that object and its counterpart and melds them. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined (see rule 701.42, “Meld”). The resulting permanent is a single object represented by two cards.\\ 
+712.4a 每对融合牌组中都有一张牌具有放逐此物件及同组当中之另一物件，并融合两者的异能。融合同一融合牌组中的两张牌，意指将它们以背面朝上且已组合的方式放进战场。（参见规则[[cr:7#cr701-42|701.42]]，“融合”。）所得之永久物为由两张牌代表的单一物件。
 
 <BOOKMARK:cr712-4b>712.4b The back faces of a meld pair are used only to determine the characteristics of the melded permanent that pair becomes on the battlefield. If a rule or effect references the back face of a meld card when not part of a melded permanent on the battlefield, it fails to determine its characteristics, regardless of which parts of the melded permanent is represented on that card’s back face.\\ 
 712.4b 融合牌组的背面仅用于确定战场上该融合牌组所成为之已融合的永久物之特征。如果某规则或效应提及融合牌的背面，但它并非战场上已融合的永久物之一部分，则此规则或效应无法确定其特征，无论它代表该已融合的永久物之哪一部分。
 
-<BOOKMARK:cr712-5>712.5. There are six specific meld pairs.\\ 
-712.5. 目前有六对融合牌组。
+<BOOKMARK:cr712-5>712.5. There are seven specific meld pairs.\\ 
+712.5. 目前有七对融合牌组。
 
 <BOOKMARK:cr712-5a>712.5a Midnight Scavengers and Graf Rats meld to form Chittering Host.\\ 
 712.5a 午夜拾荒客和墓地鼠群融合，组成吱响寄主。
@@ -3891,6 +3918,9 @@ Example: Akki Lavarunner is a nonlegendary creature that flips into a legendary 
 
 <BOOKMARK:cr712-5f>712.5f Argoth, Sanctum of Nature and Titania, Voice of Gaea meld to form Titania, Gaea Incarnate.\\ 
 712.5f 自然圣所亚格斯和盖亚之声泰坦尼亚融合，组成盖亚化身泰坦尼亚。
+
+<BOOKMARK:cr712-5g>712.5g Fang, Fearless l’Cie and Vanille, Cheerful l’Cie meld to form Ragnarok, Divine Deliverance.\\ 
+712.5g 无畏路希牙和愉悦路希班尼拉融合，组成神圣救赎诸神黄昏。
 
 <BOOKMARK:cr712-6>712.6. Players who are allowed to look at a double-faced card may look at both sides of that card.\\ 
 712.6. 如果某牌手被允许检视一张双面牌，他可以检视这张牌的两面。
@@ -3922,8 +3952,8 @@ Example: Akki Lavarunner is a nonlegendary creature that flips into a legendary 
 <BOOKMARK:cr712-8g>712.8g While the two cards of a meld pair are on the battlefield as a melded permanent, the object represented by those cards has only the characteristics of the combined back face, and its mana value is the sum of the mana values of its front faces. If a permanent is copying a melded permanent, the mana value of the copy is 0. See rule 202.3c.\\ 
 712.8g 当同属一对融合牌组的两张牌作为已融合的永久物在战场上时，由这两张牌表示的物件只有组合背面所述的特征值，其法术力值为其正面两张牌之法术力值的总和。如果某永久物复制了已融合的永久物，则复制品的法术力值为0。参见规则[[cr:2#cr202-3c|202.3c]]。
 
-<BOOKMARK:cr712-9>712.9. Only transforming tokens and permanents represented by transforming double-faced cards can transform or convert. (See rule 701.28, “Transform,” and rule 701.50, “Convert.”) If a spell or ability instructs a player to transform or convert any permanent that isn’t a transforming token or isn’t represented by a transforming double-faced card, nothing happens.\\ 
-712.9. 只有转化式衍生物和由转化式双面牌代表的永久物才能转化或转换。（参见规则[[cr:7#cr701-28|701.28]]，“转化”及规则[[cr:7#cr701-50|701.50]]，“转换”。）如果一个咒语或异能指示牌手转化或转换一个不是转化式衍生物或不由转化式双面牌代表的永久物，没有事情会发生。
+<BOOKMARK:cr712-9>712.9. Only transforming tokens and permanents represented by transforming double-faced cards can transform or convert. (See rule 701.27, “Transform,” and rule 701.28, “Convert.”) If a spell or ability instructs a player to transform or convert any permanent that isn’t a transforming token or isn’t represented by a transforming double-faced card, nothing happens.\\ 
+712.9. 只有转化式衍生物和由转化式双面牌代表的永久物才能转化或转换。（参见规则[[cr:7#cr701-27|701.27]]，“转化”及规则[[cr:7#cr701-28|701.28]]，“转换”。）如果一个咒语或异能指示牌手转化或转换一个不是转化式衍生物或不由转化式双面牌代表的永久物，没有事情会发生。
 
 Example: A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a transforming double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a transforming double-faced card, it can’t transform.\\ 
 例如：一个仿生妖是以野血狼群（一张转化式双面牌的背面）之复制品的身份进战场。仿生妖会是野血狼群的复制品。由于仿生妖本身并非转化式双面牌，它将不能转化。
@@ -4071,6 +4101,9 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 <BOOKMARK:cr714-1>714.1. Each Saga card has a striated text box containing a number of chapter symbols. Its illustration is vertically oriented on the right side of the card, and its type line is along the bottom of the card.\\ 
 714.1. 传纪牌具有分段的文字栏，其中包含章节符号。其图片竖向位于牌的右半边，其类别栏靠近牌的底部。
 
+<BOOKMARK:cr714-1a>714.1a Saga enchantments that also have the type creature are printed with both a power and toughness box and an additional text box below the type line. Any abilities in that text box are independent of its chapter symbols.\\ 
+714.1a 同时具有生物此类别的传纪结界，会印制力量/防御力，且在类别栏下方有一个额外的文字栏。该文字栏中的任何异能与其章节符号无关。
+
 <BOOKMARK:cr714-2>714.2. A chapter symbol is a keyword ability that represents a triggered ability referred to as a chapter ability.\\ 
 714.2. 章节符号是关键字异能，代表一个称为章节异能的触发式异能。
 
@@ -4095,10 +4128,10 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 <BOOKMARK:cr714-3a>714.3a As a Saga without the read ahead ability enters the battlefield, its controller puts a lore counter on it. As a Saga with the read ahead ability enters the battlefield, its controller chooses a number from one to that Saga’s final chapter number. That Saga enters the battlefield with the chosen number of lore counters on it. (See rule 702.155, “Read Ahead.”)\\ 
 714.3a 于不具跳读异能的传纪进战场时，其操控者在其上放置一个学问指示物。于具跳读异能的传纪进战场时，其操控者选择一个数字，范围须在一到该传纪最大章节数字之内。该传纪进战场时上面有所选数量的学问指示物。（参见规则[[cr:7#cr702-155|702.155]]，“跳读”。）
 
-<BOOKMARK:cr714-3b>714.3b As a player’s precombat main phase begins, that player puts a lore counter on each Saga they control. This turn-based action doesn’t use the stack.\\ 
-714.3b 于牌手的战斗前行动阶段开始时，该牌手在其操控的每个传纪结界上放置一个学问指示物。此回合动作不使用堆叠。
+<BOOKMARK:cr714-3b>714.3b As a player’s precombat main phase begins, that player puts a lore counter on each Saga they control with one or more chapter abilities. This turn-based action doesn’t use the stack.\\ 
+714.3b 于牌手的战斗前行动阶段开始时，该牌手在每个由其操控且具有章节异能的传纪结界上放置一个学问指示物。此回合动作不使用堆叠。
 
-<BOOKMARK:cr714-4>714.4. If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.\\ 
+<BOOKMARK:cr714-4>714.4. If the number of lore counters on a Saga permanent with one or more chapter abilities is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.\\ 
 714.4. 如果一个传纪永久物上的学问指示物数量大于或等于其上章节异能的最终章节编号，且其并非一个已触发且尚未离开堆叠的章节异能之来源，该传纪的操控者将其牺牲。此状态动作不使用堆叠。
 
 ===== 715. 历险者牌 Adventurer Cards =====
@@ -4120,8 +4153,8 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 <BOOKMARK:cr715-2c>715.2c Although adventurer cards are printed with multiple sets of characteristics, each adventurer card is only one card. For example, a player who has drawn or discarded an adventurer card has drawn or discarded one card, not two.\\ 
 715.2c 即使历险者牌印有多组特征，每张历险者牌仍只是一张牌，例如，抓到或弃掉一张历险者牌的牌手仍只是抓或弃了一张牌，而不是两张。
 
-<BOOKMARK:cr715-3>715.3. As a player casts an adventurer card, the player chooses whether they cast the card normally or as an Adventure.\\ 
-715.3. 于牌手施放历险者牌时，该牌手选择是要正常施放该牌，或是将其作为历险来施放。
+<BOOKMARK:cr715-3>715.3. As a player plays an adventurer card, the player chooses whether they play the card normally or as an Adventure.\\ 
+715.3. 于牌手使用历险者牌时，该牌手选择是要正常使用该牌，或是将其作为历险来使用。
 
 <BOOKMARK:cr715-3a>715.3a When casting an adventurer card as an Adventure, only the alternative characteristics are evaluated to see if it can be cast.\\ 
 715.3a 在将历险者牌作为历险来施放时，仅会利用其副特征来决定此时能否施放该咒语。
@@ -4132,8 +4165,8 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 <BOOKMARK:cr715-3c>715.3c If an Adventure spell is copied, the copy is also an Adventure. It has the alternative characteristics of the spell and not the normal characteristics of the card that represents the Adventure spell. Any rule or effect that refers to a spell cast as an Adventure refers to the copy as well.\\ 
 715.3c 如果一个历险咒语被复制，该复制品也是历险。它具有该咒语的副特征，而非代表该历险咒语的牌之正常特征。任何提及作为历险施放的咒语之规则或效应也会提及该复制品。
 
-<BOOKMARK:cr715-3d>715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may cast it. It can’t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.\\ 
-715.3d 作为历险施放的咒语于其结算时，该咒语的操控者改为将其放逐，而非置入其拥有者的坟墓场。于该咒语持续被放逐期间，该牌手可以施放之。它不能以此法作为历险施放，尽管其他允许某牌手施放该牌的效应可能会允许某牌手将其作为历险施放。
+<BOOKMARK:cr715-3d>715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may play it. It can’t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.\\ 
+715.3d 作为历险施放的咒语于其结算时，该咒语的操控者改为将其放逐，而非置入其拥有者的坟墓场。于该咒语持续被放逐期间，该牌手可以使用之。它不能以此法作为历险施放，尽管其他允许某牌手施放该牌的效应可能会允许某牌手将其作为历险施放。
 
 <BOOKMARK:cr715-4>715.4. In every zone except the stack, and while on the stack not as an Adventure, an adventurer card has only its normal characteristics.\\ 
 715.4. 在堆叠以外的其他区域、以及在堆叠上且不为历险时，历险者牌只具有其正常特征。
@@ -4185,11 +4218,11 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 <BOOKMARK:cr717-2b>717.2b In limited play, an Attraction deck must contain at least three Attraction cards from that player’s card pool, and may contain multiple Attractions cards with the same English name.\\ 
 717.2b 在限制赛中，一副景点套牌必须包含至少三张景点牌且须在该牌手的牌池中，可以包含多张英文名称相同的牌景点牌。
 
-<BOOKMARK:cr717-3>717.3. Effects can cause an Attraction card to enter the battlefield from the command zone. See rule 701.48, “Open an Attraction.”\\ 
-717.3. 一些效应会将景点牌从统帅区放进战场。参见规则[[cr:7#cr701-48|701.48]]，“打开景点”。
+<BOOKMARK:cr717-3>717.3. Effects can cause an Attraction card to enter the battlefield from the command zone. See rule 701.51, “Open an Attraction.”\\ 
+717.3. 一些效应会将景点牌从统帅区放进战场。参见规则[[cr:7#cr701-51|701.51]]，“打开景点”。
 
-<BOOKMARK:cr717-4>717.4. As a player’s precombat main phase begins, a player who controls one or more Attractions rolls to visit their Attractions. See rules 703.4g and 701.49, “Roll to Visit Your Attractions.” This turn-based action doesn’t use the stack.\\ 
-717.4. 于牌手的战斗前行动阶段开始时，如果该牌手操控一个或数个景点，则该牌手掷骰造访景点。参见规则[[cr:7#cr703-4g|703.4g]]，及规则[[cr:7#cr701-49|701.49]]，“掷骰造访景点”。此回合动作不使用堆叠。
+<BOOKMARK:cr717-4>717.4. As a player’s precombat main phase begins, a player who controls one or more Attractions rolls to visit their Attractions. See rules 703.4g and 701.52, “Roll to Visit Your Attractions.” This turn-based action doesn’t use the stack.\\ 
+717.4. 于牌手的战斗前行动阶段开始时，如果该牌手操控一个或数个景点，则该牌手掷骰造访景点。参见规则[[cr:7#cr703-4g|703.4g]]，及规则[[cr:7#cr701-52|701.52]]，“掷骰造访景点”。此回合动作不使用堆叠。
 
 <BOOKMARK:cr717-5>717.5. Each Attraction card has an ability that begins with the word “Visit” followed by a long dash in its rules text. This is a visit ability. A visit ability triggers whenever you roll to visit your Attractions and the result matches one of the lit-up numbers. See rule 702.159, “Visit.”\\ 
 717.5. 景点牌具有规则叙述以“Visit”和一条长横线开头的异能。此异能是造访异能。造访异能会在每当你掷骰造访景点且结果等同于亮起的数字时触发。参见规则[[cr:7#cr702-159|702.159]]，“造访”。
@@ -4351,8 +4384,8 @@ Example: The player who’s being controlled still decides if they will leave to
 <BOOKMARK:cr721-8>721.8. A player who controls another player also continues to make their own choices and decisions.\\ 
 721.8. 操控其他牌手的牌手如常为自己作出选择与决定。
 
-<BOOKMARK:cr721-9>721.9. A player may gain control of themselves. That player will make their own decisions and choices as normal.\\ 
-721.9. 牌手可以获得对自己的操控权。该牌手将如常为自己作出选择与决定。
+<BOOKMARK:cr721-9>721.9. An effect may give a player control of themselves. That player will make their own decisions and choices as normal.\\ 
+721.9. 某些效应可能会允许牌手获得自己的操控权。该牌手将如常为自己作出选择与决定。
 
 ===== 722. 结束回合和阶段 Ending Turns and Phases =====
 <BOOKMARK:cr722>722. Ending Turns and Phases\\ 
@@ -4429,8 +4462,8 @@ Example: The player who’s being controlled still decides if they will leave to
 <BOOKMARK:cr724-1>724.1. The initiative is a designation a player can have. There is no initiative in a game until an effect instructs a player to take the initiative. A player who currently has the initiative designation is said to have the initiative.\\ 
 724.1. “先制”是牌手可获得的称号。游戏开始时没有先制，直到某效应令牌手掌握先制为止。当前拥有先制称号的牌手便“握有先制”。
 
-<BOOKMARK:cr724-2>724.2. There are three inherent triggered abilities associated with having the initiative. These triggered abilities have no source and are controlled by the player who had the initiative at the time the abilities triggered. This is an exception to rule 113.8. The full text of these abilities are “At the beginning of the upkeep of the player who has the initiative, that player ventures into Undercity,” “Whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the controller of those creatures takes the initiative,” and “Whenever a player takes the initiative, that player ventures into Undercity.” See rule 701.46, “Venture into the Dungeon.”\\ 
-724.2. 握有先制会产生与之关联的三个固有触发式异能。这些触发式异能没有来源，且其操控者是当这些异能触发时握有先制的牌手。这是规则[[cr:1#cr113-8|113.8]]的例外情况。这三个异能的完整叙述为“在握有先制的牌手的维持开始时，该牌手深入地底城。”、“每当一个或数个生物对握有先制的牌手造成战斗伤害时，这些生物的操控者掌握先制。”，和“每当一位牌手掌握先制时，该牌手深入地底城。”参见规则[[cr:7#cr701-46|701.46]]，“深入地城”。
+<BOOKMARK:cr724-2>724.2. There are three inherent triggered abilities associated with having the initiative. These triggered abilities have no source and are controlled by the player who had the initiative at the time the abilities triggered. This is an exception to rule 113.8. The full text of these abilities are “At the beginning of the upkeep of the player who has the initiative, that player ventures into Undercity,” “Whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the controller of those creatures takes the initiative,” and “Whenever a player takes the initiative, that player ventures into Undercity.” See rule 701.49, “Venture into the Dungeon.”\\ 
+724.2. 握有先制会产生与之关联的三个固有触发式异能。这些触发式异能没有来源，且其操控者是当这些异能触发时握有先制的牌手。这是规则[[cr:1#cr113-8|113.8]]的例外情况。这三个异能的完整叙述为“在握有先制的牌手的维持开始时，该牌手深入地底城。”、“每当一个或数个生物对握有先制的牌手造成战斗伤害时，这些生物的操控者掌握先制。”，和“每当一位牌手掌握先制时，该牌手深入地底城。”参见规则[[cr:7#cr701-49|701.49]]，“深入地城”。
 
 <BOOKMARK:cr724-3>724.3. Only one player can have the initiative at a time. As a player takes the initiative, the player who currently has the initiative ceases to have it.\\ 
 724.3. 同一时间只有一位牌手能握有先制。于某位牌手掌握先制时，当前握有先制的牌手便不再握有先制。

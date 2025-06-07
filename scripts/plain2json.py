@@ -1,6 +1,6 @@
 import re, json
 
-def plain_text_to_json(en_text, zh_text, output_file, version):
+def plain_text_to_json(en_text, zh_text, output_file, plain_json_output_file, version):
     '''
     将纯文本的规则文本转化为JSON格式。
     *注意！输入的英文和中文文本需要严格按行对齐。*
@@ -141,6 +141,34 @@ def plain_text_to_json(en_text, zh_text, output_file, version):
     }
     json.dump(output, open(output_file, 'w'), ensure_ascii=False, indent=4)
 
+    # 展平main和glossary部分并输出
+    plain_json = []
+
+    def flatten(obj):
+        if 'subrules' in obj:
+            for subrule in obj['subrules']:
+                flatten(subrule)
+        else:
+            extras = obj.get('extras', [])
+            extras_text = "\n".join([f"{extra['en']}\n{extra['zh']}" for extra in extras])
+            assert obj['chapter'][0] in '123456789', f"Invalid chapter format: {obj['chapter']}"
+            plain_json.append({
+                'chapter': obj['chapter'][0],
+                'id': obj['chapter'],
+                'content': f"{obj['chapter']} {obj['en']}\n{obj['zh']}" + ('\n' + extras_text if extras_text else ''),
+            })
+
+    for obj in main:
+        flatten(obj)
+
+    for obj in glossary:
+        plain_json.append({
+            'chapter': 'glossary',
+            'id': obj['enname'],
+            'content': f"{obj['enname']} {obj['en']}\n{obj['zhname']}\n{obj['zh']}",
+        })
+    json.dump(plain_json, open(plain_json_output_file, 'w'), ensure_ascii=False)
+
 
 if __name__ == '__main__':
     # plain_text_to_json('../plain_text/20250207_En.txt', '../plain_text/20250207_Zh.txt', './20250207.json', '20250207')
@@ -153,5 +181,6 @@ if __name__ == '__main__':
         f'../plain_text/{args.date}_En.txt',
         f'../plain_text/{args.date}_Zh.txt',
         f'./{args.date}.json',
+        f'./{args.date}_plain.json',
         args.date
     )

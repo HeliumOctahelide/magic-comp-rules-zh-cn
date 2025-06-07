@@ -10,4 +10,4 @@ Changes may have been made to this document since its publication. You can downl
 
 
 
-[第一章 - 游戏概念 Game Concepts](/cr/1)
+[第一章 - 游戏概念 Game Concepts](/cr/1/)
