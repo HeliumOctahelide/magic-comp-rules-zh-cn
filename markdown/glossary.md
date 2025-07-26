@@ -389,8 +389,8 @@ A creature that has either been declared as part of a legal block during the com
 
 ----
 ### <span id='Blood Token'>Blood Token</span> / <span id='血滴衍生物'>血滴衍生物</span>
-血滴衍生物是具有“{1}，{T}，弃一张牌，牺牲此神器：抓一张牌”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Blood token is a colorless artifact token with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.” For more information about predefined tokens, see rule 111.10.
+血滴衍生物是具有“{1}，{T}，弃一张牌，牺牲此衍生物：抓一张牌”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Blood token is a colorless artifact token with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Bloodthirst'>Bloodthirst</span> / <span id='嗜血'>嗜血</span>
@@ -555,8 +555,8 @@ A keyword action that puts a card onto the battlefield face down as a 2/2 creatu
 
 ----
 ### <span id='Clue Token'>Clue Token</span> / <span id='线索衍生物'>线索衍生物</span>
-线索衍生物是具有“{2}，牺牲此神器：抓一张牌。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Clue token is a colorless artifact token with “{2}, Sacrifice this artifact: Draw a card.” For more information about predefined tokens, see rule 111.10.
+线索衍生物是具有“{2}，牺牲此衍生物：抓一张牌。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Clue token is a colorless artifact token with “{2}, Sacrifice this token: Draw a card.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Collect Evidence'>Collect Evidence</span> / <span id='搜证'>搜证</span>
@@ -616,11 +616,11 @@ A zone for certain specialized objects that have an overarching effect on the ga
 
 ----
 ### <span id='Commander'>Commander</span> / <span id='指挥官'>指挥官</span>
-1. 一种休闲式玩法，套牌由一个传奇生物来领导。参见规则[903](/cr/9/#cr903)，“指挥官”。   
-1. A casual variant in which each deck is led by a legendary creature. See rule 903, “Commander.”
+1. 一种休闲式玩法，套牌由一张传奇牌（通常是生物）来领导。参见规则[903](/cr/9/#cr903)，“指挥官”。   
+1. A casual variant in which each deck is led by a legendary card (usually a creature). See rule 903, “Commander.”
 
 2. 在指挥官休闲式玩法中，给予每位牌手的套牌中一张传奇生物牌的称号。   
-2. A designation given to one legendary creature card in each player’s deck in the Commander casual variant.
+2. A designation given to one legendary card in each player’s deck in the Commander casual variant.
 
 ----
 ### <span id='Commander Draft'>Commander Draft</span> / <span id='指挥官轮抽'>指挥官轮抽</span>
@@ -694,8 +694,8 @@ An effect that modifies characteristics of objects, modifies control of objects,
 
 ----
 ### <span id='Control Another Player'>Control Another Player</span> / <span id='操控其他牌手'>操控其他牌手</span>
-为在该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[721](/cr/7/#cr721)，“操控其他牌手”。   
-To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 721, “Controlling Another Player.”
+为在该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[722](/cr/7/#cr722)，“操控其他牌手”。   
+To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 722, “Controlling Another Player.”
 
 ----
 ### <span id='Control, Controller'>Control, Controller</span> / <span id='操控，操控者'>操控，操控者</span>
@@ -809,13 +809,13 @@ A keyword ability found on creature cards that allows them to be cast for an alt
 
 ----
 ### <span id='Day'>Day</span> / <span id='白昼'>白昼</span>
-与黑夜一起，均是游戏可以具有的称号。参见规则[729](/cr/7/#cr729)，“白昼与黑夜”，与规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”。   
-Along with night, a designation the game can have. See rule 729, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
+与黑夜一起，均是游戏可以具有的称号。参见规则[730](/cr/7/#cr730)，“白昼与黑夜”，与规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”。   
+Along with night, a designation the game can have. See rule 730, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
 
 ----
 ### <span id='Daybound'>Daybound</span> / <span id='昼形'>昼形</span>
-一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”，与规则[729](/cr/7/#cr729)，“白昼与黑夜”。   
-An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 729, “Day and Night.”
+一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”，与规则[730](/cr/7/#cr730)，“白昼与黑夜”。   
+An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 730, “Day and Night.”
 
 ----
 ### <span id='Deal'>Deal</span> / <span id='造成'>造成</span>
@@ -1114,13 +1114,13 @@ Part of the turn. This step is the fifth and final step of the combat phase. See
 
 ----
 ### <span id='End the Combat Phase'>End the Combat Phase</span> / <span id='结束战斗阶段'>结束战斗阶段</span>
-作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[722](/cr/7/#cr722)，“结束回合和阶段”。   
-To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 722, “Ending Turns and Phases.”
+作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[723](/cr/7/#cr723)，“结束回合和阶段”。   
+To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 723, “Ending Turns and Phases.”
 
 ----
 ### <span id='End the Turn'>End the Turn</span> / <span id='结束回合'>结束回合</span>
-作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的所有其他事情。参见规则[722](/cr/7/#cr722)，“结束回合和阶段”。   
-To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 722, “Ending Turns and Phases.”
+作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的所有其他事情。参见规则[723](/cr/7/#cr723)，“结束回合和阶段”。   
+To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 723, “Ending Turns and Phases.”
 
 ----
 ### <span id='Ending Phase'>Ending Phase</span> / <span id='终结阶段'>终结阶段</span>
@@ -1380,8 +1380,8 @@ A keyword ability that restricts how a creature may be blocked. See rule 702.9, 
 
 ----
 ### <span id='Food Token'>Food Token</span> / <span id='食品衍生物'>食品衍生物</span>
-食品衍生物是具有“{2}，{T}，牺牲此神器：你获得3点生命”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Food token is a colorless artifact token with “{2}, {T}, Sacrifice this artifact: You gain 3 life.” For more information about predefined tokens, see rule 111.10.
+食品衍生物是具有“{2}，{T}，牺牲此衍生物：你获得3点生命”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Food token is a colorless artifact token with “{2}, {T}, Sacrifice this token: You gain 3 life.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='For Mirrodin!'>For Mirrodin!</span> / <span id='秘罗万岁！'>秘罗万岁！</span>
@@ -1501,8 +1501,8 @@ A designation a permanent can have. Goaded creatures are forced to attack and to
 
 ----
 ### <span id='Gold Token'>Gold Token</span> / <span id='黄金衍生物'>黄金衍生物</span>
-黄金衍生物是具有“牺牲此神器：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Gold token is a colorless artifact token with “Sacrifice this artifact: Add one mana of any color.” For more information on predefined tokens, see rule 111.10.
+黄金衍生物是具有“牺牲此衍生物：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Gold token is a colorless artifact token with “Sacrifice this token: Add one mana of any color.” For more information on predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Graft'>Graft</span> / <span id='接殖'>接殖</span>
@@ -1615,8 +1615,8 @@ See Intervening “If” Clause.
 
 ----
 ### <span id='Illegal Action'>Illegal Action</span> / <span id='非法动作'>非法动作</span>
-一个违反游戏规则和/或效应所创造的要求或限制的动作。参见规则[731](/cr/7/#cr731)，“处理非法动作”。   
-An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 731, “Handling Illegal Actions.”
+一个违反游戏规则和/或效应所创造的要求或限制的动作。参见规则[732](/cr/7/#cr732)，“处理非法动作”。   
+An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 732, “Handling Illegal Actions.”
 
 ----
 ### <span id='Illegal Target'>Illegal Target</span> / <span id='非法目标'>非法目标</span>
@@ -1665,8 +1665,8 @@ A keyword action that creates an Incubator token with a specified number of +1/+
 
 ----
 ### <span id='Incubator Token'>Incubator Token</span> / <span id='抚育器衍生物'>抚育器衍生物</span>
-抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此神器。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this artifact.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.
+抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Independent'>Independent</span> / <span id='不从属于'>不从属于</span>
@@ -1690,8 +1690,8 @@ A keyword ability that can exile the top card of a player’s library. See rule 
 
 ----
 ### <span id='Initiative'>Initiative</span> / <span id='先制'>先制</span>
-牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[724](/cr/7/#cr724)，“先制”。   
-A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 724, “The Initiative.”
+牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[725](/cr/7/#cr725)，“先制”。   
+A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 725, “The Initiative.”
 
 ----
 ### <span id='Instant'>Instant</span> / <span id='瞬间'>瞬间</span>
@@ -1756,8 +1756,8 @@ A keyword ability that lets a player cast a card from their graveyard by discard
 
 ----
 ### <span id='Junk Token'>Junk Token</span> / <span id='废料衍生物'>废料衍生物</span>
-废料衍生物是具有“{T}，牺牲此神器：放逐你的牌库顶牌。本回合中，你可以使用该牌。只能于法术时机起动。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Junk token is a colorless artifact token with {T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.” For more information about predefined tokens, see rule 111.10.
+废料衍生物是具有“{T}，牺牲此衍生物：放逐你的牌库顶牌。本回合中，你可以使用该牌。只能于法术时机起动。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Junk token is a colorless artifact token with {T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ## K
@@ -1795,6 +1795,11 @@ A card type. A land is a permanent. See rule 305, “Lands.”
 ### <span id='Land Type'>Land Type</span> / <span id='地类别'>地类别</span>
 一种副类别，对应地牌张类别。参见规则[305](/cr/3/#cr305)，“地”。地类别的列表参见规则[205.3i](/cr/2/#cr205-3i)。   
 A subtype that’s correlated to the land card type. See rule 305, “Lands.” See rule 205.3i for the list of land types.
+
+----
+### <span id='Lander Token'>Lander Token</span> / <span id='探地器衍生物'>探地器衍生物</span>
+探地器衍生物是具有“{2}，{T}，牺牲此衍生物：从你牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Lander token is a colorless artifact token with “{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Landwalk'>Landwalk</span> / <span id='地行者'>地行者</span>
@@ -1939,8 +1944,8 @@ Informal term for the current system of mulligan rules. See rule 103.5.
 
 ----
 ### <span id='Loop'>Loop</span> / <span id='循环（动作）'>循环（动作）</span>
-一系列可以重复无数次的动作。参见规则[730](/cr/7/#cr730)，“进行简化”。   
-A set of actions that could be repeated indefinitely. See rule 730, “Taking Shortcuts.”
+一系列可以重复无数次的动作。参见规则[731](/cr/7/#cr731)，“进行简化”。   
+A set of actions that could be repeated indefinitely. See rule 731, “Taking Shortcuts.”
 
 ----
 ### <span id='Lose the Game'>Lose the Game</span> / <span id='输去游戏'>输去游戏</span>
@@ -1968,8 +1973,8 @@ A keyword ability that lets a player cast a card they discard. See rule 702.35, 
 
 ----
 ### <span id='Main Game'>Main Game</span> / <span id='主游戏'>主游戏</span>
-施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[727](/cr/7/#cr727)，“子游戏”。   
-The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 727, “Subgames.”
+施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[728](/cr/7/#cr728)，“子游戏”。   
+The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 728, “Subgames.”
 
 ----
 ### <span id='Main Phase'>Main Phase</span> / <span id='行动阶段'>行动阶段</span>
@@ -2028,8 +2033,8 @@ A keyword action that puts one of the top two cards of your library onto the bat
 
 ----
 ### <span id='Map'>Map</span> / <span id='地图'>地图</span>
-地图衍生物是具有“{1}，{T}，牺牲此神器：令目标由你操控的生物勘察。只能于法术时机起动。”的无色衍生神器。欲知关于预先定义的衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Map token is a colorless Map artifact token with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.” See rule 701.44, “Explore.” For more information about predefined tokens, see rule 110.10.
+地图衍生物是具有“{1}，{T}，牺牲此衍生物：令目标由你操控的生物勘察。只能于法术时机起动。”的无色衍生神器。欲知关于预先定义的衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Map token is a colorless Map artifact token with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.” See rule 701.44, “Explore.” For more information about predefined tokens, see rule 110.10.
 
 ----
 ### <span id='Match'>Match</span> / <span id='局'>局</span>
@@ -2081,8 +2086,8 @@ A keyword ability that lets your bigger creatures power up your smaller creature
 
 ----
 ### <span id='Merged Permanent'>Merged Permanent</span> / <span id='结聚永久物'>结聚永久物</span>
-牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[728](/cr/7/#cr728)，“与永久物结聚”。   
-A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 728, “Merging with Permanents.”
+牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[729](/cr/7/#cr729)，“与永久物结聚”。   
+A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 729, “Merging with Permanents.”
 
 ----
 ### <span id='Mill'>Mill</span> / <span id='磨'>磨</span>
@@ -2126,8 +2131,8 @@ A keyword ability that has a permanent enter the battlefield with +1/+1 counters
 
 ----
 ### <span id='Monarch'>Monarch</span> / <span id='君主'>君主</span>
-牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[723](/cr/7/#cr723)，“君主”。   
-A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 723, “The Monarch.”
+牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[724](/cr/7/#cr724)，“君主”。   
+A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 724, “The Monarch.”
 
 ----
 ### <span id='Mono Artifact (Obsolete)'>Mono Artifact (Obsolete)</span> / <span id='单一神器（已废止）'>单一神器（已废止）</span>
@@ -2214,8 +2219,8 @@ A keyword that lets a creature card be cast as a mutating creature spell. See ru
 
 ----
 ### <span id='Mutating Creature Spell'>Mutating Creature Spell</span> / <span id='合变式生物咒语'>合变式生物咒语</span>
-一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[702.140](/cr/7/#cr702-140)，“合变”，以及规则[728](/cr/7/#cr728)，“与永久物结聚”。   
-A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 728, “Merging with Permanents.”
+一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[702.140](/cr/7/#cr702-140)，“合变”，以及规则[729](/cr/7/#cr729)，“与永久物结聚”。   
+A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 729, “Merging with Permanents.”
 
 ----
 ### <span id='Myriad'>Myriad</span> / <span id='繁影'>繁影</span>
@@ -2230,13 +2235,13 @@ A characteristic, and part of a card. A card’s name is printed in its upper le
 
 ----
 ### <span id='Night'>Night</span> / <span id='黑夜'>黑夜</span>
-与白昼一起，均是游戏可以具有的称号。参见规则[729](/cr/7/#cr729)，“白昼与黑夜”，与规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”。   
-Along with day, a designation the game can have. See rule 729, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
+与白昼一起，均是游戏可以具有的称号。参见规则[730](/cr/7/#cr730)，“白昼与黑夜”，与规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”。   
+Along with day, a designation the game can have. See rule 730, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”
 
 ----
 ### <span id='Nightbound'>Nightbound</span> / <span id='夜形'>夜形</span>
-一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”，与规则[729](/cr/7/#cr729)，“白昼与黑夜”。   
-An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 729, “Day and Night.”
+一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”，与规则[730](/cr/7/#cr730)，“白昼与黑夜”。   
+An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 730, “Day and Night.”
 
 ----
 ### <span id='Ninjutsu'>Ninjutsu</span> / <span id='忍术'>忍术</span>
@@ -2641,8 +2646,8 @@ A zone in which all players can be expected to see the cards’ faces. See rule 
 ----
 ## R
 ### <span id='Rad Counter'>Rad Counter</span> / <span id='拉德指示物'>拉德指示物</span>
-牌手可以具有的一种指示物，会导致牌手在其战斗前的行动阶段磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[122](/cr/1/#cr122)，“指示物”，及规则[726](/cr/7/#cr726)，“拉德指示物”。   
-A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 726, “Rad Counters.”
+牌手可以具有的一种指示物，会导致牌手在其战斗前的行动阶段磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[122](/cr/1/#cr122)，“指示物”，及规则[727](/cr/7/#cr727)，“拉德指示物”。   
+A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 727, “Rad Counters.”
 
 ----
 ### <span id='Rampage'>Rampage</span> / <span id='狂暴'>狂暴</span>
@@ -2890,8 +2895,8 @@ A keyword ability that restricts how a creature may be blocked and which creatur
 
 ----
 ### <span id='Shard Token'>Shard Token</span> / <span id='碎片衍生物'>碎片衍生物</span>
-碎片衍生物是具有“{2}，牺牲此结界：占卜1，然后抓一张牌”的无色衍生结界。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Shard token is a colorless enchantment token with “{2}, Sacrifice this enchantment: Scry 1, then draw a card.” For more information on predefined tokens, see rule 111.10.
+碎片衍生物是具有“{2}，牺牲此衍生物：占卜1，然后抓一张牌”的无色衍生结界。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Shard token is a colorless enchantment token with “{2}, Sacrifice this token: Scry 1, then draw a card.” For more information on predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Shared Life Total'>Shared Life Total</span> / <span id='共享总生命'>共享总生命</span>
@@ -2910,8 +2915,8 @@ A counter that protects a permanent from being damaged or destroyed. See rule 12
 
 ----
 ### <span id='Shortcut'>Shortcut</span> / <span id='简化'>简化</span>
-在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[730](/cr/7/#cr730)，“进行简化”。   
-A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 730, “Taking Shortcuts.”
+在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[731](/cr/7/#cr731)，“进行简化”。   
+A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 731, “Taking Shortcuts.”
 
 ----
 ### <span id='Shroud'>Shroud</span> / <span id='帷幕'>帷幕</span>
@@ -3117,6 +3122,16 @@ Game actions that happen automatically whenever certain conditions are met. See 
 A kind of ability. Static abilities do something all the time rather than being activated or triggered. See rule 113, “Abilities,” and rule 604, “Handling Static Abilities.”
 
 ----
+### <span id='Station'>Station</span> / <span id='蓄势'>蓄势</span>
+一个关键字异能，允许你横置生物来在蓄势牌上放置充电指示物。参见规则[721](/cr/7/#cr721)，“蓄势牌”。   
+A keyword ability that lets you tap creatures to add charge counters to station cards. See rule 702.184, “Station,” and rule 721, “Station Cards.”
+
+----
+### <span id='Station Cards'>Station Cards</span> / <span id='蓄势牌'>蓄势牌</span>
+具有条状文字栏，一个或数个蓄势符号，以及蓄势异能的牌。参见规则[721](/cr/7/#cr721)，“蓄势牌”。   
+Cards with striated text boxes, one or more station symbols, and the station ability. See rule 721, “Station Cards.”
+
+----
 ### <span id='Status'>Status</span> / <span id='状态'>状态</span>
 一个永久物的物理状态。参见规则[110.5](/cr/1/#cr110-5)。   
 The physical state of a permanent. See rule 110.5.
@@ -3153,8 +3168,8 @@ A counter that stops a permanent from untapping. See rule 122.1d.
 
 ----
 ### <span id='Subgame'>Subgame</span> / <span id='子游戏'>子游戏</span>
-由一个效应创造出的完全分开的万智牌游戏。参见规则[727](/cr/7/#cr727)，“子游戏”。   
-A completely separate Magic game created by an effect. See rule 727, “Subgames.”
+由一个效应创造出的完全分开的万智牌游戏。参见规则[728](/cr/7/#cr728)，“子游戏”。   
+A completely separate Magic game created by an effect. See rule 728, “Subgames.”
 
 ----
 ### <span id='Substitute Card'>Substitute Card</span> / <span id='辅助牌'>辅助牌</span>
@@ -3402,8 +3417,8 @@ A keyword ability that lets a player search their library for a replacement card
 
 ----
 ### <span id='Treasure Token'>Treasure Token</span> / <span id='珍宝衍生物'>珍宝衍生物</span>
-珍宝衍生物是具有“{T}，牺牲此神器：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-A Treasure token is a colorless artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.” For more information about predefined tokens, see rule 111.10.
+珍宝衍生物是具有“{T}，牺牲此衍生物：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+A Treasure token is a colorless artifact token with “{T}, Sacrifice this token: Add one mana of any color.” For more information about predefined tokens, see rule 111.10.
 
 ----
 ### <span id='Tribal (Obsolete)'>Tribal (Obsolete)</span> / <span id='部族'>部族</span>
@@ -3643,6 +3658,11 @@ A creature type with no particular rules meaning. Older cards with the Wall crea
 ### <span id='Ward'>Ward</span> / <span id='守护'>守护</span>
 一个触发式异能，可以反击指定具守护异能之永久物的咒语或异能。参见规则[702.21](/cr/7/#cr702-21)，“守护”。   
 A triggered ability that can counter spells or abilities that target the permanent with ward. See rule 702.21, “Ward.”
+
+----
+### <span id='Warp'>Warp</span> / <span id='跃迁'>跃迁</span>
+一个见于永久物牌上的关键字异能，允许它们以替代性费用释放。参见规则[702.185](/cr/7/#cr702-185)，“跃迁”。   
+A keyword ability found on permanent cards that allows them to be cast for an alternative cost. See rule 702.185, “Warp.”
 
 ----
 ### <span id='Win the Game'>Win the Game</span> / <span id='游戏胜利'>游戏胜利</span>

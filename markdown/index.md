@@ -1,6 +1,6 @@
 # 目录
 
-*此规则于2025年6月6日起生效。*
+*此规则于2025年7月25日起生效。*
 
 [前言](/cr/intro/)
 
@@ -133,17 +133,18 @@
     - [718. 试作牌 Prototype Cards](/cr/7/#cr718)  
     - [719. 案件牌 Case Cards](/cr/7/#cr719)  
     - [720. 预兆牌 Omen Cards](/cr/7/#cr720)  
-    - [721. 操控其他牌手 Controlling Another Player](/cr/7/#cr721)  
-    - [722. 结束回合和阶段 Ending Turns and Phases](/cr/7/#cr722)  
-    - [723. 君主 The Monarch](/cr/7/#cr723)  
-    - [724. 先制 The Initiative](/cr/7/#cr724)  
-    - [725. 重新开始游戏 Restarting the Game](/cr/7/#cr725)  
-    - [726. 拉德指示物 Rad Counters](/cr/7/#cr726)  
-    - [727. 子游戏 Subgames](/cr/7/#cr727)  
-    - [728. 与永久物结聚 Merging with Permanents](/cr/7/#cr728)  
-    - [729. 白昼与黑夜 Day and Night](/cr/7/#cr729)  
-    - [730. 进行简化 Taking Shortcuts](/cr/7/#cr730)  
-    - [731. 处理非法动作 Handling Illegal Actions](/cr/7/#cr731)  
+    - [721. 蓄势牌 Station Cards](/cr/7/#cr721)  
+    - [722. 操控其他牌手 Controlling Another Player](/cr/7/#cr722)  
+    - [723. 结束回合和阶段 Ending Turns and Phases](/cr/7/#cr723)  
+    - [724. 君主 The Monarch](/cr/7/#cr724)  
+    - [725. 先制 The Initiative](/cr/7/#cr725)  
+    - [726. 重新开始游戏 Restarting the Game](/cr/7/#cr726)  
+    - [727. 拉德指示物 Rad Counters](/cr/7/#cr727)  
+    - [728. 子游戏 Subgames](/cr/7/#cr728)  
+    - [729. 与永久物结聚 Merging with Permanents](/cr/7/#cr729)  
+    - [730. 白昼与黑夜 Day and Night](/cr/7/#cr730)  
+    - [731. 进行简化 Taking Shortcuts](/cr/7/#cr731)  
+    - [732. 处理非法动作 Handling Illegal Actions](/cr/7/#cr732)  
 
 - [第八章 - 多人游戏规则 Multiplayer Rules](/cr/8/)
     - [800. 总则 General](/cr/8/#cr800)  

@@ -171,6 +171,18 @@
     {
       "English": "Job select",
       "Chinese": "职业选择"
+    },
+    {
+      "English": "Station",
+      "Chinese": "蓄势"
+    },
+    {
+      "English": "Void",
+      "Chinese": "空洞"
+    },
+    {
+      "English": "Lander",
+      "Chinese": "探地器"
     }
   ],
   "unfinityDoctorGlossary": [

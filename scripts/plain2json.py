@@ -184,3 +184,9 @@ if __name__ == '__main__':
         f'./{args.date}_plain.json',
         args.date
     )
+
+    # overwrite old plain_rules.json
+    import os
+    if os.path.exists('./plain_rules.json'):
+        os.remove('./plain_rules.json')
+    os.rename(f'./{args.date}_plain.json', './plain_rules.json')

@@ -172,8 +172,8 @@ Example: The hand modifier of a player’s vanguard card is -1. That player’s 
 <BOOKMARK:cr903-2>903.2. A Commander game may be a two-player game or a multiplayer game. The default multiplayer setup is the Free-for-All variant with the attack multiple players option and without the limited range of influence option. See rule 806, “Free-for-All Variant.”\\ 
 903.2. 指挥官可由两人或多人游戏。默认采用的多人游戏模式是自由竞赛玩法，使用攻击复数牌手模式，不使用限制影响范围模式。参见规则[[cr:8#cr806|806]]，“自由竞赛玩法”。
 
-<BOOKMARK:cr903-3>903.3. Each deck has a legendary creature card designated as its commander. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.\\ 
-903.3. 每副套牌均由一位传奇生物牌担任套牌的指挥官。“指挥官”此称号并非该牌所代表之物件的特征，而属于该牌所具有的属性之一。就算该牌改换区域，也依然保持此称号。
+<BOOKMARK:cr903-3>903.3. Each deck has a legendary card designated as its commander. That card must be either (a) a creature card, (b) a Vehicle card, or (c) a Spacecraft card with one or more power/toughness boxes. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.\\ 
+903.3. 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是载具牌；（c）是具有至少一个力量/防御力方格的太空船牌。“指挥官”此称号并非该牌所代表之物件的特征，而属于该牌所具有的属性之一。就算该牌改换区域，也依然保持此称号。
 
 Example: A commander that’s been turned face down (due to Ixidron’s effect, for example) is still a commander. A commander that’s copying another card (due to Cytoshape’s effect, for example) is still a commander. A permanent that’s copying a commander (such as a Body Double, for example, copying a commander in a player’s graveyard) is not a commander.\\ 
 例如：翻为牌面朝下的指挥官（例如说因意塑影效应之故）仍是指挥官。复制其他牌的指挥官（例如说因细胞塑形效应之故）仍是指挥官。复制指挥官的永久物（例如说复制坟墓场里指挥官的替身妖）不是指挥官。
@@ -241,6 +241,9 @@ Example: Wort, the Raidmother is a legendary creature with mana cost {4}{R/G}{R/
 Example: Wort, the Raidmother’s color identity is red and green. A Wort Commander deck may include land cards with the basic land types Mountain and/or Forest. It can’t include any land cards with the basic land types Plains, Island, or Swamp.\\ 
 例如：掠夺大妈麦汁的标识色为红绿双色。麦汁指挥官套牌中只能包含具有或同时具有山脉和／或树林此两种基本地类别的牌。不能包含类别中包含有下列基本地类别的牌：平原、海岛、沼泽。
 
+<BOOKMARK:cr903-5e>903.5e Commander games do not use sideboards.\\ 
+903.5e 指挥官游戏不使用备牌。
+
 <BOOKMARK:cr903-6>903.6. At the start of the game, each player puts their commander from their deck face up into the command zone. Then each player shuffles the remaining cards of their deck so that the cards are in a random order. Those cards become the player’s library.\\ 
 903.6. 在游戏开始时，每位牌手将其指挥官牌面朝上地置入统帅区。然后分别将套牌中剩下的牌洗牌，确保其中牌张顺序随机。这些牌成为该牌手的牌库。
 
@@ -268,8 +271,11 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 <BOOKMARK:cr903-10a>903.10a A player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)\\ 
 903.10a 在整盘游戏过程中，受到由同一位指挥官造成之战斗伤害达到或超过21点的牌手输掉此盘游戏。（此为状态动作。参见规则[[cr:7#cr704|704]]。）
 
-<BOOKMARK:cr903-11>903.11. If a player is allowed to bring a card from outside the game into a Commander game, that player can’t bring a card into the game this way if it has the same name as a card that player had in their starting deck, if it has the same name as a card that the player owns in the current game, or if any color in its color identity isn’t in the color identity of the player’s commander.\\ 
-903.11. 如果一位牌手被允许将游戏外的牌带进一盘指挥官游戏，若该牌与该牌手起始套牌中的牌具有共通的名称、或该牌与该牌手在当前游戏中拥有的牌具有共通的名称、或该牌的标识色中有任一颜色不在该牌手的指挥官标识色中，则该牌手不能将该牌带进这盘游戏。
+<BOOKMARK:cr903-11>903.11. Except via rules, special actions, and effects that specifically bring cards into Commander games from outside the game, traditional cards from outside the game cannot be brought into a Commander game.\\ 
+903.11. 游戏外的传统万智牌不能带入指挥官游戏中，除非有规则、特殊动作或效应特别允许如此作。
+
+<BOOKMARK:cr903-11a>903.11a If a player is allowed to bring a card from outside the game into a Commander game, that player can’t bring a card into the game this way if it has the same name as a card that player had in their starting deck, if it has the same name as a card that the player owns in the current game, or if any color in its color identity isn’t in the color identity of the player’s commander.\\ 
+903.11a 如果一位牌手被允许将游戏外的牌带进一盘指挥官游戏，若该牌与该牌手起始套牌中的牌具有共通的名称、或该牌与该牌手在当前游戏中拥有的牌具有共通的名称、或该牌的标识色中有任一颜色不在该牌手的指挥官标识色中，则该牌手不能将该牌带进这盘游戏。
 
 <BOOKMARK:cr903-12>903.12. Brawl Option\\ 
 903.12. 争锋模式
@@ -280,8 +286,8 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 <BOOKMARK:cr903-12b>903.12b Brawl decks are usually constructed using cards from the Standard format.\\ 
 903.12b 争锋套牌通常使用标准赛制中的牌张构组。
 
-<BOOKMARK:cr903-12c>903.12c A player designates either a legendary planeswalker or a legendary creature as their commander.\\ 
-903.12c 牌手指定一个传奇鹏洛客或传奇生物作为其指挥官。
+<BOOKMARK:cr903-12c>903.12c Each deck has a legendary card designated as its commander. That card must be either (a) a creature card, (b) a planeswalker card, (c) a Vehicle card, or (d) a Spacecraft card with one or more power/toughness boxes.\\ 
+903.12c 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是载具牌；（c）是具有至少一个力量/防御力方格的太空船牌。
 
 <BOOKMARK:cr903-12d>903.12d A player’s deck must contain exactly 60 cards, including its commander. In other words, the minimum deck size and the maximum deck size are both 60.\\ 
 903.12d 牌手的套牌必须包含正好60张牌（含指挥官）。换言之，套牌数量下限和套牌数量上限均为60。

@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2025年6月6日，*万智牌～最终幻想*系列。
+本译文最近一次更新于：2025年7月25日，*虚空边域*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -21,8 +21,8 @@
 
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
-| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | <img src='https://raw.githubusercontent.com/heliumoctahelide/keyrune/3.16.2/svg/fin.svg' width='14' height='14' />[万智牌～最终幻想](release_notes/faq_fin.pdf) |
-| 2025 下半年 | 虚空边域 | 漫威的蜘蛛侠 | 降世神通：最后的气宗 |
+| 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/fin.svg' width='14' height='14' />[万智牌～最终幻想](release_notes/faq_fin.pdf) |
+| 2025 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/eoe.svg' width='14' height='14' />[虚空边域](https://mtgch.com/articles/official/edge-of-eternities-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/spm.svg' width='14' height='14' />漫威蜘蛛侠 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tla.svg' width='14' height='14' />降世神通：最后的气宗 |
 | 2025 额外系列 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/inr.svg' width='14' height='14' />依尼翠：重置版 | | |
 
 | 年度 | 冬 | 春 | 夏 | 秋 | 额外系列 |
@@ -55,6 +55,19 @@
 
 
 ## 内容更新
+
+### 20250725
+
+- *虚空边域*
+    - 110.10u：新的预定义衍生物：探地器。
+    - 207.2c：新异能提示：空洞。
+    - 611.2e, 613.7n：明确了静止式异能产生的持续性效应和结算中的咒语或异能产生的持续性效应之间的一个互动。
+    - 702.184-185：新关键字异能：蓄势、跃迁。
+    - 721：新种类的牌：蓄势牌。
+    - 903.3, 903.12c：增加了传奇载具和具有攻防的太空船可以用作主将的说明。
+    - 903.5e, 903.11, 702.139d：明确了指挥官不使用备牌，游戏外的牌不能带入指挥官游戏（除非有规则允许如此作，例如行侣）。
+    - 新的副类别：探地器、太空船、行星、卓兹人、针鼹、刺猬、龙虾。
+    - 词汇表更新：探地器、蓄势/蓄势牌、跃迁。
 
 ### 20250606
 
