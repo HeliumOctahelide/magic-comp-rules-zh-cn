@@ -21,13 +21,16 @@
 | Friends forever | 友谊永恒 |
 | Gift | 礼赠 |
 | Harmonize | 谐颂 |
+| Harness/Harnessed | 掌控/受掌控 |
 | Impending | 隐现 |
+| Infinity | 无限 |
 | Interchangeable names | 可互换名称 |
 | Job select | 职业选择 |
 | Lander | 探地器 |
 | Lock/Locked | 上锁/已上锁 |
 | Manifest Dread | 显化惧象 |
 | Max Speed | 速度极限 |
+| Mayhem | 疯乱 |
 | Mobilize | 动员 |
 | Offspring | 繁生 |
 | Omen | 预兆 |
@@ -51,6 +54,7 @@
 | Vanguard | 先锋 |
 | Void | 空洞 |
 | Walker | 尸行者 |
+| Web-slinging | 蛛丝甩荡 |
 
 下列出现于*Unfinity*、*无疆新宇宙：神秘博士*系列中的名词之译名在官网文章中出现，但未出现于卡牌上。
 

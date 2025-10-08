@@ -155,7 +155,7 @@ A keyword ability that can return a creature from the graveyard to the battlefie
 一个阶段的一部分。参见[第5章](/cr/5/)，“回合结构”。   
 A subsection of a phase. See section 5, “Turn Structure.”
 
-### <span id='部族'>部族</span> / <span id='Tribal (Obsolete)'>Tribal (Obsolete)</span>
+### <span id='部族（已废止）'>部族（已废止）</span> / <span id='Tribal (Obsolete)'>Tribal (Obsolete)</span>
 一个已废止的牌张类别，已被重新命名。参见规则[308](/cr/3/#cr308)，“亲缘”。   
 An obsolete card type that has been renamed. See rule 308, “Kindreds.”
 
@@ -620,6 +620,10 @@ Any land that doesn’t have the supertype “basic.” See rule 205.4, “Super
 废料衍生物是具有“{T}，牺牲此衍生物：放逐你的牌库顶牌。本回合中，你可以使用该牌。只能于法术时机起动。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
 A Junk token is a colorless artifact token with {T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.” For more information about predefined tokens, see rule 111.10.
 
+### <span id='非模式双面牌'>非模式双面牌</span> / <span id='Nonmodal Double-Faced Card'>Nonmodal Double-Faced Card</span>
+双面牌的一种。非模式双面牌默认正面朝上地施放，但能以某种方式转化到其背面。参见规则[712](/cr/7/#cr712)，“双面牌”。   
+One kind of double-faced card. Nonmodal double-faced cards default to being cast with their front faces up but can transform to their back faces in some way. See rule 712, “Double-Faced Cards.”
+
 ### <span id='非瑞克西亚法术力符号'>非瑞克西亚法术力符号</span> / <span id='Phyrexian Mana Symbol'>Phyrexian Mana Symbol</span>
 一种法术力符号，表示其既可以使用有色法术力支付，也可以使用生命支付。参见规则[107.4](/cr/1/#cr107-4)。   
 A mana symbol that represents a cost that can be paid either by spending colored mana or by paying life. See rule 107.4.
@@ -662,6 +666,10 @@ To determine how an attacking or blocking creature will deal its combat damage. 
 一个关键字异能，创造咒语的复制品。参见规则[702.40](/cr/7/#cr702-40)，“风暴”。   
 A keyword ability that creates copies of a spell. See rule 702.40, “Storm.”
 
+### <span id='疯乱'>疯乱</span> / <span id='Mayhem'>Mayhem</span>
+一个关键字异能，允许你支付替代性费用从你坟墓场中施放本回合中弃掉的牌。参见规则[702.187](/cr/7/#cr702-187)，“疯乱”。   
+A keyword ability that allows you to play cards you discarded this turn from your graveyard for an alternative cost. See rule 702.187, “Mayhem.”
+
 ### <span id='疯魔'>疯魔</span> / <span id='Madness'>Madness</span>
 一个关键字异能，允许牌手施放他所弃掉的牌。参见规则[702.35](/cr/7/#cr702-35)，“疯魔”。   
 A keyword ability that lets a player cast a card they discard. See rule 702.35, “Madness.”
@@ -695,8 +703,8 @@ A keyword ability that creates copies of a spell. See rule 702.56, “Replicate.
 A keyword action that creates an Incubator token with a specified number of +1/+1 counters on it. See rule 701.53, “Incubate.”
 
 ### <span id='抚育器衍生物'>抚育器衍生物</span> / <span id='Incubator Token'>Incubator Token</span>
-抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
-An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.
+抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
+An Incubator token is a double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.
 
 ### <span id='复制/复制品'>复制/复制品</span> / <span id='Copy'>Copy</span>
 1. 创造一个新的物件，其可复制特征值设为与另一个物件相同。   
@@ -1375,8 +1383,8 @@ A keyword action that causes a player to choose a creature they control to be th
 A Powerstone token is a colorless artifact token with “{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.” For more information about predefined tokens, see rule 111.10.
 
 ### <span id='模式双面牌'>模式双面牌</span> / <span id='Modal Double-Faced Cards'>Modal Double-Faced Cards</span>
-两种双面牌中的一种。模式双面牌的两面可以任选一面朝上使用，但它不能转化。参见规则[712](/cr/7/#cr712)，“双面牌”。   
-One of two kinds of double-faced cards. Modal double-faced cards can be played with either of their two faces up and can’t transform. See rule 712, “Double-Faced Cards.”
+双面牌的一种。模式双面牌的两面可以任选一面朝上使用。参见规则[712](/cr/7/#cr712)，“双面牌”。   
+One kind of double-faced card. Modal double-faced cards can be played with either of their two faces up. See rule 712, “Double-Faced Cards.”
 
 ### <span id='模式（多人游戏）'>模式（多人游戏）</span> / <span id='Option'>Option</span>
 多人游戏中可以使用的一些额外规则。参见规则[800.2](/cr/8/#cr800-2)。   
@@ -1754,7 +1762,7 @@ To take a card from where it is (usually the hand), put it on the stack, and pay
 An obsolete term for mana cost. Cards printed with this text have received errata in the Oracle card reference.
 
 ### <span id='施放者（已废止）'>施放者（已废止）</span> / <span id='Caster (Obsolete)'>Caster (Obsolete)</span>
-一个已废止的用语，表示施放一个咒语的牌手。一般情况下，印有“释放者”的牌已经在Oracle牌张参考文献中得到了勘误，改用“操控者”。   
+一个已废止的用语，表示施放一个咒语的牌手。一般情况下，印有“施放者”的牌已经在Oracle牌张参考文献中得到了勘误，改用“操控者”。   
 An obsolete term that referred to the player who cast a spell. In general, cards that were printed with the term “caster” have received errata in the Oracle card reference to say “controller.”
 
 ### <span id='食腐'>食腐</span> / <span id='Scavenge'>Scavenge</span>
@@ -1870,6 +1878,10 @@ The number of cards in hand a player must discard down to during their cleanup s
 ### <span id='手牌修正'>手牌修正</span> / <span id='Hand Modifier'>Hand Modifier</span>
 一个只有先锋牌才有的特征。参见规则[211](/cr/2/#cr211)，“手牌修正”。   
 A characteristic that only vanguards have. See rule 211, “Hand Modifier.”
+
+### <span id='受掌控'>受掌控</span> / <span id='Harnessed'>Harnessed</span>
+一个永久物可以获得的称号。只要一个无限永久物已受掌控，它就具有其∞异能。参见规则[701.64](/cr/7/#cr701-64)，“掌控”，以及规则[702.186](/cr/7/#cr702-186)，“∞（无限）”。   
+A designation permanents can have. Infinity permanents have their ∞ abilities as long as they are harnessed. See rule 701.64, “Harness,” and rule 702.186, “∞ (Infinity).”
 
 ### <span id='树林'>树林</span> / <span id='Forest'>Forest</span>
 五种基本地类别中的一种。任何具有此副类别的地具有异能“{T}：加{G}。”参见规则[305.6](/cr/3/#cr305-6)。   
@@ -2134,6 +2146,13 @@ An artifact subtype. Equipment can be attached to creatures. See rule 301, “Ar
 ### <span id='武士道'>武士道</span> / <span id='Bushido'>Bushido</span>
 一个关键字异能，让生物在战斗中更强。参见规则[702.45](/cr/7/#cr702-45)，“武士道”。   
 A keyword ability that can make a creature better in combat. See rule 702.45, “Bushido.”
+
+### <span id='无限'>无限</span> / <span id='Infinity'>Infinity</span>
+1. 一种神器类别。   
+1. An artifact subtype.
+
+2. ∞是见于无限牌上的关键字，在该永久物已受掌控时赋予其异能。参见规则[702.186](/cr/7/#cr702-186)，“∞（无限）”，以及规则[701.64](/cr/7/#cr701-64)，“掌控”。   
+2. ∞ is a keyword found on Infinity cards that grants an ability as long as that permanent is harnessed. See rule 702.186, “∞ (Infinity),” and rule 701.64, “Harness.”
 
 ## X
 ### <span id='系命'>系命</span> / <span id='Lifelink'>Lifelink</span>
@@ -2616,7 +2635,7 @@ Cards with a two-part card frame (one part of which is inset on the left) on a s
 A keyword ability that allows some cards to be cast converted. See rule 702.162, “More Than Meets the Eye,” and rule 701.28, “Convert.”
 
 ### <span id='跃迁'>跃迁</span> / <span id='Warp'>Warp</span>
-一个见于永久物牌上的关键字异能，允许它们以替代性费用释放。参见规则[702.185](/cr/7/#cr702-185)，“跃迁”。   
+一个见于永久物牌上的关键字异能，允许它们以替代性费用施放。参见规则[702.185](/cr/7/#cr702-185)，“跃迁”。   
 A keyword ability found on permanent cards that allows them to be cast for an alternative cost. See rule 702.185, “Warp.”
 
 ### <span id='晕眩指示物'>晕眩指示物</span> / <span id='Stun Counter'>Stun Counter</span>
@@ -2719,6 +2738,10 @@ To show a card to all players for a brief time. See rule 701.20, “Reveal.”
 ### <span id='战役'>战役</span> / <span id='Battle'>Battle</span>
 一种牌张类别。战役是永久物。参见规则[310](/cr/3/#cr310)，“战役”。   
 A card type. A battle is a permanent. See rule 310, “Battles.”
+
+### <span id='掌控'>掌控</span> / <span id='Harness'>Harness</span>
+一个关键字动作，赋予永久物受掌控此称号。参见规则[701.64](/cr/7/#cr701-64)，“掌控”。   
+A keyword action that grants a permanent the harnessed designation. See rule 701.64, “Harness.”
 
 ### <span id='长效'>长效</span> / <span id='Ongoing'>Ongoing</span>
 只出现在邪计牌上的超类别。参见规则[205.4](/cr/2/#cr205-4)，“超类别”。   
@@ -2886,6 +2909,10 @@ A system that determines the order by which players make choices if multiple pla
 一个关键字异能，允许另一位牌手帮助你支付咒语的费用。参见规则[702.132](/cr/7/#cr702-132)，“助力”。   
 A keyword ability that lets another player help you pay for a spell. See rule 702.132, “Assist.”
 
+### <span id='蛛丝甩荡'>蛛丝甩荡</span> / <span id='Web-slinging'>Web-slinging</span>
+一个关键字异能，允许咒语藉由将一个由你操控且已横置的生物移回其拥有者手上的替代性费用来施放。参见规则[702.188](/cr/7/#cr702-188)，“蛛丝甩荡”。   
+A keyword ability that allows spells to be cast for an alternative cost by returning a tapped creature you control to its owner’s hand. See rule 702.188, “Web-slinging.”
+
 ### <span id='主游戏'>主游戏</span> / <span id='Main Game'>Main Game</span>
 施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[728](/cr/7/#cr728)，“子游戏”。   
 The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 728, “Subgames.”
@@ -2905,9 +2932,9 @@ Part of the turn. This step is the third and final step of the beginning phase. 
 将一张双面牌翻转从而让其另一面朝上。参见规则[701.27](/cr/7/#cr701-27)，“转化”。   
 To turn a double-faced card so its other face is up. See rule 701.27, “Transform.”
 
-### <span id='转化式双面牌'>转化式双面牌</span> / <span id='Transforming Double-Faced Cards'>Transforming Double-Faced Cards</span>
-两种双面牌中的一种。转化式双面牌的默认使用其正面，但能以某种方式转化到其背面。参见规则[712](/cr/7/#cr712)，“双面牌”。   
-One of two kinds of double-faced cards. Transforming double-faced cards default to their front faces but can transform to their back faces in some way. See rule 712, “Double-Faced Cards.”
+### <span id='转化式双面牌（已废止）'>转化式双面牌（已废止）</span> / <span id='Transforming Double-Faced Cards (Obsolete)'>Transforming Double-Faced Cards (Obsolete)</span>
+非模式双面牌的旧名称。参见规则[712](/cr/7/#cr712)，“双面牌”。   
+An older name for nonmodal double-faced cards. See rule 712, “Double-Faced Cards.”
 
 ### <span id='转换'>转换</span> / <span id='Convert'>Convert</span>
 将一张双面牌翻转从而让其另一面朝上。参见规则[701.28](/cr/7/#cr701-28)，“转换”。   

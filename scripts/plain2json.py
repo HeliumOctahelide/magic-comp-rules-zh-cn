@@ -146,7 +146,17 @@ def plain_text_to_json(en_text, zh_text, output_file, plain_json_output_file, ve
 
     def flatten(obj):
         if 'subrules' in obj:
+            # 添加自身
+            extras = obj.get('extras', [])
+            extras_text = "\n".join([f"{extra['en']}\n{extra['zh']}" for extra in extras])
+            assert obj['chapter'][0] in '123456789', f"Invalid chapter format: {obj['chapter']}"
+            plain_json.append({
+                'chapter': obj['chapter'][0],
+                'id': obj['chapter'],
+                'content': f"{obj['chapter']} {obj['en']}\n{obj['zh']}" + ('\n' + extras_text if extras_text else ''),
+            })
             for subrule in obj['subrules']:
+                # 递归添加子规则
                 flatten(subrule)
         else:
             extras = obj.get('extras', [])

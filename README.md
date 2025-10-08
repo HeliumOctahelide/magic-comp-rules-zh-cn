@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2025年7月25日，*虚空边域*系列。
+本译文最近一次更新于：2025年9月19日，*漫威的蜘蛛侠*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -22,7 +22,7 @@
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
 | 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/fin.svg' width='14' height='14' />[万智牌～最终幻想](release_notes/faq_fin.pdf) |
-| 2025 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/eoe.svg' width='14' height='14' />[虚空边域](https://mtgch.com/articles/official/edge-of-eternities-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/spm.svg' width='14' height='14' />漫威蜘蛛侠 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tla.svg' width='14' height='14' />降世神通：最后的气宗 |
+| 2025 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/eoe.svg' width='14' height='14' />[虚空边域](https://mtgch.com/articles/official/edge-of-eternities-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/spm.svg' width='14' height='14' />[漫威的蜘蛛侠](https://mtgch.com/articles/official/spider-man-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tla.svg' width='14' height='14' />降世神通：最后的气宗 |
 | 2025 额外系列 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/inr.svg' width='14' height='14' />依尼翠：重置版 | | |
 
 | 年度 | 冬 | 春 | 夏 | 秋 | 额外系列 |
@@ -55,6 +55,18 @@
 
 
 ## 内容更新
+
+### 20250919
+
+- *漫威的蜘蛛侠*
+    - 通用：现在模式双面牌也可以转化。「转化式双面牌」此用语同时废止，以「非模式双面牌」代替。
+    - 122.8, 122.9：明确了将指定种类指示物从一个物件上放置到另一个物件上时的互动情形。
+    - 614.12b：如果数个需要牌手作出选择的替代性效应会同时影响数个永久物进战场的方式，则该牌手作出的选择，不能让这些效应的费用加总起来无法支付。
+    - 701.64：新关键字动作：掌控。
+    - 702.176a：稍微修正了隐现的定义。
+    - 702.186-188：新关键字异能：无限、疯乱、蛛丝甩荡。
+    - 新的副类别：无限、原石、共生体、反派。
+    - 词汇表更新：掌控、无限、疯乱、非模式双面牌、蛛丝甩荡。
 
 ### 20250725
 

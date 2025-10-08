@@ -1,5 +1,5 @@
 {
-    "version": "20250725",
+    "version": "20250919",
     "intro": {
         "contents": [
             {
@@ -7,8 +7,8 @@
                 "zh": "万智牌完整规则"
             },
             {
-                "en": "These rules are effective as of July 25, 2025.",
-                "zh": "此规则于2025年7月25日起生效。"
+                "en": "These rules are effective as of September 19, 2025.",
+                "zh": "此规则于2025年9月19日起生效。"
             },
             {
                 "en": "Introduction",
@@ -1443,7 +1443,7 @@
                                 {
                                     "chapter": "111.10b",
                                     "en": "A Food token is a colorless Food artifact token with “{2}, {T}, Sacrifice this token: You gain 3 life.”",
-                                    "zh": "食品衍生物是具有“{T}，牺牲此衍生物：你获得3点生命。”的无色食品衍生神器。"
+                                    "zh": "食品衍生物是具有“{2}，{T}，牺牲此衍生物：你获得3点生命。”的无色食品衍生神器。"
                                 },
                                 {
                                     "chapter": "111.10c",
@@ -1477,8 +1477,8 @@
                                 },
                                 {
                                     "chapter": "111.10i",
-                                    "en": "An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named Phyrexian Token.",
-                                    "zh": "抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。"
+                                    "en": "An Incubator token is a double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named Phyrexian Token.",
+                                    "zh": "抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。"
                                 },
                                 {
                                     "chapter": "111.10j",
@@ -2986,14 +2986,14 @@
                         },
                         {
                             "chapter": "122.8.",
-                            "en": "If a triggered ability instructs a player to put one object’s counters on another object and that ability’s trigger condition or effect checks that the object with those counters left the battlefield, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object.",
-                            "zh": "如果一个触发式异能指示牌手将一个物件上的指示物放置在另一个物件上，且该异能的触发条件或效应检查具有这些指示物的前者物件已离开战场，则该牌手并非将指示物从一个物件移动到另一个物件上，而是该牌手在后者物件上放置数个指示物，其每种指示物的数量等同于前者物件上每种指示物的数量。",
+                            "en": "If a triggered ability instructs a player to put one object’s counters on another object and that ability’s trigger condition or effect checks that the object with those counters left the battlefield, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object. If the ability specifies what kind(s) of counters to place, the player puts the same number of each of those kinds of counter the first object had onto the second object.",
+                            "zh": "如果一个触发式异能指示牌手将一个物件上的指示物放置在另一个物件上，且该异能的触发条件或效应检查具有这些指示物的前者物件已离开战场，则该牌手并非将指示物从一个物件移动到另一个物件上，而是该牌手在后者物件上放置数个指示物，其每种指示物的数量等同于前者物件上每种指示物的数量。如果该异能指定了要放置的指示物种类，则该牌手在后者物件上放置数个指示物，其数量和种类各等同于前者物件上每种指定指示物的数量。",
                             "subrules": []
                         },
                         {
                             "chapter": "122.9.",
-                            "en": "If an activated ability of an object instructs a player to put its counters on another object and sacrificing the object with those counters is a cost to activate that ability, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object.",
-                            "zh": "如果一个物件的起动式异能指示牌手将该物件上的指示物放置在另一个物件上，且牺牲具有这些指示物的物件是起动该异能的费用，则该牌手并非将指示物从一个物件移动到另一个物件上，而是该牌手在后者物件上放置数个指示物，其每种指示物的数量等同于前者物件上每种指示物的数量。",
+                            "en": "If an activated ability of an object instructs a player to put its counters on another object and sacrificing the object with those counters is a cost to activate that ability, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object. If the ability specified what kind(s) of counters to place, the player puts the same number of each of those kinds of counters the first object had onto the second object.",
+                            "zh": "如果一个物件的起动式异能指示牌手将该物件上的指示物放置在另一个物件上，且牺牲具有这些指示物的物件是起动该异能的费用，则该牌手并非将指示物从一个物件移动到另一个物件上，而是该牌手在后者物件上放置数个指示物，其每种指示物的数量等同于前者物件上每种指示物的数量。如果该异能指定了要放置的指示物种类，则该牌手在后者物件上放置数个指示物，其数量和种类各等同于前者物件上每种指定指示物的数量。",
                             "subrules": []
                         }
                     ]
@@ -3433,25 +3433,25 @@
                             "subrules": [
                                 {
                                     "chapter": "202.3a",
-                                    "en": "The mana value of an object with no mana cost is 0, unless that object is the back face of a transforming double-faced permanent or is a melded permanent.",
-                                    "zh": "没有法术力费用的物件，其法术力值为0，除非该物件是转化式双面永久物的背面、或是已融合的永久物。"
+                                    "en": "The mana value of an object with no mana cost is 0, unless that object is the back face of a nonmodal double-faced permanent or spell, or it is a melded permanent.",
+                                    "zh": "没有法术力费用的物件，其法术力值为0，除非该物件是非模式双面永久物或咒语的背面、或是已融合的永久物。"
                                 },
                                 {
                                     "chapter": "202.3b",
-                                    "en": "The mana value of a transforming double-faced permanent or spell’s back face is calculated as though it had the mana cost of its front face. If a permanent or spell is a copy of the back face of a transforming double-faced card (even if the card representing that copy is itself a double-faced card), the mana value of the copy is 0.",
-                                    "zh": "在计算转化式双面永久物或咒语背面的法术力值时，视为其具有正面的法术力费用。如果某永久物或咒语是一张转化式双面牌背面的复制品，该复制品的法术力值为0（即使作为复制品的牌本身也是一张双面牌）。",
+                                    "en": "The mana value of the back face of a nonmodal double-faced permanent or spell’s back face is calculated as though it had the mana cost of its front face. If a permanent or spell is a copy of the back face of a nonmodal double-faced object (even if the card representing that copy is itself a double-faced card), the mana value of the copy is 0.",
+                                    "zh": "在计算非模式双面永久物或咒语背面的法术力值时，视为其具有正面的法术力费用。如果某永久物或咒语是一个非模式双面物件背面的复制品，该复制品的法术力值为0（即使作为复制品的牌本身也是一张双面牌）。",
                                     "extras": [
                                         {
-                                            "en": "Example: Huntmaster of the Fells is a transforming double-faced card with mana cost {2}{R}{G}. Its mana value is 4. After it transforms to its other face (Ravager of the Fells), its mana value remains 4.",
-                                            "zh": "例如：堕者猎师是一张转化式双面牌，其法术力费用为{2}{R}{G}。其法术力值为4。当它转化到另一面（堕者噬兽）时，其法术力值仍是4。"
+                                            "en": "Example: Huntmaster of the Fells is a nonmodal double-faced card with mana cost {2}{R}{G}. Its mana value is 4. After it transforms to its other face (Ravager of the Fells), its mana value remains 4.",
+                                            "zh": "例如：堕者猎师是一张非模式双面牌，其法术力费用为{2}{R}{G}。其法术力值为4。当它转化到另一面（堕者噬兽）时，其法术力值仍是4。"
                                         },
                                         {
                                             "en": "Example: A Clone enters the battlefield as a copy of Ravager of the Fells. Its mana value is 0.",
                                             "zh": "例如：一个仿生妖作为堕者噬兽的复制品进入战场。其法术力值为0。"
                                         },
                                         {
-                                            "en": "Example: Insectile Aberration is the back face of a transforming double-faced card whose front face has mana cost {U}. It becomes a copy of Ravager of the Fells. Its mana value becomes 0.",
-                                            "zh": "例如：昆虫变体是一张转化式双面牌的背面，其正面的法术力费用是{U}。它成为堕者噬兽的复制品。其法术力值成为0。"
+                                            "en": "Example: Insectile Aberration is the back face of a nonmodal double-faced card whose front face has mana cost {U}. It becomes a copy of Ravager of the Fells. Its mana value becomes 0.",
+                                            "zh": "例如：昆虫变体是一张非模式双面牌的背面，其正面的法术力费用是{U}。它成为堕者噬兽的复制品。其法术力值成为0。"
                                         }
                                     ]
                                 },
@@ -3653,8 +3653,8 @@
                                 },
                                 {
                                     "chapter": "205.3g",
-                                    "en": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Attraction (see rule 717), Blood, Bobblehead, Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), Gold, Incubator, Junk, Lander, Map, Powerstone, Spacecraft, Treasure, and Vehicle (see rule 301.7).",
-                                    "zh": "神器具有其特有的副类别；这些副类别被称为神器类别。神器类别包括景点（参见规则717）、血滴、娃娃、线索、机巧、武具（参见规则301.5）、食品、工事（参见规则301.6）、黄金、抚育器、废料、探地器[Lander]、地图、魔力石、太空船[Spacecraft]、珍宝、以及载具（参见规则301.7）。"
+                                    "en": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Attraction (see rule 717), Blood, Bobblehead, Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), Gold, Incubator, Infinity, Junk, Lander, Map, Powerstone, Spacecraft, Stone, Treasure, and Vehicle (see rule 301.7).",
+                                    "zh": "神器具有其特有的副类别；这些副类别被称为神器类别。神器类别包括景点（参见规则717）、血滴、娃娃、线索、机巧、武具（参见规则301.5）、食品、工事（参见规则301.6）、黄金、抚育器、无限[Infinity]、废料、探地器[Lander]、地图、魔力石、太空船[Spacecraft]、原石[Stone]、珍宝、以及载具（参见规则301.7）。"
                                 },
                                 {
                                     "chapter": "205.3h",
@@ -3678,8 +3678,8 @@
                                 },
                                 {
                                     "chapter": "205.3m",
-                                    "en": "Creatures and kindreds share their lists of subtypes; these subtypes are called creature types. One creature type is two words long: Time Lord. All other creature types are one word long: Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drix, Drone, Druid, Dryad, Dwarf, Echidna, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Glimmer, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hedgehog, Hellion, Hero, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Lobster, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moogle, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Qu, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Seal, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Skunk, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Toy, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Varmint, Vedalken, Volver, Wall, Walrus, Warlock, Warrior, Weasel, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
-                                    "zh": "生物和亲缘共享其副类别列表；这些副类别被称为生物类别。有一种生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、卓兹人[Drix]、奴兽、德鲁伊、树灵、矮人、针鼹[Echidna]、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、石像鬼、病菌、巨人、吉斯人、烁光体[Glimmer]、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、宾客[Guest]、巫婆、半身人、仓鼠、哈痞、刺猬[Hedgehog]、地狱兽、英雄、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、骆马、拉弥亚、拉玛苏、蛭、海怪、拉高耶夫、立吸怪、蜥蜴、龙虾[Lobster]、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、莫古力[Moogle]、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、豪猪、负鼠、魔判官、原体、棱镜、噬体、食族[Qu]、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、雕像[Sculpture]、海豹[Seal]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、塞连、骷髅妖、臭鼬、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、乌贼、松鼠、海星、苏拉卡、求生者[Survivor]、合成人、触手、四分节[Tetravite]、萨拉卡斯、振翼机、索尔兽、魔人、玩具[Toy]、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、吸血鬼、害兽、维多肯、进化体、墙、海象、邪术师、战士、鼬鼠[Weasel]、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑、无面鬼。"
+                                    "en": "Creatures and kindreds share their lists of subtypes; these subtypes are called creature types. One creature type is two words long: Time Lord. All other creature types are one word long: Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drix, Drone, Druid, Dryad, Dwarf, Echidna, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Glimmer, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hedgehog, Hellion, Hero, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Lobster, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moogle, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Qu, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Seal, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Skunk, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Symbiote, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Toy, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Varmint, Vedalken, Villain, Volver, Wall, Walrus, Warlock, Warrior, Weasel, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+                                    "zh": "生物和亲缘共享其副类别列表；这些副类别被称为生物类别。有一种生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、卓兹人[Drix]、奴兽、德鲁伊、树灵、矮人、针鼹[Echidna]、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、石像鬼、病菌、巨人、吉斯人、烁光体[Glimmer]、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、宾客[Guest]、巫婆、半身人、仓鼠、哈痞、刺猬[Hedgehog]、地狱兽、英雄、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、骆马、拉弥亚、拉玛苏、蛭、海怪、拉高耶夫、立吸怪、蜥蜴、龙虾[Lobster]、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、莫古力[Moogle]、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、豪猪、负鼠、魔判官、原体、棱镜、噬体、食族[Qu]、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、雕像[Sculpture]、海豹[Seal]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、塞连、骷髅妖、臭鼬、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、乌贼、松鼠、海星、苏拉卡、求生者[Survivor]、共生体[Symbiote]、合成人、触手、四分节[Tetravite]、萨拉卡斯、振翼机、索尔兽、魔人、玩具[Toy]、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、吸血鬼、害兽、维多肯、反派[Villain]、进化体、墙、海象、邪术师、战士、鼬鼠[Weasel]、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑、无面鬼。"
                                 },
                                 {
                                     "chapter": "205.3n",
@@ -7482,8 +7482,8 @@
                                 },
                                 {
                                     "chapter": "607.1b",
-                                    "en": "An ability printed on either face of a transforming double-faced card (see rule 712) is considered to be “printed on” that object for these purposes, regardless of which face is up.",
-                                    "zh": "一个印在转化式双面牌（参见规则712）的任一牌面上的异能，无论其哪一牌面朝上，在此情况下都被认为印在该物件上。"
+                                    "en": "An ability printed on either face of a nonmodal double-faced object (see rule 712) is considered to be “printed on” that object for these purposes, regardless of which face is up.",
+                                    "zh": "一个印在非模式双面物件（参见规则712）的任一牌面上的异能，无论其哪一牌面朝上，在此情况下都被认为印在该物件上。"
                                 },
                                 {
                                     "chapter": "607.1c",
@@ -8371,8 +8371,8 @@
                                 },
                                 {
                                     "chapter": "613.7g",
-                                    "en": "A transforming double-faced permanent receives a new timestamp each time it transforms or converts.",
-                                    "zh": "每当一个转化式双面永久物转化或转换时，它得到新的时间印记。"
+                                    "en": "A double-faced permanent receives a new timestamp each time it transforms or converts.",
+                                    "zh": "每当一个双面永久物转化或转换时，它得到新的时间印记。"
                                 },
                                 {
                                     "chapter": "613.7h",
@@ -8607,6 +8607,11 @@
                                 },
                                 {
                                     "chapter": "614.12b",
+                                    "en": "If multiple replacement effects that require choices from a player would modify how multiple permanents enter the battlefield simultaneously, that player may not make choices for those effects that would cause the combined costs of those effects to not be payable.",
+                                    "zh": "如果数个需要牌手作出选择的替代性效应会同时影响数个永久物进战场的方式，则该牌手作出的选择，不能让这些效应的费用加总起来无法支付。"
+                                },
+                                {
+                                    "chapter": "614.12c",
                                     "en": "Some replacement effects cause a permanent to enter the battlefield with its controller’s choice of one of two abilities, each marked with an anchor word and preceded by a bullet point. “[Anchor word] — [ability]” means “As long as [anchor word] was chosen as this permanent entered the battlefield, this permanent has [ability].” The abilities preceded by anchor words are each linked to the ability that causes a player to choose between them. See rule 607, “Linked Abilities.”",
                                     "zh": "一些替代性效应使得永久物进战场时由其操控者选择两种异能之一，且这两种异能均以锚定词开头，以项目列表的格式列出。“[锚定词]～[异能]”意指“只要此永久物进战场时选择了[锚定词]，此永久物便具有[异能]。”以锚定词开头的异能与允许牌手选择锚定词的异能相互关联。参见规则607，“关联异能”。"
                                 }
@@ -9849,8 +9854,8 @@
                             "subrules": [
                                 {
                                     "chapter": "701.27a",
-                                    "en": "To transform a permanent, turn it over so that its other face is up. Only transforming tokens and permanents represented by transforming double-faced cards can transform. (See rule 712, “Double-Faced Cards.”)",
-                                    "zh": "转化一个永久物指，将它翻到另一面牌面朝上。只有转化式衍生物和以转化式双面牌代表的永久物才能转化。（参见规则712，“双面牌”。）"
+                                    "en": "To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced tokens and double-faced cards can transform. (See rule 712, “Double-Faced Cards.”)",
+                                    "zh": "转化一个永久物指，将它翻到另一面牌面朝上。只有以双面衍生物和双面牌代表的永久物才能转化。（参见规则712，“双面牌”。）"
                                 },
                                 {
                                     "chapter": "701.27b",
@@ -9859,13 +9864,13 @@
                                 },
                                 {
                                     "chapter": "701.27c",
-                                    "en": "If a spell or ability instructs a player to transform a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.",
-                                    "zh": "如果某咒语或异能要求牌手转化某个既不是转化式衍生物也不是转化式双面牌代表的永久物，则什么都不会发生。"
+                                    "en": "If a spell or ability instructs a player to transform a permanent that isn’t represented by a double-faced token or a double-faced card, nothing happens.",
+                                    "zh": "如果某咒语或异能要求牌手转化某个既不是双面衍生物也不是双面牌代表的永久物，则什么都不会发生。"
                                 },
                                 {
                                     "chapter": "701.27d",
-                                    "en": "If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.",
-                                    "zh": "如果某咒语或异能要求牌手转化某个永久物，且该永久物将要转化成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。"
+                                    "en": "If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is an instant or sorcery face nothing happens.",
+                                    "zh": "如果某咒语或异能要求牌手转化某个永久物，且该永久物将要转化成的牌面是瞬间或法术，则什么都不会发生。"
                                 },
                                 {
                                     "chapter": "701.27e",
@@ -9879,8 +9884,8 @@
                                 },
                                 {
                                     "chapter": "701.27g",
-                                    "en": "Some spells and abilities refer to a “transformed permanent.” This phrase refers to a permanent on the battlefield with its back face up that’s also a transforming double-faced card or a transforming token. A permanent with its front face up is never considered a transformed permanent, even if it had its back face up previously.",
-                                    "zh": "一些咒语和异能提及一个“已转化的永久物”。此用词意指一个在战场上且背面朝上的永久物，且此面同样为转化式双面牌或转化式衍生物。正面朝上的永久物不会被视为已转化的永久物，即使它们之前是背面朝上的。"
+                                    "en": "Some spells and abilities refer to a “transformed permanent.” This phrase refers to a double-faced permanent on the battlefield with its back face up. A permanent with its front face up is never considered a transformed permanent, even if it had its back face up previously. Similarly, an object represented by more than one card, such as a melded or merged permanent, is never considered a transformed permanent, even if it has components that are back face up. See rules 701.42, “Meld,” and 729, “Merging with Permanents.”",
+                                    "zh": "一些咒语和异能提及一个“已转化的永久物”。此用词意指一个在战场上且背面朝上的双面永久物。正面朝上的永久物不会被视为已转化的永久物，即使它们之前是背面朝上的。类似地，由多张牌代表的物件，例如已融合或已结聚者，亦不会被视为已转化的永久物，即使其中包含背面朝上的组件。参见规则701.42，“融合”，以及规则729，“与永久物结聚”。"
                                 }
                             ]
                         },
@@ -9901,13 +9906,13 @@
                                 },
                                 {
                                     "chapter": "701.28c",
-                                    "en": "If a spell or ability instructs a player to convert a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.",
-                                    "zh": "如果某咒语或异能要求牌手转换某个不是转化式双面牌的永久物，则什么都不会发生。"
+                                    "en": "If a spell or ability instructs a player to convert a permanent that isn’t represented by a double-faced token or a double-faced card, nothing happens.",
+                                    "zh": "如果某咒语或异能要求牌手转换某个既不是双面衍生物也不是双面牌代表的永久物，则什么都不会发生。"
                                 },
                                 {
                                     "chapter": "701.28d",
-                                    "en": "If a spell or ability instructs a player to convert a permanent, and the face that permanent would convert into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.",
-                                    "zh": "如果某咒语或异能要求牌手转换某个永久物，且该永久物将要转换成的牌面是以瞬间或法术牌面代表，或牌面是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。"
+                                    "en": "If a spell or ability instructs a player to convert a permanent, and the face that permanent would convert into is an instant or sorcery face, nothing happens.",
+                                    "zh": "如果某咒语或异能要求牌手转换某个永久物，且该永久物将要转换成的牌面是瞬间或法术，则什么都不会发生。"
                                 },
                                 {
                                     "chapter": "701.28e",
@@ -10269,7 +10274,7 @@
                                 },
                                 {
                                     "chapter": "701.44d",
-                                    "en": "If multiple permanents are instructed to explore at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.44c) one or more of those permanents chooses one of them and it explores. Then this process is repeated for each remaining instruction to explore,",
+                                    "en": "If multiple permanents are instructed to explore at the same time, the first player in APNAP order who controls (or, in the case of a permanent no longer on the battlefield, last controlled; see rule 701.44c) one or more of those permanents chooses one of them and it explores. Then this process is repeated for each remaining instruction to explore.",
                                     "zh": "如果同时令多个永久物勘察，则在操控了一个或数个此类永久物的牌手（如果该永久物已不在战场上，则是最后操控它的牌手；参见规则701.44c）中，依主动牌手先决定（APNAP）顺序的第一位牌手选择其中一个由其操控的永久物，令该永久物勘察。然后对每个剩余的勘察指示重复此流程。"
                                 }
                             ]
@@ -10442,8 +10447,8 @@
                                 },
                                 {
                                     "chapter": "701.53b",
-                                    "en": "An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this artifact.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.”",
-                                    "zh": "抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。"
+                                    "en": "An Incubator token is a double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.”",
+                                    "zh": "抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。"
                                 }
                             ]
                         },
@@ -10679,6 +10684,23 @@
                                     "chapter": "701.63b",
                                     "en": "If a permanent is instructed to endure 0, nothing happens. No counters are put on that permanent and no tokens are created.",
                                     "zh": "如果某永久物被指示续战0，则什么都不会发生。该永久物上不会放置任何指示物，也不会派出衍生物。"
+                                }
+                            ]
+                        },
+                        {
+                            "chapter": "701.64.",
+                            "en": "Harness",
+                            "zh": "掌控",
+                            "subrules": [
+                                {
+                                    "chapter": "701.64a",
+                                    "en": "“Harness [this permanent]” means “If this permanent isn’t harnessed, it becomes harnessed.”",
+                                    "zh": "“掌控[此永久物]”意指“如果此永久物未受掌控，则它成为受掌控。”"
+                                },
+                                {
+                                    "chapter": "701.64b",
+                                    "en": "Harnessed is a designation that has no rules meaning other than to act as a marker that other spells and abilities can identify. Only permanents can be or become harnessed. Once a permanent becomes harnessed, it stays harnessed until it leaves the battlefield. Harnessed is neither an ability nor part of the permanent’s copiable values.",
+                                    "zh": "“受掌控”此称号并无规则含义。它仅用作标记，供其他咒语和异能辨识之用。只有永久物能够受掌控。一旦某永久物已受掌控后，它便会一直保持已受掌控，直到它离开战场为止。“受掌控”既不是异能，也不是该永久物可复制特征值的一部分。"
                                 }
                             ]
                         }
@@ -11923,8 +11945,8 @@
                             "subrules": [
                                 {
                                     "chapter": "702.41a",
-                                    "en": "Affinity is a static ability that functions while the spell with affinity is on the stack. “Affinity for [text]” means “This spell costs you {1} less to cast for each [text] you control.”",
-                                    "zh": "共鸣属于静止式异能，当具共鸣异能的咒语在堆叠中时生效。“[文字]共鸣”意指“你每操控一个[文字]，施放此咒语的费用便减少{1}来施放。”"
+                                    "en": "Affinity is a static ability that functions while the spell with affinity is on the stack. “Affinity for [text]” means “This spell costs {1} less to cast for each [text] you control.”",
+                                    "zh": "共鸣属于静止式异能，当具共鸣异能的咒语在堆叠中时生效。“[文字]共鸣”意指“你每操控一个[文字]，此咒语便减少{1}来施放。”"
                                 },
                                 {
                                     "chapter": "702.41b",
@@ -12959,7 +12981,7 @@
                                 {
                                     "chapter": "702.94a",
                                     "en": "Miracle is a static ability linked to a triggered ability. (See rule 603.11.) “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”",
-                                    "zh": "奇迹是与触发式异能有关联的静止式异能。（参见规则603.11。）“奇迹[费用]”意指“于你抓到此牌时，若其为你本回合抓到的第一张牌，你可以从手上展示它。当你以此法展示此牌时，你可以支付[费用]并施放之，而不需支付其法术力费用。”"
+                                    "zh": "奇迹是与触发式异能有关联的静止式异能。（参见规则603.11。）“奇迹[费用]”意指“于你抓到此牌时，若其为你本回合抓到的第一张牌，你可以从手上展示它。当你以此法展示此牌时，你可以支付[费用]并施放之，而非支付其法术力费用。”"
                                 },
                                 {
                                     "chapter": "702.94b",
@@ -14025,13 +14047,13 @@
                             "subrules": [
                                 {
                                     "chapter": "702.145a",
-                                    "en": "Daybound and nightbound are found on opposite faces of some transforming double-faced cards (see rule 712, “Double-Faced Cards”).",
-                                    "zh": "昼形与夜形分别见于一些转化式双面牌（参见规则712，“双面牌”）的两面。"
+                                    "en": "Daybound and nightbound are found on opposite faces of some double-faced cards (see rule 712, “Double-Faced Cards”).",
+                                    "zh": "昼形与夜形分别见于一些双面牌（参见规则712，“双面牌”）的两面。"
                                 },
                                 {
                                     "chapter": "702.145b",
-                                    "en": "Daybound is found on the front faces of some transforming double-faced cards and represents three static abilities. “Daybound” means “If it is night and this permanent is represented by a transforming double-faced card, it enters transformed,” “As it becomes night, if this permanent is front face up, transform it,” and “This permanent can’t transform except due to its daybound ability.” See rule 730, “Day and Night.”",
-                                    "zh": "昼形见于一些转化式双面牌的正面，代表三个静止式异能。“昼形”意指“如果当前是黑夜，且此永久物以转化式双面牌代表，则此永久物进场时已转化”，“于成为黑夜时，若此永久物正面朝上，转化之”，以及“此永久物不能因其昼形异能之外的方式转化。”参见规则730，“白昼与黑夜”。"
+                                    "en": "Daybound is found on the front faces of some double-faced cards and represents three static abilities. “Daybound” means “If it is night and this permanent is represented by a double-faced card, it enters transformed,” “As it becomes night, if this permanent is front face up, transform it,” and “This permanent can’t transform except due to its daybound ability.” See rule 730, “Day and Night.”",
+                                    "zh": "昼形见于一些双面牌的正面，代表三个静止式异能。“昼形”意指“如果当前是黑夜，且此永久物以双面牌代表，则此永久物进场时已转化”，“于成为黑夜时，若此永久物正面朝上，转化之”，以及“此永久物不能因其昼形异能之外的方式转化。”参见规则730，“白昼与黑夜”。"
                                 },
                                 {
                                     "chapter": "702.145c",
@@ -14045,8 +14067,8 @@
                                 },
                                 {
                                     "chapter": "702.145e",
-                                    "en": "Nightbound is found on the back faces of some transforming double-faced cards and represents two static abilities. “Nightbound” means “As it becomes day, if this permanent is back face up, transform it” and “This permanent can’t transform except due to its nightbound ability.”",
-                                    "zh": "夜形见于一些转化式双面牌的背面，代表两个静止式异能。“夜形”意指“于成为白昼时，若此永久物背面朝上，转化之”以及“此永久物不能因其夜形异能之外的方式转化。”"
+                                    "en": "Nightbound is found on the back faces of some double-faced cards and represents two static abilities. “Nightbound” means “As it becomes day, if this permanent is back face up, transform it” and “This permanent can’t transform except due to its nightbound ability.”",
+                                    "zh": "夜形见于一些双面牌的背面，代表两个静止式异能。“夜形”意指“于成为白昼时，若此永久物背面朝上，转化之”以及“此永久物不能因其夜形异能之外的方式转化。”"
                                 },
                                 {
                                     "chapter": "702.145f",
@@ -14067,13 +14089,13 @@
                             "subrules": [
                                 {
                                     "chapter": "702.146a",
-                                    "en": "Disturb is an ability found on the front face of some transforming double-faced cards (see rule 712, “Double-Faced Cards”). “Disturb [cost]” means “You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost.” See rule 712.8c.",
-                                    "zh": "惊扰异能见于一些转化式双面牌（参见规则712，“双面牌”）的正面。“惊扰[费用]”意指，“你可以从你坟墓场中施放已转化的此牌，但须支付[费用]，而非支付其法术力费用。”参见规则712.8c。"
+                                    "en": "Disturb is an ability found on the front face of some double-faced cards (see rule 712, “Double-Faced Cards”). “Disturb [cost]” means “You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost.” See rule 712.8c.",
+                                    "zh": "惊扰异能见于一些双面牌（参见规则712，“双面牌”）的正面。“惊扰[费用]”意指，“你可以从你坟墓场中施放已转化的此牌，但须支付[费用]，而非支付其法术力费用。”参见规则712.8c。"
                                 },
                                 {
                                     "chapter": "702.146b",
-                                    "en": "A resolving transforming double-faced spell that was cast using its disturb ability enters the battlefield with its back face up.",
-                                    "zh": "正在结算的、利用其惊扰异能施放的转化式双面咒语背面朝上地进战场。"
+                                    "en": "A resolving double-faced spell that was cast using its disturb ability enters the battlefield with its back face up.",
+                                    "zh": "正在结算的、利用其惊扰异能施放的双面咒语背面朝上地进战场。"
                                 }
                             ]
                         },
@@ -14713,8 +14735,8 @@
                             "subrules": [
                                 {
                                     "chapter": "702.176a",
-                                    "en": "Impending is a keyword that represents four abilities. The first and second are static abilities that function while the spell with impending is on the stack. The third is a static ability that functions on the battlefield. The fourth is a triggered ability that functions on the battlefield. “Impending N—[cost]” means “You may choose to pay [cost] rather than pay this spell’s mana cost,” “If you chose to pay this spell’s impending cost, it enters with N time counters on it,” “As long as this permanent’s impending cost was paid and it has a time counter on it, it’s not a creature,” and “At the beginning of your end step, if this permanent’s impending cost was paid and it has a time counter on it, remove a time counter from it.” Casting a spell for its impending cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
-                                    "zh": "隐现此关键字代表四个异能。第一个和第二个是静止式异能，会于具有隐现异能的咒语在堆叠上时生效。第三个是静止式异能，在战场上生效。第四个是触发式异能，在战场上生效。“隐现N～[费用]”意指“你可以选择支付[费用]，而非支付此咒语的法术力费用”、“如果你选择支付此咒语的隐现费用，则其进场时上面有N个计时指示物”、“只要曾支付过此永久物的隐现费用且其上有计时指示物，它便不是生物”以及“在你的结束步骤开始时，若曾支付此永久物的隐现费用且其上有计时指示物，则从其上移去一个计时指示物。”支付隐现费用以施放咒语时，需依照规则601.2b与601.2f-h之规范来支付替代性费用。"
+                                    "en": "Impending is a keyword that represents four abilities. The first is a static ability that functions while the spell with impending is on the stack. The second is static ability that creates a replacement effect that may apply to the permanent with impending as it enters the battlefield from the stack. The third is a static ability that functions on the battlefield. The fourth is a triggered ability that functions on the battlefield. “Impending N—[cost]” means “You may choose to pay [cost] rather than pay this spell’s mana cost,” “If you chose to pay this permanent’s impending cost, it enters with N time counters on it,” “As long as this permanent’s impending cost was paid and it has a time counter on it, it’s not a creature,” and “At the beginning of your end step, if this permanent’s impending cost was paid and it has a time counter on it, remove a time counter from it.” Casting a spell for its impending cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
+                                    "zh": "隐现此关键字代表四个异能。第一个是静止式异能，会于具有隐现异能的咒语在堆叠上时生效。第二个是静止式异能，会产生一个替代性效应，于具有隐现异能的永久物从堆叠进战场时生效。第三个是静止式异能，在战场上生效。第四个是触发式异能，在战场上生效。“隐现N～[费用]”意指“你可以选择支付[费用]，而非支付此咒语的法术力费用”、“如果你选择支付此永久物的隐现费用，则其进场时上面有N个计时指示物”、“只要曾支付过此永久物的隐现费用且其上有计时指示物，它便不是生物”以及“在你的结束步骤开始时，若曾支付此永久物的隐现费用且其上有计时指示物，则从其上移去一个计时指示物。”支付隐现费用以施放咒语时，需依照规则601.2b与601.2f-h之规范来支付替代性费用。"
                                 }
                             ]
                         },
@@ -14802,8 +14824,8 @@
                             "subrules": [
                                 {
                                     "chapter": "702.180a",
-                                    "en": "Harmonize represents three static abilities: one that functions while the card is in a player’s graveyard and two that function while the spell with harmonize is on the stack. “Harmonize [cost]” means “You may cast this spell from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying this spell’s mana cost,” “If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature’s power,” and “If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its harmonize ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
-                                    "zh": "谐颂代表三个静止式异能：一个于该牌在牌手的坟墓场中时生效，两个于具有谐颂异能的咒语在堆叠上时生效。“谐颂[费用]”意指，“你可以从你的坟墓场施放此牌，并支付[费用]及横置至多一个由你操控且未横置的生物，而非支付其法术力费用”“如果你利用此咒语的谐颂异能来施放之，则其总费用减少若干一般法术力，其数量等同于所横置生物的力量”，以及“若曾支付其谐颂费用，当此牌将于任何时机下离开堆叠时，改为将它放逐，而非置入任何地方。”"
+                                    "en": "Harmonize represents three static abilities: one that functions while the card is in a player’s graveyard and two that function while the spell with harmonize is on the stack. “Harmonize [cost]” means “You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying this spell’s mana cost,” “If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature’s power,” and “If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its harmonize ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
+                                    "zh": "谐颂代表三个静止式异能：一个于该牌在牌手的坟墓场中时生效，两个于具有谐颂异能的咒语在堆叠上时生效。“谐颂[费用]”意指，“你可以从你的坟墓场施放此牌，并支付[费用]及横置至多一个由你操控且未横置的生物，而非支付其法术力费用”“如果你利用此咒语的谐颂异能来施放之，则其总费用减少若干一般法术力，其数量等同于所横置生物的力量”，以及“若曾支付其谐颂费用，当此牌将于任何时机下离开堆叠时，改为将它放逐，而非置入任何地方。”支付谐颂费用以施放咒语时，需依照规则601.2b与601.2f-h之规范来支付替代性费用。"
                                 },
                                 {
                                     "chapter": "702.180b",
@@ -14856,7 +14878,7 @@
                                 {
                                     "chapter": "702.184a",
                                     "en": "Station is an activated ability. “Station” means “Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature’s power. Activate only as a sorcery.”",
-                                    "zh": "蓄势属于静止式异能。“蓄势”意指“横置另一个由你操控且未横置的生物：在此永久物上放置若干充电指示物，其数量等同于该生物的力量。只能于法术时机起动。”"
+                                    "zh": "蓄势属于起动式异能。“蓄势”意指“横置另一个由你操控且未横置的生物：在此永久物上放置若干充电指示物，其数量等同于该生物的力量。只能于法术时机起动。”"
                                 },
                                 {
                                     "chapter": "702.184b",
@@ -14895,6 +14917,57 @@
                                     "chapter": "702.185c",
                                     "en": "Some effects refer to whether “a spell was warped this turn.” This means that a spell was cast for its warp cost this turn.",
                                     "zh": "一些效应提及“本回合有咒语跃迁”。其意指，本回合有咒语经支付跃迁费用施放。"
+                                }
+                            ]
+                        },
+                        {
+                            "chapter": "702.186.",
+                            "en": "∞ (Infinity)",
+                            "zh": "∞（无限）",
+                            "subrules": [
+                                {
+                                    "chapter": "702.186a",
+                                    "en": "∞ (the mathematical symbol for infinity) is a keyword found on Infinity cards. “∞” is followed by ability text. Together, they represent a static ability.",
+                                    "zh": "∞（数学中的无限符号）是见于无限牌上的关键字。“∞”字样后面带有异能文本，它们共同代表一个静止式异能。"
+                                },
+                                {
+                                    "chapter": "702.186b",
+                                    "en": "“∞ — [Ability]” means “As long as this permanent is harnessed, it has [ability].” See rule 701.64, “Harness.”",
+                                    "zh": "“∞～[异能]”意指“只要此永久物已受掌控，它便具有[异能]。”参见规则701.64，“掌控”。"
+                                }
+                            ]
+                        },
+                        {
+                            "chapter": "702.187.",
+                            "en": "Mayhem",
+                            "zh": "疯乱",
+                            "subrules": [
+                                {
+                                    "chapter": "702.187a",
+                                    "en": "Mayhem is a static ability that functions while the card with mayhem is in a player’s graveyard.",
+                                    "zh": "疯乱属于静止式异能，于具有疯乱异能的牌在牌手的坟墓场中时生效。"
+                                },
+                                {
+                                    "chapter": "702.187b",
+                                    "en": "“Mayhem [cost]” means “As long as you discarded this card this turn, you may cast it from your graveyard by paying [cost] rather than paying its mana cost.” Casting a spell using its mayhem ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
+                                    "zh": "“疯乱[费用]”意指“只要你是于本回合中弃掉此牌，你便可以从你坟墓场中施放之，但须支付[费用]，而非支付其法术力费用。”支付疯乱费用以施放咒语时，需依照规则601.2b与601.2f-h之规范来支付替代性费用。"
+                                },
+                                {
+                                    "chapter": "702.187c",
+                                    "en": "“Mayhem” without a cost means “You may play this card from your graveyard if you discarded it this turn.”",
+                                    "zh": "其后未带有费用的“疯乱”意指“只要你是于本回合中弃掉此牌，你便可以从你坟墓场中施放之。”"
+                                }
+                            ]
+                        },
+                        {
+                            "chapter": "702.188.",
+                            "en": "Web-slinging",
+                            "zh": "蛛丝甩荡",
+                            "subrules": [
+                                {
+                                    "chapter": "702.188a",
+                                    "en": "Web-slinging is a static ability that functions while the spell with web-slinging is on the stack. “Web-slinging [cost]” means “You may cast this spell by paying [cost] and returning a tapped creature you control to its owner’s hand rather than paying its mana cost.” Casting a spell using its web-slinging ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.",
+                                    "zh": "蛛丝甩荡属于静止式异能，于具蛛丝甩荡异能的咒语在堆叠上时生效。“蛛丝甩荡[费用]”意指“你可以支付[费用]并将一个由你操控且已横置的生物移回其拥有者手上来施放此咒语，而非支付其法术力费用。”支付蛛丝甩荡费用以施放咒语时，需依照规则601.2b与601.2f-h之规范来支付替代性费用。"
                                 }
                             ]
                         }
@@ -15498,16 +15571,16 @@
                             "subrules": [
                                 {
                                     "chapter": "707.8a",
-                                    "en": "If an effect creates a token that is a copy of a transforming permanent or a transforming double-faced card not on the battlefield, the resulting token is a transforming token that has both a front face and a back face. The characteristics of each face are determined by the copiable values of the same face of the permanent it is a copy of, as modified by any other copy effects that apply to that permanent. If the token is a copy of a transforming permanent with its back face up, the token enters the battlefield with its back face up. This rule does not apply to tokens that are created with their own set of characteristics and enter the battlefield as a copy of a transforming permanent due to a replacement effect.",
-                                    "zh": "如果一个效应派出一个衍生物，且其为某转化式永久物或某不在战场上的转化式双面牌之复制品，则派出的衍生物为同时具有正面和背面的转化式衍生物。每个面的特征由其复制的永久物对应面之可复制特征值决定，并受对该永久物生效的其他复制效应影响。如果该衍生物为某背面朝上的转化式永久物之复制品，则其进战场时背面朝上。此规则不适用于根据自身特征派出，但由于某替代性效应作为一个转化式永久物的复制品进战场之衍生物。",
+                                    "en": "If an effect creates a token that is a copy of a double-faced permanent or a double-faced card not on the battlefield, the resulting token is a double-faced token that has both a front face and a back face. The characteristics of each face are determined by the copiable values of the same face of the permanent or card it is a copy of, as modified by any other copy effects that apply to that object. If the token is a copy of a double-faced permanent with its back face up, the token enters the battlefield with its back face up. This rule does not apply to tokens that are created with their own set of characteristics and enter the battlefield as a copy of a double-faced object due to a replacement effect.",
+                                    "zh": "如果一个效应派出一个衍生物，且其为某双面永久物或某不在战场上的双面牌之复制品，则派出的衍生物为同时具有正面和背面的双面衍生物。每个面的特征由其复制的永久物或牌对应面之可复制特征值决定，并受对该物件生效的其他复制效应影响。如果该衍生物为某背面朝上的双面永久物之复制品，则其进战场时背面朝上。此规则不适用于根据自身特征派出，但由于某替代性效应作为一个双面物件的复制品进战场之衍生物。",
                                     "extras": [
                                         {
-                                            "en": "Example: Afflicted Deserter is the front face of a transforming double-faced card, and the name of its back face is Werewolf Ransacker. If an effect creates a token that is a copy of that transforming permanent, the token also has the same two faces and can transform. It enters the battlefield with the same face up as the permanent that it is a copy of.",
-                                            "zh": "例如：受苦逃亡者是一张转化式双面牌的正面，其背面名称为搜括狼人。如果某效应派出为该转化式永久物的复制品之衍生物，此永久物也拥有两个面，且能够转化。它进战场时与其复制的永久物朝上的一面相同。"
+                                            "en": "Example: Afflicted Deserter is the front face of a double-faced card, and the name of its back face is Werewolf Ransacker. If an effect creates a token that is a copy of that permanent, the token also has the same two faces and can transform. It enters the battlefield with the same face up as the permanent that it is a copy of.",
+                                            "zh": "例如：受苦逃亡者是一张双面牌的正面，其背面名称为搜括狼人。如果某效应派出为该永久物的复制品之衍生物，此永久物也拥有两个面，且能够转化。它进战场时与其复制的永久物朝上的一面相同。"
                                         },
                                         {
-                                            "en": "Example: Clone is not a transforming double-faced card, so a token that is created as a copy of a Clone is not a transforming token, even if it enters the battlefield as a copy of a transforming permanent due to Clone’s replacement effect.",
-                                            "zh": "例如：仿生妖不是转化式双面牌，因此作为仿生妖的复制品派出之衍生物不是转化式衍生物，即使它由于仿生妖的替代性效应而作为某转化式永久物的复制品进战场。"
+                                            "en": "Example: Clone is not a double-faced card, so a token that is created as a copy of a Clone is not a double-faced token, even if it enters the battlefield as a copy of a permanent due to Clone’s replacement effect.",
+                                            "zh": "例如：仿生妖不是双面牌，因此作为仿生妖的复制品派出之衍生物不是双面衍生物，即使它由于仿生妖的替代性效应而作为某永久物的复制品进战场。"
                                         }
                                     ]
                                 }
@@ -15632,8 +15705,8 @@
                                 },
                                 {
                                     "chapter": "707.10g",
-                                    "en": "If an effect creates a copy of a transforming permanent spell, the copy is also a transforming permanent spell that has both a front face and a back face. The characteristics of its front and back face are determined by the copiable values of the same face of the spell it is a copy of, as modified by any other copy effects. If the spell it is a copy of has its back face up, the copy is created with its back face up. The token that’s put onto the battlefield as that spell resolves is a transforming token.",
-                                    "zh": "如果一个效应创造一个转化式永久物咒语的复制品，该复制品也是具有两个面的转化式永久物咒语。其每个面的特征由其复制的咒语对应面之可复制特征值决定，并受其他复制效应影响。如果其复制的咒语背面朝上，则其被创造时背面朝上。该咒语结算时放进战场的衍生物是转化式衍生物。"
+                                    "en": "If an effect creates a copy of a double-faced permanent spell, the copy is also a double-faced permanent spell that has both a front face and a back face. The characteristics of its front and back face are determined by the copiable values of the same face of the spell it is a copy of, as modified by any other copy effects. If the spell it is a copy of has its back face up, the copy is created with its back face up. The token that’s put onto the battlefield as that spell resolves is a double-faced token.",
+                                    "zh": "如果一个效应创造一个双面永久物咒语的复制品，该复制品也是具有两个面的双面永久物咒语。其每个面的特征由其复制的咒语对应面之可复制特征值决定，并受其他复制效应影响。如果其复制的咒语背面朝上，则其被创造时背面朝上。该咒语结算时放进战场的衍生物是双面衍生物。"
                                 }
                             ],
                             "extras": [
@@ -16034,36 +16107,36 @@
                     "subrules": [
                         {
                             "chapter": "712.1.",
-                            "en": "A double-faced card has a Magic card face on one side and either a Magic card face or half of an oversized card face on the other. (It does not have a Magic card back.) There are three kinds of double-faced cards: transforming double-faced cards, modal double-faced cards, and meld cards.",
-                            "zh": "一张双面牌的一面是万智牌的牌面，另一面是万智牌的牌面或一张大号万智牌卡牌牌面的一半。（它没有万智牌的牌背。）有三种双面牌：转化式双面牌、模式双面牌，以及融合牌。",
+                            "en": "A double-faced card has a Magic card face on one side and either a Magic card face or half of an oversized card face on the other. (It does not have a Magic card back.) There are three kinds of double-faced cards: nonmodal double-faced cards (previously called “transforming double-faced cards”), modal double-faced cards, and meld cards.",
+                            "zh": "一张双面牌的一面是万智牌的牌面，另一面是万智牌的牌面或一张大号万智牌卡牌牌面的一半。（它没有万智牌的牌背。）有三种双面牌：非模式双面牌（之前曾称为“转化式双面牌”）、模式双面牌，以及融合牌。",
                             "subrules": []
                         },
                         {
                             "chapter": "712.2.",
-                            "en": "Transforming double-faced cards have a Magic card face on each side and include abilities on one or both of their faces that allow the card to either “transform” or “convert” (turn over to its other face) and/or allow the card to be cast or enter the battlefield “transformed” or “converted” (with its back face up).",
-                            "zh": "转化式双面牌的两面都是万智牌的牌面，在其一面或两面上具有让此牌“转化”或“转换”（让它能翻到另一面）和/或允许该牌以“已转化”或“已转换”（将其背面朝上）的方式被施放或进战场的异能。",
+                            "en": "Nonmodal double-faced cards have a Magic card face on each side and include abilities on one or both of their faces that allow the card to either “transform” or “convert” (turn over to its other face) and/or allow the card to be cast or enter the battlefield “transformed” or “converted” (with its back face up).",
+                            "zh": "非模式双面牌的两面都是万智牌的牌面，在其一面或两面上具有让此牌“转化”或“转换”（让它能翻到另一面）和/或允许该牌以“已转化”或“已转换”（将其背面朝上）的方式被施放或进战场的异能。",
                             "subrules": [
                                 {
                                     "chapter": "712.2a",
-                                    "en": "A transforming double-faced card’s front face is marked by a front-face symbol in its upper left corner. On cards printed starting with The Brothers’ War™ release, that symbol is a single white triangle pointed upward inside a black circle. Transforming double-faced cards printed in older sets have different front-face symbols. On Magic Origins™ and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad® block, Shadows over Innistrad set, and Innistrad: Midnight Hunt set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon™ set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan® and Rivals of Ixalan™ cards, the front-face symbol is a compass rose. On Kamigawa®: Neon Dynasty double-faced cards, the front-face symbol is a closed fan.",
-                                    "zh": "转化式双面牌的正面在左上角以正面符号标记。从兄弟之战™版本发行开始，正面符号是一个黑色圆圈之中指向上方的一个白色三角形。在旧系列中印刷的转化式双面牌正面符号有所不同。在万智牌：起源™和2019核心系列双面牌上，正面符号是修改过的鹏洛客图标。在依尼翠®环境、依尼翠暗影系列和依尼翠：黯夜猎踪系列中的双面牌、以及异月传奇™系列中的展爪的乌力奇上，正面符号是太阳。在异月传奇其余的双面牌上，正面符号是满月。在依夏兰™和决胜依夏兰™牌张上，正面符号是罗盘。在神河®霓朝纪系列中的双面牌上，正面符号是合起的折扇。"
+                                    "en": "A nonmodal double-faced card’s front face is marked by a front-face symbol in its upper left corner. On cards printed starting with The Brothers’ War™ release, that symbol is a single white triangle pointed upward inside a black circle. Nonmodal double-faced cards printed in older sets have different front-face symbols. On Magic Origins™ and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad® block, Shadows over Innistrad set, and Innistrad: Midnight Hunt set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon™ set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan® and Rivals of Ixalan™ cards, the front-face symbol is a compass rose. On Kamigawa®: Neon Dynasty double-faced cards, the front-face symbol is a closed fan.",
+                                    "zh": "非模式双面牌的正面在左上角以正面符号标记。从兄弟之战™版本发行开始，正面符号是一个黑色圆圈之中指向上方的一个白色三角形。在旧系列中印刷的非模式双面牌正面符号有所不同。在万智牌：起源™和2019核心系列双面牌上，正面符号是修改过的鹏洛客图标。在依尼翠®环境、依尼翠暗影系列和依尼翠：黯夜猎踪系列中的双面牌、以及异月传奇™系列中的展爪的乌力奇上，正面符号是太阳。在异月传奇其余的双面牌上，正面符号是满月。在依夏兰™和决胜依夏兰™牌张上，正面符号是罗盘。在神河®霓朝纪系列中的双面牌上，正面符号是合起的折扇。"
                                 },
                                 {
                                     "chapter": "712.2b",
-                                    "en": "A transforming double-faced card’s back face is marked by a back-face symbol in its upper left or upper right corner. On cards printed starting with The Brothers’ War release, that symbol is a single white triangle pointed downward inside a black circle. Transforming double-faced cards printed in older sets have different front-face symbols. On Magic Origins and Core Set 2019 double-faced cards, the back-face symbol is a full Planeswalker icon. On cards in the Innistrad block, Shadows over Innistrad set, and Innistrad: Midnight Hunt set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back-face symbol is a crescent moon. On other Eldritch Moon double-faced cards, the back-face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back-face symbol is a land icon. On Kamigawa: Neon Dynasty double-faced cards, the back-face symbol is an open fan.",
-                                    "zh": "转化式双面牌的背面在左上角或右上角以背面符号标记。从兄弟之战™版本发行开始，正面符号是一个黑色圆圈之中指向下方的一个白色三角形。在旧系列中印刷的转化式双面牌背面符号有所不同。在万智牌：起源和2019核心系列双面牌上，背面符号是完整的鹏洛客图标。在依尼翠环境、依尼翠暗影系列和依尼翠：黯夜猎踪系列中的双面牌、以及异月传奇系列中的服众首领乌力奇上，背面符号是新月。在异月传奇其余的双面牌上，背面符号是伊莫库的形象化图案。在依夏兰和决胜依夏兰牌张上，背面符号是地符号。在神河®霓朝纪系列中的双面牌上，背面符号是打开的折扇。"
+                                    "en": "A nonmodal double-faced card’s back face is marked by a back-face symbol in its upper left or upper right corner. On cards printed starting with The Brothers’ War release, that symbol is a single white triangle pointed downward inside a black circle. Nonmodal double-faced cards printed in older sets have different front-face symbols. On Magic Origins and Core Set 2019 double-faced cards, the back-face symbol is a full Planeswalker icon. On cards in the Innistrad block, Shadows over Innistrad set, and Innistrad: Midnight Hunt set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back-face symbol is a crescent moon. On other Eldritch Moon double-faced cards, the back-face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back-face symbol is a land icon. On Kamigawa: Neon Dynasty double-faced cards, the back-face symbol is an open fan.",
+                                    "zh": "非模式双面牌的背面在左上角或右上角以背面符号标记。从兄弟之战™版本发行开始，正面符号是一个黑色圆圈之中指向下方的一个白色三角形。在旧系列中印刷的非模式双面牌背面符号有所不同。在万智牌：起源和2019核心系列双面牌上，背面符号是完整的鹏洛客图标。在依尼翠环境、依尼翠暗影系列和依尼翠：黯夜猎踪系列中的双面牌、以及异月传奇系列中的服众首领乌力奇上，背面符号是新月。在异月传奇其余的双面牌上，背面符号是伊莫库的形象化图案。在依夏兰和决胜依夏兰牌张上，背面符号是地符号。在神河®霓朝纪系列中的双面牌上，背面符号是打开的折扇。"
                                 },
                                 {
                                     "chapter": "712.2c",
-                                    "en": "The front face of a transforming double-faced card whose back face is a creature has the back face’s power and toughness printed in gray above the power and toughness box. This is reminder text and has no effect on game play.",
-                                    "zh": "背面是生物的转化式双面牌，其正面会在力量与防御力框的上方以较小的灰色字印刷其背面的力量与防御力。这属于提示文字，和游戏进行并无关联。"
+                                    "en": "The front face of a nonmodal double-faced card whose back face is a creature has the back face’s power and toughness printed in gray above the power and toughness box. This is reminder text and has no effect on game play.",
+                                    "zh": "背面是生物的非模式双面牌，其正面会在力量与防御力框的上方以较小的灰色字印刷其背面的力量与防御力。这属于提示文字，和游戏进行并无关联。"
                                 }
                             ]
                         },
                         {
                             "chapter": "712.3.",
-                            "en": "Modal double-faced cards have a Magic card face on each side. These faces are independent from one another.",
-                            "zh": "模式双面牌的两面都是万智牌的牌面。模式双面牌的两个牌面各自独立。",
+                            "en": "Modal double-faced cards have a Magic card face on each side. These faces are usually independent from one another, but they may have an ability that allows them to “transform” or “convert” on either face.",
+                            "zh": "模式双面牌的两面都是万智牌的牌面。模式双面牌的两个牌面通常各自独立，但也可能具有允许它们转化或转换到另一面的异能。",
                             "subrules": [
                                 {
                                     "chapter": "712.3a",
@@ -16096,6 +16169,11 @@
                                     "chapter": "712.4b",
                                     "en": "The back faces of a meld pair are used only to determine the characteristics of the melded permanent that pair becomes on the battlefield. If a rule or effect references the back face of a meld card when not part of a melded permanent on the battlefield, it fails to determine its characteristics, regardless of which parts of the melded permanent is represented on that card’s back face.",
                                     "zh": "融合牌组的背面仅用于确定战场上该融合牌组所成为之已融合的永久物之特征。如果某规则或效应提及融合牌的背面，但它并非战场上已融合的永久物之一部分，则此规则或效应无法确定其特征，无论它代表该已融合的永久物之哪一部分。"
+                                },
+                                {
+                                    "chapter": "712.4c",
+                                    "en": "Unlike other double-faced cards, meld cards cannot be transformed or converted. Any instructions to do so are ignored.",
+                                    "zh": "与其他双面牌不同，融合牌不能转化或转换。如有任何指示如此作，则忽略之。"
                                 }
                             ]
                         },
@@ -16155,8 +16233,8 @@
                         },
                         {
                             "chapter": "712.8.",
-                            "en": "Each face of a transforming or modal double-faced card has its own set of characteristics. The front face of each meld card and the combined face formed by a meld pair each has its own set of characteristics.",
-                            "zh": "转化式双面牌或模式双面牌的两个牌面都各自具有一组特征值。融合牌的正面与同对两张融合牌组合形成之组合面各有属于自己的特征值。",
+                            "en": "Each face of a double-faced card that isn’t a meld card has its own set of characteristics. The front face of each meld card and the combined face formed by a meld pair each has its own set of characteristics.",
+                            "zh": "非融合牌之双面牌的两个牌面都各自具有一组特征值。融合牌的正面与同对两张融合牌组合形成之组合面各有属于自己的特征值。",
                             "subrules": [
                                 {
                                     "chapter": "712.8a",
@@ -16170,8 +16248,8 @@
                                 },
                                 {
                                     "chapter": "712.8c",
-                                    "en": "Normally, a transforming double-faced spell has its front face up while on the stack and has only the characteristics of its front face. However, if an effect allows a player to cast a transforming double-faced card “transformed” or “converted,” the resulting spell will have its back face up and have only the characteristics of its back face. Its mana value is calculated using the mana cost of its front face.",
-                                    "zh": "通常，转化式双面咒语在堆叠上时正面朝上，且只具有其正面所述的特征值。但是，如果一个效应允许牌手施放“已转化”或“已转换”的转化式双面牌，所成的咒语的背面朝上，且只具有其背面所述的特征值。使用其正面的法术力费用来计算其法术力值。"
+                                    "en": "Normally, a nonmodal double-faced spell has its front face up while on the stack and has only the characteristics of its front face. However, if an effect allows a player to cast a nonmodal double-faced card “transformed” or “converted,” the resulting spell will have its back face up and have only the characteristics of its back face. Its mana value is calculated using the mana cost of its front face.",
+                                    "zh": "通常，非模式双面咒语在堆叠上时正面朝上，且只具有其正面所述的特征值。但是，如果一个效应允许牌手施放“已转化”或“已转换”的非模式双面牌，所成的咒语的背面朝上，且只具有其背面所述的特征值。使用其正面的法术力费用来计算其法术力值。"
                                 },
                                 {
                                     "chapter": "712.8d",
@@ -16180,8 +16258,8 @@
                                 },
                                 {
                                     "chapter": "712.8e",
-                                    "en": "While a transforming double-faced permanent has its back face up, it has only the characteristics of its back face. However, its mana value is calculated using the mana cost of its front face. If a permanent is copying the back face of a transforming double-faced permanent (even if the object representing that copy is itself a double-faced permanent), the mana value of that permanent is 0. See rule 202.3b.",
-                                    "zh": "当转化式双面永久物的背面朝上时，它只具有其背面所述的特征值。但是，在计算其法术力值时，使用其正面的法术力费用。如果一个永久物复制一张转化式双面永久物的背面，该永久物的法术力值为0（即使代表该复制品的物件本身也是双面永久物）。参见规则202.3b。"
+                                    "en": "While a nonmodal double-faced permanent has its back face up, it has only the characteristics of its back face. However, its mana value is calculated using the mana cost of its front face. If a permanent is copying the back face of a nonmodal double-faced permanent (even if the object representing that copy is itself a double-faced permanent), the mana value of that permanent is 0. See rule 202.3b.",
+                                    "zh": "当非模式双面永久物的背面朝上时，它只具有其背面所述的特征值。但是，在计算其法术力值时，使用其正面的法术力费用。如果一个永久物复制一张非模式双面永久物的背面，该永久物的法术力值为0（即使代表该复制品的物件本身也是双面永久物）。参见规则202.3b。"
                                 },
                                 {
                                     "chapter": "712.8f",
@@ -16197,28 +16275,24 @@
                         },
                         {
                             "chapter": "712.9.",
-                            "en": "Only transforming tokens and permanents represented by transforming double-faced cards can transform or convert. (See rule 701.27, “Transform,” and rule 701.28, “Convert.”) If a spell or ability instructs a player to transform or convert any permanent that isn’t a transforming token or isn’t represented by a transforming double-faced card, nothing happens.",
-                            "zh": "只有转化式衍生物和由转化式双面牌代表的永久物才能转化或转换。（参见规则701.27，“转化”及规则701.28，“转换”。）如果一个咒语或异能指示牌手转化或转换一个不是转化式衍生物或不由转化式双面牌代表的永久物，没有事情会发生。",
+                            "en": "Only permanents represented by double-faced tokens and double-faced cards that are not meld cards can transform or convert. (See rule 701.27, “Transform,” and rule 701.28, “Convert.”) If a spell or ability instructs a player to transform or convert any permanent that isn’t represented by a double-faced token or a double-faced card, nothing happens.",
+                            "zh": "只有由双面衍生物或非融合牌之双面牌代表的永久物才能转化或转换。（参见规则701.27，“转化”及规则701.28，“转换”。）如果一个咒语或异能指示牌手转化或转换一个不由双面衍生物或双面牌代表的永久物，没有事情会发生。",
                             "subrules": [],
                             "extras": [
                                 {
-                                    "en": "Example: A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a transforming double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a transforming double-faced card, it can’t transform.",
-                                    "zh": "例如：一个仿生妖是以野血狼群（一张转化式双面牌的背面）之复制品的身份进战场。仿生妖会是野血狼群的复制品。由于仿生妖本身并非转化式双面牌，它将不能转化。"
+                                    "en": "Example: A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a double-faced card, it can’t transform.",
+                                    "zh": "例如：一个仿生妖是以野血狼群（一张双面牌的背面）之复制品的身份进战场。仿生妖会是野血狼群的复制品。由于仿生妖本身并非双面牌，它将不能转化。"
                                 },
                                 {
-                                    "en": "Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a transforming double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a transforming double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.",
-                                    "zh": "例如：一位牌手施放细胞塑型，使得克廉亡命客（一张转化式双面牌的正面）成为菁英先锋（2/1的人类／士兵生物）的复制品直到回合结束。然后该牌手施放月雾，其异能有一段是“转化所有人类”。由于此菁英先锋复制品是个转化式双面牌，它将会转化。此永久物最后的状况是它的背面朝上，但它在该回合中依旧会是菁英先锋的复制品。"
-                                },
-                                {
-                                    "en": "Example: A player controls Blackbloom Rogue, a Human Rogue that’s the front face of a modal double-faced card. They cast Moonmist. Blackbloom Rogue doesn’t transform.",
-                                    "zh": "例如：一位牌手操控黑郁湖浪客，这个人类／浪客是一张模式双面牌的正面。该牌手施放月雾。黑郁湖浪客不会转化。"
+                                    "en": "Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.",
+                                    "zh": "例如：一位牌手施放细胞塑型，使得克廉亡命客（一张双面牌的正面）成为菁英先锋（2/1的人类／士兵生物）的复制品直到回合结束。然后该牌手施放月雾，其异能有一段是“转化所有人类”。由于此菁英先锋复制品是张双面牌，它将会转化。此永久物最后的状况是它的背面朝上，但它在该回合中依旧会是菁英先锋的复制品。"
                                 }
                             ]
                         },
                         {
                             "chapter": "712.10.",
-                            "en": "If a spell or ability instructs a player to transform or convert a permanent, and the face that permanent would transform or convert into is represented by an instant or sorcery card face, or is a transforming token that was created with an instant or sorcery face, nothing happens.",
-                            "zh": "如果某咒语或异能要求牌手转化或转换某个永久物，且该永久物将要转化或转换成的牌面是以瞬间或法术牌面代表的，或是以瞬间或法术牌面派出的转化式衍生物，则什么都不会发生。",
+                            "en": "If a spell or ability instructs a player to transform or convert a permanent, and the face that permanent would transform or convert into is an instant or sorcery card face, or is a double-faced token that was created with an instant or sorcery face, nothing happens.",
+                            "zh": "如果某咒语或异能要求牌手转化或转换某个永久物，且该永久物将要转化或转换成的牌面是瞬间或法术牌面，或是以瞬间或法术牌面派出的双面衍生物，则什么都不会发生。",
                             "subrules": []
                         },
                         {
@@ -16228,8 +16302,8 @@
                             "subrules": [
                                 {
                                     "chapter": "712.11a",
-                                    "en": "If a transforming double-faced card or a copy of a transforming double-faced card is cast as a spell “transformed” or “converted,” it’s put on the stack with its back face up.",
-                                    "zh": "如果一张转化式双面牌或其复制品以“已转化”或“已转换”的方式作为咒语来施放，则它放入堆叠时其背面朝上。"
+                                    "en": "If a double-faced card or a copy of a double-faced card is cast as a spell “transformed” or “converted,” it’s put on the stack with its back face up.",
+                                    "zh": "如果一张双面牌或其复制品以“已转化”或“已转换”的方式作为咒语来施放，则它放入堆叠时其背面朝上。"
                                 },
                                 {
                                     "chapter": "712.11b",
@@ -16243,8 +16317,8 @@
                                 },
                                 {
                                     "chapter": "712.11d",
-                                    "en": "If an ability of a transforming double-faced card’s front face allows it to be cast “transformed” or “converted,” that ability is also considered when evaluating that spell to determine if it can be cast. This is an exception to 712.11c.",
-                                    "zh": "如果一张转化式双面牌正面上的一个异能允许牌手以“已转化”或“已转换”的方式施放之，在确定该咒语能否被施放时，该异能也被考虑在内。这是规则712.11c的例外。"
+                                    "en": "If an ability of a double-faced card’s front face allows it to be cast “transformed” or “converted,” that ability is also considered when evaluating that spell to determine if it can be cast. This is an exception to 712.11c.",
+                                    "zh": "如果一张双面牌正面上的一个异能允许牌手以“已转化”或“已转换”的方式施放之，在确定该咒语能否被施放时，该异能也被考虑在内。这是规则712.11c的例外。"
                                 }
                             ]
                         },
@@ -16261,8 +16335,8 @@
                             "subrules": [
                                 {
                                     "chapter": "712.13a",
-                                    "en": "Some abilities may cause a transforming double-faced spell with its front face up on the stack to enter the battlefield transformed or converted. If the back face of the card that represents that spell is an instant or sorcery card, or that spell is a copy of a double-faced card created with an instant or sorcery back face, it doesn’t enter the battlefield, and is instead put into its owner’s graveyard.",
-                                    "zh": "一些异能可能使得在堆叠中正面朝上的转化式双面咒语以已转化或已转换的方式进入战场。如果该牌的背面由瞬间或法术牌代表，或该咒语是背面为瞬间或法术的双面牌之复制品，则它不会进战场，而是改为置入其拥有者的坟墓场。",
+                                    "en": "Some abilities may cause a double-faced spell with its front face up on the stack to enter the battlefield transformed or converted. If the back face of the card that represents that spell is an instant or sorcery face, or that spell is a copy of a double-faced card created with an instant or sorcery back face, it doesn’t enter the battlefield, and is instead put into its owner’s graveyard.",
+                                    "zh": "一些异能可能使得在堆叠中正面朝上的双面咒语以已转化或已转换的方式进入战场。如果代表该咒语之牌的背面是瞬间或法术牌面，或该咒语是背面为瞬间或法术的双面牌之复制品，则它不会进战场，而是改为置入其拥有者的坟墓场。",
                                     "extras": [
                                         {
                                             "en": "Example: A player controls both Mycosynth Lattice and March of the Machines, the combined effects of which make all permanents artifact creatures in addition to their other types. They also control a Clone on the battlefield that is a copy of Bird Admirer, a creature with daybound. It is currently night, but that permanent can’t transform because it isn’t represented by a double-faced card. Its controller casts Mystic Reflection targeting it, then casts Invasion of Kylem, a Siege battle whose back face is a sorcery. Because Invasion of Kylem is entering the battlefield as a creature, Mystic Reflection’s replacement effect applies to it and it tries to enter the battlefield as a copy of Bird Admirer. Since it is night, the daybound ability would normally cause it to enter with its back face up. However, since its back face is a sorcery, it is instead put into its owner’s graveyard.",
@@ -16279,8 +16353,8 @@
                             "subrules": [
                                 {
                                     "chapter": "712.14a",
-                                    "en": "If a spell or ability puts a transforming double-faced card onto the battlefield “transformed” or “converted,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a transforming double-faced card onto the battlefield transformed or converted, that card stays in its current zone.",
-                                    "zh": "如果一个咒语或异能将一张转化式双面牌“已转化”或“已转换”地放进战场，它会以背面朝上的方式进入战场。如果牌手被指示将一张不是转化式双面牌的牌已转化或已转换地放进战场，该牌留在其原有的区域。"
+                                    "en": "If a spell or ability puts a double-faced card onto the battlefield “transformed” or “converted,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a double-faced card onto the battlefield transformed or converted, that card stays in its current zone.",
+                                    "zh": "如果一个咒语或异能将一张双面牌“已转化”或“已转换”地放进战场，它会以背面朝上的方式进入战场。如果牌手被指示将一张不是双面牌的牌已转化或已转换地放进战场，该牌留在其原有的区域。"
                                 },
                                 {
                                     "chapter": "712.14b",
@@ -16301,8 +16375,8 @@
                             "subrules": [
                                 {
                                     "chapter": "712.15a",
-                                    "en": "While face down, a transforming double-faced permanent can’t transform or convert. If it’s turned face up, it will have its front face up.",
-                                    "zh": "转化式双面永久物在牌面朝下的状态下不能转化或转换。如果它被翻回正面，它的正面朝上。"
+                                    "en": "While face down, a double-faced permanent can’t transform or convert. If it’s turned face up, it will have its front face up.",
+                                    "zh": "双面永久物在牌面朝下的状态下不能转化或转换。如果它被翻回正面，它的正面朝上。"
                                 }
                             ]
                         },
@@ -16320,26 +16394,26 @@
                         },
                         {
                             "chapter": "712.18.",
-                            "en": "When a transforming double-faced permanent transforms or converts, it doesn’t become a new object. Any effects that applied to that permanent will continue to apply to it.",
-                            "zh": "当一个转化式双面永久物转化或转换时，它不会成为新的物件。任何已对该永久物生效的效应，在它转化后将继续对它生效。",
+                            "en": "When a double-faced permanent transforms or converts, it doesn’t become a new object. Any effects that applied to that permanent will continue to apply to it.",
+                            "zh": "当一个双面永久物转化或转换时，它不会成为新的物件。任何已对该永久物生效的效应，在它转化后将继续对它生效。",
                             "subrules": [],
                             "extras": [
                                 {
-                                    "en": "Example: An effect gives Village Ironsmith (the front face of a transforming double-faced card) +2/+2 until end of turn and then Village Ironsmith transforms into Ironfang. Ironfang will continue to get +2/+2 until end of turn.",
-                                    "zh": "例如：一个效应让村庄铁匠（一张转化式双面牌的正面）得到+2/+2直到回合结束，然后村庄铁匠转化成钢牙狼。钢牙狼将继续得到+2/+2直到回合结束。"
+                                    "en": "Example: An effect gives Village Ironsmith (the front face of a double-faced card) +2/+2 until end of turn and then Village Ironsmith transforms into Ironfang. Ironfang will continue to get +2/+2 until end of turn.",
+                                    "zh": "例如：一个效应让村庄铁匠（一张双面牌的正面）得到+2/+2直到回合结束，然后村庄铁匠转化成钢牙狼。钢牙狼将继续得到+2/+2直到回合结束。"
                                 }
                             ]
                         },
                         {
                             "chapter": "712.19.",
-                            "en": "If an effect instructs a player to choose a card name, the player may choose the name of either face of a transforming or modal double-faced card but not both. Similarly, they may choose either the name of a front face of a meld card or the combined back face of a meld pair.",
-                            "zh": "如果一个效应要某牌手选择一个牌名，则该牌手可以选择转化式双面牌或模式双面牌任一个牌面上的名称，但不可以同时选择两面的名称。类似地，该牌手也可以选择融合牌正面的名称，或是融合牌组之组合背面的名称。",
+                            "en": "If an effect instructs a player to choose a card name, the player may choose the name of either face of a double-faced card but not both. The player may choose the name of the combined back face of a meld pair.",
+                            "zh": "如果一个效应要某牌手选择一个牌名，则该牌手可以选择双面牌任一个牌面上的名称，但不可以同时选择两面的名称。该牌手也可以选择融合牌组之组合背面的名称。",
                             "subrules": []
                         },
                         {
                             "chapter": "712.20.",
-                            "en": "If a transforming double-faced card would have an “As [this permanent] transforms . . .” ability after it transforms or converts, that ability is applied while that permanent is transforming or converting, not afterward.",
-                            "zh": "如果一个转化式双面牌将会在转化或转换后具有一个“于[此永久物]转化...”的异能，该异能在该永久物转化或转换时生效，而非在这之后。",
+                            "en": "If a double-faced card would have an “As [this permanent] transforms . . .” ability after it transforms or converts, that ability is applied while that permanent is transforming or converting, not afterward.",
+                            "zh": "如果一张双面牌将会在转化或转换后具有一个“于[此永久物]转化...”的异能，该异能在该永久物转化或转换时生效，而非在这之后。",
                             "subrules": []
                         },
                         {
@@ -17465,8 +17539,8 @@
                                 },
                                 {
                                     "chapter": "729.2i",
-                                    "en": "A merged permanent is not a double-faced permanent even if it contains one or more double-faced components. If a merged permanent contains one or more transforming double-faced components (see rule 712), transforming that permanent causes each of those double-faced components to turn so that its other face is up.",
-                                    "zh": "结聚永久物不是双面永久物，即使它包含一个或数个双面组件。如果一个结聚永久物包含一张或数张转化式双面组件（参见规则712），转化该永久物会使得其中每张双面组件都翻为另一面朝上。"
+                                    "en": "A merged permanent is not a double-faced permanent even if it contains one or more double-faced components. If a merged permanent contains one or more double-faced components that can transform (see rule 712), transforming or converting that permanent causes each of those double-faced components to turn so that its other face is up.",
+                                    "zh": "结聚永久物不是双面永久物，即使它包含一个或数个双面组件。如果一个结聚永久物包含一张或数张可转化的双面组件（参见规则712），转化或转换该永久物会使得其中每张双面组件都翻为另一面朝上。"
                                 },
                                 {
                                     "chapter": "729.2j",
@@ -21513,6 +21587,18 @@
             "zh": "一个关键字异能，让牌手能支付特定费用从其坟墓场中施放牌，且能横置由其操控的生物来减少该费用。参见规则702.180，“谐颂”。"
         },
         {
+            "enname": "Harness",
+            "zhname": "掌控",
+            "en": "A keyword action that grants a permanent the harnessed designation. See rule 701.64, “Harness.”",
+            "zh": "一个关键字动作，赋予永久物受掌控此称号。参见规则701.64，“掌控”。"
+        },
+        {
+            "enname": "Harnessed",
+            "zhname": "受掌控",
+            "en": "A designation permanents can have. Infinity permanents have their ∞ abilities as long as they are harnessed. See rule 701.64, “Harness,” and rule 702.186, “∞ (Infinity).”",
+            "zh": "一个永久物可以获得的称号。只要一个无限永久物已受掌控，它就具有其∞异能。参见规则701.64，“掌控”，以及规则702.186，“∞（无限）”。"
+        },
+        {
             "enname": "Haste",
             "zhname": "敏捷",
             "en": "A keyword ability that lets a creature ignore the “summoning sickness” rule. See rule 702.10, “Haste,” and rule 302.6.",
@@ -21659,8 +21745,8 @@
         {
             "enname": "Incubator Token",
             "zhname": "抚育器衍生物",
-            "en": "An Incubator token is a transforming double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.",
-            "zh": "抚育器衍生物是转化式双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则111.10。"
+            "en": "An Incubator token is a double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.",
+            "zh": "抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则111.10。"
         },
         {
             "enname": "Independent",
@@ -21679,6 +21765,12 @@
             "zhname": "侵染",
             "en": "A keyword ability that affects how an object deals damage to creatures and players. See rule 702.90, “Infect.”",
             "zh": "一个关键字异能，影响一个物件如何对生物或牌手造成伤害。参见规则702.90，“侵染”。"
+        },
+        {
+            "enname": "Infinity",
+            "zhname": "无限",
+            "en": "1. An artifact subtype.\n2. ∞ is a keyword found on Infinity cards that grants an ability as long as that permanent is harnessed. See rule 702.186, “∞ (Infinity),” and rule 701.64, “Harness.”",
+            "zh": "1. 一种神器类别。\n2. ∞是见于无限牌上的关键字，在该永久物已受掌控时赋予其异能。参见规则702.186，“∞（无限）”，以及规则701.64，“掌控”。"
         },
         {
             "enname": "Ingest",
@@ -22095,6 +22187,12 @@
             "zh": "牌手必须于清除阶段中将多余的牌弃掉，直到手牌的数量少于或等于该数字。参见规则402.2和514.1。"
         },
         {
+            "enname": "Mayhem",
+            "zhname": "疯乱",
+            "en": "A keyword ability that allows you to play cards you discarded this turn from your graveyard for an alternative cost. See rule 702.187, “Mayhem.”",
+            "zh": "一个关键字异能，允许你支付替代性费用从你坟墓场中施放本回合中弃掉的牌。参见规则702.187，“疯乱”。"
+        },
+        {
             "enname": "Megamorph",
             "zhname": "威力变身",
             "en": "A variant of the morph ability that puts a +1/+1 counter on the creature as it turns face up. See rule 702.37, “Morph.”",
@@ -22169,8 +22267,8 @@
         {
             "enname": "Modal Double-Faced Cards",
             "zhname": "模式双面牌",
-            "en": "One of two kinds of double-faced cards. Modal double-faced cards can be played with either of their two faces up and can’t transform. See rule 712, “Double-Faced Cards.”",
-            "zh": "两种双面牌中的一种。模式双面牌的两面可以任选一面朝上使用，但它不能转化。参见规则712，“双面牌”。"
+            "en": "One kind of double-faced card. Modal double-faced cards can be played with either of their two faces up. See rule 712, “Double-Faced Cards.”",
+            "zh": "双面牌的一种。模式双面牌的两面可以任选一面朝上使用。参见规则712，“双面牌”。"
         },
         {
             "enname": "Modified",
@@ -22327,6 +22425,12 @@
             "zhname": "非基本地",
             "en": "Any land that doesn’t have the supertype “basic.” See rule 205.4, “Supertypes.”",
             "zh": "任何不具有超类别“基本”的地。参见规则205.4，“超类别”。"
+        },
+        {
+            "enname": "Nonmodal Double-Faced Card",
+            "zhname": "非模式双面牌",
+            "en": "One kind of double-faced card. Nonmodal double-faced cards default to being cast with their front faces up but can transform to their back faces in some way. See rule 712, “Double-Faced Cards.”",
+            "zh": "双面牌的一种。非模式双面牌默认正面朝上地施放，但能以某种方式转化到其背面。参见规则712，“双面牌”。"
         },
         {
             "enname": "Nontraditional Magic Card",
@@ -23673,10 +23777,10 @@
             "zh": "将一张双面牌翻转从而让其另一面朝上。参见规则701.27，“转化”。"
         },
         {
-            "enname": "Transforming Double-Faced Cards",
-            "zhname": "转化式双面牌",
-            "en": "One of two kinds of double-faced cards. Transforming double-faced cards default to their front faces but can transform to their back faces in some way. See rule 712, “Double-Faced Cards.”",
-            "zh": "两种双面牌中的一种。转化式双面牌的默认使用其正面，但能以某种方式转化到其背面。参见规则712，“双面牌”。"
+            "enname": "Transforming Double-Faced Cards (Obsolete)",
+            "zhname": "转化式双面牌（已废止）",
+            "en": "An older name for nonmodal double-faced cards. See rule 712, “Double-Faced Cards.”",
+            "zh": "非模式双面牌的旧名称。参见规则712，“双面牌”。"
         },
         {
             "enname": "Transmute",
@@ -23692,7 +23796,7 @@
         },
         {
             "enname": "Tribal (Obsolete)",
-            "zhname": "部族",
+            "zhname": "部族（已废止）",
             "en": "An obsolete card type that has been renamed. See rule 308, “Kindreds.”",
             "zh": "一个已废止的牌张类别，已被重新命名。参见规则308，“亲缘”。"
         },
@@ -23973,6 +24077,12 @@
             "zh": "一个见于永久物牌上的关键字异能，允许它们以替代性费用施放。参见规则702.185，“跃迁”。"
         },
         {
+            "enname": "Web-slinging",
+            "zhname": "蛛丝甩荡",
+            "en": "A keyword ability that allows spells to be cast for an alternative cost by returning a tapped creature you control to its owner’s hand. See rule 702.188, “Web-slinging.”",
+            "zh": "一个关键字异能，允许咒语藉由将一个由你操控且已横置的生物移回其拥有者手上的替代性费用来施放。参见规则702.188，“蛛丝甩荡”。"
+        },
+        {
             "enname": "Win the Game",
             "zhname": "游戏胜利",
             "en": "There are several ways to win the game. See rule 104, “Ending the Game,” and rules 810.8 (for additional rules for Two-Headed Giant games) and rule 809.5 (for additional rules for Emperor games).",
@@ -24064,8 +24174,8 @@
                 "zh": "感谢我们所有的队伍成员，以及数量众多以致无法列举的其他人对此产品的贡献。"
             },
             {
-                "en": "These rules are effective as of July 25, 2025.",
-                "zh": "此规则于2025年7月25日起生效。"
+                "en": "These rules are effective as of September 19, 2025.",
+                "zh": "此规则于2025年9月19日起生效。"
             },
             {
                 "en": "Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, their respective logos, Mirrodin, Kamigawa, Lorwyn, Zendikar, Innistrad, Ravnica, Khans of Tarkir, Magic Origins, Magic: The Gathering—Conspiracy, Ixalan, Unfinity, Dominaria, Ikoria, Kaldheim, Baldur’s Gate, The Brothers’ War, and Planeswalker Decks are trademarks of Wizards of the Coast LLC in the USA and other countries. ©2025 Wizards. U.S. Pat. No. RE 37,957.",
@@ -24084,8 +24194,12 @@
                 "zh": "BBC、DOCTOR WHO、TARDIS、DALEK、CYBERMAN和K-9（文字标记和图案）均是英国广播公司的商标，经许可使用。BBC logo © BBC 1996."
             },
             {
-                "en": "Moogle; Qu; Fang, Fearless l’Cie; Vanille, Cheerful l’Cie;  and Ragnarok, Divine Deliverance ® & © SQUARE ENIX.",
+                "en": "Moogle; Qu; Fang, Fearless l’Cie; Vanille, Cheerful l’Cie; and Ragnarok, Divine Deliverance ® & © SQUARE ENIX.",
                 "zh": "莫古力、食族、无畏路希牙、愉悦路希班尼拉和神圣救赎诸神黄昏 ® & © SQUARE ENIX。"
+            },
+            {
+                "en": "© 2025 MARVEL.",
+                "zh": "© 2025 漫威。"
             }
         ]
     },
@@ -24274,6 +24388,22 @@
             {
                 "English": "Lander",
                 "Chinese": "探地器"
+            },
+            {
+                "English": "Harness/Harnessed",
+                "Chinese": "掌控/受掌控"
+            },
+            {
+                "English": "Infinity",
+                "Chinese": "无限"
+            },
+            {
+                "English": "Mayhem",
+                "Chinese": "疯乱"
+            },
+            {
+                "English": "Web-slinging",
+                "Chinese": "蛛丝甩荡"
             }
         ],
         "unfinityDoctorGlossary": [
