@@ -16,11 +16,17 @@
 <BOOKMARK:cr500-3>500.3. A step in which no players receive priority ends when all specified actions that take place during that step are completed. The only such steps are the untap step (see rule 502) and certain cleanup steps (see rule 514).\\ 
 500.3. 在没有牌手会得到优先权的步骤中，该步骤在其所有指定动作完成时结束。此类步骤只包含重置步骤（参见规则[[cr:5#cr502|502]]）和特定的清除步骤（参见规则[[cr:5#cr514|514]]）。
 
-<BOOKMARK:cr500-4>500.4. When a step or phase ends, any unused mana left in a player’s mana pool empties. This turn-based action doesn’t use the stack.\\ 
-500.4. 当一个阶段或步骤结束时，牌手法术力池中剩余的法术力将被清空。该回合动作不使用堆叠。
+<BOOKMARK:cr500-4>500.4. As a step or phase begins, if there are effects that last until that step or phase, those effects expire.\\ 
+500.4. 于一个步骤或阶段开始时，如果有效应持续到“直到该步骤或阶段”，则这些效应结束。
 
-<BOOKMARK:cr500-5>500.5. When a phase or step ends, any effects scheduled to last “until end of” that phase or step expire. When a phase or step begins, any effects scheduled to last “until” that phase or step expire. Effects that last “until end of combat” expire at the end of the combat phase, not at the beginning of the end of combat step. Effects that last “until end of turn” are subject to special rules; see rule 514.2.\\ 
-500.5. 当阶段或步骤结束时，任何持续时间标注为“直到该阶段或步骤结束”的效应结束。当阶段或步骤开始时，任何“直到该阶段或步骤”的效应结束。在战斗阶段结束时，而不是战斗结束步骤的开始时，持续到“直到战斗结束”的效应结束。持续到“直到回合结束”的效应遵循特殊规则；参见规则[[cr:5#cr514-2|514.2]]。
+<BOOKMARK:cr500-5>500.5. As a step or phase ends, if there are effects that last until the end of that step or phase, those effects expire. Then any unspent mana left in a player’s mana pool empties. This is a turn-based action that doesn’t use the stack (see rule 703.4q).\\ 
+500.5. 于一个步骤或阶段结束时，如果有效应持续到“直到该步骤或阶段结束”，则这些效应结束。然后牌手法术力池中未用尽的法术力将被清空。该回合动作不使用堆叠（参见规则[[cr:7#cr703-4q|703.4q]]）。
+
+<BOOKMARK:cr500-5a>500.5a Effects that last “until end of combat” expire at the end of the combat phase, not at the beginning of the end of combat step.\\ 
+500.5a 持续到“直到战斗结束”的效应在战斗阶段结束时结束，而不是在战斗结束步骤的开始时。
+
+<BOOKMARK:cr500-5b>500.5b Effects that last “until end of turn” are subject to special rules; see rule 514.2.\\ 
+500.5b 持续到“直到回合结束”的效应遵循特殊规则；参见规则[[cr:5#cr514-2|514.2]]。
 
 <BOOKMARK:cr500-6>500.6. When a phase or step begins, any abilities that trigger “at the beginning of” that phase or step trigger. They are put on the stack the next time a player would receive priority. (See rule 117, “Timing and Priority.”)\\ 
 500.6. 当一个阶段或步骤开始时，任何“在该阶段或步骤开始时”触发的异能触发。这些异能会在下一次牌手将得到优先权时放进堆叠。（参见规则[[cr:1#cr117|117]]，“时机和优先权”。）

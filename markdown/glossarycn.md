@@ -210,7 +210,7 @@ A keyword ability that lets you tap creatures to make another creature “saddle
 
 ### <span id='成为'>成为</span> / <span id='Becomes'>Becomes</span>
 在一些触发事件中表示状态或特征变动的词。参见规则[603.2e](/cr/6/#cr603-2e)。   
-A word used in some trigger events to indicate a change in status or characteristics. See rule 603.2f.
+A word used in some trigger events to indicate a change in status or characteristics. See rule 603.2e.
 
 ### <span id='持戒人'>持戒人</span> / <span id='Ring-bearer'>Ring-bearer</span>
 一个永久物可在魔戒引诱你时得到的称号。参见规则[701.54](/cr/7/#cr701-54)，“魔戒引诱你”。   
@@ -1066,6 +1066,10 @@ A special kind of activated ability that may be activated only once. See rule 70
 一个关键字异能，在对手失去生命后允许一些咒语以替代性费用施放。参见规则[702.137](/cr/7/#cr702-137)，“揭幕”。   
 A keyword ability that allows certain spells to be cast for an alternative cost if an opponent has lost life. See rule 702.137, “Spectacle.”
 
+### <span id='截气'>截气</span> / <span id='Airbend'>Airbend</span>
+一个关键字动作，能够放逐一个或数个永久物和/或咒语。被截气放逐之牌的拥有者可以支付{2}而非其法术力费用从放逐区再度施放它。参见规则[701.65](/cr/7/#cr701-65)，“截气”。   
+A keyword action that exiles one or more permanents and/or spells. The owner of each card exiled with airbend may cast it from exile by paying {2} rather than paying its mana cost. See rule 701.65, “Airbend.”
+
 ### <span id='结束步骤'>结束步骤</span> / <span id='End Step'>End Step</span>
 回合的一部分。此步骤是终结阶段的第一个步骤。参见规则[513](/cr/5/#cr513)，“结束步骤”。   
 Part of the turn. This step is the first step of the ending phase. See rule 513, “End Step.”
@@ -1077,6 +1081,10 @@ To “end the turn” as the result of an effect is to perform an expedited proc
 ### <span id='结束战斗阶段'>结束战斗阶段</span> / <span id='End the Combat Phase'>End the Combat Phase</span>
 作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[723](/cr/7/#cr723)，“结束回合和阶段”。   
 To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 723, “Ending Turns and Phases.”
+
+### <span id='截水'>截水</span> / <span id='Waterbend'>Waterbend</span>
+一个关键字动作。“截水[费用]”意指支付该费用，且你每横置一个由你操控且未横置的神器或生物就能为此费用支付{1}。参见规则[701.67](/cr/7/#cr701-67)，“截水”。   
+A keyword action. “Waterbend [cost]” means to pay that cost and, for each {1} in that cost, you may tap an untapped artifact or creature you control rather than pay mana. See rule 701.67, “Waterbend.”
 
 ### <span id='结算'>结算</span> / <span id='Resolve'>Resolve</span>
 当堆叠顶端的咒语或异能“结算”时，它的叙述被执行且它具有其效应。参见规则[608](/cr/6/#cr608)，“结算咒语和异能”。   
@@ -1435,9 +1443,9 @@ In a Limited format, the cards a player may use, in addition to basic land cards
 派出一个衍生物指，将一个衍生物放进战场。参见规则[701.7](/cr/7/#cr701-7)，“派出”。   
 To create a token is to put a token onto the battlefield. See rule 701.7, “Create.”
 
-### <span id='拍档，与[名称]拍档'>拍档，与[名称]拍档</span> / <span id='Partner, “Partner with [name]”'>Partner, “Partner with [name]”</span>
-一个关键字异能，在指挥官玩法中使两个传奇生物（而不是一个）成为你的指挥官。“与[名称]拍档”是此异能的特别形式，它即使在指挥官玩法之外也能起作用，能帮助两张牌同时抵达战场。参见规则[702.124](/cr/7/#cr702-124)，“拍档”以及规则[903](/cr/9/#cr903)，“指挥官”。   
-A keyword ability that lets two legendary creatures or planeswalkers be your commander in the Commander variant rather than one. “Partner with [name]” is a specialized version of the ability that works even outside of the Commander variant to help two cards reach the battlefield together. See rule 702.124, “Partner,” and rule 903, “Commander.”
+### <span id='拍档，拍档～[叙述]，与[名称]拍档'>拍档，拍档～[叙述]，与[名称]拍档</span> / <span id='Partner, “Partner—[text],” “Partner with [name]”'>Partner, “Partner—[text],” “Partner with [name]”</span>
+一个关键字异能，在指挥官玩法中使两张传奇牌（而不是一个）成为你的指挥官。“与[名称]拍档”是此异能的特别形式，它即使在指挥官玩法之外也能起作用，能帮助两张牌同时抵达战场。参见规则[702.124](/cr/7/#cr702-124)，“拍档”以及规则[903](/cr/9/#cr903)，“指挥官”。   
+A keyword ability that lets two legendary cards be your commander in the Commander variant rather than one. “Partner with [name]” is a specialized version of the ability that works even outside of the Commander variant to help two cards reach the battlefield together. See rule 702.124, “Partner,” and rule 903, “Commander.”
 
 ### <span id='牌库'>牌库</span> / <span id='Library'>Library</span>
 1. 一个区域。牌库是牌手抓牌的地方。   
@@ -2638,6 +2646,10 @@ A keyword ability that allows some cards to be cast converted. See rule 702.162,
 一个见于永久物牌上的关键字异能，允许它们以替代性费用施放。参见规则[702.185](/cr/7/#cr702-185)，“跃迁”。   
 A keyword ability found on permanent cards that allows them to be cast for an alternative cost. See rule 702.185, “Warp.”
 
+### <span id='运土'>运土</span> / <span id='Earthbend'>Earthbend</span>
+一个关键字动作，让地额外成为0/0，具敏捷异能的生物且在其上放置+1/+1指示物。当该地死去或进入放逐区时，将它在你的操控下横置移回战场。参见规则[701.66](/cr/7/#cr701-66)，“运土”。   
+A keyword action that causes a land to become a 0/0 creature with haste in addition to its other types and puts a number of +1/+1 counters on it. When that land dies or is put into exile, return it to the battlefield tapped under your control. See 701.66, “Earthbend.”
+
 ### <span id='晕眩指示物'>晕眩指示物</span> / <span id='Stun Counter'>Stun Counter</span>
 一种指示物，阻止永久物重置。参见规则[122.1d](/cr/1/#cr122-1d)。   
 A counter that stops a permanent from untapping. See rule 122.1d.
@@ -2778,6 +2790,10 @@ A keyword ability that makes the defending player lose life for blocking. See ru
 ### <span id='珍宝衍生物'>珍宝衍生物</span> / <span id='Treasure Token'>Treasure Token</span>
 珍宝衍生物是具有“{T}，牺牲此衍生物：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[111.10](/cr/1/#cr111-10)。   
 A Treasure token is a colorless artifact token with “{T}, Sacrifice this token: Add one mana of any color.” For more information about predefined tokens, see rule 111.10.
+
+### <span id='振火'>振火</span> / <span id='Firebending'>Firebending</span>
+一个关键字异能，在具此异能的生物攻击时产生能留到战斗结束的红色法术力。参见规则[702.189](/cr/7/#cr702-189)，“振火”。   
+A keyword ability that adds red mana until end of combat whenever a creature with that ability attacks. See rule 702.189, “Firebending.”
 
 ### <span id='振励'>振励</span> / <span id='Bolster'>Bolster</span>
 一个关键字动作，在牌手操控的最弱的生物上放置+1/+1指示物。参见规则[701.39](/cr/7/#cr701-39)，“振励”。   

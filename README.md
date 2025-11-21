@@ -10,7 +10,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2025年9月19日，*漫威的蜘蛛侠*系列。
+本译文最近一次更新于：2025年11月14日，*降世神通：最后的气宗*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -22,7 +22,7 @@
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
 | 2025 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/dft.svg' width='14' height='14' />[乙太飘移](release_notes/faq_dft.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tdm.svg' width='14' height='14' />[鞑契龙岚录](https://lib.sbwsz.com/archives/tarkir-dragonstorm-release-notes.html) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/fin.svg' width='14' height='14' />[万智牌～最终幻想](release_notes/faq_fin.pdf) |
-| 2025 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/eoe.svg' width='14' height='14' />[虚空边域](https://mtgch.com/articles/official/edge-of-eternities-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/spm.svg' width='14' height='14' />[漫威的蜘蛛侠](https://mtgch.com/articles/official/spider-man-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tla.svg' width='14' height='14' />降世神通：最后的气宗 |
+| 2025 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/eoe.svg' width='14' height='14' />[虚空边域](https://mtgch.com/articles/official/edge-of-eternities-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/spm.svg' width='14' height='14' />[漫威的蜘蛛侠](https://mtgch.com/articles/official/spider-man-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tla.svg' width='14' height='14' />[降世神通：最后的气宗](https://mtgch.com/articles/official/avatar-the-last-airbender-release-notes/) |
 | 2025 额外系列 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/inr.svg' width='14' height='14' />依尼翠：重置版 | | |
 
 | 年度 | 冬 | 春 | 夏 | 秋 | 额外系列 |
@@ -55,6 +55,23 @@
 
 
 ## 内容更新
+
+### 20251114
+
+- *降世神通：最后的气宗*
+    - 通用：所有出现“Person”字样的文本均被替换为“Player”。
+    - 500.4, 500.5, 703.4q：直到某步骤或阶段的效应，于该步骤或阶段开始时同时结束。直到某步骤或阶段结束的效应，于该步骤或阶段结束时同时结束，然后清空法术力池中未用尽的法术力。直到战斗结束的效应，于战斗结束步骤结束时同时结束。（特别地，直到回合结束的效应会在清除步骤的回合动作中结束）
+    - 603.1b：检查一个时段内，触发式异能的每个触发条件是否均发生过的异能，只检查事件是否都发生过，而不关心异能是否每次都触发过。（降世神通安昂）
+    - 603.2d：让某物件的异能触发多次的效应，只会改变物件本身具有的异能触发的次数，而不改变其异能创造的延迟触发式异能（例「本回合中，当xxx时」）和自身触发式异能（例「当你如此作时」）的触发次数。
+    - 701.65-67：新关键字动作：截气、运土、截水。
+    - 702.2c：由于战斗伤害分配规则的修改，不再关心死触相关的伤害分配是否合法，而改为规定死触来源造成的1点以外的伤害均为过量伤害。
+    - 702.124a：拍档异能新增变化形式：拍档～[叙述]。两张叙述相同的牌便可以同时担任你的指挥官。（冲动稚子阿特柔斯 & 坚忍严父奎托斯）
+    - 702.189：新关键字异能：振火。
+    - 724.4：原先，当君主离开游戏时，依回合顺序的下一位牌手成为君主。现在改为依回合顺序的下一位「能成为君主的」牌手成为君主。（正统传人贾瑞卡萨隆）
+    - 903.4a 若在游戏内需要知道一张牌所代表的物件的标识色，将会用这张牌在游戏开始时确定的标识色。
+    - 新的副类别：野牛、袋鼠、狐猴、鸭嘴兽。
+    - 词汇表更新：截气、运土、振火、截水。
+
 
 ### 20250919
 

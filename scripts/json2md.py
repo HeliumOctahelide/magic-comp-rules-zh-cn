@@ -36,6 +36,8 @@ def plain_text_to_markdown(json_file, output_dir):
             nonlocal catalog_content
 
             def content_is_not_a_sentence(rule):
+                if rule['zh'].strip() == "∞（无限）":
+                    return True
                 return rule['en'].strip()[-1] not in ".)”:" and rule['zh'].strip()[-1] not in "。）”："
 
             if re.match(r'^\w\.$', rule['chapter']):

@@ -737,8 +737,8 @@ Example: A player owns and controls Midnight Scavengers and a token that’s a c
 <BOOKMARK:cr701-44>701.44. Explore\\ 
 701.44. 勘察
 
-<BOOKMARK:cr701-44a>701.44a Certain abilities instruct a permanent to explore. To do so, that permanent’s controller reveals the top card of their library. If a land card is revealed this way, that player puts that card into their hand. Otherwise, that player puts a +1/+1 counter on the exploring permanent and may put the revealed card into their graveyard.\\ 
-701.44a 某些异能会令永久物进行勘察。其意指，该永久物的操控者展示其牌库顶牌。如果以此法展示出地牌，则该牌手将该牌置于其手上。若否，则该牌手在该进行勘察的永久物上放置一个+1/+1指示物，且可以将所展示的牌置入其坟墓场。
+<BOOKMARK:cr701-44a>701.44a Certain spells and abilities instruct a permanent to explore. To do so, that permanent’s controller reveals the top card of their library. If a land card is revealed this way, that player puts that card into their hand. Otherwise, that player puts a +1/+1 counter on the exploring permanent and may put the revealed card into their graveyard.\\ 
+701.44a 某些咒语和异能会令永久物进行勘察。其意指，该永久物的操控者展示其牌库顶牌。如果以此法展示出地牌，则该牌手将该牌置于其手上。若否，则该牌手在该进行勘察的永久物上放置一个+1/+1指示物，且可以将所展示的牌置入其坟墓场。
 
 <BOOKMARK:cr701-44b>701.44b A permanent “explores” after the process described in rule 701.44a is complete, even if some or all of those actions were impossible.\\ 
 701.44b 在完成规则[[cr:7#cr701-44a|701.44a]]所述之流程后，该永久物便已“勘察”，就算该流程之部分或全部动作无法完成也是一样。
@@ -800,8 +800,8 @@ Example: A player owns and controls Midnight Scavengers and a token that’s a c
 <BOOKMARK:cr701-50>701.50. Connive\\ 
 701.50. 筹谋
 
-<BOOKMARK:cr701-50a>701.50a Certain abilities instruct a permanent to connive. To do so, that permanent’s controller draws a card, then discards a card. If a nonland card is discarded this way, that player puts a +1/+1 counter on the conniving permanent.\\ 
-701.50a 某些异能会令永久物筹谋。其意指，该永久物的操控者抓一张牌，然后弃一张牌。若以此法弃掉了一张非地牌，则该牌手在正筹谋的永久物上放置一个+1/+1指示物。
+<BOOKMARK:cr701-50a>701.50a Certain spells and abilities instruct a permanent to connive. To do so, that permanent’s controller draws a card, then discards a card. If a nonland card is discarded this way, that player puts a +1/+1 counter on the conniving permanent.\\ 
+701.50a 某些咒语和异能会令永久物筹谋。其意指，该永久物的操控者抓一张牌，然后弃一张牌。若以此法弃掉了一张非地牌，则该牌手在正筹谋的永久物上放置一个+1/+1指示物。
 
 <BOOKMARK:cr701-50b>701.50b A permanent “connives” after the process described in rule 701.50a is complete, even if some or all of those actions were impossible.\\ 
 701.50b 在规则[[cr:7#cr701-50a|701.50a]]中描述的过程完成后，某永久物便“筹谋”，即使该过程中的一些或全部动作无法完成也是如此。
@@ -980,6 +980,39 @@ Example: A player owns and controls Midnight Scavengers and a token that’s a c
 <BOOKMARK:cr701-64b>701.64b Harnessed is a designation that has no rules meaning other than to act as a marker that other spells and abilities can identify. Only permanents can be or become harnessed. Once a permanent becomes harnessed, it stays harnessed until it leaves the battlefield. Harnessed is neither an ability nor part of the permanent’s copiable values.\\ 
 701.64b “受掌控”此称号并无规则含义。它仅用作标记，供其他咒语和异能辨识之用。只有永久物能够受掌控。一旦某永久物已受掌控后，它便会一直保持已受掌控，直到它离开战场为止。“受掌控”既不是异能，也不是该永久物可复制特征值的一部分。
 
+<BOOKMARK:cr701-65>701.65. Airbend\\ 
+701.65. 截气
+
+<BOOKMARK:cr701-65a>701.65a Certain spells and abilities instruct a player to airbend one or more permanents and/or spells. To do so, that player exiles those objects. For each card exiled this way, for as long as it remains exiled, its owner may cast it by paying {2} rather than paying its mana cost.\\ 
+701.65a 某些咒语和异能会指示牌手对一个或数个永久物和／或咒语截气。其意指，该牌手放逐这些物件。对每张以此法放逐的牌而言，只要该牌持续被放逐，其拥有者便可以施放之，但需支付{2}，而不支付其法术力费用。
+
+<BOOKMARK:cr701-65b>701.65b An ability that triggers whenever a player airbends triggers when that player exiles one or more objects as a result of an instruction to airbend.\\ 
+701.65b 每当牌手截气时触发的异能会在牌手因执行截气的指示而放逐一个或数个物件时触发。
+
+<BOOKMARK:cr701-66>701.66. Earthbend\\ 
+701.66. 运土
+
+<BOOKMARK:cr701-66a>701.66a “Earthbend N” means “Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When that land dies or is put into exile, return it to the battlefield tapped under your control.”\\ 
+701.66a “运土N”意指“目标由你操控的地成为0/0，具敏捷异能的地生物，且仍具有原本类别。在其上放置N个+1/+1指示物。当该地死去或进入放逐区时，将它在你的操控下移回战场。”
+
+<BOOKMARK:cr701-66b>701.66b An ability that triggers whenever a player earthbends triggers when the delayed triggered ability described in rule 701.66a is created.\\ 
+701.66b 每当牌手运土时触发的异能会在701.66a中所述之延迟触发式异能被创造时触发。
+
+<BOOKMARK:cr701-67>701.67. Waterbend\\ 
+701.67. 截水
+
+<BOOKMARK:cr701-67a>701.67a “Waterbend [cost]” means “Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana.”\\ 
+701.67a “截水[费用]”意指“支付[费用]。你可以为此费用中的每一点一般法术力横置一个由你操控且未横置的神器或生物，而不支付该法术力。”
+
+<BOOKMARK:cr701-67b>701.67b If a waterbend cost is part of the total cost to cast a spell or activate an ability (usually because the waterbend cost itself is an additional cost), the alternate method to pay for mana described in rule 701.67a may be used only to pay for the amount of generic mana in the waterbend cost, even if the total cost to cast that spell or activate that ability includes other generic mana components.\\ 
+701.67b 如果某个截水费用是施放咒语或起动异能之总费用的一部分（通常是因为截水费用本身就是额外费用），则规则[[cr:7#cr701-67a|701.67a]]中所述之支付法术力的替代方法，只能用于支付截水费用中的一般法术力部分，就算施放该咒语或起动该异能的总费用中包含其他一般法术力的部分也是如此。
+
+Example: Spirit Water Revival is a spell that costs {1}{U}{U} and says, in part, “As an additional cost to cast this spell, waterbend {6}.” As you cast it, you may tap up to six artifacts and/or creatures you control to pay the for the {6} in its waterbend cost, but you can’t tap any artifacts or creatures to pay for any part of the {1}{U}{U} mana cost.\\ 
+例如：灵水复生是个费用为{1}{U}{U}的咒语，其部分叙述为“你可以截水{6}，以作为施放此咒语的额外费用。”于你施放此咒语时，你可以横置至多六个由你操控的神器和／或生物来支付其截水费用中的{6}，但你不能横置任何神器或生物来支付其{1}{U}{U}法术力费用中的任何部分。
+
+<BOOKMARK:cr701-67c>701.67c An ability that triggers whenever a player waterbends triggers whenever that player pays a waterbend cost, regardless of how they paid that cost.\\ 
+701.67c 每当牌手截水时触发的异能会在牌手支付一个截水费用时触发，无论该费用是以何方式支付。
+
 ===== 702. 关键字异能 Keyword Abilities =====
 <BOOKMARK:cr702>702. Keyword Abilities\\ 
 702. 关键字异能
@@ -1020,8 +1053,8 @@ Example: Concerted Effort is an enchantment that reads “At the beginning of ea
 <BOOKMARK:cr702-2b>702.2b A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action. See rule 704.\\ 
 702.2b 如果在上一次检查状态动作后，一个生物受到具死触之来源的伤害，它便作为状态动作被消灭。参见规则[[cr:7#cr704|704]]。
 
-<BOOKMARK:cr702-2c>702.2c Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage for the purposes of determining if a proposed combat damage assignment is valid, regardless of that creature’s toughness. See rules 510.1c–d.\\ 
-702.2c 在检查被宣告的战斗伤害分配是否合法时，任何具有死触的来源对生物分配的非零战斗伤害均认为是致命伤害，而不考虑该生物的防御力。参见规则[[cr:5#cr510-1c|510.1c-d]]。
+<BOOKMARK:cr702-2c>702.2c Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage for the purposes of determining if excess damage is being dealt.\\ 
+702.2c 在检查是否造成过量伤害时，任何具有死触的来源对生物分配的非零战斗伤害均认为是致命伤害。
 
 <BOOKMARK:cr702-2d>702.2d The deathtouch rules function no matter what zone an object with deathtouch deals damage from.\\ 
 702.2d 无论具有死触之物件是从哪个区域造成的伤害，死触异能规则都会生效。
@@ -1246,7 +1279,7 @@ Example: A player controls Ajani’s Pridemate, which reads “Whenever you gain
 702.16. 保护
 
 <BOOKMARK:cr702-16a>702.16a Protection is a static ability, written “Protection from [quality].” This quality is usually a color (as in “protection from black”) but can be any characteristic value or information. If the quality happens to be a card name, it is treated as such only if the protection ability specifies that the quality is a name. If the quality is a card type, subtype, or supertype, the ability applies to sources that are permanents with that card type, subtype, or supertype and to any sources not on the battlefield that are of that card type, subtype, or supertype. This is an exception to rule 109.2.\\ 
-702.16a 保护属于静止式异能，写作“反[特性]保护”。此特性通常为颜色（如“反黑保护”），但也可以是其他的特征或信息。如果此特性是一张牌的名称，则仅有在此保护异能指名此特性为名称时，才将其视作牌名来处理。如果此特性为一种类别、副类别或超类别，则保护所使用的来源包括该类永久物，与不在战场上的该类来源。这是规则[[cr:1#cr109-2|109.2]]的例外状况。
+702.16a 保护属于静止式异能，写作“反[特性]保护”。此特性通常为颜色（如“反黑保护”），但也可以是其他的特征或信息。如果此特性是一张牌的名称，则仅有在此保护异能指名此特性为名称时，才将其视作牌名来处理。如果此特性为一种牌张类别、副类别或超类别，则保护所使用的来源包括该类永久物，与不在战场上的该类来源。这是规则[[cr:1#cr109-2|109.2]]的例外状况。
 
 <BOOKMARK:cr702-16b>702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.\\ 
 702.16b 具有保护的永久物或牌手不能成为具所述特性的咒语，或来源为该特性的异能之目标。
@@ -2221,7 +2254,7 @@ Example: You activate the aura swap ability of an Aura that you control but you 
 702.93. 不息
 
 <BOOKMARK:cr702-93a>702.93a Undying is a triggered ability. “Undying” means “When this permanent is put into a graveyard from the battlefield, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.”\\ 
-702.93a 不息是触发式异能。“不息”意指“当此永久物从战场进入坟墓场时，如果其上没有+1/+1指示物，则将它在其拥有者的操控下返回战场上，且其上有一个+1/+1指示物。”
+702.93a 不息是触发式异能。“不息”意指“当此永久物从战场进入坟墓场时，若其上没有+1/+1指示物，则将它在其拥有者的操控下返回战场上，且其上有一个+1/+1指示物。”
 
 <BOOKMARK:cr702-94>702.94. Miracle\\ 
 702.94. 奇迹
@@ -2553,8 +2586,8 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-124>702.124. Partner\\ 
 702.124. 拍档
 
-<BOOKMARK:cr702-124a>702.124a Partner abilities are keyword abilities that modify the rules for deck construction in the Commander variant (see rule 903), and they function before the game begins. Each partner ability allows you to designate two legendary cards as your commander rather than one. Each partner ability has its own requirements for those two commanders. The partner abilities are: partner, partner with [name], friends forever, choose a Background, and Doctor’s companion.\\ 
-702.124a 拍档异能属于改变指挥官玩法（参见规则[[cr:9#cr903|903]]）之套牌构组规则的异能，在游戏开始前生效。每种拍档异能都允许你将两张传奇牌共同作为你的指挥官，而不是一张。每种拍档异能都对两个指挥官有所要求。拍档异能包括：拍档、与[名称]拍档、友谊永恒、选择身世，以及博士伙伴。
+<BOOKMARK:cr702-124a>702.124a Partner abilities are keyword abilities that modify the rules for deck construction in the Commander variant (see rule 903), and they function before the game begins. Each partner ability allows you to designate two legendary cards as your commander rather than one. Each partner ability has its own requirements for those two commanders. The partner abilities are: partner, partner—[text], partner with [name], friends forever, choose a Background, and Doctor’s companion.\\ 
+702.124a 拍档异能属于改变指挥官玩法（参见规则[[cr:9#cr903|903]]）之套牌构组规则的异能，在游戏开始前生效。每种拍档异能都允许你将两张传奇牌共同作为你的指挥官，而不是一张。每种拍档异能都对两个指挥官有所要求。拍档异能包括：拍档、拍档～[叙述]，与[名称]拍档、友谊永恒、选择身世，以及博士伙伴。
 
 <BOOKMARK:cr702-124b>702.124b Your deck must contain exactly 100 cards, including its two commanders. Both commanders begin the game in the command zone.\\ 
 702.124b 你的套牌必须刚好由一百张牌构成，包括两个指挥官在内。这两个指挥官在游戏开始时都位于统帅区。
@@ -2574,23 +2607,26 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-124g>702.124g If a legendary card has more than one partner ability, you may choose which one to use when designating your commander, but you can’t use both. Notably, no partner ability or combination of partner abilities can ever let a player have more than two commanders.\\ 
 702.124g 如果一张传奇牌具有一种以上的拍档异能，你可以在指定你的指挥官时选择其中一种来使用，但不能同时使用。任何拍档异能或拍档异能组合都不会使得牌手拥有多于两个指挥官。
 
-<BOOKMARK:cr702-124h>702.124h “Partner” means “You may designate two legendary creature cards as your commander rather than one if each of them has partner.”\\ 
-702.124h “拍档”意指“你可以将两张具有拍档的传奇生物牌共同用作你的指挥官。”
+<BOOKMARK:cr702-124h>702.124h “Partner” means “You may designate two legendary cards as your commander rather than one if each of them has partner.”\\ 
+702.124h “拍档”意指“你可以将两张具有拍档的传奇牌共同用作你的指挥官。”
 
-<BOOKMARK:cr702-124i>702.124i “Partner with [name]” represents two abilities. It means “You may designate two legendary creature cards as your commander rather than one if each has a ‘partner with [name]’ ability with the other’s name” and “When this permanent enters, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle.”\\ 
-702.124i “与[名称]拍档”代表两个异能。它意指“你可以将一张具有‘与[名称]拍档’异能的传奇生物牌与一张具有该名称的牌共同用作你的指挥官。”以及“当此永久物进场时，目标牌手可以其牌库中搜寻一张名为[名称]的牌，展示该牌，然后将它置于其手上，然后洗牌。”
+<BOOKMARK:cr702-124i>702.124i “Partner—[text]” means “You may designate two legendary cards as your commander rather than one if each of them has the same ‘partner—[text]’ ability.” The “partner—[text]” abilities are “partner—Father & son” and “partner—Survivors.”\\ 
+702.124i “拍档～[叙述]”意指“你可以将两张具有拍档～[叙述]异能的传奇牌共同用作你的指挥官。”这些“拍档～[叙述]”异能包括“拍档～父与子”和“拍档～求生者”。
 
-<BOOKMARK:cr702-124j>702.124j “Friends forever” means “You may designate two legendary creature cards as your commander rather than one if each of them has friends forever.”\\ 
-702.124j “友谊永恒”意指“你可以将两张具有友谊永恒异能的传奇生物牌共同用作你的指挥官。”
+<BOOKMARK:cr702-124j>702.124j “Partner with [name]” represents two abilities. It means “You may designate two legendary cards as your commander rather than one if each has a ‘partner with [name]’ ability with the other’s name” and “When this permanent enters, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle.”\\ 
+702.124j “与[名称]拍档”代表两个异能。它意指“你可以将一张具有‘与[名称]拍档’异能的传奇牌与一张具有该名称的牌共同用作你的指挥官。”以及“当此永久物进场时，目标牌手可以其牌库中搜寻一张名为[名称]的牌，展示该牌，然后将它置于其手上，然后洗牌。”
 
-<BOOKMARK:cr702-124k>702.124k “Choose a Background” means “You may designate two cards as your commander rather than one if one of them is this card and the other is a legendary Background enchantment card.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not a legendary Background enchantment card, and legendary Background enchantment cards can’t be your commander unless you have also designated a commander with “choose a Background.”\\ 
-702.124k “选择身世”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇身世结界牌。”如果一张牌具有“选择身世”异能且另一张牌不是传奇身世结界牌，你便不能将它们共同用作指挥官。传奇身世结界牌不能成为你的指挥官，除非你同时将另一张具有“选择身世”的牌用作指挥官。
+<BOOKMARK:cr702-124k>702.124k “Friends forever” means “You may designate two legendary creature cards as your commander rather than one if each of them has friends forever.”\\ 
+702.124k “友谊永恒”意指“你可以将两张具有友谊永恒异能的传奇生物牌共同用作你的指挥官。”
 
-<BOOKMARK:cr702-124m>702.124m “Doctor’s companion” means “You may designate two legendary creature cards as your commander rather than one if one of them is this card and the other is a legendary Time Lord Doctor creature card that has no other creature types.”\\ 
-702.124m “博士伙伴”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇时间领主／医生生物牌且不具其他生物类别。”（译注：Doctor此生物类别之官方翻译为“医生”而非“博士”。）
+<BOOKMARK:cr702-124m>702.124m “Choose a Background” means “You may designate two cards as your commander rather than one if one of them is this card and the other is a legendary Background enchantment card.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not a legendary Background enchantment card, and legendary Background enchantment cards can’t be your commander unless you have also designated a commander with “choose a Background.”\\ 
+702.124m “选择身世”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇身世结界牌。”如果一张牌具有“选择身世”异能且另一张牌不是传奇身世结界牌，你便不能将它们共同用作指挥官。传奇身世结界牌不能成为你的指挥官，除非你同时将另一张具有“选择身世”的牌用作指挥官。
 
-<BOOKMARK:cr702-124n>702.124n If an effect refers to a partner ability by name, it means only that partner ability and not any others. If an effect refers to the partner ability or cards with partner and doesn’t mention a specific variant of the partner ability by name, it is referring only to partner, partner with [name], or cards with either of those abilities, and does not refer to any other partner variant.\\ 
-702.124n 如果一个效应提及某拍档异能的名称，则其仅指该拍档异能而非其他任何种类。如果一个效应提及拍档异能或者具有拍档的牌，且未提及某个具体变化形式的名称，则其仅指拍档，与[名称]拍档或者具有这两种异能之一的牌，而不代表任何其他的拍档异能之变化形式。
+<BOOKMARK:cr702-124n>702.124n “Doctor’s companion” means “You may designate two legendary creature cards as your commander rather than one if one of them is this card and the other is a legendary Time Lord Doctor creature card that has no other creature types.”\\ 
+702.124n “博士伙伴”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇时间领主／医生生物牌且不具其他生物类别。”（译注：Doctor此生物类别之官方翻译为“医生”而非“博士”。）
+
+<BOOKMARK:cr702-124p>702.124p If an effect refers to a partner ability by name, it means only that partner ability and not any others. If an effect refers to the partner ability or cards with partner and doesn’t mention a specific variant of the partner ability by name, it is referring only to partner, partner—[text], partner with [name], or cards with any of those abilities, and it does not refer to any other partner variant.\\ 
+702.124p 如果一个效应提及某拍档异能的名称，则其仅指该拍档异能而非其他任何种类。如果一个效应提及拍档异能或者具有拍档的牌，且未提及某个具体变化形式的名称，则其仅指拍档、拍档～[叙述]、与[名称]拍档或者具有这几种异能之一的牌，而不代表任何其他的拍档异能之变化形式。
 
 <BOOKMARK:cr702-125>702.125. Undaunted\\ 
 702.125. 不屈
@@ -3306,6 +3342,15 @@ Example: Tapestry Warden has as ability that reads “Each creature you control 
 <BOOKMARK:cr702-188a>702.188a Web-slinging is a static ability that functions while the spell with web-slinging is on the stack. “Web-slinging [cost]” means “You may cast this spell by paying [cost] and returning a tapped creature you control to its owner’s hand rather than paying its mana cost.” Casting a spell using its web-slinging ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.\\ 
 702.188a 蛛丝甩荡属于静止式异能，于具蛛丝甩荡异能的咒语在堆叠上时生效。“蛛丝甩荡[费用]”意指“你可以支付[费用]并将一个由你操控且已横置的生物移回其拥有者手上来施放此咒语，而非支付其法术力费用。”支付蛛丝甩荡费用以施放咒语时，需依照规则[[cr:6#cr601-2b|601.2b]]与[[cr:6#cr601-2f|601.2f-h]]之规范来支付替代性费用。
 
+<BOOKMARK:cr702-189>702.189. Firebending\\ 
+702.189. 振火
+
+<BOOKMARK:cr702-189a>702.189a Firebending is a triggered ability. “Firebending N” means “Whenever this creature attacks, add N {R}. Until end of combat, you don’t lose this mana as steps and phases end.”\\ 
+702.189a 振火属于触发式异能。“振火N”意指“每当此生物攻击时，加N点{R}。直到战斗结束，你不会因步骤结束而失去这份法术力。”
+
+<BOOKMARK:cr702-189b>702.189b An ability that triggers whenever a player firebends triggers whenever a firebending ability they control resolves.\\ 
+702.189b 每当牌手振火时触发的异能会在该牌手操控的振火异能结算时触发。
+
 ===== 703. 回合动作 Turn-Based Actions =====
 <BOOKMARK:cr703>703. Turn-Based Actions\\ 
 703. 回合动作
@@ -3367,8 +3412,8 @@ Example: Tapestry Warden has as ability that reads “Each creature you control 
 <BOOKMARK:cr703-4p>703.4p Immediately after the active player has discarded cards (if necessary) during the cleanup step, all damage is removed from permanents and all “until end of turn” and “this turn” effects end. These actions happen simultaneously. See rule 514.2.\\ 
 703.4p 在清除步骤当中、主动牌手弃牌之后（若有需要），立刻移除永久物上的所有伤害、结束所有“直到回合结束”和“本回合”的效应。这些动作同时发生。参见规则[[cr:5#cr514-2|514.2]]。
 
-<BOOKMARK:cr703-4q>703.4q When each step or phase ends, any unused mana left in a player’s mana pool empties. See rule 500.4.\\ 
-703.4q 当每个步骤或阶段结束时，留在牌手法术力池中尚未使用的法术力被清空。参见规则[[cr:5#cr500-4|500.4]]。
+<BOOKMARK:cr703-4q>703.4q As each step or phase ends, any unspent mana left in a player’s mana pool empties. See rule 500.5.\\ 
+703.4q 于每个步骤或阶段结束时，留在牌手法术力池中尚未用尽的法术力被清空。参见规则[[cr:5#cr500-4|500.4]]。
 
 ===== 704. 状态动作 State-Based Actions =====
 <BOOKMARK:cr704>704. State-Based Actions\\ 
@@ -4540,8 +4585,8 @@ Example: The player who’s being controlled still decides if they will leave to
 <BOOKMARK:cr724-3>724.3. Only one player can be the monarch at a time. As a player becomes the monarch, the current monarch ceases to be the monarch.\\ 
 724.3. 同一时间只有一位牌手能成为君主。于某位牌手成为君主时，当前的君主便不再是君主。
 
-<BOOKMARK:cr724-4>724.4. If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch. If no player still in the game can become the monarch, the game continues with no monarch.\\ 
-724.4. 如果君主离开游戏，则主动牌手在其离开游戏的同时成为君主。如果该主动牌手也离开游戏、或没有主动牌手，则依回合顺序的下一位牌手成为君主。如果仍在游戏中的牌手均不能成为君主，游戏以没有君主的状态继续。
+<BOOKMARK:cr724-4>724.4. If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order who can become the monarch becomes the monarch. If no player still in the game can become the monarch, the game continues with no monarch.\\ 
+724.4. 如果君主离开游戏，则主动牌手在其离开游戏的同时成为君主。如果该主动牌手也离开游戏、或没有主动牌手，则依回合顺序之下一位能够成为君主的牌手成为君主。如果仍在游戏中的牌手均不能成为君主，游戏以没有君主的状态继续。
 
 <BOOKMARK:cr724-5>724.5. If the result of a continuous effect generated by a static ability is determined based on who is currently the monarch, but there is no monarch in the game as that effect begins to apply, that effect does nothing until a player becomes the monarch. See rule 613, “Continuous Effects.”\\ 
 724.5. 如果一个静止式异能产生的持续性效应的结果是根据哪位牌手是君主来确定的，但此效应生效时游戏中没有君主，则该效应没有效果，直到某位牌手成为君主。参见规则[[cr:6#cr613|613]]，“持续性效应”。

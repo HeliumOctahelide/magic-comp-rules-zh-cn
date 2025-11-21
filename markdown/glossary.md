@@ -98,6 +98,11 @@ A keyword ability that leaves behind Spirit creature tokens when certain creatur
 A keyword ability that lets a player cast one half of a split card only from their graveyard. See rule 702.127, “Aftermath.”
 
 ----
+### <span id='Airbend'>Airbend</span> / <span id='截气'>截气</span>
+一个关键字动作，能够放逐一个或数个永久物和/或咒语。被截气放逐之牌的拥有者可以支付{2}而非其法术力费用从放逐区再度施放它。参见规则[701.65](/cr/7/#cr701-65)，“截气”。   
+A keyword action that exiles one or more permanents and/or spells. The owner of each card exiled with airbend may cast it from exile by paying {2} rather than paying its mana cost. See rule 701.65, “Airbend.”
+
+----
 ### <span id='Alternate Name'>Alternate Name</span> / <span id='别名'>别名</span>
 一些牌在其推广版本或异画版本上使用的不同名称。此名称没有规则含义。参见规则[201.6](/cr/2/#cr201-6)。   
 A different name used on promotional or alternate-art versions of some cards. This name has no rules meaning. See rule 201.6.
@@ -340,7 +345,7 @@ A zone. The battlefield is the zone in which permanents exist. It used to be kno
 ----
 ### <span id='Becomes'>Becomes</span> / <span id='成为'>成为</span>
 在一些触发事件中表示状态或特征变动的词。参见规则[603.2e](/cr/6/#cr603-2e)。   
-A word used in some trigger events to indicate a change in status or characteristics. See rule 603.2f.
+A word used in some trigger events to indicate a change in status or characteristics. See rule 603.2e.
 
 ----
 ### <span id='Beginning Phase'>Beginning Phase</span> / <span id='开始阶段'>开始阶段</span>
@@ -1038,6 +1043,11 @@ Some older cards used the phrase “during [phase], [action].” These abilities
 An older name for the Commander casual variant. See rule 903, “Commander.”
 
 ----
+### <span id='Earthbend'>Earthbend</span> / <span id='运土'>运土</span>
+一个关键字动作，让地额外成为0/0，具敏捷异能的生物且在其上放置+1/+1指示物。当该地死去或进入放逐区时，将它在你的操控下横置移回战场。参见规则[701.66](/cr/7/#cr701-66)，“运土”。   
+A keyword action that causes a land to become a 0/0 creature with haste in addition to its other types and puts a number of +1/+1 counters on it. When that land dies or is put into exile, return it to the battlefield tapped under your control. See 701.66, “Earthbend.”
+
+----
 ### <span id='Echo'>Echo</span> / <span id='返响'>返响</span>
 一个关键字异能，要求支付一个费用让永久物保留在战场上。参见规则[702.30](/cr/7/#cr702-30)，“返响”。   
 A keyword ability that imposes a cost to keep a permanent on the battlefield. See rule 702.30, “Echo.”
@@ -1327,6 +1337,11 @@ When two creatures fight, each deals damage equal to its power to the other. See
 ### <span id='Finality Counter'>Finality Counter</span> / <span id='终命指示物'>终命指示物</span>
 一种指示物，在永久物将从战场进入坟墓场时改为放逐之。参见规则[122.1h](/cr/1/#cr122-1h)。   
 A counter that exiles the permanent it is on if that permanent would go to the graveyard from the battlefield. See rule 122.1h.
+
+----
+### <span id='Firebending'>Firebending</span> / <span id='振火'>振火</span>
+一个关键字异能，在具此异能的生物攻击时产生能留到战斗结束的红色法术力。参见规则[702.189](/cr/7/#cr702-189)，“振火”。   
+A keyword ability that adds red mana until end of combat whenever a creature with that ability attacks. See rule 702.189, “Firebending.”
 
 ----
 ### <span id='First Strike'>First Strike</span> / <span id='先攻'>先攻</span>
@@ -2369,9 +2384,9 @@ A term that describes a creature that’s been affected by a soulbond ability. S
 Informal term for a previous system of taking a mulligan. Using the Paris mulligan, a player who took a mulligan shuffled their hand into their library and drew one fewer card. For current mulligan rules, see rule 103.5.
 
 ----
-### <span id='Partner, “Partner with [name]”'>Partner, “Partner with [name]”</span> / <span id='拍档，与[名称]拍档'>拍档，与[名称]拍档</span>
-一个关键字异能，在指挥官玩法中使两个传奇生物（而不是一个）成为你的指挥官。“与[名称]拍档”是此异能的特别形式，它即使在指挥官玩法之外也能起作用，能帮助两张牌同时抵达战场。参见规则[702.124](/cr/7/#cr702-124)，“拍档”以及规则[903](/cr/9/#cr903)，“指挥官”。   
-A keyword ability that lets two legendary creatures or planeswalkers be your commander in the Commander variant rather than one. “Partner with [name]” is a specialized version of the ability that works even outside of the Commander variant to help two cards reach the battlefield together. See rule 702.124, “Partner,” and rule 903, “Commander.”
+### <span id='Partner, “Partner—[text],” “Partner with [name]”'>Partner, “Partner—[text],” “Partner with [name]”</span> / <span id='拍档，拍档～[叙述]，与[名称]拍档'>拍档，拍档～[叙述]，与[名称]拍档</span>
+一个关键字异能，在指挥官玩法中使两张传奇牌（而不是一个）成为你的指挥官。“与[名称]拍档”是此异能的特别形式，它即使在指挥官玩法之外也能起作用，能帮助两张牌同时抵达战场。参见规则[702.124](/cr/7/#cr702-124)，“拍档”以及规则[903](/cr/9/#cr903)，“指挥官”。   
+A keyword ability that lets two legendary cards be your commander in the Commander variant rather than one. “Partner with [name]” is a specialized version of the ability that works even outside of the Commander variant to help two cards reach the battlefield together. See rule 702.124, “Partner,” and rule 903, “Commander.”
 
 ----
 ### <span id='Party'>Party</span> / <span id='冒险团'>冒险团</span>
@@ -3691,6 +3706,11 @@ A triggered ability that can counter spells or abilities that target the permane
 ### <span id='Warp'>Warp</span> / <span id='跃迁'>跃迁</span>
 一个见于永久物牌上的关键字异能，允许它们以替代性费用施放。参见规则[702.185](/cr/7/#cr702-185)，“跃迁”。   
 A keyword ability found on permanent cards that allows them to be cast for an alternative cost. See rule 702.185, “Warp.”
+
+----
+### <span id='Waterbend'>Waterbend</span> / <span id='截水'>截水</span>
+一个关键字动作。“截水[费用]”意指支付该费用，且你每横置一个由你操控且未横置的神器或生物就能为此费用支付{1}。参见规则[701.67](/cr/7/#cr701-67)，“截水”。   
+A keyword action. “Waterbend [cost]” means to pay that cost and, for each {1} in that cost, you may tap an untapped artifact or creature you control rather than pay mana. See rule 701.67, “Waterbend.”
 
 ----
 ### <span id='Web-slinging'>Web-slinging</span> / <span id='蛛丝甩荡'>蛛丝甩荡</span>

@@ -184,6 +184,9 @@ Example: The activation cost of an ability that reads “{2}, {T}: You gain 1 li
 <BOOKMARK:cr603-1a>603.1a A triggered ability may include instructions after its effects that limit what the ability may target or state that it can’t be countered. This text is not part of the ability’s effect. It functions while the ability is on the stack.\\ 
 603.1a 触发式异能可能在其效应之后包含指示。这些指示可能会限制该异能可指定的目标、或叙述其不能被反击。此文字叙述不是该异能效应的一部分。它在该异能在堆叠上时生效。
 
+<BOOKMARK:cr603-1b>603.1b A triggered ability may have more than one trigger condition, and an instruction that refers to whether “all” of those conditions have happened during a particular period. This refers to whether or not all of those conditions have occurred during that period, regardless of whether that ability has triggered based on those conditions.\\ 
+603.1b 触发式异能可能同时具有多个触发条件，并包含提及在特定时段内是否“所有”条件都已发生的指示。这指的是在该时段内是否所有条件都已发生，而与该异能是否已因这些条件触发无关。
+
 <BOOKMARK:cr603-2>603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.\\ 
 603.2. 每当一个游戏事件或游戏状态符合一个触发式异能的触发事件时，该异能自动触发。该异能此时并不会作任何事。
 
@@ -199,29 +202,26 @@ Example: The activation cost of an ability that reads “{2}, {T}: You gain 1 li
 Example: A permanent has an ability whose trigger condition reads, “Whenever a land is put into a graveyard from the battlefield, . . . .” If someone casts a spell that destroys all lands, the ability will trigger once for each land put into the graveyard during the spell’s resolution.\\ 
 例如：一个永久物具有触发条件为“每当一个地从战场进入坟墓场时，……”的异能，如果有人施放一个消灭所有地的咒语，该异能在该咒语的结算中将因每个被放进坟墓场的地触发一次。
 
-<BOOKMARK:cr603-2d>603.2d An ability may state that a triggered ability triggers additional times. In this case, rather than simply determining that such an ability has triggered, determine how many times it should trigger, then that ability triggers that many times. An effect that states that an ability triggers additional times doesn’t invoke itself repeatedly and doesn’t apply to other effects that affect how many times an ability triggers.\\ 
-603.2d 异能可能会叙述一个触发式异能额外触发数次。在此情形下，应决定该异能触发应当触发多少次（而非仅仅决定其已触发），然后该异能触发等量的次数。叙述一个异能额外触发数次的效应不会反复引发本身，且不会适用于影响异能触发次数的其他效应。
+<BOOKMARK:cr603-2d>603.2d An ability may state that a triggered ability triggers additional times. In this case, rather than simply determining that such an ability has triggered, determine how many times it should trigger, then that ability triggers that many times. An effect that states that an ability triggers additional times doesn’t invoke itself repeatedly and doesn’t apply to other effects that affect how many times an ability triggers. An effect that states a triggered ability of an object triggers additional times refers only to triggered abilities that object has, not to any delayed or reflexive triggered abilities (see rule 603.7 and rule 603.12) that may be created by abilities the object has.\\ 
+603.2d 异能可能会叙述一个触发式异能额外触发数次。在此情形下，应决定该异能触发应当触发多少次（而非仅仅决定其已触发），然后该异能触发等量的次数。叙述一个异能额外触发数次的效应不会反复引发本身，且不会适用于影响异能触发次数的其他效应。叙述某物件的触发式异能额外触发数次的效应，仅指该物件具有的触发式异能，不包括该物件具有的异能可能会产生的任何延迟触发式异能或自身触发式异能（参见规则[[cr:6#cr603-7|603.7]]和规则[[cr:6#cr603-12|603.12]]）。
 
-<BOOKMARK:cr603-2e>603.2e Some effects refer to a triggered ability of an object. Such effects refer only to triggered abilities the object has, not any delayed triggered abilities (see rule 603.7) that may be created by abilities the object has.\\ 
-603.2e 一些效应提及物件的触发式异能。此类效应仅指该物件具有的触发式异能，而非任何该物件具有之异能可能创造的延迟触发式异能（参见规则[[cr:6#cr603-7|603.7]]）。
-
-<BOOKMARK:cr603-2f>603.2f Some trigger events use the word “becomes” (for example, “becomes attached” or “becomes blocked”). These trigger only at the time the named event happens—they don’t trigger if that state already exists or retrigger if it persists. An ability that triggers when a permanent “becomes tapped” or “becomes untapped” doesn’t trigger if the permanent enters the battlefield in that state.\\ 
-603.2f 一些触发事件使用“成为”一词（例如，“成为被贴附”或“成为被阻挡”）。它们只在所叙述的事件发生时触发；它们不会因为该状态已经存在而触发，或因保持而再次触发。一个当永久物“成为横置”或“成为未横置”而触发的异能不会因为该永久物以该状态进入战场而触发。
+<BOOKMARK:cr603-2e>603.2e Some trigger events use the word “becomes” (for example, “becomes attached” or “becomes blocked”). These trigger only at the time the named event happens—they don’t trigger if that state already exists or retrigger if it persists. An ability that triggers when a permanent “becomes tapped” or “becomes untapped” doesn’t trigger if the permanent enters the battlefield in that state.\\ 
+603.2e 一些触发事件使用“成为”一词（例如，“成为被贴附”或“成为被阻挡”）。它们只在所叙述的事件发生时触发；它们不会因为该状态已经存在而触发，或因保持而再次触发。一个当永久物“成为横置”或“成为未横置”而触发的异能不会因为该永久物以该状态进入战场而触发。
 
 Example: An ability that triggers when a permanent “becomes tapped” triggers only when the status of a permanent that’s already on the battlefield changes from untapped to tapped.\\ 
 例如：一个当永久物“成为横置”而触发的异能，只有在一个已经存在在战场上的永久物的状态从未横置成为横置时才会触发。
 
-<BOOKMARK:cr603-2g>603.2g If a triggered ability’s trigger condition is met, but the object with that triggered ability is at no time visible to all players, the ability does not trigger.\\ 
-603.2g 如果一个触发式异能的触发条件符合，但具有该触发式异能的物件不对所有牌手可见，则该异能不会触发。
+<BOOKMARK:cr603-2f>603.2f If a triggered ability’s trigger condition is met, but the object with that triggered ability is at no time visible to all players, the ability does not trigger.\\ 
+603.2f 如果一个触发式异能的触发条件符合，但具有该触发式异能的物件不对所有牌手可见，则该异能不会触发。
 
-<BOOKMARK:cr603-2h>603.2h An ability triggers only if its trigger event actually occurs. An event that’s prevented or replaced won’t trigger anything.\\ 
-603.2h 一个异能只有在其触发事件真正发生了的情况下才会触发。一个被防止或被替代的效应不会触发任何异能。
+<BOOKMARK:cr603-2g>603.2g An ability triggers only if its trigger event actually occurs. An event that’s prevented or replaced won’t trigger anything.\\ 
+603.2g 一个异能只有在其触发事件真正发生了的情况下才会触发。一个被防止或被替代的效应不会触发任何异能。
 
 Example: An ability that triggers on damage being dealt won’t trigger if all the damage is prevented.\\ 
 例如：如果所有的伤害均被防止，则一个因造成伤害而触发的异能不会触发。
 
-<BOOKMARK:cr603-2i>603.2i A triggered ability may have an instruction followed by “Do this only once each turn.” This ability triggers only if its source’s controller has not yet taken the indicated action that turn.\\ 
-603.2i 触发式异能具有的指示可能会以“每回合只能如此作一次”结尾。此异能仅当其来源的操控者该回合尚未执行该指示的动作时才会触发。
+<BOOKMARK:cr603-2h>603.2h A triggered ability may have an instruction followed by “Do this only once each turn.” This ability triggers only if its source’s controller has not yet taken the indicated action that turn.\\ 
+603.2h 触发式异能具有的指示可能会以“每回合只能如此作一次”结尾。此异能仅当其来源的操控者该回合尚未执行该指示的动作时才会触发。
 
 <BOOKMARK:cr603-3>603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.\\ 
 603.3. 一旦异能触发，其操控者于下一次有牌手将得到优先权时将其作为非牌物件放进堆叠。参见规则[[cr:1#cr117|117]]，“时机和优先权”。该异能成为堆叠最顶端的物件。它具有创造它的异能所具有的文字叙述，且不具有任何其他特征。该异能直到被反击、结算或一个效应将其移到其他地方之前将一直保持留在堆叠上。

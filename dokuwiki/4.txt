@@ -180,8 +180,8 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 <BOOKMARK:cr405-3>405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.\\ 
 405.3. 如果一个效应同时将两张或更多的物件放进堆叠，主动牌手操控的物件在最下方，然后为按照“主动牌手先决定”的顺序（参见规则[[cr:1#cr101-4|101.4]]）的其他牌手所操控的物件。如果一位牌手操控其中多个物件，该牌手可以选择它们在堆叠中的顺序。
 
-<BOOKMARK:cr405-4>405.4. Each spell has all the characteristics of the card associated with it. Each activated or triggered ability that’s on the stack has the text of the ability that created it and no other characteristics. The controller of a spell is the person who cast it. The controller of an activated ability is the player who activated it. The controller of a triggered ability is the player who controlled the ability’s source when it triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.\\ 
-405.4. 每个咒语具有用来代表它的牌之所有特征。堆叠中的起动式或触发式异能具有创造它的异能之内文叙述，它们不具有其他特征。咒语的操控者为施放该咒语的人。起动式异能的操控者为起动该起动式异能的人。触发式异能的操控者为该异能触发时，该异能来源的操控者，除非它是延迟触发式异能。确定延迟触发式异能的操控者，参见规则[[cr:6#cr603-7d|603.7d-f]]。
+<BOOKMARK:cr405-4>405.4. Each spell has all the characteristics of the card associated with it. Each activated or triggered ability that’s on the stack has the text of the ability that created it and no other characteristics. The controller of a spell is the player who cast it. The controller of an activated ability is the player who activated it. The controller of a triggered ability is the player who controlled the ability’s source when it triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.\\ 
+405.4. 每个咒语具有用来代表它的牌之所有特征。堆叠中的起动式或触发式异能具有创造它的异能之内文叙述，它们不具有其他特征。咒语的操控者为施放该咒语的牌手。起动式异能的操控者为起动该起动式异能的牌手。触发式异能的操控者为该异能触发时，该异能来源的操控者，除非它是延迟触发式异能。确定延迟触发式异能的操控者，参见规则[[cr:6#cr603-7d|603.7d-f]]。
 
 <BOOKMARK:cr405-5>405.5. When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.\\ 
 405.5. 当所有牌手连续让过时，堆叠最顶端的（最后进入的）咒语或异能结算。如果所牌手皆让过且堆叠为空，当前阶段或步骤结束且下一个开始。
@@ -260,7 +260,7 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 <BOOKMARK:cr407-3>407.3. A few cards have the text “Remove this card from your deck before playing if you’re not playing for ante.” These are the only cards that can add or remove cards from the ante zone or change a card’s owner. When not playing for ante, players can’t include these cards in their decks or sideboards, and these cards can’t be brought into the game from outside the game.\\ 
 407.3. 一些牌的叙述包括“如果你未启用赌注，则在游戏开始之前将此牌从你的套牌中移出”。只有这些牌才能将牌加入或移出赌注，或改变牌的拥有者。当未使用赌注时，牌手不能将这些牌放进套牌或备牌中，也不能将其从游戏外带进游戏中。
 
-<BOOKMARK:cr407-4>407.4. To ante an object is to put that object into the ante zone from whichever zone it’s currently in. The owner of an object is the only person who can ante that object.\\ 
+<BOOKMARK:cr407-4>407.4. To ante an object is to put that object into the ante zone from whichever zone it’s currently in. The owner of an object is the only player who can ante that object.\\ 
 407.4. 押注一个物件，指将该物件从当前所在的区域移动到赌注。只有该物件的拥有者才能押注该物件。
 
 ===== 408. 统帅区 Command =====

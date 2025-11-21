@@ -72,7 +72,7 @@
 101.1. 每当某张牌的规则叙述直接抵触这些规则时，以牌上的叙述为优先。这张牌只能在此特殊状况下取代其所抵触的规则。唯一的例外是：牌手随时都可以认输一盘游戏。（参见规则[[cr:1#cr104-3a|104.3a]]）
 
 <BOOKMARK:cr101-2>101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.\\ 
-101.2. 当某个规则或效应说你能作某事，而另一个效应说你不能作某事，则以“不能”的效应为优先。
+101.2. 当某个规则或效应允许或指示作某事，而另一个效应叙述不能作某事，则以“不能”的效应为优先。
 
 Example: If one effect reads “You may play an additional land this turn” and another reads “You can’t play lands this turn,” the effect that precludes you from playing lands wins.\\ 
 例如：如果某效应为“你本回合可以额外使用一个地”，而另一个效应为“你本回合不能使用地”，则以使你不能使用地的效应为优先。
