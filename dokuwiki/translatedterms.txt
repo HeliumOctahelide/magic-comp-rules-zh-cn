@@ -5,16 +5,20 @@
 
 ^英文名^暂译中文名^
 ^Abandon|撤废|
+^Airbend|截气|
 ^Alternative name|别名（仅限于规则201.6所述之情形）|
 ^Ante|押注（用作动词）/赌注（用作名词）|
 ^Archenemy|魔王|
 ^Behold|请援|
+^Blight|衰萎|
 ^Door|偏门|
+^Earthbend|运土|
 ^Eerie|异景|
 ^Endure|续战|
 ^Enter|进场|
 ^Exhaust|竭绝|
 ^Expend|花销|
+^Firebend|振火|
 ^Flurry|连咒|
 ^Forage|觅粮|
 ^Friends forever|友谊永恒|
@@ -51,8 +55,10 @@
 ^Unlock/Unlocked|解锁/已解锁|
 ^Valiant|英武|
 ^Vanguard|先锋|
+^Vivid|异彩|
 ^Void|空洞|
 ^Walker|尸行者|
+^Waterbend|截水|
 ^Web-slinging|蛛丝甩荡|
 
 下列出现于//Unfinity//、//无疆新宇宙：神秘博士//系列中的名词之译名在官网文章中出现，但未出现于卡牌上。

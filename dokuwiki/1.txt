@@ -739,7 +739,7 @@ Example: Jade Mage has the ability “{2}{G}: Create a 1/1 green Saproling creat
 111.4. 派出衍生物的咒语或异能设定其名称和副类别。如果该咒语或异能并未指明该衍生物的名称，则其名称为其副类别加上“衍生物”一词。一旦衍生物在战场上，改变其名称不会改变其副类别，反之亦然。
 
 Example: Dwarven Reinforcements is a sorcery that says, in part, “Create two 2/1 red Dwarf Berserker creature tokens.” The tokens created as it resolves are each named Dwarf Berserker Token and each have the creature types Dwarf and Berserker.\\ 
-例如：矮人增援是法术，其部分叙述为“派出两个2/1红色矮人／狂战士衍生生物。”其派出的每个衍生物名称均为“矮人狂战士衍生物”，且具有鬼怪和斥候两种生物类别。
+例如：矮人增援是法术，其部分叙述为“派出两个2/1红色矮人／狂战士衍生生物。”其派出的每个衍生物名称均为“矮人／狂战士衍生物”，且具有矮人和狂战士两种生物类别。
 
 Example: Minsc, Beloved Ranger says, in part, “When Minsc enters, create Boo, a legendary 1/1 red Hamster creature token with trample and haste.” That token’s subtype is Hamster, but because Minsc specifies that the token’s name is Boo, neither “Hamster” nor “Token” are part of its name.\\ 
 例如：厚爱游侠明斯克的部分叙述为“当明斯克进场时，派出传奇衍生生物布布，其为1/1红色，具践踏与敏捷异能的仓鼠。”该衍生物的副类别为仓鼠，但由于明斯克指明了该衍生物的名称为“布布”，“仓鼠”和“衍生物”均不是该衍生物名称的一部分。
@@ -1081,7 +1081,7 @@ Example: A sorcery card has the ability “When you cycle this card, target crea
 <BOOKMARK:cr115-7e>115.7e When changing targets or choosing new targets for a spell or ability, only the final set of targets is evaluated to determine whether the change is legal.\\ 
 115.7e 当为咒语或异能更改目标或选择新的目标时，只使用最终决定的目标集合作为判定该更改是否合法的依据。
 
-Example: Arc Trail is a sorcery that reads “Arc Trail deals 2 damage to any target and 1 damage to another target.” The current targets of Arc Trail are Runeclaw Bear and Llanowar Elves, in that order. You cast Redirect, an instant that reads “You may choose new targets for target spell,” targeting Arc Trail. You can change the first target to Llanowar Elves and change the second target to Runeclaw Bear.\\ 
+Example: Arc Trail is a sorcery that reads “Arc Trail deals 2 damage to any target and 1 damage to any other target.” The current targets of Arc Trail are Runeclaw Bear and Llanowar Elves, in that order. You cast Redirect, an instant that reads “You may choose new targets for target spell,” targeting Arc Trail. You can change the first target to Llanowar Elves and change the second target to Runeclaw Bear.\\ 
 例如：弧光曳迹这个法术叙述为“弧光曳迹对任意一个目标造成2点伤害，并对另一个目标造成1点伤害。”弧光曳迹的当前目标按顺序分别是符爪熊和罗堰地精。你使用移转，这个瞬间叙述为“你可以为目标咒语选择新的目标”，并以弧光曳迹为目标。你可以将第一个目标更改为罗堰地精，第二个目标更改为符爪熊。
 
 <BOOKMARK:cr115-7f>115.7f A spell or ability may “divide” or “distribute” an effect (such as damage or counters) among one or more targets. When changing targets or choosing new targets for that spell or ability, the original division can’t be changed.\\ 

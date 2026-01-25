@@ -224,6 +224,10 @@ An obsolete term that appeared on the type line of artifacts without activated a
 影响物件特征、物件操控权、或影响牌手或游戏规则的效应，具有固定时限或一直有效。参见规则[611](/cr/6/#cr611)，“持续性效应”。   
 An effect that modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period. See rule 611, “Continuous Effects.”
 
+### <span id='重生'>重生</span> / <span id='Regenerate'>Regenerate</span>
+将一个永久物的消灭用另一系列事件进行替代。参见规则[701.19](/cr/7/#cr701-19)，“重生”。   
+To replace a permanent’s destruction with an alternate sequence of events. See rule 701.19, “Regenerate.”
+
 ### <span id='重新开始游戏'>重新开始游戏</span> / <span id='Restart the Game'>Restart the Game</span>
 当前游戏马上结束并且重新开始。参见规则[104](/cr/1/#cr104)，“结束游戏”。   
 To immediately end the current game and restart it. See rule 104, “Ending the Game.”
@@ -1903,6 +1907,10 @@ See Landwalk.
 有多种方式输去游戏。参见规则[104](/cr/1/#cr104)，“结束游戏”、规则[810.8](/cr/8/#cr810-8)（双头巨人玩法的额外规则）、规则[809.5](/cr/8/#cr809-5)（皇帝玩法的额外规则）以及规则[903.10](/cr/9/#cr903-10)（指挥官玩法的额外规则）。   
 There are several ways to lose the game. See rule 104, “Ending the Game,” rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.10 (for an additional rule for Commander games).
 
+### <span id='衰萎'>衰萎</span> / <span id='Blight'>Blight</span>
+一个关键字动作。衰萎N意指在一个由你操控的生物上放置N个-1/-1指示物。参见规则[701.68](/cr/7/#cr701-68)，“衰萎”。   
+A keyword action. To blight N means to put N -1/-1 counters on a creature you control. See rule 701.68, “Blight.”
+
 ### <span id='双重秘案'>双重秘案</span> / <span id='Double Agenda'>Double Agenda</span>
 秘案异能的一种变化。参见规则[702.106](/cr/7/#cr702-106)，“秘案”。   
 A variant of the hidden agenda ability. See rule 702.106, “Hidden Agenda.”
@@ -2614,10 +2622,6 @@ An object is “outside the game” if it isn’t in any of the game’s zones. 
 使用“优先权”系统来决定任一时刻哪位牌手可以执行动作。参见规则[117](/cr/1/#cr117)，“时机和优先权”。   
 Which player can take actions at any given time is determined by a system of “priority.” See rule 117, “Timing and Priority.”
 
-### <span id='友谊永恒'>友谊永恒</span> / <span id='Friends Forever'>Friends Forever</span>
-拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有友谊永恒异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[702.124](/cr/7/#cr702-124)，“拍档”，及规则[903](/cr/9/#cr903)，“指挥官”。   
-A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”
-
 ### <span id='于...之中（已废止）'>于...之中（已废止）</span> / <span id='During (Obsolete)'>During (Obsolete)</span>
 一些老牌使用“于[阶段]之中，[动作]”。这些异能曾经被称为“阶段异能”。一般情况下，印有阶段异能的牌在Oracle牌张参考文献中得到了勘误，它们的异能现在于步骤或阶段开始时触发。“于...之中”依然在当前卡牌的叙述中出现，但只是作为一般语言理解而不是游戏用语。   
 Some older cards used the phrase “during [phase], [action].” These abilities were called “phase abilities.” In general, cards that were printed with phase abilities have received errata in the Oracle card reference so they have abilities that trigger at the beginning of a step or phase. “During” still appears in current card text, but only in its normal English sense and not as game terminology.
@@ -2888,10 +2892,6 @@ A counter that exiles the permanent it is on if that permanent would go to the g
 ### <span id='重配'>重配</span> / <span id='Reconfigure'>Reconfigure</span>
 一个关键字异能，让武具生物暂时不再是生物，且贴附于另一个生物上。参见规则[702.151](/cr/7/#cr702-151)，“重配”。   
 A keyword ability that allows an Equipment creature to temporarily stop being a creature and become attached to another creature. See rule 702.151, “Reconfigure.”
-
-### <span id='重生'>重生</span> / <span id='Regenerate'>Regenerate</span>
-将一个永久物的消灭用另一系列事件进行替代。参见规则[701.19](/cr/7/#cr701-19)，“重生”。   
-To replace a permanent’s destruction with an alternate sequence of events. See rule 701.19, “Regenerate.”
 
 ### <span id='昼形'>昼形</span> / <span id='Daybound'>Daybound</span>
 一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[702.145](/cr/7/#cr702-145)，“昼形与夜形”，与规则[730](/cr/7/#cr730)，“白昼与黑夜”。   

@@ -1013,6 +1013,21 @@ Example: Spirit Water Revival is a spell that costs {1}{U}{U} and says, in part,
 <BOOKMARK:cr701-67c>701.67c An ability that triggers whenever a player waterbends triggers whenever that player pays a waterbend cost, regardless of how they paid that cost.\\ 
 701.67c 每当牌手截水时触发的异能会在牌手支付一个截水费用时触发，无论该费用是以何方式支付。
 
+<BOOKMARK:cr701-68>701.68. Blight\\ 
+701.68. 衰萎
+
+<BOOKMARK:cr701-68a>701.68a To “blight N” means to put N -1/-1 counters on a creature you control.\\ 
+701.68a “衰萎N”意指“在一个由你操控的生物上放置N个-1/-1指示物。”
+
+<BOOKMARK:cr701-68b>701.68b If a player is given the choice to blight but is unable to put N -1/-1 counters on a creature they control (usually because they control no creatures), they can’t choose to blight.\\ 
+701.68b 如果牌手于其无法在由其操控的生物上放置N个-1/-1指示物时得到衰萎的选项（通常是由于其未操控生物），则其不能选择进行衰萎。
+
+<BOOKMARK:cr701-68c>701.68c Some spells and abilities that instruct a player to blight refer to the “blighted creature.” This phrase refers to the object that the player who was instructed to blight chose to put -1/-1 counters on when blighting.\\ 
+701.68c 一些指示牌手衰萎的咒语和异能提及“所衰萎的生物”。此用语提及的物件指的是于牌手衰萎时，在其上放置-1/-1指示物的物件。
+
+<BOOKMARK:cr701-68d>701.68d An ability that triggers whenever a player blights triggers after the process described in rule 701.68a is complete, regardless of what events actually occurred.\\ 
+701.68d 每当牌手衰萎时触发的异能会在完成规则[[cr:7#cr701-68a|701.68a]]中所述之流程后触发，无论实际发生的事件为何。
+
 ===== 702. 关键字异能 Keyword Abilities =====
 <BOOKMARK:cr702>702. Keyword Abilities\\ 
 702. 关键字异能
@@ -2071,7 +2086,7 @@ Example: You activate the aura swap ability of an Aura that you control but you 
 702.74. 呼魂
 
 <BOOKMARK:cr702-74a>702.74a Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. “Evoke [cost]” means “You may cast this card by paying [cost] rather than paying its mana cost” and “When this permanent enters, if its evoke cost was paid, its controller sacrifices it.” Casting a spell for its evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.\\ 
-702.74a 呼魂代表了两个异能：一个是在任何该牌能够施放之区域中都生效的静止式异能，另一个则是在战场上生效的触发式异能。“呼魂[费用]”意指，“你可以支付[费用]来施放此牌，而非支付其法术力费用”以及“当此永久物进场时，若曾支付其呼魂费用，则其操控者将之牺牲。”支付呼魂费用施放咒语时，需依照规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]的规定来支付额外费用。
+702.74a 呼魂代表了两个异能：一个是在任何该牌能够施放之区域中都生效的静止式异能，另一个则是在战场上生效的触发式异能。“呼魂[费用]”意指，“你可以支付[费用]来施放此牌，而非支付其法术力费用”以及“当此永久物进场时，若曾支付其呼魂费用，则其操控者将之牺牲。”支付呼魂费用施放咒语时，需依照规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]的规定来支付替代性费用。
 
 <BOOKMARK:cr702-75>702.75. Hideaway\\ 
 702.75. 掩蔽
@@ -2586,8 +2601,8 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-124>702.124. Partner\\ 
 702.124. 拍档
 
-<BOOKMARK:cr702-124a>702.124a Partner abilities are keyword abilities that modify the rules for deck construction in the Commander variant (see rule 903), and they function before the game begins. Each partner ability allows you to designate two legendary cards as your commander rather than one. Each partner ability has its own requirements for those two commanders. The partner abilities are: partner, partner—[text], partner with [name], friends forever, choose a Background, and Doctor’s companion.\\ 
-702.124a 拍档异能属于改变指挥官玩法（参见规则[[cr:9#cr903|903]]）之套牌构组规则的异能，在游戏开始前生效。每种拍档异能都允许你将两张传奇牌共同作为你的指挥官，而不是一张。每种拍档异能都对两个指挥官有所要求。拍档异能包括：拍档、拍档～[叙述]，与[名称]拍档、友谊永恒、选择身世，以及博士伙伴。
+<BOOKMARK:cr702-124a>702.124a Partner abilities are keyword abilities that modify the rules for deck construction in the Commander variant (see rule 903), and they function before the game begins. Each partner ability allows you to designate two legendary cards as your commander rather than one. Each partner ability has its own requirements for those two commanders. The partner abilities are: partner, partner—[text], partner with [name], choose a Background, and Doctor’s companion.\\ 
+702.124a 拍档异能属于改变指挥官玩法（参见规则[[cr:9#cr903|903]]）之套牌构组规则的异能，在游戏开始前生效。每种拍档异能都允许你将两张传奇牌共同作为你的指挥官，而不是一张。每种拍档异能都对两个指挥官有所要求。拍档异能包括：拍档、拍档～[叙述]，与[名称]拍档、选择身世，以及博士伙伴。
 
 <BOOKMARK:cr702-124b>702.124b Your deck must contain exactly 100 cards, including its two commanders. Both commanders begin the game in the command zone.\\ 
 702.124b 你的套牌必须刚好由一百张牌构成，包括两个指挥官在内。这两个指挥官在游戏开始时都位于统帅区。
@@ -2610,23 +2625,20 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-124h>702.124h “Partner” means “You may designate two legendary cards as your commander rather than one if each of them has partner.”\\ 
 702.124h “拍档”意指“你可以将两张具有拍档的传奇牌共同用作你的指挥官。”
 
-<BOOKMARK:cr702-124i>702.124i “Partner—[text]” means “You may designate two legendary cards as your commander rather than one if each of them has the same ‘partner—[text]’ ability.” The “partner—[text]” abilities are “partner—Father & son” and “partner—Survivors.”\\ 
-702.124i “拍档～[叙述]”意指“你可以将两张具有拍档～[叙述]异能的传奇牌共同用作你的指挥官。”这些“拍档～[叙述]”异能包括“拍档～父与子”和“拍档～求生者”。
+<BOOKMARK:cr702-124i>702.124i “Partner—[text]” means “You may designate two legendary cards as your commander rather than one if each of them has the same ‘partner—[text]’ ability.” The “partner—[text]” abilities are “partner—Father & son,” “partner—Friends forever,” and “partner—Survivors.”\\ 
+702.124i “拍档～[叙述]”意指“你可以将两张具有拍档～[叙述]异能的传奇牌共同用作你的指挥官。”这些“拍档～[叙述]”异能包括“拍档～父与子”、“拍档～友谊永恒”，以及“拍档～求生者”。
 
 <BOOKMARK:cr702-124j>702.124j “Partner with [name]” represents two abilities. It means “You may designate two legendary cards as your commander rather than one if each has a ‘partner with [name]’ ability with the other’s name” and “When this permanent enters, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle.”\\ 
 702.124j “与[名称]拍档”代表两个异能。它意指“你可以将一张具有‘与[名称]拍档’异能的传奇牌与一张具有该名称的牌共同用作你的指挥官。”以及“当此永久物进场时，目标牌手可以其牌库中搜寻一张名为[名称]的牌，展示该牌，然后将它置于其手上，然后洗牌。”
 
-<BOOKMARK:cr702-124k>702.124k “Friends forever” means “You may designate two legendary creature cards as your commander rather than one if each of them has friends forever.”\\ 
-702.124k “友谊永恒”意指“你可以将两张具有友谊永恒异能的传奇生物牌共同用作你的指挥官。”
+<BOOKMARK:cr702-124k>702.124k “Choose a Background” means “You may designate two cards as your commander rather than one if one of them is this card and the other is a legendary Background enchantment card.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not a legendary Background enchantment card, and legendary Background enchantment cards can’t be your commander unless you have also designated a commander with “choose a Background.”\\ 
+702.124k “选择身世”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇身世结界牌。”如果一张牌具有“选择身世”异能且另一张牌不是传奇身世结界牌，你便不能将它们共同用作指挥官。传奇身世结界牌不能成为你的指挥官，除非你同时将另一张具有“选择身世”的牌用作指挥官。
 
-<BOOKMARK:cr702-124m>702.124m “Choose a Background” means “You may designate two cards as your commander rather than one if one of them is this card and the other is a legendary Background enchantment card.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not a legendary Background enchantment card, and legendary Background enchantment cards can’t be your commander unless you have also designated a commander with “choose a Background.”\\ 
-702.124m “选择身世”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇身世结界牌。”如果一张牌具有“选择身世”异能且另一张牌不是传奇身世结界牌，你便不能将它们共同用作指挥官。传奇身世结界牌不能成为你的指挥官，除非你同时将另一张具有“选择身世”的牌用作指挥官。
+<BOOKMARK:cr702-124m>702.124m “Doctor’s companion” means “You may designate two legendary creature cards as your commander rather than one if one of them is this card and the other is a legendary Time Lord Doctor creature card that has no other creature types.”\\ 
+702.124m “博士伙伴”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇时间领主／医生生物牌且不具其他生物类别。”（译注：Doctor此生物类别之官方翻译为“医生”而非“博士”。）
 
-<BOOKMARK:cr702-124n>702.124n “Doctor’s companion” means “You may designate two legendary creature cards as your commander rather than one if one of them is this card and the other is a legendary Time Lord Doctor creature card that has no other creature types.”\\ 
-702.124n “博士伙伴”意指“你可以将两张牌共同用作你的指挥官，而不是一张，只要其中一张是此牌，另一张是传奇时间领主／医生生物牌且不具其他生物类别。”（译注：Doctor此生物类别之官方翻译为“医生”而非“博士”。）
-
-<BOOKMARK:cr702-124p>702.124p If an effect refers to a partner ability by name, it means only that partner ability and not any others. If an effect refers to the partner ability or cards with partner and doesn’t mention a specific variant of the partner ability by name, it is referring only to partner, partner—[text], partner with [name], or cards with any of those abilities, and it does not refer to any other partner variant.\\ 
-702.124p 如果一个效应提及某拍档异能的名称，则其仅指该拍档异能而非其他任何种类。如果一个效应提及拍档异能或者具有拍档的牌，且未提及某个具体变化形式的名称，则其仅指拍档、拍档～[叙述]、与[名称]拍档或者具有这几种异能之一的牌，而不代表任何其他的拍档异能之变化形式。
+<BOOKMARK:cr702-124n>702.124n If an effect refers to a partner ability by name, it means only that partner ability and not any others. If an effect refers to the partner ability or cards with partner and doesn’t mention a specific variant of the partner ability by name, it is referring only to partner, partner—[text], partner with [name], or cards with any of those abilities, and it does not refer to any other partner variant.\\ 
+702.124n 如果一个效应提及某拍档异能的名称，则其仅指该拍档异能而非其他任何种类。如果一个效应提及拍档异能或者具有拍档的牌，且未提及某个具体变化形式的名称，则其仅指拍档、拍档～[叙述]、与[名称]拍档或者具有这几种异能之一的牌，而不代表任何其他的拍档异能之变化形式。
 
 <BOOKMARK:cr702-125>702.125. Undaunted\\ 
 702.125. 不屈
@@ -3016,7 +3028,7 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 702.162. 远超所见
 
 <BOOKMARK:cr702-162a>702.162a More Than Meets the Eye represents a static ability that functions in any zone from which the spell may be cast. “More Than Meets the Eye [cost]” means “You may cast this card converted by paying [cost] rather than its mana cost.” Casting a spell using its More Than Meets the Eye ability follows the rules for paying alternative costs (see 601.2b and 601.2f–h). See rule 701.28, “Convert.”\\ 
-702.162a 远超所见代表一个静止式异能，在任何能施放该咒语的区域中都会生效。“远超所见[费用]”意指“你可以支付[费用]来施放已转换的此牌，而不支付其法术力费用。”支付某咒语的远超所见费用时，需依照规定来支付额外费用（参见规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]）。参见规则[[cr:7#cr701-28|701.28]]，“转换”。
+702.162a 远超所见代表一个静止式异能，在任何能施放该咒语的区域中都会生效。“远超所见[费用]”意指“你可以支付[费用]来施放已转换的此牌，而不支付其法术力费用。”支付某咒语的远超所见费用时，需依照规定来支付替代性费用（参见规则[[cr:6#cr601-2b|601.2b]]与规则[[cr:6#cr601-2f|601.2f-h]]）。参见规则[[cr:7#cr701-28|701.28]]，“转换”。
 
 <BOOKMARK:cr702-163>702.163. For Mirrodin!\\ 
 702.163. 秘罗万岁！

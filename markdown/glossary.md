@@ -368,6 +368,11 @@ A keyword action that allows a player to choose a permanent they control of a pa
 A keyword ability that lets a creature card be cast as an Aura. See rule 702.103, “Bestow.”
 
 ----
+### <span id='Blight'>Blight</span> / <span id='衰萎'>衰萎</span>
+一个关键字动作。衰萎N意指在一个由你操控的生物上放置N个-1/-1指示物。参见规则[701.68](/cr/7/#cr701-68)，“衰萎”。   
+A keyword action. To blight N means to put N -1/-1 counters on a creature you control. See rule 701.68, “Blight.”
+
+----
 ### <span id='Blitz'>Blitz</span> / <span id='急袭'>急袭</span>
 一个见于生物牌上的关键字异能，允许其使用替代性费用来施放。参见规则[702.152](/cr/7/#cr702-152)，“急袭”。   
 A keyword ability found on creature cards that allows them to be cast for an alternative cost. See rule 702.152, “Blitz.”
@@ -1462,11 +1467,6 @@ A keyword ability that allows certain spells to be cast for an alternative cost.
 ### <span id='Frenzy'>Frenzy</span> / <span id='狂热'>狂热</span>
 一个关键字异能，让生物在战斗中更好。参见规则[702.68](/cr/7/#cr702-68)，“狂热”。   
 A keyword ability that can make a creature better in combat. See rule 702.68, “Frenzy.”
-
-----
-### <span id='Friends Forever'>Friends Forever</span> / <span id='友谊永恒'>友谊永恒</span>
-拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有友谊永恒异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[702.124](/cr/7/#cr702-124)，“拍档”，及规则[903](/cr/9/#cr903)，“指挥官”。   
-A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”
 
 ----
 ### <span id='Full Party'>Full Party</span> / <span id='冒险团满编'>冒险团满编</span>

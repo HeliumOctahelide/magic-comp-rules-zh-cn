@@ -389,6 +389,13 @@ An effect that modifies characteristics of objects, modifies control of objects,
 影响物件特征、物件操控权、或影响牌手或游戏规则的效应，具有固定时限或一直有效。参见规则[[cr:6#cr611|611]]，“持续性效应”。
 
 ----
+Regenerate\\ 
+重生
+
+To replace a permanent’s destruction with an alternate sequence of events. See rule 701.19, “Regenerate.”\\ 
+将一个永久物的消灭用另一系列事件进行替代。参见规则[[cr:7#cr701-19|701.19]]，“重生”。
+
+----
 Restart the Game\\ 
 重新开始游戏
 
@@ -3256,6 +3263,13 @@ There are several ways to lose the game. See rule 104, “Ending the Game,” ru
 有多种方式输去游戏。参见规则[[cr:1#cr104|104]]，“结束游戏”、规则[[cr:8#cr810-8|810.8]]（双头巨人玩法的额外规则）、规则[[cr:8#cr809-5|809.5]]（皇帝玩法的额外规则）以及规则[[cr:9#cr903-10|903.10]]（指挥官玩法的额外规则）。
 
 ----
+Blight\\ 
+衰萎
+
+A keyword action. To blight N means to put N -1/-1 counters on a creature you control. See rule 701.68, “Blight.”\\ 
+一个关键字动作。衰萎N意指在一个由你操控的生物上放置N个-1/-1指示物。参见规则[[cr:7#cr701-68|701.68]]，“衰萎”。
+
+----
 Double Agenda\\ 
 双重秘案
 
@@ -4477,13 +4491,6 @@ Which player can take actions at any given time is determined by a system of “
 使用“优先权”系统来决定任一时刻哪位牌手可以执行动作。参见规则[[cr:1#cr117|117]]，“时机和优先权”。
 
 ----
-Friends Forever\\ 
-友谊永恒
-
-A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”\\ 
-拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有友谊永恒异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[[cr:7#cr702-124|702.124]]，“拍档”，及规则[[cr:9#cr903|903]]，“指挥官”。
-
-----
 During (Obsolete)\\ 
 于...之中（已废止）
 
@@ -4951,13 +4958,6 @@ Reconfigure\\
 
 A keyword ability that allows an Equipment creature to temporarily stop being a creature and become attached to another creature. See rule 702.151, “Reconfigure.”\\ 
 一个关键字异能，让武具生物暂时不再是生物，且贴附于另一个生物上。参见规则[[cr:7#cr702-151|702.151]]，“重配”。
-
-----
-Regenerate\\ 
-重生
-
-To replace a permanent’s destruction with an alternate sequence of events. See rule 701.19, “Regenerate.”\\ 
-将一个永久物的消灭用另一系列事件进行替代。参见规则[[cr:7#cr701-19|701.19]]，“重生”。
 
 ----
 Daybound\\ 

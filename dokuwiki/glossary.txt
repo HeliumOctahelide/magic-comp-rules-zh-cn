@@ -511,6 +511,13 @@ A keyword ability that lets a creature card be cast as an Aura. See rule 702.103
 一个关键字异能，让生物牌可以作为灵气施放。参见规则[[cr:7#cr702-103|702.103]]，“神授”。
 
 ----
+Blight\\ 
+衰萎
+
+A keyword action. To blight N means to put N -1/-1 counters on a creature you control. See rule 701.68, “Blight.”\\ 
+一个关键字动作。衰萎N意指在一个由你操控的生物上放置N个-1/-1指示物。参见规则[[cr:7#cr701-68|701.68]]，“衰萎”。
+
+----
 Blitz\\ 
 急袭
 
@@ -2025,13 +2032,6 @@ Frenzy\\
 
 A keyword ability that can make a creature better in combat. See rule 702.68, “Frenzy.”\\ 
 一个关键字异能，让生物在战斗中更好。参见规则[[cr:7#cr702-68|702.68]]，“狂热”。
-
-----
-Friends Forever\\ 
-友谊永恒
-
-A variant of the partner ability that lets two legendary creature cardss be your commander in the Commander variant rather than one if both have the “friends forever” ability. See rule 702.124, “Partner,” and rule 903, “Commander.”\\ 
-拍档异能的一种变化形式。在指挥官玩法中，如果两张传奇生物牌均具有友谊永恒异能，则可将这两张牌用作你的指挥官，而非只使用一个。参见规则[[cr:7#cr702-124|702.124]]，“拍档”，及规则[[cr:9#cr903|903]]，“指挥官”。
 
 ----
 Full Party\\ 
