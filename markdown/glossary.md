@@ -257,8 +257,8 @@ A creature that has either been declared as part of a legal attack during the co
 The team who can attack during the combat phase of a multiplayer game using the shared team turns option. See rule 805, “Shared Team Turns Option.”
 
 ----
-### <span id='Attacks and Isn’t Blocked'>Attacks and Isn’t Blocked</span> / <span id='攻击且未被阻挡'>攻击且未被阻挡</span>
-一个当生物“攻击且未被阻挡”的异能在该生物成为未被阻挡的攻击生物时触发。参见规则[509.1h](/cr/5/#cr509-1h)。   
+### <span id='Attacks and Isn’t Blocked'>Attacks and Isn’t Blocked</span> / <span id='攻击且未受阻挡'>攻击且未受阻挡</span>
+一个当生物“攻击且未受阻挡”的异能在该生物成为未受阻挡的攻击生物时触发。参见规则[509.1h](/cr/5/#cr509-1h)。   
 An ability that triggers when a creature “attacks and isn’t blocked” triggers when the creature becomes an unblocked attacking creature. See rule 509.1h.
 
 ----
@@ -389,7 +389,7 @@ A creature “blocks alone” if it’s the only creature declared as a blocker 
 
 ----
 ### <span id='Blocked Creature'>Blocked Creature</span> / <span id='被阻挡的生物'>被阻挡的生物</span>
-一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未被阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
+一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未受阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
 An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it’s removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
 
 ----
@@ -3002,6 +3002,11 @@ A keyword ability that restricts how a creature may be blocked. See rule 702.118
 See Typecycling.
 
 ----
+### <span id='Sneak'>Sneak</span> / <span id='奇袭'>奇袭</span>
+一个关键字异能，允许咒语以替代性费用施放，此费用包括将未受阻挡的攻击生物移回其拥有者手上。以此法施放的生物进场时为横置且正进行攻击。   
+A keyword ability that allows a spell to be cast for an alternative cost, including returning an unblocked attacking creature to its owner’s hand. Creatures cast this way enter tapped and attacking.
+
+----
 ### <span id='Snow'>Snow</span> / <span id='雪境'>雪境</span>
 一般只对永久物有关的超类别。参见规则[205.4](/cr/2/#cr205-4)，“超类别”。   
 A supertype that’s normally relevant on permanents. See rule 205.4, “Supertypes.”
@@ -3558,8 +3563,8 @@ To move an Equipment away from the creature it’s attached to so that the Equip
 A term that meant “can’t be blocked.” Cards that used this term have received errata in the Oracle card reference.
 
 ----
-### <span id='Unblocked Creature'>Unblocked Creature</span> / <span id='未被阻挡的生物'>未被阻挡的生物</span>
-一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况未知，一直保持是未被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
+### <span id='Unblocked Creature'>Unblocked Creature</span> / <span id='未受阻挡的生物'>未受阻挡的生物</span>
+一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况为止，一直保持是未受阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
 An attacking creature once no creature has been declared as a blocker for it, unless an effect has caused it to become blocked. It remains an unblocked creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
 
 ----

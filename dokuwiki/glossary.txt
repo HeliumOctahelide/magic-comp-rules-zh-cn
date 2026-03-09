@@ -357,10 +357,10 @@ The team who can attack during the combat phase of a multiplayer game using the 
 
 ----
 Attacks and Isn’t Blocked\\ 
-攻击且未被阻挡
+攻击且未受阻挡
 
 An ability that triggers when a creature “attacks and isn’t blocked” triggers when the creature becomes an unblocked attacking creature. See rule 509.1h.\\ 
-一个当生物“攻击且未被阻挡”的异能在该生物成为未被阻挡的攻击生物时触发。参见规则[[cr:5#cr509-1h|509.1h]]。
+一个当生物“攻击且未受阻挡”的异能在该生物成为未受阻挡的攻击生物时触发。参见规则[[cr:5#cr509-1h|509.1h]]。
 
 ----
 Attraction\\ 
@@ -543,7 +543,7 @@ Blocked Creature\\
 被阻挡的生物
 
 An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it’s removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”\\ 
-一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未被阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
+一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未受阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
 
 ----
 Blocking Creature\\ 
@@ -4155,6 +4155,13 @@ See Typecycling.\\
 参见类别循环。
 
 ----
+Sneak\\ 
+奇袭
+
+A keyword ability that allows a spell to be cast for an alternative cost, including returning an unblocked attacking creature to its owner’s hand. Creatures cast this way enter tapped and attacking.\\ 
+一个关键字异能，允许咒语以替代性费用施放，此费用包括将未受阻挡的攻击生物移回其拥有者手上。以此法施放的生物进场时为横置且正进行攻击。
+
+----
 Snow\\ 
 雪境
 
@@ -4930,10 +4937,10 @@ A term that meant “can’t be blocked.” Cards that used this term have recei
 
 ----
 Unblocked Creature\\ 
-未被阻挡的生物
+未受阻挡的生物
 
 An attacking creature once no creature has been declared as a blocker for it, unless an effect has caused it to become blocked. It remains an unblocked creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”\\ 
-一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况未知，一直保持是未被阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
+一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况为止，一直保持是未受阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
 
 ----
 Undaunted\\ 
