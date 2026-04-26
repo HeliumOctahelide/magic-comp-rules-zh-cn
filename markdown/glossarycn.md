@@ -69,7 +69,7 @@ Extra cards that may be used to modify a deck between games of a match. See rule
 A designation a permanent can have. Goaded creatures are forced to attack and to attack a player other than the player that caused it to be goaded. See rule 701.15, “Goad.”
 
 ### <span id='被阻挡的生物'>被阻挡的生物</span> / <span id='Blocked Creature'>Blocked Creature</span>
-一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未被阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
+一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未受阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
 An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it’s removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
 
 ### <span id='本地结界（已废止）'>本地结界（已废止）</span> / <span id='Local Enchantment (Obsolete)'>Local Enchantment (Obsolete)</span>
@@ -769,8 +769,8 @@ The team who can attack during the combat phase of a multiplayer game using the 
 一些多人玩法中可以采用的一种模式。参见规则[802](/cr/8/#cr802)，“攻击复数牌手模式”。   
 An option that may be used in certain multiplayer variants. See rule 802, “Attack Multiple Players Option.”
 
-### <span id='攻击且未被阻挡'>攻击且未被阻挡</span> / <span id='Attacks and Isn’t Blocked'>Attacks and Isn’t Blocked</span>
-一个当生物“攻击且未被阻挡”的异能在该生物成为未被阻挡的攻击生物时触发。参见规则[509.1h](/cr/5/#cr509-1h)。   
+### <span id='攻击且未受阻挡'>攻击且未受阻挡</span> / <span id='Attacks and Isn’t Blocked'>Attacks and Isn’t Blocked</span>
+一个当生物“攻击且未受阻挡”的异能在该生物成为未受阻挡的攻击生物时触发。参见规则[509.1h](/cr/5/#cr509-1h)。   
 An ability that triggers when a creature “attacks and isn’t blocked” triggers when the creature becomes an unblocked attacking creature. See rule 509.1h.
 
 ### <span id='攻击右边模式'>攻击右边模式</span> / <span id='Attack Right Option'>Attack Right Option</span>
@@ -1579,6 +1579,10 @@ The hand of cards a player starts the game with, once the player has decided not
 牌手在游戏开始时抓牌的数量。在大多数游戏中，每位牌手的起手牌数量为七。参见规则[103.5](/cr/1/#cr103-5)。   
 The number of cards a player draws as a game begins. In most games, each player’s starting hand size is seven. See rule 103.5.
 
+### <span id='奇袭'>奇袭</span> / <span id='Sneak'>Sneak</span>
+一个关键字异能，允许咒语以替代性费用施放，此费用包括将未受阻挡的攻击生物移回其拥有者手上。以此法施放的生物进场时为横置且正进行攻击。   
+A keyword ability that allows a spell to be cast for an alternative cost, including returning an unblocked attacking creature to its owner’s hand. Creatures cast this way enter tapped and attacking.
+
 ### <span id='潜居海岛（已废止）'>潜居海岛（已废止）</span> / <span id='Islandhome (Obsolete)'>Islandhome (Obsolete)</span>
 一个已废止的关键字异能，指“除非防御牌手操控海岛，否则此生物不能攻击”和“当你不操控海岛时，牺牲此生物”。印有此异能的牌在Oracle牌张参考文献中得到了勘误。   
 An obsolete keyword ability that meant “This creature can’t attack unless defending player controls an Island” and “When you control no Islands, sacrifice this creature.” Cards printed with this ability have been given errata in the Oracle card reference.
@@ -2092,10 +2096,6 @@ A keyword ability that causes a planeswalker to enter the battlefield with fewer
 一个关键字异能，使某些生物死去时留下精怪衍生生物。参见规则[702.135](/cr/7/#cr702-135)，“往生”。   
 A keyword ability that leaves behind Spirit creature tokens when certain creatures die. See rule 702.135, “Afterlife.”
 
-### <span id='未被阻挡的生物'>未被阻挡的生物</span> / <span id='Unblocked Creature'>Unblocked Creature</span>
-一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况未知，一直保持是未被阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
-An attacking creature once no creature has been declared as a blocker for it, unless an effect has caused it to become blocked. It remains an unblocked creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
-
 ### <span id='维持步骤'>维持步骤</span> / <span id='Upkeep Step'>Upkeep Step</span>
 回合的一部分。该步骤是开始阶段的第二个步骤。参见规则[503](/cr/5/#cr503)，“维持步骤”。   
 Part of the turn. This step is the second step of the beginning phase. See rule 503, “Upkeep Step.”
@@ -2127,6 +2127,10 @@ A keyword ability that precludes a permanent or player from being targeted. See 
 ### <span id='威慑'>威慑</span> / <span id='Menace'>Menace</span>
 一种躲避式异能，可以让生物不能被单一生物阻挡。参见规则[702.111](/cr/7/#cr702-111)，“威慑”。   
 An evasion ability that makes creatures unblockable by a single creature. See rule 702.111, “Menace.”
+
+### <span id='未受阻挡的生物'>未受阻挡的生物</span> / <span id='Unblocked Creature'>Unblocked Creature</span>
+一旦一个攻击生物没有被宣告任何阻挡者，除非一个效应导致它被阻挡。它在从战斗中被移除或战斗阶段结束两者中先发生的情况为止，一直保持是未受阻挡的生物。参见规则[509](/cr/5/#cr509)，“宣告阻挡者步骤”。   
+An attacking creature once no creature has been declared as a blocker for it, unless an effect has caused it to become blocked. It remains an unblocked creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”
 
 ### <span id='伪装'>伪装</span> / <span id='Disguise'>Disguise</span>
 一个关键字异能，允许该牌以牌面朝下的方式，且视为2/2、具守护{2}的生物一般施放。参见规则[702.168](/cr/7/#cr702-168)，“伪装”，和规则[708](/cr/7/#cr708)，“牌面朝下的咒语和永久物”。   

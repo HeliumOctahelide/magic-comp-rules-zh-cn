@@ -1819,13 +1819,13 @@ Example: Glacial Ray is a red card with splice onto Arcane that reads, “Glacia
 702.49. 忍术
 
 <BOOKMARK:cr702-49a>702.49a Ninjutsu is an activated ability that functions only while the card with ninjutsu is in a player’s hand. “Ninjutsu [cost]” means “[Cost], Reveal this card from your hand, Return an unblocked attacking creature you control to its owner’s hand: Put this card onto the battlefield from your hand tapped and attacking.”\\ 
-702.49a 忍术属于起动式异能，只当具有忍术异能之牌在牌手的手上时才会生效。“忍术[费用]”意指，“[费用]，从你手上展示此牌，将一个由你操控且未受阻挡的生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。”
+702.49a 忍术属于起动式异能，只当具有忍术异能之牌在牌手的手上时才会生效。“忍术[费用]”意指，“[费用]，从你手上展示此牌，将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。”
 
 <BOOKMARK:cr702-49b>702.49b The card with ninjutsu remains revealed from the time the ability is announced until the ability leaves the stack.\\ 
 702.49b 宣告了一张牌的忍术异能后，直到该异能离开堆叠为止，该牌会一直展示着。
 
-<BOOKMARK:cr702-49c>702.49c A ninjutsu ability may be activated only while a creature on the battlefield is unblocked (see rule 509.1h). The creature with ninjutsu is put onto the battlefield unblocked. It will be attacking the same player, planeswalker, or battle as the creature that was returned to its owner’s hand.\\ 
-702.49c 只有战场上的一个生物未受阻挡，才可以起动忍术异能（参见规则[[cr:5#cr509-1h|509.1h]]）。具有忍术的生物是以未受阻挡的状态放进战场。它所攻击的牌手、鹏洛客或战役与被移回其拥有者手上的生物之攻击对象相同。
+<BOOKMARK:cr702-49c>702.49c The creature put onto the battlefield with the ninjutsu ability enters attacking the same player, planeswalker, or battle as the creature that was returned to its owner’s hand.\\ 
+702.49c 以忍术异能放进战场的生物进场时所攻击的牌手、鹏洛客或战役与被移回其拥有者手上的生物所攻击者相同。
 
 <BOOKMARK:cr702-49d>702.49d Commander ninjutsu is a variant of the ninjutsu ability that also functions while the card with commander ninjutsu is in the command zone. “Commander ninjutsu [cost]” means “[Cost], Reveal this card from your hand or from the command zone, Return an unblocked attacking creature you control to its owner’s hand: Put this card onto the battlefield tapped and attacking.”\\ 
 702.49d 指挥官忍术是忍术异能的变化，当具指挥官忍术的牌位于统帅区中时亦会生效。“指挥官忍术[费用]”意指“[费用]，从你手上或统帅区展示此牌，将一个由你操控且未受阻挡的生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。”
@@ -2625,8 +2625,8 @@ Example: Garruk’s Horde says, in part, “You may cast creature spells from th
 <BOOKMARK:cr702-124h>702.124h “Partner” means “You may designate two legendary cards as your commander rather than one if each of them has partner.”\\ 
 702.124h “拍档”意指“你可以将两张具有拍档的传奇牌共同用作你的指挥官。”
 
-<BOOKMARK:cr702-124i>702.124i “Partner—[text]” means “You may designate two legendary cards as your commander rather than one if each of them has the same ‘partner—[text]’ ability.” The “partner—[text]” abilities are “partner—Father & son,” “partner—Friends forever,” and “partner—Survivors.”\\ 
-702.124i “拍档～[叙述]”意指“你可以将两张具有拍档～[叙述]异能的传奇牌共同用作你的指挥官。”这些“拍档～[叙述]”异能包括“拍档～父与子”、“拍档～友谊永恒”，以及“拍档～求生者”。
+<BOOKMARK:cr702-124i>702.124i “Partner—[text]” means “You may designate two legendary cards as your commander rather than one if each of them has the same ‘partner—[text]’ ability.” The “partner—[text]” abilities are “partner—Character select,” “partner—Father & son,” “partner—Friends forever,” and “partner—Survivors.”\\ 
+702.124i “拍档～[叙述]”意指“你可以将两张具有拍档～[叙述]异能的传奇牌共同用作你的指挥官。”这些“拍档～[叙述]”异能包括“拍档～角色选择”、“拍档～父与子”、“拍档～友谊永恒”，以及“拍档～求生者”。
 
 <BOOKMARK:cr702-124j>702.124j “Partner with [name]” represents two abilities. It means “You may designate two legendary cards as your commander rather than one if each has a ‘partner with [name]’ ability with the other’s name” and “When this permanent enters, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle.”\\ 
 702.124j “与[名称]拍档”代表两个异能。它意指“你可以将一张具有‘与[名称]拍档’异能的传奇牌与一张具有该名称的牌共同用作你的指挥官。”以及“当此永久物进场时，目标牌手可以其牌库中搜寻一张名为[名称]的牌，展示该牌，然后将它置于其手上，然后洗牌。”
@@ -3362,6 +3362,15 @@ Example: Tapestry Warden has as ability that reads “Each creature you control 
 
 <BOOKMARK:cr702-189b>702.189b An ability that triggers whenever a player firebends triggers whenever a firebending ability they control resolves.\\ 
 702.189b 每当牌手振火时触发的异能会在该牌手操控的振火异能结算时触发。
+
+<BOOKMARK:cr702-190>702.190. Sneak\\ 
+702.190. 奇袭
+
+<BOOKMARK:cr702-190a>702.190a Sneak is a keyword that represents a static ability that functions while the spell with sneak is on the stack. “Sneak [cost]” means “Any time you could cast an instant during your declare blockers step, you may choose to pay [cost] and return an unblocked creature you control to its owner’s hand rather than pay this spell’s mana cost.”\\ 
+702.190a 奇袭是代表一个具有该异能的咒语在堆叠上时生效的静止式异能的关键字。“奇袭[费用]”意指，“于你的宣告阻挡者步骤中你能够施放瞬间的时机，你可以选择支付[费用]，并将一个由你操控且未受阻挡的生物移回其拥有者手上，而非支付此咒语的法术力费用。”
+
+<BOOKMARK:cr702-190b>702.190b A permanent spell cast using sneak enters the battlefield tapped and attacking (see rule 506.3a). It will be attacking the same player, planeswalker, or battle as the creature that was returned to its owner’s hand to pay the sneak cost of the spell that became that permanent.\\ 
+702.190b 利用奇袭异能施放的永久物咒语，进战场时为横置且正进行攻击（参见规则[[cr:5#cr506-3a|506.3a]]）。该永久物进场时所攻击的牌手、鹏洛客或战役，与支付成为该永久物之咒语的奇袭费用时移回其拥有者手上的生物所攻击者相同。
 
 ===== 703. 回合动作 Turn-Based Actions =====
 <BOOKMARK:cr703>703. Turn-Based Actions\\ 
@@ -4289,7 +4298,7 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 715.3c 如果一个历险咒语被复制，该复制品也是历险。它具有该咒语的副特征，而非代表该历险咒语的牌之正常特征。任何提及作为历险施放的咒语之规则或效应也会提及该复制品。
 
 <BOOKMARK:cr715-3d>715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may play it. It can’t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.\\ 
-715.3d 作为历险施放的咒语于其结算时，该咒语的操控者改为将其放逐，而非置入其拥有者的坟墓场。于该咒语持续被放逐期间，该牌手可以使用之。它不能以此法作为历险施放，尽管其他允许某牌手施放该牌的效应可能会允许某牌手将其作为历险施放。
+715.3d 作为历险施放的咒语于其结算时，该咒语的操控者改为将其放逐，而非置入其拥有者的坟墓场。于该牌持续被放逐期间，该牌手可以使用之。它不能以此法作为历险施放，尽管其他允许某牌手施放该牌的效应可能会允许某牌手将其作为历险施放。
 
 <BOOKMARK:cr715-4>715.4. In every zone except the stack, and while on the stack not as an Adventure, an adventurer card has only its normal characteristics.\\ 
 715.4. 在堆叠以外的其他区域、以及在堆叠上且不为历险时，历险者牌只具有其正常特征。
@@ -4466,7 +4475,7 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 721.2a “{N+}[异能]”意指“只要此永久物上面有N个或更多充电指示物，它便具有[异能]。”
 
 <BOOKMARK:cr721-2b>721.2b “{N+}[abilities][P/T]” means “As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types.”\\ 
-721.2b “{N+}[异能][P/T]”意指“只要此生物上面有N或更多个充电指示物，它便具有[异能]，是基础力量与防御力为[P/T]的生物，且仍具有原本类别。”
+721.2b “{N+}[异能][P/T]”意指“只要此永久物上面有N或更多个充电指示物，它便具有[异能]，是基础力量与防御力为[P/T]的生物，且仍具有原本类别。”
 
 <BOOKMARK:cr721-2c>721.2c While in any zone other than the battlefield, station cards do not have power or toughness.\\ 
 721.2c 在战场之外的任何区域中，蓄势牌都没有力量或防御力。
