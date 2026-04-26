@@ -2,7 +2,7 @@
 这是目录页的主要部分。将这部分内容和catalog_instruction.txt组合成完整的目录页。
 </nowiki>
 ===== 目录 =====
-//此规则于2026年2月27日起生效。//
+//此规则于2026年4月17日起生效。//
 
 [[CR:Intro|前言]]
 
@@ -136,17 +136,18 @@
   * [[CR:7#案件牌_case_cards|719. 案件牌 Case Cards]]
   * [[CR:7#预兆牌_omen_cards|720. 预兆牌 Omen Cards]]
   * [[CR:7#蓄势牌_station_cards|721. 蓄势牌 Station Cards]]
-  * [[CR:7#操控其他牌手_controlling_another_player|722. 操控其他牌手 Controlling Another Player]]
-  * [[CR:7#结束回合和阶段_ending_turns_and_phases|723. 结束回合和阶段 Ending Turns and Phases]]
-  * [[CR:7#君主_the_monarch|724. 君主 The Monarch]]
-  * [[CR:7#先制_the_initiative|725. 先制 The Initiative]]
-  * [[CR:7#重新开始游戏_restarting_the_game|726. 重新开始游戏 Restarting the Game]]
-  * [[CR:7#拉德指示物_rad_counters|727. 拉德指示物 Rad Counters]]
-  * [[CR:7#子游戏_subgames|728. 子游戏 Subgames]]
-  * [[CR:7#与永久物结聚_merging_with_permanents|729. 与永久物结聚 Merging with Permanents]]
-  * [[CR:7#白昼与黑夜_day_and_night|730. 白昼与黑夜 Day and Night]]
-  * [[CR:7#进行简化_taking_shortcuts|731. 进行简化 Taking Shortcuts]]
-  * [[CR:7#处理非法动作_handling_illegal_actions|732. 处理非法动作 Handling Illegal Actions]]
+  * [[CR:7#备法牌_preparation_cards|722. 备法牌 Preparation Cards]]
+  * [[CR:7#操控其他牌手_controlling_another_player|723. 操控其他牌手 Controlling Another Player]]
+  * [[CR:7#结束回合和阶段_ending_turns_and_phases|724. 结束回合和阶段 Ending Turns and Phases]]
+  * [[CR:7#君主_the_monarch|725. 君主 The Monarch]]
+  * [[CR:7#先制_the_initiative|726. 先制 The Initiative]]
+  * [[CR:7#重新开始游戏_restarting_the_game|727. 重新开始游戏 Restarting the Game]]
+  * [[CR:7#拉德指示物_rad_counters|728. 拉德指示物 Rad Counters]]
+  * [[CR:7#子游戏_subgames|729. 子游戏 Subgames]]
+  * [[CR:7#与永久物结聚_merging_with_permanents|730. 与永久物结聚 Merging with Permanents]]
+  * [[CR:7#白昼与黑夜_day_and_night|731. 白昼与黑夜 Day and Night]]
+  * [[CR:7#进行简化_taking_shortcuts|732. 进行简化 Taking Shortcuts]]
+  * [[CR:7#处理非法动作_handling_illegal_actions|733. 处理非法动作 Handling Illegal Actions]]
 
 [[CR:8|第八章 - 多人游戏规则 Multiplayer Rules]]
   * [[CR:8#总则_general|800. 总则 General]]
