@@ -53,16 +53,16 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 400.7e 当一个物件从一个区域转移到另一个区域时，如果移动后的区域是公开区域，所触发的触发式异能（例如，“当此灵气从战场进入坟墓场时”）能够在移动后区域中找到该异能触发时的物件成为的新物件。
 
 <BOOKMARK:cr400-7f>400.7f Abilities that trigger when an enchanted permanent leaves the battlefield can find the new object that each Aura enchanting that permanent became in its owner’s graveyard if it was put into that graveyard at the same time the enchanted permanent left the battlefield. It can also find the new object that each Aura enchanting it became in its owner’s graveyard as a result of being put there as a state-based action for not being attached to a permanent. (See rule 704.5m.)\\ 
-400.7f 如果灵气与它所结附的永久物离开战场的同时进入坟墓场，或灵气因未贴附永久物而作为状态动作置入其拥有者的坟墓场，这些灵气因受结附的永久物离开战场而触发的触发式异能，可以在其拥有者的坟墓场中找到各结附于该永久物的灵气所成为的新物件。（参见规则[[cr:7#cr704-5m|704.5m]]。）
+400.7f 如果灵气与它所结附的永久物离开战场的同时进入坟墓场，或灵气因未贴附永久物而作为状态动作置入其拥有者的坟墓场，因受结附的永久物离开战场而触发的触发式异能，可以在其拥有者的坟墓场中找到各结附于该永久物的灵气所成为的新物件。（参见规则[[cr:7#cr704-5m|704.5m]]。）
 
 <BOOKMARK:cr400-7g>400.7g If an effect grants a nonland card an ability that allows it to be cast, that ability will continue to apply to the new object that card became after it moved to the stack as a result of being cast this way.\\ 
 400.7g 如果一个效应赋予一张非地牌一个允许施放它的异能，该异能将在其因此被施放而被转移到堆叠之后继续影响它所成为的新物件。
 
 <BOOKMARK:cr400-7h>400.7h If an effect allows a nonland card to be cast, other parts of that effect can find the new object that card becomes after it moves to the stack as a result of being cast this way.\\ 
-400.7h 如果一个效应允许一张非地牌被施放，该效应的其他部分可以在该牌因以此法施放而移动到堆叠上成为新物件后找到该物件。
+400.7h 如果一个效应允许一张非地牌被施放，该效应的其他部分可以在该牌因以此法施放而移动到堆叠上并成为新物件后找到该物件。
 
 <BOOKMARK:cr400-7i>400.7i If an effect allows a land card to be played, other parts of that effect can find the new object that land card becomes after it moves to the battlefield as a result of being played this way.\\ 
-400.7i 如果一个效应允许一张地牌被使用，该效应的其他部分可以在该地牌因以此法使用而成为新物件后找到该物件。
+400.7i 如果一个效应允许一张地牌被使用，该效应的其他部分可以在该地牌因以此法使用而移动到战场并成为新物件后找到该物件。
 
 <BOOKMARK:cr400-7j>400.7j If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.\\ 
 400.7j 如果一个效应使一个物件移动到一个公开区域，该效应的其他部分可以找到该物件。如果一个咒语或异能的费用使一个物件移动到一个公开区域，该咒语或异能的效应可以找到该物件。
@@ -120,14 +120,14 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 401.6. 如果一个效应令牌手以展示其牌库顶牌的方式进行游戏，而该牌库顶牌不再被展示之后经过任意时间再次被展示，它将成为一个新的物件。
 
 <BOOKMARK:cr401-7>401.7. If an effect causes a player to put a card into a library “Nth from the top,” and that library has fewer than N cards in it, the player puts that card on the bottom of that library.\\ 
-401.7. 如果一个效应让牌手把牌放在其牌库“顶第N张”，且该牌库的牌少于N张，则该牌手将该牌放在牌库底。
+401.7. 如果一个效应让牌手把牌放在某牌库“顶第N张”，且该牌库的牌少于N张，则该牌手将该牌放在牌库底。
 
 ===== 402. 手牌 Hand =====
 <BOOKMARK:cr402>402. Hand\\ 
 402. 手牌
 
 <BOOKMARK:cr402-1>402.1. The hand is where a player holds cards that have been drawn. Cards can be put into a player’s hand by other effects as well. At the beginning of the game, each player draws a number of cards equal to that player’s starting hand size, normally seven. (See rule 103, “Starting the Game.”)\\ 
-402.1. 手牌指牌手已经抓取的牌。其他效应也可能会将牌置入牌手的手牌。在游戏开始时，每位牌手各抓等同于起手牌数量的牌，一般为七张。（参见规则[[cr:1#cr103|103]]，“开始游戏”。）
+402.1. 手牌指牌手已经抓取的牌。其他效应也可能会将牌置入牌手的手牌。在游戏开始时，每位牌手各抓等同于起手牌张数的牌，一般为七张。（参见规则[[cr:1#cr103|103]]，“开始游戏”。）
 
 <BOOKMARK:cr402-2>402.2. Each player has a maximum hand size, which is normally seven cards. A player may have any number of cards in their hand, but as part of their cleanup step, the player must discard excess cards down to the maximum hand size.\\ 
 402.2. 每位牌手均有手牌上限，通常为七张。牌手可以拥有任意数量的手牌，但在其清除步骤中，该牌手必须将其手牌弃到手牌上限的数量。
@@ -175,7 +175,7 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 405.1. 当一个咒语被施放时，这张实体的牌进入堆叠（参见规则[[cr:6#cr601-2a|601.2a]]）。当一个异能被起动或触发之后，此异能便进入堆叠的顶端，且没有任何牌用来代表它。（参见规则[[cr:6#cr602-2a|602.2a]]和[[cr:6#cr603-3|603.3]]。）
 
 <BOOKMARK:cr405-2>405.2. The stack keeps track of the order that spells and/or abilities were added to it. Each time an object is put on the stack, it’s put on top of all objects already there.\\ 
-405.2. 堆叠记录着咒语和/或异能加入的顺序。每次有物件进入堆叠，它将放在所有先前已在堆叠中的物件之上。
+405.2. 堆叠记录着咒语和／或异能加入的顺序。每次有物件进入堆叠，它将放在所有先前已在堆叠中的物件之上。
 
 <BOOKMARK:cr405-3>405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.\\ 
 405.3. 如果一个效应同时将两张或更多的物件放进堆叠，主动牌手操控的物件在最下方，然后为按照“主动牌手先决定”的顺序（参见规则[[cr:1#cr101-4|101.4]]）的其他牌手所操控的物件。如果一位牌手操控其中多个物件，该牌手可以选择它们在堆叠中的顺序。
@@ -184,7 +184,7 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 405.4. 每个咒语具有用来代表它的牌之所有特征。堆叠中的起动式或触发式异能具有创造它的异能之内文叙述，它们不具有其他特征。咒语的操控者为施放该咒语的牌手。起动式异能的操控者为起动该起动式异能的牌手。触发式异能的操控者为该异能触发时，该异能来源的操控者，除非它是延迟触发式异能。确定延迟触发式异能的操控者，参见规则[[cr:6#cr603-7d|603.7d-f]]。
 
 <BOOKMARK:cr405-5>405.5. When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.\\ 
-405.5. 当所有牌手连续让过时，堆叠最顶端的（最后进入的）咒语或异能结算。如果所牌手皆让过且堆叠为空，当前阶段或步骤结束且下一个开始。
+405.5. 当所有牌手连续让过时，堆叠最顶端的（最后进入的）咒语或异能结算。如果所有牌手皆让过且堆叠为空，当前阶段或步骤结束且下一个开始。
 
 <BOOKMARK:cr405-6>405.6. Some things that happen during the game don’t use the stack.\\ 
 405.6. 在游戏过程发生的一些事情不使用堆叠。
@@ -224,10 +224,10 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 406.2. 放逐一个物件指将该物件从当前区域放置进放逐区。一张被放逐的牌是指放置进放逐区的牌。
 
 <BOOKMARK:cr406-3>406.3. Exiled cards are, by default, kept face up and may be examined by any player at any time. Cards “exiled face down” can’t be examined by any player except when instructions allow it. However, if a player is instructed to look at a card and then exile it face down, or once a player is allowed to look at a card exiled face down, that player may continue to look at that card until it leaves the exile zone or is part of a pile of cards that are shuffled, even if the instruction allowing the player to do so no longer applies.\\ 
-406.3. 默认情况下，被放逐的牌必须牌面朝上，且任何牌手随时都可以检视。除非有指示的许可，任何牌手皆不能检视“牌面朝下被放逐“的牌。但是，如果牌手被指示检视一张牌然后将其牌面朝下放逐，或者牌手一旦被许可检视一张牌面朝下放逐的牌，则除非该牌离开放逐区或成为一个已洗牌的牌堆的一部分，否则该牌手可以一直检视该牌，即使许可该牌手检视此牌的效应已经结束。
+406.3. 默认情况下，被放逐的牌必须牌面朝上，且任何牌手随时都可以检视。除非有指示的许可，任何牌手皆不能检视“牌面朝下被放逐”的牌。但是，如果牌手被指示检视一张牌然后将其牌面朝下放逐，或者牌手一旦被许可检视一张牌面朝下放逐的牌，则除非该牌离开放逐区或成为一个已洗牌的牌堆的一部分，否则该牌手可以一直检视该牌，即使许可该牌手检视此牌的效应已经结束。
 
 <BOOKMARK:cr406-3a>406.3a A card exiled face down has no characteristics, but the spell or ability that exiled it may allow it to be played from exile. Unless that card is being cast face down (see rule 708.4), the card is turned face up just before the player announces that they are playing the card (see rule 601.2).\\ 
-406.3a 牌面朝下放逐的牌没有特征，但放逐该牌的咒语或异能可能会允许该牌从放逐区施放。除非该牌被面朝下地施放（参见规则[[cr:7#cr708-4|708.4]]），在牌手宣告使用该牌之前立即翻回正面。（参见规则[[cr:6#cr601-2|601.2]]）
+406.3a 牌面朝下放逐的牌没有特征，但放逐该牌的咒语或异能可能会允许该牌从放逐区使用。除非该牌被面朝下地施放（参见规则[[cr:7#cr708-4|708.4]]），在牌手宣告使用该牌之前立即翻回正面。（参见规则[[cr:6#cr601-2|601.2]]）
 
 <BOOKMARK:cr406-3b>406.3b Some spells and abilities allow a player to cast spells with certain qualities from among face-down cards in exile. A player may cast such a spell only if they are allowed to look at the face-down card in exile and if the resulting spell has the specified qualities.\\ 
 406.3b 一些咒语和异能允许牌手从放逐区牌面朝下的牌中施放具某些特性的咒语。仅当牌手被允许检视这些放逐区中牌面朝下的牌、且所成的咒语具有该特性时，该牌手才可以施放该咒语。
@@ -274,7 +274,7 @@ Example: Exquisite Archangel has an ability which reads “If you would lose the
 408.2. 徽记可以在统帅区被创造。参见规则[[cr:1#cr114|114]]，“徽记”。
 
 <BOOKMARK:cr408-3>408.3. In the Planechase, Vanguard, Commander, Archenemy, and Conspiracy Draft casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, “Casual Variants.”\\ 
-408.3. 在竞逐时空、先锋、指挥官、魔王以及诡局轮抽休闲式玩法中，非传统万智牌和/或特定的牌在统帅区中开始游戏。每个玩法针对这些牌拥有自己的规则。参见[[cr:9|第9章]]，“休闲式玩法”。
+408.3. 在竞逐时空、先锋、指挥官、魔王以及诡局轮抽休闲式玩法中，非传统万智牌和／或特定的牌在统帅区中开始游戏。每个玩法针对这些牌拥有自己的规则。参见[[cr:9|第9章]]，“休闲式玩法”。
 
 
 

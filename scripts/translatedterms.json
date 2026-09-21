@@ -102,5 +102,9 @@
       "English": "Time Travel",
       "Chinese": "时间旅行"
     }
-  ]
+  ],
+  "introductions": {
+    "mainGlossary": "下列名称暂未有正式中文译名，以下中文名称为暂译名称。",
+    "unfinityDoctorGlossary": "下列出现于Unfinity、无疆新宇宙：神秘博士系列中的名词之译名在官网文章中出现，但未出现于卡牌上。"
+  }
 }

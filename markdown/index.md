@@ -1,19 +1,18 @@
 # 目录
 
-此中文版《万智牌完整规则》是大中华区裁判社群志愿者的翻译成果，并非官方译本。
+<p>此中文版《万智牌完整规则》是大中华区裁判社群志愿者的翻译成果，并非官方译本。</p>
 
-如果您对某条规则的翻译发现错误、或有改进的建议，亦或有意帮助翻译，请通过下列方式联系维护者：
+<p>如果您对某条规则的翻译发现错误、或有改进的建议，亦或有意帮助翻译，请通过下列方式联系维护者：</p>
+<ul>
+  <li><a class="link link-cover" href="https://github.com/HeliumOctahelide/magic-comp-rules-zh-cn">Github Issue</a></li>
+  <li><a class="link link-cover" href="https://mtgch.com/feedback">大学院废墟用户反馈</a></li>
+</ul>
 
-- [Github Issue](https://github.com/HeliumOctahelide/magic-comp-rules-zh-cn)
-- [大学院废墟用户反馈](https://mtgch.com/feedback)
+<p>中文版翻译负责人：李思扬</p>
+<p>中文版翻译维护者：金汉宁、简单</p>
+<p>历史版本负责人及贡献者：杜昊、张天启、许兆本、杨俊杰、刘清源等。</p>
 
-中文版翻译负责人：李思扬
-
-中文版翻译维护者：金汉宁、简单
-
-历史版本负责人及贡献者：杜昊、张天启、许兆本、杨俊杰、刘清源等。
-
-*此规则于2026年8月7日起生效。*
+*此规则于2026年9月25日起生效。*
 
 [前言](/cr/intro/)
 
@@ -52,7 +51,7 @@
     - [205. 类别栏 Type Line](/cr/2/#cr205)  
     - [206. 版本符号 Expansion Symbol](/cr/2/#cr206)  
     - [207. 文字栏 Text Box](/cr/2/#cr207)  
-    - [208. 力量/防御力 Power/Toughness](/cr/2/#cr208)  
+    - [208. 力量／防御力 Power/Toughness](/cr/2/#cr208)  
     - [209. 忠诚 Loyalty](/cr/2/#cr209)  
     - [210. 布防 Defense](/cr/2/#cr210)  
     - [211. 手牌修正 Hand Modifier](/cr/2/#cr211)  
@@ -122,7 +121,7 @@
     - [613. 持续性效应的互动 Interaction of Continuous Effects](/cr/6/#cr613)  
     - [614. 替代性效应 Replacement Effects](/cr/6/#cr614)  
     - [615. 防止性效应 Prevention Effects](/cr/6/#cr615)  
-    - [616. 替代性效应和/或防止性效应的互动 Interaction of Replacement and/or Prevention Effects](/cr/6/#cr616)  
+    - [616. 替代性效应和／或防止性效应的互动 Interaction of Replacement and/or Prevention Effects](/cr/6/#cr616)  
 
 - [第七章 - 附加规则 Additional Rules](/cr/7/)
     - [700. 总则 General](/cr/7/#cr700)  

@@ -1,7 +1,7 @@
 [[:完整规则|返回完整规则目录]]
 ====== 词汇表（按拼音首字母排序） ======
 <WRAP centeralign>
-[[cr:glossarycn#字母|字母]] - [[cr:glossarycn#a|A]] - [[cr:glossarycn#b|B]] - [[cr:glossarycn#c|C]] - [[cr:glossarycn#d|D]] - [[cr:glossarycn#e|E]] - [[cr:glossarycn#f|F]] - [[cr:glossarycn#g|G]] - [[cr:glossarycn#h|H]] - [[cr:glossarycn#j|J]] - [[cr:glossarycn#k|K]] - [[cr:glossarycn#l|L]] - [[cr:glossarycn#m|M]] - [[cr:glossarycn#n|N]] - [[cr:glossarycn#o|O]] - [[cr:glossarycn#p|P]] - [[cr:glossarycn#q|Q]] - [[cr:glossarycn#r|R]] - [[cr:glossarycn#s|S]] - [[cr:glossarycn#t|T]] - [[cr:glossarycn#w|W]] - [[cr:glossarycn#x|X]] - [[cr:glossarycn#y|Y]] - [[cr:glossarycn#z|Z]]</WRAP>
+[[cr:glossarycn#字母|字母]] - [[cr:glossarycn#a|A]] - [[cr:glossarycn#b|B]] - [[cr:glossarycn#c|C]] - [[cr:glossarycn#d|D]] - [[cr:glossarycn#e|E]] - [[cr:glossarycn#f|F]] - [[cr:glossarycn#g|G]] - [[cr:glossarycn#h|H]] - [[cr:glossarycn#j|J]] - [[cr:glossarycn#k|K]] - [[cr:glossarycn#l|L]] - [[cr:glossarycn#m|M]] - [[cr:glossarycn#n|N]] - [[cr:glossarycn#p|P]] - [[cr:glossarycn#q|Q]] - [[cr:glossarycn#r|R]] - [[cr:glossarycn#s|S]] - [[cr:glossarycn#t|T]] - [[cr:glossarycn#w|W]] - [[cr:glossarycn#x|X]] - [[cr:glossarycn#y|Y]] - [[cr:glossarycn#z|Z]]</WRAP>
 ----
 
 === 字母 ===
@@ -123,14 +123,7 @@ Blocked Creature\\
 被阻挡的生物
 
 An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it’s removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”\\ 
-一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在它在被移出战斗、一个效应让它成为未受阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
-
-----
-Local Enchantment (Obsolete)\\ 
-本地结界（已废止）
-
-An obsolete term for an Aura. Cards printed with this text have received errata in the Oracle card reference.\\ 
-灵气已废止的用词。印有此叙述的牌在Oracle牌张参考文献中得到了勘误。
+一个被其他生物阻挡或因为某效应而成为被阻挡的攻击生物。它在被移出战斗、一个效应让它成为未受阻挡、或战斗阶段结束三者中最先发生的之前，都保持为被阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
 
 ----
 Umbra Armor\\ 
@@ -175,18 +168,18 @@ A keyword ability that lets a card be cast face down as a 2/2 creature. See rule
 一个关键字异能，允许该牌以牌面朝下的方式，且视为2/2生物一般施放。参见规则[[cr:7#cr702-37|702.37]]，“变身”，和规则[[cr:7#cr708|708]]，“牌面朝下的咒语和永久物”。
 
 ----
-Alternative Cost\\ 
-别名
+Color Identity\\ 
+标识色
 
-A cost a spell may have that its controller can pay rather than paying its mana cost. See rule 118, “Costs,” and rule 601, “Casting Spells.”\\ 
-一些牌在其推广版本或异画版本上使用的不同名称。此名称没有规则含义。参见规则[[cr:2#cr201-6|201.6]]。
+A set of colors that determines what cards may be included in a deck for the Commander casual variant. See rule 903.4.\\ 
+一系列颜色，在指挥官休闲玩法中决定哪些牌可以加入套牌。参见规则[[cr:9#cr903-4|903.4]]。
 
 ----
-Snow-Covered (Obsolete)\\ 
-冰雪覆盖（已废止）
+Alternate Name\\ 
+别名
 
-Some older cards were printed with the term “snow-covered” in their rules text. Except when referencing card names, such cards have received errata in the Oracle card reference to reference the supertype “snow” instead. See Snow.\\ 
-一些老牌在规则叙述中印有“冰雪覆盖”一词。除非特指牌名，否则这些牌在Oracle牌张参考文献中已得到勘误改为特指具有超类别“雪境”。参见雪境。
+A different name used on promotional or alternate-art versions of some cards. This name has no rules meaning. See rule 201.6.\\ 
+一些牌在其推广版本或异画版本上使用的不同名称。此名称没有规则含义。参见规则[[cr:2#cr201-6|201.6]]。
 
 ----
 Doctor’s Companion\\ 
@@ -274,7 +267,7 @@ Control Another Player\\
 操控其他牌手
 
 To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 723, “Controlling Another Player.”\\ 
-为在该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr723|723]]，“操控其他牌手”。
+为该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr723|723]]，“操控其他牌手”。
 
 ----
 Control, Controller\\ 
@@ -375,17 +368,17 @@ A designation that a creature can be given as the Ring tempts you. See rule 701.
 一个永久物可在魔戒引诱你时得到的称号。参见规则[[cr:7#cr701-54|701.54]]，“魔戒引诱你”。
 
 ----
-Continuous Effect\\ 
+Continuous Artifact (Obsolete)\\ 
 持续神器（已废止）
 
-An effect that modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period. See rule 611, “Continuous Effects.”\\ 
+An obsolete term that appeared on the type line of artifacts without activated abilities. Cards printed with this text have received errata in the Oracle card reference to simply say “Artifact.”\\ 
 一个已废止的用语，出现在不具有起动式异能的神器类别栏。印有此叙述的牌已经在Oracle牌张参考文献中得到了勘误，改为只是“神器”。
 
 ----
-Continuous Artifact (Obsolete)\\ 
+Continuous Effect\\ 
 持续性效应
 
-An obsolete term that appeared on the type line of artifacts without activated abilities. Cards printed with this text have received errata in the Oracle card reference to simply say “Artifact.”\\ 
+An effect that modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period. See rule 611, “Continuous Effects.”\\ 
 影响物件特征、物件操控权、或影响牌手或游戏规则的效应，具有固定时限或一直有效。参见规则[[cr:6#cr611|611]]，“持续性效应”。
 
 ----
@@ -396,10 +389,10 @@ To replace a permanent’s destruction with an alternate sequence of events. See
 将一个永久物的消灭用另一系列事件进行替代。参见规则[[cr:7#cr701-19|701.19]]，“重生”。
 
 ----
-Respond\\ 
+Restart the Game\\ 
 重新开始游戏
 
-To cast an instant spell or activate an ability while another spell or ability is already on the stack. See rule 117.7.\\ 
+To immediately end the current game and restart it. See rule 727, “Restarting the Game.”\\ 
 当前游戏马上结束并且重新开始。参见规则[[cr:7#cr727|727]]，“重新开始游戏”。
 
 ----
@@ -435,20 +428,20 @@ Trigger\\
 触发
 
 Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically “triggers.” That means its controller puts it on the stack the next time a player would receive priority. See rule 603, “Handling Triggered Abilities.”\\ 
-每当游戏事件或游戏状态符合一个触发式异能的触发事件时，该异能自动“触发”。这表示其操控者在下一词有牌手将得到优先权时将它放进堆叠。参见规则[[cr:6#cr603|603]]，“处理触发式异能”。
-
-----
-Triggered Ability\\ 
-触发事件
-
-A kind of ability. Triggered abilities begin with the word “when,” “whenever,” or “at.” They’re written as “[Trigger condition], [effect].” See rule 113, “Abilities,” and rule 603, “Handling Triggered Abilities.”\\ 
-触发式异能所注意的事件。每当触发事件发生时，该触发式异能触发。参见规则[[cr:6#cr603|603]]，“处理触发式异能”。
+每当游戏事件或游戏状态符合一个触发式异能的触发事件时，该异能自动“触发”。这表示其操控者在下一次有牌手将得到优先权时将它放进堆叠。参见规则[[cr:6#cr603|603]]，“处理触发式异能”。
 
 ----
 Trigger Event\\ 
-触发式异能
+触发事件
 
 The event that a triggered ability looks for. Whenever the trigger event occurs, the triggered ability triggers. See rule 603, “Handling Triggered Abilities.”\\ 
+触发式异能所注意的事件。每当触发事件发生时，该触发式异能触发。参见规则[[cr:6#cr603|603]]，“处理触发式异能”。
+
+----
+Triggered Ability\\ 
+触发式异能
+
+A kind of ability. Triggered abilities begin with the word “when,” “whenever,” or “at.” They’re written as “[Trigger condition], [effect].” See rule 113, “Abilities,” and rule 603, “Handling Triggered Abilities.”\\ 
 一种异能。触发式异能以词语“当”、“每当”、或“在”开头。它们的格式为“[触发条件]，[效应]”。参见规则[[cr:1#cr113|113]]，“异能”、以及规则[[cr:6#cr603|603]]，“处理触发式异能”。
 
 ----
@@ -473,17 +466,17 @@ An enchantment subtype. Sagas have a number of chapter abilities that take effec
 一种结界的副类别。传纪具有一系列章节异能，以在数个回合的过程中生效的方式来讲述一段故事。参见规则[[cr:7#cr714|714]]，“传纪牌”。
 
 ----
-Legend Rule\\ 
+Legendary\\ 
 传奇
 
-A state-based action that causes a player who controls two or more legendary permanents with the same name to put all but one into their owners’ graveyards. See rule 704.5j.\\ 
+A supertype that’s normally relevant on permanents. See rule 205.4, “Supertypes.” See also Legend Rule.\\ 
 一种超类别，一般情况下与永久物有关。参见规则[[cr:2#cr205-4|205.4]]，“超类别”。另参见传奇规则。
 
 ----
-Legendary\\ 
+Legend Rule\\ 
 传奇规则
 
-A supertype that’s normally relevant on permanents. See rule 205.4, “Supertypes.” See also Legend Rule.\\ 
+A state-based action that causes a player who controls two or more legendary permanents with the same name to put all but one into their owners’ graveyards. See rule 704.5j.\\ 
 一个状态动作，令操控两个或更多具有相同名称的传奇永久物的操控者，将其中一个以外的都放进它们拥有者的坟墓场。参见规则[[cr:7#cr704-5j|704.5j]]。
 
 ----
@@ -660,7 +653,7 @@ Map\\
 地图
 
 A Map token is a colorless Map artifact token with “{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.” See rule 701.44, “Explore.” For more information about predefined tokens, see rule 111.10.\\ 
-地图衍生物是具有“{1}，{T}，牺牲此衍生物：令目标由你操控的生物勘察。只能于法术时机起动。”的无色衍生神器。欲知关于预先定义的衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
+地图衍生物是具有“{1}，{T}，牺牲此衍生物：令目标由你操控的生物勘察。只能于法术时机起动。”的无色地图衍生神器。参见规则[[cr:7#cr701-44|701.44]]，“勘察”。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
 
 ----
 Landwalk\\ 
@@ -924,7 +917,7 @@ A keyword ability that lets a player exile a creature card from their graveyard 
 
 ----
 Counter\\ 
-反击/指示物（译注：在英文中这两个词是相同的。）
+反击／指示物（译注：在英文中这两个词是相同的。）
 
 1. To cancel a spell or ability so it doesn’t resolve and none of its effects occur. See rule 701.6, “Counter.”\\ 
 1. 取消一个咒语或异能，让它不能结算且它的效应都不发生。参见规则[[cr:7#cr701-6|701.6]]，“反击”。
@@ -961,21 +954,21 @@ A keyword ability that lets a player cast a card from their graveyard. See rule 
 一个关键字异能，让牌手从其坟墓场中施放一张牌。参见规则[[cr:7#cr702-34|702.34]]，“返照”。
 
 ----
+Room Ability\\ 
+房间异能
+
+A triggered ability that triggers whenever a player moves their venture marker into a room of a dungeon card. See rule 309, “Dungeons.”\\ 
+一个触发式异能，每当牌手将其进度标记移动到地城牌的一个房间中时触发。参见规则[[cr:3#cr309|309]]，“地城”。
+
+----
 Room\\ 
-房间/隔间
+房间／隔间
 
 1. A subsection of a dungeon card. See rule 309, “Dungeons.”\\ 
 1. 地城牌的一个分区。参见规则[[cr:3#cr309|309]]，“地城”。
 
 2. An enchantment subtype found on some split cards. See rule 709, “Split Cards.”\\ 
 2. 一种结界的副类别，见于一些连体牌上。参见规则[[cr:7#cr709|709]]，“连体牌”。
-
-----
-Room Ability\\ 
-房间异能
-
-A triggered ability that triggers whenever a player moves their venture marker into a room of a dungeon card. See rule 309, “Dungeons.”\\ 
-一个触发式异能，每当牌手将其进度标记移动到地城牌的一个房间中时触发。参见规则[[cr:3#cr309|309]]，“地城”。
 
 ----
 Protect, Protector\\ 
@@ -996,7 +989,7 @@ Toughness\\
 防御力
 
 1. Part of a card that only creature cards have. A creature card’s toughness is printed after the slash in its lower right corner. See rule 208, “Power/Toughness.”\\ 
-1. 只有生物牌具有的牌的一部分。生物牌的防御力印在其右下角斜线之后。参见规则[[cr:2#cr208|208]]，“力量/防御力”。
+1. 只有生物牌具有的牌的一部分。生物牌的防御力印在其右下角斜线之后。参见规则[[cr:2#cr208|208]]，“力量／防御力”。
 
 2. A characteristic that only creatures have. See rule 302.4.\\ 
 2. 一个只有生物才具有的特征。参见规则[[cr:3#cr302-4|302.4]]。
@@ -1037,26 +1030,17 @@ Placed\\
 （已废止）一些咒语和异能先前提及指示物“被放置(placed)”在永久物上。这些牌张在Oracle牌张参考文献中得到勘误，现使用“放置(put)”一词。由于规则变动，这些牌张仍能如往常一般地正常运作。参见规则[[cr:1#cr122|122]]，“指示物”。
 
 ----
-Exhaust\\ 
+Exile\\ 
 放逐
 
-An activated ability that may be activated only once. See rule 702.177, “Exhaust.”\\ 
+1. A zone. Exile is essentially a holding area for cards. It used to be known as the “removed-from-the-game” zone.\\ 
 1. 一个区域。放逐区本质上是保留牌的区域。它之前被称为“移出游戏”区。
 
-\\ 
+2. To put an object into the exile zone from whatever zone it’s currently in. An “exiled” card is one that’s been put into the exile zone.\\ 
 2. 从一个物件当前的区域中放到放逐区。一张“被放逐”的牌指被放进放逐区的牌。
 
-Exile\\ 
-参见规则[[cr:4#cr406|406]]，“放逐”。
-
-1. A zone. Exile is essentially a holding area for cards. It used to be known as the “removed-from-the-game” zone.\\ 
-
-
-2. To put an object into the exile zone from whatever zone it’s currently in. An “exiled” card is one that’s been put into the exile zone.\\ 
-竭绝
-
 See rule 406, “Exile.”\\ 
-一个起动式异能，只能起动一次。参见规则[[cr:7#cr702-177|702.177]]，“竭绝”。
+参见规则[[cr:4#cr406|406]]，“放逐”。
 
 ----
 Nontraditional Magic Card\\ 
@@ -1070,14 +1054,14 @@ Illegal Action\\
 非法动作
 
 An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 733, “Handling Illegal Actions.”\\ 
-一个违反游戏规则和/或效应所创造的要求或限制的动作。参见规则[[cr:7#cr733|733]]，“处理非法动作”。
+一个违反游戏规则和／或效应所创造的要求或限制的动作。参见规则[[cr:7#cr733|733]]，“处理非法动作”。
 
 ----
 Illegal Target\\ 
 非法目标
 
 A target that no longer exists or no longer meets the specifications stated by the spell or ability that’s targeting it. See rule 608.2b.\\ 
-一个目标不再存在或不在符合目标它的该咒语或异能所列出的特别要求。参见规则[[cr:6#cr608-2b|608.2b]]。
+一个目标不再存在或不再符合目标它的该咒语或异能所列出的特别要求。参见规则[[cr:6#cr608-2b|608.2b]]。
 
 ----
 Nonbasic Land\\ 
@@ -1226,6 +1210,13 @@ A keyword ability that creates copies of a spell. See rule 702.56, “Replicate.
 一个关键字异能，创造咒语的复制品。参见规则[[cr:7#cr702-56|702.56]]，“覆诵”。
 
 ----
+Snow-Covered (Obsolete)\\ 
+覆雪（已废止）
+
+Some older cards were printed with the term “snow-covered” in their rules text. Except when referencing card names, such cards have received errata in the Oracle card reference to reference the supertype “snow” instead. See Snow.\\ 
+一些老牌在规则叙述中印有“覆雪”一词。除非特指牌名，否则这些牌在Oracle牌张参考文献中已得到勘误改为特指具有超类别“雪境”。参见雪境。
+
+----
 Incubate\\ 
 抚育
 
@@ -1237,11 +1228,11 @@ Incubator Token\\
 抚育器衍生物
 
 An Incubator token is a double-faced token. Its front face is a colorless Incubator artifact with “{2}: Transform this token.” Its back face is a 0/0 colorless Phyrexian artifact creature named “Phyrexian Token.” For more information about predefined tokens, see rule 111.10.\\ 
-抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
+抚育器衍生物是双面衍生物。其正面是无色抚育器神器，且具有“{2}：转化此衍生物。”其背面是名称为非瑞人衍生物的0/0无色非瑞人神器生物。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
 
 ----
 Copy\\ 
-复制/复制品
+复制／复制品
 
 1. To create a new object whose copiable values have been set to those of another object.\\ 
 1. 创造一个新的物件，其可复制特征值设为与另一个物件相同。
@@ -1265,7 +1256,7 @@ Type-Changing Effect\\
 改变类别的效应
 
 An effect that changes an object’s card type, subtype, and/or supertype. See rules 205.1a–b, 305.7, and 613.1d.\\ 
-一个改变物件的牌张类别、副类别、和/或超类别的效应。参见规则[[cr:2#cr205-1a|205.1a-b]]、[[cr:3#cr305-7|305.7]]、以及[[cr:6#cr613-1d|613.1d]]。
+一个改变物件的牌张类别、副类别、和／或超类别的效应。参见规则[[cr:2#cr205-1a|205.1a-b]]、[[cr:3#cr305-7|305.7]]、以及[[cr:6#cr613-1d|613.1d]]。
 
 ----
 Change a Target\\ 
@@ -1286,7 +1277,7 @@ Text-Changing Effect\\
 改变叙述的效应
 
 A continuous effect that changes the text that appears in an object’s text box and/or type line. See rule 612, “Text-Changing Effects.”\\ 
-改变物件文字栏内和/或类别栏内文字叙述的持续性效应。参见规则[[cr:6#cr612|612]]，“改变叙述的效应”。
+改变物件文字栏内和／或类别栏内文字叙述的持续性效应。参见规则[[cr:6#cr612|612]]，“改变叙述的效应”。
 
 ----
 Instead\\ 
@@ -1310,10 +1301,10 @@ An obsolete card type. All cards printed with this card type are now instants. A
 一个已废止的牌张类别。所有印有此类别的牌现在都是瞬间。所有印有牌手可以“视为干涉般使用”的异能现在都可以和任何其他起动式异能一样被起动（除非是法术力异能，它们改为遵循对应规则）。所有相关的牌在Oracle牌张参考文献中得到了勘误。
 
 ----
-Alternate Name\\ 
+Alternating Teams Variant\\ 
 隔位分队玩法
 
-A different name used on promotional or alternate-art versions of some cards. This name has no rules meaning. See rule 201.6.\\ 
+A multiplayer variant played among two or more teams of equal size. See rule 811, “Alternating Teams Variant.”\\ 
 一种多人游戏玩法，可在两个或更多位牌手数量相同的队伍之间使用。参见规则[[cr:8#cr811|811]]，“隔位分队玩法”。
 
 ----
@@ -1408,10 +1399,10 @@ A way of playing in which each player creates their own deck ahead of time. See 
 牌手在赛前自己创造套牌的游戏方式。参见规则[[cr:1#cr100-2a|100.2a]]。
 
 ----
-Keyword Counter\\ 
+Keyword Action\\ 
 关键字动作
 
-A marker placed on an object that modifies its characteristics by granting it a keyword. See rule 122, “Counters.”\\ 
+A verb, such as “destroy” or “cast,” used as a game term rather than as its normal English meaning. See rule 701, “Keyword Actions.”\\ 
 一个动词，例如“消灭”或“施放”，用来作为游戏用语而不是其正常的词意。参见规则[[cr:7#cr701|701]]，“关键字动作”。
 
 ----
@@ -1422,10 +1413,10 @@ A game term, such as “flying” or “haste,” used as shorthand for a longer
 一个游戏用语，例如“飞行”或“敏捷”，用来简述一个很长的异能或一组异能。参见规则[[cr:7#cr702|702]]，“关键字异能”。
 
 ----
-Keyword Action\\ 
+Keyword Counter\\ 
 关键字指示物
 
-A verb, such as “destroy” or “cast,” used as a game term rather than as its normal English meaning. See rule 701, “Keyword Actions.”\\ 
+A marker placed on an object that modifies its characteristics by granting it a keyword. See rule 122, “Counters.”\\ 
 一个放置在物件上的标示物，赋予其一个关键字异能以影响其特征。参见规则[[cr:1#cr122|122]]，“指示物”。
 
 ----
@@ -1528,10 +1519,10 @@ To turn a permanent sideways from an upright position. See rule 701.26, “Tap a
 将一个永久物从正常位置转到横向位置。参见规则[[cr:7#cr701-26|701.26]]，“横置和重置”。
 
 ----
-Tapped\\ 
+Tap Symbol\\ 
 横置符号
 
-A status a permanent may have. See rule 110.5 and rule 701.26, “Tap and Untap.” See also Untapped.\\ 
+The tap symbol {T} in an activation cost means “Tap this permanent.” See rule 107.5.\\ 
 在起动费用中的横置符号{T}指“横置此永久物”。参见规则[[cr:1#cr107-5|107.5]]。
 
 ----
@@ -1567,7 +1558,7 @@ Craft\\
 化炼
 
 Craft is an activated ability that allows a player to exile cards from their graveyard and/or permanents they control to exile the permanent with the craft ability and return it onto the battlefield transformed. See rule 702.167, “Craft.”\\ 
-化炼是起动式异能，允许牌手从坟墓场和/或战场上放逐牌，以放逐具化炼异能的永久物并将其移回战场且已转化。参见规则[[cr:7#cr702-167|702.167]]，“化炼”。
+化炼是起动式异能，允许牌手从其坟墓场放逐牌和／或放逐由其操控的永久物，以放逐具化炼异能的永久物并将其移回战场且已转化。参见规则[[cr:7#cr702-167|702.167]]，“化炼”。
 
 ----
 Emerge\\ 
@@ -1619,17 +1610,17 @@ A Gold token is a colorless artifact token with “Sacrifice this token: Add one
 黄金衍生物是具有“牺牲此衍生物：加一点任意颜色的法术力。”的无色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
 
 ----
-Turn-Based Actions\\ 
+Turn Markers\\ 
 回合标记
 
-Game actions that happen automatically when certain steps or phases begin, or when each step or phase ends. See rule 703, “Turn-Based Actions.”\\ 
+Markers used to keep track of which players are taking turns in a Grand Melee game. See rule 807.4.\\ 
 大型混战游戏中，用于记录正在进行其回合之牌手的标记物。参见规则[[cr:8#cr807-4|807.4]]。
 
 ----
-Turn Markers\\ 
+Turn-Based Actions\\ 
 回合动作
 
-Markers used to keep track of which players are taking turns in a Grand Melee game. See rule 807.4.\\ 
+Game actions that happen automatically when certain steps or phases begin, or when each step or phase ends. See rule 703, “Turn-Based Actions.”\\ 
 当特定的步骤或阶段开始时或当每个步骤或阶段结束时，自动发生的游戏动作。参见规则[[cr:7#cr703|703]]，“回合动作”。
 
 ----
@@ -1704,10 +1695,10 @@ A supertype that’s normally relevant on lands. Any land with this supertype is
 一种超类别，一般情况下与地有关。任何具有此超类别的地是基本地。参见规则[[cr:2#cr205-4|205.4]]，“超类别”。
 
 ----
-Basic Landcycling\\ 
+Basic Land Type\\ 
 基本地类别
 
-See Typecycling.\\ 
+There are five “basic land types”: Plains, Island, Swamp, Mountain, and Forest. Each one has a mana ability associated with it. See rule 305, “Lands.”\\ 
 总共有五种“基本地类别”：平原、海岛、沼泽、山脉、和树林。每种类别对应一个法术力异能。参见规则[[cr:3#cr305|305]]，“地”。
 
 ----
@@ -1715,7 +1706,7 @@ Base Power, Base Toughness\\
 基础力量，基础防御力
 
 Effects that change the base power and/or base toughness of a creature set one or both of those values to a specific number. See rule 613, “Interaction of Continuous Effects.”\\ 
-更改生物的基础力量和/或基础防御力的效应将这些值设定为一个特定的数字。参见规则[[cr:6#cr613|613]]，“持续性效应的互动”。
+更改生物的基础力量和／或基础防御力的效应将这些值设定为一个特定的数字。参见规则[[cr:6#cr613|613]]，“持续性效应的互动”。
 
 ----
 Blitz\\ 
@@ -1736,7 +1727,7 @@ Triple\\
 加两倍
 
 A keyword action that increases a creature’s power and/or toughness. See rule 701.11, “Triple.”\\ 
-一个关键字动作，增加生物的力量和/或防御力。参见规则[[cr:7#cr701-11|701.11]]，“加两倍”。
+一个关键字动作，增加生物的力量和／或防御力。参见规则[[cr:7#cr701-11|701.11]]，“加两倍”。
 
 ----
 Bargain\\ 
@@ -1750,7 +1741,7 @@ Shortcut\\
 简化
 
 A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 732, “Taking Shortcuts.”\\ 
-在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr731|731]]，“进行简化”。
+在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr732|732]]，“进行简化”。
 
 ----
 Annihilator\\ 
@@ -1799,11 +1790,11 @@ Exchange\\
 交换
 
 To swap two things, such as objects, sets of objects, or life totals. See rule 701.12, “Exchange.”\\ 
-交换两个东西，例如物件、一组物件，或生命总值。参见规则[[cr:7#cr701-12|701.12]]，“交换”。
+交换两个东西，例如物件、一组物件，或总生命。参见规则[[cr:7#cr701-12|701.12]]，“交换”。
 
 ----
 Phase\\ 
-阶段/时间跳跃（译者注：这两个词在英文原文中相同）
+阶段／时间跳跃（译者注：这两个词在英文原文中相同）
 
 1. A subsection of a turn. See section 5, “Turn Structure.”\\ 
 1. 组成回合的一部分。参见[[cr:5|第5章]]，“回合结构”。
@@ -1847,6 +1838,13 @@ A card or token may merge with a permanent to form a merged permanent. This merg
 牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr730|730]]，“与永久物结聚”。
 
 ----
+Exhaust\\ 
+竭绝
+
+An activated ability that may be activated only once. See rule 702.177, “Exhaust.”\\ 
+一个起动式异能，只能起动一次。参见规则[[cr:7#cr702-177|702.177]]，“竭绝”。
+
+----
 Spectacle\\ 
 揭幕
 
@@ -1858,7 +1856,7 @@ Airbend\\
 截气
 
 A keyword action that exiles one or more permanents and/or spells. The owner of each card exiled with airbend may cast it from exile by paying {2} rather than paying its mana cost. See rule 701.65, “Airbend.”\\ 
-一个关键字动作，能够放逐一个或数个永久物和/或咒语。被截气放逐之牌的拥有者可以支付{2}而非其法术力费用从放逐区再度施放它。参见规则[[cr:7#cr701-65|701.65]]，“截气”。
+一个关键字动作，能够放逐一个或数个永久物和／或咒语。被截气放逐之牌的拥有者可以支付{2}而非其法术力费用从放逐区再度施放它。参见规则[[cr:7#cr701-65|701.65]]，“截气”。
 
 ----
 End Step\\ 
@@ -1872,7 +1870,7 @@ End the Turn\\
 结束回合
 
 To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 724, “Ending Turns and Phases.”\\ 
-作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的所有其他事情。参见规则[[cr:7#cr724|724]]，“结束回合和阶段”。
+作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的绝大多数其他事情。参见规则[[cr:7#cr724|724]]，“结束回合和阶段”。
 
 ----
 End the Combat Phase\\ 
@@ -1900,7 +1898,7 @@ Unlock\\
 解锁
 
 To give an unlocked designation to a permanent that has one or more locked halves. See rule 709.5f.\\ 
-令一边或数边已上锁的永久物得到一个解锁称号。参见规则[[cr:7#cr709-5g|709.5g]]。
+令一边或数边已上锁的永久物得到一个解锁称号。参见规则[[cr:7#cr709-5f|709.5f]]。
 
 ----
 Graft\\ 
@@ -2019,7 +2017,14 @@ Detain\\
 拘留
 
 A keyword action that temporarily stops a permanent from attacking, blocking, or having its activated abilities activated. See rule 701.35, “Detain.”\\ 
-一个关键字异能，临时阻止一个永久物攻击、阻挡，或起动其具有的起动式异能。参见规则[[cr:7#cr701-35|701.35]]，“拘留”。
+一个关键字动作，临时阻止一个永久物攻击、阻挡，或起动其具有的起动式异能。参见规则[[cr:7#cr701-35|701.35]]，“拘留”。
+
+----
+Empower Jace\\ 
+聚能杰斯
+
+A keyword action that gives you a Jace planeswalker token and/or puts loyalty counters on a Jace token you already have. See rule 701.71, “Empower Jace.”\\ 
+一个关键字动作，造一个杰斯衍生鹏洛客且／或在你已经操控的杰斯衍生物上放置忠诚指示物。参见规则[[cr:7#cr701-71|701.71]]，“聚能杰斯”。
 
 ----
 Modal, Mode\\ 
@@ -2086,10 +2091,10 @@ A keyword ability that can make a creature better in combat. See rule 702.23, �
 一个关键字异能，让生物在战斗中更强。参见规则[[cr:7#cr702-23|702.23]]，“狂暴”。
 
 ----
-Free-for-All\\ 
+Frenzy\\ 
 狂热
 
-A multiplayer variant in which a group of players compete as individuals against each other. See rule 806, “Free-for-All Variant.”\\ 
+A keyword ability that can make a creature better in combat. See rule 702.68, “Frenzy.”\\ 
 一个关键字异能，让生物在战斗中更好。参见规则[[cr:7#cr702-68|702.68]]，“狂热”。
 
 ----
@@ -2098,14 +2103,14 @@ Rad Counter\\
 拉德指示物
 
 A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 728, “Rad Counters.”\\ 
-牌手可以具有的一种指示物，会导致牌手在其战斗前行动阶段磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr727|727]]，“拉德指示物”。
+牌手可以具有的一种指示物，会导致牌手在其战斗前行动阶段开始时磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr728|728]]，“拉德指示物”。
 
 ----
 Type\\ 
 类别
 
 1. An object’s card type or, more broadly, its card type, subtype, and/or supertype. See rule 205, “Type Line,” and section 3, “Card Types.”\\ 
-1. 一个物件的牌张类别，或更笼统的，它的牌张类别、超类别、和/或副类别。参见规则[[cr:2#cr205|205]]，“类别栏”、以及[[cr:3|第3章]]，“牌张类别”。
+1. 一个物件的牌张类别，或更笼统的，它的牌张类别、超类别、和／或副类别。参见规则[[cr:2#cr205|205]]，“类别栏”、以及[[cr:3|第3章]]，“牌张类别”。
 
 2. An attribute mana has. See rule 106, “Mana.”\\ 
 2. 一个法术力的属性。参见规则[[cr:1#cr106|106]]，“法术力”。
@@ -2122,7 +2127,7 @@ Type Line\\
 类别栏
 
 Part of a card. The type line is printed directly below the illustration and contains the card’s card type(s), subtype(s), and/or supertype(s). See rule 205, “Type Line.”\\ 
-牌的一部分。类别栏印在图片的下方，包括该牌的牌张类别、副类别、和/或超类别。参见规则[[cr:2#cr205|205]]，“类别栏”。
+牌的一部分。类别栏印在图片的下方，包括该牌的牌张类别、副类别、和／或超类别。参见规则[[cr:2#cr205|205]]，“类别栏”。
 
 ----
 Typecycling\\ 
@@ -2157,7 +2162,7 @@ Power\\
 力量
 
 1. Part of a card that only creature cards have. A creature card’s power is printed before the slash in its lower right corner. See rule 208, “Power/Toughness.”\\ 
-1. 只有生物牌具有的牌的一部分。生物牌的力量印在其右下角斜线之前。参见规则[[cr:2#cr208|208]]，“力量/防御力”。
+1. 只有生物牌具有的牌的一部分。生物牌的力量印在其右下角斜线之前。参见规则[[cr:2#cr208|208]]，“力量／防御力”。
 
 2. A characteristic that only creatures have. See rule 302.4.\\ 
 2. 一个只有生物才具有的特征。参见规则[[cr:3#cr302-4|302.4]]。
@@ -2254,21 +2259,21 @@ A keyword ability that improves an attacking creature based on the number of opp
 一个关键字异能，根据你攻击的对手数量来强化一个进攻生物。参见规则[[cr:7#cr702-121|702.121]]，“乱斗”。
 
 ----
+Draft Round\\ 
+轮抽轮次
+
+Part of a draft in which each player opens an unopened booster pack and the cards in those booster packs are drafted. See rules 905.1a and 905.1b.\\ 
+轮抽过程的一部分，在此过程中每位牌手打开一个未打开的补充包，然后牌手们抽选这些牌。参见规则[[cr:9#cr905-1a|905.1a]]和[[cr:9#cr905-1b|905.1b]]。
+
+----
 Draft\\ 
-轮抽/抽选（译者注：在英文中这两个词是相同的。）
+轮抽／抽选（译者注：在英文中这两个词是相同的。）
 
 1. A Limited format in which players choose cards one at a time from booster packs, then construct a deck solely from the chosen cards and basic land cards.\\ 
 1. 一种限制赛，牌手依次从补充包中抽选牌，然后只使用所抽选的牌和基本地牌来构组套牌。
 
 2. To choose a card during a draft and put it into your card pool.\\ 
 2. 在轮抽过程中选择一张牌来加入你的牌池。
-
-----
-Draft Round\\ 
-轮抽轮次
-
-Part of a draft in which each player opens an unopened booster pack and the cards in those booster packs are drafted. See rules 905.1a and 905.1b.\\ 
-轮抽过程的一部分，在此过程中每位牌手打开一个未打开的补充包，然后牌手们抽选这些牌。参见规则[[cr:9#cr905-1a|905.1a]]和[[cr:9#cr905-1b|905.1b]]。
 
 ----
 London Mulligan\\ 
@@ -2297,14 +2302,14 @@ Horsemanship\\
 马术
 
 A keyword ability that restricts how a creature may be blocked. See rule 702.31, “Horsemanship.”\\ 
-一个关键字异能，限制生物如何阻挡。参见规则[[cr:7#cr702-31|702.31]]，“马术”。
+一个关键字异能，限制生物会被什么阻挡。参见规则[[cr:7#cr702-31|702.31]]，“马术”。
 
 ----
 Bury (Obsolete)\\ 
 埋葬（已废止）
 
 A term that meant “put [a permanent] into its owner’s graveyard.” In general, cards that were printed with the term “bury” have received errata in the Oracle card reference to read, “Destroy [a permanent]. It can’t be regenerated,” or “Sacrifice [a permanent].”\\ 
-曾经表示“将[永久物]放进其拥有着的坟墓场”的用词。一般情况下，印有“埋葬”一词的牌在Oracle牌张参考文献中得到了勘误，改为“消灭[某永久物]。它不能重生”，或“牺牲[某永久物]”。
+曾经表示“将[永久物]放进其拥有者的坟墓场”的用词。一般情况下，印有“埋葬”一词的牌在Oracle牌张参考文献中得到了勘误，改为“消灭[某永久物]。它不能重生”，或“牺牲[某永久物]”。
 
 ----
 Monstrosity\\ 
@@ -2315,7 +2320,7 @@ A keyword action that puts +1/+1 counters on a creature and makes it become mons
 
 ----
 Monstrous\\ 
-蛮化（状况）/已蛮化
+蛮化（状况）／已蛮化
 
 A designation given to a creature whose ability including a monstrosity instruction has resolved. See rule 701.37, “Monstrosity.”\\ 
 因一个生物的蛮化起动式异能已经结算，而赋予它的一种称号。（译注：中文版翻译中，“当...成为蛮化时”简略译为“当...蛮化时”，有可能引起混淆。）参见规则[[cr:7#cr701-37|701.37]]，“蛮化”。
@@ -2423,7 +2428,7 @@ The Ring Tempts You\\
 魔戒引诱你
 
 A keyword action that causes a player to choose a creature they control to be their legendary Ring-bearer and may cause them to create an emblem called The Ring. See rule 701.54, “The Ring Tempts You.”\\ 
-一个关键字动作，使牌手选择一个其操控的生物作为传奇持戒人，并创造一个名为魔戒的徽记。参见规则[[cr:7#cr701-54|701.54]]，“魔戒引诱你”。
+一个关键字动作，使牌手选择一个其操控的生物作为传奇持戒人，且可能使其创造一个名称为魔戒的徽记。参见规则[[cr:7#cr701-54|701.54]]，“魔戒引诱你”。
 
 ----
 Powerstone Token\\ 
@@ -2437,7 +2442,7 @@ Hone Counter\\
 磨练指示物
 
 A counter on an Equipment that gives the equipped creature +1/+0. See rule 122, “Counters.”\\ 
-武具上的一张指示物，让佩带的生物得+1/+0。参见规则[[cr:1#cr122|122]]，“指示物”。
+武具上的指示物，让佩带的生物得+1/+0。参见规则[[cr:1#cr122|122]]，“指示物”。
 
 ----
 Modal Double-Faced Cards\\ 
@@ -2639,7 +2644,7 @@ Improvise\\
 拼造
 
 A keyword ability that lets you tap artifacts rather than pay mana to cast a spell. See rule 702.126, “Improvise.”\\ 
-一个关键字异能，使你可以在施放咒语时横置神器代替法术力来支付费用。
+一个关键字异能，使你可以在施放咒语时横置神器代替法术力来支付费用。参见规则[[cr:7#cr702-126|702.126]]，“拼造”。
 
 ----
 Plains\\ 
@@ -2649,18 +2654,18 @@ One of the five basic land types. Any land with this subtype has the ability “
 五种基本地类别中的一种。任何具有此副类别的地都具有异能“{T}：加{W}。”参见规则[[cr:3#cr305-6|305.6]]。
 
 ----
-Plainscycling\\ 
-平原行者
-
-See Typecycling.\\ 
-参见类别循环。
-
-----
 Plainswalk\\ 
 平原行者
 
 See Landwalk.\\ 
 参见地行者。
+
+----
+Plainscycling\\ 
+平原循环
+
+See Typecycling.\\ 
+参见类别循环。
 
 ----
 Unearth\\ 
@@ -2749,10 +2754,10 @@ The hand of cards a player starts the game with, once the player has decided not
 
 ----
 Starting Hand Size\\ 
-起手牌数量
+起手牌张数
 
 The number of cards a player draws as a game begins. In most games, each player’s starting hand size is seven. See rule 103.5.\\ 
-牌手在游戏开始时抓牌的数量。在大多数游戏中，每位牌手的起手牌数量为七。参见规则[[cr:1#cr103-5|103.5]]。
+牌手在游戏开始时抓牌的数量。在大多数游戏中，每位牌手的起手牌张数为七。参见规则[[cr:1#cr103-5|103.5]]。
 
 ----
 Sneak\\ 
@@ -2839,6 +2844,13 @@ A place where objects can be during a game. See section 4, “Zones.”\\
 在游戏过程中物件所处于的位置。参见[[cr:4|第4章]]，“区域”。
 
 ----
+Local Enchantment (Obsolete)\\ 
+区域结界（已废止）
+
+An obsolete term for an Aura. Cards printed with this text have received errata in the Oracle card reference.\\ 
+灵气已废止的用词。印有此叙述的牌在Oracle牌张参考文献中得到了勘误。
+
+----
 Supervillain Rumble\\ 
 群魔乱斗
 
@@ -2858,7 +2870,7 @@ Concede\\
 认输
 
 To quit the game. Conceding a game immediately causes that player to leave that game and lose that game. See rule 104, “Ending the Game.”\\ 
-离开游戏。认输游戏让牌手立刻离开游戏并输去游戏。参见规则[[cr:1#cr104|104]]，“结束游戏”。
+离开游戏。认输游戏让牌手立刻离开游戏并输掉游戏。参见规则[[cr:1#cr104|104]]，“结束游戏”。
 
 ----
 Ninjutsu\\ 
@@ -3048,7 +3060,7 @@ Leveler Cards\\
 升级牌
 
 Cards with striated text boxes and three power/toughness boxes. See rule 711, “Leveler Cards.”\\ 
-具有条状文字栏以及三个力量/防御力方格的牌。参见规则[[cr:7#cr711|711]]，“升级牌”。
+具有条状文字栏以及三个力量／防御力方格的牌。参见规则[[cr:7#cr711|711]]，“升级牌”。
 
 ----
 Life Modifier\\ 
@@ -3132,7 +3144,7 @@ Time Travel\\
 时间旅行
 
 To add a time counter to or remove a time counter from any number of permanents you control with a time counter on them or suspended cards you own in exile with time counters on them. See rule 701.56, “Time Travel.”\\ 
-从任意数量由你操控且其上有计时指示物的永久物和/或放逐区内由你拥有且其上有计时指示物之已延缓的牌上放置或移去一个计时指示物。参见规则[[cr:7#cr701-56|701.56]]，“时间旅行”。
+选择任意数量由你操控且其上有计时指示物的永久物和／或放逐区内由你拥有且其上有计时指示物之已延缓的牌，在其上放置或从其上移去一个计时指示物。参见规则[[cr:7#cr701-56|701.56]]，“时间旅行”。
 
 ----
 Phasing\\ 
@@ -3202,7 +3214,7 @@ Walker Token\\
 尸行者衍生物
 
 A Walker token is a 2/2 black Zombie creature token named Walker. For more information on predefined tokens, see rule 111.10.\\ 
-尸行者衍生物是名为尸行者的2/2黑色灵俑衍生生物。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
+尸行者衍生物是名称为尸行者的2/2黑色灵俑衍生生物。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
 
 ----
 Bloodthirst\\ 
@@ -3213,7 +3225,7 @@ A keyword ability that can have a creature enter the battlefield with +1/+1 coun
 
 ----
 Play\\ 
-使用/场上（译者注：这两个词在英文原文中相同）
+使用／场上（译者注：这两个词在英文原文中相同）
 
 1. To play a land is to put a land onto the battlefield as a special action. See rule 116, “Special Actions,” and rule 305, “Lands.”\\ 
 1. 使用一张地是指将一张地作为特殊动作放进战场。参见规则[[cr:1#cr116|116]]，“特殊动作”，和规则[[cr:3#cr305|305]]，“地”。
@@ -3300,6 +3312,13 @@ A designation permanents can have. Infinity permanents have their ∞ abilities 
 一个永久物可以获得的称号。只要一个无限永久物已受掌控，它就具有其∞异能。参见规则[[cr:7#cr701-64|701.64]]，“掌控”，以及规则[[cr:7#cr702-186|702.186]]，“∞（无限）”。
 
 ----
+Lose the Game\\ 
+输掉游戏
+
+There are several ways to lose the game. See rule 104, “Ending the Game,” rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.10 (for an additional rule for Commander games).\\ 
+有多种方式输掉游戏。参见规则[[cr:1#cr104|104]]，“结束游戏”、规则[[cr:8#cr810-8|810.8]]（双头巨人玩法的额外规则）、规则[[cr:8#cr809-5|809.5]]（皇帝玩法的额外规则）以及规则[[cr:9#cr903-10|903.10]]（指挥官玩法的额外规则）。
+
+----
 Forest\\ 
 树林
 
@@ -3312,13 +3331,6 @@ Forestwalk\\
 
 See Landwalk.\\ 
 参见地行者。
-
-----
-Lose the Game\\ 
-输去游戏
-
-There are several ways to lose the game. See rule 104, “Ending the Game,” rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.10 (for an additional rule for Commander games).\\ 
-有多种方式输去游戏。参见规则[[cr:1#cr104|104]]，“结束游戏”、规则[[cr:8#cr810-8|810.8]]（双头巨人玩法的额外规则）、规则[[cr:8#cr809-5|809.5]]（皇帝玩法的额外规则）以及规则[[cr:9#cr903-10|903.10]]（指挥官玩法的额外规则）。
 
 ----
 Blight\\ 
@@ -3346,7 +3358,7 @@ Two-Headed Giant Variant\\
 双头巨人玩法
 
 A multiplayer variant played among two-player teams that each have a shared life total and take a simultaneous turn. See rule 810, “Two-Headed Giant Variant.”\\ 
-一个多人玩法，在两人共享总生命且同时进行回合的队伍之间展开。参见规则[[cr:8#cr801|801]]，“双头巨人玩法”。
+一个多人玩法，在两人共享总生命且同时进行回合的队伍之间展开。参见规则[[cr:8#cr810|810]]，“双头巨人玩法”。
 
 ----
 Instant\\ 
@@ -3490,13 +3502,13 @@ Characteristic-Defining Ability\\
 特征定义异能
 
 A kind of static ability that conveys information about an object’s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box). See rule 604.3.\\ 
-一种静止式异能，包含物件一般情况下在该物件其他部分才能找到的特征信息（比如法术力费用，类别栏，或力量/防御力框）。参见规则[[cr:6#cr604-3|604.3]]。
+一种静止式异能，包含物件一般情况下在该物件其他部分才能找到的特征信息（比如法术力费用，类别栏，或力量／防御力框）。参见规则[[cr:6#cr604-3|604.3]]。
 
 ----
-Alternating Teams Variant\\ 
+Alternative Cost\\ 
 替代性费用
 
-A multiplayer variant played among two or more teams of equal size. See rule 811, “Alternating Teams Variant.”\\ 
+A cost a spell may have that its controller can pay rather than paying its mana cost. See rule 118, “Costs,” and rule 601, “Casting Spells.”\\ 
 咒语可能具有的费用，其操控者可以选择支付该费用而不是其法术力费用。参见规则[[cr:1#cr118|118]]，“费用”，以及规则[[cr:6#cr601|601]]，“施放咒语”。
 
 ----
@@ -3546,7 +3558,7 @@ Sticker\\
 贴纸
 
 A marker placed on an object that modifies its characteristics or interacts with a rule or effect. See rule 123, “Stickers.”\\ 
-一个置于物件或牌手上的标示物，影响其特征或与规则或效应互动。参见规则[[cr:1#cr123|123]]，“贴纸”。
+一个置于物件上的标示物，影响其特征或与规则或效应互动。参见规则[[cr:1#cr123|123]]，“贴纸”。
 
 ----
 Sticker Sheet\\ 
@@ -3715,7 +3727,7 @@ Learn\\
 温习
 
 A keyword action that lets a player add a Lesson card to their hand from outside the game or discard a card to draw a card. See rule 701.48, “Learn.”\\ 
-一个关键字异能，使牌手可以从游戏外将一张课程牌置于其手上，或弃一张牌然后抓一张牌。参见规则[[cr:7#cr701-48|701.48]]，“温习”。
+一个关键字动作，使牌手可以从游戏外将一张课程牌置于其手上，或弃一张牌然后抓一张牌。参见规则[[cr:7#cr701-48|701.48]]，“温习”。
 
 ----
 Text Box\\ 
@@ -3729,7 +3741,7 @@ Object\\
 物件
 
 An ability on the stack, a card, a copy of a card, an emblem, a token, a spell, or a permanent. See rule 109, “Objects.”\\ 
-堆叠上的异能、牌、牌的复制品、衍生物、咒语或永久物。参见规则[[cr:1#cr109|109]]，“物件”。
+堆叠上的异能、牌、牌的复制品、徽记、衍生物、咒语或永久物。参见规则[[cr:1#cr109|109]]，“物件”。
 
 ----
 Equipment\\ 
@@ -3739,32 +3751,14 @@ An artifact subtype. Equipment can be attached to creatures. See rule 301, “Ar
 一个神器副类别。武具可以贴附于生物上。参见规则[[cr:3#cr301|301]]，“神器”以及规则[[cr:7#cr702-6|702.6]]，“佩带”。
 
 ----
-Color Identity\\ 
+Colorless\\ 
 无色
 
-A set of colors that determines what cards may be included in a deck for the Commander casual variant. See rule 903.4.\\ 
+1. An object with no color is colorless. Colorless is not a color. See rule 105, “Colors,” and rule 202, “Mana Cost and Color.”\\ 
 1. 一个没有颜色的物件为无色。无色不是颜色。参见规则[[cr:1#cr105|105]]，“颜色”，以及规则[[cr:2#cr202|202]]，“法术力费用和颜色”。
 
-\\ 
-2. 一种法术力。参见规则[[cr:1#cr106|106]]，“法术力”，以及规则[[cr:1#cr107-4c|107.4c]]。
-
-Color Indicator\\ 
-
-
-A characteristic of an object. See rule 105, “Colors,” and rule 204, “Color Indicator.”\\ 
-标识色
-
-\\ 
-一系列颜色，在指挥官休闲玩法中决定哪些牌可以加入套牌。参见规则[[cr:9#cr903-4|903.4]]。
-
-Colorless\\ 
-
-
-1. An object with no color is colorless. Colorless is not a color. See rule 105, “Colors,” and rule 202, “Mana Cost and Color.”\\ 
-颜色标志
-
 2. A type of mana. See rule 106, “Mana,” and rule 107.4c.\\ 
-物件的一个特征。参见规则[[cr:1#cr105|105]]，“颜色”，以及规则[[cr:2#cr204|204]]，“颜色标志”。
+2. 一种法术力。参见规则[[cr:1#cr106|106]]，“法术力”，以及规则[[cr:1#cr107-4c|107.4c]]。
 
 ----
 Bushido\\ 
@@ -3883,7 +3877,7 @@ Initiative\\
 先制
 
 A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 726, “The Initiative.”\\ 
-牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr725|725]]，“先制”。
+牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr726|726]]，“先制”。
 
 ----
 Restriction\\ 
@@ -3907,10 +3901,10 @@ An optional rule used in some multiplayer games that limits what a player can af
 在一些多人游戏中使用的可选规则，限制牌手能够影响的事物。参见规则[[cr:8#cr801|801]]，“限制影响范围模式”。
 
 ----
-Restart the Game\\ 
+Respond\\ 
 响应
 
-To immediately end the current game and restart it. See rule 727, “Restarting the Game.”\\ 
+To cast an instant spell or activate an ability while another spell or ability is already on the stack. See rule 117.7.\\ 
 另一个咒语或异能已经在堆叠上时，施放一个瞬间咒语或起动一个异能。参见规则[[cr:1#cr117-7|117.7]]。
 
 ----
@@ -3984,6 +3978,13 @@ To move an Equipment away from the creature it’s attached to so that the Equip
 将一个武具从其所贴附的生物上移走，从而让武具留在战场上但不装备在任何生物上。参见规则[[cr:7#cr701-3d|701.3d]]。
 
 ----
+Heartwood Token\\ 
+心材衍生物
+
+A Heartwood token is a red and green artifact token with “{T}: Add {R} or {G}.” For more information about predefined tokens, see rule 111.10.\\ 
+心材衍生物是具有“{T}：加{R}或{G}”的红绿双色衍生神器。欲知关于预定义衍生物的更多信息，参见规则[[cr:1#cr111-10|111.10]]。
+
+----
 Main Phase\\ 
 行动阶段
 
@@ -4016,7 +4017,7 @@ Station\\
 蓄势
 
 A keyword ability that lets you tap creatures to add charge counters to station cards. See rule 702.184, “Station,” and rule 721, “Station Cards.”\\ 
-一个关键字异能，允许你横置生物来在蓄势牌上放置充电指示物。参见规则[[cr:7#cr721|721]]，“蓄势牌”。
+一个关键字异能，允许你横置生物来在蓄势牌上放置充电指示物。参见规则[[cr:7#cr702-184|702.184]]，“蓄势”，以及规则[[cr:7#cr721|721]]，“蓄势牌”。
 
 ----
 Station Cards\\ 
@@ -4030,7 +4031,7 @@ Endure\\
 续战
 
 A keyword ability that lets you choose put +1/+1 counters on a creature or create a Spirit creature token. See rule 702.62, “Endure.”\\ 
-一个关键字异能，让你选择在生物上放置+1/+1指示物或派出精怪衍生生物。参见规则[[cr:7#cr702-62|702.62]]，“续战”。（译注：我确信这是一个关键字动作。）
+一个关键字异能，让你选择在生物上放置+1/+1指示物或派出精怪衍生生物。参见规则[[cr:7#cr701-63|701.63]]，“续战”。（译注：我确信这是一个关键字动作。）
 
 ----
 Declare Attackers\\ 
@@ -4051,7 +4052,7 @@ Declare Blockers\\
 宣告阻挡者
 
 To choose a set of creatures that will block, declare which attacking creature each creature is blocking, and pay any costs required to allow those creatures to block. See rule 509.1.\\ 
-选择将进行阻挡的一组生物，为每个生物宣告将阻挡那个攻击生物，并支付允许这些生物阻挡所要求的任何费用。参见规则[[cr:5#cr509-1|509.1]]。
+选择将进行阻挡的一组生物，为每个生物宣告将阻挡哪个攻击生物，并支付允许这些生物阻挡所要求的任何费用。参见规则[[cr:5#cr509-1|509.1]]。
 
 ----
 Declare Blockers Step\\ 
@@ -4065,7 +4066,7 @@ Boast\\
 炫威
 
 An activated ability that can be activated only once each turn if the creature with the boast ability attacked that turn. See rule 702.142, “Boast.”\\ 
-一个起动式异能，如果具炫威异能的生物攻击过便可起动，且每回合只能起动一次。参见规则[[cr:7#cr702-142|702.142]]，“炫威”。
+一个起动式异能，在具炫威异能的生物攻击过的回合可起动，且每回合只能起动一次。参见规则[[cr:7#cr702-142|702.142]]，“炫威”。
 
 ----
 Choose a Background\\ 
@@ -4117,10 +4118,10 @@ See Typecycling.\\
 参见类别循环。
 
 ----
-Basic Land Type\\ 
+Basic Landcycling\\ 
 循环基本地
 
-There are five “basic land types”: Plains, Island, Swamp, Mountain, and Forest. Each one has a mana ability associated with it. See rule 305, “Lands.”\\ 
+See Typecycling.\\ 
 参见类别循环。
 
 ----
@@ -4156,7 +4157,7 @@ Loop\\
 循环（动作）
 
 A set of actions that could be repeated indefinitely. See rule 732, “Taking Shortcuts.”\\ 
-一系列可以重复无数次的动作。参见规则[[cr:7#cr731|731]]，“进行简化”。
+一系列可以重复无数次的动作。参见规则[[cr:7#cr732|732]]，“进行简化”。
 
 ----
 Cycling\\ 
@@ -4212,6 +4213,13 @@ Color\\
 2. 一个法术力可能具有的特征。参见规则[[cr:1#cr106|106]]，“法术力”。
 
 ----
+Color Indicator\\ 
+颜色标志
+
+A characteristic of an object. See rule 105, “Colors,” and rule 204, “Color Indicator.”\\ 
+物件的一个特征。参见规则[[cr:1#cr105|105]]，“颜色”，以及规则[[cr:2#cr204|204]]，“颜色标志”。
+
+----
 Outlast\\ 
 延生
 
@@ -4258,7 +4266,7 @@ Generic Mana\\
 一般法术力
 
 Mana in a cost represented by numerical symbols (such as {1}) or variable symbols (such as {X}) that can be paid with mana of any type. See rule 107.4.\\ 
-一般法术力指没有被有色法术力符号表示的费用；它可以被任何类别的法术力支付。参见规则[[cr:1#cr107-4|107.4]]。
+一般法术力指由数字符号（如{1}）或可变符号（如{X}）表示的费用，可以被任何类别的法术力支付。参见规则[[cr:1#cr107-4|107.4]]。
 
 ----
 Prepared\\ 
@@ -4293,7 +4301,7 @@ Remove from Combat\\
 移出战斗
 
 Certain events can cause an attacking or blocking creature, or a planeswalker that’s being attacked, to be “removed from combat.” A permanent that’s removed from combat has no further involvement in that combat phase. See rule 506.4.\\ 
-一些特定的事件将造成攻击或阻挡生物，或正被被攻击的鹏洛客，被“移出战斗”。一个被移出战斗的永久物对该战斗阶段没有更多的参与。参见规则[[cr:5#cr506-4|506.4]]。
+一些特定的事件将造成攻击或阻挡生物，或正被攻击的鹏洛客，被“移出战斗”。一个被移出战斗的永久物对该战斗阶段没有更多的参与。参见规则[[cr:5#cr506-4|506.4]]。
 
 ----
 Pass in Succession\\ 
@@ -4334,10 +4342,10 @@ Some older cards used “move” with respect to Auras; those cards have receive
 一些较老的牌使用“移动”一词提及灵气；这些牌在Oracle牌张参考文献中已获得勘误，现在使用“贴附”一词。
 
 ----
-Tap Symbol\\ 
+Tapped\\ 
 已横置
 
-The tap symbol {T} in an activation cost means “Tap this permanent.” See rule 107.5.\\ 
+A status a permanent may have. See rule 110.5 and rule 701.26, “Tap and Untap.” See also Untapped.\\ 
 一个永久物可能具有的状态。参见规则[[cr:1#cr110-5|110.5]]和规则[[cr:7#cr701-26|701.26]]，“横置和重置”。另参见未横置。
 
 ----
@@ -4446,7 +4454,7 @@ A status a permanent may have. Phased-in is the default status. Phased-out perma
 
 ----
 Solved\\ 
-已侦结/侦结
+已侦结／侦结
 
 1. A designation a Case may have, allowing its last ability to affect the game. See rule 719, “Case Cards.”\\ 
 1. 一个案件可以获得的称号，允许案件的最后一个异能影响游戏。参见规则[[cr:7#cr719|719]]，“案件牌”。
@@ -4501,7 +4509,7 @@ Worthy\\
 英杰
 
 A rules term used to describe a creature that’s legendary, not a Villain, and red and/or white. See rule 700.16.\\ 
-描述一个传奇，非反派，且是红色／白色的生物之规则术语。参见规则[[cr:7#cr700-16|700.16]]。
+描述一个传奇，非反派，且是红色和／或白色的生物之规则术语。参见规则[[cr:7#cr700-16|700.16]]。
 
 ----
 Range of Influence\\ 
@@ -4719,7 +4727,7 @@ Proliferate\\
 增殖
 
 To give an additional counter to any number of players and/or permanents of each kind they already have. See rule 701.34, “Proliferate.”\\ 
-对于任意数量的已有指示物的牌手和/或永久物，其上每种指示物都给予一个额外的指示物。参见规则[[cr:7#cr701-34|701.34]]，“增殖”。
+对于任意数量的已有指示物的牌手和／或永久物，其上每种指示物都给予一个额外的指示物。参见规则[[cr:7#cr701-34|701.34]]，“增殖”。
 
 ----
 Exploit\\ 
@@ -4803,7 +4811,7 @@ Reveal\\
 展示
 
 To show a card to all players for a brief time. See rule 701.20, “Reveal.”\\ 
-将一张牌在简短的事件内给所有牌手看。参见规则[[cr:7#cr701-20|701.20]]，“展示”。
+将一张牌在简短的时间内给所有牌手看。参见规则[[cr:7#cr701-20|701.20]]，“展示”。
 
 ----
 Battle\\ 
@@ -4831,7 +4839,7 @@ Summoning Sickness Rule\\
 召唤失调规则
 
 Informal term for a player’s inability to attack with a creature or to activate its abilities that include the tap symbol or the untap symbol unless the creature has been under that player’s control since the beginning of that player’s most recent turn. See rule 302.6. See also Haste.\\ 
-非正式用语，指除非一个生物在牌手最近的一个回合开始时便已经操控它，否则该牌手不能用该生物进行攻击或起动它包含横置符号或重置符号的起动式异能。参见规则[[cr:3#cr302-6|302.6]]。另参见敏捷。
+非正式用语，指除非牌手从其最近一个回合开始时起便一直操控该生物，否则该牌手不能用它进行攻击或起动它包含横置符号或重置符号的起动式异能。参见规则[[cr:3#cr302-6|302.6]]。另参见敏捷。
 
 ----
 Summon (Obsolete)\\ 
@@ -4932,7 +4940,7 @@ Commander\\
 1. 一种休闲式玩法，套牌由一张传奇牌（通常是生物）来领导。参见规则[[cr:9#cr903|903]]，“指挥官”。
 
 2. A designation given to one legendary card in each player’s deck in the Commander casual variant.\\ 
-2. 在指挥官休闲式玩法中，给予每位牌手的套牌中一张传奇生物牌的称号。
+2. 在指挥官休闲式玩法中，给予每位牌手的套牌中一张传奇牌的称号。
 
 ----
 Commander Draft\\ 
@@ -5134,21 +5142,21 @@ The game in which a spell (or ability) that created a subgame was cast (or activ
 施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[[cr:7#cr729|729]]，“子游戏”。
 
 ----
+Draw Step\\ 
+抓牌步骤
+
+Part of the turn. This step is the third and final step of the beginning phase. See rule 504, “Draw Step.”\\ 
+回合的一部分。该步骤是开始阶段的第三个也是最后一个步骤。参见规则[[cr:5#cr504|504]]，“抓牌步骤”。
+
+----
 Draw\\ 
-抓/平手（译者注：在英文中这两个词是相同的。）
+抓／平手（译者注：在英文中这两个词是相同的。）
 
 1. To put the top card of a player’s library into their hand as a turn-based action or as the result of an effect that uses the word “draw.” See rule 121, “Drawing a Card.”\\ 
 1. 作为回合动作或一个效应的结果，将牌手的牌库顶牌放进其手上，使用“抓”一词。参见规则[[cr:1#cr121|121]]，“抓牌”。
 
 2. The result of a game in which neither player wins or loses. See rule 104.4.\\ 
 2. 没有牌手输或赢的游戏结局。参见规则[[cr:1#cr104-4|104.4]]。
-
-----
-Draw Step\\ 
-抓牌步骤
-
-Part of the turn. This step is the third and final step of the beginning phase. See rule 504, “Draw Step.”\\ 
-回合的一部分。该步骤是开始阶段的第三个也是最后一个步骤。参见规则[[cr:5#cr504|504]]，“抓牌步骤”。
 
 ----
 Transform\\ 
@@ -5214,17 +5222,17 @@ The physical state of a permanent. See rule 110.5.\\
 一个永久物的物理状态。参见规则[[cr:1#cr110-5|110.5]]。
 
 ----
-State-Based Actions\\ 
+State Trigger\\ 
 状态触发
 
-Game actions that happen automatically whenever certain conditions are met. See rule 704, “State-Based Actions.”\\ 
+A triggered ability that triggers when a game state is true rather than triggering when an event occurs. See rule 603.8.\\ 
 一个当游戏状态符合而不是触发事件发生时触发的触发式异能。参见规则[[cr:6#cr603-8|603.8]]。
 
 ----
-State Trigger\\ 
+State-Based Actions\\ 
 状态动作
 
-A triggered ability that triggers when a game state is true rather than triggering when an event occurs. See rule 603.8.\\ 
+Game actions that happen automatically whenever certain conditions are met. See rule 704, “State-Based Actions.”\\ 
 每当特定条件符合时自动发生的游戏动作。参见规则[[cr:7#cr704|704]]，“状态动作”。
 
 ----
@@ -5249,17 +5257,17 @@ An ability that triggers based on actions taken earlier during a spell or abilit
 一种异能，根据先前咒语或异能结算过程中所作的动作而决定是否触发。参见规则[[cr:6#cr603-12|603.12]]。
 
 ----
-Frenzy\\ 
+Freerunning\\ 
 自由奔跑
 
-A keyword ability that can make a creature better in combat. See rule 702.68, “Frenzy.”\\ 
+A keyword ability that allows certain spells to be cast for an alternative cost. See rule 702.173, “Freerunning.”\\ 
 一个关键字异能，允许特定咒语以替代性费用施放。参见规则[[cr:7#cr702-173|702.173]]，“自由奔跑”。
 
 ----
-Freerunning\\ 
+Free-for-All\\ 
 自由竞赛玩法
 
-A keyword ability that allows certain spells to be cast for an alternative cost. See rule 702.173, “Freerunning.”\\ 
+A multiplayer variant in which a group of players compete as individuals against each other. See rule 806, “Free-for-All Variant.”\\ 
 一个多人玩法，牌手们会以个人方式来互相展开对抗。参见规则[[cr:8#cr806|806]]，“自由竞赛玩法”。
 
 ----
@@ -5309,7 +5317,7 @@ Last Known Information\\
 最后已知信息
 
 Information about an object that’s no longer in the zone it’s expected to be in, or information about a player who’s no longer in the game. This information captures that object’s last existence in that zone or that player’s last existence in the game. See rules 113.7a, 608.2b, 608.2h, and 800.4h.\\ 
-有关一个不再存在于它应在区域的物件，或有关一个不再在游戏中的牌手的信息。信息将抓住该物件在该区域中存在最后一刻的信息，或牌手在离开游戏前最后一刻的信息。参见规则[[cr:1#cr113-7a|113.7a]]、[[cr:6#cr608-2b|608.2b]]、[[cr:6#cr608-2g|608.2g]]以及[[cr:8#cr800-4h|800.4h]]。
+有关一个不再存在于它应在区域的物件，或有关一个不再在游戏中的牌手的信息。信息将抓住该物件在该区域中存在最后一刻的信息，或牌手在离开游戏前最后一刻的信息。参见规则[[cr:1#cr113-7a|113.7a]]、[[cr:6#cr608-2b|608.2b]]、[[cr:6#cr608-2h|608.2h]]以及（译注：800.4i）。
 
 ----
 Crime\\ 

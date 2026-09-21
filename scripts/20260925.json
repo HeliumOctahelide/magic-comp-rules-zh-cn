@@ -1,5 +1,5 @@
 {
-    "version": "20260807",
+    "version": "20260925",
     "intro": {
         "contents": [
             {
@@ -7,8 +7,8 @@
                 "zh": "万智牌完整规则"
             },
             {
-                "en": "These rules are effective as of August 7, 2026.",
-                "zh": "此规则于2026年8月7日起生效。"
+                "en": "These rules are effective as of September 25, 2026.",
+                "zh": "此规则于2026年9月25日起生效。"
             },
             {
                 "en": "Introduction",
@@ -1539,6 +1539,11 @@
                                     "chapter": "111.10w",
                                     "en": "A Vibranium token is a colorless Vibranium artifact token with indestructible and “{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.”",
                                     "zh": "振金衍生物是具有不灭和“{T}：加{C}。此法术力不能用来施放非神器咒语。”的无色振金衍生神器。"
+                                },
+                                {
+                                    "chapter": "111.10x",
+                                    "en": "A Heartwood token is a red and green Heartwood artifact token with “{T}: Add {R} or {G}.”",
+                                    "zh": "心材衍生物是具有“{T}：加{R}或{G}。”的红绿双色心材衍生神器。"
                                 }
                             ]
                         },
@@ -3668,8 +3673,8 @@
                                 },
                                 {
                                     "chapter": "205.3g",
-                                    "en": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Attraction (see rule 717), Blood, Bobblehead, Book, Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), Gold, Incubator, Infinity, Junk, Lander, Map, Mutagen, Powerstone, Spacecraft, Stone, Treasure, Vehicle (see rule 301.7), and Vibranium.",
-                                    "zh": "神器具有其特有的副类别；这些副类别被称为神器类别。神器类别包括景点（参见规则717）、血滴、娃娃、书籍[Book]、线索、机巧、武具（参见规则301.5）、食品、工事（参见规则301.6）、黄金、抚育器、无限[Infinity]、废料、探地器[Lander]、地图、突变剂[Mutagen]、魔力石、太空船[Spacecraft]、原石[Stone]、珍宝、载具（参见规则301.7），以及振金[Vibranium]。"
+                                    "en": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Attraction (see rule 717), Blood, Bobblehead, Book, Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), Gold, Heartwood, Incubator, Infinity, Junk, Lander, Map, Mutagen, Powerstone, Spacecraft, Stone, Treasure, Vehicle (see rule 301.7), and Vibranium.",
+                                    "zh": "神器具有其特有的副类别；这些副类别被称为神器类别。神器类别包括景点（参见规则717）、血滴、娃娃、书籍[Book]、线索、机巧、武具（参见规则301.5）、食品、工事（参见规则301.6）、黄金、心材[Heartwood]、抚育器、无限[Infinity]、废料、探地器[Lander]、地图、突变剂[Mutagen]、魔力石、太空船[Spacecraft]、原石[Stone]、珍宝、载具（参见规则301.7），以及振金[Vibranium]。"
                                 },
                                 {
                                     "chapter": "205.3h",
@@ -3694,7 +3699,7 @@
                                 {
                                     "chapter": "205.3m",
                                     "en": "Creatures and kindreds share their lists of subtypes; these subtypes are called creature types. One creature type is two words long: Time Lord. All other creature types are one word long: Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Bison, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drix, Drone, Druid, Dryad, Dwarf, Echidna, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eternal, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gamma, Gargoyle, Germ, Giant, Giraffe, Gith, Glimmer, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hedgehog, Hellion, Hero, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inhuman, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kangaroo, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Kree, Llama, Lamia, Lammasu, Leech, Lemur, Leviathan, Lhurgoyf, Licid, Lizard, Lobster, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moogle, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Platypus, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Qu, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Seal, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Shi’ar, Siren, Skeleton, Skrull, Skunk, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Sorcerer, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spy, Squid, Squirrel, Starfish, Surrakar, Survivor, Symbiote, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Toy, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Utrom, Vampire, Varmint, Vedalken, Villain, Volver, Wall, Walrus, Warlock, Warrior, Weasel, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
-                                    "zh": "生物和亲缘共享其副类别列表；这些副类别被称为生物类别。有一种生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、野牛[Bison]、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、卓兹人[Drix]、奴兽、德鲁伊、树灵、矮人、针鼹[Echidna]、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、永恒族[Eternal]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、伽马人[Gamma]、石像鬼、病菌、巨人、长颈鹿[Giraffe]、吉斯人、烁光体[Glimmer]、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、宾客[Guest]、巫婆、半身人、仓鼠、哈痞、刺猬[Hedgehog]、地狱兽、英雄、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、异人族[Inhuman]、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、袋鼠[Kangaroo]、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、克里人[Kree]、骆马、拉弥亚、拉玛苏、蛭、狐猴[Lemur]、海怪、拉高耶夫、立吸怪、蜥蜴、龙虾[Lobster]、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、莫古力[Moogle]、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、鸭嘴兽[Platypus]、豪猪、负鼠、魔判官、原体、棱镜、噬体、食族[Qu]、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、雕像[Sculpture]、海豹[Seal]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、希阿[Shi’ar]、塞连、骷髅妖、斯克鲁人[Skrull]、臭鼬、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、术士[Sorcerer]、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、密探[Spy]、乌贼、松鼠、海星、苏拉卡、求生者[Survivor]、共生体[Symbiote]、合成人、触手、四分节[Tetravite]、萨拉卡斯、振翼机、索尔兽、魔人、玩具[Toy]、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、乌创[Utrom]、吸血鬼、害兽、维多肯、反派[Villain]、进化体、墙、海象、邪术师、战士、鼬鼠[Weasel]、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑，以及无面鬼。"
+                                    "zh": "生物和亲缘共享其副类别列表；这些副类别被称为生物类别。有一种生物类别是两个单词：时间领主[Time Lord]。其他生物类别都是一个单词：参谋、乙太种、外星人、伙伴、天使、羚羊、猿猴、弓箭手、统领、犰狳、军队、神器师、杀手、组装工人、阿斯塔特、阿托格、原牛、圣者、亚札人、獾、气球[Balloon]、野蛮人、诗人、蜥怪、蝙蝠、熊、野兽、河狸、哔宝精、眼魔、狂战士、鸟、野牛[Bison]、光蛾、野猪、信使、丛枝兽、卡马利、骆驼、水豚、驯鹿、病媒、猫、半人马、儿童[Child]、盖美拉、市民、僧侣、小丑[Clown]、石化鸡蛇、组构体、懦夫、郊狼、蟹、鳄鱼、星神、禁军、赛博人[Cyberman]、独眼巨人、戴立克[Dalek]、道西、半神、恶魔、逃亡者[Deserter]、侦探、魔鬼、恐龙、巨灵、医生、狗、龙、龙兽、无畏舰、卓兹人[Drix]、奴兽、德鲁伊、树灵、矮人、针鼹[Echidna]、魔神、蛋、长老、奥札奇、元素、象、妖精、麋鹿、雇员[Employee]、永恒族[Eternal]、眼、仙灵、雪貂[Ferret]、鱼、旗手、狐、分灵、蛙、真菌、玩家[Gamer]、伽马人[Gamma]、石像鬼、病菌、巨人、长颈鹿[Giraffe]、吉斯人、烁光体[Glimmer]、豺狼人、地侏、山羊、鬼怪、神、魔像、蛇发妖、墓生、怪灵、狮鹫、宾客[Guest]、巫婆、半身人、仓鼠、哈痞、刺猬[Hedgehog]、地狱兽、英雄、河马、骏鹰、荷马利、造妖、惊惧兽、马、人类、多头龙、鬣狗、虚影、小恶魔、化身、异人族[Inhuman]、墨灵、审判官、昆虫、豺狼、水母、攻城巨车、袋鼠[Kangaroo]、卡甫、麒麟、洁英、骑士、鬼崽、寇族、巨海兽、克里人[Kree]、骆马、拉弥亚、拉玛苏、蛭、狐猴[Lemur]、海怪、拉高耶夫、立吸怪、蜥蜴、龙虾[Lobster]、翼狮、异狮、佣兵、人鱼、仿索蓝人、奴仆、牛头怪、虫械、鼹鼠、贩商、猫鼬、修行僧、猴、莫古力[Moogle]、月人、坐骑、家鼠、突变体、秘耳、秘教徒、鹦鹉螺、太空死灵、巨神灵、梦魇、夜潜魔、忍者、贵族、诺格、游牧人、宁芙、章鱼、食人魔、流浆、法球[Orb]、半兽人、欧格、水獭、奥夫、牛、牡蛎、穿山甲、平民、飞马、分节、演员[Performer]、害虫、紫河马、凤凰、非瑞人、驾手、钳手、海盗、植物、鸭嘴兽[Platypus]、豪猪、负鼠、魔判官、原体、棱镜、噬体、食族[Qu]、兔、浣熊、游侠、老鼠、反抗军、映影、犀牛、整备师、机器人、浪客、紫貂、火蜥蜴、武士、砂、腐生物、羊蹄人、稻草人、科学家、孽裔、蝎子、斥候、塑像[Sculpture]、海豹[Seal]、农奴、巨蛇、自动机、阴魂、祭师、变形兽、鲨鱼、绵羊、希阿[Shi’ar]、塞连、骷髅妖、斯克鲁人[Skrull]、臭鼬、斯立兹、裂片妖、树懒、蛞蝓、蜗牛、蛇、士兵、索泰利、术士[Sorcerer]、后裔、幽灵、塑法师、史芬斯、蜘蛛、钉兽、精怪、碎裂[Splinter]、海绵、密探[Spy]、乌贼、松鼠、海星、苏拉卡、求生者[Survivor]、共生体[Symbiote]、合成人、触手、四分节[Tetravite]、萨拉卡斯、振翼机、索尔兽、魔人、玩具[Toy]、树妖、三叶虫、三分节、巨魔、龟、泰伦虫族、独角兽、乌创[Utrom]、吸血鬼、害兽、维多肯、反派[Villain]、进化体、墙、海象、邪术师、战士、鼬鼠[Weasel]、怪奇、狼人、鲸鱼、法术师、狼、狼獾、袋熊、蠕虫、鬼魂、亚龙、雪怪、灵俑，以及无面鬼。"
                                 },
                                 {
                                     "chapter": "205.3n",
@@ -6049,49 +6054,55 @@
                         },
                         {
                             "chapter": "506.6.",
+                            "en": "A creature attacks a player alone if it’s declared as an attacker attacking a player during the declare attackers step and no other creature is declared as an attacker attacking that player. A creature is attacking a player alone if it’s attacking a player and no other creatures are attacking that player.",
+                            "zh": "如果在宣告攻击者步骤中一个生物被宣告为攻击一位牌手的攻击者，且没有其他生物被宣告为攻击该牌手的攻击者，该生物单独攻击该牌手。如果一个生物正在攻击一位牌手且没有其他生物正在攻击该牌手，该生物正在单独攻击该牌手。",
+                            "subrules": []
+                        },
+                        {
+                            "chapter": "506.7.",
                             "en": "Some abilities check to see whether or not a creature “had to attack” during a particular combat phase. A creature had to attack if one or more effects were requiring that creature to attack at the time attackers were declared in that combat. A creature did not “have to attack” if there were no such effects that required it to attack, even if there were no other legal attacks that could have been declared. (See rule 508.)",
                             "zh": "一些异能检查一个生物是否在一个特定战斗阶段中“受限必须攻击”。如果于该战斗阶段中宣告攻击者时，一个或数个效应要求一个生物攻击，则该生物“受限必须攻击”。如果没有此类要求该生物攻击的效应，该生物便不是“受限必须攻击”，即使已没有任何可以合法地宣告攻击者的其他方式。（参见规则508）。",
                             "subrules": []
                         },
                         {
-                            "chapter": "506.7.",
+                            "chapter": "506.8.",
                             "en": "Some spells state that they may be cast “only [before/after] [a particular point in the combat phase],” in which that point may be “attackers are declared,” “blockers are declared,” “the combat damage step,” “the end of combat step,” “the combat phase,” or “combat.”",
                             "zh": "一些咒语叙述其“只能[在战斗阶段的某一时间点][之前／之后]”施放。这些时间点可能是“宣告攻击者之后”、“宣告阻挡者之后”、“战斗伤害步骤”、“战斗结束步骤”、“战斗阶段”或“战斗”。",
                             "subrules": [
                                 {
-                                    "chapter": "506.7a",
+                                    "chapter": "506.8a",
                                     "en": "A spell that states it may be cast “only before (or after) attackers are declared” is referring to the turn-based action of declaring attackers. It may be cast only before (or after) the declare attackers step begins, regardless of whether any attackers are actually declared. (See rule 508.)",
                                     "zh": "叙述其“只能在宣告攻击者之前（或之后）”施放的咒语指的是宣告攻击者这个回合动作。只能在宣告攻击者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告攻击者。（参见规则508。）"
                                 },
                                 {
-                                    "chapter": "506.7b",
+                                    "chapter": "506.8b",
                                     "en": "A spell that states it may be cast “only before (or after) blockers are declared” is referring to the turn-based action of declaring blockers. It may be cast only before (or after) the declare blockers step begins, regardless of whether any blockers are actually declared. (See rule 509.)",
                                     "zh": "叙述其“只能在宣告阻挡者之前（或之后）”施放的咒语指的是宣告阻挡者这个回合动作。只能在宣告阻挡者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告阻挡者。（参见规则509。）"
                                 },
                                 {
-                                    "chapter": "506.7c",
-                                    "en": "Some spells state that they may be cast only “during combat” or “during a certain player’s combat phase” in addition to the criteria described in rule 506.7. If a turn has multiple combat phases, such spells may be cast at an appropriate time during any of them.",
-                                    "zh": "一些咒语叙述其“只能在战斗中”或“只能在某牌手的战斗阶段”施放，以及规则506.7中叙述的其他限制。如果某回合有多个战斗阶段，这些咒语可以在该回合中任意一个战斗阶段中的合适的时间施放。"
+                                    "chapter": "506.8c",
+                                    "en": "Some spells state that they may be cast only “during combat” or “during a certain player’s combat phase” in addition to the criteria described in rule 506.8. If a turn has multiple combat phases, such spells may be cast at an appropriate time during any of them.",
+                                    "zh": "一些咒语叙述其“只能在战斗中”或“只能在某牌手的战斗阶段”施放，以及规则506.8中叙述的其他限制。如果某回合有多个战斗阶段，这些咒语可以在该回合中任意一个战斗阶段中的合适的时间施放。"
                                 },
                                 {
-                                    "chapter": "506.7d",
-                                    "en": "Some spells state that they may be cast “only before (or after) [a particular point in the combat phase],” but don’t meet the additional criteria described in rule 506.7c. If a turn has multiple combat phases, such spells may be cast that turn only before (or after) the stated point of the first combat phase.",
-                                    "zh": "一些咒语叙述其“只能在[战斗阶段中的某个时间点]之前（或之后）”施放，但不符合规则506.7c中叙述的额外限制。如果某回合有多个战斗阶段，这些咒语只能在该回合第一个战斗阶段中的所要求的时间点之前（或之后）施放。"
+                                    "chapter": "506.8d",
+                                    "en": "Some spells state that they may be cast “only before (or after) [a particular point in the combat phase],” but don’t meet the additional criteria described in rule 506.8c. If a turn has multiple combat phases, such spells may be cast that turn only before (or after) the stated point of the first combat phase.",
+                                    "zh": "一些咒语叙述其“只能在[战斗阶段中的某个时间点]之前（或之后）”施放，但不符合规则506.8c中叙述的额外限制。如果某回合有多个战斗阶段，这些咒语只能在该回合第一个战斗阶段中的所要求的时间点之前（或之后）施放。"
                                 },
                                 {
-                                    "chapter": "506.7e",
+                                    "chapter": "506.8e",
                                     "en": "If a spell states that it may be cast “only before [a particular point in the combat phase],” but the stated point doesn’t exist within the relevant combat phase because the declare blockers step and the combat damage step are skipped (see rule 508.8), then the spell may be cast only before the declare attackers step ends. If the stated point doesn’t exist because the relevant combat phase has been skipped, then the spell may be cast only before the precombat main phase ends.",
                                     "zh": "如果一个咒语叙述其“只能在[战斗阶段中的某个时间点]之前”施放，但所叙述的时间点在该战斗阶段中因为宣告阻挡者步骤和战斗伤害步骤被略过而并不存在（参见规则508.8），该咒语只能在宣告攻击者步骤结束之前施放。如果所叙述的时间点因为该战斗阶段被略过而不存在，该咒语只能在战斗前行动阶段结束前施放。"
                                 },
                                 {
-                                    "chapter": "506.7f",
+                                    "chapter": "506.8f",
                                     "en": "If a spell states that it may be cast “only during combat after blockers are declared,” but the declare blockers step is skipped that combat phase (see rule 508.8), then the spell may not be cast during that combat phase.",
                                     "zh": "如果一个咒语叙述其“只能在战斗中，宣告阻挡者之后”施放，但该战斗阶段的宣告阻挡者被略过（参见规则508.8），则该咒语在此战斗阶段中不能施放。"
                                 },
                                 {
-                                    "chapter": "506.7g",
-                                    "en": "Rules 506.7 and 506.7a–f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.",
-                                    "zh": "与咒语一样，规则506.7和506.7a-f同样适用于叙述其只能在战斗阶段中的某个时间点起动的异能。"
+                                    "chapter": "506.8g",
+                                    "en": "Rules 506.8 and 506.8a–f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.",
+                                    "zh": "与咒语一样，规则506.8和506.8a-f同样适用于叙述其只能在战斗阶段中的某个时间点起动的异能。"
                                 }
                             ]
                         }
@@ -10879,6 +10890,18 @@
                                     "chapter": "701.70a",
                                     "en": "“Recruit” means “Draw a card, then discard a card. If you discarded a nonland card this way, create a 1/1 white Human Soldier creature token.”",
                                     "zh": "“募兵”意指“抓一张牌，然后弃一张牌。若你以此法弃掉了一张非地牌，则派出一个1/1白色人类／士兵衍生生物。”"
+                                }
+                            ]
+                        },
+                        {
+                            "chapter": "701.71.",
+                            "en": "Empower Jace",
+                            "zh": "聚能杰斯",
+                            "subrules": [
+                                {
+                                    "chapter": "701.71a",
+                                    "en": "To empower Jace N means “If you don’t control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, ‘[−1]: Surveil 1,’ and ‘[−3]: Draw a card.’ Choose a Jace planeswalker token you control. Put N loyalty counters on it.”",
+                                    "zh": "聚能杰斯N意指，“如果你未操控杰斯衍生鹏洛客，则派出一个0忠诚的蓝色杰斯衍生鹏洛客，且具有‘[−1]：刺探1’与‘[−3]：抓一张牌。’选择一个由你操控的杰斯衍生鹏洛客。在其上放置N个忠诚指示物。”"
                                 }
                             ]
                         }
@@ -21468,6 +21491,12 @@
             "zh": "一个多人玩法，在三人队伍间进行。参见规则809，“皇帝玩法”。"
         },
         {
+            "enname": "Empower Jace",
+            "zhname": "聚能杰斯",
+            "en": "A keyword action that gives you a Jace planeswalker token and/or puts loyalty counters on a Jace token you already have. See rule 701.71, “Empower Jace.”",
+            "zh": "一个关键字动作，造一个杰斯衍生鹏洛客且／或在你已经操控的杰斯衍生物上放置忠诚指示物。参见规则701.71，“聚能杰斯”。"
+        },
+        {
             "enname": "Enchant",
             "zhname": "结附",
             "en": "A keyword ability that defines what an Aura spell can target and what an Aura permanent can be attached to. See rule 303, “Enchantments,” and rule 702.5, “Enchant.”",
@@ -22042,6 +22071,12 @@
             "zhname": "治愈",
             "en": "To remove damage marked on a permanent. See rule 701.69, “Heal.”",
             "zh": "移除永久物上已标记的伤害。参见规则701.69，“治愈”。"
+        },
+        {
+            "enname": "Heartwood Token",
+            "zhname": "心材衍生物",
+            "en": "A Heartwood token is a red and green artifact token with “{T}: Add {R} or {G}.” For more information about predefined tokens, see rule 111.10.",
+            "zh": "心材衍生物是具有“{T}：加{R}或{G}”的红绿双色衍生神器。欲知关于预定义衍生物的更多信息，参见规则111.10。"
         },
         {
             "enname": "Hexproof",
@@ -24685,8 +24720,8 @@
                 "zh": "感谢我们所有的队伍成员，以及数量众多以致无法列举的其他人对此产品的贡献。"
             },
             {
-                "en": "These rules are effective as of August 7, 2026.",
-                "zh": "此规则于2026年8月7日起生效。"
+                "en": "These rules are effective as of September 25, 2026.",
+                "zh": "此规则于2026年9月25日起生效。"
             },
             {
                 "en": "Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, their respective logos, Mirrodin, Kamigawa, Lorwyn, Zendikar, Innistrad, Ravnica, Khans of Tarkir, Magic Origins, Magic: The Gathering—Conspiracy, Ixalan, Unfinity, Dominaria, Ikoria, Kaldheim, Baldur’s Gate, The Brothers’ War, and Planeswalker Decks are trademarks of Wizards of the Coast LLC in the USA and other countries. ©2026 Wizards. U.S. Pat. No. RE 37,957.",
@@ -24832,7 +24867,7 @@
             "unfinityDoctorGlossary": "下列出现于Unfinity、无疆新宇宙：神秘博士系列中的名词之译名在官网文章中出现，但未出现于卡牌上。"
         }
     },
-    "homepage": "<p>此中文版《万智牌完整规则》是大中华区裁判社群志愿者的翻译成果，并非官方译本。</p>\n\n<p>如果您对某条规则的翻译发现错误、或有改进的建议，亦或有意帮助翻译，请通过下列方式联系维护者：</p>\n<ul>\n  <li><a href=\"https://github.com/HeliumOctahelide/magic-comp-rules-zh-cn\">Github Issue</a></li>\n  <li><a href=\"https://mtgch.com/feedback\">大学院废墟用户反馈</a></li>\n</ul>\n\n<p>中文版翻译负责人：李思扬</p>\n<p>中文版翻译维护者：金汉宁、简单</p>\n<p>历史版本负责人及贡献者：杜昊、张天启、许兆本、杨俊杰、刘清源等。</p>",
+    "homepage": "<p>此中文版《万智牌完整规则》是大中华区裁判社群志愿者的翻译成果，并非官方译本。</p>\n\n<p>如果您对某条规则的翻译发现错误、或有改进的建议，亦或有意帮助翻译，请通过下列方式联系维护者：</p>\n<ul>\n  <li><a class=\"link link-cover\" href=\"https://github.com/HeliumOctahelide/magic-comp-rules-zh-cn\">Github Issue</a></li>\n  <li><a class=\"link link-cover\" href=\"https://mtgch.com/feedback\">大学院废墟用户反馈</a></li>\n</ul>\n\n<p>中文版翻译负责人：李思扬</p>\n<p>中文版翻译维护者：金汉宁、简单</p>\n<p>历史版本负责人及贡献者：杜昊、张天启、许兆本、杨俊杰、刘清源等。</p>",
     "glossaryGroups": {
         "en": [
             {
@@ -25066,6 +25101,7 @@
                     "Emerge",
                     "Emperor",
                     "Emperor Variant",
+                    "Empower Jace",
                     "Enchant",
                     "Enchantment",
                     "Enchantment Type",
@@ -25177,6 +25213,7 @@
                     "Haste",
                     "Haunt",
                     "Heal",
+                    "Heartwood Token",
                     "Hexproof",
                     "Hidden Agenda",
                     "Hidden Zone",
@@ -26030,6 +26067,7 @@
                     "Match",
                     "Poisonous",
                     "Detain",
+                    "Empower Jace",
                     "Modal, Mode",
                     "Role",
                     "Delve",
@@ -26354,6 +26392,7 @@
                     "Conspire",
                     "Harmonize",
                     "Unattach",
+                    "Heartwood Token",
                     "Main Phase",
                     "Companion",
                     "Awaken",

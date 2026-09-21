@@ -115,7 +115,7 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 505.1a 只有每回合的第一个行动阶段是战斗前行动阶段。所有其他行动阶段都是战斗后行动阶段，这包括回合中的战斗阶段因故被略过时的第二个行动阶段。如果一个效应使一个回合有额外的战斗阶段和额外的行动阶段，此额外的行动阶段也是战斗后行动阶段。
 
 <BOOKMARK:cr505-1b>505.1b Phrases such as “first main phase,” “second main phase,” and so on count the number of main phases that have occurred only in the current turn unless that text specifies otherwise.\\ 
-505.1b “第一个行动阶段”、“第二个行动阶段”等用词只计算当前回合中的行动阶段，除非该文本特别注明。
+505.1b “第一个行动阶段”、“第二个行动阶段”等用词只计算当前回合中的行动阶段，除非该叙述特别注明。
 
 <BOOKMARK:cr505-2>505.2. The main phase has no steps, so a main phase ends when all players pass in succession while the stack is empty. (See rule 500.2.)\\ 
 505.2. 行动阶段没有任何步骤，所以当堆叠为空且所有牌手连续让过时，行动阶段结束。（参见规则[[cr:5#cr500-2|500.2]]。）
@@ -136,14 +136,14 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 505.6a 在一般情况，行动阶段是牌手唯一可以施放神器、生物、结界、鹏洛客和法术咒语的阶段。主动牌手可以施放这些咒语。（译注：遗漏了「战役」。）
 
 <BOOKMARK:cr505-6b>505.6b During either main phase, the active player may play one land card from their hand if the stack is empty, if the player has priority, and if they haven’t played a land this turn (unless an effect states the player may play additional lands). This action doesn’t use the stack. Neither the land nor the action of playing the land is a spell or ability, so it can’t be countered, and players can’t respond to it with instants or activated abilities. (See rule 305, “Lands.”)\\ 
-505.6b 在任意行动阶段中，如果主动牌手拥有优先权且在该回合尚未使用过地牌，则主动牌手可以在堆叠为空时从其手上使用一张地牌（除非有效应让该牌手可以使用额外的地）。此动作不使用堆叠。地牌和使用地的动作都不是咒语或异能，所以不能被反击，且牌手不能响应施放瞬间或起动异能。（参见规则[[cr:3#cr305|305]]，“地”。）
+505.6b 在任意行动阶段中，如果主动牌手拥有优先权且在该回合尚未使用过地牌，则主动牌手可以在堆叠为空时从其手上使用一张地牌（除非有效应叙述该牌手可以使用额外的地）。此动作不使用堆叠。地牌和使用地的动作都不是咒语或异能，所以不能被反击，且牌手不能响应施放瞬间或起动异能。（参见规则[[cr:3#cr305|305]]，“地”。）
 
 ===== 506. 战斗阶段 Combat Phase =====
 <BOOKMARK:cr506>506. Combat Phase\\ 
 506. 战斗阶段
 
 <BOOKMARK:cr506-1>506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.8). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).\\ 
-506.1. 战斗阶段依照下列顺序包含五个步骤：战斗开始、宣告攻击者、宣告阻挡者、战斗伤害和战斗结束。如果没有生物被宣告为攻击者或放置进战场并正在进行攻击（参见规则[[cr:5#cr508-5|508.5]]），则略过宣告阻挡者和战斗伤害步骤。如果任何攻击或阻挡生物具有先攻（参见规则[[cr:7#cr702-7|702.7]]）或连击（参见规则[[cr:7#cr702-4|702.4]]），则将有两个战斗伤害步骤。
+506.1. 战斗阶段依照下列顺序包含五个步骤：战斗开始、宣告攻击者、宣告阻挡者、战斗伤害和战斗结束。如果没有生物被宣告为攻击者或放置进战场并正在进行攻击（参见规则[[cr:5#cr508-8|508.8]]），则略过宣告阻挡者和战斗伤害步骤。如果任何攻击或阻挡生物具有先攻（参见规则[[cr:7#cr702-7|702.7]]）或连击（参见规则[[cr:7#cr702-4|702.4]]），则将有两个战斗伤害步骤。
 
 <BOOKMARK:cr506-2>506.2. During the combat phase, the active player is the attacking player; creatures that player controls may attack. During the combat phase of a two-player game, the nonactive player is the defending player; that player, planeswalkers they control, and battles they protect may be attacked.\\ 
 506.2. 在战斗阶段中，主动牌手是攻击牌手；主动牌手操控的生物可以攻击。在双人游戏的战斗阶段中，非主动牌手是防御牌手；该牌手、该牌手操控的鹏洛客和该牌手防卫的战役可以被攻击。
@@ -179,7 +179,7 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 506.3g 如果一个结算中的咒语或异能将使得一个战役成为生物且正进行攻击或阻挡，该效应的此部分没有任何效果。
 
 <BOOKMARK:cr506-4>506.4. A permanent is removed from combat if it leaves the battlefield, if its controller or protector changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, if it’s a battle that’s being attacked and stops being a battle, or if it’s an attacking or blocking creature that regenerates (see rule 701.19), stops being a creature, or becomes a battle. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker or battle that’s removed from combat stops being attacked.\\ 
-506.4. 如果一个永久物离开战场、改变操控者或防卫者、跃离、被特定效应移出战斗、该永久物为被攻击中的鹏洛客但不再是鹏洛客、该永久物为被攻击中的战役但不再是战役、或该永久物是攻击或阻挡生物（参见规则[[cr:7#cr701-19|701.19]]），但其重生、不再是生物或成为战役，则它被移出战斗。被移出战斗的生物不再是攻击、阻挡、被阻挡和/或未受阻挡的生物。被移出战斗的鹏洛客或战役不再被攻击。
+506.4. 如果一个永久物离开战场、改变操控者或防卫者、跃离、被特定效应移出战斗、该永久物为被攻击中的鹏洛客但不再是鹏洛客、该永久物为被攻击中的战役但不再是战役、或该永久物是攻击或阻挡生物（参见规则[[cr:7#cr701-19|701.19]]），但其重生、不再是生物或成为战役，则它被移出战斗。被移出战斗的生物不再是攻击、阻挡、被阻挡和／或未受阻挡的生物。被移出战斗的鹏洛客或战役不再被攻击。
 
 <BOOKMARK:cr506-4a>506.4a Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don’t remove the creature from combat.\\ 
 506.4a 一旦生物被宣布为攻击或阻挡生物，阻止此生物攻击或阻挡的咒语或异能不会将此生物移出战斗。
@@ -199,32 +199,35 @@ Example: Obeka, Splitter of Seconds says, in part, “Whenever Obeka deals comba
 <BOOKMARK:cr506-5>506.5. A creature attacks alone if it’s the only creature declared as an attacker during the declare attackers step. A creature is attacking alone if it’s attacking but no other creatures are. A creature blocks alone if it’s the only creature declared as a blocker during the declare blockers step. A creature is blocking alone if it’s blocking but no other creatures are.\\ 
 506.5. 如果在宣告攻击者步骤中只有一个生物被宣告为攻击者，该生物单独攻击。如果只有一个生物正在攻击且没有其他生物正在攻击，该生物正在单独攻击。如果在宣布阻挡者步骤中只有一个生物被宣布为阻挡者，该生物单独阻挡。如果只有一个生物正在阻挡且没有其他生物正在阻挡，该生物正在单独阻挡。
 
-<BOOKMARK:cr506-6>506.6. Some abilities check to see whether or not a creature “had to attack” during a particular combat phase. A creature had to attack if one or more effects were requiring that creature to attack at the time attackers were declared in that combat. A creature did not “have to attack” if there were no such effects that required it to attack, even if there were no other legal attacks that could have been declared. (See rule 508.)\\ 
-506.6. 一些异能检查一个生物是否在一个特定战斗阶段中“受限必须攻击”。如果于该战斗阶段中宣告攻击者时，一个或数个效应要求一个生物攻击，则该生物“受限必须攻击”。如果没有此类要求该生物攻击的效应，该生物便不是“受限必须攻击”，即使已没有任何可以合法地宣告攻击者的其他方式。（参见规则[[cr:5#cr508|508]]）。
+<BOOKMARK:cr506-6>506.6. A creature attacks a player alone if it’s declared as an attacker attacking a player during the declare attackers step and no other creature is declared as an attacker attacking that player. A creature is attacking a player alone if it’s attacking a player and no other creatures are attacking that player.\\ 
+506.6. 如果在宣告攻击者步骤中一个生物被宣告为攻击一位牌手的攻击者，且没有其他生物被宣告为攻击该牌手的攻击者，该生物单独攻击该牌手。如果一个生物正在攻击一位牌手且没有其他生物正在攻击该牌手，该生物正在单独攻击该牌手。
 
-<BOOKMARK:cr506-7>506.7. Some spells state that they may be cast “only [before/after] [a particular point in the combat phase],” in which that point may be “attackers are declared,” “blockers are declared,” “the combat damage step,” “the end of combat step,” “the combat phase,” or “combat.”\\ 
-506.7. 一些咒语叙述其“只能[在战斗阶段的某一时间点][之前/之后]”施放。这些时间点可能是“宣告攻击者之后”、“宣告阻挡者之后”、“战斗伤害步骤”、“战斗结束步骤”、“战斗阶段”或“战斗”。
+<BOOKMARK:cr506-7>506.7. Some abilities check to see whether or not a creature “had to attack” during a particular combat phase. A creature had to attack if one or more effects were requiring that creature to attack at the time attackers were declared in that combat. A creature did not “have to attack” if there were no such effects that required it to attack, even if there were no other legal attacks that could have been declared. (See rule 508.)\\ 
+506.7. 一些异能检查一个生物是否在一个特定战斗阶段中“受限必须攻击”。如果于该战斗阶段中宣告攻击者时，一个或数个效应要求一个生物攻击，则该生物“受限必须攻击”。如果没有此类要求该生物攻击的效应，该生物便不是“受限必须攻击”，即使已没有任何可以合法地宣告攻击者的其他方式。（参见规则[[cr:5#cr508|508]]）。
 
-<BOOKMARK:cr506-7a>506.7a A spell that states it may be cast “only before (or after) attackers are declared” is referring to the turn-based action of declaring attackers. It may be cast only before (or after) the declare attackers step begins, regardless of whether any attackers are actually declared. (See rule 508.)\\ 
-506.7a 叙述其“只能在宣告攻击者之前（或之后）”施放的咒语指的是宣告攻击者这个回合动作。只能在宣告攻击者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告攻击者。（参见规则[[cr:5#cr508|508]]。）
+<BOOKMARK:cr506-8>506.8. Some spells state that they may be cast “only [before/after] [a particular point in the combat phase],” in which that point may be “attackers are declared,” “blockers are declared,” “the combat damage step,” “the end of combat step,” “the combat phase,” or “combat.”\\ 
+506.8. 一些咒语叙述其“只能[在战斗阶段的某一时间点][之前／之后]”施放。这些时间点可能是“宣告攻击者之后”、“宣告阻挡者之后”、“战斗伤害步骤”、“战斗结束步骤”、“战斗阶段”或“战斗”。
 
-<BOOKMARK:cr506-7b>506.7b A spell that states it may be cast “only before (or after) blockers are declared” is referring to the turn-based action of declaring blockers. It may be cast only before (or after) the declare blockers step begins, regardless of whether any blockers are actually declared. (See rule 509.)\\ 
-506.7b 叙述其“只能在宣告阻挡者之前（或之后）”施放的咒语指的是宣告阻挡者这个回合动作。只能在宣告阻挡者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告阻挡者。（参见规则[[cr:5#cr509|509]]。）
+<BOOKMARK:cr506-8a>506.8a A spell that states it may be cast “only before (or after) attackers are declared” is referring to the turn-based action of declaring attackers. It may be cast only before (or after) the declare attackers step begins, regardless of whether any attackers are actually declared. (See rule 508.)\\ 
+506.8a 叙述其“只能在宣告攻击者之前（或之后）”施放的咒语指的是宣告攻击者这个回合动作。只能在宣告攻击者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告攻击者。（参见规则[[cr:5#cr508|508]]。）
 
-<BOOKMARK:cr506-7c>506.7c Some spells state that they may be cast only “during combat” or “during a certain player’s combat phase” in addition to the criteria described in rule 506.7. If a turn has multiple combat phases, such spells may be cast at an appropriate time during any of them.\\ 
-506.7c 一些咒语叙述其“只能在战斗中”或“只能在某牌手的战斗阶段”施放，以及规则[[cr:5#cr506-7|506.7]]中叙述的其他限制。如果某回合有多个战斗阶段，这些咒语可以在该回合中任意一个战斗阶段中的合适的时间施放。
+<BOOKMARK:cr506-8b>506.8b A spell that states it may be cast “only before (or after) blockers are declared” is referring to the turn-based action of declaring blockers. It may be cast only before (or after) the declare blockers step begins, regardless of whether any blockers are actually declared. (See rule 509.)\\ 
+506.8b 叙述其“只能在宣告阻挡者之前（或之后）”施放的咒语指的是宣告阻挡者这个回合动作。只能在宣告阻挡者步骤开始之前（或之后）施放此咒语，无论有没有实际宣告阻挡者。（参见规则[[cr:5#cr509|509]]。）
 
-<BOOKMARK:cr506-7d>506.7d Some spells state that they may be cast “only before (or after) [a particular point in the combat phase],” but don’t meet the additional criteria described in rule 506.7c. If a turn has multiple combat phases, such spells may be cast that turn only before (or after) the stated point of the first combat phase.\\ 
-506.7d 一些咒语叙述其“只能在[战斗阶段中的某个时间点]之前（或之后）”施放，但不符合规则[[cr:5#cr506-7c|506.7c]]中叙述的额外限制。如果某回合有多个战斗阶段，这些咒语只能在该回合第一个战斗阶段中的所要求的时间点之前（或之后）施放。
+<BOOKMARK:cr506-8c>506.8c Some spells state that they may be cast only “during combat” or “during a certain player’s combat phase” in addition to the criteria described in rule 506.8. If a turn has multiple combat phases, such spells may be cast at an appropriate time during any of them.\\ 
+506.8c 一些咒语叙述其“只能在战斗中”或“只能在某牌手的战斗阶段”施放，以及规则[[cr:5#cr506-8|506.8]]中叙述的其他限制。如果某回合有多个战斗阶段，这些咒语可以在该回合中任意一个战斗阶段中的合适的时间施放。
 
-<BOOKMARK:cr506-7e>506.7e If a spell states that it may be cast “only before [a particular point in the combat phase],” but the stated point doesn’t exist within the relevant combat phase because the declare blockers step and the combat damage step are skipped (see rule 508.8), then the spell may be cast only before the declare attackers step ends. If the stated point doesn’t exist because the relevant combat phase has been skipped, then the spell may be cast only before the precombat main phase ends.\\ 
-506.7e 如果一个咒语叙述其“只能在[战斗阶段中的某个时间点]之前”施放，但所叙述的时间点在该战斗阶段中因为宣告阻挡者步骤和战斗伤害步骤被略过而并不存在（参见规则[[cr:5#cr508-8|508.8]]），该咒语只能在宣告攻击者步骤结束之前施放。如果所叙述的时间点因为该战斗阶段被略过而不存在，该咒语只能在战斗前行动阶段结束前施放。
+<BOOKMARK:cr506-8d>506.8d Some spells state that they may be cast “only before (or after) [a particular point in the combat phase],” but don’t meet the additional criteria described in rule 506.8c. If a turn has multiple combat phases, such spells may be cast that turn only before (or after) the stated point of the first combat phase.\\ 
+506.8d 一些咒语叙述其“只能在[战斗阶段中的某个时间点]之前（或之后）”施放，但不符合规则[[cr:5#cr506-8c|506.8c]]中叙述的额外限制。如果某回合有多个战斗阶段，这些咒语只能在该回合第一个战斗阶段中的所要求的时间点之前（或之后）施放。
 
-<BOOKMARK:cr506-7f>506.7f If a spell states that it may be cast “only during combat after blockers are declared,” but the declare blockers step is skipped that combat phase (see rule 508.8), then the spell may not be cast during that combat phase.\\ 
-506.7f 如果一个咒语叙述其“只能在战斗中，宣告阻挡者之后”施放，但该战斗阶段的宣告阻挡者被略过（参见规则[[cr:5#cr508-8|508.8]]），则该咒语在此战斗阶段中不能施放。
+<BOOKMARK:cr506-8e>506.8e If a spell states that it may be cast “only before [a particular point in the combat phase],” but the stated point doesn’t exist within the relevant combat phase because the declare blockers step and the combat damage step are skipped (see rule 508.8), then the spell may be cast only before the declare attackers step ends. If the stated point doesn’t exist because the relevant combat phase has been skipped, then the spell may be cast only before the precombat main phase ends.\\ 
+506.8e 如果一个咒语叙述其“只能在[战斗阶段中的某个时间点]之前”施放，但所叙述的时间点在该战斗阶段中因为宣告阻挡者步骤和战斗伤害步骤被略过而并不存在（参见规则[[cr:5#cr508-8|508.8]]），该咒语只能在宣告攻击者步骤结束之前施放。如果所叙述的时间点因为该战斗阶段被略过而不存在，该咒语只能在战斗前行动阶段结束前施放。
 
-<BOOKMARK:cr506-7g>506.7g Rules 506.7 and 506.7a–f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.\\ 
-506.7g 与咒语一样，规则[[cr:5#cr506-7|506.7]]和[[cr:5#cr506-7a|506.7a-f]]同样适用于叙述其只能在战斗阶段中的某个时间点起动的异能。
+<BOOKMARK:cr506-8f>506.8f If a spell states that it may be cast “only during combat after blockers are declared,” but the declare blockers step is skipped that combat phase (see rule 508.8), then the spell may not be cast during that combat phase.\\ 
+506.8f 如果一个咒语叙述其“只能在战斗中，宣告阻挡者之后”施放，但该战斗阶段的宣告阻挡者被略过（参见规则[[cr:5#cr508-8|508.8]]），则该咒语在此战斗阶段中不能施放。
+
+<BOOKMARK:cr506-8g>506.8g Rules 506.8 and 506.8a–f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.\\ 
+506.8g 与咒语一样，规则[[cr:5#cr506-8|506.8]]和[[cr:5#cr506-8a|506.8a-f]]同样适用于叙述其只能在战斗阶段中的某个时间点起动的异能。
 
 ===== 507. 战斗开始步骤 Beginning of Combat Step =====
 <BOOKMARK:cr507>507. Beginning of Combat Step\\ 
@@ -410,7 +413,7 @@ Example: A player controls one creature that “blocks if able” and another cr
 509.2. 其次，主动牌手得到优先权。（参见规则[[cr:1#cr117|117]]，“时机和优先权”。）
 
 <BOOKMARK:cr509-2a>509.2a Any abilities that triggered on blockers being declared or that triggered during the process described in rule 509.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)\\ 
-509.2a 任何因宣告阻挡者、或在规则[[cr:5#cr509-1|509.1-3]]所述之流程中触发的异能在主动牌手得到优先权之前进入堆叠；这些异能触发的先后顺序没有意义。（参见规则[[cr:6#cr603|603]]，“处理触发式异能”。）
+509.2a 任何因宣告阻挡者、或在规则[[cr:5#cr509-1|509.1]]所述之流程中触发的异能在主动牌手得到优先权之前进入堆叠；这些异能触发的先后顺序没有意义。（参见规则[[cr:6#cr603|603]]，“处理触发式异能”。）
 
 <BOOKMARK:cr509-3>509.3. Triggered abilities that trigger on blockers being declared may have different trigger conditions.\\ 
 509.3. 于宣告阻挡者时触发的异能可能具有不同的触发条件。
@@ -431,7 +434,7 @@ Example: A player controls one creature that “blocks if able” and another cr
 509.3e 如果某异能在一个生物阻挡特定数量的生物或被特定数量的生物阻挡时触发，则如果在宣告阻挡者时，该生物阻挡该数量的生物或被该数量的生物阻挡，该异能触发。添加或减少阻挡者的效应也可以使此类异能触发。此规则也适用于阻挡至少特定数量的生物，或被至少特定数量的生物阻挡时触发的异能。
 
 <BOOKMARK:cr509-3f>509.3f If an ability triggers when a creature with certain characteristics blocks, it will trigger only if the creature has those characteristics at the point blockers are declared, or at the point an effect causes it to block. If an ability triggers when a creature with certain characteristics becomes blocked, it will trigger only if the creature has those characteristics at the point it becomes a blocked creature. If an ability triggers when a creature becomes blocked by a creature with certain characteristics, it will trigger only if the latter creature has those characteristics at the point it becomes a blocking creature. None of those abilities will trigger if the relevant creature’s characteristics change to match the ability’s trigger condition later on.\\ 
-509.3f 如果某异能在一个具有特定特征的生物阻挡时触发，它只有在该生物被宣告为阻挡者的时间点上具有这些特性的情况下，才会触发。如果某异能在一个具有特定特征的生物被阻挡时触发，它只有在该生物成为被阻挡生物的时间点上具有这些特性的情况下，才会触发。如果某异能在一个生物被具有特定特征的生物阻挡时触发，它只有在该生物成为阻挡生物的时间点上具有这些特性的情况下，才会触发。如果相应生物之后改变特征来符合这些异能的触发条件，并不会触发这些异能。
+509.3f 如果某异能在一个具有特定特征的生物阻挡时触发，它只有在该生物被宣告为阻挡者的时间点上，或在某效应使其进行阻挡的时间点上，具有这些特性的情况下，才会触发。如果某异能在一个具有特定特征的生物被阻挡时触发，它只有在该生物成为被阻挡生物的时间点上具有这些特性的情况下，才会触发。如果某异能在一个生物被具有特定特征的生物阻挡时触发，它只有在该生物成为阻挡生物的时间点上具有这些特性的情况下，才会触发。如果相应生物之后改变特征来符合这些异能的触发条件，并不会触发这些异能。
 
 Example: A creature has the ability “Whenever this creature becomes blocked by a white creature, destroy that creature at end of combat.” If the creature becomes blocked by a black creature that is later turned white, the ability will not trigger.\\ 
 例如：某生物具有“每当此生物被一个白色生物阻挡时，在战斗结束时消灭该生物。”的异能。如果此生物被一个黑色生物阻挡，且该黑色生物之后成为白色，此异能不会触发。
@@ -532,7 +535,7 @@ Example: An attacking Elvish Regrower (a 4/3 creature) is blocked by Vampire Spa
 514.3. 一般情况下，没有牌手在清除步骤中会得到优先权，所以不能施放咒语或起动异能。但是此规则有以下特例：
 
 <BOOKMARK:cr514-3a>514.3a At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger “at the beginning of the next cleanup step”). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.\\ 
-514.3a 在此刻，游戏检查是否有任何状态动作需要执行，和/或任何触发式异能等待进入堆叠（包括“在下一个清除步骤开始时”触发的异能）。如果有，则执行这些状态动作，然后将这些触发式异能放进堆叠，然后主动牌手得到优先权。牌手可以施放咒语和起动异能。一旦堆叠为空且所有牌手连续让过，另一个清除步骤开始。
+514.3a 在此刻，游戏检查是否有任何状态动作需要执行，和／或任何触发式异能等待进入堆叠（包括“在下一个清除步骤开始时”触发的异能）。如果有，则执行这些状态动作，然后将这些触发式异能放进堆叠，然后主动牌手得到优先权。牌手可以施放咒语和起动异能。一旦堆叠为空且所有牌手连续让过，另一个清除步骤开始。
 
 
 

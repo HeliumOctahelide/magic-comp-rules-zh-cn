@@ -11,7 +11,7 @@
 
 您可以在[裁判Wiki](https://wiki.mtgjudge.cn/)或是[大学院废墟](https://lib.sbwsz.com/cr)查看CR最新译本。
 
-本译文最近一次更新于：2026年8月7日，*霍比特人*系列。
+当前规则版本为：2026年9月25日，*现实裂界*系列。
 
 ## 常见问题集 / 发布释疑
 
@@ -24,7 +24,7 @@
 | 年度 | 系列1 | 系列2 | 系列3 | 系列4 |
 |------|---|---|---|---|
 | 2026 上半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/ecl.svg' width='14' height='14' />[洛温：暗影笼罩](release_notes/faq_ecl.pdf) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/tmt.svg' width='14' height='14' />[忍者神龟](https://mtgch.com/articles/official/teenage-mutant-ninja-turtles-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/sos.svg' width='14' height='14' />[斯翠海文的秘密](https://mtgch.com/articles/official/secrets-of-strixhaven-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/msh.svg' width='14' height='14' />漫威超级英雄 |
-| 2026 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/hob.svg' width='14' height='14' />[霍比特人](https://mtgch.com/articles/official/the-hobbit-release-notes/) | 现实裂界 | 星际迷航 | |
+| 2026 下半年 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/hob.svg' width='14' height='14' />[霍比特人](https://mtgch.com/articles/official/the-hobbit-release-notes/) | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/fra.svg' width='14' height='14' />现实裂界 | <img src='https://raw.githubusercontent.com/andrewgioia/keyrune/master/svg/trk.svg' width='14' height='14' />星际迷航 | |
 
 | 年度 | 系列1 | 系列2 | 系列3 |
 |------|---|---|---|
@@ -62,6 +62,15 @@
 
 
 ## 内容更新
+
+### 20260925
+
+- *现实裂界*
+    - 111.10x：新的预定义衍生物：心材。
+    - 506.6：定义了“单独攻击某牌手”和“正在单独攻击某牌手”。
+    - 701.71：新的关键字动作：聚能杰斯。
+    - 新的副类别：心材[Heartwood]。
+    - 新词汇表条目：聚能杰斯、心材衍生物。
 
 ### 20260817
 

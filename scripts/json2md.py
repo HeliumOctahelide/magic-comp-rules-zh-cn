@@ -1,18 +1,17 @@
-import json, re
+import re
 import md_template
-from pypinyin import lazy_pinyin, load_phrases_dict
 
-load_phrases_dict({'重置': [['chóng'], ['zhì']]})
+def escape_list_number(text):
+    return re.sub(r'^(\d+)\.(?=\s)', r'\1\\.', text)
 
-def plain_text_to_markdown(json_file, output_dir):
+def render(data, output_dir):
     '''
-    将json格式的规则文本转化为markdown格式，并分章节输出。
+    将完整 JSON 数据渲染为 Markdown，并分章节输出。
     如果规则的九个大章节有变化，需要修改模板中的对应部分。
     input:
-        json_file: json文件路径
+        data: 已校验的完整 JSON 对象
         output_dir: 输出目录
     '''
-    data = json.load(open(json_file, 'r', encoding='utf-8'))
     intro = data['intro']
     main = data['main']
     glossary = data['glossary']
@@ -91,54 +90,26 @@ def plain_text_to_markdown(json_file, output_dir):
         with open(f'{output_dir}/{i+1}.md', 'w', encoding='utf-8') as f:
             f.write(main_text)
 
-    # 生成glossary
-    ## 按英文字母排序
-    sorted_glossary = sorted(glossary, key=lambda x: x['enname'])
-    current_letter = ''
-    content = ''
-    
-    for item in sorted_glossary:
-        if item['enname'][0] != current_letter:
-            current_letter = item['enname'][0]
-            content += f"## {current_letter}\n"
-        content += f"### <span id='{item['enname']}'>{item['enname']}</span> / <span id='{item['zhname']}'>{item['zhname']}</span>\n"
-        # content += f"<b id='{item['enname']}'>{item['enname']}</b>   \n"
-        # content += f"<b id='{item['zhname']}'>{item['zhname']}</b>\n"
-        # content += '\n'
-        for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
-            content += f"{match_rule_num(zh_line)}   \n"
-            content += f"{en_line}\n"
-            content += '\n'
-        content += '----\n'
-    glossary_text = md_template.GLOSSARY_ALPHABET_TEMPLATE.format(content=content)    
-    with open(f'{output_dir}/glossary.md', 'w', encoding='utf-8') as f:
-        f.write(glossary_text)
-
-    glossary_zh_with_letter = [i for i in glossary if i['zhname'][0] in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz']
-    glossary_zh = [i for i in glossary if i['zhname'][0] not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz']
-
-    sorted_glossary_zh = sorted(glossary_zh_with_letter, key=lambda x: x['zhname']) + sorted(glossary_zh, key=lambda x: ''.join([f"{i:0<10}" for i in lazy_pinyin(x['zhname'])]))
-    current_letter = ''
-    content = ''
-    
-    for item in sorted_glossary_zh:
-        if item['zhname'][0] in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz':
-            if not current_letter: content += f"## 字母\n"
-            current_letter = '字母'
-        elif ''.join([f"{i:0<10}" for i in lazy_pinyin(item['zhname'])])[0].upper() != current_letter:
-            current_letter = lazy_pinyin(item['zhname'][0])[0][0].upper()
-            content += f"## {current_letter}\n"
-        content += f"### <span id='{item['zhname']}'>{item['zhname']}</span> / <span id='{item['enname']}'>{item['enname']}</span>\n"    
-        # content += f"<b id='{item['enname']}'>{item['enname']}</b>   \n"
-        # content += f"<b id='{item['zhname']}'>{item['zhname']}</b>\n"
-        # content += '\n'
-        for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
-            content += f"{match_rule_num(zh_line)}   \n"
-            content += f"{en_line}\n"
-            content += '\n'
-    glossarycn_text = md_template.GLOSSARY_PINYIN_TEMPLATE.format(content=content)  
-    with open(f'{output_dir}/glossarycn.md', 'w', encoding='utf-8') as f:
-        f.write(glossarycn_text)
+    # 两种视图共享正文，顺序完全由完整 JSON 决定。
+    entries = {item['enname']: item for item in glossary}
+    for view, filename, template in [
+        ('en', 'glossary.md', md_template.GLOSSARY_ALPHABET_TEMPLATE),
+        ('zh', 'glossarycn.md', md_template.GLOSSARY_PINYIN_TEMPLATE),
+    ]:
+        content = ''
+        for group in data['glossaryGroups'][view]:
+            content += f"## {group['label']}\n"
+            for name in group['entries']:
+                item = entries[name]
+                names = (item['enname'], item['zhname']) if view == 'en' else (item['zhname'], item['enname'])
+                content += f"### <span id='{names[0]}'>{names[0]}</span> / <span id='{names[1]}'>{names[1]}</span>\n"
+                for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
+                    content += f"{match_rule_num(escape_list_number(zh_line))}   \n"
+                    content += f"{escape_list_number(en_line)}\n\n"
+                if view == 'en':
+                    content += '----\n'
+        with open(f'{output_dir}/{filename}', 'w', encoding='utf-8') as f:
+            f.write(template.format(content=content))
 
     # 生成intro和credits
     def format_bold_and_italic(text):
@@ -172,11 +143,13 @@ def plain_text_to_markdown(json_file, output_dir):
     with open(f'{output_dir}/credits.md', 'w', encoding='utf-8') as f:
         f.write(credits_text)
 
-    catalog_text = md_template.CATALOG_TEMPLATE.format(effective_time=intro['contents'][1]['zh'], content=catalog_content)
+    catalog_text = md_template.CATALOG_TEMPLATE.format(effective_time=intro['contents'][1]['zh'], content=catalog_content, homepage=data['homepage'])
     with open(f'{output_dir}/index.md', 'w', encoding='utf-8') as f:
         f.write(catalog_text)
 
-def terms_to_markdown(json_data, output_dir):
+    render_terms(data['translatedterms'], output_dir)
+
+def render_terms(data, output_dir):
     """
     接收一个包含 mainGlossary 和 unfinityDoctorGlossary 两个键的 JSON 对象，
     会自动按照 English 字段进行字母顺序排序，然后输出完整 Markdown 字符串：
@@ -186,15 +159,11 @@ def terms_to_markdown(json_data, output_dir):
     4) 中间过渡文本
     5) 第二张表格（unfinityDoctorGlossary）
     """
-    data = json.load(open(json_data, 'r'))
     # 原本 Markdown 文件中的说明文本
     title = "# 暂译名称列表\n"
-    intro_text = (
-        "\n\n下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n\n"
-    )
-    between_tables_text = (
-        "\n\n下列出现于*Unfinity*、*无疆新宇宙：神秘博士*系列中的名词之译名在官网文章中出现，但未出现于卡牌上。\n\n"
-    )
+    intro_text = '\n\n' + data['introductions']['mainGlossary'] + '\n\n'
+
+    between_tables_text = '\n\n' + data['introductions']['unfinityDoctorGlossary'].replace('Unfinity', '*Unfinity*').replace('无疆新宇宙：神秘博士', '*无疆新宇宙：神秘博士*') + '\n\n'
 
     # 定义一个字符串模板，用于拼接 Markdown 表格的头部
     table_header_template = """| English | 中文 |
@@ -232,14 +201,3 @@ def terms_to_markdown(json_data, output_dir):
 
     with open(f'{output_dir}/translatedterms.md', 'w', encoding='utf-8') as f:
         f.write(markdown_output)
-
-if __name__ == '__main__':
-    # plain_text_to_markdown('./20250207.json', '../markdown')
-    # terms_to_markdown('./translatedterms.json', '../markdown')
-    import argparse
-    parser = argparse.ArgumentParser(description='Convert JSON to Markdown.')
-    parser.add_argument('date', type=str, help='Date of the JSON file (e.g., 20250207)')
-    args = parser.parse_args()
-
-    plain_text_to_markdown(f'./{args.date}.json', '../markdown')
-    terms_to_markdown(f'./translatedterms.json', '../markdown')

@@ -1,8 +1,21 @@
-<nowiki>
-这是目录页的主要部分。将这部分内容和catalog_instruction.txt组合成完整的目录页。
-</nowiki>
+====== 万智牌完整规则 Magic Comprehensive Rules ======
+
+此中文版《万智牌完整规则》是大中华区裁判社群志愿者的翻译成果，并非官方译本。
+
+如果您对某条规则的翻译发现错误、或有改进的建议，亦或有意帮助翻译，请通过下列方式联系维护者：
+
+  * [[https://github.com/HeliumOctahelide/magic-comp-rules-zh-cn|Github Issue]]
+  * [[https://mtgch.com/feedback|大学院废墟用户反馈]]
+
+
+中文版翻译负责人：李思扬
+
+中文版翻译维护者：金汉宁、简单
+
+历史版本负责人及贡献者：杜昊、张天启、许兆本、杨俊杰、刘清源等。
+
 ===== 目录 =====
-//此规则于2026年8月7日起生效。//
+//此规则于2026年9月25日起生效。//
 
 [[CR:Intro|前言]]
 
@@ -41,7 +54,7 @@
   * [[CR:2#类别栏_type_line|205. 类别栏 Type Line]]
   * [[CR:2#版本符号_expansion_symbol|206. 版本符号 Expansion Symbol]]
   * [[CR:2#文字栏_text_box|207. 文字栏 Text Box]]
-  * [[CR:2#力量/防御力_power/toughness|208. 力量/防御力 Power/Toughness]]
+  * [[CR:2#力量／防御力_power/toughness|208. 力量／防御力 Power/Toughness]]
   * [[CR:2#忠诚_loyalty|209. 忠诚 Loyalty]]
   * [[CR:2#布防_defense|210. 布防 Defense]]
   * [[CR:2#手牌修正_hand_modifier|211. 手牌修正 Hand Modifier]]
@@ -111,7 +124,7 @@
   * [[CR:6#持续性效应的互动_interaction_of_continuous_effects|613. 持续性效应的互动 Interaction of Continuous Effects]]
   * [[CR:6#替代性效应_replacement_effects|614. 替代性效应 Replacement Effects]]
   * [[CR:6#防止性效应_prevention_effects|615. 防止性效应 Prevention Effects]]
-  * [[CR:6#替代性效应和/或防止性效应的互动_interaction_of_replacement_and/or_prevention_effects|616. 替代性效应和/或防止性效应的互动 Interaction of Replacement and/or Prevention Effects]]
+  * [[CR:6#替代性效应和／或防止性效应的互动_interaction_of_replacement_and/or_prevention_effects|616. 替代性效应和／或防止性效应的互动 Interaction of Replacement and/or Prevention Effects]]
 
 [[CR:7|第七章 - 附加规则 Additional Rules]]
   * [[CR:7#总则_general|700. 总则 General]]

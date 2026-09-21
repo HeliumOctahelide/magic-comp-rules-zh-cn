@@ -17,7 +17,7 @@ MAIN_TEMPLATE = """[[:完整规则|返回完整规则目录]] | {prev_next_chapt
 GLOSSARY_PINYIN_TEMPLATE = """[[:完整规则|返回完整规则目录]]
 ====== 词汇表（按拼音首字母排序） ======
 <WRAP centeralign>
-[[cr:glossarycn#字母|字母]] - [[cr:glossarycn#a|A]] - [[cr:glossarycn#b|B]] - [[cr:glossarycn#c|C]] - [[cr:glossarycn#d|D]] - [[cr:glossarycn#e|E]] - [[cr:glossarycn#f|F]] - [[cr:glossarycn#g|G]] - [[cr:glossarycn#h|H]] - [[cr:glossarycn#j|J]] - [[cr:glossarycn#k|K]] - [[cr:glossarycn#l|L]] - [[cr:glossarycn#m|M]] - [[cr:glossarycn#n|N]] - [[cr:glossarycn#o|O]] - [[cr:glossarycn#p|P]] - [[cr:glossarycn#q|Q]] - [[cr:glossarycn#r|R]] - [[cr:glossarycn#s|S]] - [[cr:glossarycn#t|T]] - [[cr:glossarycn#w|W]] - [[cr:glossarycn#x|X]] - [[cr:glossarycn#y|Y]] - [[cr:glossarycn#z|Z]]</WRAP>
+{navigation}</WRAP>
 ----
 
 {content}
@@ -28,7 +28,7 @@ GLOSSARY_PINYIN_TEMPLATE = """[[:完整规则|返回完整规则目录]]
 GLOSSARY_ALPHABET_TEMPLATE = """[[:完整规则|返回完整规则目录]]
 ====== 词汇表（按英文首字母排序） ======
 <WRAP centeralign>
-[[cr:glossary#a|A]] - [[cr:glossary#b|B]] - [[cr:glossary#c|C]] - [[cr:glossary#d|D]] - [[cr:glossary#e|E]] - [[cr:glossary#f|F]] - [[cr:glossary#g|G]] - [[cr:glossary#h|H]] - [[cr:glossary#i|I]] - [[cr:glossary#k|K]] - [[cr:glossary#l|L]] - [[cr:glossary#m|M]] - [[cr:glossary#n|N]] - [[cr:glossary#o|O]] - [[cr:glossary#p|P]] - [[cr:glossary#r|R]] - [[cr:glossary#s|S]] - [[cr:glossary#t|T]] - [[cr:glossary#u|U]] - [[cr:glossary#v|V]] - [[cr:glossary#w|W]] - [[cr:glossary#x|X]] - [[cr:glossary#y|Y]] - [[cr:glossary#z|Z]]</WRAP>
+{navigation}</WRAP>
 ----
 
 {content}
@@ -42,9 +42,10 @@ CREDITS_TEMPLATE = """[[:完整规则|返回完整规则目录]]
 {content}
 """
 
-CATALOG_TEMPLATE = """<nowiki>
-这是目录页的主要部分。将这部分内容和catalog_instruction.txt组合成完整的目录页。
-</nowiki>
+CATALOG_TEMPLATE = """====== 万智牌完整规则 Magic Comprehensive Rules ======
+
+{homepage}
+
 ===== 目录 =====
 //{effective_time}//
 

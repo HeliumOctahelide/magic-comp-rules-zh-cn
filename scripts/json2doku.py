@@ -1,18 +1,42 @@
-import json, re
+import re
+from html.parser import HTMLParser
 import doku_template
-from pypinyin import lazy_pinyin, load_phrases_dict
 
-load_phrases_dict({'重置': [['chóng'], ['zhì']]})
+class HomepageParser(HTMLParser):
+    """将首页的段落、列表和链接写成 DokuWiki 文本。"""
 
-def plain_text_to_dokuwiki(json_file, output_dir):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.parts.append(f"[[{dict(attrs)['href']}|")
+        elif tag == 'li':
+            self.parts.append('  * ')
+        elif tag == 'br':
+            self.parts.append('\n')
+
+    def handle_endtag(self, tag):
+        if tag == 'a':
+            self.parts.append(']]')
+        elif tag in ('p', 'ul'):
+            self.parts.append('\n\n')
+        elif tag == 'li':
+            self.parts.append('\n')
+
+    def handle_data(self, text):
+        if text.strip():
+            self.parts.append(text)
+
+def render(data, output_dir):
     '''
-    将json格式的规则文本转化为dokuwiki格式，并分章节输出。
+    将完整 JSON 数据渲染为 DokuWiki，并分章节输出。
     如果规则的九个大章节有变化，需要修改模板中的对应部分。
     input:
-        json_file: json文件路径
+        data: 已校验的完整 JSON 对象
         output_dir: 输出目录
     '''
-    data = json.load(open(json_file, 'r', encoding='utf-8'))
     intro = data['intro']
     main = data['main']
     glossary = data['glossary']
@@ -82,53 +106,27 @@ def plain_text_to_dokuwiki(json_file, output_dir):
         with open(f'{output_dir}/{i+1}.txt', 'w', encoding='utf-8') as f:
             f.write(main_text)
 
-    # 生成glossary
-    ## 按英文字母排序
-    sorted_glossary = sorted(glossary, key=lambda x: x['enname'])
-    current_letter = ''
-    content = ''
-    
-    for item in sorted_glossary:
-        if item['enname'][0] != current_letter:
-            current_letter = item['enname'][0]
-            content += f"=== {current_letter} ===\n"
-        content += f"{item['enname']}\\\\ \n"
-        content += f"{item['zhname']}\n"
-        content += '\n'
-        for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
-            content += f"{en_line}\\\\ \n"
-            content += f"{match_rule_num(zh_line)}\n"
-            content += '\n'
-        content += '----\n'
-    glossary_text = doku_template.GLOSSARY_ALPHABET_TEMPLATE.format(content=content)    
-    with open(f'{output_dir}/glossary.txt', 'w', encoding='utf-8') as f:
-        f.write(glossary_text)
-
-    glossary_zh_with_letter = [i for i in glossary if i['zhname'][0] in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz']
-    glossary_zh = [i for i in glossary if i['zhname'][0] not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz']
-
-    sorted_glossary_zh = sorted(glossary_zh_with_letter, key=lambda x: x['zhname']) + sorted(glossary_zh, key=lambda x: ''.join([f"{i:0<10}" for i in lazy_pinyin(x['zhname'])]))
-    current_letter = ''
-    content = ''
-    
-    for item in sorted_glossary_zh:
-        if item['zhname'][0] in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz':
-            if not current_letter: content += f"=== 字母 ===\n"
-            current_letter = '字母'
-        elif ''.join([f"{i:0<10}" for i in lazy_pinyin(item['zhname'])])[0].upper() != current_letter:
-            current_letter = lazy_pinyin(item['zhname'][0])[0][0].upper()
-            content += f"=== {current_letter} ===\n"
-        content += f"{item['enname']}\\\\ \n"
-        content += f"{item['zhname']}\n"
-        content += '\n'
-        for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
-            content += f"{en_line}\\\\ \n"
-            content += f"{match_rule_num(zh_line)}\n"
-            content += '\n'
-        content += '----\n'
-    glossarycn_text = doku_template.GLOSSARY_PINYIN_TEMPLATE.format(content=content)  
-    with open(f'{output_dir}/glossarycn.txt', 'w', encoding='utf-8') as f:
-        f.write(glossarycn_text)
+    # 两种视图共享正文，顺序完全由完整 JSON 决定。
+    entries = {item['enname']: item for item in glossary}
+    for view, filename, template in [
+        ('en', 'glossary.txt', doku_template.GLOSSARY_ALPHABET_TEMPLATE),
+        ('zh', 'glossarycn.txt', doku_template.GLOSSARY_PINYIN_TEMPLATE),
+    ]:
+        content = ''
+        for group in data['glossaryGroups'][view]:
+            content += f"=== {group['label']} ===\n"
+            for name in group['entries']:
+                item = entries[name]
+                content += f"{item['enname']}\\\\ \n{item['zhname']}\n\n"
+                for en_line, zh_line in zip(item['en'].split('\n'), item['zh'].split('\n')):
+                    content += f"{en_line}\\\\ \n{match_rule_num(zh_line)}\n\n"
+                content += '----\n'
+        with open(f'{output_dir}/{filename}', 'w', encoding='utf-8') as f:
+            page = filename.removesuffix('.txt')
+            navigation = ' - '.join(
+                f"[[cr:{page}#{group['label'].lower()}|{group['label']}]]"
+                for group in data['glossaryGroups'][view])
+            f.write(template.format(content=content, navigation=navigation))
 
     # 生成intro和credits
     def format_bold_and_italic(text):
@@ -162,11 +160,16 @@ def plain_text_to_dokuwiki(json_file, output_dir):
     with open(f'{output_dir}/credits.txt', 'w', encoding='utf-8') as f:
         f.write(credits_text)
 
-    catalog_text = doku_template.CATALOG_TEMPLATE.format(effective_time=intro['contents'][1]['zh'], content=catalog_content)
+    parser = HomepageParser()
+    parser.feed(data['homepage'])
+    homepage = ''.join(parser.parts).strip()
+    catalog_text = doku_template.CATALOG_TEMPLATE.format(effective_time=intro['contents'][1]['zh'], content=catalog_content, homepage=homepage)
     with open(f'{output_dir}/catalog.txt', 'w', encoding='utf-8') as f:
         f.write(catalog_text)
 
-def terms_to_dokuwiki(json_data, output_dir):
+    render_terms(data['translatedterms'], output_dir)
+
+def render_terms(data, output_dir):
     """
     接收一个包含 mainGlossary 和 unfinityDoctorGlossary 两个键的 JSON 文件，
     会自动按照 English 字段进行字母顺序排序，然后输出 DOKUWIKI 格式文本：
@@ -179,7 +182,6 @@ def terms_to_dokuwiki(json_data, output_dir):
       7) 最后插入 "规则和文档索引" 的 nofooter 页面
     """
     # 读取 JSON 数据
-    data = json.load(open(json_data, 'r', encoding='utf-8'))
 
     # 1) 返回完整规则目录的链接
     back_link = "[[:完整规则|返回完整规则目录]]\n"
@@ -188,9 +190,7 @@ def terms_to_dokuwiki(json_data, output_dir):
     title = "====== 暂译名称列表 ======\n\n"
 
     # 3) 第一段说明文字
-    intro_text = (
-        "下列名称暂未有正式中文译名，以下中文名称为暂译名称。\n\n"
-    )
+    intro_text = '\n\n' + data['introductions']['mainGlossary'] + '\n\n'
 
     # 4) 第一张表（mainGlossary）
     #    DOKUWIKI 使用 ^ 作为表格的单元格边界
@@ -218,10 +218,7 @@ def terms_to_dokuwiki(json_data, output_dir):
     # 5) 第二段说明文字（中间过渡文本）
     #    DOKUWIKI 的斜体用 // 来表示
     #    这里与 Markdown 不同，需要将 * 替换为 //
-    between_tables_text = (
-        "\n\n下列出现于//Unfinity//、//无疆新宇宙：神秘博士//系列中的名词之译名"
-        "在官网文章中出现，但未出现于卡牌上。\n\n"
-    )
+    between_tables_text = '\n\n' + data['introductions']['unfinityDoctorGlossary'].replace('Unfinity', '//Unfinity//').replace('无疆新宇宙：神秘博士', '//无疆新宇宙：神秘博士//') + '\n\n'
 
     # 6) 第二张表（unfinityDoctorGlossary）
     unfinity_data = data.get("unfinityDoctorGlossary", [])
@@ -244,14 +241,3 @@ def terms_to_dokuwiki(json_data, output_dir):
     # 写出到目标文件
     with open(f'{output_dir}/translatedterms.txt', 'w', encoding='utf-8') as f:
         f.write(dokuwiki_output)
-
-if __name__ == '__main__':
-    # plain_text_to_dokuwiki('./20250207.json', '../dokuwiki')
-    # terms_to_dokuwiki('./translatedterms.json', '../dokuwiki')
-    import argparse
-    parser = argparse.ArgumentParser(description='Convert JSON to DokuWiki format.')
-    parser.add_argument('date', type=str, help='Date of the JSON file (e.g. 20250207)')
-    args = parser.parse_args()
-
-    plain_text_to_dokuwiki(f'./{args.date}.json', '../dokuwiki')
-    terms_to_dokuwiki(f'./translatedterms.json', '../dokuwiki')

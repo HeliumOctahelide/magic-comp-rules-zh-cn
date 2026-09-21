@@ -30,7 +30,7 @@
 901.3a 时空骰为六面骰。其中一面为鹏洛客符号。一面为混沌符号。其他面为空白。
 
 <BOOKMARK:cr901-4>901.4. All plane and phenomenon cards remain in the command zone throughout the game, both while they’re part of a planar deck and while they’re face up.\\ 
-901.4. 整个游戏过程当中，所有的时空牌和异象牌均位于统帅区中，无论是在他们仍属时空套牌部分，或是处于牌面朝上期间，均是如此。
+901.4. 整个游戏过程当中，所有的时空牌和异象牌均位于统帅区中，无论是在它们仍属时空套牌的部分，或是处于牌面朝上期间，均是如此。
 
 <BOOKMARK:cr901-5>901.5. Once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the starting player moves the top card of their planar deck off that planar deck and turns it face up. If it’s a phenomenon card, the player puts that card on the bottom of their planar deck and repeats this process until a plane card is turned face up. (See rule 103.7.) No abilities of any card turned face up this way trigger during this process. The face-up plane card becomes the starting plane.\\ 
 901.5. 在所有牌手均保留起手牌，完成允许牌手自起手牌中利用此牌张执行之所有动作之后，先手牌手将其时空套牌的牌库顶牌移离该时空套牌，并将其翻回正面。如果该牌为异象牌，则该牌手将该牌置于时空套牌牌库底，然后重复此流程，直至一张时空牌翻回正面为止。（参见规则[[cr:1#cr103-7|103.7]]）在此过程中，以此法翻回正面之牌张的异能均不会触发。该牌面朝上的时空牌便是起始时空。
@@ -63,7 +63,7 @@
 901.9d 掷时空骰会使得每当牌手掷一颗或数颗骰子时触发的异能触发。但是，任何提及掷骰的数字结果的效应，包括比较该次掷骰与其他掷骰或一个给定数字的结果的效应，会忽略该次掷时空骰。参见规则[[cr:7#cr706|706]]，“掷骰”。
 
 <BOOKMARK:cr901-10>901.10. When a player leaves the game, all objects owned by that player except abilities from phenomena leave the game. (See rule 800.4a.) If that includes a face-up plane card or phenomenon card, the planar controller turns the top card of their planar deck face up. This is not a state-based action. It happens as soon as the player leaves the game.\\ 
-901.10. 当一位牌手离开游戏时，由该牌手拥有的所有物件均会离开游戏，但异象产生的异能除外。（参见规则[[cr:8#cr800-4a|800.4a]]。）如果离开游戏的物件中包括牌面朝上的时空牌或异象牌，则时空操控者将其时空套牌牌库顶牌翻成正面。这不属于状态动作。这会在牌手离开游戏的同时发生。
+901.10. 当一位牌手离开游戏时，由该牌手拥有的所有物件均会离开游戏，但异象产生的异能除外。（参见规则[[cr:8#cr800-4a|800.4a]]。）如果离开游戏的物件中包括牌面朝上的时空牌或异象牌，则时空操控者将其时空套牌牌库顶牌翻回正面。这不属于状态动作。这会在牌手离开游戏的同时发生。
 
 <BOOKMARK:cr901-10a>901.10a If a plane leaves the game while a “planeswalking ability” is on the stack, that ability ceases to exist.\\ 
 901.10a 如果时空在“时空换境异能”仍在堆叠上期间离开游戏，则该异能消失。
@@ -90,7 +90,7 @@
 901.12a 每位牌手均有一副由其拥有的时空套牌。
 
 <BOOKMARK:cr901-12b>901.12b The planar controller is normally the primary player of the active team. However, if the current planar controller’s team would leave the game, instead the primary player of the next team in turn order that wouldn’t leave the game becomes the planar controller, then the old planar controller’s team leaves the game. The new planar controller retains that designation until they leave the game or a different team becomes the active team, whichever comes first.\\ 
-901.12b 通常情况下，时空操控者为主动队伍的主要牌手。然而，如果当前时空操控者所属队伍将离开游戏，则改为依照回合顺序下一支不会离开游戏之队伍的主动牌手成为时空操控者，然后原先的时空操控者队伍离开游戏。新的时空操控者保持该称号直到发生下述两种情况之一为止：该牌手离开游戏；或有其他队伍成为主动队伍。
+901.12b 通常情况下，时空操控者为主动队伍的主要牌手。然而，如果当前时空操控者所属队伍将离开游戏，则改为依照回合顺序下一支不会离开游戏之队伍的主要牌手成为时空操控者，然后原先的时空操控者队伍离开游戏。新的时空操控者保持该称号直到发生下述两种情况之一为止：该牌手离开游戏；或有其他队伍成为主动队伍。
 
 <BOOKMARK:cr901-12c>901.12c Even though the face-up plane or phenomenon is controlled by just one player, any ability of that plane or phenomenon that refers to “you” applies to both members of the planar controller’s team.\\ 
 901.12c 虽然牌面朝上的时空或异象仅由一位牌手操控，但该时空或异象上任何提及“你”的异能会同时影响时空操控者队伍的两位队员。
@@ -99,7 +99,7 @@
 901.12d 由于主动队伍每位队员都是主动牌手，因此每位队员均可以掷时空骰。每位牌手掷时空骰所需之费用，系根据该牌手在该回合中已掷过时空骰的次数决定。
 
 <BOOKMARK:cr901-13>901.13. In multiplayer formats other than Grand Melee, plane cards and phenomenon cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. (See rule 801, “Limited Range of Influence Option.”)\\ 
-901.13. 除了大型混战之外，在其他的多人游戏玩法中，时空牌和异象牌均不受“影响距离”规则限制。他们的异能及该些异能的效应，会对游戏中所有适用的物件和牌手产生影响。（参见规则[[cr:8#cr801|801]]，“影响距离规则”。）
+901.13. 除了大型混战之外，在其他的多人游戏玩法中，时空牌和异象牌均不受限制影响范围模式规则限制。它们的异能及该些异能的效应，会对游戏中所有适用的物件和牌手产生影响。（参见规则[[cr:8#cr801|801]]，“限制影响范围模式”。）
 
 <BOOKMARK:cr901-14>901.14. In Grand Melee Planechase games, multiple plane cards or phenomenon cards may be face up at the same time.\\ 
 901.14. 在大型混战竞逐时空游戏中，在同一时刻可能会有多张时空牌或异象牌处于牌面朝上。
@@ -114,13 +114,13 @@
 901.15. 单一时空套牌模式
 
 <BOOKMARK:cr901-15a>901.15a As an alternative option, a Planechase game may be played with just a single communal planar deck. In that case, the number of cards in the planar deck must be at least forty or at least ten times the number of players in the game, whichever is smaller. The planar deck can’t contain more phenomenon cards than twice the number of players in the game. Each card in the planar deck must have a different English name.\\ 
-901.15a 竞逐时空游戏也能以使用单一共用时空套牌的玩法进行游戏。在此情况下，时空套牌须至少为四十张或至少十倍于参加游戏的牌手数量，取两者间较小者。时空套牌中包含的异象牌数量，不得多于参加游戏之牌手数量的两倍。成时空套牌的各牌英文名称须各不相同。
+901.15a 竞逐时空游戏也能以使用单一共用时空套牌的玩法进行游戏。在此情况下，时空套牌须至少为四十张或至少十倍于参加游戏的牌手数量，取两者间较小者。时空套牌中包含的异象牌数量，不得多于参加游戏之牌手数量的两倍。时空套牌中各牌的英文名称须各不相同。
 
 <BOOKMARK:cr901-15b>901.15b In a Planechase game using the single planar deck option, the planar controller is considered to be the owner of all cards in the planar deck.\\ 
 901.15b 在使用单一时空套牌模式的竞逐时空游戏中，时空操控者视同为时空套牌中所有牌的拥有者。
 
 <BOOKMARK:cr901-15c>901.15c If any rule or ability refers to a player’s planar deck, the communal planar deck is used.\\ 
-901.15c 如果有任何规则提及某牌手的时空套牌，则使用共用的时空套牌。
+901.15c 如果有任何规则或异能提及某牌手的时空套牌，则使用共用的时空套牌。
 
 ===== 902. 先锋 Vanguard =====
 <BOOKMARK:cr902>902. Vanguard\\ 
@@ -136,16 +136,16 @@
 902.3. 除一般的游戏用具外，每位牌手还各需有一张先锋牌。在游戏开始之前，牌手将各自的先锋牌牌面朝上地置于其拥有者牌库旁边。在整盘游戏过程当中，先锋牌均位于统帅区中。
 
 <BOOKMARK:cr902-4>902.4. Each player’s starting life total is 20 plus or minus the life modifier of their vanguard card.\\ 
-902.4. 每位牌手的起始生命值为20加上或减去其先锋牌上的生命修正值。
+902.4. 每位牌手的起始总生命为20加上或减去其先锋牌上的生命修正值。
 
 Example: The life modifier of a player’s vanguard card is -3. That player’s starting life total is 17.\\ 
 例如：某牌手先锋牌的生命修正值为-3。该牌手的起始生命值为17。
 
 <BOOKMARK:cr902-5>902.5. Each player’s starting hand size is seven cards, as modified by the hand modifier of their vanguard card.\\ 
-902.5. 每位牌手的起手牌数量为七张，且会受其先锋牌之手牌修正值影响。
+902.5. 每位牌手的起手牌张数为七张，且会受其先锋牌之手牌修正值影响。
 
 <BOOKMARK:cr902-5a>902.5a If a player takes a mulligan in a Vanguard game, just like in a normal game, that player shuffles their hand back into their library, then draws a new hand equal to their starting hand size. (In a multiplayer game, a player’s first mulligan is for the same number of cards as they had before.) See rule 103.5.\\ 
-902.5a 如果某牌手在先锋游戏中进行再调度，则该牌手如在正常游戏中进行再调度一般，将其手牌洗回其牌库，然后抓新的手牌，其数量等同于其起手牌数量。（在多人游戏中，牌手第一次进行再调度后所抓的手牌数与之前相同。）参见规则[[cr:1#cr103-5|103.5]]。
+902.5a 如果某牌手在先锋游戏中进行再调度，则该牌手如在正常游戏中进行再调度一般，将其手牌洗回其牌库，然后抓新的手牌，其数量等同于其起手牌张数。（在多人游戏中，牌手第一次进行再调度后所抓的手牌数与之前相同。）参见规则[[cr:1#cr103-5|103.5]]。
 
 Example: The hand modifier of a player’s vanguard card is +2. That player starts the game with a hand of 9 cards. If the player takes a mulligan three times before keeping, they draw a new hand of nine cards and put three of those on the bottom of their library.\\ 
 例如：某牌手先锋牌的手牌修正值为+2。该牌手以9张手牌开始游戏。如果该牌手在保留手牌之前进行了三次再调度，他会新抓一份9张牌的手牌，然后将其中三张牌置于其牌库底。
@@ -173,7 +173,7 @@ Example: The hand modifier of a player’s vanguard card is -1. That player’s 
 903.2. 指挥官可由两人或多人游戏。默认采用的多人游戏模式是自由竞赛玩法，使用攻击复数牌手模式，不使用限制影响范围模式。参见规则[[cr:8#cr806|806]]，“自由竞赛玩法”。
 
 <BOOKMARK:cr903-3>903.3. Each deck has a legendary card designated as its commander. That card must be either (a) a creature card, (b) a Vehicle card, or (c) a Spacecraft card with one or more power/toughness boxes. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.\\ 
-903.3. 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是载具牌；（c）是具有至少一个力量/防御力方格的太空船牌。“指挥官”此称号并非该牌所代表之物件的特征，而属于该牌所具有的属性之一。就算该牌改换区域，也依然保持此称号。
+903.3. 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是载具牌；（c）是具有至少一个力量／防御力方格的太空船牌。“指挥官”此称号并非该牌所代表之物件的特征，而属于该牌所具有的属性之一。就算该牌改换区域，也依然保持此称号。
 
 Example: A commander that’s been turned face down (due to Ixidron’s effect, for example) is still a commander. A commander that’s copying another card (due to Cytoshape’s effect, for example) is still a commander. A permanent that’s copying a commander (such as a Body Double, for example, copying a commander in a player’s graveyard) is not a commander.\\ 
 例如：翻为牌面朝下的指挥官（例如说因意塑影效应之故）仍是指挥官。复制其他牌的指挥官（例如说因细胞塑形效应之故）仍是指挥官。复制指挥官的永久物（例如说复制坟墓场里指挥官的替身妖）不是指挥官。
@@ -248,7 +248,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 903.6. 在游戏开始时，每位牌手将其指挥官牌面朝上地置入统帅区。然后分别将套牌中剩下的牌洗牌，确保其中牌张顺序随机。这些牌成为该牌手的牌库。
 
 <BOOKMARK:cr903-7>903.7. Once the starting player has been determined, each player sets their life total to 40 and draws a hand of seven cards.\\ 
-903.7. 在确定先手牌手之后，每位牌手将生命值设为40，并抓一份七张牌的手牌。
+903.7. 在确定先手牌手之后，每位牌手将总生命设为40，并抓一份七张牌的手牌。
 
 <BOOKMARK:cr903-8>903.8. A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. This additional cost is informally known as the “commander tax.”\\ 
 903.8. 牌手可从统帅区施放由他拥有的指挥官。牌手在从统帅区施放指挥官时，他于这盘游戏先前的时段中每从统帅区施放过一次该指挥官，便须额外支付{2}。此额外费用的非正式名称为“指挥官税”。
@@ -287,7 +287,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 903.12b 争锋套牌通常使用标准赛制中的牌张构组。
 
 <BOOKMARK:cr903-12c>903.12c Each deck has a legendary card designated as its commander. That card must be either (a) a creature card, (b) a planeswalker card, (c) a Vehicle card, or (d) a Spacecraft card with one or more power/toughness boxes.\\ 
-903.12c 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是鹏洛客牌；（c）是载具牌；（d）是具有至少一个力量/防御力方格的太空船牌。
+903.12c 每副套牌均由一张传奇牌担任套牌的指挥官。该牌必须具备以下条件之一：（a）是生物牌；（b）是鹏洛客牌；（c）是载具牌；（d）是具有至少一个力量／防御力方格的太空船牌。
 
 <BOOKMARK:cr903-12d>903.12d A player’s deck must contain exactly 60 cards, including its commander. In other words, the minimum deck size and the maximum deck size are both 60.\\ 
 903.12d 牌手的套牌必须包含正好60张牌（含指挥官）。换言之，套牌数量下限和套牌数量上限均为60。
@@ -299,7 +299,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 903.12f 在双人争锋游戏中，每位牌手的起始总生命为25。在多人争锋游戏中，每位牌手的起始总生命为30。
 
 <BOOKMARK:cr903-12g>903.12g In any Brawl game, the first mulligan a player takes doesn’t count toward the number of cards that player will put on the bottom of their library or the number of mulligans that player may take. Subsequent mulligans are counted toward these numbers as normal.\\ 
-903.12g 在任何一种争锋游戏中，在依照其已执行再调度的次数计算牌手应置于牌库底的牌张数量时，该牌手第一次执行的再调度不会计入该数量。第一次再调度之后的再调度会正常计入该数量。
+903.12g 在任何一种争锋游戏中，牌手第一次执行的再调度不会计入其应置于其牌库底的牌张数量，也不会计入其可以执行再调度的次数。第一次再调度之后的再调度会正常计入该数量。
 
 <BOOKMARK:cr903-12h>903.12h Brawl games do not use the state-based action described in rule 704.6c, which causes a player to lose the game if they’ve been dealt 21 or more combat damage by a commander.\\ 
 903.12h 争锋游戏不使用规则[[cr:7#cr704-6c|704.6c]]中所述之状态动作，该状态动作使牌手在受到21点或以上来自指挥官的战斗伤害时输掉游戏。
@@ -320,13 +320,13 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 903.13d 在轮抽过程中，牌手只能检视他正在抽选的补充包中的牌和已经抽选的牌。牌手不能向其他牌手展示已抽选的牌，除非有异能指示他如此作。
 
 <BOOKMARK:cr903-13e>903.13e After the draft is complete, the cards a player drafted become that player’s card pool. If the draft contained draft boosters from Commander Legends or Commander Masters, each player may add up to two cards named The Prismatic Piper to their card pool, but only if those cards are used as the player’s commander(s). If the draft contained draft boosters from Commander Legends: Battle for Baldur’s Gate®, each player may add up to two cards named Faceless One to their card pool, but only if those cards are used as the player’s commander(s).\\ 
-903.13e 在轮抽结束后，每位牌手所抽选的牌成为该牌手的牌池。如果该次轮抽包含指挥官传奇系列或指挥官大师系列的轮抽补充包，则牌手可以向其牌池至多添加两张名为虹彩魔笛手的牌，但仅限于这些牌被用作该牌手指挥官的情形下。如果该次轮抽包含指挥官传奇：争战博德之门®系列的轮抽补充包，则每位牌手可以向其牌池添加至多两张名为无面者的牌，但仅限于这些牌被用作该牌手指挥官的情形下。
+903.13e 在轮抽结束后，每位牌手所抽选的牌成为该牌手的牌池。如果该次轮抽包含指挥官传奇系列或指挥官大师系列的轮抽补充包，则牌手可以向其牌池至多添加两张名称为虹彩魔笛手的牌，但仅限于这些牌被用作该牌手指挥官的情形下。如果该次轮抽包含指挥官传奇：争战博德之门®系列的轮抽补充包，则每位牌手可以向其牌池添加至多两张名称为无面者的牌，但仅限于这些牌被用作该牌手指挥官的情形下。
 
 <BOOKMARK:cr903-13f>903.13f Commander Draft deck construction follows the same rules as Commander deck construction (see rule 903.5) with three exceptions: (1) A player’s deck must contain at least 60 cards. There is no maximum deck size. (2) A player’s deck may include any number of cards from that player’s card pool with the same name. (3) If the draft contained draft boosters from Commander Masters, any card which can be a player’s commander by itself and whose color identity includes one or fewer colors is considered to have the partner ability for the purposes of deckbuilding. (See rule 702.124, “Partner.”)\\ 
 903.13f 指挥官轮抽的套牌构组遵循与指挥官套牌（参见规则[[cr:9#cr903-5|903.5]]）一样的规则，但有以下三条例外：（1）套牌须包含至少60张牌。没有套牌数量上限。（2）牌手的套牌可以包含该牌手牌池中的任意数量的同名牌。（3）如果该次轮抽包含指挥官大师系列的轮抽补充包，则在进行套牌构组的意义上，任何可以单独作为牌手指挥官，且标识色为一种或更少的牌被视为具有拍档异能。（参见规则[[cr:7#cr702-124|702.124]]，“拍档”。）
 
 <BOOKMARK:cr903-13g>903.13g Commander Draft games follow the same rules as Commander games. See rules 903.6–903.11.\\ 
-903.13g 指挥官轮抽游戏遵循与指挥官游戏一样的规则。参见规则[[cr:9#cr903-6|903.6-11]]。
+903.13g 指挥官轮抽游戏遵循与指挥官游戏一样的规则。参见规则[[cr:9#cr903-6|903.6-903]]11。
 
 ===== 904. 魔王 Archenemy =====
 <BOOKMARK:cr904>904. Archenemy\\ 
@@ -348,10 +348,10 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 904.3. 除了一般的游戏用具外，魔王还需要一副由至少二十张邪计牌构成的附加邪计套牌。邪计套牌中同一英文名称的牌张不得多于两张。（参见规则[[cr:3#cr314|314]]，“邪计”。）
 
 <BOOKMARK:cr904-4>904.4. All scheme cards remain in the command zone throughout the game, both while they’re part of a scheme deck and while they’re face up.\\ 
-904.4. 整个游戏过程当中，所有邪计牌均位于统帅区中，无论是在他们仍属邪计套牌部分，或是处于牌面朝上期间，均是如此。
+904.4. 整个游戏过程当中，所有邪计牌均位于统帅区中，无论是在它们仍属邪计套牌部分，或是处于牌面朝上期间，均是如此。
 
 <BOOKMARK:cr904-5>904.5. The archenemy’s starting life total is 40. Each other player’s starting life total is 20.\\ 
-904.5. 魔王的起始生命为40。其他牌手的起始生命为20。
+904.5. 魔王的起始总生命为40。其他牌手的起始总生命为20。
 
 <BOOKMARK:cr904-6>904.6. Rather than a randomly determined player, the archenemy takes the first turn of the game.\\ 
 904.6. 始终由魔王首先进行回合，而不采用随机方式确定先手牌手。
@@ -381,7 +381,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 904.12b 游戏中每位牌手都是魔王。
 
 <BOOKMARK:cr904-12c>904.12c As in a normal Free-for-All game, the starting player is randomly determined. All other rules that apply to the archenemy in an Archenemy game apply to each player in a Supervillain Rumble game.\\ 
-904.12c 如正常多人自由竞赛游戏一般，采用随机方式决定先手牌手。魔王游戏中所有作用于魔王的其他规则，在群魔乱斗游戏中则会适用于作有牌手。
+904.12c 如正常多人自由竞赛游戏一般，采用随机方式决定先手牌手。魔王游戏中所有作用于魔王的其他规则，在群魔乱斗游戏中则会适用于所有牌手。
 
 <BOOKMARK:cr904-13>904.13. Archenemy Commander Option\\ 
 904.13. 魔王指挥官玩法
@@ -403,7 +403,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 905. 诡局轮抽
 
 <BOOKMARK:cr905-1>905.1. The Conspiracy Draft variant consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Conspiracy Draft variant uses Magic: The Gathering—Conspiracy® and/or Conspiracy: Take the Crown booster packs by default.\\ 
-905.1. 诡局轮抽玩法包括一次轮抽（一种限制赛，牌手打开未开封的补充包，从中抽选卡牌来构组套牌）和紧随其后的多人游戏。诡局轮抽玩法默认使用万智牌：诡局®和/或诡局：王权争霸补充包。
+905.1. 诡局轮抽玩法包括一次轮抽（一种限制赛，牌手打开未开封的补充包，从中抽选卡牌来构组套牌）和紧随其后的多人游戏。诡局轮抽玩法默认使用万智牌：诡局®和／或诡局：王权争霸补充包。
 
 <BOOKMARK:cr905-1a>905.1a A draft typically consists of three draft rounds. In each draft round, each player opens a booster pack, drafts one card by placing that card in a face-down pile in front of the player, then passes the remaining cards to the next player. Each player then drafts a card from the booster pack passed to them and passes the remaining cards. This procedure continues until all cards in that draft round have been drafted.\\ 
 905.1a 一次轮抽通常包含三个轮抽轮次。在每个轮次中，每位牌手打开一个补充包，抽选一张牌（将该牌置于该牌手面前牌面朝下的一堆），然后将剩下的牌传给下一位牌手。然后每位牌手从传过来的补充包中抽选一张牌，然后将剩下的牌再传给下一位牌手。此流程持续，直到该轮次中的所有牌都被抽选完毕。
@@ -430,7 +430,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 905.2c 一些牌指示牌手以牌面朝上的方式抽选之。这些牌一直保持牌面朝上，直到轮抽结束，或效应指示抽选该牌的牌手将其翻回牌面朝下，或该牌离开该牌手已抽选的牌堆。只要该牌是牌面朝上，任何牌手都可以检视之。
 
 <BOOKMARK:cr905-3>905.3. A Conspiracy Draft game is a multiplayer game. The default multiplayer setup is the Free-for-All variant with the attack multiple players option and without the limited range of influence option. See rule 806, “Free-for-All Variant.”\\ 
-905.3. 诡局轮抽游戏是多人游戏。默认使用的多人模式是自由竞赛模式，并且不使用限制影响范围模式。参见规则[[cr:8#cr806|806]]，“自由竞赛模式”。
+905.3. 诡局轮抽游戏是多人游戏。默认使用的多人模式是自由竞赛模式，使用攻击复数牌手模式，并且不使用限制影响范围模式。参见规则[[cr:8#cr806|806]]，“自由竞赛模式”。
 
 <BOOKMARK:cr905-4>905.4. At the start of the game, before decks are shuffled, each player may put any number of conspiracy cards from their sideboard into the command zone.\\ 
 905.4. 在游戏开始时，洗套牌之前，每位牌手可以将他备牌中任意数量的诡局牌置于统帅区。
