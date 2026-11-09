@@ -1,4 +1,4 @@
-"""提交已有产物，并通过 GitHub CLI 发布 rules.json。"""
+"""提交仓库内容，并通过 GitHub CLI 发布 rules.json 和中文 rules.txt。"""
 
 import argparse
 from datetime import datetime
@@ -7,7 +7,6 @@ from pathlib import Path
 import re
 import subprocess
 import sys
-from urllib.parse import quote
 from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,7 +36,8 @@ def api(root, method, endpoint, *, body=None, content_type='application/json', b
     args = ['gh', 'api', '--method', method, endpoint,
             '-H', 'Accept: ' + ('application/octet-stream' if binary else 'application/vnd.github+json')]
     if body is not None:
-        args += ['-H', f'Content-Type: {content_type}', '--input', '-']
+        args += ['-H', f'Content-Type: {content_type}',
+                 '-H', f'Content-Length: {len(body)}', '--input', '-']
     result = command(root, args, input=body, check=check)
     if not check:
         return result
@@ -53,67 +53,85 @@ def publish(version, *, root=ROOT, tag=None, message=None, dry_run=False):
     if not re.fullmatch(r'[0-9]{8}', version):
         raise ValueError('规则日期须为 YYYYMMDD。')
     datetime.strptime(version, '%Y%m%d')
-    artifact = f'scripts/{version}.json'
-    if not (root / artifact).is_file():
-        raise RuntimeError(f'找不到已编译的 {artifact}，请先运行编译命令。')
+    artifacts = [
+        (f'scripts/{version}.json', 'rules.json', 'application/json'),
+        (f'plain_text/{version}_Zh.txt', 'rules.txt', 'text/plain'),
+    ]
+    for path, _, _ in artifacts:
+        if not (root / path).is_file():
+            raise RuntimeError(f'找不到 {path}，请先准备源文件并运行编译命令。')
     repo = repository_from_origin(root)
     branch = git(root, 'symbolic-ref', '--short', 'HEAD').stdout.decode().strip()
     tag = tag or f'cr-{version}'
     git(root, 'check-ref-format', f'refs/tags/{tag}')
     title = f'完整规则 {version}'
+    tag_exists = git(root, 'show-ref', '--verify', '--quiet', f'refs/tags/{tag}', check=False).returncode == 0
     if dry_run:
         print(f'发布预览：{repo}，分支 {branch}，标签 {tag}')
         print(git(root, 'status', '--short').stdout.decode(), end='')
-        print(f'将提交所有未忽略的仓库变更，推送分支及标签，创建草稿，'
-              f'上传 {artifact} 为 rules.json，核对附件后正式发布并设为 latest。')
+        if tag_exists:
+            print('将尝试继续已有 Release 草稿，使用该标签中的 JSON 和中文源文件，核对附件后正式发布并设为 latest。')
+        else:
+            print('将提交所有未忽略的仓库变更，推送分支及标签，创建草稿，'
+                  '上传 rules.json 和中文 rules.txt，核对附件后正式发布并设为 latest。')
         return None
 
     command(root, ['gh', 'auth', 'status', '--hostname', 'github.com'])
-    if git(root, 'show-ref', '--verify', '--quiet', f'refs/tags/{tag}', check=False).returncode == 0:
-        raise RuntimeError(f'本地标签 {tag} 已存在，请选择新的修订标签。')
     releases = f'repos/{repo}/releases'
-    existing = api(root, 'GET', f'{releases}/tags/{quote(tag, safe="")}', check=False)
-    if existing.returncode == 0:
-        raise RuntimeError(f'Release {tag} 已存在，请选择新的修订标签。')
-    if 'HTTP 404' not in existing.stderr.decode('utf-8', errors='replace'):
-        raise RuntimeError(existing.stderr.decode('utf-8', errors='replace').strip())
-
-    git(root, 'add', '--all')
-    if git(root, 'diff', '--cached', '--quiet', check=False).returncode:
-        git(root, 'commit', '-m', message or f'Update comprehensive rules {version}')
-    commit = git(root, 'rev-parse', 'HEAD').stdout.decode().strip()
-    payload = git(root, 'show', f'{commit}:{artifact}').stdout
-    git(root, 'tag', '-a', '-m', title, '--', tag)
-    git(root, '-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential',
-        'push', '--atomic', 'origin', f'HEAD:refs/heads/{branch}', f'refs/tags/{tag}')
-
-    draft = api(root, 'POST', releases, body=json_body({
-        'tag_name': tag, 'target_commitish': commit, 'name': title,
-        'body': f'规则版本：{version}\n\n完整数据附件：rules.json',
-        'draft': True, 'prerelease': False, 'make_latest': 'false',
-    }))
+    existing = api(root, 'GET', f'{releases}?per_page=100')
+    draft = next((item for item in existing if item['tag_name'] == tag), None)
+    if draft is not None:
+        if not draft['draft']:
+            raise RuntimeError(f'Release {tag} 已正式发布，请选择新的修订标签。')
+        commit = git(root, 'rev-parse', f'refs/tags/{tag}^{{commit}}').stdout.decode().strip()
+        print(f'继续草稿：{draft["html_url"]}')
+        print(f'沿用标签 {tag} 的提交 {commit[:7]}，直接继续附件发布。', flush=True)
+    else:
+        if tag_exists:
+            raise RuntimeError(f'本地标签 {tag} 已存在，但没有对应草稿，请选择新的修订标签。')
+        git(root, 'add', '--all')
+        if git(root, 'diff', '--cached', '--quiet', check=False).returncode:
+            git(root, 'commit', '-m', message or f'Update comprehensive rules {version}')
+        commit = git(root, 'rev-parse', 'HEAD').stdout.decode().strip()
+        git(root, 'tag', '-a', '-m', title, '--', tag)
+        git(root, '-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential',
+            'push', '--atomic', 'origin', f'HEAD:refs/heads/{branch}', f'refs/tags/{tag}')
+        print(f'Git 推送成功：origin/{branch}，标签 {tag}，提交 {commit[:7]}。', flush=True)
+        draft = api(root, 'POST', releases, body=json_body({
+            'tag_name': tag, 'target_commitish': commit, 'name': title,
+            'body': f'规则版本：{version}\n\n完整数据：rules.json\n中文文本：rules.txt',
+            'draft': True, 'prerelease': False, 'make_latest': 'false',
+        }))
+        print(f'已创建草稿：{draft["html_url"]}')
     release_id = draft['id']
-    print(f'已创建草稿：{draft["html_url"]}')
-    asset = api(root, 'POST',
-                f'https://uploads.github.com/repos/{repo}/releases/{release_id}/assets?name=rules.json',
-                body=payload)
-    if (asset['name'], asset['content_type'], asset['size']) != ('rules.json', 'application/json', len(payload)):
-        raise RuntimeError('附件名称、类型或长度不符，Release 保留为草稿。')
-    downloaded = api(root, 'GET', f'{releases}/assets/{asset["id"]}', binary=True)
-    if downloaded != payload:
-        raise RuntimeError('附件与已提交 JSON 的字节内容不同，Release 保留为草稿。')
+    payloads = {}
+    for path, name, content_type in artifacts:
+        payload = git(root, 'show', f'{commit}:{path}').stdout
+        payloads[name] = payload
+        asset = next((item for item in draft['assets'] if item['name'] == name), None)
+        if asset is None:
+            asset = api(root, 'POST',
+                        f'https://uploads.github.com/repos/{repo}/releases/{release_id}/assets?name={name}',
+                        body=payload, content_type=content_type)
+        if (asset['name'], asset['content_type'], asset['size']) != (name, content_type, len(payload)):
+            raise RuntimeError(f'{name} 的名称、类型或长度不符，Release 保留为草稿。')
+        downloaded = api(root, 'GET', f'{releases}/assets/{asset["id"]}', binary=True)
+        if downloaded != payload:
+            raise RuntimeError(f'{name} 与已提交文件的字节内容不同，Release 保留为草稿。')
+        print(f'附件已核对：{name}', flush=True)
     api(root, 'PATCH', f'{releases}/{release_id}', body=json_body({
         'draft': False, 'prerelease': False, 'make_latest': 'true',
     }))
     latest = api(root, 'GET', f'{releases}/latest')
     if latest['id'] != release_id or latest['draft'] or latest['prerelease']:
         raise RuntimeError('Release 已发布，但 latest 接口未返回本次正式版本，请检查 GitHub。')
-    assets = [item for item in latest['assets'] if item['name'] == 'rules.json']
-    if len(assets) != 1 or assets[0]['content_type'] != 'application/json':
-        raise RuntimeError('Release 已发布，但 latest 附件列表不符合约定。')
-    with urlopen(assets[0]['browser_download_url'], timeout=60) as response:
-        if response.read() != payload:
-            raise RuntimeError('Release 已发布，但正式附件下载内容不一致。')
+    for _, name, content_type in artifacts:
+        assets = [item for item in latest['assets'] if item['name'] == name]
+        if len(assets) != 1 or assets[0]['content_type'] != content_type:
+            raise RuntimeError(f'Release 已发布，但 latest 附件列表中的 {name} 不符合约定。')
+        with urlopen(assets[0]['browser_download_url'], timeout=60) as response:
+            if response.read() != payloads[name]:
+                raise RuntimeError(f'Release 已发布，但 {name} 的正式下载内容不一致。')
     print(f'发布完成：{latest["html_url"]}')
     return latest['html_url']
 

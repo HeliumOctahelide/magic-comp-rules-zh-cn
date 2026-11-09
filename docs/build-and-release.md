@@ -20,7 +20,9 @@ python scripts/build.py 20260925
 python scripts/release.py 20260925
 ```
 
-命令提交所有未被 Git 忽略的仓库变更，推送到 `origin`，并将已编译的 JSON 以 `rules.json` 发布到最新正式 Release。修改内容后请先重新编译。
+命令提交所有未被 Git 忽略的仓库变更，推送到 `origin`，并发布两个附件：完整数据 `rules.json`，以及直接取自中文源文件的 `rules.txt`。修改内容后请先重新编译。
+
+上传失败留下草稿时，重新运行同一命令即可继续，使用已有标签中的文件。
 
 可选参数：
 
