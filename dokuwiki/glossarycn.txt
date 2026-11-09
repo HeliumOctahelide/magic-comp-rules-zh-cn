@@ -44,8 +44,8 @@ See X.\\
 Case\\ 
 案件
 
-An enchantment subtype. Cases have a “to solve” ability that set a condition its controller must meet in order for the “solved” ability to take effect. See rule 719, “Case Cards.”\\ 
-一个结界的副类别。案件具有一个“侦办”异能作为条件，其操控者需要达成此条件以使其“侦结”异能生效。参见规则[[cr:7#cr719|719]]，“案件牌”。
+An enchantment subtype. Cases have a “to solve” ability that set a condition its controller must meet in order for the “solved” ability to take effect. See rule 720, “Case Cards.”\\ 
+一个结界的副类别。案件具有一个“侦办”异能作为条件，其操控者需要达成此条件以使其“侦结”异能生效。参见规则[[cr:7#cr720|720]]，“案件牌”。
 
 ----
 Cipher\\ 
@@ -66,8 +66,8 @@ A keyword ability that means “This creature can’t block” and “When this 
 Day\\ 
 白昼
 
-Along with night, a designation the game can have. See rule 731, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
-与黑夜一起，均是游戏可以具有的称号。参见规则[[cr:7#cr731|731]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
+Along with night, a designation the game can have. See rule 732, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
+与黑夜一起，均是游戏可以具有的称号。参见规则[[cr:7#cr732|732]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
 
 ----
 Expansion Symbol\\ 
@@ -94,15 +94,15 @@ A keyword ability that provides a range of benefits against objects with a speci
 Preparation Card\\ 
 备法牌
 
-Cards with a two-part card frame (one part of which is inset on the right) on a single card. See rule 722, “Preparation Cards.”\\ 
-一张分为两部分（且其中一部分是嵌在文字栏右面）的牌。参见规则[[cr:7#cr722|722]]，“备法牌”。
+Cards with a two-part card frame (one part of which is inset on the right) on a single card. See rule 723, “Preparation Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在文字栏右面）的牌。参见规则[[cr:7#cr723|723]]，“备法牌”。
 
 ----
 Prepare Spell\\ 
 备法咒语
 
-The inset frame of a preparation card that includes its alternative characteristics. See rule 722, “Preparation Cards.”\\ 
-备法牌上嵌印的牌框，包含了它的一组副特征。参见规则[[cr:7#cr722|722]]，“备法牌”。
+The inset frame of a preparation card that includes its alternative characteristics. See rule 723, “Preparation Cards.”\\ 
+备法牌上嵌印的牌框，包含了它的一组副特征。参见规则[[cr:7#cr723|723]]，“备法牌”。
 
 ----
 Flavor Text\\ 
@@ -266,8 +266,8 @@ An obsolete card type that has been renamed. See rule 308, “Kindreds.”\\
 Control Another Player\\ 
 操控其他牌手
 
-To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 723, “Controlling Another Player.”\\ 
-为该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr723|723]]，“操控其他牌手”。
+To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 724, “Controlling Another Player.”\\ 
+为该牌手作出由规则或物件允许或要求的所有选择和决定。参见规则[[cr:7#cr724|724]]，“操控其他牌手”。
 
 ----
 Control, Controller\\ 
@@ -392,8 +392,8 @@ To replace a permanent’s destruction with an alternate sequence of events. See
 Restart the Game\\ 
 重新开始游戏
 
-To immediately end the current game and restart it. See rule 727, “Restarting the Game.”\\ 
-当前游戏马上结束并且重新开始。参见规则[[cr:7#cr727|727]]，“重新开始游戏”。
+To immediately end the current game and restart it. See rule 728, “Restarting the Game.”\\ 
+当前游戏马上结束并且重新开始。参见规则[[cr:7#cr728|728]]，“重新开始游戏”。
 
 ----
 Untap\\ 
@@ -462,8 +462,8 @@ A word used to indicate a certain style of cost. See rule 118.12a.\\
 Saga\\ 
 传纪
 
-An enchantment subtype. Sagas have a number of chapter abilities that take effect over a number of turns to tell a story. See rule 714, “Saga Cards.”\\ 
-一种结界的副类别。传纪具有一系列章节异能，以在数个回合的过程中生效的方式来讲述一段故事。参见规则[[cr:7#cr714|714]]，“传纪牌”。
+An enchantment subtype. Sagas have a number of chapter abilities that take effect over a number of turns to tell a story. See rule 715, “Saga Cards.”\\ 
+一种结界的副类别。传纪具有一系列章节异能，以在数个回合的过程中生效的方式来讲述一段故事。参见规则[[cr:7#cr715|715]]，“传纪牌”。
 
 ----
 Legendary\\ 
@@ -610,8 +610,8 @@ A keyword causing a player to get the designation of the city’s blessing once 
 Level\\ 
 等级
 
-A numerical designation a permanent may have. A Class enchantment’s level determines what other abilities it has. See rule 716, “Class Cards.”\\ 
-永久物可具有的一种数字形式的称号。职业结界的等级决定其具有哪些其他异能。参见规则[[cr:7#cr716|716]]，“职业牌”。
+A numerical designation a permanent may have. A Class enchantment’s level determines what other abilities it has. See rule 717, “Class Cards.”\\ 
+永久物可具有的一种数字形式的称号。职业结界的等级决定其具有哪些其他异能。参见规则[[cr:7#cr717|717]]，“职业牌”。
 
 ----
 Level Symbol\\ 
@@ -954,6 +954,13 @@ A keyword ability that lets a player cast a card from their graveyard. See rule 
 一个关键字异能，让牌手从其坟墓场中施放一张牌。参见规则[[cr:7#cr702-34|702.34]]，“返照”。
 
 ----
+Set Aside (Obsolete)\\ 
+放到旁边（已废止）
+
+“Set [something] aside” is an obsolete term for “exile [something].” Cards with that text have received errata in the Oracle card reference. See Exile.\\ 
+“将[某物]放到旁边”是“放逐[某物]”的已废止用词。具有该叙述的牌在Oracle牌张参考文献中已得到勘误。参见放逐。
+
+----
 Room Ability\\ 
 房间异能
 
@@ -1002,13 +1009,6 @@ The player who can be attacked, and whose planeswalkers can be attacked, during 
 在战斗阶段中，可以被攻击的牌手，且其鹏洛客可以被攻击。参见规则[[cr:5#cr506-2|506.2]]。在某些多人玩法中，可能会有多于一个防御牌手；参见规则[[cr:8#cr802|802]]，“攻击复数牌手模式”，以及规则[[cr:8#cr805-10|805.10]]。
 
 ----
-Set Aside (Obsolete)\\ 
-放在一边（已废止）
-
-“Set [something] aside” is an obsolete term for “exile [something].” Cards with that text have received errata in the Oracle card reference. See Exile.\\ 
-“将[物品]放在一边”是“放逐[物品]”的已废止用词。具有该叙述的牌在Oracle牌张参考文献中已得到勘误。参见放逐。
-
-----
 Prevent\\ 
 防止
 
@@ -1053,8 +1053,8 @@ A card not included in players’ decks. It may be oversized or have a card back
 Illegal Action\\ 
 非法动作
 
-An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 733, “Handling Illegal Actions.”\\ 
-一个违反游戏规则和／或效应所创造的要求或限制的动作。参见规则[[cr:7#cr733|733]]，“处理非法动作”。
+An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 734, “Handling Illegal Actions.”\\ 
+一个违反游戏规则和／或效应所创造的要求或限制的动作。参见规则[[cr:7#cr734|734]]，“处理非法动作”。
 
 ----
 Illegal Target\\ 
@@ -1247,8 +1247,8 @@ See rule 707, “Copying Objects.”\\
 Substitute Card\\ 
 辅助牌
 
-A game supplement with a Magic card back that can be used to represent a double-faced card or meld card. See rule 713, “Substitute Cards.”\\ 
-一种游戏辅助用品，具有万智牌牌背，可用于代表一张双面牌或融合牌。参见规则[[cr:7#cr713|713]]，“辅助牌”。
+A game supplement with a Magic card back that can be used to represent a double-faced card or meld card. See rule 714, “Substitute Cards.”\\ 
+一种游戏辅助用品，具有万智牌牌背，可用于代表一张双面牌或融合牌。参见规则[[cr:7#cr714|714]]，“辅助牌”。
 
 ----
 === G ===
@@ -1434,6 +1434,13 @@ A keyword ability that allows you to pay an alternative cost to remove some of a
 一个关键字异能，允许你支付替代性费用来删去咒语的部分规则叙述。参见规则[[cr:7#cr702-148|702.148]]，“贯通”。
 
 ----
+Beam me up\\ 
+光束传送
+
+A keyword ability that lets a player cast an instant or sorcery spell from their graveyard by paying a specific cost and returning a creature they control to its owner’s hand. See rule 702.196, “Beam me up.”\\ 
+一个关键字异能，让牌手能支付特定费用并将一个由其操控的生物移回拥有者手上，来从其坟墓场施放瞬间或法术咒语。参见规则[[cr:7#cr702-196|702.196]]，“光束传送”。
+
+----
 Global Enchantment (Obsolete)\\ 
 广域结界（已废止）
 
@@ -1501,15 +1508,15 @@ A keyword that lets a creature card be cast as a mutating creature spell. See ru
 Mutating Creature Spell\\ 
 合变式生物咒语
 
-A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 730, “Merging with Permanents.”\\ 
-一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[[cr:7#cr702-140|702.140]]，“合变”，以及规则[[cr:7#cr730|730]]，“与永久物结聚”。
+A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 731, “Merging with Permanents.”\\ 
+一个使用合变关键字异能施放的生物咒语。于其结算时，如果其目标的生物合法，其与该目标生物结聚。所成的生物具有最顶上组件的所有特征以及每个组件的异能。参见规则[[cr:7#cr702-140|702.140]]，“合变”，以及规则[[cr:7#cr731|731]]，“与永久物结聚”。
 
 ----
 Night\\ 
 黑夜
 
-Along with day, a designation the game can have. See rule 731, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
-与白昼一起，均是游戏可以具有的称号。参见规则[[cr:7#cr731|731]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
+Along with day, a designation the game can have. See rule 732, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”\\ 
+与白昼一起，均是游戏可以具有的称号。参见规则[[cr:7#cr732|732]]，“白昼与黑夜”，与规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”。
 
 ----
 Tap\\ 
@@ -1740,8 +1747,8 @@ Bargain is a keyword ability that represents an optional additional cost of sacr
 Shortcut\\ 
 简化
 
-A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 732, “Taking Shortcuts.”\\ 
-在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr732|732]]，“进行简化”。
+A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 733, “Taking Shortcuts.”\\ 
+在无须双方牌手特别指出每个选择的情况下，让大家自然可以理解并让游戏自然通过这些游戏选择（作出动作或让过优先权）。参见规则[[cr:7#cr733|733]]，“进行简化”。
 
 ----
 Annihilator\\ 
@@ -1834,8 +1841,8 @@ A subtype that’s correlated to the enchantment card type. See rule 303, “Enc
 Merged Permanent\\ 
 结聚永久物
 
-A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 730, “Merging with Permanents.”\\ 
-牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr730|730]]，“与永久物结聚”。
+A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 731, “Merging with Permanents.”\\ 
+牌或衍生物可能会与永久物结聚，组合成结聚永久物。这个结聚永久物会由多于一张的牌或衍生物所代表。参见规则[[cr:7#cr731|731]]，“与永久物结聚”。
 
 ----
 Exhaust\\ 
@@ -1869,15 +1876,15 @@ Part of the turn. This step is the first step of the ending phase. See rule 513,
 End the Turn\\ 
 结束回合
 
-To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 724, “Ending Turns and Phases.”\\ 
-作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的绝大多数其他事情。参见规则[[cr:7#cr724|724]]，“结束回合和阶段”。
+To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 725, “Ending Turns and Phases.”\\ 
+作为一个效应的结果来“结束回合”指，进行一个快速的流程来略过该回合将发生的绝大多数其他事情。参见规则[[cr:7#cr725|725]]，“结束回合和阶段”。
 
 ----
 End the Combat Phase\\ 
 结束战斗阶段
 
-To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 724, “Ending Turns and Phases.”\\ 
-作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[[cr:7#cr724|724]]，“结束回合和阶段”。
+To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 725, “Ending Turns and Phases.”\\ 
+作为一个效应的结果来“结束战斗阶段”指，进行一个快速的流程来略过该阶段将发生的所有其他事情。参见规则[[cr:7#cr725|725]]，“结束回合和阶段”。
 
 ----
 Waterbend\\ 
@@ -1947,28 +1954,28 @@ Attacking Creature\\
 进行攻击的生物
 
 A creature that has either been declared as part of a legal attack during the combat phase (once all costs to attack, if any, have been paid), or a creature that has been put onto the battlefield attacking. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 508, “Declare Attackers Step.”\\ 
-一个生物在战斗阶段中被合法宣告为攻击的一部分（如果有攻击的费用，则在支付之后），或一个生物被放进战场且进行攻击。它在被移出战斗或战斗阶段结束两者中最先发生的之前，都保持为进行攻击的生物。参见规则[[cr:5#cr508|508]]，“宣告攻击者步骤”。
+一个生物在战斗阶段中被合法宣告为攻击的一部分（如果有攻击的费用，则在支付之后），或一个生物被放进战场且正进行攻击。它在被移出战斗或战斗阶段结束两者中最先发生的之前，都保持为进行攻击的生物。参见规则[[cr:5#cr508|508]]，“宣告攻击者步骤”。
 
 ----
 Blocking Creature\\ 
 进行阻挡的生物
 
 A creature that has either been declared as part of a legal block during the combat phase (once all costs to block, if any, have been paid), or a creature that has been put onto the battlefield blocking. It remains a blocking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 509, “Declare Blockers Step.”\\ 
-一个生物在战斗阶段中被合法宣告为阻挡的一部分（如果有阻挡的费用，则在支付之后），或一个生物被放进战场且进行阻挡。它在被移出战斗或战斗阶段结束两者中最先发生的之前，都保持为进行阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
+一个生物在战斗阶段中被合法宣告为阻挡的一部分（如果有阻挡的费用，则在支付之后），或一个生物被放进战场且正阻挡。它在被移出战斗或战斗阶段结束两者中最先发生的之前，都保持为进行阻挡的生物。参见规则[[cr:5#cr509|509]]，“宣告阻挡者步骤”。
 
 ----
 Attraction\\ 
 景点
 
-An artifact type seen only on nontraditional Magic cards in the Unfinity expansion. See rule 717, “Attraction Cards,” rule 701.51, “Open an Attraction,” and rule 701.52, “Roll to Visit Your Attractions.”\\ 
-一种神器类别，只在Unfinity系列的非传统万智牌上出现。参见规则[[cr:7#cr717|717]]，“景点牌”、规则[[cr:7#cr701-51|701.51]]，“打开景点”，以及规则[[cr:7#cr701-52|701.52]]，“掷骰造访景点”。
+An artifact type seen only on nontraditional Magic cards in the Unfinity expansion. See rule 718, “Attraction Cards,” rule 701.51, “Open an Attraction,” and rule 701.52, “Roll to Visit Your Attractions.”\\ 
+一种神器类别，只在Unfinity系列的非传统万智牌上出现。参见规则[[cr:7#cr718|718]]，“景点牌”、规则[[cr:7#cr701-51|701.51]]，“打开景点”，以及规则[[cr:7#cr701-52|701.52]]，“掷骰造访景点”。
 
 ----
 Attraction Deck\\ 
 景点套牌
 
-An optional deck of at least three (in limited play) or ten (in constructed play) Attraction cards that can be used to support play with some cards from the Unfinity expansion. See rule 717.2.\\ 
-一副可选套牌，包含至少三张（在限制赛中）或十张（在构组赛中）景点牌，在用到Unfinity系列中某些卡牌的游戏中使用。参见规则[[cr:7#cr717-2|717.2]]。
+An optional deck of at least three (in limited play) or ten (in constructed play) Attraction cards that can be used to support play with some cards from the Unfinity expansion. See rule 718.2.\\ 
+一副可选套牌，包含至少三张（在限制赛中）或十张（在构组赛中）景点牌，在用到Unfinity系列中某些卡牌的游戏中使用。参见规则[[cr:7#cr718-2|718.2]]。
 
 ----
 Vigilance\\ 
@@ -2051,8 +2058,8 @@ A keyword ability that lets you exile cards from your graveyard rather than pay 
 Monarch\\ 
 君主
 
-A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 725, “The Monarch.”\\ 
-牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[[cr:7#cr725|725]]，“君主”。
+A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 726, “The Monarch.”\\ 
+牌手能获得的一种称号。一些效应使牌手成为君主。君主在其结束步骤开始时抓一张牌。对君主造成战斗伤害可以从该牌手上夺取该称号。参见规则[[cr:7#cr726|726]]，“君主”。
 
 ----
 === K ===
@@ -2102,8 +2109,8 @@ A keyword ability that can make a creature better in combat. See rule 702.68, �
 Rad Counter\\ 
 拉德指示物
 
-A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 728, “Rad Counters.”\\ 
-牌手可以具有的一种指示物，会导致牌手在其战斗前行动阶段开始时磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr728|728]]，“拉德指示物”。
+A type of counter a player can have that causes that player to mill cards at the beginning of their precombat main phase, then lose 1 life and remove one rad counter for each nonland card milled this way. See rule 122, “Counters,” and rule 729, “Rad Counters.”\\ 
+牌手可以具有的一种指示物，会导致牌手在其战斗前行动阶段开始时磨牌，然后每以此法磨掉一张非地牌，便失去1点生命并移去一个拉德指示物。参见规则[[cr:1#cr122|122]]，“指示物”，及规则[[cr:7#cr729|729]]，“拉德指示物”。
 
 ----
 Type\\ 
@@ -2178,8 +2185,8 @@ A designation a player can have. The storied keyword causes a player to get this
 Adventurer Card\\ 
 历险者牌
 
-Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Adventure spell type. See rule 715, “Adventurer Cards.”\\ 
-一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括历险此咒语类别。参见规则[[cr:7#cr715|715]]，“历险者牌”。
+Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Adventure spell type. See rule 716, “Adventurer Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括历险此咒语类别。参见规则[[cr:7#cr716|716]]，“历险者牌”。
 
 ----
 Gift\\ 
@@ -2380,6 +2387,13 @@ For Mirrodin!\\
 
 A keyword ability that creates a 2/2 red Rebel creature token and then attaches the Equipment with the ability to that token. See rule 702.163, “For Mirrodin!”\\ 
 一个关键字异能，派出一个2/2红色反抗军衍生生物，并将具有该异能的武具贴附于该衍生物上。参见规则[[cr:7#cr702-163|702.163]]，“秘罗万岁！”。
+
+----
+Face a Dilemma\\ 
+面临两难
+
+To “face a dilemma” is to choose one or more modes for a modal spell or ability. See rule 700.17.\\ 
+面临两难是为咒语或异能选择一个或多个模式。参见规则[[cr:7#cr700-17|700.17]]。
 
 ----
 Face a Villainous Choice\\ 
@@ -2897,8 +2911,8 @@ To turn two members of a meld pair so their back faces are up and combined into 
 Meld Cards\\ 
 融合牌
 
-Cards with a Magic card face on one side and half of an oversized Magic card face on the other. See rule 712, “Double-Faced Cards.”\\ 
-一种牌，一面具有万智牌的牌面，另一面是一张大号万智牌卡牌的一半。参见规则[[cr:7#cr712|712]]，“双面牌”。
+Cards with a Magic card face on one side and half of an oversized Magic card face on the other. See rule 713, “Meld Cards.”\\ 
+一种牌，一面具有万智牌的牌面，另一面是一张大号万智牌卡牌的一半。参见规则[[cr:7#cr713|713]]，“融合牌”。
 
 ----
 Fuse\\ 
@@ -3052,8 +3066,8 @@ A keyword ability that lets a creature card be cast as an Aura. See rule 702.103
 Level Up\\ 
 升级
 
-A keyword ability that can put level counters on a creature. See rule 702.87, “Level Up.” For class level abilities of Class cards, see rule 716, “Class Cards.”\\ 
-一个关键字异能，在生物上放置等级指示物。参见规则[[cr:7#cr702-87|702.87]]，“升级”。关于职业牌的职业等级异能，参见规则[[cr:7#cr716|716]]，“职业牌”。
+A keyword ability that can put level counters on a creature. See rule 702.87, “Level Up.” For class level abilities of Class cards, see rule 717, “Class Cards.”\\ 
+一个关键字异能，在生物上放置等级指示物。参见规则[[cr:7#cr702-87|702.87]]，“升级”。关于职业牌的职业等级异能，参见规则[[cr:7#cr717|717]]，“职业牌”。
 
 ----
 Leveler Cards\\ 
@@ -3246,15 +3260,15 @@ Play\\
 Prototype\\ 
 试作
 
-An ability which allows a prototype card to be cast with a secondary set of characteristics. See rule 718, “Prototype Cards,” and rule 702.160, “Prototype.”\\ 
-一个异能，允许一张试作牌使用其第二组特征来施放。参见规则[[cr:7#cr718|718]]，“试作牌”，及规则[[cr:7#cr702-160|702.160]]，“试作”。
+An ability which allows a prototype card to be cast with a secondary set of characteristics. See rule 719, “Prototype Cards,” and rule 702.160, “Prototype.”\\ 
+一个异能，允许一张试作牌使用其第二组特征来施放。参见规则[[cr:7#cr719|719]]，“试作牌”，及规则[[cr:7#cr702-160|702.160]]，“试作”。
 
 ----
 Prototype Card\\ 
 试作牌
 
-Cards with a two-part card frame (one part of which is inset under the type line) on a single card. See rule 718, “Prototype Cards.”\\ 
-一张分为两部分（且其中一部分是嵌在类别栏下方）的牌。参见规则[[cr:7#cr718|718]]，“试作牌”。
+Cards with a two-part card frame (one part of which is inset under the type line) on a single card. See rule 719, “Prototype Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在类别栏下方）的牌。参见规则[[cr:7#cr719|719]]，“试作牌”。
 
 ----
 Ward\\ 
@@ -3575,6 +3589,13 @@ A kicker variant that can add a sticker to the spell with the ability and give a
 增幅异能的一种变化形式，可以在咒语上贴上贴纸并给予牌手门票指示物。参见规则[[cr:7#cr702-33h|702.33h]]。
 
 ----
+Assimilate\\ 
+同化
+
+A keyword action that lets a player gain control of a creature and put a +1/+1 counter on it or put a creature card onto the battlefield under their control with a +1/+1 counter on it. In either case, it’s a Borg artifact creature with no other creature types. See rule 701.72, “Assimilate.”\\ 
+一个关键字动作，让牌手获得一个永久物的操控权并在其上放置一个+1/+1指示物，或将一张位于战场以外区域的永久物牌在其操控下放进战场，且其上有一个+1/+1指示物。无论哪种情况，它都是博格人神器生物，且没有其他生物类别。参见规则[[cr:7#cr701-72|701.72]]，“同化”。（译注：英文词汇表写作“生物”和“生物牌”，此处依规则[[cr:7#cr701-72a|701.72a]]与b表述。）
+
+----
 Splice\\ 
 通联
 
@@ -3876,8 +3897,8 @@ A Clue token is a colorless artifact token with “{2}, Sacrifice this token: Dr
 Initiative\\ 
 先制
 
-A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 726, “The Initiative.”\\ 
-牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr726|726]]，“先制”。
+A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 727, “The Initiative.”\\ 
+牌手能获得的一种称号。一些效应使牌手掌握先制。握有先制的牌手在其掌握先制、及在其维持开始时深入地底城。参见规则[[cr:7#cr727|727]]，“先制”。
 
 ----
 Restriction\\ 
@@ -4016,21 +4037,21 @@ A characteristic-defining ability that makes an object colorless. See rule 702.1
 Station\\ 
 蓄势
 
-A keyword ability that lets you tap creatures to add charge counters to station cards. See rule 702.184, “Station,” and rule 721, “Station Cards.”\\ 
-一个关键字异能，允许你横置生物来在蓄势牌上放置充电指示物。参见规则[[cr:7#cr702-184|702.184]]，“蓄势”，以及规则[[cr:7#cr721|721]]，“蓄势牌”。
+A keyword ability that lets you tap creatures to add charge counters to station cards. See rule 702.184, “Station,” and rule 722, “Station Cards.”\\ 
+一个关键字异能，允许你横置生物来在蓄势牌上放置充电指示物。参见规则[[cr:7#cr702-184|702.184]]，“蓄势”，以及规则[[cr:7#cr722|722]]，“蓄势牌”。
 
 ----
 Station Cards\\ 
 蓄势牌
 
-Cards with striated text boxes, one or more station symbols, and the station ability. See rule 721, “Station Cards.”\\ 
-具有条状文字栏，一个或数个蓄势符号，以及蓄势异能的牌。参见规则[[cr:7#cr721|721]]，“蓄势牌”。
+Cards with striated text boxes, one or more station symbols, and the station ability. See rule 722, “Station Cards.”\\ 
+具有条状文字栏，一个或数个蓄势符号，以及蓄势异能的牌。参见规则[[cr:7#cr722|722]]，“蓄势牌”。
 
 ----
 Endure\\ 
 续战
 
-A keyword ability that lets you choose put +1/+1 counters on a creature or create a Spirit creature token. See rule 702.62, “Endure.”\\ 
+A keyword ability that lets you choose put +1/+1 counters on a creature or create a Spirit creature token. See rule 701.63, “Endure.”\\ 
 一个关键字异能，让你选择在生物上放置+1/+1指示物或派出精怪衍生生物。参见规则[[cr:7#cr701-63|701.63]]，“续战”。（译注：我确信这是一个关键字动作。）
 
 ----
@@ -4156,8 +4177,8 @@ See Typecycling.\\
 Loop\\ 
 循环（动作）
 
-A set of actions that could be repeated indefinitely. See rule 732, “Taking Shortcuts.”\\ 
-一系列可以重复无数次的动作。参见规则[[cr:7#cr732|732]]，“进行简化”。
+A set of actions that could be repeated indefinitely. See rule 733, “Taking Shortcuts.”\\ 
+一系列可以重复无数次的动作。参见规则[[cr:7#cr733|733]]，“进行简化”。
 
 ----
 Cycling\\ 
@@ -4258,8 +4279,8 @@ An effect that forces one or more creatures to attack or block. See rules 508.1d
 Nightbound\\ 
 夜形
 
-An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 731, “Day and Night.”\\ 
-一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr731|731]]，“白昼与黑夜”。
+An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 732, “Day and Night.”\\ 
+一种异能，见于一些双面牌的背面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr732|732]]，“白昼与黑夜”。
 
 ----
 Generic Mana\\ 
@@ -4272,15 +4293,15 @@ Mana in a cost represented by numerical symbols (such as {1}) or variable symbol
 Prepared\\ 
 已备法
 
-A designation a permanent may have that allows you to cast a copy of that card with its alternative characteristics. See rule 722, “Preparation Cards.”\\ 
-永久物可具有的称号，允许你用副特征施放这张牌的复制。参见规则[[cr:7#cr722|722]]，“备法牌”。
+A designation a permanent may have that allows you to cast a copy of that card with its alternative characteristics. See rule 723, “Preparation Cards.”\\ 
+永久物可具有的称号，允许你用副特征施放这张牌的复制。参见规则[[cr:7#cr723|723]]，“备法牌”。
 
 ----
 Unprepared\\ 
 已撤法
 
-A permanent that becomes unprepared loses the prepared designation. See rule 722, “Preparation Cards.” See also Prepared.\\ 
-成为已撤法的永久物会失去已备法此称号。参见规则[[cr:7#cr722|722]]，“备法牌”。另参见已备法。
+A permanent that becomes unprepared loses the prepared designation. See rule 723, “Preparation Cards.” See also Prepared.\\ 
+成为已撤法的永久物会失去已备法此称号。参见规则[[cr:7#cr723|723]]，“备法牌”。另参见已备法。
 
 ----
 Saddled\\ 
@@ -4456,8 +4477,8 @@ A status a permanent may have. Phased-in is the default status. Phased-out perma
 Solved\\ 
 已侦结／侦结
 
-1. A designation a Case may have, allowing its last ability to affect the game. See rule 719, “Case Cards.”\\ 
-1. 一个案件可以获得的称号，允许案件的最后一个异能影响游戏。参见规则[[cr:7#cr719|719]]，“案件牌”。
+1. A designation a Case may have, allowing its last ability to affect the game. See rule 720, “Case Cards.”\\ 
+1. 一个案件可以获得的称号，允许案件的最后一个异能影响游戏。参见规则[[cr:7#cr720|720]]，“案件牌”。
 
 2. A keyword ability of Case cards that affects the game only if the Case has the solved designation. See rule 702.169, “Solved.”\\ 
 2. 一个案件的关键字异能，在案件具有已侦结此称号时影响游戏。参见规则[[cr:7#cr702-169|702.169]]，“侦结”。
@@ -4620,8 +4641,8 @@ A keyword ability that lets a player cast one half of a split card only from the
 Omen Card\\ 
 预兆牌
 
-Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Omen spell type. See rule 720, “Omen Cards.”\\ 
-一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括预兆此咒语类别。参见规则[[cr:7#cr720|720]]，“预兆牌”。
+Cards with a two-part card frame (one part of which is inset on the left) on a single card where the alternative characteristics include the Omen spell type. See rule 721, “Omen Cards.”\\ 
+一张分为两部分（且其中一部分是嵌在文字栏左面）的牌，其副特征包括预兆此咒语类别。参见规则[[cr:7#cr721|721]]，“预兆牌”。
 
 ----
 More Than Meets the Eye\\ 
@@ -4988,8 +5009,8 @@ An amount of damage greater than or equal to a creature’s toughness. See rules
 Class\\ 
 职业
 
-An enchantment subtype. Classes have a number of class level abilities that increase their level and grant them new abilities. See rule 716, “Class Cards.”\\ 
-一种结界的副类别。职业具有数个职业等级异能，可以提升其等级并赋予其新异能。参见规则[[cr:7#cr716|716]]，“职业牌”。
+An enchantment subtype. Classes have a number of class level abilities that increase their level and grant them new abilities. See rule 717, “Class Cards.”\\ 
+一种结界的副类别。职业具有数个职业等级异能，可以提升其等级并赋予其新异能。参见规则[[cr:7#cr717|717]]，“职业牌”。
 
 ----
 Job Select\\ 
@@ -5075,8 +5096,8 @@ A keyword ability that allows an Equipment creature to temporarily stop being a 
 Daybound\\ 
 昼形
 
-An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 731, “Day and Night.”\\ 
-一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr731|731]]，“白昼与黑夜”。
+An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 732, “Day and Night.”\\ 
+一种异能，见于一些双面牌的正面上。具昼形与夜形异能的牌，在白昼时正面朝上，在黑夜时背面朝上。参见规则[[cr:7#cr702-145|702.145]]，“昼形与夜形”，与规则[[cr:7#cr732|732]]，“白昼与黑夜”。
 
 ----
 Spell\\ 
@@ -5138,8 +5159,8 @@ A keyword ability that allows spells to be cast for an alternative cost by retur
 Main Game\\ 
 主游戏
 
-The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 729, “Subgames.”\\ 
-施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[[cr:7#cr729|729]]，“子游戏”。
+The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 730, “Subgames.”\\ 
+施放（或起动）了创造一个子游戏之咒语（或异能）所在的游戏。参见规则[[cr:7#cr730|730]]，“子游戏”。
 
 ----
 Draw Step\\ 
@@ -5274,8 +5295,8 @@ A multiplayer variant in which a group of players compete as individuals against
 Subgame\\ 
 子游戏
 
-A completely separate Magic game created by an effect. See rule 729, “Subgames.”\\ 
-由一个效应创造出的完全分开的万智牌游戏。参见规则[[cr:7#cr729|729]]，“子游戏”。
+A completely separate Magic game created by an effect. See rule 730, “Subgames.”\\ 
+由一个效应创造出的完全分开的万智牌游戏。参见规则[[cr:7#cr730|730]]，“子游戏”。
 
 ----
 Converted Mana Cost (Obsolete)\\ 

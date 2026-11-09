@@ -663,7 +663,7 @@ Example: Spitting Image is a sorcery that says, in part, “Create a token that�
 
 111.8. A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
 
-111.9. Some effects instruct a player to create a legendary token. These may be written “create [name], a . . .” and list characteristics for the token. This is the same as an instruction to create a token with the listed characteristics that has the given name. 
+111.9. Some effects instruct a player to create a legendary token. These may be written “create [name], a . . .” and list characteristics for the token. This is the same as an instruction to create a token with the listed characteristics that has the given name.
 
 111.10. Some effects instruct a player to create a predefined token. These effects use the definition below to determine the characteristics the token is created with. The effect that creates a predefined token may also modify or add to the predefined characteristics.
 
@@ -1059,7 +1059,7 @@ Example: Your opponent has cast Gather Specimens, a spell that says “If a crea
 
 119.1c In a Commander game, each player’s starting life total is 40. See rule 903, “Commander.”
 
-119.1d. In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30. See rule 903.12, “Brawl Option.”
+119.1d In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30. See rule 903.12, “Brawl Option.”
 
 119.1e In an Archenemy game, the archenemy’s starting life total is 40. See rule 904, “Archenemy.”
 
@@ -2354,7 +2354,7 @@ Example: A permanent has the ability “Whenever a green creature attacks, destr
 509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped and they can’t also be battles. For each of the chosen creatures, the defending player chooses one creature for it to block that’s attacking that player, a planeswalker they control, or a battle they protect.
 
 509.1b The defending player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
-     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn’t affect that block. Different evasion abilities are cumulative.     
+     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn’t affect that block. Different evasion abilities are cumulative.
 Example: An attacking creature with flying and shadow can’t be blocked by a creature with flying but without shadow.
 
 509.1c The defending player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can’t block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed. If a requirement that says a creature blocks if able during a certain turn refers to a turn with multiple combat phases, the creature blocks if able during each declare blockers step in that turn.
@@ -2727,7 +2727,7 @@ Example: An enchantment reads, “Whenever a player taps a land for mana, that p
 
 606.4. The cost to activate a loyalty ability of a permanent is to put on or remove from that permanent a certain number of loyalty counters, as shown by the loyalty symbol in the ability’s cost. This cost may be modified by other effects.
 
-606.5 If the total cost to activate a loyalty ability contains multiple costs to add or remove loyalty counters, those costs are combined into a single cost to add or remove loyalty counters, as appropriate.
+606.5. If the total cost to activate a loyalty ability contains multiple costs to add or remove loyalty counters, those costs are combined into a single cost to add or remove loyalty counters, as appropriate.
 Example: A player controls Carth the Lion, which says, in part, “Planeswalkers’ loyalty abilities you control cost an additional [+1] to activate. That player also controls a planeswalker with three loyalty counters. To activate one of that planeswalker’s abilities that normally costs [+1], they put two loyalty counters on it. To activate one of its abilities that normally costs [−4], they remove three loyalty counters from it.
 
 606.6. A loyalty ability with a negative loyalty cost, taking into account any additional costs, can’t be activated unless the permanent has at least that many loyalty counters on it.
@@ -2810,7 +2810,7 @@ Example: A spell’s instruction reads, “You may sacrifice a creature. If you 
 
 608.2f Some spells and abilities include actions taken on multiple players and/or objects. In most cases, each such action is processed simultaneously. If the action can’t be processed simultaneously, it’s instead processed considering each affected player or object individually. APNAP order is used to make the primary determination of the order of those actions. Secondarily, if the action is to be taken on both a player and an object they control or on multiple objects controlled by the same player, the player who controls the resolving spell or ability chooses the relative order of those actions.
 Example: Blatant Thievery says “For each opponent, gain control of target permanent that player controls.” As Blatant Thievery resolves, its controller gains control of all permanents chosen as targets simultaneously.
-Example: Soulfire Eruption says, in part, “Choose any number of target creatures, planeswalkers, and/or players. For each of them, exile the top card of your library, then Soulfire Eruption deals damage equal to that card’s mana value to that permanent or player.” A player casts Soulfire Eruption targeting an opponent and a creature that opponent controls. As Soulfire Eruption resolves, the player can’t exile the top card of their library multiple times at the same time, so they first choose which target they are considering, then they exile the top card of their library, and finally Soulfire Eruption deals damage to that target. They then repeat this process for the remaining target. 
+Example: Soulfire Eruption says, in part, “Choose any number of target creatures, planeswalkers, and/or players. For each of them, exile the top card of your library, then Soulfire Eruption deals damage equal to that card’s mana value to that permanent or player.” A player casts Soulfire Eruption targeting an opponent and a creature that opponent controls. As Soulfire Eruption resolves, the player can’t exile the top card of their library multiple times at the same time, so they first choose which target they are considering, then they exile the top card of their library, and finally Soulfire Eruption deals damage to that target. They then repeat this process for the remaining target.
 
 608.2g If an effect gives a player the option to pay mana, they may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, they do so by following the steps in rules 601.2a–i, except no player receives priority after it’s cast. That spell becomes the topmost object on the stack, and the currently resolving spell or ability continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution. If an effect specifically instructs or allows a player to cast more than one spell during resolution, that player may cast those spells in the order of their choice.
 
@@ -3130,7 +3130,7 @@ Example: Ashiok, Wicked Manipulator has an ability that reads “If you would pa
 
 614.15. Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replace part or all of that spell or ability’s own effect(s). Such effects are called self-replacement effects. The text creating a self-replacement effect is usually part of the ability whose effect is being replaced, but the text can be a separate ability, particularly when preceded by an ability word. When applying replacement effects to an event, self-replacement effects are applied before other replacement effects.
 
-614.16. Some replacement effects apply “if an effect would create one or more tokens” or “if an effect would put one or more counters on a permanent.” These replacement effects apply if the effect of a resolving spell or ability creates a token or puts a counter on a permanent, and they also apply if another replacement or prevention effect does so, even if the original event being modified wasn’t itself an effect. 
+614.16. Some replacement effects apply “if an effect would create one or more tokens” or “if an effect would put one or more counters on a permanent.” These replacement effects apply if the effect of a resolving spell or ability creates a token or puts a counter on a permanent, and they also apply if another replacement or prevention effect does so, even if the original event being modified wasn’t itself an effect.
 
 614.17. Some effects state that something can’t happen. These effects aren’t replacement effects, but follow similar rules.
 
@@ -5601,7 +5601,7 @@ Example: A player controls Maro, a creature with the ability “Maro’s power a
 
 704.6c In a Commander game, a player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. See rule 903, “Commander.”
 
-704.6d In a Commander game, if a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. See rule 903, “Commander.” 
+704.6d In a Commander game, if a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. See rule 903, “Commander.”
 
 704.6e In an Archenemy game, if a non-ongoing scheme card is face up in the command zone, and no triggered abilities of any scheme are on the stack or waiting to be put on the stack, that scheme card is turned face down and put on the bottom of its owner’s scheme deck. See rule 904, “Archenemy.”
 
@@ -6138,9 +6138,9 @@ Example: Leyline of the Void is an enchantment that reads, in part, “If a card
 
 720.2. The Case frame has no additional rules meaning.
 
-720.3. Case cards have two special keyword abilities that appear before a long dash and represent a triggered ability and an ability that may be static, triggered, or activated. 
+720.3. Case cards have two special keyword abilities that appear before a long dash and represent a triggered ability and an ability that may be static, triggered, or activated.
 
-720.3a “To solve — [Condition]” means “At the beginning of your end step, if [condition] and this Case is not solved, this Case becomes solved.” 
+720.3a “To solve — [Condition]” means “At the beginning of your end step, if [condition] and this Case is not solved, this Case becomes solved.”
 
 720.3b Solved is a designation a permanent can have. It has no rules meaning other than to act as a marker that spells and abilities can identify. Once a permanent becomes solved, it stays solved until it leaves the battlefield. The solved designation is neither an ability nor part of the permanent’s copiable values.
 
@@ -7009,7 +7009,7 @@ Example: Wort, the Raidmother is a legendary creature with mana cost {4}{R/G}{R/
 Example: Wort, the Raidmother’s color identity is red and green. A Wort Commander deck may include land cards with the basic land types Mountain and/or Forest. It can’t include any land cards with the basic land types Plains, Island, or Swamp.
 
 903.5e Some cards have abilities that modify the rules for deck construction and apply only if that card is designated as a deck’s commander. These abilities function before the game begins. See rule 113.6n.
-Example: Seluma, Light of Aysen’s color identity is white. It has the ability “Rulebreaker — A deck with this commander can have Angel cards of any color identity and any basic land cards.” A Seluma Commander deck may include any cards with the Angel creature type regardless of their color identity, any other card whose color identity is white or has no colors in its color identity, and any basic land cards. It can’t include any nonbasic land cards with blue, black, red, and/or green in their color identity or with the Island, Swamp, Mountain, and/or Forest types. 
+Example: Seluma, Light of Aysen’s color identity is white. It has the ability “Rulebreaker — A deck with this commander can have Angel cards of any color identity and any basic land cards.” A Seluma Commander deck may include any cards with the Angel creature type regardless of their color identity, any other card whose color identity is white or has no colors in its color identity, and any basic land cards. It can’t include any nonbasic land cards with blue, black, red, and/or green in their color identity or with the Island, Swamp, Mountain, and/or Forest types.
 
 903.5f Commander games do not use sideboards.
 
@@ -7426,7 +7426,7 @@ Cascade
 A keyword ability that may let a player cast a random extra spell for no cost. See rule 702.85, “Cascade.”
 
 Case
-An enchantment subtype. Cases have a “to solve” ability that set a condition its controller must meet in order for the “solved” ability to take effect. See rule 720, “Case Cards.” 
+An enchantment subtype. Cases have a “to solve” ability that set a condition its controller must meet in order for the “solved” ability to take effect. See rule 720, “Case Cards.”
 
 Cast
 To take a card from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. See rule 601, “Casting Spells.”
@@ -9226,7 +9226,7 @@ Transform
 To turn a double-faced card so its other face is up. See rule 701.27, “Transform.”
 
 Transforming Double-Faced Cards (Obsolete)
-An older name for nonmodal double-faced cards. See rule 712, “Double-Faced Cards.” 
+An older name for nonmodal double-faced cards. See rule 712, “Double-Faced Cards.”
 
 Transmute
 A keyword ability that lets a player search their library for a replacement card. See rule 702.53, “Transmute.”
@@ -9402,7 +9402,7 @@ World Rule
 A state-based action that causes all permanents with the world supertype except the one that has had the world supertype for the shortest amount of time are put into their owners’ graveyards. See rule 704.5k.
 
 Worthy
-A rules term used to describe a creature that’s legendary, not a Villain, and red and/or white. See rule 700.16. 
+A rules term used to describe a creature that’s legendary, not a Villain, and red and/or white. See rule 700.16.
 
 X
 A placeholder for a number that needs to be determined. See rule 107.3.

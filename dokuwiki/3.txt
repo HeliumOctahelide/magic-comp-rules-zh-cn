@@ -27,7 +27,7 @@
 301.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上施放神器牌。作为咒语被施放的神器使用堆叠。（参见规则[[cr:6#cr601|601]]，“施放咒语”。）
 
 <BOOKMARK:cr301-2>301.2. When an artifact spell resolves, its controller puts it onto the battlefield under their control.\\ 
-301.2. 当神器咒语结算时，它的操控者将它在其操控下放置进战场。
+301.2. 当神器咒语结算时，它的操控者将它在其操控下放进战场。
 
 <BOOKMARK:cr301-3>301.3. Artifact subtypes are always a single word and are listed after a long dash: “Artifact — Equipment.” Artifact subtypes are also called artifact types. Artifacts may have multiple subtypes. See rule 205.3g for the complete list of artifact types.\\ 
 301.3. 神器的副类别都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）：“神器～武具”。神器的副类别也称为神器类别。神器可以具有多种副类别。神器类别的完整列表参见规则[[cr:2#cr205-3g|205.3g]]。
@@ -76,7 +76,7 @@
 302.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上施放生物牌。作为咒语被施放的生物使用堆叠。（参见规则[[cr:6#cr601|601]]，“施放咒语”。）
 
 <BOOKMARK:cr302-2>302.2. When a creature spell resolves, its controller puts it onto the battlefield under their control.\\ 
-302.2. 当生物咒语结算时，它的操控者将它在其操控下放置进战场。
+302.2. 当生物咒语结算时，它的操控者将它在其操控下放进战场。
 
 <BOOKMARK:cr302-3>302.3. Creature subtypes are usually a single word long and are listed after a long dash: “Creature — Human Soldier,” “Artifact Creature — Golem,” and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.\\ 
 302.3. 生物的副类别大都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）：“生物～人类／士兵”、“神器生物～魔像”等。生物的副类别也称为生物类别。生物可以具有多种副类别。生物类别的完整列表参见规则[[cr:2#cr205-3m|205.3m]]。
@@ -113,7 +113,7 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 303.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上施放结界牌。作为咒语被施放的结界使用堆叠。（参见规则[[cr:6#cr601|601]]，“施放咒语”。）
 
 <BOOKMARK:cr303-2>303.2. When an enchantment spell resolves, its controller puts it onto the battlefield under their control.\\ 
-303.2. 当结界咒语结算时，它的操控者将它在其操控下放置进战场。
+303.2. 当结界咒语结算时，它的操控者将它在其操控下放进战场。
 
 <BOOKMARK:cr303-3>303.3. Enchantment subtypes are always a single word and are listed after a long dash: “Enchantment — Shrine.” Each word after the dash is a separate subtype. Enchantment subtypes are also called enchantment types. Enchantments may have multiple subtypes. See rule 205.3h for the complete list of enchantment types.\\ 
 303.3. 结界的副类别都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）：“结界～祭祠”。结界的副类别也称为结界类别。结界可以具有多种副类别。结界类别的完整列表参见规则[[cr:2#cr205-3h|205.3h]]。
@@ -137,7 +137,7 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 303.4e 灵气的操控者与所结附的物件的操控者或所结附的牌手彼此独立；他们并不需要是同一人。如果灵气结附于物件上，改变该物件的操控权并不会改变灵气的操控权，反之亦然。只有灵气的操控者才能起动它的异能。如果灵气赋予所结附的物件某个异能（使用“获得”或“具有”），则只有所结附的物件之操控者才能起动该异能。
 
 <BOOKMARK:cr303-4f>303.4f If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.\\ 
-303.4f 如果灵气并非以结算灵气咒语的方式，而是以其他方式在一位牌手的操控下进战场，并且将它放置进战场的效应并未指定它将结附在哪里，则于进战场时，此灵气在其操控下进战场的牌手指定将它结附在哪个物件或牌手上。该牌手必须依据该灵气的结附异能和其他效应，来选择可合法结附的物件或牌手。
+303.4f 如果灵气并非以结算灵气咒语的方式，而是以其他方式在一位牌手的操控下进战场，并且将它放进战场的效应并未指定它将结附在哪里，则于进战场时，此灵气在其操控下进战场的牌手指定将它结附在哪个物件或牌手上。该牌手必须依据该灵气的结附异能和其他效应，来选择可合法结附的物件或牌手。
 
 <BOOKMARK:cr303-4g>303.4g If an Aura is entering the battlefield and there is no legal object or player for it to enchant, the Aura remains in its current zone, unless that zone is the stack. In that case, the Aura is put into its owner’s graveyard instead of entering the battlefield. If the Aura is a token, it isn’t created.\\ 
 303.4g 如果灵气进战场时，没有合法的物件或牌手可以结附，则该灵气改为留在它原来的区域，除非该区域为堆叠。在这种情况下，该灵气置入其拥有者的坟墓场而不是战场。如果该灵气是衍生物，则它未被派出。
@@ -157,11 +157,11 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 <BOOKMARK:cr303-4m>303.4m An ability of a permanent that refers to the “enchanted [object or player]” refers to whatever object or player that permanent is attached to, even if the permanent with the ability isn’t an Aura.\\ 
 303.4m 永久物具有提及“所结附的[物件或牌手]”的异能指该永久物所贴附的物件或牌手，即使具有该异能的永久物不是灵气。（译注：一些较旧版本的简体中文牌译为“受此结界”，现已改译为“所结附”）
 
-<BOOKMARK:cr303-5>303.5. Some enchantments have the subtype “Saga.” See rule 714 for more information about Saga cards.\\ 
-303.5. 一些结界具有“传纪”副类别。关于传纪牌的详细信息，参见规则[[cr:7#cr714|714]]。
+<BOOKMARK:cr303-5>303.5. Some enchantments have the subtype “Saga.” See rule 715 for more information about Saga cards.\\ 
+303.5. 一些结界具有“传纪”副类别。关于传纪牌的详细信息，参见规则[[cr:7#cr715|715]]。
 
-<BOOKMARK:cr303-6>303.6. Some enchantments have the subtype “Class.” See rule 716 for more information about Class cards.\\ 
-303.6. 一些结界具有“职业”副类别。关于职业牌的详细信息，参见规则[[cr:7#cr716|716]]。
+<BOOKMARK:cr303-6>303.6. Some enchantments have the subtype “Class.” See rule 717 for more information about Class cards.\\ 
+303.6. 一些结界具有“职业”副类别。关于职业牌的详细信息，参见规则[[cr:7#cr717|717]]。
 
 <BOOKMARK:cr303-7>303.7. Some Aura enchantments also have the subtype “Role.”\\ 
 303.7. 一些灵气具有“角色”副类别。
@@ -193,7 +193,7 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 305. 地
 
 <BOOKMARK:cr305-1>305.1. A player who has priority may play a land card from their hand during a main phase of their turn when the stack is empty. Playing a land is a special action; it doesn’t use the stack (see rule 116). Rather, the player simply puts the land onto the battlefield. Since the land doesn’t go on the stack, it is never a spell, and players can’t respond to it with instants or activated abilities.\\ 
-305.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上使用地牌。使用地为特殊动作；它不使用堆叠（参见规则[[cr:1#cr116|116]]）。牌手只是简单的将地从手上放置进战场。由于地不进入堆叠，它将不会是咒语，且牌手不能用瞬间或起动式异能响应它。
+305.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上使用地牌。使用地为特殊动作；它不使用堆叠（参见规则[[cr:1#cr116|116]]）。牌手只是简单的将地从手上放进战场。由于地不进入堆叠，它将不会是咒语，且牌手不能用瞬间或起动式异能响应它。
 
 <BOOKMARK:cr305-2>305.2. A player can normally play one land during their turn; however, continuous effects may increase this number.\\ 
 305.2. 牌手一般情况下只能在自己的回合中使用一个地；但是持续性效应可能会增加该数字。
@@ -208,7 +208,7 @@ Example: “Creature — Goblin Wizard” means the card is a creature with the 
 305.3. 牌手不能因为任何原因在不是自己的回合中使用地。忽略任何效应中指示牌手如此作的部分。
 
 <BOOKMARK:cr305-4>305.4. Effects may also allow players to “put” lands onto the battlefield. This isn’t the same as “playing a land” and doesn’t count as a land played during the current turn.\\ 
-305.4. 效应可能允许牌手将地牌直接放置进战场。这与“使用地”不同，而且不算作牌手该回合使用的地。
+305.4. 效应可能允许牌手将地牌直接放进战场。这与“使用地”不同，而且不算作牌手该回合使用的地。
 
 <BOOKMARK:cr305-5>305.5. Land subtypes are always a single word and are listed after a long dash. Land subtypes are also called land types. Lands may have multiple subtypes. See rule 205.3i for the complete list of land types.\\ 
 305.5. 地的副类别都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）。地的副类别也称为地类别。地可以具有多种副类别。地类别的完整列表参见规则[[cr:2#cr205-3i|205.3i]]。
@@ -236,7 +236,7 @@ Example: “Basic Land — Mountain” means the card is a land with the subtype
 306.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上施放鹏洛客牌。作为咒语被施放的鹏洛客使用堆叠。（参见规则[[cr:6#cr601|601]]，“施放咒语”。）
 
 <BOOKMARK:cr306-2>306.2. When a planeswalker spell resolves, its controller puts it onto the battlefield under their control.\\ 
-306.2. 当鹏洛客咒语结算时，它的操控者将它在其操控下放置进战场。
+306.2. 当鹏洛客咒语结算时，它的操控者将它在其操控下放进战场。
 
 <BOOKMARK:cr306-3>306.3. Planeswalker subtypes are always a single word and are listed after a long dash: “Planeswalker — Jace.” Each word after the dash is a separate subtype. Planeswalker subtypes are also called planeswalker types. Planeswalkers may have multiple subtypes. See rule 205.3j for the complete list of planeswalker types.\\ 
 306.3. 鹏洛客的副类别都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）：“鹏洛客～杰斯”。鹏洛客的副类别也称为鹏洛客类别。鹏洛客可以具有多种副类别。鹏洛客类别的完整列表参见规则[[cr:2#cr205-3j|205.3j]]。
@@ -366,7 +366,7 @@ Example: “Basic Land — Mountain” means the card is a land with the subtype
 310.1. 牌手可以在自己回合的行动阶段，拥有优先权且堆叠为空时，从手上施放战役牌。作为咒语被施放的战役使用堆叠。（参见规则[[cr:6#cr601|601]]，“施放咒语”。）
 
 <BOOKMARK:cr310-2>310.2. When a battle spell resolves, its controller puts it onto the battlefield under their control.\\ 
-310.2. 当战役咒语结算时，它的操控者将它在其操控下放置进战场。
+310.2. 当战役咒语结算时，它的操控者将它在其操控下放进战场。
 
 <BOOKMARK:cr310-3>310.3. Battle subtypes are always a single word and are listed after a long dash: “Battle — Siege.” Battle subtypes are also called battle types. See rule 205.3q for the complete list of battle types.\\ 
 310.3. 战役的副类别都是一个英文单词，接在一条长横线后面（译注：中文版之副类别则是单独的一个词，且接在“～”符号后面）：“战役～围攻”。战役的副类别也称为战役类别。战役类别的完整列表参见规则[[cr:2#cr205-3q|205.3q]]。
