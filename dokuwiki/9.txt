@@ -208,14 +208,14 @@ Example: Bosh, Iron Golem is a legendary artifact creature with mana cost {8} an
 <BOOKMARK:cr903-4c>903.4c Reminder text is ignored when determining a card’s color identity. See rule 207.2.\\ 
 903.4c 在判断牌张的标识色时，忽略规则提示文字。参见规则[[cr:2#cr207-2|207.2]]。
 
-<BOOKMARK:cr903-4d>903.4d The back face of a double-faced card (see rule 712) is included when determining a card’s color identity. This is an exception to rule 712.8a.\\ 
-903.4d 在判断牌张的标识色时，会将双面牌的背面（参见规则[[cr:7#cr712|712]]）包括在内。这是规则[[cr:7#cr712-8a|712.8a]]之例外情况。
+<BOOKMARK:cr903-4d>903.4d The back face of a double-faced card (see rule 712) is included when determining a card’s color identity. This is an exception to rule 712.6a.\\ 
+903.4d 在判断牌张的标识色时，会将双面牌的背面（参见规则[[cr:7#cr712|712]]）包括在内。这是规则[[cr:7#cr712-6a|712.6a]]之例外情况。
 
 Example: Civilized Scholar is the front face of a double-faced card with mana cost {2}{U}. Homicidal Brute is the back face of that double-faced card and has a red color indicator. The card’s color identity is blue and red.\\ 
 例如：某张双面牌的正面是文雅学者，其法术力费用为{2}{U}；其背面为嗜杀蛮汉，其颜色标志为红色。此牌的标识色为蓝红双色。
 
-<BOOKMARK:cr903-4e>903.4e If a card has any alternative characteristics, such as those of adventurer cards (see rule 715, “Adventurer Cards”), those characteristics are included when determining the card’s color identity.\\ 
-903.4e 如果一张牌具有副特征，例如历险者牌的特征（参见规则[[cr:7#cr715|715]]，“历险者牌”），在判断牌张的标识色时会将这些特征包括在内。
+<BOOKMARK:cr903-4e>903.4e If a card has any alternative characteristics, such as those of adventurer cards (see rule 716, “Adventurer Cards”), those characteristics are included when determining the card’s color identity.\\ 
+903.4e 如果一张牌具有副特征，例如历险者牌的特征（参见规则[[cr:7#cr716|716]]，“历险者牌”），在判断牌张的标识色时会将这些特征包括在内。
 
 <BOOKMARK:cr903-4f>903.4f If an ability refers to the colors or number of colors in a commander’s color identity, that quality is undefined if that player doesn’t have a commander. That part of the ability won’t do anything. Costs that refer to that quality are unpayable.\\ 
 903.4f 如果一个异能提及牌手之指挥官标识色的颜色或颜色的数量，且如果该牌手没有指挥官，则该特性是未定义的。异能的这一部分不会产生作用。提及该特性的费用不能被支付。
@@ -241,8 +241,14 @@ Example: Wort, the Raidmother is a legendary creature with mana cost {4}{R/G}{R/
 Example: Wort, the Raidmother’s color identity is red and green. A Wort Commander deck may include land cards with the basic land types Mountain and/or Forest. It can’t include any land cards with the basic land types Plains, Island, or Swamp.\\ 
 例如：掠夺大妈麦汁的标识色为红绿双色。麦汁指挥官套牌中只能包含具有或同时具有山脉和／或树林此两种基本地类别的牌。不能包含类别中包含有下列基本地类别的牌：平原、海岛、沼泽。
 
-<BOOKMARK:cr903-5e>903.5e Commander games do not use sideboards.\\ 
-903.5e 指挥官游戏不使用备牌。
+<BOOKMARK:cr903-5e>903.5e Some cards have abilities that modify the rules for deck construction and apply only if that card is designated as a deck’s commander. These abilities function before the game begins. See rule 113.6n.\\ 
+903.5e 一些牌具有修改套牌构组规则，且仅在将此牌作为套牌的指挥官时生效之异能。这类异能在游戏开始前生效。参见规则[[cr:1#cr113-6n|113.6n]]。
+
+Example: Seluma, Light of Aysen’s color identity is white. It has the ability “Rulebreaker — A deck with this commander can have Angel cards of any color identity and any basic land cards.” A Seluma Commander deck may include any cards with the Angel creature type regardless of their color identity, any other card whose color identity is white or has no colors in its color identity, and any basic land cards. It can’t include any nonbasic land cards with blue, black, red, and/or green in their color identity or with the Island, Swamp, Mountain, and/or Forest types.\\ 
+例如：爱森之光瑟路玛的标识色为白色。它具有异能“逾矩～此指挥官的套牌中可以加入任意标识色的天使牌与任意基本地牌。”瑟路玛指挥官套牌中可以包含任意具天使此生物类别的牌，无论其标识色为何；任意其他标识色为白色或无色的牌；以及任意基本地牌。不能包含其标识色中包含蓝、黑、红和／或绿的非基本地牌，也不能包含具有海岛、沼泽、山脉和／或树林这些类别之一的非基本地牌。
+
+<BOOKMARK:cr903-5f>903.5f Commander games do not use sideboards.\\ 
+903.5f 指挥官游戏不使用备牌。
 
 <BOOKMARK:cr903-6>903.6. At the start of the game, each player puts their commander from their deck face up into the command zone. Then each player shuffles the remaining cards of their deck so that the cards are in a random order. Those cards become the player’s library.\\ 
 903.6. 在游戏开始时，每位牌手将其指挥官牌面朝上地置入统帅区。然后分别将套牌中剩下的牌洗牌，确保其中牌张顺序随机。这些牌成为该牌手的牌库。
@@ -266,7 +272,7 @@ Example: Wort, the Raidmother’s color identity is red and green. A Wort Comman
 903.9c 如果指挥官是已融合的永久物或结聚永久物、且其拥有者选择利用规则[[cr:9#cr903-9b|903.9b]]所述之替代性效应将其置入统帅区，该永久物以及表示该永久物之非指挥官的每个组件将置入对应的区域，且表示该永久物之为指挥官的牌将置于统帅区。
 
 <BOOKMARK:cr903-10>903.10. The Commander variant includes the following specification for winning and losing the game. All other rules for ending the game also apply. (See rule 104.)\\ 
-903.10. 指挥官玩法包含下列游戏输赢条件。其他结束游戏的规则均适用于本玩法。（参见规则[[cr:1#cr104|104]]。）
+903.10. 指挥官玩法包括以下特定的游戏输赢规则。所有其他关于结束游戏的规则依然生效。（参见规则[[cr:1#cr104|104]]。）
 
 <BOOKMARK:cr903-10a>903.10a A player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)\\ 
 903.10a 在整盘游戏过程中，受到由同一位指挥官造成之战斗伤害达到或超过21点的牌手输掉此盘游戏。（此为状态动作。参见规则[[cr:7#cr704|704]]。）
